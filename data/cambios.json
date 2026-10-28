@@ -1,5 +1,110 @@
 [
  {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta del Mensaje 433-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Discusión única . Queda pendiente . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta de proyecto . Pasa a Comisión de Familia, Infancia y Adolescencia. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Discusión general . Aprobado en general y particular a la vez (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18414-18",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Primer informe de comisión de Familia, Infancia y Adolescencia."
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18414-18",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta del Mensaje 430-374 que hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18378-18",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta de proyecto . Pasa a Comisión de Familia, Infancia y Adolescencia. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Discusión general . Aprobado en general y particular a la vez (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18236-18",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Primer informe de comisión de Familia, Infancia y Adolescencia."
+ },
+ {
+  "fecha_deteccion": "2026-10-28 16:24",
+  "boletin": "18236-18",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-10-28 12:35",
   "boletin": "18525-06",
   "tipo": "Situación",

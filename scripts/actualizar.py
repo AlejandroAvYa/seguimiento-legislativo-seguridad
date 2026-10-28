@@ -22,6 +22,7 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import indicaciones as ind_mod  # noqa: E402
 import camara  # noqa: E402
+import gestion  # noqa: E402
 import senado  # noqa: E402
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -250,6 +251,30 @@ def autores_indicaciones(f, cache):
     return [{"autor": a, "tipo_autor": t, "n": n} for (a, t), n in sorted(conteo.items(), key=lambda kv: (-kv[1], kv[0][0]))]
 
 
+CAMPOS_GESTION = ["responsable", "posicion_ejecutivo", "ultima_gestion", "proximo_paso"]
+CAMPOS_CATALOGO = ["nombre_corto", "clasificacion", "materia", "descripcion", "acot", "nota"] + CAMPOS_GESTION
+
+
+def articulo_de(ubicacion):
+    a = (ubicacion or "").split(" / ")[0].strip()
+    return re.sub(r"\s+", " ", a) or "Sin ubicación identificada"
+
+
+def indicaciones_por_articulo(f, cache):
+    """Cuántas indicaciones recibió cada artículo, por tipo de autor y acción (en el orden del boletín)."""
+    res = {}
+    for _, _, nuevos, _ in items_efectivos(f["boletines_indicaciones"], cache):
+        for x in nuevos:
+            a = articulo_de(x["ubicacion"])
+            d = res.setdefault(a, {"articulo": a, "n": 0, "ejecutivo": 0, "parlamentarias": 0, "acciones": {}})
+            d["n"] += 1
+            d["ejecutivo"] += x["tipo_autor"] == "Ejecutivo"
+            d["parlamentarias"] += x["tipo_autor"] == "Parlamentario"
+            acc = x["accion"][:-2] if x["accion"].endswith("lo") else (x["accion"] or "otra")
+            d["acciones"][acc] = d["acciones"].get(acc, 0) + 1
+    return list(res.values())
+
+
 def resumen_indicaciones(f, cache):
     """Totales por autor a partir de los boletines de indicaciones del Senado ya leídos."""
     lista = []
@@ -288,12 +313,14 @@ def registro(cat, f, cache=None):
     urg_desde, urg_vence = vencimiento_urgencia(f)
     return {
         "boletin": b,
+        "nombre_corto": cat.get("nombre_corto", "") or f["titulo"][:70],
         "titulo": f["titulo"],
         "clasificacion": cat.get("clasificacion", ""),
         "materia": cat.get("materia", ""),
         "descripcion": cat.get("descripcion", ""),
         "acot": cat.get("acot", ""),
         "nota": cat.get("nota", ""),
+        **{k: cat.get(k, "") for k in CAMPOS_GESTION},
         "iniciativa": ini,
         "autoria": gobierno_de(fi) if ini == "Mensaje" else "; ".join(f["autores"]),
         "fecha_ingreso": fi,
@@ -343,10 +370,13 @@ def registro(cat, f, cache=None):
         "boletines_indicaciones": [{**bi, "estado_lectura": (cache or {}).get(bi["iddocto"], {}).get("estado", "pendiente")} for bi in f["boletines_indicaciones"]],
         "votaciones": f["votaciones"],
         "indicaciones_por_autor": autores_indicaciones(f, cache or {}),
+        "indicaciones_por_articulo": indicaciones_por_articulo(f, cache or {}),
     }
 
 
-CAMPOS_PLANOS = ["boletin", "titulo", "clasificacion", "materia", "descripcion", "acot", "nota", "iniciativa", "autoria",
+CAMPOS_PLANOS = ["boletin", "nombre_corto", "titulo", "clasificacion", "materia", "descripcion", "acot", "nota",
+                 "etapa_codigo", "etapa_texto", "prioridad_nivel", "prioridad_indice", "accion_sugerida", "n_alertas",
+                 "responsable", "posicion_ejecutivo", "ultima_gestion", "proximo_paso", "iniciativa", "autoria",
                  "fecha_ingreso", "camara_origen", "situacion", "etapa", "subetapa", "tramite_constitucional", "camara_actual",
                  "instancia_actual", "fecha_inicio_etapa", "dias_en_etapa", "dias_desde_ingreso",
                  "urgencia_vigente", "urgencia_vigente_desde", "urgencia_vence_estimado", "urgencia_plazo", "ley_numero",
@@ -358,6 +388,14 @@ CAMPOS_PLANOS = ["boletin", "titulo", "clasificacion", "materia", "descripcion",
                  "n_informes_comision", "ultimo_informe", "n_votaciones_sala_senado", "ultima_votacion_sala_senado",
                  "n_votaciones_sala_camara", "ultima_votacion_sala_camara", "veto",
                  "link_senado", "link_camara", "link_texto"]
+# versión liviana para la portada del dashboard (la ficha completa se carga desde proyectos.json)
+CAMPOS_TABLERO = ["boletin", "nombre_corto", "titulo", "clasificacion", "materia", "descripcion", "acot", "situacion",
+                  "etapa_codigo", "etapa_texto", "avance_estados", "avance_camaras", "instancia_actual", "camara_actual",
+                  "camara_origen", "dias_en_etapa", "fecha_ingreso", "iniciativa", "urgencia_vigente", "urgencia_vence_estimado",
+                  "urgencia_plazo", "prioridad_indice", "prioridad_nivel", "accion_sugerida", "alertas", "ultimo_tramite_fecha",
+                  "ultimo_tramite", "ley_numero", "ley_fecha_diario_oficial", "mensaje_gobierno_actual",
+                  "n_urgencias_gobierno_actual", "n_indicaciones_senado", "n_indicaciones_senado_ejecutivo",
+                  "n_votaciones_sala_senado", "n_votaciones_sala_camara", "link_senado", "responsable"]
 CAMPOS_VIGILADOS = [("situacion", "Situación"), ("etapa", "Etapa"), ("subetapa", "Subetapa"),
                     ("urgencia_vigente", "Urgencia vigente"), ("ley_numero", "N° de ley"), ("refundidos", "Refundidos")]
 
@@ -428,7 +466,7 @@ def buscar_candidatos(seguidos, revisados, marca):
 # ----------------------------------------------------------------- indicaciones y detalle
 CAMPOS_BOL_IND = ["boletin", "iddocto", "fecha", "etapa", "tramite", "estado_lectura", "n_indicaciones", "reedita_boletin",
                   "n_indicaciones_nuevas", "n_ejecutivo", "n_parlamentarias", "link"]
-CAMPOS_IND = ["boletin", "iddocto", "fecha_boletin", "etapa", "numero", "autor", "tipo_autor", "accion", "ubicacion"]
+CAMPOS_IND = ["boletin", "iddocto", "fecha_boletin", "etapa", "numero", "autor", "tipo_autor", "accion", "ubicacion", "texto"]
 
 
 RUTA_CACHE = os.path.join(DATA, "cache_boletines_indicaciones.json")
@@ -480,6 +518,19 @@ def escribir_detalle(orden, cache):
         for v in p.get("votaciones", []):
             vot.append({"boletin": b, **{k: v[k] for k in v if k != "votos"}})
             votos += [{"boletin": b, "fecha": v["fecha"], "tipo": v["tipo"], **x} for x in v["votos"]]
+    carpeta = os.path.join(DATA, "indicaciones")
+    os.makedirs(carpeta, exist_ok=True)
+    por_bol = {}
+    for x in ind:
+        por_bol.setdefault(x["boletin"], []).append({k: x[k] for k in CAMPOS_IND if k != "boletin"})
+    links = {(x["boletin"], x["iddocto"]): x.get("link", "") for x in bol}
+    for b, lista in por_bol.items():
+        for x in lista:
+            x["link"] = links.get((b, x["iddocto"]), "")
+        escribir_json(os.path.join(carpeta, f"{b}.json"), lista)
+    for viejo in os.listdir(carpeta):
+        if viejo.endswith(".json") and viejo[:-5] not in por_bol:
+            os.remove(os.path.join(carpeta, viejo))
     escribir_csv(os.path.join(DATA, "boletines_indicaciones.csv"), bol, CAMPOS_BOL_IND)
     escribir_csv(os.path.join(DATA, "indicaciones.csv"), ind, CAMPOS_IND)
     escribir_csv(os.path.join(DATA, "indicaciones_por_autor.csv"),
@@ -666,7 +717,8 @@ def main():
     # boletines de indicaciones del Senado: se leen una sola vez y quedan en caché
     cache = cargar_cache_indicaciones()
     pendientes = {bi["iddocto"]: (b, bi) for b, f, _ in resultados if f for bi in f["boletines_indicaciones"]
-                  if bi["iddocto"] and cache.get(bi["iddocto"], {}).get("estado") != "leído"}
+                  if bi["iddocto"] and (cache.get(bi["iddocto"], {}).get("estado") != "leído"
+                                        or any("texto" not in x for x in cache[bi["iddocto"]].get("items", [])))}
     if pendientes:
         with ThreadPoolExecutor(max_workers=3) as ex:
             for iddocto, res in zip(pendientes, ex.map(leer_boletin_indicaciones, [bi for _, bi in pendientes.values()])):
@@ -681,7 +733,7 @@ def main():
         else:
             errores.append(f"{b}: {err}")
             if b in previos:                       # conserva el último dato bueno
-                nuevos[b] = {**previos[b], **{k: catalogo[b].get(k, "") for k in ("clasificacion", "materia", "descripcion", "acot", "nota")}}
+                nuevos[b] = {**previos[b], **{k: catalogo[b].get(k, "") for k in CAMPOS_CATALOGO}}
     for e in errores:
         print("  ERROR", e)
     if catalogo and len(errores) / len(catalogo) > MAX_ERRORES:
@@ -701,8 +753,10 @@ def main():
         cache_cam = leer_json(RUTA_CACHE_CAMARA, {"votaciones": {}, "detalles": {}})
         estado_camara["estado"] = f"sin conexión: {type(e).__name__}"[:80]
         print(f"  AVISO Cámara: no se pudo consultar ({type(e).__name__}: {e}). Se mantienen los datos anteriores.")
+    hoy = marca[:10]
     for p in nuevos.values():
         agregar_camara(p, cache_cam)
+        gestion.evaluar(p, hoy)
 
     orden = sorted(nuevos.values(), key=lambda p: int(p["boletin"].split("-")[0]))
 
@@ -736,6 +790,7 @@ def main():
     # escritura (solo cambia el contenido si cambiaron los datos)
     antes = {n: contenido(os.path.join(DATA, n)) for n in ("proyectos.json", "cambios.csv", "candidatos.csv", "indicaciones.csv", "boletines_indicaciones.csv", "votaciones_camara.csv")}
     escribir_json(os.path.join(DATA, "proyectos.json"), orden)
+    escribir_json(os.path.join(DATA, "tablero.json"), [{k: p.get(k, "") for k in CAMPOS_TABLERO} for p in orden])
     escribir_csv(os.path.join(DATA, "proyectos.csv"), orden, CAMPOS_PLANOS)
     escribir_csv(os.path.join(DATA, "tramites.csv"),
                  [{"boletin": p["boletin"], **t} for p in orden for t in p["tramites"]],

@@ -20,13 +20,15 @@ Además, de lunes a viernes envía un **resumen diario** y los lunes genera un *
 ```
 config/catalogo.csv               Boletines que se siguen y su clasificación (se edita a mano)
 config/logo.png                   (opcional) Logo para el encabezado del informe semanal
+data/tablero.json                 Versión liviana para la portada del dashboard
 data/proyectos.json               Base completa, un registro por proyecto
 data/proyectos.csv / .xlsx        Lo mismo en tabla y en Excel (con hojas de detalle)
 data/tramites.csv, urgencias.csv  Todos los trámites y urgencias
 data/hitos.csv                    Hitos (ingreso, aprobación en general, despacho, Comisión Mixta, TC…)
 data/informes.csv, oficios.csv    Informes de comisión y oficios
 data/boletines_indicaciones.csv   Boletines de indicaciones del Senado
-data/indicaciones.csv             Cada indicación presentada en el Senado, con su autor
+data/indicaciones.csv             Cada indicación presentada en el Senado, con su autor y su texto
+data/indicaciones/BOLETIN.json    Indicaciones de cada proyecto con su texto (las usa la ficha del dashboard)
 data/indicaciones_por_autor.csv   Indicaciones por proyecto y autor
 data/votaciones.csv, votos.csv    Votaciones en Sala del Senado y voto de cada senador
 data/votaciones_camara.csv        Votaciones en Sala de la Cámara de los proyectos seguidos
@@ -39,7 +41,8 @@ data/cache_*.json                 Datos ya descargados (no se editan)
 informes/                         Informes semanales en Word (se crean solos los lunes)
 scripts/actualizar.py             Proceso de actualización
 scripts/senado.py, camara.py      Lectura de las fuentes oficiales
-scripts/indicaciones.py           Lectura de los boletines de indicaciones
+scripts/indicaciones.py           Lectura de los boletines de indicaciones (autor y texto)
+scripts/gestion.py                Etapa normalizada, prioridad, acción sugerida y alertas
 scripts/alertas.py                Avisos por correo y Teams; resumen diario
 scripts/informe_semanal.py        Informe semanal en Word
 tests/                            Pruebas (se ejecutan antes de cada actualización)
@@ -146,6 +149,25 @@ Se puede usar solo correo, solo Teams o ambos. Si no se configura ninguno, los a
 
 ---
 
+## El dashboard
+
+Se abre en `https://TU_USUARIO.github.io/seguimiento-legislativo-seguridad/` y tiene siete vistas:
+
+| Vista | Para qué sirve |
+|---|---|
+| Panorama | Resumen en cifras, atención inmediata, movimientos recientes y el **cuadro de avance**: cada proyecto en una fila y las ocho etapas en columnas (primer trámite comisión y Sala, segundo trámite comisión y Sala, tercer trámite, Comisión Mixta, control y promulgación, ley). La etapa actual se marca con la cámara (S, C o M) y el color de la urgencia. |
+| Ficha del proyecto | Se abre con un clic en cualquier proyecto: avance por etapa con fechas, qué hace, dónde está, prioridad y alertas, gestión SPD, línea de tiempo, indicaciones (por autor, por artículo y el texto de cada una), votaciones de ambas cámaras con el voto de cada parlamentario, informes, oficios y todos los trámites. |
+| Urgencias y alertas | Urgencias que vencen en 7 y 30 días, plazos cumplidos sin renovación y alertas de riesgo. |
+| Indicaciones | Proyectos y autores con más indicaciones. |
+| Votaciones y actores | Votaciones recientes y tablas de senadores, diputados y autores. |
+| Cambios recientes | Todo lo que cambió, por día. |
+| Leyes y despachos | Despachados al Ejecutivo, leyes publicadas y proyectos fuera de tramitación. |
+| Fuentes y método | Estado de las fuentes, definición de cada etapa y reglas de prioridad y alertas. |
+
+La prioridad (crítica, alta, media, baja) y la acción sugerida se calculan con reglas fijas en `scripts/gestion.py`, descritas en la vista Fuentes y método.
+
+---
+
 ## Qué avisos llegan y cuándo
 
 | Aviso | Cuándo | Contenido |
@@ -199,7 +221,7 @@ Cuando llega un issue "Candidatos nuevos para revisar":
   18806-07,Núcleo,Sistema penitenciario y cumplimiento de penas,Descripción breve del proyecto,,
   ```
 
-  Columnas: `boletin, clasificacion, materia, descripcion, acot, nota`. Solo el boletín es obligatorio; si un texto lleva comas, va entre comillas.
+  Columnas: `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso`. Solo el boletín es obligatorio; si un texto lleva comas, va entre comillas. Las cuatro últimas columnas son los campos de "Gestión SPD" de la ficha.
 - **Para descartarlo:** en `data/candidatos.csv`, cambiar `pendiente` por `descartado` en la columna `decision`.
 
 Un candidato ya listado no vuelve a generar aviso. Criterio de detección: movimiento en los últimos 6 días, con urgencia, indicaciones del Ejecutivo o mensaje del actual Gobierno (desde el 11-03-2026), y título con términos de seguridad (lista `PALABRAS_CLAVE` en `scripts/actualizar.py`).

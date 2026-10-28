@@ -110,7 +110,7 @@ def main():
     hoy = ahora()
     desde = hoy - timedelta(days=a.dias)
     proyectos = leer_json(os.path.join(DATA, "proyectos.json"), [])
-    tit = {p["boletin"]: p["titulo"] for p in proyectos}
+    tit = {p["boletin"]: p.get("nombre_corto") or p["titulo"] for p in proyectos}
     cambios = [c for c in leer_csv(os.path.join(DATA, "cambios.csv")) if c["fecha_deteccion"] >= desde.strftime("%Y-%m-%d %H:%M")]
     meta = leer_json(os.path.join(DATA, "meta.json"), {})
 

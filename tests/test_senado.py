@@ -37,6 +37,7 @@ class LectorSenado(unittest.TestCase):
 
     def test_registro_completo(self):
         r = actualizar.registro({"materia": "Prueba"}, cargar("18341.xml"))
+        actualizar.gestion.evaluar(r, "2026-10-28")
         for campo in actualizar.CAMPOS_PLANOS:
             self.assertIn(campo, r)
         self.assertIn("prmID=19025", r["link_camara"])
@@ -123,6 +124,35 @@ class LectorCamara(unittest.TestCase):
         actualizar.agregar_camara(r, cache)
         self.assertEqual(r["n_votaciones_sala_camara"], 1)
         self.assertEqual(len(r["votaciones_camara"][0]["votos"]), 2)
+
+
+class Gestion(unittest.TestCase):
+    def test_etapa_y_prioridad(self):
+        r = actualizar.registro({"materia": "Prueba", "clasificacion": "Núcleo"}, cargar("18341.xml"))
+        actualizar.gestion.evaluar(r, "2026-10-28")
+        self.assertEqual(r["etapa_codigo"], "1C")                   # primer trámite, en comisión
+        self.assertEqual(r["avance_estados"]["1C"], "actual")
+        self.assertEqual(r["avance_estados"]["LEY"], "pendiente")
+        self.assertEqual(r["avance_camaras"]["2C"], "Senado")       # origen Cámara: revisora Senado
+        self.assertIn("Urgencia por vencer", {a["tipo"] for a in r["alertas"]})   # suma vence 03-11
+        self.assertEqual(r["prioridad_indice"], 25 + 15 + 15 + 10 + 5)
+        self.assertEqual(r["prioridad_nivel"], "Crítica")
+
+    def test_ley_publicada(self):
+        r = actualizar.registro({}, cargar("15347.xml"))
+        actualizar.gestion.evaluar(r, "2026-10-28")
+        self.assertEqual(r["etapa_codigo"], "LEY")
+        self.assertEqual(r["avance_estados"]["LEY"], "hecha")
+        self.assertNotIn("actual", r["avance_estados"].values())
+
+
+class TextoIndicaciones(unittest.TestCase):
+    def test_texto_capturado(self):
+        import indicaciones
+        with open(os.path.join(AQUI, "fixtures", "indicaciones_15589.txt"), encoding="utf-8") as f:
+            items = indicaciones.leer_indicaciones(f.read())
+        self.assertTrue(all(x["texto"] for x in items))
+        self.assertIn("Presidente de la República", items[2]["texto"])
 
 
 class SepararAutores(unittest.TestCase):

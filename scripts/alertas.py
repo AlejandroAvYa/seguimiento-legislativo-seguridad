@@ -35,7 +35,7 @@ URL_SENADO = "https://tramitacion.senado.cl/appsenado/templates/tramitacion/inde
 
 
 def titulos():
-    return {p["boletin"]: p["titulo"] for p in leer_json(os.path.join(DATA, "proyectos.json"), [])}
+    return {p["boletin"]: p.get("nombre_corto") or p["titulo"] for p in leer_json(os.path.join(DATA, "proyectos.json"), [])}
 
 
 def fmt(f):
@@ -57,7 +57,7 @@ def bloque_cambios(cambios, tit):
 def urgencias_por_vencer(dias=7):
     hoy = ahora().strftime("%Y-%m-%d")
     lim = (ahora() + timedelta(days=dias)).strftime("%Y-%m-%d")
-    return [{"boletin": p["boletin"], "proyecto": p["titulo"], "urgencia": p["urgencia_vigente"], "vence": p["urgencia_vence_estimado"]}
+    return [{"boletin": p["boletin"], "proyecto": p.get("nombre_corto") or p["titulo"], "urgencia": p["urgencia_vigente"], "vence": p["urgencia_vence_estimado"]}
             for p in leer_json(os.path.join(DATA, "proyectos.json"), [])
             if p.get("situacion") == "En tramitación" and p.get("urgencia_vence_estimado") and hoy <= p["urgencia_vence_estimado"] <= lim]
 

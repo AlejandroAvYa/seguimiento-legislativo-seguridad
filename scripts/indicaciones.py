@@ -65,13 +65,20 @@ def limpiar_autor(autor):
     return a.strip(" ,")
 
 
+LARGO_TEXTO = 2000                     # máximo de caracteres que se guardan del texto de cada indicación
+
+
 def leer_indicaciones(texto):
-    """Devuelve lista de {numero, autor, tipo_autor, accion, ubicacion}."""
+    """Devuelve lista de {numero, autor, tipo_autor, accion, ubicacion, texto}.
+
+    El texto es el párrafo de la indicación más las líneas siguientes (el texto propuesto), hasta la próxima
+    indicación o el próximo encabezado de artículo.
+    """
     lineas = texto.replace("\r", "\n").split("\n")
     salida, ubicacion, articulo = [], "", ""
     bloque = []
 
-    def procesar(parrafo, ubic):
+    def procesar(parrafo, ubic, completo=""):
         marcas = list(MARCA.finditer(parrafo))
         if not marcas:
             return
@@ -86,20 +93,32 @@ def leer_indicaciones(texto):
             if len(autor) > 250 or not re.match(r"^(?:[Dd]el?|[Dd]e)\s", autor) or tipo_autor(autor) == "Otro":
                 continue
             salida.append({"numero": re.sub(r"\s+", " ", m.group(1)), "autor": limpiar_autor(autor), "tipo_autor": tipo_autor(autor),
-                           "accion": accion, "ubicacion": ubic})
+                           "accion": accion, "ubicacion": ubic, "texto": recortar(completo or parrafo)})
+
+    actual = None                      # [primera línea, ubicación, líneas del bloque]
+
+    def cerrar():
+        if actual:
+            procesar(actual[0], actual[1], " ".join(actual[2]))
 
     for ln in lineas:
         s = ln.strip()
         if not s:
             continue
         if ENCABEZADO.match(s) and not MARCA.search(s):
+            cerrar()
+            actual = None
             if re.match(r"^(ART[ÍI]CULO|Art[íi]culo|Disposici|DISPOSICI|T[ÍI]TULO)", s):
                 articulo, ubicacion = s, s
             else:
                 ubicacion = f"{articulo} / {s}" if articulo else s
             continue
         if MARCA.match(s):
-            procesar(s, ubicacion)
+            cerrar()
+            actual = [s, ubicacion, [s]]
+        elif actual and len(actual[2]) < 60:
+            actual[2].append(s)
+    cerrar()
     # depurar duplicados (tablas repetidas) y ordenar
     vistos, unicos = set(), []
     for x in salida:
@@ -107,6 +126,11 @@ def leer_indicaciones(texto):
             vistos.add(x["numero"])
             unicos.append(x)
     return sorted(unicos, key=clave_numero)
+
+
+def recortar(t):
+    t = re.sub(r"\s+", " ", t).strip()
+    return t if len(t) <= LARGO_TEXTO else t[:LARGO_TEXTO].rsplit(" ", 1)[0] + " […]"
 
 
 def clave_numero(x):

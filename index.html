@@ -2,262 +2,880 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Seguimiento legislativo – Seguridad pública</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seguimiento Legislativo SPD</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
 <style>
-  :root { --azul:#1F3864; --azul2:#2E5597; --gris:#5f6368; --borde:#d9dde3; --fondo:#f5f7fa; }
-  * { box-sizing:border-box; }
-  body { margin:0; font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#1d1d1f; background:var(--fondo); }
-  header { background:var(--azul); color:#fff; padding:18px 24px; }
-  header h1 { margin:0; font-size:19px; }
-  header p { margin:6px 0 0; font-size:12px; opacity:.85; }
-  main { max-width:1400px; margin:0 auto; padding:16px 24px 40px; }
-  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:16px; }
-  .kpi { background:#fff; border:1px solid var(--borde); border-left:4px solid var(--azul2); padding:10px 12px; }
-  .kpi b { display:block; font-size:22px; color:var(--azul); }
-  .kpi span { font-size:11px; color:var(--gris); }
-  .filtros { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
-  .filtros select, .filtros input { font:inherit; padding:6px 8px; border:1px solid var(--borde); background:#fff; }
-  .filtros input { flex:1; min-width:220px; }
-  .grid { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,1fr); gap:16px; }
-  @media (max-width:1000px) { .grid { grid-template-columns:minmax(0,1fr); } }
-  .filtros select { max-width:100%; min-width:0; }
-  @media (max-width:700px) { .filtros select, .filtros input { flex:1 1 100%; min-width:0; } .actores { grid-template-columns:minmax(0,1fr); } }
-  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--borde); }
-  th { background:var(--azul); color:#fff; text-align:left; padding:7px 8px; font-size:11px; position:sticky; top:0; cursor:pointer; }
-  td { padding:7px 8px; border-top:1px solid var(--borde); vertical-align:top; }
-  tr:hover td { background:#f0f4fa; }
-  .tit { font-weight:bold; }
-  .desc { color:var(--gris); font-size:11.5px; margin-top:3px; }
-  .tag { display:inline-block; padding:1px 6px; font-size:10.5px; border:1px solid var(--borde); margin:2px 2px 0 0; white-space:nowrap; }
-  .u-di { background:#fde7e7; border-color:#f3b4b4; } .u-su { background:#fff2d9; border-color:#f1d08a; } .u-si { background:#e8f1fb; border-color:#b7cff0; }
-  .s-ley { background:#e6f4ea; border-color:#a8d5b5; }
-  a { color:var(--azul2); }
-  td:first-child a { white-space:nowrap; font-weight:bold; }
-  .tabla { overflow-x:auto; }
-  @media (max-width:700px) { main { padding:12px; } td:nth-child(5), th:nth-child(5) { display:none; } }
-  .panel { background:#fff; border:1px solid var(--borde); padding:10px 12px; }
-  .panel h2 { font-size:13px; margin:0 0 8px; color:var(--azul); }
-  .cambio { border-top:1px solid var(--borde); padding:6px 0; font-size:11.5px; }
-  .cambio small { color:var(--gris); }
-  .vacio { padding:20px; text-align:center; color:var(--gris); }
-  tr.fila { cursor:pointer; }
-  tr.det td { background:#fafbfd; border-top:none; }
-  .det-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
-  .det-grid h3 { font-size:11.5px; margin:0 0 4px; color:var(--azul); text-transform:uppercase; letter-spacing:.03em; }
-  .det-grid ul { margin:0; padding-left:16px; } .det-grid li { margin:2px 0; font-size:11.5px; }
-  .barra { display:flex; height:8px; background:#e6e9ee; margin:4px 0; } .barra span { display:block; }
-  .b-eje { background:#1F3864; } .b-par { background:#8fa9d6; }
-  footer { color:var(--gris); font-size:11px; margin-top:16px; }
-  .fuentes { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
-  .fuente { font-size:11px; padding:2px 8px; border-radius:10px; background:rgba(255,255,255,.15); }
-  .fuente.ok::before { content:"● "; color:#7ee2a0; } .fuente.mal::before { content:"● "; color:#ffb3b3; }
-  .pestanas { display:flex; gap:4px; margin-bottom:12px; border-bottom:2px solid var(--azul); }
-  .pestanas button { font:inherit; border:1px solid var(--borde); border-bottom:none; background:#fff; padding:7px 14px; cursor:pointer; color:var(--azul); }
-  .pestanas button.activa { background:var(--azul); color:#fff; }
-  .lado { display:flex; flex-direction:column; gap:16px; }
-  .urg { border-top:1px solid var(--borde); padding:6px 0; font-size:11.5px; }
-  .linea { list-style:none; padding-left:0 !important; border-left:2px solid #c9d3e3; margin-left:4px !important; }
-  .linea li { position:relative; padding-left:12px; margin:0 0 5px !important; }
-  .linea li::before { content:""; position:absolute; left:-6px; top:4px; width:8px; height:8px; border-radius:50%; background:var(--azul2); }
-  .linea li.t-vot::before { background:#c0392b; } .linea li.t-inf::before { background:#8fa9d6; }
-  .actores { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; }
-  .actores table { font-size:11.5px; } .actores .caja { max-height:520px; overflow:auto; }
+/* Sistema visual SPD (plantilla Plan Maestro 2026–2029): barra lateral azul institucional, banda de resumen,
+   tarjetas sobrias y matriz de avance por etapas como pieza central. */
+:root{
+  --gob-red:#e82c36;
+  --c-blue:#0063b1; --c-blue-700:#0a4f8c; --c-blue-900:#08355d; --c-blue-950:#06294a; --c-blue-soft:#e6f0fa;
+  --c-red:#d52b34; --c-red-soft:#fbe9ea;
+  --c-orange:#d2691e; --c-orange-soft:#fcecdf;
+  --c-ok:#1f8a5b; --c-ok-soft:#e4f3ec;
+  --c-amber:#b57b06; --c-amber-soft:#fbf0db;
+  --c-slate:#7b899e; --c-slate-soft:#eef1f5;
+  --bg:#eaeef3; --surface:#ffffff; --surface-2:#f5f7fa; --surface-3:#eef2f7;
+  --ink:#16243b; --ink-2:#4d5d76; --ink-3:#7f8ca1; --line:#e0e6ee; --line-2:#d2dae4;
+  --track-done:#0063b1; --track-todo:#d6dee8;
+  --side-1:#06294a; --side-2:#08355d; --side-3:#0a3f70; --side-ink:#dce7f3; --side-ink-2:#8fb4d8;
+  --shadow-sm:0 1px 2px rgba(16,38,68,.06),0 1px 3px rgba(16,38,68,.05);
+  --shadow:0 2px 8px rgba(16,38,68,.07),0 8px 24px rgba(16,38,68,.06);
+  --radius:12px;
+  --sans:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+  --sidebar-w:248px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --c-blue:#4c9be8; --c-blue-700:#7db6ef; --c-blue-soft:#13304f;
+  --c-red:#f06a70; --c-red-soft:#3a1d22; --c-orange:#f0955a; --c-orange-soft:#3a2617;
+  --c-ok:#4cc08b; --c-ok-soft:#173326; --c-amber:#e0b04a; --c-amber-soft:#382c12; --c-slate:#97a5b9; --c-slate-soft:#232c39;
+  --bg:#0d1520; --surface:#15202e; --surface-2:#1a2635; --surface-3:#202d3e;
+  --ink:#e6edf6; --ink-2:#b4c1d2; --ink-3:#8494aa; --line:#263447; --line-2:#30415a;
+  --track-done:#4c9be8; --track-todo:#33445c; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --c-blue:#4c9be8; --c-blue-700:#7db6ef; --c-blue-soft:#13304f;
+  --c-red:#f06a70; --c-red-soft:#3a1d22; --c-orange:#f0955a; --c-orange-soft:#3a2617;
+  --c-ok:#4cc08b; --c-ok-soft:#173326; --c-amber:#e0b04a; --c-amber-soft:#382c12; --c-slate:#97a5b9; --c-slate-soft:#232c39;
+  --bg:#0d1520; --surface:#15202e; --surface-2:#1a2635; --surface-3:#202d3e;
+  --ink:#e6edf6; --ink-2:#b4c1d2; --ink-3:#8494aa; --line:#263447; --line-2:#30415a;
+  --track-done:#4c9be8; --track-todo:#33445c; color-scheme:dark;}
+
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{font-family:var(--sans);font-size:14px;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+a{color:var(--c-blue)}
+:focus-visible{outline:2px solid var(--c-blue);outline-offset:2px;border-radius:4px}
+.tnum{font-variant-numeric:tabular-nums}
+.mono{font-family:var(--mono)}
+
+/* ---------------- layout */
+.app{display:grid;grid-template-columns:var(--sidebar-w) minmax(0,1fr);height:100%}
+.sidebar{background:linear-gradient(178deg,var(--side-1) 0%,var(--side-2) 60%,var(--side-3) 100%);color:var(--side-ink);display:flex;flex-direction:column;overflow:hidden}
+.sidebar__brand{padding:18px 18px 16px;border-bottom:1px solid rgba(255,255,255,.09)}
+.sidebar__logo{width:100%;max-width:212px;border-radius:8px;display:block;box-shadow:0 4px 14px rgba(0,0,0,.22)}
+.sidebar__k{margin-top:12px;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--side-ink-2);font-weight:600}
+.sidebar__v{font-size:12.5px;color:#cfe0f0;margin-top:3px;line-height:1.35}
+.nav{padding:14px 12px;flex:1;overflow-y:auto}
+.nav__group{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6f93b8;font-weight:700;padding:8px 12px 6px}
+.nav__item{display:flex;align-items:center;gap:11px;width:100%;text-align:left;padding:10px 12px;border-radius:9px;color:#bcd0e6;font-size:13.5px;font-weight:500;margin-bottom:2px;line-height:1.25;text-decoration:none}
+.nav__item:hover{background:rgba(255,255,255,.07);color:#fff}
+.nav__item.is-active{background:rgba(255,255,255,.13);color:#fff;font-weight:600;box-shadow:inset 0 0 0 1px rgba(255,255,255,.07)}
+.nav__num{flex:none;width:24px;height:24px;border-radius:7px;background:rgba(255,255,255,.1);display:grid;place-items:center;font-size:11.5px;font-weight:700;font-family:var(--mono)}
+.nav__item.is-active .nav__num{background:var(--gob-red);color:#fff}
+.nav__badge{margin-left:auto;background:var(--gob-red);color:#fff;font-size:11px;font-weight:800;border-radius:999px;padding:1px 7px}
+.sidebar__foot{padding:14px 18px;border-top:1px solid rgba(255,255,255,.09);font-size:11px;color:#9bb5d1;line-height:1.55}
+.src{display:flex;align-items:center;gap:7px}
+.dot{width:8px;height:8px;border-radius:50%;flex:none;display:inline-block}
+
+.main{display:flex;flex-direction:column;min-width:0;height:100%}
+.topbar{display:flex;align-items:center;gap:16px;padding:0 max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px));min-height:64px;flex:none;background:var(--surface);border-bottom:1px solid var(--line)}
+.topbar__head{min-width:0;flex:1}
+.topbar__title{font-size:17px;font-weight:700;letter-spacing:-.01em;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar__sub{font-size:12px;color:var(--ink-3);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.corte{display:flex;align-items:center;gap:8px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12px;color:var(--ink-2);font-weight:500;white-space:nowrap}
+.mnav{display:none}
+.scroll{flex:1;overflow-y:auto;overflow-x:hidden}
+.page{padding-block:22px 56px;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px));max-width:1360px;margin:0 auto}
+.page__eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c-blue);font-weight:700}
+.page__title{font-size:23px;font-weight:800;letter-spacing:-.02em;margin:5px 0 0;text-wrap:balance}
+.page__lead{font-size:13.5px;color:var(--ink-2);margin:7px 0 18px;max-width:78ch;line-height:1.55}
+@media (max-width:1080px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .sidebar{display:none}
+  .mnav{display:flex;gap:6px;overflow-x:auto;padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));background:var(--c-blue-950);flex:none}
+  .mnav a{flex:none;color:#cfe0f0;text-decoration:none;font-size:12.5px;font-weight:600;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.08)}
+  .mnav a.is-active{background:var(--gob-red);color:#fff}
+  .corte{display:none}
+}
+@media (max-width:640px){.page{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+
+/* ---------------- piezas */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);min-width:0}
+.card__head{display:flex;align-items:baseline;gap:10px;padding:15px 18px 0}
+.card__title{font-size:13px;font-weight:700}
+.card__sub{font-size:11.5px;color:var(--ink-3);margin-left:auto;white-space:nowrap}
+.card__body{padding:12px 18px 16px}
+.grid{display:grid;gap:16px}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:1100px){.g3{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+@media (max-width:760px){.g3,.g2{grid-template-columns:minmax(0,1fr)}}
+.section-title{font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:var(--ink-3);margin:28px 0 12px;display:flex;align-items:center;gap:10px}
+.section-title::after{content:"";flex:1;height:1px;background:var(--line)}
+.muted{color:var(--ink-3)}
+.small{font-size:12px}
+.empty{padding:18px;text-align:center;color:var(--ink-3);font-size:13px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:999px;white-space:nowrap;line-height:1.45;background:var(--slate-soft,var(--c-slate-soft));color:var(--ink-2)}
+.chip .dot{width:7px;height:7px}
+.tag{display:inline-flex;align-items:center;font-size:11px;font-weight:600;padding:2px 8px;border-radius:6px;background:var(--surface-3);color:var(--ink-2);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;padding:8px 14px;border-radius:9px;background:var(--surface);border:1px solid var(--line-2);color:var(--ink-2);text-decoration:none}
+.btn:hover{border-color:var(--c-blue);color:var(--c-blue-700)}
+.btn.back{color:var(--c-blue);font-weight:700}
+
+.u-di{background:var(--c-red-soft);color:var(--c-red)} .u-su{background:var(--c-amber-soft);color:var(--c-amber)}
+.u-si{background:var(--c-blue-soft);color:var(--c-blue-700)} .u-no{background:var(--c-slate-soft);color:var(--ink-3)}
+.p-cri{background:var(--c-red);color:#fff} .p-alt{background:var(--c-orange);color:#fff} .p-med{background:var(--c-amber-soft);color:var(--c-amber)}
+.p-baj{background:var(--c-slate-soft);color:var(--ink-2)} .p-ley{background:var(--c-ok-soft);color:var(--c-ok)} .p-des{background:var(--c-blue-soft);color:var(--c-blue-700)} .p-fue{background:var(--c-slate-soft);color:var(--ink-3)}
+.prio{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.prio b{font-family:var(--mono);font-weight:700}
+
+/* ---------------- banda de resumen */
+.hero{background:linear-gradient(135deg,var(--side-1) 0%,var(--side-2) 60%,var(--side-3) 100%);border-radius:18px;padding:18px 24px 20px;color:#fff;margin-bottom:16px}
+.hero__top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.hero__k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#9ec3ff}
+.hero__t{font-size:23px;font-weight:800;letter-spacing:-.02em;margin:3px 0 2px;text-wrap:balance}
+.hero__meta{font-size:13px;color:#c9d9f2}
+.hero__stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:14px}
+.hstat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:11px 15px;text-align:left;color:#fff}
+.hstat:hover{background:rgba(255,255,255,.15)}
+.hstat__n{font-size:38px;font-weight:800;line-height:1;letter-spacing:-.03em}
+.hstat__l{font-size:12.5px;font-weight:700;margin-top:5px;color:#e6eefb}
+.hstat__s{font-size:11px;color:#a9c3e4;margin-top:2px}
+@media (max-width:900px){.hero__stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hstat__n{font-size:30px}}
+
+/* listas compactas */
+.lrow{display:flex;align-items:flex-start;gap:10px;padding:9px 6px;border-radius:8px;cursor:pointer;border-top:1px solid var(--line)}
+.lrow:first-child{border-top:0}
+.lrow:hover{background:var(--surface-2)}
+.lrow__main{flex:1;min-width:0}
+.lrow__t{font-size:12.8px;font-weight:600;line-height:1.35}
+.lrow__s{font-size:11.5px;color:var(--ink-3);margin-top:2px;line-height:1.4}
+.lrow__r{flex:none;text-align:right;font-size:12px;font-weight:700;white-space:nowrap}
+.more{display:inline-block;font-size:12px;color:var(--c-blue);font-weight:700;padding:8px 6px 0;text-decoration:none}
+.barrow{display:grid;grid-template-columns:minmax(110px,170px) minmax(0,1fr) 34px;align-items:center;gap:10px;padding:5px 0}
+.barrow__lab{font-size:12.3px;color:var(--ink-2);font-weight:600;line-height:1.25}
+.barrow__lab small{display:block;color:var(--ink-3);font-weight:500;font-size:10.5px}
+.barrow__track{height:18px;background:var(--surface-3);border-radius:5px;overflow:hidden;display:flex}
+.barrow__fill{height:100%}
+.barrow__n{font-size:12.5px;font-weight:700;text-align:right}
+
+/* ---------------- filtros */
+.filterbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px;margin-bottom:12px;box-shadow:var(--shadow-sm)}
+.seg{display:inline-flex;background:var(--surface-3);border-radius:9px;padding:3px;gap:2px;flex-wrap:wrap}
+.seg button{padding:6px 11px;border-radius:7px;font-size:12.5px;font-weight:600;color:var(--ink-2)}
+.seg button.is-on{background:var(--surface);color:var(--c-blue-700);box-shadow:var(--shadow-sm)}
+.fsel{font:inherit;font-size:12.5px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line-2);border-radius:8px;padding:7px 9px;max-width:100%}
+.fsearch{font:inherit;font-size:12.5px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line-2);border-radius:8px;padding:7px 10px;flex:1;min-width:180px}
+.fcount{font-size:12px;color:var(--ink-3);margin-left:auto}
+
+/* ---------------- cuadro de avance */
+.matriz-wrap{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.matriz-scroll{overflow-x:auto}
+table.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;min-width:980px}
+.mx th{background:var(--surface-2);color:var(--ink-3);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;font-weight:700;padding:8px 6px;border-bottom:1px solid var(--line-2);text-align:center;white-space:nowrap}
+.mx thead tr:first-child th{border-bottom:1px solid var(--line);font-size:10px;color:var(--ink-2);padding-top:10px}
+.mx th.g{border-left:1px solid var(--line-2)}
+.mx th.left,.mx td.left{text-align:left}
+.mx td{border-bottom:1px solid var(--line);padding:0;vertical-align:middle;height:52px}
+.mx tbody tr{cursor:pointer}
+.mx tbody tr:hover td{background:var(--c-blue-soft)}
+.mx tr.grp td{height:auto;background:var(--surface-3);cursor:default;padding:7px 14px;font-size:11.5px;font-weight:800;color:var(--ink-2);letter-spacing:.02em}
+.mx tr.grp:hover td{background:var(--surface-3)}
+.mx .sticky{position:sticky;left:0;z-index:1;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+.mx th.sticky{background:var(--surface-2);z-index:2}
+.pname{padding:8px 12px 8px 14px;min-width:250px;max-width:330px}
+.pname b{display:block;font-size:13px;font-weight:700;color:var(--ink);line-height:1.3}
+.pname span{display:flex;gap:6px;align-items:center;margin-top:3px;font-size:11px;color:var(--ink-3);flex-wrap:wrap}
+.cnt{display:block;font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:3px;letter-spacing:0}
+.cnt.zero{color:var(--ink-3)}
+/* pista de etapas: línea continua con hitos */
+.st{position:relative;width:100%;height:52px;min-width:62px}
+.st::before{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;background:var(--track-todo)}
+.st.first::before{left:50%} .st.last::before{right:50%}
+.st.done::before,.st.cur.lineok::before{background:var(--track-done)}
+.st.cur::before{background:linear-gradient(90deg,var(--track-done) 50%,var(--track-todo) 50%)}
+.st.first.cur::before{background:var(--track-todo)}
+.st.skip::before{background:repeating-linear-gradient(90deg,var(--track-done) 0 4px,transparent 4px 8px)}
+.st i{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;display:grid;place-items:center;font-style:normal}
+.st.done i{width:11px;height:11px;background:var(--track-done)}
+.st.todo i{width:11px;height:11px;background:var(--surface);border:2px solid var(--track-todo)}
+.st.skip i{width:16px;height:3px;border-radius:2px;background:transparent}
+.st.cur i{width:30px;height:30px;background:var(--c-blue);color:#fff;font-size:11px;font-weight:800;font-family:var(--mono);box-shadow:0 0 0 4px var(--c-blue-soft)}
+.st.cur.c-di i{background:var(--c-red);box-shadow:0 0 0 4px var(--c-red-soft)}
+.st.cur.c-su i{background:var(--c-amber);box-shadow:0 0 0 4px var(--c-amber-soft)}
+.st.stop i{width:26px;height:26px;background:var(--c-slate);color:#fff;font-size:13px;font-weight:800;box-shadow:0 0 0 4px var(--c-slate-soft)}
+.st.ley i{width:26px;height:26px;background:var(--c-ok);color:#fff;font-size:12px;font-weight:800;box-shadow:0 0 0 4px var(--c-ok-soft)}
+.mx td.g{border-left:1px solid var(--line)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;font-size:11.5px;color:var(--ink-2);padding:10px 14px;border-top:1px solid var(--line);background:var(--surface-2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.lg{display:inline-grid;place-items:center;border-radius:50%;font-family:var(--mono);font-size:9.5px;font-weight:800;color:#fff}
+.dias{font-size:12px;font-weight:700;padding:0 12px;text-align:right;white-space:nowrap}
+.dias small{display:block;font-weight:500;color:var(--ink-3);font-size:10.5px}
+
+/* ---------------- ficha */
+.fhead{padding:18px 20px}
+.fhead__eyebrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--ink-3)}
+@media (max-width:640px){.fhead__eyebrow{flex-direction:column;align-items:flex-start;gap:3px}.fhead__eyebrow .sep{display:none}}
+.fhead__t{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:8px 0 4px;line-height:1.2;text-wrap:balance}
+.fhead__o{font-size:13px;color:var(--ink-2);line-height:1.5;max-width:100ch}
+.fhead__chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tracker{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));margin-top:4px}
+.tk{position:relative;padding:44px 6px 0;text-align:center}
+.tk::before{content:"";position:absolute;top:20px;left:0;right:0;height:4px;background:var(--track-todo)}
+.tk:first-child::before{left:50%} .tk:last-child::before{right:50%}
+.tk.done::before{background:var(--track-done)}
+.tk.cur::before{background:linear-gradient(90deg,var(--track-done) 50%,var(--track-todo) 50%)}
+.tk.skip::before{background:repeating-linear-gradient(90deg,var(--track-done) 0 5px,transparent 5px 10px)}
+.tk i{position:absolute;top:22px;left:50%;transform:translate(-50%,-50%);width:16px;height:16px;border-radius:50%;background:var(--surface);border:3px solid var(--track-todo);font-style:normal;display:grid;place-items:center}
+.tk.done i{background:var(--track-done);border-color:var(--track-done)}
+.tk.skip i{background:var(--surface);border:2px dashed var(--track-done)}
+.tk.cur i{width:34px;height:34px;background:var(--c-blue);border:0;color:#fff;font-family:var(--mono);font-weight:800;font-size:12px;box-shadow:0 0 0 5px var(--c-blue-soft)}
+.tk.ley i{width:30px;height:30px;background:var(--c-ok);border:0;color:#fff;font-weight:800;box-shadow:0 0 0 5px var(--c-ok-soft)}
+.tk.stop i{width:30px;height:30px;background:var(--c-slate);border:0;color:#fff;font-weight:800}
+.tk__g{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:700;line-height:1.25}
+.tk__n{font-size:12.5px;font-weight:700;color:var(--ink);margin-top:2px;line-height:1.25}
+.tk__c{font-size:11px;color:var(--ink-3);margin-top:2px}
+.tk.cur .tk__n{color:var(--c-blue-700)}
+@media (max-width:760px){
+  .tracker{grid-template-columns:minmax(0,1fr)}
+  .tk{padding:6px 0 10px 46px;text-align:left;min-height:46px}
+  .tk::before{top:0;bottom:0;left:21px;right:auto;width:4px;height:auto}
+  .tk:first-child::before{left:21px;top:22px} .tk:last-child::before{right:auto;bottom:calc(100% - 22px)}
+  .tk.cur::before{background:linear-gradient(180deg,var(--track-done) 50%,var(--track-todo) 50%)}
+  .tk.skip::before{background:repeating-linear-gradient(180deg,var(--track-done) 0 5px,transparent 5px 10px)}
+  .tk i{left:23px;top:22px}
+}
+.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.metric{background:var(--surface);padding:12px 14px;min-width:0}
+.metric .k{font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+.metric .v{font-size:13.5px;font-weight:700;margin-top:4px;line-height:1.35;overflow-wrap:anywhere}
+.metric .v small{display:block;font-weight:500;color:var(--ink-2);font-size:12px;margin-top:2px}
+.dsec{margin-top:18px}
+.dsec__t{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:700;margin-bottom:8px}
+.dsec p{margin:0;font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+.alerta{display:flex;gap:10px;padding:10px 12px;border-radius:9px;background:var(--c-amber-soft);margin-top:8px}
+.alerta.r{background:var(--c-red-soft)}
+.alerta b{display:block;font-size:12px;letter-spacing:.02em;text-transform:uppercase;color:var(--ink)}
+.alerta span{font-size:12.8px;color:var(--ink-2);line-height:1.45}
+.alerta svg{flex:none;margin-top:2px;color:var(--c-amber)} .alerta.r svg{color:var(--c-red)}
+.motivos{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.motivos li{font-size:11.5px;background:var(--surface-3);border-radius:6px;padding:3px 8px;color:var(--ink-2)}
+.porinf{color:var(--ink-3);font-style:italic;font-weight:500}
+.tabs{display:flex;gap:4px;margin:22px 0 14px;border-bottom:1px solid var(--line-2);overflow-x:auto}
+.tab{padding:10px 14px;font-size:13px;font-weight:700;color:var(--ink-3);border-bottom:3px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tab:hover{color:var(--ink)}
+.tab.is-on{color:var(--c-blue);border-bottom-color:var(--c-blue)}
+.timeline{list-style:none;margin:0;padding:0}
+.timeline li{position:relative;padding:0 0 14px 26px;font-size:13px;color:var(--ink-2);line-height:1.45}
+.timeline li::before{content:"";position:absolute;left:4px;top:4px;width:9px;height:9px;border-radius:50%;background:var(--surface);border:2px solid var(--c-blue);z-index:1}
+.timeline li::after{content:"";position:absolute;left:9px;top:10px;bottom:-2px;width:2px;background:var(--line-2)}
+.timeline li:last-child::after{display:none}
+.timeline li.t-vot::before{border-color:var(--c-red)} .timeline li.t-inf::before{border-color:var(--c-ok)}
+.timeline b{color:var(--ink)}
+.timeline .f{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-right:6px}
+table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+.dt th{text-align:left;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:700;padding:8px 10px;border-bottom:1px solid var(--line-2);background:var(--surface-2);white-space:nowrap}
+.dt td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink-2)}
+.dt td.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink)}
+.dt tr.click{cursor:pointer} .dt tr.click:hover td{background:var(--c-blue-soft)}
+.tblwrap{overflow-x:auto}
+.stack{display:flex;height:12px;border-radius:999px;overflow:hidden;background:var(--surface-3)}
+.stack span{height:100%}
+.ind{border-top:1px solid var(--line);padding:12px 2px}
+.ind__top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ind__n{font-family:var(--mono);font-weight:700;font-size:12px;background:var(--surface-3);padding:2px 7px;border-radius:5px}
+.ind__a{font-weight:700;font-size:13px}
+.ind__u{font-size:11.5px;color:var(--ink-3);margin-top:4px}
+.ind__x{font-size:13px;color:var(--ink-2);line-height:1.55;margin-top:6px;max-width:110ch;overflow-wrap:anywhere}
+.ind__x button{color:var(--c-blue);font-weight:700;font-size:12px;margin-left:4px}
+.vote{border-top:1px solid var(--line);padding:10px 2px}
+.vote__top{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.vote__bar{display:flex;height:8px;border-radius:999px;overflow:hidden;background:var(--surface-3);margin-top:8px;max-width:420px}
+.vote details{margin-top:6px} .vote summary{cursor:pointer;font-size:12px;color:var(--c-blue);font-weight:700}
+.vote__list{columns:3 200px;font-size:12px;color:var(--ink-2);margin-top:6px}
+.vote__list h5{margin:6px 0 2px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3)}
+.notebar{display:flex;gap:9px;align-items:flex-start;background:var(--c-blue-soft);color:var(--ink-2);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.5;margin:0 0 14px}
+.def{display:grid;grid-template-columns:minmax(140px,220px) minmax(0,1fr);gap:8px 18px;font-size:13px;line-height:1.5}
+.def dt{font-weight:700;color:var(--ink)} .def dd{margin:0;color:var(--ink-2)}
+@media (max-width:640px){.def{grid-template-columns:minmax(0,1fr)}.def dd{margin-bottom:8px}}
+.loading{padding:40px;text-align:center;color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
 <body>
-<header>
-  <h1>Seguimiento legislativo · Seguridad pública y prevención del delito</h1>
-  <p id="meta">Cargando datos…</p>
-  <div class="fuentes" id="fuentes"></div>
-</header>
-<main>
-  <section class="kpis" id="kpis"></section>
-  <nav class="pestanas"><button data-v="vProy" class="activa">Proyectos</button><button data-v="vAct">Actores</button></nav>
-  <div id="vProy">
-  <div class="filtros">
-    <input id="q" type="search" placeholder="Buscar por boletín, título o materia">
-    <select id="fSit"><option value="">Situación: todas</option></select>
-    <select id="fCla"><option value="">Clasificación: todas</option></select>
-    <select id="fMat"><option value="">Materia: todas</option></select>
-    <select id="fUrg"><option value="">Urgencia: todas</option></select>
-    <select id="fIns"><option value="">Instancia: todas</option></select>
-  </div>
-  <div class="grid">
-    <div class="tabla">
-      <table>
-        <thead><tr>
-          <th data-k="boletin">Boletín</th><th data-k="titulo">Proyecto</th><th data-k="situacion">Estado</th>
-          <th data-k="urgencia_vigente">Urgencia</th><th data-k="ultimo_tramite_fecha">Último trámite</th>
-        </tr></thead>
-        <tbody id="filas"></tbody>
-      </table>
-      <div id="cuenta" class="desc" style="margin-top:6px"></div>
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar__brand">
+      <img class="sidebar__logo" src="config/logo.png" alt="Subsecretaría de Prevención del Delito">
+      <div class="sidebar__k">Seguimiento legislativo</div>
+      <div class="sidebar__v">Proyectos de ley de seguridad pública y prevención del delito</div>
     </div>
-    <aside class="lado">
-      <div class="panel"><h2>Urgencias que vencen en 7 días</h2><div id="urgencias"></div>
-        <div class="desc" style="margin-top:6px">Plazo estimado desde el ingreso de la urgencia (simple 30, suma 15, discusión inmediata 6 días).</div></div>
-      <div class="panel"><h2>Cambios recientes</h2><div id="cambios"></div></div>
-    </aside>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar__foot" id="fuentes"></div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="topbar__head"><div class="topbar__title" id="tTitle">Panorama</div><div class="topbar__sub" id="tSub"></div></div>
+      <div class="corte" id="corte"><span class="dot" style="background:var(--c-ok)"></span>Cargando…</div>
+    </header>
+    <nav class="mnav" id="mnav"></nav>
+    <div class="scroll" id="scroll"><div class="page" id="page"><div class="loading">Cargando datos…</div></div></div>
   </div>
-  </div>
-  <div id="vAct" hidden>
-    <div class="filtros"><input id="qa" type="search" placeholder="Buscar parlamentario o autor"></div>
-    <div class="actores" id="actores"></div>
-    <div class="desc" style="margin-top:8px" id="notaActores"></div>
-  </div>
-  <footer>Fuentes: servicio web de tramitación del Senado (ambas cámaras) y datos abiertos de la Cámara de Diputadas y Diputados (votaciones en Sala). Clasificación y descripciones: catálogo propio (config/catalogo.csv). Datos descargables en la carpeta <code>data/</code> del repositorio.</footer>
-</main>
+</div>
 <script>
+"use strict";
+/* ============================================================ datos y utilidades */
+const D = {tablero: [], meta: {}, cambios: [], proyectos: null, actores: null, ind: {}};
+const ETAPAS = [
+  {c:"1C", g:"Primer trámite", n:"Comisión"}, {c:"1S", g:"Primer trámite", n:"Sala"},
+  {c:"2C", g:"Segundo trámite", n:"Comisión"}, {c:"2S", g:"Segundo trámite", n:"Sala"},
+  {c:"3T", g:"Tercer trámite", n:"Cámara de origen"}, {c:"CM", g:"Comisión Mixta", n:"o insistencia"},
+  {c:"TC", g:"Control y promulgación", n:"TC · veto · Ejecutivo"}, {c:"LEY", g:"Ley", n:"Publicada"}];
+const VISTAS = [
+  {id:"panorama", n:"Panorama", s:"Estado de todos los proyectos en una vista"},
+  {id:"urgencias", n:"Urgencias y alertas", s:"Plazos de urgencia y señales de riesgo"},
+  {id:"indicaciones", n:"Indicaciones", s:"Qué se ha propuesto modificar y quién"},
+  {id:"votaciones", n:"Votaciones y actores", s:"Votaciones en Sala y parlamentarios"},
+  {id:"cambios", n:"Cambios recientes", s:"Lo que cambió en la tramitación"},
+  {id:"leyes", n:"Leyes y despachos", s:"Proyectos que terminaron su paso por el Congreso"},
+  {id:"metodologia", n:"Fuentes y método", s:"Cómo se construye cada dato"}];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = f => /^\d{4}-\d{2}-\d{2}/.test(f || "") ? `${f.slice(8,10)}-${f.slice(5,7)}-${f.slice(0,4)}${f.slice(10)}` : (f || "");
+const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const fLarga = f => /^\d{4}-\d{2}-\d{2}/.test(f || "") ? `${+f.slice(8,10)} de ${MESES[+f.slice(5,7)-1]} de ${f.slice(0,4)}` : "";
+const hoyISO = () => { const d = new Date(); return new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10); };
+const diasHasta = f => Math.round((new Date(f + "T12:00:00") - new Date(hoyISO() + "T12:00:00")) / 864e5);
 const $ = s => document.querySelector(s);
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmt = f => /^\d{4}-\d{2}-\d{2}/.test(f||"") ? f.slice(8,10)+"-"+f.slice(5,7)+"-"+f.slice(0,4) + f.slice(10) : (f||"");
-const claseUrg = u => u.startsWith("Discusión") ? "u-di" : u === "Suma" ? "u-su" : u === "Simple" ? "u-si" : "";
-let datos = [], orden = {k:"ultimo_tramite_fecha", asc:false};
-
+const num = n => Number(n || 0).toLocaleString("es-CL");
 async function cargar(ruta, defecto) {
-  try { const r = await fetch(ruta, {cache:"no-store"}); if (!r.ok) throw 0; return await r.json(); }
-  catch (e) { return defecto; }
+  try { const r = await fetch(ruta, {cache: "no-store"}); if (!r.ok) throw 0; return await r.json(); } catch (e) { return defecto; }
+}
+let cargaProyectos = null;
+function proyectos() {
+  if (!cargaProyectos) cargaProyectos = cargar("data/proyectos.json", []).then(p => (D.proyectos = p));
+  return cargaProyectos;
+}
+const proyecto = b => D.tablero.find(p => p.boletin === b);
+const urgClase = u => u === "Discusión inmediata" ? "u-di" : u === "Suma" ? "u-su" : u === "Simple" ? "u-si" : "u-no";
+const urgCorta = u => u === "Discusión inmediata" ? "Disc. inmediata" : u === "Sin urgencia" ? "Sin urgencia" : u;
+const prioClase = n => ({"Crítica":"p-cri","Alta":"p-alt","Media":"p-med","Baja":"p-baj","Ley publicada":"p-ley","Despachado":"p-des","Fuera de tramitación":"p-fue"}[n] || "p-baj");
+const prio = p => `<span class="prio ${prioClase(p.prioridad_nivel)}">${esc(p.prioridad_nivel)}${p.prioridad_indice !== "" && p.prioridad_indice != null ? ` <b>${p.prioridad_indice}</b>` : ""}</span>`;
+const urg = (u, txt) => `<span class="chip ${urgClase(u)}">${esc(txt || urgCorta(u))}</span>`;
+const inicial = c => !c ? "" : c.startsWith("Senado") ? "S" : c.startsWith("Cámara") ? "C" : c.startsWith("Ambas") ? "M" : "";
+const ICON_AL = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>';
+const enTram = p => p.situacion === "En tramitación";
+const ORDEN_PRIO = {"Crítica":0,"Alta":1,"Media":2,"Baja":3,"Despachado":4,"Ley publicada":5,"Fuera de tramitación":6};
+const vence7 = p => enTram(p) && p.urgencia_vence_estimado && diasHasta(p.urgencia_vence_estimado) >= 0 && diasHasta(p.urgencia_vence_estimado) <= 7;
+const linkFicha = b => `#p-${b}`;
+
+/* ============================================================ navegación */
+function pintarNav(actual) {
+  const badge = {urgencias: D.tablero.filter(vence7).length};
+  $("#nav").innerHTML = `<div class="nav__group">Vistas</div>` + VISTAS.map((v, i) =>
+    `<a class="nav__item ${actual === v.id ? "is-active" : ""}" href="#${v.id}"><span class="nav__num">${i + 1}</span><span>${v.n}</span>${badge[v.id] ? `<span class="nav__badge" title="Urgencias que vencen en 7 días">${badge[v.id]}</span>` : ""}</a>`).join("");
+  $("#mnav").innerHTML = VISTAS.map(v => `<a href="#${v.id}" class="${actual === v.id ? "is-active" : ""}">${v.n}</a>`).join("");
+}
+function encabezado(t, s) { $("#tTitle").textContent = t; $("#tSub").textContent = s; }
+function ruta() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h.startsWith("p-") && proyecto(h.slice(2))) { pintarNav(""); return vistaFicha(h.slice(2)); }
+  const v = VISTAS.find(x => x.id === h) || VISTAS[0];
+  pintarNav(v.id); encabezado(v.n, v.s);
+  ({panorama: vistaPanorama, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
+    cambios: vistaCambios, leyes: vistaLeyes, metodologia: vistaMetodo})[v.id]();
+  $("#scroll").scrollTop = 0;
+}
+window.addEventListener("hashchange", ruta);
+
+/* ============================================================ cuadro de avance */
+const F = {sit: "tram", cla: "", mat: "", urg: "", prio: "", q: "", orden: "prio"};
+function celdaEtapa(p, e, i) {
+  const est = (p.avance_estados || {})[e.c] || "todo";
+  const cls = ["st"]; if (i === 0) cls.push("first"); if (i === ETAPAS.length - 1) cls.push("last");
+  const cam = (p.avance_camaras || {})[e.c] || "";
+  let marca = "", tip = `${e.g} · ${e.n}`;
+  if (est === "hecha") { cls.push(e.c === "LEY" ? "ley" : "done"); if (e.c === "LEY") marca = "✓"; tip += ": cumplida"; }
+  else if (est === "actual") { cls.push("cur"); if (p.urgencia_vigente === "Discusión inmediata") cls.push("c-di"); else if (p.urgencia_vigente === "Suma") cls.push("c-su");
+    marca = inicial(cam) || "•"; tip += `: etapa actual${cam ? " (" + cam + ")" : ""}${p.instancia_actual ? " · " + p.instancia_actual : ""}`; }
+  else if (est === "omitida") { cls.push("skip"); tip += ": no fue necesaria"; }
+  else if (est === "detenida") { cls.push("stop"); marca = "×"; tip += `: ${p.situacion.toLowerCase()} en esta etapa`; }
+  else { cls.push("todo"); tip += ": pendiente"; }
+  return `<td class="${i === 0 || e.c === "3T" || e.c === "TC" ? "g" : ""}"><div class="${cls.join(" ")}" title="${esc(tip)}"><i>${marca}</i></div></td>`;
+}
+function filtrar() {
+  const q = F.q.trim().toLowerCase();
+  return D.tablero.filter(p =>
+    (F.sit === "todos" || (F.sit === "tram" && enTram(p)) || (F.sit === "fin" && ["Despachado al Ejecutivo","Publicado como ley"].includes(p.situacion)) ||
+     (F.sit === "fuera" && ["Archivado","Retirado","Rechazado"].includes(p.situacion))) &&
+    (!F.cla || p.clasificacion === F.cla) && (!F.mat || p.materia === F.mat) && (!F.urg || p.urgencia_vigente === F.urg) &&
+    (!F.prio || p.prioridad_nivel === F.prio) &&
+    (!q || [p.boletin, p.nombre_corto, p.titulo, p.materia, p.descripcion, p.acot].join(" ").toLowerCase().includes(q)));
+}
+function ordenar(lista) {
+  const io = c => ETAPAS.findIndex(e => e.c === c);
+  const porPrio = (a, b) => (ORDEN_PRIO[a.prioridad_nivel] - ORDEN_PRIO[b.prioridad_nivel]) || ((+b.prioridad_indice || 0) - (+a.prioridad_indice || 0)) || a.boletin.localeCompare(b.boletin);
+  const f = {prio: porPrio, etapa: (a, b) => (io(b.etapa_codigo) - io(a.etapa_codigo)) || porPrio(a, b),
+    materia: (a, b) => a.materia.localeCompare(b.materia, "es") || porPrio(a, b),
+    boletin: (a, b) => parseInt(a.boletin) - parseInt(b.boletin),
+    reciente: (a, b) => (b.ultimo_tramite_fecha || "").localeCompare(a.ultimo_tramite_fecha || "")}[F.orden];
+  return [...lista].sort(f);
+}
+function filaProyecto(p) {
+  const dias = enTram(p) && p.dias_en_etapa !== "" ? `${p.dias_en_etapa} d<small>en la etapa</small>` :
+    p.situacion === "Publicado como ley" ? `${esc(p.ley_numero.replace("Ley N° ", "N° "))}<small>${fmt(p.ley_fecha_diario_oficial)}</small>` : `<small>${esc(p.situacion)}</small>`;
+  return `<tr data-b="${esc(p.boletin)}">
+    <td class="sticky left"><div class="pname"><b>${esc(p.nombre_corto)}</b><span><span class="mono">${esc(p.boletin)}</span>${urg(p.urgencia_vigente)}${p.n_alertas || (p.alertas || []).length ? `<span title="Alertas" style="color:var(--c-amber);display:inline-flex">${ICON_AL}</span>` : ""}</span></div></td>
+    ${ETAPAS.map((e, i) => celdaEtapa(p, e, i)).join("")}
+    <td class="g">${prio(p).replace('class="prio', 'style="margin:0 10px" class="prio')}</td>
+    <td><div class="dias tnum">${dias}</div></td></tr>`;
+}
+function tablaAvance(lista, agrupar) {
+  const cuenta = c => lista.filter(p => p.etapa_codigo === c && p.situacion !== "Archivado" && p.situacion !== "Retirado" && p.situacion !== "Rechazado").length;
+  let cuerpo = "";
+  if (!lista.length) cuerpo = `<tr><td colspan="11" class="empty">No hay proyectos con estos filtros.</td></tr>`;
+  else if (agrupar) {
+    const grupos = {};
+    lista.forEach(p => (grupos[p.materia || "Sin materia"] ||= []).push(p));
+    cuerpo = Object.entries(grupos).map(([m, ps]) => `<tr class="grp"><td colspan="11">${esc(m)} · ${ps.length}</td></tr>` + ps.map(filaProyecto).join("")).join("");
+  } else cuerpo = lista.map(filaProyecto).join("");
+  return `<div class="matriz-wrap"><div class="matriz-scroll"><table class="mx">
+    <thead><tr><th class="sticky left" rowspan="2" style="padding-left:14px;vertical-align:bottom">Proyecto</th>
+      <th class="g" colspan="2">Primer trámite</th><th colspan="2">Segundo trámite</th>
+      <th class="g">Tercer trámite</th><th>Com. Mixta</th><th class="g" colspan="2">Fin del proceso</th>
+      <th class="g" rowspan="2" style="vertical-align:bottom">Prioridad</th><th rowspan="2" style="vertical-align:bottom;text-align:right;padding-right:12px">Tiempo</th></tr>
+    <tr>${ETAPAS.map((e, i) => { const n = cuenta(e.c);
+      const lab = {"1C":"Comisión","1S":"Sala","2C":"Comisión","2S":"Sala","3T":"Origen","CM":"o insistencia","TC":"TC y promulg.","LEY":"Ley"}[e.c];
+      return `<th class="${i === 0 || e.c === "3T" || e.c === "TC" ? "g" : ""}">${lab}<span class="cnt ${n ? "" : "zero"}">${n}</span></th>`; }).join("")}</tr></thead>
+    <tbody>${cuerpo}</tbody></table></div>
+    <div class="legend">
+      <span><i class="lg" style="width:22px;height:22px;background:var(--c-blue)">S</i>Etapa actual: S Senado, C Cámara, M ambas</span>
+      <span><i class="lg" style="width:22px;height:22px;background:var(--c-red)">C</i>con discusión inmediata</span>
+      <span><i class="lg" style="width:22px;height:22px;background:var(--c-amber)">S</i>con suma urgencia</span>
+      <span><i class="lg" style="width:10px;height:10px;background:var(--track-done)"></i>Cumplida</span>
+      <span><i style="display:inline-block;width:18px;height:3px;background:repeating-linear-gradient(90deg,var(--track-done) 0 4px,transparent 4px 8px)"></i>No fue necesaria</span>
+      <span><i class="lg" style="width:11px;height:11px;border:2px solid var(--track-todo);background:var(--surface)"></i>Pendiente</span>
+      <span>El número bajo cada etapa indica cuántos proyectos están hoy en ella.</span>
+    </div></div>`;
+}
+function opciones(vals, sel, todos) {
+  return `<option value="">${todos}</option>` + [...new Set(vals.filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"))
+    .map(v => `<option ${v === sel ? "selected" : ""}>${esc(v)}</option>`).join("");
+}
+function pintarAvance() {
+  const lista = ordenar(filtrar());
+  $("#avance").innerHTML = tablaAvance(lista, F.orden === "materia");
+  $("#fcount").textContent = `${lista.length} de ${D.tablero.length} proyectos`;
+  document.querySelectorAll("#avance tbody tr[data-b]").forEach(tr => tr.addEventListener("click", () => location.hash = linkFicha(tr.dataset.b)));
+}
+function bloqueFiltros() {
+  const T = D.tablero, n = f => T.filter(f).length;
+  return `<div class="filterbar">
+    <div class="seg" id="fSit">${[["tram", `En tramitación (${n(enTram)})`], ["fin", `Despachados y leyes (${n(p => ["Despachado al Ejecutivo","Publicado como ley"].includes(p.situacion))})`],
+      ["fuera", `Fuera de tramitación (${n(p => ["Archivado","Retirado","Rechazado"].includes(p.situacion))})`], ["todos", `Todos (${T.length})`]]
+      .map(([k, t]) => `<button data-k="${k}" class="${F.sit === k ? "is-on" : ""}">${t}</button>`).join("")}</div>
+    <input class="fsearch" id="fQ" type="search" placeholder="Buscar por nombre, boletín o materia" value="${esc(F.q)}">
+    <select class="fsel" id="fCla" aria-label="Clasificación">${opciones(T.map(p => p.clasificacion), F.cla, "Núcleo y conexos")}</select>
+    <select class="fsel" id="fMat" aria-label="Materia">${opciones(T.map(p => p.materia), F.mat, "Todas las materias")}</select>
+    <select class="fsel" id="fUrg" aria-label="Urgencia">${opciones(T.map(p => p.urgencia_vigente), F.urg, "Cualquier urgencia")}</select>
+    <select class="fsel" id="fPrio" aria-label="Prioridad">${opciones(T.map(p => p.prioridad_nivel), F.prio, "Cualquier prioridad")}</select>
+    <select class="fsel" id="fOrd" aria-label="Orden">${[["prio","Ordenar por prioridad"],["etapa","Ordenar por avance"],["materia","Agrupar por materia"],["reciente","Último movimiento"],["boletin","N° de boletín"]]
+      .map(([k, t]) => `<option value="${k}" ${F.orden === k ? "selected" : ""}>${t}</option>`).join("")}</select>
+    <span class="fcount" id="fcount"></span></div>`;
+}
+function conectarFiltros() {
+  document.querySelectorAll("#fSit button").forEach(b => b.addEventListener("click", () => { F.sit = b.dataset.k; document.querySelectorAll("#fSit button").forEach(x => x.classList.toggle("is-on", x === b)); pintarAvance(); }));
+  $("#fQ").addEventListener("input", e => { F.q = e.target.value; pintarAvance(); });
+  [["#fCla","cla"],["#fMat","mat"],["#fUrg","urg"],["#fPrio","prio"],["#fOrd","orden"]].forEach(([s, k]) => $(s).addEventListener("change", e => { F[k] = e.target.value; pintarAvance(); }));
 }
 
-function opciones(sel, valores) {
-  [...new Set(valores.filter(Boolean))].sort().forEach(v => sel.insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
+/* ============================================================ vista 1: panorama */
+function vistaPanorama() {
+  const T = D.tablero, tram = T.filter(enTram), n = f => T.filter(f).length;
+  const leyesAnno = T.filter(p => p.situacion === "Publicado como ley" && (p.ley_fecha_diario_oficial || "") >= D.meta.inicio_gobierno);
+  const stats = [
+    ["tram", tram.length, "En tramitación", `de ${T.length} proyectos seguidos`],
+    ["di", tram.filter(p => p.urgencia_vigente === "Discusión inmediata").length, "Con discusión inmediata", `${tram.filter(p => p.urgencia_vigente === "Suma").length} con suma urgencia`],
+    ["cri", tram.filter(p => p.prioridad_nivel === "Crítica").length, "Prioridad crítica", `${tram.filter(p => p.prioridad_nivel === "Alta").length} con prioridad alta`],
+    ["v7", T.filter(vence7).length, "Urgencias vencen en 7 días", "plazo estimado"],
+    ["ley", leyesAnno.length, "Leyes publicadas", `desde el ${fmt(D.meta.inicio_gobierno)} · ${n(p => p.situacion === "Despachado al Ejecutivo")} despachadas`]];
+  const alertasTop = tram.filter(p => (p.alertas || []).some(a => /Urgencia por vencer|Votación/.test(a.tipo)))
+    .sort((a, b) => (a.urgencia_vence_estimado || "9").localeCompare(b.urgencia_vence_estimado || "9")).slice(0, 6);
+  const rel = D.cambios.filter(c => c.tipo !== "Nuevo trámite").slice(0, 6);
+  const porEtapa = ETAPAS.slice(0, 7).map(e => ({e, n: tram.filter(p => p.etapa_codigo === e.c).length + (e.c === "TC" ? n(p => p.situacion === "Despachado al Ejecutivo") : 0)}));
+  const max = Math.max(1, ...porEtapa.map(x => x.n));
+  $("#page").innerHTML = `
+    <section class="hero">
+      <div class="hero__top"><div><div class="hero__k">Proyectos de ley de seguridad pública · Gobierno 2026–2030</div>
+        <div class="hero__t">Estado legislativo al ${fLarga(D.meta.fecha_verificacion)}</div>
+        <div class="hero__meta">Información oficial del Senado y de la Cámara, actualizada cada hora. Haga clic en un proyecto para ver su ficha completa.</div></div></div>
+      <div class="hero__stats">${stats.map(([k, v, l, s]) => `<button class="hstat" data-k="${k}"><div class="hstat__n tnum">${v}</div><div class="hstat__l">${l}</div><div class="hstat__s">${s}</div></button>`).join("")}</div>
+    </section>
+    <div class="grid g3">
+      <div class="card"><div class="card__head"><span class="card__title" style="color:var(--c-red)">Atención inmediata</span><span class="card__sub">urgencias y votaciones</span></div>
+        <div class="card__body">${alertasTop.length ? alertasTop.map(p => { const a = p.alertas.find(x => /Urgencia por vencer|Votación/.test(x.tipo));
+          const d = p.urgencia_vence_estimado ? diasHasta(p.urgencia_vence_estimado) : null;
+          return `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)}</div><div class="lrow__s">${esc(a.tipo)} · ${esc(p.boletin)}</div></div>
+            <div class="lrow__r" style="color:${d !== null && d <= 3 ? "var(--c-red)" : "var(--c-amber)"}">${d !== null && /Urgencia/.test(a.tipo) ? (d === 0 ? "Hoy" : `En ${d} d`) : "Revisar"}</div></div>`; }).join("") : `<div class="empty">Sin alertas urgentes.</div>`}
+          <a class="more" href="#urgencias">Ver todas las urgencias y alertas →</a></div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Movimientos recientes</span><span class="card__sub">detectados por el sistema</span></div>
+        <div class="card__body">${rel.length ? rel.map(c => { const p = proyecto(c.boletin);
+          return `<div class="lrow" data-b="${esc(c.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p ? p.nombre_corto : c.boletin)}</div><div class="lrow__s">${esc(textoCambio(c))}</div></div><div class="lrow__r muted mono" style="font-weight:500;font-size:11px">${fmt(c.fecha_deteccion.slice(0, 10)).slice(0, 5)}</div></div>`; }).join("") : `<div class="empty">Sin cambios.</div>`}
+          <a class="more" href="#cambios">Ver todos los cambios →</a></div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Dónde están los proyectos</span><span class="card__sub">en tramitación y despachados</span></div>
+        <div class="card__body">${porEtapa.map(({e, n}) => `<div class="barrow"><div class="barrow__lab">${e.g}<small>${e.c === "TC" ? "TC, veto o promulgación" : e.n}</small></div>
+          <div class="barrow__track"><div class="barrow__fill" style="width:${100 * n / max}%;background:var(--c-blue)"></div></div><div class="barrow__n tnum">${n}</div></div>`).join("")}</div></div>
+    </div>
+    <div class="section-title">Cuadro de avance por etapa</div>
+    ${bloqueFiltros()}
+    <div id="avance"></div>`;
+  conectarFiltros(); pintarAvance();
+  document.querySelectorAll(".lrow[data-b]").forEach(r => r.addEventListener("click", () => location.hash = linkFicha(r.dataset.b)));
+  document.querySelectorAll(".hstat").forEach(b => b.addEventListener("click", () => {
+    const k = b.dataset.k;
+    if (k === "v7") return (location.hash = "#urgencias");
+    if (k === "ley") return (location.hash = "#leyes");
+    Object.assign(F, {sit: "tram", urg: k === "di" ? "Discusión inmediata" : "", prio: k === "cri" ? "Crítica" : "", cla: "", mat: "", q: ""});
+    vistaPanorama(); document.querySelector(".section-title").scrollIntoView({behavior: "smooth"});
+  }));
+}
+function textoCambio(c) {
+  if (c.tipo === "Situación") return `Pasó a: ${c.despues}`;
+  if (c.tipo === "Urgencia vigente") return `Urgencia: ${c.antes || "sin urgencia"} → ${c.despues}`;
+  if (c.tipo === "Etapa") return `Nueva etapa: ${c.despues}`;
+  if (c.tipo === "Subetapa") return `Ahora en: ${c.despues}`;
+  return `${c.tipo}${c.despues ? ": " + c.despues : ""}`;
 }
 
-function kpis(d) {
-  const n = f => d.filter(f).length;
-  const items = [
-    ["Proyectos seguidos", d.length],
-    ["En tramitación", n(p => p.situacion === "En tramitación")],
-    ["Discusión inmediata", n(p => p.urgencia_vigente.startsWith("Discusión"))],
-    ["Suma urgencia", n(p => p.urgencia_vigente === "Suma")],
-    ["Urgencia simple", n(p => p.urgencia_vigente === "Simple")],
-    ["Despachados al Ejecutivo", n(p => p.situacion === "Despachado al Ejecutivo")],
-    ["Publicados como ley", n(p => p.situacion === "Publicado como ley")],
-  ];
-  $("#kpis").innerHTML = items.map(([t, v]) => `<div class="kpi"><b>${v}</b><span>${t}</span></div>`).join("");
+/* ============================================================ ficha del proyecto */
+let tabFicha = "linea";
+function tracker(p) {
+  const ini = p.avance_inicio || {};
+  return `<div class="tracker">${ETAPAS.map(e => {
+    const est = (p.avance_estados || {})[e.c] || "pendiente", cam = (p.avance_camaras || {})[e.c] || "";
+    const cls = est === "hecha" ? (e.c === "LEY" ? "ley" : "done") : est === "actual" ? "cur" : est === "omitida" ? "skip" : est === "detenida" ? "stop" : "";
+    const marca = est === "actual" ? (inicial(cam) || "•") : est === "detenida" ? "×" : (est === "hecha" && e.c === "LEY") ? "✓" : "";
+    const grupo = e.c[0] === "1" ? "1" : e.c[0] === "2" ? "2" : e.c;
+    const fecha = (e.c === "1C" || e.c === "2C" || ["3T","CM","LEY"].includes(e.c)) && ini[grupo] ? `desde ${fmt(ini[grupo])}` : "";
+    const sub = est === "omitida" ? "No fue necesaria" : est === "actual" ? (e.c === "TC" ? (/Tribunal/.test(p.etapa) ? "En el Tribunal Constitucional" : "Despachado por el Congreso") : (p.instancia_actual || cam)) : (cam && e.c !== "CM" ? cam : "");
+    return `<div class="tk ${cls}"><i>${marca}</i><div class="tk__g">${e.g}</div><div class="tk__n">${e.n}</div><div class="tk__c">${esc(sub)}${fecha && est !== "omitida" ? `<br>${fecha}` : ""}</div></div>`; }).join("")}</div>`;
 }
-
-function lineaTiempo(p) {
-  const ev = [
-    ...(p.hitos || []).map(h => ({f: h.fecha, t: `${h.hito} (${h.camara})`, c: ""})),
-    ...(p.informes || []).map(i => ({f: i.fecha, t: `Informe de comisión · ${i.tramite}`, c: "t-inf"})),
-    ...(p.votaciones || []).map(v => ({f: v.fecha, t: `Votación Sala Senado · ${v.tipo}: ${v.resultado || "s/r"} (${v.si}-${v.no}-${v.abstencion})`, c: "t-vot"})),
-    ...(p.votaciones_camara || []).map(v => ({f: v.fecha, t: `Votación Sala Cámara · ${v.tipo || ""}: ${v.resultado || "s/r"} (${v.si}-${v.no}-${v.abstencion})`, c: "t-vot"})),
-  ].filter(e => e.f).sort((a, b) => a.f < b.f ? -1 : 1);
-  const vistos = new Set(), unicos = ev.filter(e => { const k = e.f + e.t; if (vistos.has(k)) return false; vistos.add(k); return true; });
-  return unicos.length ? `<ul class="linea">${unicos.slice(-18).map(e => `<li class="${e.c}">${fmt(e.f)} · ${esc(e.t)}</li>`).join("")}</ul>` : `<div class="desc">Sin registros</div>`;
+async function vistaFicha(b) {
+  const t = proyecto(b);
+  encabezado(t.nombre_corto, `Boletín ${b} · ${t.materia}`);
+  $("#page").innerHTML = `<div class="loading">Cargando ficha…</div>`; $("#scroll").scrollTop = 0;
+  await proyectos();
+  const p = (D.proyectos || []).find(x => x.boletin === b) || t;
+  const vence = p.urgencia_vence_estimado ? diasHasta(p.urgencia_vence_estimado) : null;
+  const activo = enTram(p);
+  const instancia = activo ? (p.instancia_actual || "—") : p.situacion === "Despachado al Ejecutivo" ? (p.etapa_codigo === "TC" && /Tribunal/.test(p.etapa) ? "Tribunal Constitucional" : "Despachado por el Congreso") : p.situacion;
+  const urgTxt = !activo ? "No aplica" : p.urgencia_vigente === "Sin urgencia" ? "Sin urgencia" :
+    `${p.urgencia_vigente}${vence !== null ? (vence >= 0 ? ` · vence el ${fmt(p.urgencia_vence_estimado)}` : ` · plazo cumplido el ${fmt(p.urgencia_vence_estimado)}`) : ""}`;
+  const gob = [p.mensaje_gobierno_actual ? "Mensaje del actual Gobierno" : "", p.n_urgencias_gobierno_actual ? `${p.n_urgencias_gobierno_actual} urgencias desde el ${fmt(D.meta.inicio_gobierno)}` : "",
+    p.indicaciones_ejecutivo_gobierno_actual ? `Indicaciones del Ejecutivo: ${p.indicaciones_ejecutivo_gobierno_actual.split(", ").map(fmt).join(", ")}` : ""].filter(Boolean);
+  const nInd = p.n_indicaciones_senado || 0, nVot = (p.votaciones || []).length + (p.votaciones_camara || []).length;
+  const gest = [["Responsable", p.responsable], ["Posición del Ejecutivo", p.posicion_ejecutivo], ["Última gestión", p.ultima_gestion], ["Próximo paso", p.proximo_paso]];
+  $("#page").innerHTML = `
+    <div style="margin-bottom:14px"><a class="btn back" href="#panorama">← Volver al panorama</a></div>
+    <div class="card fhead">
+      <div class="fhead__eyebrow"><span class="mono" style="color:var(--ink)">Boletín ${esc(b)}</span><span class="sep">·</span><span>${esc(p.iniciativa)} · ingresó el ${fmt(p.fecha_ingreso)} en ${esc(p.camara_origen)}</span><span class="sep">·</span><span>${esc(p.clasificacion)} · ${esc(p.materia)}</span></div>
+      <h1 class="fhead__t">${esc(p.nombre_corto)}</h1>
+      <div class="fhead__o">${esc(p.titulo)}</div>
+      <div class="fhead__chips"><span class="chip" style="background:var(--surface-3);color:var(--ink)">${esc(p.situacion)}${p.ley_numero ? " · " + esc(p.ley_numero) : ""}</span>${activo ? urg(p.urgencia_vigente, urgTxt) + prio(p) : ""}${p.acot ? `<span class="tag">${esc(p.acot)}</span>` : ""}</div>
+      <div class="dsec__t" style="margin-top:22px">Avance de la tramitación</div>
+      ${tracker(p)}
+    </div>
+    <div class="grid g2" style="margin-top:16px">
+      <div class="card"><div class="card__body" style="padding-top:16px">
+        <div class="dsec" style="margin-top:0"><div class="dsec__t">Qué hace</div><p>${esc(p.descripcion || p.titulo)}</p>${p.nota ? `<p class="small muted" style="margin-top:6px">${esc(p.nota)}</p>` : ""}</div>
+        <div class="dsec"><div class="dsec__t">Dónde está ahora</div>
+          <div class="metrics">
+            <div class="metric"><div class="k">Etapa</div><div class="v">${esc(p.etapa_texto)}</div></div>
+            <div class="metric"><div class="k">Instancia</div><div class="v">${esc(instancia)}</div></div>
+            <div class="metric"><div class="k">Tiempo en la etapa</div><div class="v tnum">${p.dias_en_etapa !== "" ? p.dias_en_etapa + " días" : "—"}<small>${p.dias_desde_ingreso} días desde el ingreso</small></div></div>
+            <div class="metric"><div class="k">Urgencia</div><div class="v">${esc(urgTxt)}</div></div>
+            <div class="metric" style="grid-column:1/-1"><div class="k">Último trámite · ${fmt(p.ultimo_tramite_fecha)}</div><div class="v" style="font-weight:600">${esc(p.ultimo_tramite)}</div></div>
+          </div></div>
+        ${p.refundidos ? `<div class="dsec"><div class="dsec__t">Refundido con</div><p>${esc(p.refundidos)}</p></div>` : ""}
+        <div class="dsec"><div class="dsec__t">Autoría y acción del Gobierno</div><p>${esc(p.iniciativa === "Mensaje" ? "Mensaje · " + p.autoria : "Moción de " + p.autoria)}</p>
+          ${gob.length ? `<ul class="motivos">${gob.map(g => `<li>${esc(g)}</li>`).join("")}</ul>` : ""}</div>
+      </div></div>
+      <div class="card"><div class="card__body" style="padding-top:16px">
+        <div class="dsec" style="margin-top:0"><div class="dsec__t">Lectura de gestión</div>
+          <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${prio(p)}<b style="font-size:13.5px">${esc(p.accion_sugerida)}</b></div>
+          ${(p.prioridad_motivos || []).length ? `<ul class="motivos">${p.prioridad_motivos.map(m => `<li>${esc(m)}</li>`).join("")}</ul>` : ""}
+          ${(p.alertas || []).map(a => `<div class="alerta ${/Urgencia por vencer|rechazada|plazo cumplido/i.test(a.tipo) ? "r" : ""}">${ICON_AL}<div><b>${esc(a.tipo)}</b><span>${esc(a.detalle.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m)))}</span></div></div>`).join("")}
+          <p class="small muted" style="margin-top:8px">Prioridad y acción se calculan con reglas fijas descritas en <a href="#metodologia">Fuentes y método</a>.</p></div>
+        <div class="dsec"><div class="dsec__t">Gestión SPD</div>
+          <div class="metrics">${gest.map(([k, v]) => `<div class="metric"><div class="k">${k}</div><div class="v">${v ? esc(v) : '<span class="porinf">Por informar</span>'}</div></div>`).join("")}</div></div>
+        <div class="dsec"><div class="dsec__t">Documentos oficiales</div><p>
+          <a href="${esc(p.link_senado)}" target="_blank" rel="noopener">Ficha en el Senado</a>${p.link_camara ? ` · <a href="${esc(p.link_camara)}" target="_blank" rel="noopener">Ficha en la Cámara</a>` : ""}${p.link_texto ? ` · <a href="${esc(p.link_texto)}" target="_blank" rel="noopener">Texto original</a>` : ""}</p></div>
+      </div></div>
+    </div>
+    <div class="tabs" id="ftabs">${[["linea","Línea de tiempo"],["ind",`Indicaciones (${nInd})`],["vot",`Votaciones (${nVot})`],["inf",`Informes y oficios (${(p.informes || []).length + (p.oficios || []).length})`],["tra",`Todos los trámites (${(p.tramites || []).length})`]]
+      .map(([k, t]) => `<button class="tab ${tabFicha === k ? "is-on" : ""}" data-k="${k}">${t}</button>`).join("")}</div>
+    <div id="fcont"></div>`;
+  document.querySelectorAll("#ftabs .tab").forEach(t => t.addEventListener("click", () => { tabFicha = t.dataset.k; document.querySelectorAll("#ftabs .tab").forEach(x => x.classList.toggle("is-on", x === t)); pintarTab(p); }));
+  pintarTab(p);
 }
-
-function detalle(p) {
-  const li = (arr, f, max = 12) => arr.length ? `<ul>${arr.slice(-max).map(f).join("")}</ul>` : `<div class="desc">Sin registros</div>`;
+function pintarTab(p) {
+  const c = $("#fcont");
+  if (tabFicha === "linea") {
+    const ev = [...(p.hitos || []).map(h => ({f: h.fecha, t: `<b>${esc(h.hito)}</b> · ${esc(h.camara.replace("C.Diputados", "Cámara"))}`, c: ""})),
+      ...(p.informes || []).map(i => ({f: i.fecha, t: `<b>Informe de comisión</b> · <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.tramite)}</a>`, c: "t-inf"})),
+      ...(p.votaciones || []).map(v => ({f: v.fecha, t: `<b>Votación en Sala del Senado</b> · ${esc(v.tipo)}: ${esc(v.resultado || "sin resultado informado")} (${v.si} a favor, ${v.no} en contra)`, c: "t-vot"})),
+      ...(p.votaciones_camara || []).map(v => ({f: v.fecha, t: `<b>Votación en Sala de la Cámara</b> · ${esc(v.resultado || "sin resultado")} (${v.si} a favor, ${v.no} en contra)`, c: "t-vot"}))]
+      .filter(e => e.f).sort((a, b) => b.f.localeCompare(a.f));
+    c.innerHTML = `<div class="card"><div class="card__body" style="padding-top:18px">${ev.length ? `<ul class="timeline">${ev.map(e => `<li class="${e.c}"><span class="f">${fmt(e.f)}</span>${e.t}</li>`).join("")}</ul>` : `<div class="empty">Sin hitos registrados.</div>`}</div></div>`;
+  } else if (tabFicha === "ind") pintarIndicaciones(p, c);
+  else if (tabFicha === "vot") pintarVotos(p, c);
+  else if (tabFicha === "inf") {
+    const fila = (x, t) => `<tr><td class="mono">${fmt(x.fecha)}</td><td>${esc(t)}</td><td>${esc((x.camara || x.etapa || "").replace("C.Diputados", "Cámara"))}</td><td>${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">Abrir</a>` : ""}</td></tr>`;
+    const filas = [...(p.informes || []).map(i => ({x: i, t: "Informe: " + i.tramite})), ...(p.oficios || []).map(o => ({x: o, t: o.descripcion}))].sort((a, b) => b.x.fecha.localeCompare(a.x.fecha));
+    c.innerHTML = `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Fecha</th><th>Documento</th><th>Cámara</th><th></th></tr></thead><tbody>${filas.map(f => fila(f.x, f.t)).join("") || `<tr><td colspan="4" class="empty">Sin documentos.</td></tr>`}</tbody></table></div></div>`;
+  } else if (tabFicha === "tra") {
+    c.innerHTML = `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Fecha</th><th>Cámara</th><th>Etapa</th><th>Trámite</th></tr></thead><tbody>${[...(p.tramites || [])].reverse().map(t =>
+      `<tr><td class="mono" style="white-space:nowrap">${fmt(t.fecha)}</td><td>${esc(t.camara.replace("C.Diputados", "Cámara"))}</td><td>${esc(t.etapa)}</td><td>${esc(t.descripcion)}</td></tr>`).join("")}</tbody></table></div></div>`;
+  }
+}
+async function pintarIndicaciones(p, c) {
   const tot = p.n_indicaciones_senado || 0, eje = p.n_indicaciones_senado_ejecutivo || 0, par = p.n_indicaciones_senado_parlamentarias || 0;
-  const barra = tot ? `<div class="barra"><span class="b-eje" style="width:${100*eje/tot}%"></span><span class="b-par" style="width:${100*par/tot}%"></span></div>` : "";
-  return `<div class="det-grid">
-    <div><h3>Etapa</h3><ul>
-      <li><b>${esc(p.tramite_constitucional)}</b>${p.camara_actual ? " · " + esc(p.camara_actual) : ""}</li>
-      <li>Instancia: ${esc(p.instancia_actual || "—")}</li>
-      <li>En esta etapa desde ${fmt(p.fecha_inicio_etapa)} (${p.dias_en_etapa} días)</li>
-      <li>${p.dias_desde_ingreso} días desde el ingreso</li>
-      <li>Urgencia: ${esc(p.urgencia_vigente)}${p.urgencia_plazo ? " · " + esc(p.urgencia_plazo.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m))) : ""}</li>
-      ${p.refundidos ? `<li>Refundido: ${esc(p.refundidos)}</li>` : ""}
-      ${p.nota ? `<li>${esc(p.nota)}</li>` : ""}</ul>
-      <h3 style="margin-top:10px">Línea de tiempo</h3>${lineaTiempo(p)}</div>
-    <div><h3>Indicaciones en el Senado</h3>
-      ${tot ? `<div>${tot} indicaciones: <b>${eje}</b> del Ejecutivo (${p.n_indicaciones_senado_ejecutivo_gobierno_actual} del actual Gobierno) y <b>${par}</b> parlamentarias</div>${barra}` : `<div class="desc">Sin boletines de indicaciones en el Senado</div>`}
-      ${li(p.indicaciones_por_autor || [], a => `<li>${esc(a.autor)}: ${a.n}</li>`, 10)}
-      ${li(p.boletines_indicaciones || [], b => `<li><a href="${esc(b.link)}" target="_blank" rel="noopener">Boletín ${fmt(b.fecha)}</a> · ${esc(b.etapa)}</li>`, 6)}
-      <h3 style="margin-top:10px">Oficios del Ejecutivo con indicaciones</h3>
-      ${li((p.oficios || []).filter(o => /indicaci/i.test(o.descripcion) && /(Presidente|Ejecutivo)/.test(o.descripcion)), o => `<li><a href="${esc(o.link)}" target="_blank" rel="noopener">${fmt(o.fecha)}</a> · ${esc(o.camara)}</li>`)}</div>
-    <div><h3>Informes de comisión</h3>${li(p.informes || [], i => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${fmt(i.fecha)}</a> · ${esc(i.tramite)}</li>`, 8)}
-      <h3 style="margin-top:10px">Votaciones en Sala del Senado</h3>${li(p.votaciones || [], v => `<li>${fmt(v.fecha)} · ${esc(v.tipo)}: <b>${esc(v.resultado || "s/r")}</b> (${v.si} sí, ${v.no} no, ${v.abstencion} abst.)</li>`, 8)}
-      <h3 style="margin-top:10px">Votaciones en Sala de la Cámara</h3>${li(p.votaciones_camara || [], v => `<li>${fmt(v.fecha)} · ${esc(v.tipo || v.descripcion.slice(0, 60))}: <b>${esc(v.resultado || "s/r")}</b> (${v.si} sí, ${v.no} no, ${v.abstencion} abst.)</li>`, 8)}
-      <h3 style="margin-top:10px">Documentos</h3><ul>
-      <li><a href="${esc(p.link_senado)}" target="_blank" rel="noopener">Ficha Senado</a>${p.link_camara ? ` · <a href="${esc(p.link_camara)}" target="_blank" rel="noopener">Ficha Cámara</a>` : ""} · <a href="${esc(p.link_texto)}" target="_blank" rel="noopener">Texto original</a></li></ul></div>
-  </div>`;
-}
-
-function pintar() {
-  const q = $("#q").value.trim().toLowerCase();
-  const f = {situacion:$("#fSit").value, clasificacion:$("#fCla").value, materia:$("#fMat").value, urgencia_vigente:$("#fUrg").value, instancia_actual:$("#fIns").value};
-  let filas = datos.filter(p => Object.entries(f).every(([k, v]) => !v || p[k] === v) &&
-    (!q || [p.boletin, p.titulo, p.materia, p.descripcion].join(" ").toLowerCase().includes(q)));
-  filas.sort((a, b) => { const x = String(a[orden.k] ?? ""), y = String(b[orden.k] ?? ""); return (x < y ? -1 : x > y ? 1 : 0) * (orden.asc ? 1 : -1); });
-  $("#filas").innerHTML = filas.length ? filas.map(p => `
-    <tr class="fila" data-b="${esc(p.boletin)}">
-      <td><a href="${esc(p.link_senado)}" target="_blank" rel="noopener">${esc(p.boletin)}</a><br>
-          <span class="desc">${esc(p.iniciativa)} · ${fmt(p.fecha_ingreso)}</span></td>
-      <td><div class="tit">${esc(p.titulo)}</div>
-          <div class="desc">${esc(p.descripcion)}</div>
-          <span class="tag">${esc(p.clasificacion)}</span><span class="tag">${esc(p.materia)}</span>${p.acot ? `<span class="tag">${esc(p.acot)}</span>` : ""}</td>
-      <td><span class="tag ${p.ley_numero ? "s-ley" : ""}">${esc(p.situacion)}</span>${p.ley_numero ? `<div class="desc">${esc(p.ley_numero)} (${fmt(p.ley_fecha_diario_oficial)})</div>` : ""}
-          <div class="desc">${esc(p.etapa)}${p.subetapa ? " – " + esc(p.subetapa) : ""}</div></td>
-      <td><span class="tag ${claseUrg(p.urgencia_vigente)}">${esc(p.urgencia_vigente)}</span>
-          <div class="desc">${p.n_urgencias_gobierno_actual} del actual Gobierno</div></td>
-      <td><b>${fmt(p.ultimo_tramite_fecha)}</b><div class="desc">${esc(p.ultimo_tramite)}</div></td>
-    </tr>
-    <tr class="det" data-d="${esc(p.boletin)}" hidden><td colspan="5">${detalle(p)}</td></tr>`).join("") : `<tr><td colspan="5" class="vacio">Sin resultados</td></tr>`;
-  $("#cuenta").textContent = `${filas.length} de ${datos.length} proyectos · clic en una fila para ver el detalle`;
-  document.querySelectorAll("tr.fila").forEach(tr => tr.addEventListener("click", e => {
-    if (e.target.closest("a")) return;
-    const d = document.querySelector(`tr[data-d="${tr.dataset.b}"]`); d.hidden = !d.hidden;
-  }));
-}
-
-function urgencias(d) {
-  const hoy = new Date(), lim = new Date(hoy.getTime() + 7 * 864e5), iso = x => x.toISOString().slice(0, 10);
-  const u = d.filter(p => p.situacion === "En tramitación" && p.urgencia_vence_estimado && p.urgencia_vence_estimado >= iso(hoy) && p.urgencia_vence_estimado <= iso(lim))
-             .sort((a, b) => a.urgencia_vence_estimado < b.urgencia_vence_estimado ? -1 : 1);
-  $("#urgencias").innerHTML = u.length ? u.map(p => `<div class="urg"><span class="tag ${claseUrg(p.urgencia_vigente)}">${esc(p.urgencia_vigente)}</span>
-    vence <b>${fmt(p.urgencia_vence_estimado)}</b> · <a href="${esc(p.link_senado)}" target="_blank" rel="noopener">${esc(p.boletin)}</a><br><span class="desc">${esc(p.titulo)}</span></div>`).join("")
-    : `<div class="vacio">Ninguna en los próximos 7 días</div>`;
-}
-
-function pintarActores(a) {
-  const q = $("#qa").value.trim().toLowerCase(), filtra = arr => (arr || []).filter(x => !q || x.nombre.toLowerCase().includes(q));
-  const caja = (titulo, arr, cols) => `<div class="panel"><h2>${titulo} (${filtra(arr).length})</h2><div class="caja"><table><thead><tr>${cols.map(c => `<th>${c[1]}</th>`).join("")}</tr></thead><tbody>
-    ${filtra(arr).slice(0, 300).map(x => `<tr>${cols.map(c => `<td>${c[0] === "proyectos" ? (x.proyectos || []).map(esc).join(", ") : esc(x[c[0]])}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${cols.length}" class="vacio">Sin datos</td></tr>`}</tbody></table></div></div>`;
-  $("#actores").innerHTML =
-    caja("Autores de mociones seguidas", a.autores_mociones, [["nombre", "Parlamentario"], ["n_proyectos", "N°"], ["proyectos", "Boletines"]]) +
-    caja("Autores de indicaciones (Senado)", a.autores_indicaciones_senado, [["nombre", "Autor"], ["n_indicaciones", "Indicaciones"], ["n_proyectos", "Proyectos"]]) +
-    caja("Votos de senadores en Sala", a.votos_senadores, [["nombre", "Senador/a"], ["si", "Sí"], ["no", "No"], ["abstencion", "Abst."], ["n_proyectos", "Proyectos"]]) +
-    caja("Votos de diputados en Sala", a.votos_diputados, [["nombre", "Diputado/a"], ["si", "Sí"], ["no", "No"], ["abstencion", "Abst."], ["n_proyectos", "Proyectos"]]);
-  $("#notaActores").textContent = a.nota || "";
-}
-
-(async () => {
-  const [proyectos, cambios, meta, actores] = await Promise.all([
-    cargar("data/proyectos.json", []), cargar("data/cambios.json", []), cargar("data/meta.json", {}), cargar("data/actores.json", {})]);
-  datos = proyectos;
-  $("#meta").textContent = proyectos.length
-    ? `Última verificación: ${fmt(meta.fecha_verificacion)} · Últimos datos nuevos: ${fmt(meta.ultima_actualizacion_datos)}`
-    : "No se pudieron cargar los datos (abrir desde GitHub Pages o un servidor local).";
-  const nombres = {senado: "Senado (tramitación)", camara_votaciones: "Cámara (votaciones)"};
-  $("#fuentes").innerHTML = Object.entries(meta.fuentes || {}).map(([k, v]) =>
-    `<span class="fuente ${v.estado === "ok" ? "ok" : "mal"}" title="${esc(v.estado)}">${esc(nombres[k] || k)}: ${v.estado === "ok" ? "al día" : "sin conexión, se muestran los últimos datos obtenidos"}${v.ultima_consulta_exitosa ? " · última consulta exitosa " + fmt(v.ultima_consulta_exitosa) : ""}</span>`).join("");
-  kpis(datos);
-  urgencias(datos);
-  pintarActores(actores);
-  $("#qa").addEventListener("input", () => pintarActores(actores));
-  document.querySelectorAll(".pestanas button").forEach(b => b.addEventListener("click", () => {
-    document.querySelectorAll(".pestanas button").forEach(x => x.classList.toggle("activa", x === b));
-    $("#vProy").hidden = b.dataset.v !== "vProy"; $("#vAct").hidden = b.dataset.v !== "vAct";
-  }));
-  opciones($("#fSit"), datos.map(p => p.situacion));
-  opciones($("#fCla"), datos.map(p => p.clasificacion));
-  opciones($("#fMat"), datos.map(p => p.materia));
-  opciones($("#fUrg"), datos.map(p => p.urgencia_vigente));
-  opciones($("#fIns"), datos.map(p => p.instancia_actual));
-  ["#q", "#fSit", "#fCla", "#fMat", "#fUrg", "#fIns"].forEach(s => $(s).addEventListener("input", pintar));
-  document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
-    orden = {k: th.dataset.k, asc: orden.k === th.dataset.k ? !orden.asc : true}; pintar();
-  }));
+  const nota = `<div class="notebar">Se registran las indicaciones presentadas en el Senado, que publica un boletín con cada indicación y su autor. En la Cámara no existe un documento equivalente: allí solo se registran los oficios del Ejecutivo que formulan indicaciones (${p.n_oficios_indicaciones_ejecutivo || 0} en este proyecto, en la pestaña Informes y oficios). El resultado de cada indicación (aprobada o rechazada) consta en los informes de comisión.</div>`;
+  if (!tot) { c.innerHTML = nota + `<div class="card"><div class="empty">Este proyecto no tiene boletines de indicaciones en el Senado.</div></div>`; return; }
+  c.innerHTML = nota + `<div class="loading">Cargando indicaciones…</div>`;
+  if (!D.ind[p.boletin]) D.ind[p.boletin] = await cargar(`data/indicaciones/${p.boletin}.json`, []);
+  const items = D.ind[p.boletin];
+  const arts = p.indicaciones_por_articulo || [], maxA = Math.max(1, ...arts.map(a => a.n));
+  const autores = (p.indicaciones_por_autor || []).slice(0, 12), maxU = Math.max(1, ...autores.map(a => a.n));
+  const st = {art: "", tipo: "", q: ""};
+  c.innerHTML = nota + `
+    <div class="grid g2">
+      <div class="card"><div class="card__head"><span class="card__title">${num(tot)} indicaciones en el Senado</span><span class="card__sub">${(p.boletines_indicaciones || []).length} boletines</span></div><div class="card__body">
+        <div class="stack"><span style="width:${100 * eje / tot}%;background:var(--c-blue)"></span><span style="width:${100 * par / tot}%;background:var(--c-slate)"></span></div>
+        <div class="small" style="display:flex;gap:16px;margin:8px 0 14px;flex-wrap:wrap"><span><span class="dot" style="background:var(--c-blue)"></span> Ejecutivo: <b>${eje}</b> (${p.n_indicaciones_senado_ejecutivo_gobierno_actual || 0} del actual Gobierno)</span><span><span class="dot" style="background:var(--c-slate)"></span> Parlamentarias: <b>${par}</b></span></div>
+        <div class="dsec__t">Por autor</div>
+        ${autores.map(a => `<div class="barrow"><div class="barrow__lab">${esc(a.autor)}</div><div class="barrow__track"><div class="barrow__fill" style="width:${100 * a.n / maxU}%;background:${a.tipo_autor === "Ejecutivo" ? "var(--c-blue)" : "var(--c-slate)"}"></div></div><div class="barrow__n tnum">${a.n}</div></div>`).join("")}
+      </div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Qué artículos concentran las indicaciones</span><span class="card__sub">clic para filtrar</span></div><div class="card__body">
+        <div class="tblwrap"><table class="dt"><thead><tr><th>Artículo</th><th style="width:40%"></th><th>Total</th><th>Ejec.</th><th>Acciones más frecuentes</th></tr></thead><tbody>
+        ${[...arts].sort((a, b) => b.n - a.n).map(a => `<tr class="click" data-a="${esc(a.articulo)}"><td style="font-weight:600;color:var(--ink)">${esc(a.articulo)}</td>
+          <td><div class="barrow__track" style="height:10px"><div class="barrow__fill" style="width:${100 * a.ejecutivo / maxA}%;background:var(--c-blue)"></div><div class="barrow__fill" style="width:${100 * a.parlamentarias / maxA}%;background:var(--c-slate)"></div></div></td>
+          <td class="n">${a.n}</td><td class="n">${a.ejecutivo}</td><td class="small">${Object.entries(a.acciones).sort((x, y) => y[1] - x[1]).slice(0, 3).map(([k, v]) => `${esc(k)} ${v}`).join(" · ")}</td></tr>`).join("")}
+        </tbody></table></div></div></div>
+    </div>
+    <div class="card" style="margin-top:16px"><div class="card__head"><span class="card__title">Texto de cada indicación</span><span class="card__sub" id="indN"></span></div>
+      <div class="card__body">
+        <div class="filterbar" style="box-shadow:none;margin-bottom:6px">
+          <select class="fsel" id="iArt" aria-label="Artículo"><option value="">Todos los artículos</option>${arts.map(a => `<option>${esc(a.articulo)}</option>`).join("")}</select>
+          <div class="seg" id="iTipo"><button data-k="" class="is-on">Todas</button><button data-k="Ejecutivo">Ejecutivo</button><button data-k="Parlamentario">Parlamentarias</button></div>
+          <input class="fsearch" id="iQ" type="search" placeholder="Buscar en el texto o por autor">
+        </div>
+        <div id="iLista"></div></div></div>`;
+  const pintar = () => {
+    const q = st.q.toLowerCase();
+    const l = items.filter(x => (!st.art || (x.ubicacion || "").split(" / ")[0].replace(/\s+/g, " ").trim() === st.art) && (!st.tipo || x.tipo_autor === st.tipo) &&
+      (!q || (x.texto + " " + x.autor).toLowerCase().includes(q)));
+    $("#indN").textContent = `${l.length} de ${items.length}`;
+    $("#iLista").innerHTML = l.slice(0, 200).map(x => {
+      const txt = (x.texto || "").replace(/^.*?,\s+(?=para\s)/i, "");
+      const corto = txt.length > 420 ? txt.slice(0, 420).replace(/\s\S*$/, "") + "…" : txt;
+      return `<div class="ind"><div class="ind__top"><span class="ind__n">N° ${esc(x.numero)}</span><span class="ind__a">${esc(x.autor)}</span>
+        <span class="chip ${x.tipo_autor === "Ejecutivo" ? "u-si" : "u-no"}">${x.tipo_autor === "Ejecutivo" ? "Ejecutivo" : "Parlamentaria"}</span>${x.accion ? `<span class="tag">${esc(x.accion)}</span>` : ""}</div>
+        <div class="ind__u">${esc(x.ubicacion || "Sin ubicación identificada")} · boletín del ${fmt(x.fecha_boletin)} · ${esc(x.etapa)}${x.link ? ` · <a href="${esc(x.link)}" target="_blank" rel="noopener">documento oficial</a>` : ""}</div>
+        <div class="ind__x" data-full="${esc(txt)}">${esc(corto)}${txt.length > 420 ? ' <button type="button">Ver completa</button>' : ""}</div></div>`; }).join("") +
+      (l.length > 200 ? `<div class="empty">Se muestran las primeras 200. Use los filtros para acotar.</div>` : "") + (!l.length ? `<div class="empty">Sin indicaciones con estos filtros.</div>` : "");
+    document.querySelectorAll(".ind__x button").forEach(b => b.addEventListener("click", () => { const d = b.parentElement; d.textContent = d.dataset.full; }));
+  };
+  $("#iArt").addEventListener("change", e => { st.art = e.target.value; pintar(); });
+  $("#iQ").addEventListener("input", e => { st.q = e.target.value; pintar(); });
+  document.querySelectorAll("#iTipo button").forEach(b => b.addEventListener("click", () => { st.tipo = b.dataset.k; document.querySelectorAll("#iTipo button").forEach(x => x.classList.toggle("is-on", x === b)); pintar(); }));
+  document.querySelectorAll("tr[data-a]").forEach(tr => tr.addEventListener("click", () => { st.art = tr.dataset.a; $("#iArt").value = st.art; pintar(); $("#iLista").scrollIntoView({behavior: "smooth", block: "start"}); }));
   pintar();
-  const relevantes = cambios.filter(c => c.tipo !== "Nuevo trámite").slice(0, 40);
-  $("#cambios").innerHTML = relevantes.length ? relevantes.map(c => `
-    <div class="cambio"><small>${fmt(c.fecha_deteccion)} · <a href="https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=${esc(c.boletin)}" target="_blank" rel="noopener">${esc(c.boletin)}</a></small><br>
-      <b>${esc(c.tipo)}:</b> ${c.antes ? esc(c.antes) + " → " : ""}${esc(c.despues)}</div>`).join("")
-    : `<div class="vacio">Sin cambios registrados</div>`;
+}
+function bloqueVoto(v, camara) {
+  const tot = (+v.si || 0) + (+v.no || 0) + (+v.abstencion || 0) || 1;
+  const rech = /rechaz/i.test(v.resultado || "");
+  const grupos = {};
+  (v.votos || []).forEach(x => (grupos[x.seleccion || "Otro"] ||= []).push(x.parlamentario || x.diputado));
+  return `<div class="vote"><div class="vote__top"><span class="mono small">${fmt(v.fecha)}</span><b style="font-size:13px">${esc(camara)}${v.tipo && v.tipo !== "Proyecto de Ley" ? " · " + esc(v.tipo) : ""}</b>
+      <span class="chip ${rech ? "u-di" : "p-ley"}">${esc(v.resultado || "Sin resultado informado")}</span><span class="small muted">${v.quorum ? "Quórum: " + esc(v.quorum) : ""}</span></div>
+    ${v.tema || v.descripcion ? `<div class="small muted" style="margin-top:4px">${esc((v.tema || v.descripcion).slice(0, 300))}</div>` : ""}
+    <div class="vote__bar"><span style="width:${100 * v.si / tot}%;background:var(--c-ok)"></span><span style="width:${100 * v.no / tot}%;background:var(--c-red)"></span><span style="width:${100 * v.abstencion / tot}%;background:var(--c-slate)"></span></div>
+    <div class="small" style="margin-top:4px"><b>${v.si}</b> a favor · <b>${v.no}</b> en contra · <b>${v.abstencion}</b> abstenciones</div>
+    ${(v.votos || []).length ? `<details><summary>Ver cómo votó cada parlamentario</summary><div class="vote__list">${Object.entries(grupos).map(([k, ns]) => `<h5>${esc(k)} (${ns.length})</h5>${ns.sort().map(n => `<div>${esc(n)}</div>`).join("")}`).join("")}</div></details>` : ""}</div>`;
+}
+function pintarVotos(p, c) {
+  const s = [...(p.votaciones || [])].reverse(), k = [...(p.votaciones_camara || [])].reverse();
+  c.innerHTML = `<div class="grid g2">
+    <div class="card"><div class="card__head"><span class="card__title">Sala del Senado</span><span class="card__sub">${s.length} votaciones</span></div><div class="card__body">${s.map(v => bloqueVoto(v, "Senado")).join("") || `<div class="empty">Sin votaciones en Sala del Senado.</div>`}</div></div>
+    <div class="card"><div class="card__head"><span class="card__title">Sala de la Cámara</span><span class="card__sub">${k.length} votaciones</span></div><div class="card__body">${k.map(v => bloqueVoto(v, "Cámara")).join("") || `<div class="empty">Sin votaciones en Sala de la Cámara.</div>`}</div></div></div>`;
+}
+
+/* ============================================================ vista 2: urgencias y alertas */
+function vistaUrgencias() {
+  const tram = D.tablero.filter(p => enTram(p) && p.urgencia_vence_estimado);
+  const grupos = [
+    ["Vencen en los próximos 7 días", tram.filter(vence7), "var(--c-red)"],
+    ["Vencen entre 8 y 30 días", tram.filter(p => diasHasta(p.urgencia_vence_estimado) > 7 && diasHasta(p.urgencia_vence_estimado) <= 30), "var(--c-amber)"],
+    ["Plazo cumplido sin renovación registrada", tram.filter(p => diasHasta(p.urgencia_vence_estimado) < 0), "var(--ink-3)"]];
+  const tipos = {};
+  D.tablero.forEach(p => (p.alertas || []).forEach(a => (tipos[a.tipo] ||= []).push({p, a})));
+  const fila = p => { const d = diasHasta(p.urgencia_vence_estimado);
+    return `<tr class="click" data-b="${esc(p.boletin)}"><td><b style="color:var(--ink)">${esc(p.nombre_corto)}</b><div class="small muted mono">${esc(p.boletin)}</div></td><td>${urg(p.urgencia_vigente)}</td>
+      <td class="mono" style="white-space:nowrap">${fmt(p.urgencia_vence_estimado)}</td><td class="n">${d >= 0 ? (d === 0 ? "Hoy" : d + " d") : "Hace " + (-d) + " d"}</td><td>${esc(p.etapa_texto)}<div class="small muted">${esc(p.instancia_actual)}</div></td></tr>`; };
+  $("#page").innerHTML = `
+    <div class="page__eyebrow">Urgencias y alertas</div><h1 class="page__title">Plazos que corren y señales de riesgo</h1>
+    <p class="page__lead">Las urgencias obligan a cada cámara a despachar el proyecto en un plazo: 30 días la simple, 15 la suma y 6 la discusión inmediata. El vencimiento se estima desde que la urgencia ingresó; el plazo legal corre desde que se da cuenta en Sala, por lo que puede diferir en uno o dos días.</p>
+    ${grupos.map(([t, l, col]) => `<div class="section-title" style="color:${col}">${t} · ${l.length}</div>
+      <div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Proyecto</th><th>Urgencia</th><th>Vence</th><th style="text-align:right">Plazo</th><th>Dónde está</th></tr></thead>
+      <tbody>${l.sort((a, b) => a.urgencia_vence_estimado.localeCompare(b.urgencia_vence_estimado)).map(fila).join("") || `<tr><td colspan="5" class="empty">Ninguno.</td></tr>`}</tbody></table></div></div>`).join("")}
+    <div class="section-title">Alertas de riesgo</div>
+    <div class="grid g2">${Object.entries(tipos).filter(([t]) => !/^Urgencia (por vencer|con plazo)/.test(t)).map(([t, l]) => `<div class="card"><div class="card__head"><span class="card__title">${esc(t)}</span><span class="card__sub">${l.length} proyectos</span></div>
+      <div class="card__body">${l.map(({p, a}) => `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)}</div><div class="lrow__s">${esc(a.detalle.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m)))}</div></div></div>`).join("")}</div></div>`).join("")}</div>`;
+  document.querySelectorAll("[data-b]").forEach(r => r.addEventListener("click", () => location.hash = linkFicha(r.dataset.b)));
+}
+
+/* ============================================================ vista 3: indicaciones */
+async function vistaIndicaciones() {
+  const l = D.tablero.filter(p => p.n_indicaciones_senado).sort((a, b) => b.n_indicaciones_senado - a.n_indicaciones_senado);
+  const tot = l.reduce((s, p) => s + p.n_indicaciones_senado, 0), eje = l.reduce((s, p) => s + p.n_indicaciones_senado_ejecutivo, 0);
+  const max = Math.max(1, ...l.map(p => p.n_indicaciones_senado));
+  $("#page").innerHTML = `<div class="page__eyebrow">Indicaciones</div><h1 class="page__title">Qué se ha propuesto modificar y quién lo propone</h1>
+    <p class="page__lead">${num(tot)} indicaciones presentadas en el Senado en ${l.length} proyectos; ${num(eje)} son del Ejecutivo. Al abrir un proyecto, la pestaña Indicaciones muestra el texto de cada una, filtrable por artículo y autor.</p>
+    <div class="grid g2"><div class="card"><div class="card__head"><span class="card__title">Proyectos con más indicaciones</span></div><div class="card__body">
+      ${l.map(p => `<div class="barrow" style="cursor:pointer" data-b="${esc(p.boletin)}"><div class="barrow__lab">${esc(p.nombre_corto)}<small>${esc(p.boletin)}</small></div><div class="barrow__track">
+        <div class="barrow__fill" style="width:${100 * p.n_indicaciones_senado_ejecutivo / max}%;background:var(--c-blue)"></div><div class="barrow__fill" style="width:${100 * (p.n_indicaciones_senado - p.n_indicaciones_senado_ejecutivo) / max}%;background:var(--c-slate)"></div></div><div class="barrow__n tnum">${p.n_indicaciones_senado}</div></div>`).join("")}
+      <div class="small muted" style="margin-top:10px"><span class="dot" style="background:var(--c-blue)"></span> Ejecutivo &nbsp; <span class="dot" style="background:var(--c-slate)"></span> Parlamentarias y otras</div></div></div>
+    <div class="card" id="autores"><div class="loading">Cargando autores…</div></div></div>`;
+  document.querySelectorAll("[data-b]").forEach(r => r.addEventListener("click", () => { tabFicha = "ind"; location.hash = linkFicha(r.dataset.b); }));
+  if (!D.actores) D.actores = await cargar("data/actores.json", {});
+  const a = (D.actores.autores_indicaciones_senado || []).slice(0, 25), mx = Math.max(1, ...a.map(x => x.n_indicaciones));
+  $("#autores").innerHTML = `<div class="card__head"><span class="card__title">Autores con más indicaciones</span><span class="card__sub">en los proyectos seguidos</span></div><div class="card__body">${a.map(x =>
+    `<div class="barrow"><div class="barrow__lab">${esc(x.nombre)}<small>${x.n_proyectos} proyectos</small></div><div class="barrow__track"><div class="barrow__fill" style="width:${100 * x.n_indicaciones / mx}%;background:${x.nombre.startsWith("Presidente") ? "var(--c-blue)" : "var(--c-slate)"}"></div></div><div class="barrow__n tnum">${x.n_indicaciones}</div></div>`).join("")}</div>`;
+}
+
+/* ============================================================ vista 4: votaciones y actores */
+async function vistaVotaciones() {
+  $("#page").innerHTML = `<div class="loading">Cargando votaciones…</div>`;
+  await proyectos();
+  if (!D.actores) D.actores = await cargar("data/actores.json", {});
+  const votos = [];
+  (D.proyectos || []).forEach(p => { (p.votaciones || []).forEach(v => votos.push({p, v, c: "Senado"})); (p.votaciones_camara || []).forEach(v => votos.push({p, v, c: "Cámara"})); });
+  votos.sort((a, b) => b.v.fecha.localeCompare(a.v.fecha));
+  const sesiones = [];                    // agrupa las votaciones de un mismo proyecto, día y cámara
+  votos.forEach(x => { const k = x.p.boletin + x.v.fecha + x.c; let g = sesiones.find(s => s.k === k);
+    if (!g) sesiones.push(g = {k, p: x.p, c: x.c, fecha: x.v.fecha, vs: []}); g.vs.push(x.v); });
+  const A = D.actores;
+  const tabla = (titulo, arr, cols, id) => `<div class="card"><div class="card__head"><span class="card__title">${titulo}</span><span class="card__sub">${(arr || []).length}</span></div>
+    <div class="card__body"><input class="fsearch" style="width:100%;margin-bottom:8px" type="search" placeholder="Buscar nombre" data-t="${id}">
+    <div class="tblwrap" style="max-height:420px;overflow:auto"><table class="dt" id="${id}"><thead><tr>${cols.map(c => `<th>${c[1]}</th>`).join("")}</tr></thead><tbody>
+    ${(arr || []).map(x => `<tr data-n="${esc(x.nombre.toLowerCase())}">${cols.map(c => `<td class="${c[2] || ""}">${esc(c[0] === "proyectos" ? (x.proyectos || []).length : x[c[0]])}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div></div>`;
+  $("#page").innerHTML = `<div class="page__eyebrow">Votaciones y actores</div><h1 class="page__title">Cómo se ha votado y quiénes participan</h1>
+    <p class="page__lead">${votos.length} votaciones en Sala de los proyectos seguidos (Senado y Cámara). Los nombres se muestran como los informa cada cámara.</p>
+    <div class="card"><div class="card__head"><span class="card__title">Votaciones más recientes</span><span class="card__sub">agrupadas por proyecto y sesión</span></div><div class="card__body">
+      ${sesiones.slice(0, 15).map(({p, c, fecha, vs}) => { const r = vs.filter(v => /rechaz/i.test(v.resultado || "")).length;
+        return `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)}</div><div class="lrow__s">Sala ${c === "Senado" ? "del Senado" : "de la Cámara"} · ${fmt(fecha)} · ${vs.length === 1 ? `${vs[0].si} a favor, ${vs[0].no} en contra` : `${vs.length} votaciones`}</div></div>
+        <div class="lrow__r">${vs.length - r ? `<span class="chip p-ley">${vs.length - r} ${vs.length - r === 1 ? "aprobada" : "aprobadas"}</span>` : ""} ${r ? `<span class="chip u-di">${r} ${r === 1 ? "rechazada" : "rechazadas"}</span>` : ""}</div></div>`; }).join("")}</div></div>
+    <div class="section-title">Parlamentarios</div>
+    <div class="grid g2">
+      ${tabla("Votos de senadores en Sala", A.votos_senadores, [["nombre","Senador/a"],["si","Sí","n"],["no","No","n"],["abstencion","Abst.","n"],["n_proyectos","Proyectos","n"]], "tSen")}
+      ${tabla("Votos de diputados en Sala", A.votos_diputados, [["nombre","Diputado/a"],["si","Sí","n"],["no","No","n"],["abstencion","Abst.","n"],["n_proyectos","Proyectos","n"]], "tDip")}
+      ${tabla("Autores de mociones seguidas", A.autores_mociones, [["nombre","Parlamentario/a"],["n_proyectos","Mociones","n"]], "tMoc")}
+      ${tabla("Autores de indicaciones en el Senado", A.autores_indicaciones_senado, [["nombre","Autor"],["n_indicaciones","Indicaciones","n"],["n_proyectos","Proyectos","n"]], "tInd")}
+    </div>`;
+  document.querySelectorAll(".lrow[data-b]").forEach(r => r.addEventListener("click", () => { tabFicha = "vot"; location.hash = linkFicha(r.dataset.b); }));
+  document.querySelectorAll("input[data-t]").forEach(i => i.addEventListener("input", () => { const q = i.value.toLowerCase();
+    document.querySelectorAll(`#${i.dataset.t} tbody tr`).forEach(tr => tr.hidden = q && !tr.dataset.n.includes(q)); }));
+}
+
+/* ============================================================ vista 5: cambios */
+function vistaCambios() {
+  let soloRel = true;
+  $("#page").innerHTML = `<div class="page__eyebrow">Cambios recientes</div><h1 class="page__title">Lo que cambió en la tramitación</h1>
+    <p class="page__lead">El sistema compara cada hora la información oficial con la anterior y registra cada diferencia.</p>
+    <div class="filterbar"><div class="seg" id="cRel"><button data-k="1" class="is-on">Cambios relevantes</button><button data-k="0">Todos, incluidos trámites menores</button></div></div>
+    <div class="card"><div class="card__body" id="cLista"></div></div>`;
+  const pintar = () => {
+    const l = D.cambios.filter(c => !soloRel || c.tipo !== "Nuevo trámite");
+    const dias = {};
+    l.forEach(c => (dias[c.fecha_deteccion.slice(0, 10)] ||= []).push(c));
+    $("#cLista").innerHTML = Object.entries(dias).map(([d, cs]) => `<div class="dsec__t" style="margin-top:14px">${fLarga(d)}</div>` + cs.map(c => { const p = proyecto(c.boletin);
+      return `<div class="lrow" data-b="${esc(c.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p ? p.nombre_corto : c.boletin)} <span class="mono small muted">${esc(c.boletin)}</span></div><div class="lrow__s">${esc(textoCambio(c).replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m)))}</div></div><div class="lrow__r"><span class="tag">${esc(c.tipo)}</span></div></div>`; }).join("")).join("") || `<div class="empty">Sin cambios.</div>`;
+    document.querySelectorAll("#cLista [data-b]").forEach(r => r.addEventListener("click", () => { if (proyecto(r.dataset.b)) location.hash = linkFicha(r.dataset.b); }));
+  };
+  document.querySelectorAll("#cRel button").forEach(b => b.addEventListener("click", () => { soloRel = b.dataset.k === "1"; document.querySelectorAll("#cRel button").forEach(x => x.classList.toggle("is-on", x === b)); pintar(); }));
+  pintar();
+}
+
+/* ============================================================ vista 6: leyes y despachos */
+function vistaLeyes() {
+  const leyes = D.tablero.filter(p => p.situacion === "Publicado como ley").sort((a, b) => (b.ley_fecha_diario_oficial || "").localeCompare(a.ley_fecha_diario_oficial || ""));
+  const desp = D.tablero.filter(p => p.situacion === "Despachado al Ejecutivo");
+  const fuera = D.tablero.filter(p => ["Archivado","Retirado","Rechazado"].includes(p.situacion));
+  const t = (l, cols) => `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr>${cols.map(c => `<th>${c[0]}</th>`).join("")}</tr></thead><tbody>${l.map(p => `<tr class="click" data-b="${esc(p.boletin)}">${cols.map(c => `<td>${c[1](p)}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${cols.length}" class="empty">Ninguno.</td></tr>`}</tbody></table></div></div>`;
+  const nom = p => `<b style="color:var(--ink)">${esc(p.nombre_corto)}</b><div class="small muted mono">${esc(p.boletin)}</div>`;
+  $("#page").innerHTML = `<div class="page__eyebrow">Leyes y despachos</div><h1 class="page__title">Proyectos que terminaron su paso por el Congreso</h1>
+    <p class="page__lead">Un proyecto despachado ya fue aprobado por el Congreso y espera el control del Tribunal Constitucional (si corresponde), la promulgación y la publicación en el Diario Oficial.</p>
+    <div class="section-title">Despachados al Ejecutivo · ${desp.length}</div>
+    ${t(desp, [["Proyecto", nom], ["Etapa", p => esc(p.etapa_texto)], ["Último trámite", p => `<span class="mono">${fmt(p.ultimo_tramite_fecha)}</span><div class="small">${esc(p.ultimo_tramite)}</div>`]])}
+    <div class="section-title">Publicados como ley · ${leyes.length}</div>
+    ${t(leyes, [["Proyecto", nom], ["Ley", p => `<b>${esc(p.ley_numero)}</b>`], ["Diario Oficial", p => `<span class="mono">${fmt(p.ley_fecha_diario_oficial)}</span>`], ["Materia", p => esc(p.materia)]])}
+    <div class="section-title">Fuera de tramitación · ${fuera.length}</div>
+    ${t(fuera, [["Proyecto", nom], ["Situación", p => esc(p.situacion)], ["Último trámite", p => `<span class="mono">${fmt(p.ultimo_tramite_fecha)}</span><div class="small">${esc(p.ultimo_tramite)}</div>`]])}`;
+  document.querySelectorAll("[data-b]").forEach(r => r.addEventListener("click", () => location.hash = linkFicha(r.dataset.b)));
+}
+
+/* ============================================================ vista 7: método */
+function vistaMetodo() {
+  const f = D.meta.fuentes || {};
+  const est = (k, n) => { const v = f[k] || {}; return `<dt>${n}</dt><dd><span class="dot" style="background:${(v.estado || "").startsWith("ok") ? "var(--c-ok)" : "var(--c-red)"}"></span> ${(v.estado || "").startsWith("ok") ? "Al día" : "Sin conexión; se muestran los últimos datos obtenidos"}${v.ultima_consulta_exitosa ? ` · última consulta exitosa ${fmt(v.ultima_consulta_exitosa)}` : ""}</dd>`; };
+  $("#page").innerHTML = `<div class="page__eyebrow">Fuentes y método</div><h1 class="page__title">Cómo se construye cada dato</h1>
+    <p class="page__lead">Toda la información de tramitación proviene de registros oficiales y se actualiza cada hora. Lo único que se define a mano es qué proyectos se siguen, su nombre corto, su materia y los campos de gestión SPD.</p>
+    <div class="card"><div class="card__body" style="padding-top:16px"><div class="dsec__t">Estado de las fuentes</div><dl class="def">
+      ${est("senado", "Senado: tramitación de ambas cámaras")}${est("camara_votaciones", "Cámara: votaciones en Sala")}
+      <dt>Última actualización</dt><dd>${fmt(D.meta.ultima_actualizacion_datos)} (datos nuevos) · verificado el ${fmt(D.meta.fecha_verificacion)}</dd></dl></div></div>
+    <div class="section-title">Etapas del cuadro de avance</div>
+    <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
+      <dt>Primer trámite</dt><dd>La cámara donde ingresó el proyecto (cámara de origen) lo estudia en comisión y lo vota en Sala, en general y en particular.</dd>
+      <dt>Segundo trámite</dt><dd>La otra cámara (revisora) repite el proceso. Puede aprobarlo igual, modificarlo o rechazarlo.</dd>
+      <dt>Tercer trámite</dt><dd>Solo si la revisora lo modificó: la cámara de origen vota si acepta esos cambios. Si no fue necesario, aparece como línea punteada.</dd>
+      <dt>Comisión Mixta o insistencia</dt><dd>Si las cámaras no se ponen de acuerdo, una comisión con senadores y diputados propone una solución, o una cámara insiste con quórum especial.</dd>
+      <dt>Control y promulgación</dt><dd>Proyecto despachado por el Congreso: control preventivo del Tribunal Constitucional cuando corresponde, eventual veto y promulgación.</dd>
+      <dt>Ley</dt><dd>Publicada en el Diario Oficial con su número.</dd>
+      <dt>Letra en la etapa actual</dt><dd>S: el proyecto está en el Senado. C: en la Cámara de Diputadas y Diputados. M: en Comisión Mixta. El color indica la urgencia: rojo discusión inmediata, ámbar suma, azul simple o sin urgencia.</dd></dl></div></div>
+    <div class="section-title">Prioridad de gestión</div>
+    <div class="card"><div class="card__body" style="padding-top:16px"><p class="small" style="margin:0 0 10px;color:var(--ink-2)">Índice de 0 a 100 para proyectos en tramitación, sumando:</p><dl class="def">
+      <dt>Urgencia</dt><dd>Discusión inmediata +40 · suma +25 · simple +12</dd>
+      <dt>Plazo</dt><dd>La urgencia vence en 7 días o menos +15</dd>
+      <dt>Etapa</dt><dd>En Sala +12 · tercer trámite o Comisión Mixta +18 · segundo trámite en comisión +6</dd>
+      <dt>Clasificación</dt><dd>Núcleo de seguridad +15 · conexo +5</dd>
+      <dt>Gobierno</dt><dd>Mensaje del actual Gobierno +10 · o con urgencias del actual Gobierno +5</dd>
+      <dt>Movimiento</dt><dd>Trámite en los últimos 14 días +5</dd>
+      <dt>Niveles</dt><dd>Crítica 70 o más · alta 50 a 69 · media 30 a 49 · baja menos de 30</dd></dl>
+      <p class="small" style="margin:12px 0 0;color:var(--ink-2)">La acción sugerida sale de reglas simples sobre la etapa, la urgencia y las alertas. Es una orientación para el equipo, no una instrucción.</p></div></div>
+    <div class="section-title">Alertas</div>
+    <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
+      <dt>Urgencia por vencer</dt><dd>El plazo estimado vence en 7 días o menos.</dd>
+      <dt>Urgencia con plazo cumplido</dt><dd>El plazo pasó y no hay renovación registrada.</dd>
+      <dt>Urgencia sin movimiento</dt><dd>Tiene urgencia, pero no registra trámites en más de 30 días.</dd>
+      <dt>Detenido en la misma etapa</dt><dd>Más de 180 días sin cambiar de etapa.</dd>
+      <dt>Votación estrecha</dt><dd>La última votación en Sala se aprobó con una diferencia menor al 10 % de los votos.</dd>
+      <dt>Votación rechazada</dt><dd>La última votación registrada en Sala fue rechazada. Puede referirse a la idea de legislar o a una norma en particular.</dd></dl></div></div>
+    <div class="section-title">Límites conocidos</div>
+    <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
+      <dt>Indicaciones</dt><dd>Solo las del Senado traen el texto y autor de cada una. En la Cámara se registran los oficios del Ejecutivo con indicaciones.</dd>
+      <dt>Votaciones de la Cámara</dt><dd>Solo en Sala y desde 2022.</dd>
+      <dt>Tabla y citaciones</dt><dd>La tabla semanal y las citaciones de comisiones aún no se incluyen.</dd>
+      <dt>Plazos de urgencia</dt><dd>Son estimaciones desde el ingreso de la urgencia.</dd></dl></div></div>`;
+}
+
+/* ============================================================ inicio */
+(async () => {
+  const [t, m, c] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", [])]);
+  Object.assign(D, {tablero: t, meta: m, cambios: c});
+  if (!t.length) { $("#page").innerHTML = `<div class="empty">No se pudieron cargar los datos. Esta página debe abrirse desde GitHub Pages o un servidor web.</div>`; return; }
+  const f = m.fuentes || {}, ok = k => (f[k] && (f[k].estado || "").startsWith("ok"));
+  $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${fmt(m.ultima_actualizacion_datos)}`;
+  $("#fuentes").innerHTML = `<div class="src"><span class="dot" style="background:${ok("senado") ? "#5fd39a" : "#ff9a9f"}"></span>Senado ${ok("senado") ? "al día" : "sin conexión"}</div>
+    <div class="src"><span class="dot" style="background:${ok("camara_votaciones") ? "#5fd39a" : "#ff9a9f"}"></span>Cámara ${ok("camara_votaciones") ? "al día" : "sin conexión"}</div>
+    <div style="margin-top:6px">Datos al ${fmt(m.ultima_actualizacion_datos)}. Se actualiza cada hora.</div>`;
+  ruta();
+  setTimeout(proyectos, 1200);   // la ficha completa se precarga en segundo plano
 })();
 </script>
 </body>
