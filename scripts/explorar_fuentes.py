@@ -20,12 +20,14 @@ def limpio(t):
 
 
 # 1. bloqueo de camara.cl: quién responde
-for u in ["https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx", "https://camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
-          "https://www.cdtv.cl/", "https://www.camara.cl/robots.txt"]:
+for u in ["https://www.camara.cl/cms/feed/", "https://www.camara.cl/cms/wp-json/wp/v2/posts?search=tabla&per_page=5",
+          "https://www.camara.cl/cms/wp-json/wp/v2/posts?search=comisiones%20semana&per_page=5",
+          "https://www.camara.cl/cms/2026/04/02/comisiones-seguiran-con-audiencias-y-proyectos-de-ley-en-la-primera-semana-de-abril/",
+          "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx"]:
     try:
         st, h, t = get(u, NAV)
         print("OK", st, len(t), u, {k: v for k, v in h.items() if k.lower() in ("server", "cf-ray", "x-cdn", "via")})
-        print("   ", re.sub(r"\s+", " ", t[:600]))
+        print("   ", re.sub(r"\s+", " ", t[:2500]))
         print("    links:", sorted(set(re.findall(r'href="([^"]*(?:program|vivo|comisi|sesion|agenda|tabla)[^"]*)"', t, re.I)))[:30])
     except urllib.error.HTTPError as e:
         print("HTTP", e.code, u, {k: v for k, v in dict(e.headers).items() if k.lower() in ("server", "cf-ray", "x-cdn", "via", "x-iinfo")})
