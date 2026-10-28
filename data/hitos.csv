@@ -1,0 +1,297 @@
+boletin,fecha,hito,camara,etapa
+11870-04,2018-07-04,Ingreso,C.Diputados,Primer trámite constitucional
+15258-25,2022-08-05,Ingreso,C.Diputados,Primer trámite constitucional
+15258-25,2026-05-13,Aprobado en general,C.Diputados,Primer trámite constitucional
+15258-25,2026-06-09,Aprobado en particular,C.Diputados,Primer trámite constitucional
+15258-25,2026-06-09,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15261-25,2022-08-05,Ingreso,C.Diputados,Primer trámite constitucional
+15261-25,2024-01-17,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+15261-25,2024-01-17,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15261-25,2026-05-05,Aprobado en general,Senado,Segundo trámite constitucional
+15295-07,2022-08-18,Ingreso,C.Diputados,Primer trámite constitucional
+15295-07,2026-09-01,Aprobado en general,C.Diputados,Primer trámite constitucional
+15295-07,2026-10-05,Aprobado en particular,C.Diputados,Primer trámite constitucional
+15295-07,2026-10-05,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15308-07,2022-08-23,Ingreso,C.Diputados,Primer trámite constitucional
+15347-07,2022-09-13,Ingreso,Senado,Primer trámite constitucional
+15347-07,2025-05-13,Aprobado en general y particular,Senado,Primer trámite constitucional
+15347-07,2025-05-14,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+15347-07,2026-03-23,Aprobado en general y particular,C.Diputados,Segundo trámite constitucional
+15347-07,2026-03-23,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+15347-07,2026-04-07,Despachado al Ejecutivo,Senado,Tercer trámite constitucional
+15589-07,2022-12-14,Ingreso,C.Diputados,Primer trámite constitucional
+15589-07,2025-07-09,Aprobado en general,C.Diputados,Primer trámite constitucional
+15589-07,2025-09-17,Aprobado en particular,C.Diputados,Primer trámite constitucional
+15589-07,2025-09-17,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15589-07,2026-07-07,Aprobado en general,Senado,Segundo trámite constitucional
+15630-07,2022-12-27,Ingreso,C.Diputados,Primer trámite constitucional
+15630-07,2025-04-07,Aprobado en general,C.Diputados,Primer trámite constitucional
+15630-07,2026-01-07,Aprobado en particular,C.Diputados,Primer trámite constitucional
+15630-07,2026-01-07,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15631-07,2023-01-03,Ingreso,Senado,Primer trámite constitucional
+15805-07,2023-04-10,Ingreso,C.Diputados,Primer trámite constitucional
+15805-07,2024-05-03,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+15805-07,2024-05-04,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15805-07,2024-06-18,Aprobado en general,Senado,Segundo trámite constitucional
+15805-07,2025-04-23,Aprobado en particular,Senado,Segundo trámite constitucional
+15805-07,2025-04-23,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+15805-07,2025-05-12,Rechazo de modificaciones (pasa a Comisión Mixta),C.Diputados,Tercer trámite constitucional
+15805-07,2025-05-14,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+15805-07,2026-10-09,Despachado al Ejecutivo,C.Diputados,Trámite finalización en Cámara de Origen
+15817-07,2023-04-11,Ingreso,Senado,Primer trámite constitucional
+15850-11,2023-04-18,Ingreso,Senado,Primer trámite constitucional
+15850-11,2026-07-21,Aprobado en general,Senado,Primer trámite constitucional
+15905-25,2023-05-09,Ingreso,C.Diputados,Primer trámite constitucional
+15905-25,2024-05-06,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+15905-25,2024-05-06,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+15975-25,2023-05-31,Ingreso,Senado,Primer trámite constitucional
+15975-25,2023-12-20,Aprobado en general,Senado,Primer trámite constitucional
+15975-25,2025-03-25,Aprobado en particular,Senado,Primer trámite constitucional
+15975-25,2025-03-25,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+15975-25,2026-03-05,Aprobado en general y particular,C.Diputados,Segundo trámite constitucional
+15975-25,2026-03-05,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+15975-25,2026-06-09,Rechazo de modificaciones (pasa a Comisión Mixta),Senado,Tercer trámite constitucional
+15975-25,2026-08-05,Integración de Comisión Mixta,C.Diputados,Comisión Mixta por rechazo de modificaciones
+15975-25,2026-08-05,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+16143-02,2023-08-02,Ingreso,Senado,Primer trámite constitucional
+16143-02,2024-06-19,Aprobado en general,Senado,Primer trámite constitucional
+16300-07,2023-09-25,Ingreso,C.Diputados,Primer trámite constitucional
+16300-07,2026-08-11,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16300-07,2026-08-11,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16430-07,2023-11-21,Ingreso,Senado,Primer trámite constitucional
+16430-07,2025-05-13,Aprobado en general y particular,Senado,Primer trámite constitucional
+16430-07,2025-05-14,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+16430-07,2026-03-23,Aprobado en general y particular,C.Diputados,Segundo trámite constitucional
+16430-07,2026-03-23,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+16430-07,2026-04-07,Despachado al Ejecutivo,Senado,Tercer trámite constitucional
+16481-25,2023-12-19,Ingreso,Senado,Primer trámite constitucional
+16481-25,2024-03-13,Aprobado en general,Senado,Primer trámite constitucional
+16481-25,2025-06-30,Aprobado en particular,Senado,Primer trámite constitucional
+16481-25,2025-06-30,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+16481-25,2025-11-26,Aprobado en general,C.Diputados,Segundo trámite constitucional
+16481-25,2026-03-04,Aprobado en particular,C.Diputados,Segundo trámite constitucional
+16481-25,2026-03-04,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+16481-25,2026-03-24,Rechazo de modificaciones (pasa a Comisión Mixta),Senado,Tercer trámite constitucional
+16481-25,2026-04-08,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+16481-25,2026-09-09,Despachado al Ejecutivo,Senado,Trámite finalización en Cámara de Origen
+16481-25,2026-09-11,Enviado al Tribunal Constitucional,Senado,Trámite en Tribunal Constitucional
+16481-25,2026-09-29,Despachado al Ejecutivo,Senado,Trámite en Tribunal Constitucional
+16569-25,2024-01-15,Ingreso,C.Diputados,Primer trámite constitucional
+16569-25,2024-09-03,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16569-25,2024-09-03,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16569-25,2025-12-03,Aprobado en general,Senado,Segundo trámite constitucional
+16569-25,2026-03-18,Aprobado en particular,Senado,Segundo trámite constitucional
+16569-25,2026-03-18,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+16569-25,2026-04-06,Rechazo de modificaciones (pasa a Comisión Mixta),C.Diputados,Tercer trámite constitucional
+16569-25,2026-04-08,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+16569-25,2026-08-05,Despachado al Ejecutivo,C.Diputados,Trámite finalización en Cámara de Origen
+16703-25,2024-04-02,Ingreso,Senado,Primer trámite constitucional
+16703-25,2024-07-03,Aprobado en general,Senado,Primer trámite constitucional
+16703-25,2024-08-27,Aprobado en particular,Senado,Primer trámite constitucional
+16703-25,2024-08-28,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+16703-25,2025-07-14,Aprobado en general,C.Diputados,Segundo trámite constitucional
+16703-25,2026-01-06,Aprobado en particular,C.Diputados,Segundo trámite constitucional
+16703-25,2026-03-24,Rechazo de modificaciones (pasa a Comisión Mixta),Senado,Tercer trámite constitucional
+16703-25,2026-04-08,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+16741-15,2024-04-10,Ingreso,Senado,Primer trámite constitucional
+16741-15,2026-06-16,Aprobado en general y particular,Senado,Primer trámite constitucional
+16741-15,2026-06-16,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+16741-15,2026-09-09,Aprobado en general y particular,C.Diputados,Segundo trámite constitucional
+16741-15,2026-09-09,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+16741-15,2026-09-22,Despachado al Ejecutivo,Senado,Tercer trámite constitucional
+16773-07,2024-04-15,Ingreso,C.Diputados,Primer trámite constitucional
+16791-07,2024-04-19,Ingreso,C.Diputados,Primer trámite constitucional
+16808-25,2024-04-25,Ingreso,C.Diputados,Primer trámite constitucional
+16808-25,2026-06-03,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16808-25,2026-06-03,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16836-06,2024-05-13,Ingreso,C.Diputados,Primer trámite constitucional
+16836-06,2024-12-10,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16836-06,2024-12-10,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16836-06,2026-04-07,Aprobado en general,Senado,Segundo trámite constitucional
+16836-06,2026-07-08,Aprobado en particular,Senado,Segundo trámite constitucional
+16836-06,2026-07-08,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+16857-07,2024-05-15,Ingreso,C.Diputados,Primer trámite constitucional
+16857-07,2026-06-16,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16858-15,2024-05-14,Ingreso,C.Diputados,Primer trámite constitucional
+16858-15,2026-10-05,Aprobado en general,C.Diputados,Primer trámite constitucional
+16877-07,2024-05-24,Ingreso,C.Diputados,Primer trámite constitucional
+16944-25,2024-06-19,Ingreso,C.Diputados,Primer trámite constitucional
+16944-25,2026-03-18,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16944-25,2026-03-18,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16948-07,2024-06-19,Ingreso,C.Diputados,Primer trámite constitucional
+16948-07,2026-10-06,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16948-07,2026-10-06,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16974-07,2024-07-09,Ingreso,C.Diputados,Primer trámite constitucional
+16974-07,2025-03-18,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16974-07,2025-03-18,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16984-25,2024-07-12,Ingreso,C.Diputados,Primer trámite constitucional
+16984-25,2024-09-03,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+16984-25,2024-09-03,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+16984-25,2025-12-03,Aprobado en general,Senado,Segundo trámite constitucional
+16984-25,2026-03-18,Aprobado en particular,Senado,Segundo trámite constitucional
+16984-25,2026-03-18,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+16984-25,2026-04-06,Rechazo de modificaciones (pasa a Comisión Mixta),C.Diputados,Tercer trámite constitucional
+16984-25,2026-04-08,Integración de Comisión Mixta,Senado,Comisión Mixta por rechazo de modificaciones
+16984-25,2026-08-05,Despachado al Ejecutivo,C.Diputados,Trámite finalización en Cámara de Origen
+16986-07,2024-07-19,Ingreso,C.Diputados,Primer trámite constitucional
+16986-07,2024-10-07,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17044-02,2024-08-07,Ingreso,C.Diputados,Primer trámite constitucional
+17044-02,2025-12-01,Aprobado en general,C.Diputados,Primer trámite constitucional
+17044-02,2026-01-07,Aprobado en particular,C.Diputados,Primer trámite constitucional
+17044-02,2026-01-07,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17111-07,2024-09-03,Ingreso,C.Diputados,Primer trámite constitucional
+17111-07,2025-04-14,Aprobado en particular,C.Diputados,Primer trámite constitucional
+17111-07,2025-04-14,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17125-25,2024-09-11,Ingreso,C.Diputados,Primer trámite constitucional
+17125-25,2025-04-14,Aprobado en particular,C.Diputados,Primer trámite constitucional
+17125-25,2025-04-14,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17170-07,2024-10-09,Ingreso,C.Diputados,Primer trámite constitucional
+17170-07,2026-04-13,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17170-07,2026-04-14,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17235-07,2024-11-14,Ingreso,C.Diputados,Primer trámite constitucional
+17235-07,2026-04-22,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17235-07,2026-04-22,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17246-15,2024-11-18,Ingreso,C.Diputados,Primer trámite constitucional
+17246-15,2025-09-01,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17246-15,2025-09-01,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17246-15,2025-11-04,Aprobado en general,Senado,Segundo trámite constitucional
+17246-15,2026-03-18,Aprobado en particular,Senado,Segundo trámite constitucional
+17246-15,2026-03-18,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+17246-15,2026-04-08,Despachado al Ejecutivo,C.Diputados,Trámite de aprobacion presidencial
+17371-25,2025-01-30,Ingreso,Senado,Primer trámite constitucional
+17371-25,2025-12-02,Aprobado en general y particular,Senado,Primer trámite constitucional
+17371-25,2025-12-03,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+17403-07,2025-03-10,Ingreso,C.Diputados,Primer trámite constitucional
+17441-15,2025-04-01,Ingreso,C.Diputados,Primer trámite constitucional
+17441-15,2025-09-01,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17441-15,2025-09-01,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17441-15,2025-11-04,Aprobado en general,Senado,Segundo trámite constitucional
+17441-15,2026-03-18,Aprobado en particular,Senado,Segundo trámite constitucional
+17441-15,2026-03-18,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+17441-15,2026-04-08,Despachado al Ejecutivo,C.Diputados,Tercer trámite constitucional
+17441-15,2026-04-08,Despachado al Ejecutivo,C.Diputados,Trámite de aprobacion presidencial
+17474-06,2025-04-07,Ingreso,C.Diputados,Primer trámite constitucional
+17474-06,2026-03-24,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17474-06,2026-03-24,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17486-07,2025-04-10,Ingreso,C.Diputados,Primer trámite constitucional
+17486-07,2026-04-13,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17486-07,2026-04-14,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17535-25,2025-05-12,Ingreso,Senado,Primer trámite constitucional
+17535-25,2025-08-13,Aprobado en general,Senado,Primer trámite constitucional
+17535-25,2026-09-09,Aprobado en particular,Senado,Primer trámite constitucional
+17535-25,2026-09-11,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+17535-25,2026-10-20,Aprobado en general y particular,C.Diputados,Segundo trámite constitucional
+17535-25,2026-10-20,Despachado con modificaciones a la cámara de origen,C.Diputados,Segundo trámite constitucional
+17535-25,2026-10-21,Despachado al Ejecutivo,Senado,Tercer trámite constitucional
+17535-25,2026-10-27,Enviado al Tribunal Constitucional,Senado,Trámite en Tribunal Constitucional
+17637-07,2025-06-17,Ingreso,C.Diputados,Primer trámite constitucional
+17637-07,2025-11-25,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17637-07,2025-11-25,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17657-25,2025-06-24,Ingreso,C.Diputados,Primer trámite constitucional
+17662-07,2025-06-30,Ingreso,C.Diputados,Primer trámite constitucional
+17662-07,2026-09-01,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17662-07,2026-09-01,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17671-02,2025-07-01,Ingreso,C.Diputados,Primer trámite constitucional
+17675-25,2025-07-02,Ingreso,C.Diputados,Primer trámite constitucional
+17675-25,2026-03-05,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17675-25,2026-03-05,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17690-07,2025-07-09,Ingreso,C.Diputados,Primer trámite constitucional
+17690-07,2026-04-14,Rechazado en general,C.Diputados,Primer trámite constitucional
+17702-15,2025-07-14,Ingreso,C.Diputados,Primer trámite constitucional
+17702-15,2026-01-13,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17702-15,2026-01-13,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17702-15,2026-09-02,Aprobado en general,Senado,Segundo trámite constitucional
+17720-05,2025-07-22,Ingreso,C.Diputados,Primer trámite constitucional
+17757-29,2025-08-06,Ingreso,C.Diputados,Primer trámite constitucional
+17757-29,2026-04-15,Aprobado en general,C.Diputados,Primer trámite constitucional
+17757-29,2026-09-09,Aprobado en particular,C.Diputados,Primer trámite constitucional
+17757-29,2026-09-09,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+17879-25,2025-10-05,Ingreso,Senado,Primer trámite constitucional
+17912-25,2025-10-10,Ingreso,C.Diputados,Primer trámite constitucional
+17912-25,2026-08-17,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+17912-25,2026-08-17,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18029-17,2025-12-24,Ingreso,Senado,Primer trámite constitucional
+18029-17,2026-07-08,Aprobado en general,Senado,Primer trámite constitucional
+18032-07,2026-01-05,Ingreso,C.Diputados,Primer trámite constitucional
+18032-07,2026-01-19,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18032-07,2026-01-19,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18032-07,2026-03-17,Aprobado en general y particular,Senado,Segundo trámite constitucional
+18032-07,2026-03-17,Aprobado sin modificaciones por la cámara revisora,Senado,Segundo trámite constitucional
+18155-25,2026-04-07,Ingreso,C.Diputados,Primer trámite constitucional
+18155-25,2026-05-13,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18155-25,2026-05-13,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18156-04,2026-04-07,Ingreso,C.Diputados,Primer trámite constitucional
+18156-04,2026-04-21,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18156-04,2026-04-21,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18156-04,2026-05-18,Aprobado en general,Senado,Segundo trámite constitucional
+18156-04,2026-05-19,Aprobado en general y particular,Senado,Segundo trámite constitucional
+18156-04,2026-05-20,Despachado con modificaciones a la cámara de origen,Senado,Segundo trámite constitucional
+18156-04,2026-06-02,Despachado al Ejecutivo,C.Diputados,Tercer trámite constitucional
+18161-07,2026-04-07,Ingreso,C.Diputados,Primer trámite constitucional
+18161-07,2026-05-13,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18161-07,2026-05-13,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18208-25,2026-04-20,Ingreso,Senado,Primer trámite constitucional
+18208-25,2026-09-29,Aprobado en general y particular,Senado,Primer trámite constitucional
+18208-25,2026-09-29,Despachado a la cámara revisora,Senado,Primer trámite constitucional
+18211-25,2026-04-22,Ingreso,C.Diputados,Primer trámite constitucional
+18211-25,2026-06-24,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18211-25,2026-06-24,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional insistido
+18232-25,2026-05-04,Ingreso,C.Diputados,Primer trámite constitucional
+18232-25,2026-05-18,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18232-25,2026-05-18,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18232-25,2026-05-20,Aprobado en general y particular,Senado,Segundo trámite constitucional
+18232-25,2026-05-20,Aprobado sin modificaciones por la cámara revisora,Senado,Segundo trámite constitucional
+18232-25,2626-05-25,Despachado al Ejecutivo,C.Diputados,Trámite finalización en Cámara de Origen
+18236-18,2026-05-04,Ingreso,C.Diputados,Primer trámite constitucional
+18239-36,2026-05-06,Ingreso,Senado,Primer trámite constitucional
+18257-10,2026-05-18,Ingreso,C.Diputados,Primer trámite constitucional
+18257-10,2026-06-24,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18257-10,2026-06-24,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18257-10,2026-08-19,Aprobado en general y particular,Senado,Segundo trámite constitucional
+18257-10,2026-08-19,Aprobado sin modificaciones por la cámara revisora,Senado,Segundo trámite constitucional
+18257-10,2026-09-01,Despachado al Ejecutivo,C.Diputados,Trámite finalización en Cámara de Origen
+18258-07,2026-05-18,Ingreso,C.Diputados,Primer trámite constitucional
+18258-07,2026-08-04,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18258-07,2026-08-04,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18282-07,2026-05-15,Ingreso,C.Diputados,Primer trámite constitucional
+18314-07,2026-06-08,Ingreso,C.Diputados,Primer trámite constitucional
+18314-07,2026-09-22,Rechazado en general,C.Diputados,Primer trámite constitucional
+18314-07,2026-10-07,Insistencia,Senado,Insistencia
+18315-07,2026-06-08,Ingreso,C.Diputados,Primer trámite constitucional
+18315-07,2026-10-06,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18315-07,2026-10-06,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18329-06,2026-06-05,Ingreso,C.Diputados,Primer trámite constitucional
+18341-25,2026-06-12,Ingreso,C.Diputados,Primer trámite constitucional
+18349-06,2026-06-09,Ingreso,C.Diputados,Primer trámite constitucional
+18378-18,2026-06-19,Ingreso,C.Diputados,Primer trámite constitucional
+18414-18,2026-06-22,Ingreso,C.Diputados,Primer trámite constitucional
+18420-25,2026-06-24,Ingreso,Senado,Primer trámite constitucional
+18420-25,2026-08-11,Aprobado en general,Senado,Primer trámite constitucional
+18429-10,2026-07-06,Ingreso,C.Diputados,Primer trámite constitucional
+18429-10,2026-08-19,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18429-10,2026-08-19,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18432-07,2026-06-25,Ingreso,C.Diputados,Primer trámite constitucional
+18434-07,2026-06-28,Ingreso,C.Diputados,Primer trámite constitucional
+18521-07,2026-08-03,Ingreso,C.Diputados,Primer trámite constitucional
+18525-06,2026-08-04,Ingreso,C.Diputados,Primer trámite constitucional
+18525-06,2026-08-18,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18525-06,2026-08-18,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18525-06,2026-10-21,Aprobado en general,Senado,Segundo trámite constitucional
+18525-06,2026-10-27,Aprobado en particular,Senado,Segundo trámite constitucional
+18525-06,2026-10-27,Aprobado sin modificaciones por la cámara revisora,Senado,Segundo trámite constitucional
+18544-06,2026-08-04,Ingreso,C.Diputados,Primer trámite constitucional
+18562-07,2026-08-05,Ingreso,C.Diputados,Primer trámite constitucional
+18566-07,2026-08-05,Ingreso,C.Diputados,Primer trámite constitucional
+18584-25,2026-08-17,Ingreso,C.Diputados,Primer trámite constitucional
+18584-25,2026-09-23,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18584-25,2026-09-23,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18585-25,2026-08-17,Ingreso,C.Diputados,Primer trámite constitucional
+18585-25,2026-09-21,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18585-25,2026-09-21,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional
+18590-07,2026-08-10,Ingreso,C.Diputados,Primer trámite constitucional
+18597-07,2026-08-18,Ingreso,Senado,Primer trámite constitucional
+18621-34,2026-08-31,Ingreso,C.Diputados,Primer trámite constitucional
+18656-01,2026-08-24,Ingreso,C.Diputados,Primer trámite constitucional
+18709-07,2026-10-05,Ingreso,C.Diputados,Primer trámite constitucional
+18709-07,2026-10-21,Aprobado en general y particular,C.Diputados,Primer trámite constitucional
+18709-07,2026-10-21,Despachado a la cámara revisora,C.Diputados,Primer trámite constitucional

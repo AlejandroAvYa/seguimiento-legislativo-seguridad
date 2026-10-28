@@ -1,0 +1,69 @@
+name: Resumen diario e informe semanal
+
+on:
+  schedule:
+    - cron: "5 11 * * 1-5"     # lunes a viernes 11:05 UTC (08:05 en horario de verano de Chile; 07:05 en invierno)
+  workflow_dispatch:
+    inputs:
+      informe:
+        description: "Generar también el informe semanal en Word"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  reportes:
+    runs-on: ${{ vars.EJECUTOR || 'ubuntu-latest' }}
+    timeout-minutes: 15
+    env:
+      ALERTA_DESTINATARIOS: ${{ secrets.ALERTA_DESTINATARIOS }}
+      ALERTA_SMTP_HOST: ${{ secrets.ALERTA_SMTP_HOST }}
+      ALERTA_SMTP_PUERTO: ${{ secrets.ALERTA_SMTP_PUERTO }}
+      ALERTA_SMTP_USUARIO: ${{ secrets.ALERTA_SMTP_USUARIO }}
+      ALERTA_SMTP_CLAVE: ${{ secrets.ALERTA_SMTP_CLAVE }}
+      ALERTA_REMITENTE: ${{ secrets.ALERTA_REMITENTE }}
+      ALERTA_TEAMS_WEBHOOK: ${{ secrets.ALERTA_TEAMS_WEBHOOK }}
+      ALERTA_URL_DASHBOARD: ${{ vars.URL_DASHBOARD }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Informe semanal en Word (lunes o a pedido)
+        id: informe
+        run: |
+          if [ "$(TZ=America/Santiago date +%u)" = "1" ] || [ "${{ inputs.informe }}" = "true" ]; then
+            ruta=$(python scripts/informe_semanal.py | tail -1)
+            echo "ruta=${ruta#$GITHUB_WORKSPACE/}" >> "$GITHUB_OUTPUT"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add informes
+            git commit -m "Informe semanal $(TZ=America/Santiago date '+%Y-%m-%d')" || true
+            git pull --rebase && git push
+          fi
+
+      - name: Enviar resumen diario (con el informe adjunto si corresponde)
+        run: |
+          if [ -n "${{ steps.informe.outputs.ruta }}" ]; then
+            python scripts/alertas.py --resumen-diario --adjunto "${{ steps.informe.outputs.ruta }}"
+          else
+            python scripts/alertas.py --resumen-diario
+          fi
+
+      - name: Guardar el informe como archivo descargable de la ejecución
+        if: steps.informe.outputs.ruta != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-semanal
+          path: ${{ steps.informe.outputs.ruta }}

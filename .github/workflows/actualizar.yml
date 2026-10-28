@@ -1,0 +1,81 @@
+name: Actualizar proyectos de ley
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # cada hora, al minuto 17 (hora UTC)
+  workflow_dispatch:           # botón "Run workflow" para ejecutarlo a mano
+
+permissions:
+  contents: write              # para guardar los datos actualizados
+  issues: write                # para avisar candidatos nuevos
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  actualizar:
+    # Por defecto corre en los servidores de GitHub. Para usar un computador propio en Chile,
+    # crear la variable del repositorio EJECUTOR con el valor self-hosted (ver README).
+    runs-on: ${{ vars.EJECUTOR || 'ubuntu-latest' }}
+    timeout-minutes: 30
+    env:
+      ALERTA_DESTINATARIOS: ${{ secrets.ALERTA_DESTINATARIOS }}
+      ALERTA_SMTP_HOST: ${{ secrets.ALERTA_SMTP_HOST }}
+      ALERTA_SMTP_PUERTO: ${{ secrets.ALERTA_SMTP_PUERTO }}
+      ALERTA_SMTP_USUARIO: ${{ secrets.ALERTA_SMTP_USUARIO }}
+      ALERTA_SMTP_CLAVE: ${{ secrets.ALERTA_SMTP_CLAVE }}
+      ALERTA_REMITENTE: ${{ secrets.ALERTA_REMITENTE }}
+      ALERTA_TEAMS_WEBHOOK: ${{ secrets.ALERTA_TEAMS_WEBHOOK }}
+      ALERTA_URL_DASHBOARD: ${{ vars.URL_DASHBOARD }}
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Pruebas
+        run: python -m unittest discover -s tests
+
+      - name: Consultar Senado y Cámara y actualizar datos
+        run: python scripts/actualizar.py
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos."
+            exit 0
+          fi
+          git commit -m "Datos actualizados $(TZ=America/Santiago date '+%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push
+
+      - name: Avisar cambios relevantes (correo / Teams)
+        continue-on-error: true
+        run: python scripts/alertas.py --cambios
+
+      - name: Avisar candidatos nuevos (issue)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f salida/alerta_candidatos.md ]; then
+            gh issue create \
+              --title "Candidatos nuevos para revisar ($(TZ=America/Santiago date '+%d-%m-%Y'))" \
+              --body-file salida/alerta_candidatos.md
+          else
+            echo "No hay candidatos nuevos."
+          fi

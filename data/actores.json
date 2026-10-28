@@ -1,0 +1,3934 @@
+{
+ "autores_mociones": [
+  {
+   "nombre": "Schalper Sepúlveda, Diego",
+   "n_proyectos": 16,
+   "proyectos": [
+    "15258-25",
+    "15261-25",
+    "15308-07",
+    "15589-07",
+    "16300-07",
+    "16569-25",
+    "16791-07",
+    "17044-02",
+    "17170-07",
+    "17235-07",
+    "17662-07",
+    "17675-25",
+    "17912-25",
+    "18432-07",
+    "18434-07",
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Longton Herrera, Andrés",
+   "n_proyectos": 14,
+   "proyectos": [
+    "15261-25",
+    "15308-07",
+    "15589-07",
+    "16300-07",
+    "16569-25",
+    "16791-07",
+    "16944-25",
+    "16948-07",
+    "17170-07",
+    "17403-07",
+    "17474-06",
+    "17637-07",
+    "17662-07",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Alessandri Vergara, Jorge",
+   "n_proyectos": 11,
+   "proyectos": [
+    "11870-04",
+    "15261-25",
+    "15308-07",
+    "16569-25",
+    "16948-07",
+    "17044-02",
+    "17170-07",
+    "17474-06",
+    "17675-25",
+    "17912-25",
+    "18329-06"
+   ]
+  },
+  {
+   "nombre": "Araya Guerrero, Jaime",
+   "n_proyectos": 11,
+   "proyectos": [
+    "15261-25",
+    "15308-07",
+    "16300-07",
+    "16569-25",
+    "16944-25",
+    "17125-25",
+    "17246-15",
+    "17403-07",
+    "17675-25",
+    "17912-25",
+    "18434-07"
+   ]
+  },
+  {
+   "nombre": "Castro Bascuñán, José Miguel",
+   "n_proyectos": 11,
+   "proyectos": [
+    "15258-25",
+    "15261-25",
+    "15308-07",
+    "15589-07",
+    "16300-07",
+    "16569-25",
+    "16944-25",
+    "17044-02",
+    "17235-07",
+    "17403-07",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Araya Lerdo de Tejada, Cristián",
+   "n_proyectos": 9,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16808-25",
+    "16877-07",
+    "16944-25",
+    "16948-07",
+    "17675-25",
+    "17690-07",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Jouannet Valderrama, Andrés",
+   "n_proyectos": 9,
+   "proyectos": [
+    "15261-25",
+    "16300-07",
+    "16569-25",
+    "16944-25",
+    "17044-02",
+    "17403-07",
+    "17671-02",
+    "17690-07",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Becker Alvear, Miguel Ángel",
+   "n_proyectos": 8,
+   "proyectos": [
+    "15589-07",
+    "16300-07",
+    "16791-07",
+    "16948-07",
+    "17403-07",
+    "17474-06",
+    "17671-02",
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Durán Salinas, Eduardo",
+   "n_proyectos": 7,
+   "proyectos": [
+    "17235-07",
+    "17662-07",
+    "18236-18",
+    "18349-06",
+    "18414-18",
+    "18434-07",
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Flores G., Iván",
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Naveillan Arriagada, Gloria",
+   "n_proyectos": 7,
+   "proyectos": [
+    "16857-07",
+    "17170-07",
+    "17403-07",
+    "17486-07",
+    "17637-07",
+    "17720-05",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Ossandón Irarrázabal, Ximena",
+   "n_proyectos": 7,
+   "proyectos": [
+    "15589-07",
+    "16300-07",
+    "17662-07",
+    "18282-07",
+    "18432-07",
+    "18544-06",
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Sanhueza D., Gustavo",
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Sepúlveda O., Alejandra",
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Van Rysselberghe H., Enrique",
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Barchiesi Chávez, Chiara",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15630-07",
+    "16808-25",
+    "16857-07",
+    "16858-15",
+    "16944-25",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Del Real Mihovilovic, Catalina",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15261-25",
+    "15589-07",
+    "16808-25",
+    "16857-07",
+    "16858-15",
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Flores Oporto, Camila",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15589-07",
+    "16300-07",
+    "16569-25",
+    "17235-07",
+    "17662-07",
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Gahona S., Sergio",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Keitel B., Sebastián",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Kuschel S., Carlos Ignacio",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Labra Besserer, Paula",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15258-25",
+    "15308-07",
+    "16858-15",
+    "17170-07",
+    "17486-07",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Moreira B., Iván",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Ossandón I., Manuel José",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Ossandón Irarrázabal, Manuel José",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "16430-07",
+    "16481-25",
+    "16703-25",
+    "16741-15",
+    "18239-36"
+   ]
+  },
+  {
+   "nombre": "Pérez Olea, Joanna",
+   "n_proyectos": 6,
+   "proyectos": [
+    "16773-07",
+    "16948-07",
+    "18329-06",
+    "18349-06",
+    "18544-06",
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Romero Leiva, Agustín",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16808-25",
+    "16877-07",
+    "16944-25",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Sánchez Ossa, Luis",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16808-25",
+    "16877-07",
+    "16944-25",
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Velásquez N., Esteban",
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Castro G., Juan Luis",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Celis Montt, Andrés",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15308-07",
+    "15589-07",
+    "18432-07",
+    "18434-07",
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Coloma C., Juan Antonio",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "De Urresti L., Alfonso",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Fuenzalida Cobo, Juan",
+   "n_proyectos": 5,
+   "proyectos": [
+    "11870-04",
+    "16948-07",
+    "17111-07",
+    "17474-06",
+    "17657-25"
+   ]
+  },
+  {
+   "nombre": "González Villarroel, Mauro",
+   "n_proyectos": 5,
+   "proyectos": [
+    "16791-07",
+    "17403-07",
+    "17662-07",
+    "18432-07",
+    "18434-07"
+   ]
+  },
+  {
+   "nombre": "Jürgensen Rundshagen, Harry",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15630-07",
+    "16857-07",
+    "17170-07",
+    "17486-07",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Kusanovic G., Alejandro",
+   "n_proyectos": 5,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Latorre R., Juan Ignacio",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Leiva Carvajal, Raúl",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15308-07",
+    "17637-07",
+    "17675-25",
+    "17912-25",
+    "18434-07"
+   ]
+  },
+  {
+   "nombre": "Morales Maldonado, Carla",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15258-25",
+    "15589-07",
+    "16858-15",
+    "17235-07",
+    "17662-07"
+   ]
+  },
+  {
+   "nombre": "Moreno Bascur, Benjamín",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16808-25",
+    "16944-25",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Ordenes N., Ximena",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Pascual G., Claudia",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Provoste C., Yasna",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Pugh O., Kenneth",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Rincón G., Ximena",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Saavedra C., Gastón",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Schubert Rubio, Stephan",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15295-07",
+    "16791-07",
+    "16808-25",
+    "16857-07",
+    "16858-15"
+   ]
+  },
+  {
+   "nombre": "Urruticoechea Ríos, Cristóbal",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16857-07",
+    "16858-15",
+    "17170-07"
+   ]
+  },
+  {
+   "nombre": "Walker P., Matías",
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Weisse Novoa, Flor",
+   "n_proyectos": 5,
+   "proyectos": [
+    "16857-07",
+    "17111-07",
+    "17486-07",
+    "17657-25",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Beltrán Silva, Juan Carlos",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15258-25",
+    "17235-07",
+    "17403-07",
+    "18434-07"
+   ]
+  },
+  {
+   "nombre": "Chahuán C., Francisco",
+   "n_proyectos": 4,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Cruz-Coke C., Luciano",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Durana S., José Miguel",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Ebensperger O., Luz Eliana",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Edwards ., Rojo",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Flores García, Iván",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15817-07",
+    "16703-25",
+    "16741-15",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Galilea V., Rodrigo",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "García R., José",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Lilayu Vivanco, Daniel",
+   "n_proyectos": 4,
+   "proyectos": [
+    "16858-15",
+    "17111-07",
+    "17657-25",
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Macaya D., Javier",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Mellado Suazo, Miguel",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15258-25",
+    "16569-25",
+    "17235-07",
+    "17662-07"
+   ]
+  },
+  {
+   "nombre": "Meza Pereira, José Carlos",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15295-07",
+    "15630-07",
+    "16808-25",
+    "16948-07"
+   ]
+  },
+  {
+   "nombre": "Moreira Barros, Cristhian",
+   "n_proyectos": 4,
+   "proyectos": [
+    "11870-04",
+    "17657-25",
+    "17671-02",
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Núñez A., Daniel",
+   "n_proyectos": 4,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Orrego Gutiérrez, Francisco",
+   "n_proyectos": 4,
+   "proyectos": [
+    "18329-06",
+    "18432-07",
+    "18544-06",
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Prohens E., Rafael",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Rey Martínez, Hugo",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15258-25",
+    "17486-07",
+    "17662-07",
+    "17912-25"
+   ]
+  },
+  {
+   "nombre": "Santibáñez Novoa, Marisela",
+   "n_proyectos": 4,
+   "proyectos": [
+    "17170-07",
+    "17757-29",
+    "18236-18",
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Undurraga Gazitúa, Francisco",
+   "n_proyectos": 4,
+   "proyectos": [
+    "17044-02",
+    "17474-06",
+    "17690-07",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Vodanovic R., Paulina",
+   "n_proyectos": 4,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Aravena A., Carmen Gloria",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15347-07",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Bianchi R., Karim",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25"
+   ]
+  },
+  {
+   "nombre": "Bobadilla Muñoz, Sergio",
+   "n_proyectos": 3,
+   "proyectos": [
+    "11870-04",
+    "17111-07",
+    "17474-06"
+   ]
+  },
+  {
+   "nombre": "Briones Moller, Patricio",
+   "n_proyectos": 3,
+   "proyectos": [
+    "18211-25",
+    "18329-06",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Bórquez Montecinos, Fernando",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17111-07",
+    "17474-06",
+    "17657-25"
+   ]
+  },
+  {
+   "nombre": "Calisto Águila, Miguel Ángel",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16773-07",
+    "16791-07",
+    "17044-02"
+   ]
+  },
+  {
+   "nombre": "Camaño Cárdenas, Felipe",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17246-15",
+    "18414-18",
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Campillai R., Fabiola",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Castro P., Juan",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15347-07",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Cid Versalovic, Sofía",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15258-25",
+    "15261-25",
+    "16300-07"
+   ]
+  },
+  {
+   "nombre": "Concha Smith, Sara",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15258-25",
+    "16858-15",
+    "18236-18"
+   ]
+  },
+  {
+   "nombre": "Espinoza S., Fidel",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16481-25",
+    "16703-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Gatica B., María José",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "González Olea, Marta",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16858-15",
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Irarrázaval Rossel, Juan",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15295-07",
+    "16808-25",
+    "16877-07"
+   ]
+  },
+  {
+   "nombre": "Jiles Moreno, Pamela",
+   "n_proyectos": 3,
+   "proyectos": [
+    "18161-07",
+    "18562-07",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Lagos W., Ricardo",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15347-07",
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Marzán Pinto, Carolina",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17125-25",
+    "17246-15",
+    "17486-07"
+   ]
+  },
+  {
+   "nombre": "Mora Vega, Claudia",
+   "n_proyectos": 3,
+   "proyectos": [
+    "18349-06",
+    "18414-18",
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Olmos Contreras, Paula",
+   "n_proyectos": 3,
+   "proyectos": [
+    "18161-07",
+    "18211-25",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Placencia Cabello, Alejandra",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17637-07",
+    "17675-25",
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Quintana L., Jaime",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15347-07",
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Raphael Mora, Marcia",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15308-07",
+    "17235-07",
+    "17662-07"
+   ]
+  },
+  {
+   "nombre": "Rathgeb Schifferli, Jorge",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16569-25",
+    "17170-07",
+    "17486-07"
+   ]
+  },
+  {
+   "nombre": "Romero Sáez, Leonidas",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15630-07",
+    "16791-07",
+    "17235-07"
+   ]
+  },
+  {
+   "nombre": "Romero Talguia, Natalia",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17111-07",
+    "17657-25",
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Sandoval P., David",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16569-25",
+    "16703-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Sauerbaum Muñoz, Frank",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15258-25",
+    "17235-07",
+    "17474-06"
+   ]
+  },
+  {
+   "nombre": "Sulantay Olivares, Marco Antonio",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17111-07",
+    "17657-25",
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Tapia Ramos, Cristián",
+   "n_proyectos": 3,
+   "proyectos": [
+    "17125-25",
+    "17246-15",
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Trisotti Martínez, Renzo",
+   "n_proyectos": 3,
+   "proyectos": [
+    "16808-25",
+    "16948-07",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Ulloa Aguilera, Héctor",
+   "n_proyectos": 3,
+   "proyectos": [
+    "15905-25",
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Urqueta Rojas, Eileen",
+   "n_proyectos": 3,
+   "proyectos": [
+    "18161-07",
+    "18236-18",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Ahumada Palma, Yovana",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "16773-07"
+   ]
+  },
+  {
+   "nombre": "Allende B., Isabel",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Araya G., Pedro",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16569-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Arroyo Muñoz, Roberto",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16791-07",
+    "17671-02"
+   ]
+  },
+  {
+   "nombre": "Astudillo P., Danisa",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Balladares L., Andrea",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Becerra Peña, Valentina",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18236-18",
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Becker A., Miguel Ángel",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Berger Fett, Bernardo",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16948-07",
+    "17474-06"
+   ]
+  },
+  {
+   "nombre": "Bianchi Chelech, Carlos",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Bravo Salinas, Marta",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16857-07",
+    "17657-25"
+   ]
+  },
+  {
+   "nombre": "Carvajal A., Loreto",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16569-25",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Castro González, Juan Luis",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "16430-07"
+   ]
+  },
+  {
+   "nombre": "Coloma Alamos, Juan Antonio",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17474-06",
+    "17657-25"
+   ]
+  },
+  {
+   "nombre": "Coloma Álamos, Jaime",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18329-06",
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "De Rementería V., Tomás",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16481-25",
+    "16569-25"
+   ]
+  },
+  {
+   "nombre": "Galilea Vial, Rodrigo",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15631-07",
+    "16481-25"
+   ]
+  },
+  {
+   "nombre": "Huenchumilla J., Francisco",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15347-07",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Huenchumilla Jaramillo, Francisco",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15347-07",
+    "15817-07"
+   ]
+  },
+  {
+   "nombre": "Ibáñez C., Diego",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Insulza S., José Miguel",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Jofré Cáceres, Álvaro",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18329-06",
+    "18349-06"
+   ]
+  },
+  {
+   "nombre": "Kaiser Barents-Von Hohenhagen, Johannes",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15295-07",
+    "16948-07"
+   ]
+  },
+  {
+   "nombre": "Leal Bizama, Henry",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16944-25",
+    "17170-07"
+   ]
+  },
+  {
+   "nombre": "Lee F., Enrique",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Lee Flores, Enrique",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17671-02",
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Macaya Danús, Javier",
+   "n_proyectos": 2,
+   "proyectos": [
+    "11870-04",
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Matheson Villán, Christian",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17671-02",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Mirosevic V., Vlado",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Molina Milman, Helia",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Mulet Martínez, Jaime",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17757-29",
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Musante Müller, Camila",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Muñoz González, Francesca",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "18236-18"
+   ]
+  },
+  {
+   "nombre": "Muñoz Minte, Paulina",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18236-18",
+    "18329-06"
+   ]
+  },
+  {
+   "nombre": "Núñez U., Paulina",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16481-25",
+    "16569-25"
+   ]
+  },
+  {
+   "nombre": "Núñez Urrutia, Paulina",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16703-25",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Olivares Avendaño, Javier",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18211-25",
+    "18349-06"
+   ]
+  },
+  {
+   "nombre": "Orsini Pascal, Maite",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16858-15",
+    "17675-25"
+   ]
+  },
+  {
+   "nombre": "Pardo Sáinz, Luis",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18432-07",
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Pino Fuentes, Víctor Alejandro",
+   "n_proyectos": 2,
+   "proyectos": [
+    "16300-07",
+    "16773-07"
+   ]
+  },
+  {
+   "nombre": "Pugh Olavarría, Kenneth",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15347-07",
+    "16481-25"
+   ]
+  },
+  {
+   "nombre": "Ramírez Ramírez, Tamara",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18211-25",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Ross Correa, Felipe",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18329-06",
+    "18349-06"
+   ]
+  },
+  {
+   "nombre": "Sepúlveda Soto, Alexis",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17044-02",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Soto Mardones, Raúl",
+   "n_proyectos": 2,
+   "proyectos": [
+    "17125-25",
+    "17246-15"
+   ]
+  },
+  {
+   "nombre": "Squella O., Arturo",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Sánchez M., Beatriz",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Urrutia B., Ignacio",
+   "n_proyectos": 2,
+   "proyectos": [
+    "15850-11",
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Valenzuela Henríquez, Juan",
+   "n_proyectos": 2,
+   "proyectos": [
+    "18211-25",
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Von Mühlenbrock Zamora, Gastón",
+   "n_proyectos": 2,
+   "proyectos": [
+    "11870-04",
+    "17720-05"
+   ]
+  },
+  {
+   "nombre": "Acevedo Sáez, María Candelaria",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16791-07"
+   ]
+  },
+  {
+   "nombre": "Aedo Jeldres, Eric",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Alinco Bustos, René",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17486-07"
+   ]
+  },
+  {
+   "nombre": "Araya Guerrero, Pedro",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15631-07"
+   ]
+  },
+  {
+   "nombre": "Balladares Letelier, Andrea",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18239-36"
+   ]
+  },
+  {
+   "nombre": "Barrera Moreno, Boris",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Bello Campos, María Francisca",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16857-07"
+   ]
+  },
+  {
+   "nombre": "Benavente Vergara, Gustavo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17111-07"
+   ]
+  },
+  {
+   "nombre": "Betancurt Delgado, Lilian",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18161-07"
+   ]
+  },
+  {
+   "nombre": "Calisto Á., Miguel Ángel",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Cariola O., Karol",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Carter F., Rodolfo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Carter Fernández, Álvaro",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17690-07"
+   ]
+  },
+  {
+   "nombre": "Castillo Gerli, Priscilla",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Castro Prieto, Juan",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Celis A., Ricardo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Chahuán Chahuán, Francisco",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Chandía Alarcón, Carlos",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Charpentier Rajcevich, Paz",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Cicardini M., Daniella",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Contreras Vivallo, Flor",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Cordero Velásquez, María Luisa",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15589-07"
+   ]
+  },
+  {
+   "nombre": "Cornejo Lagos, Eduardo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17111-07"
+   ]
+  },
+  {
+   "nombre": "Cretton Rebolledo, Eduardo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Crisóstomo Llanos, Francisco",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18590-07"
+   ]
+  },
+  {
+   "nombre": "Cucumides Calderón, Carolina",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18590-07"
+   ]
+  },
+  {
+   "nombre": "Cuello Peña Y Lillo, Luis",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "De la Carrera Correa, Gonzalo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15295-07"
+   ]
+  },
+  {
+   "nombre": "Donoso Castro, Felipe",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17657-25"
+   ]
+  },
+  {
+   "nombre": "Durana Semir, José Miguel",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Ebensperger Orrego, Luz Eliana",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15631-07"
+   ]
+  },
+  {
+   "nombre": "Flores O., Camila",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Fries Monleón, Lorena",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17637-07"
+   ]
+  },
+  {
+   "nombre": "García Ruminot, José",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16481-25"
+   ]
+  },
+  {
+   "nombre": "Gatica Bertin, María José",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18239-36"
+   ]
+  },
+  {
+   "nombre": "Guzmán Zepeda, Jorge",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Hernando Pérez, Marcela",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Ilabaca Cerda, Marcos",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18590-07"
+   ]
+  },
+  {
+   "nombre": "Insulza Salinas, José Miguel",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15347-07"
+   ]
+  },
+  {
+   "nombre": "Jéldrez Ortiz, Stephanie",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Kaiser B., Vanessa",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17702-15"
+   ]
+  },
+  {
+   "nombre": "Kaiser Barents-Von Hohenhagen, Vanessa",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18239-36"
+   ]
+  },
+  {
+   "nombre": "Kast Adriasola, José",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18329-06"
+   ]
+  },
+  {
+   "nombre": "Kast S., Felipe",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Kast Sommerhoff, Felipe",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15817-07"
+   ]
+  },
+  {
+   "nombre": "Keitel Bianchi, Sebastián",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16741-15"
+   ]
+  },
+  {
+   "nombre": "Kuschel Silva, Carlos Ignacio",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Labbé Martínez, Cristian",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17111-07"
+   ]
+  },
+  {
+   "nombre": "Latorre Riveros, Juan Ignacio",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Longton H., Andrés",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Lorca Inzunza, Benjamín",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18282-07"
+   ]
+  },
+  {
+   "nombre": "Malla Valenzuela, Luis",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17637-07"
+   ]
+  },
+  {
+   "nombre": "Martínez Ramírez, Cristóbal",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Medina Vásquez, Karen",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17044-02"
+   ]
+  },
+  {
+   "nombre": "Melero Abaroa, Patricio",
+   "n_proyectos": 1,
+   "proyectos": [
+    "11870-04"
+   ]
+  },
+  {
+   "nombre": "Melo Contreras, Daniel",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17675-25"
+   ]
+  },
+  {
+   "nombre": "Mirosevic Verdugo, Vlado",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17637-07"
+   ]
+  },
+  {
+   "nombre": "Morales Alvarado, Javiera",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17637-07"
+   ]
+  },
+  {
+   "nombre": "Moreira Barros, Iván",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Muñoz Riquelme, Javier",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18562-07"
+   ]
+  },
+  {
+   "nombre": "Nahuelquín Nahuelquín, Alex",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Naranjo Pinto, Ximena",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18236-18"
+   ]
+  },
+  {
+   "nombre": "Neumann Bertín, Ricardo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Noman Garrido, Nicolás",
+   "n_proyectos": 1,
+   "proyectos": [
+    "11870-04"
+   ]
+  },
+  {
+   "nombre": "Olavarría Rodríguez, Mario",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18349-06"
+   ]
+  },
+  {
+   "nombre": "Olivera De La Fuente, Erika",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16773-07"
+   ]
+  },
+  {
+   "nombre": "Ordenes Neira, Ximena",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Ossandón Briceño, Fabián",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18566-07"
+   ]
+  },
+  {
+   "nombre": "Oyarzo Figueroa, Rubén Dario",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17044-02"
+   ]
+  },
+  {
+   "nombre": "Parisi Fernández, Zandra",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Pinilla Valencia, Patricio",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18590-07"
+   ]
+  },
+  {
+   "nombre": "Prohens Espinosa, Rafael",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16481-25"
+   ]
+  },
+  {
+   "nombre": "Provoste Campillay, Yasna",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16741-15"
+   ]
+  },
+  {
+   "nombre": "Pérez Cartes, Marlene",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Quintana Leal, Jaime",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15347-07"
+   ]
+  },
+  {
+   "nombre": "Reyes Larenas, Claudia",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18414-18"
+   ]
+  },
+  {
+   "nombre": "Rincón González, Ximena",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15631-07"
+   ]
+  },
+  {
+   "nombre": "Riquelme Aliaga, Marcela",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17044-02"
+   ]
+  },
+  {
+   "nombre": "Rodríguez Pascual, Javiera",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18236-18"
+   ]
+  },
+  {
+   "nombre": "Rosas Barrientos, Patricio",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17486-07"
+   ]
+  },
+  {
+   "nombre": "Sabat Guzmán, Omar",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Saffirio Espinoza, Jorge",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16773-07"
+   ]
+  },
+  {
+   "nombre": "Sagardia Cabezas, Clara",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16791-07"
+   ]
+  },
+  {
+   "nombre": "Sanhueza Dueñas, Gustavo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "11870-04"
+   ]
+  },
+  {
+   "nombre": "Santana Castillo, Juan",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Schonhaut Soto, Constanza",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18590-07"
+   ]
+  },
+  {
+   "nombre": "Serrano Salazar, Daniela",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  },
+  {
+   "nombre": "Soria Q., Jorge",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Soto Ferrada, Leonardo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17675-25"
+   ]
+  },
+  {
+   "nombre": "Teao Drago, Hotuiti",
+   "n_proyectos": 1,
+   "proyectos": [
+    "16857-07"
+   ]
+  },
+  {
+   "nombre": "Trisotti M., Renzo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Urrutia Herrera, Tatiana",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18282-07"
+   ]
+  },
+  {
+   "nombre": "Urrutia Soto, Osvaldo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "11870-04"
+   ]
+  },
+  {
+   "nombre": "Valdebenito Torres, Alejandra",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18656-01"
+   ]
+  },
+  {
+   "nombre": "Valdés Carmona, Guillermo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18211-25"
+   ]
+  },
+  {
+   "nombre": "Valenzuela Maass, César",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18282-07"
+   ]
+  },
+  {
+   "nombre": "Valenzuela Salazar, Daniel",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18544-06"
+   ]
+  },
+  {
+   "nombre": "Van Rysselberghe Herrera, Enrique",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18239-36"
+   ]
+  },
+  {
+   "nombre": "Veloso Ávila, Consuelo",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18236-18"
+   ]
+  },
+  {
+   "nombre": "Vial Maceratta, Cristian",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Videla Castillo, Sebastián",
+   "n_proyectos": 1,
+   "proyectos": [
+    "18329-06"
+   ]
+  },
+  {
+   "nombre": "Walker Prieto, Matías",
+   "n_proyectos": 1,
+   "proyectos": [
+    "15631-07"
+   ]
+  },
+  {
+   "nombre": "Yeomans Araya, Gael",
+   "n_proyectos": 1,
+   "proyectos": [
+    "17757-29"
+   ]
+  }
+ ],
+ "autores_indicaciones_senado": [
+  {
+   "nombre": "Presidente de la República",
+   "n_indicaciones": 253,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15261-25",
+    "15589-07",
+    "15805-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16836-06",
+    "17246-15",
+    "17441-15",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Ossandón",
+   "n_indicaciones": 142,
+   "n_proyectos": 4,
+   "proyectos": [
+    "15805-07",
+    "15975-25",
+    "16143-02",
+    "18525-06"
+   ]
+  },
+  {
+   "nombre": "Macaya",
+   "n_indicaciones": 110,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Aravena",
+   "n_indicaciones": 85,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Edwards",
+   "n_indicaciones": 84,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Pugh",
+   "n_indicaciones": 82,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Araya",
+   "n_indicaciones": 65,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Saavedra",
+   "n_indicaciones": 63,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15805-07",
+    "15975-25",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Vodanovic",
+   "n_indicaciones": 61,
+   "n_proyectos": 5,
+   "proyectos": [
+    "15589-07",
+    "15805-07",
+    "15975-25",
+    "17246-15",
+    "17441-15"
+   ]
+  },
+  {
+   "nombre": "Núñez",
+   "n_indicaciones": 54,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15805-07",
+    "16481-25",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Pascual",
+   "n_indicaciones": 50,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15261-25",
+    "15589-07",
+    "15805-07",
+    "16143-02",
+    "16481-25",
+    "16836-06",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Ebensperger",
+   "n_indicaciones": 50,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Coloma",
+   "n_indicaciones": 42,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15975-25",
+    "16569-25",
+    "16984-25"
+   ]
+  },
+  {
+   "nombre": "Durana",
+   "n_indicaciones": 37,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "15975-25"
+   ]
+  },
+  {
+   "nombre": "Flores",
+   "n_indicaciones": 37,
+   "n_proyectos": 4,
+   "proyectos": [
+    "15805-07",
+    "16143-02",
+    "16703-25",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Quintana",
+   "n_indicaciones": 34,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15805-07"
+   ]
+  },
+  {
+   "nombre": "Huenchumilla",
+   "n_indicaciones": 31,
+   "n_proyectos": 1,
+   "proyectos": [
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "García",
+   "n_indicaciones": 25,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "Vial",
+   "n_indicaciones": 23,
+   "n_proyectos": 3,
+   "proyectos": [
+    "16143-02",
+    "18029-17",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Longton",
+   "n_indicaciones": 18,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15589-07"
+   ]
+  },
+  {
+   "nombre": "Kusanovic",
+   "n_indicaciones": 16,
+   "n_proyectos": 4,
+   "proyectos": [
+    "15805-07",
+    "17246-15",
+    "17441-15",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Sánchez",
+   "n_indicaciones": 15,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "15589-07"
+   ]
+  },
+  {
+   "nombre": "Rincón",
+   "n_indicaciones": 14,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15805-07"
+   ]
+  },
+  {
+   "nombre": "Walker",
+   "n_indicaciones": 14,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15805-07"
+   ]
+  },
+  {
+   "nombre": "Kuschel",
+   "n_indicaciones": 14,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15805-07",
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Calisto",
+   "n_indicaciones": 12,
+   "n_proyectos": 1,
+   "proyectos": [
+    "18420-25"
+   ]
+  },
+  {
+   "nombre": "Chahuán",
+   "n_indicaciones": 10,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15805-07",
+    "16569-25",
+    "16984-25"
+   ]
+  },
+  {
+   "nombre": "Velásquez",
+   "n_indicaciones": 8,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "16836-06"
+   ]
+  },
+  {
+   "nombre": "Galilea",
+   "n_indicaciones": 8,
+   "n_proyectos": 2,
+   "proyectos": [
+    "16569-25",
+    "16984-25"
+   ]
+  },
+  {
+   "nombre": "Astudillo",
+   "n_indicaciones": 7,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "16836-06"
+   ]
+  },
+  {
+   "nombre": "Gahona",
+   "n_indicaciones": 7,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15850-11"
+   ]
+  },
+  {
+   "nombre": "Trisotti",
+   "n_indicaciones": 6,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15261-25",
+    "16836-06"
+   ]
+  },
+  {
+   "nombre": "Campillai",
+   "n_indicaciones": 6,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15805-07"
+   ]
+  },
+  {
+   "nombre": "Becker",
+   "n_indicaciones": 5,
+   "n_proyectos": 1,
+   "proyectos": [
+    "18525-06"
+   ]
+  },
+  {
+   "nombre": "Gatica",
+   "n_indicaciones": 2,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15805-07"
+   ]
+  },
+  {
+   "nombre": "Kast",
+   "n_indicaciones": 2,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15975-25"
+   ]
+  },
+  {
+   "nombre": "Van Rysselberghe",
+   "n_indicaciones": 2,
+   "n_proyectos": 2,
+   "proyectos": [
+    "17246-15",
+    "17441-15"
+   ]
+  },
+  {
+   "nombre": "Kaiser",
+   "n_indicaciones": 2,
+   "n_proyectos": 1,
+   "proyectos": [
+    "18525-06"
+   ]
+  },
+  {
+   "nombre": "Provoste",
+   "n_indicaciones": 1,
+   "n_proyectos": 1,
+   "proyectos": [
+    "15261-25"
+   ]
+  },
+  {
+   "nombre": "Ossandón para contemplarlo",
+   "n_indicaciones": 1,
+   "n_proyectos": 1,
+   "proyectos": [
+    "16143-02"
+   ]
+  },
+  {
+   "nombre": "a continuación del artículo 14",
+   "n_indicaciones": 1,
+   "n_proyectos": 1,
+   "proyectos": [
+    "16143-02"
+   ]
+  }
+ ],
+ "votos_senadores": [
+  {
+   "nombre": "Sepúlveda O., Alejandra",
+   "si": 20,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 15,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Kuschel S., Carlos Ignacio",
+   "si": 16,
+   "no": 4,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 15,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Flores G., Iván",
+   "si": 18,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 14,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Moreira B., Iván",
+   "si": 16,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 14,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Pascual G., Claudia",
+   "si": 15,
+   "no": 0,
+   "abstencion": 3,
+   "otros": 0,
+   "n_proyectos": 14,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Sanhueza D., Gustavo",
+   "si": 15,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 14,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Van Rysselberghe H., Enrique",
+   "si": 16,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 14,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Provoste C., Yasna",
+   "si": 15,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Walker P., Matías",
+   "si": 16,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 12,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Edwards ., Rojo",
+   "si": 13,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Ossandón I., Manuel José",
+   "si": 14,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 13,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Kusanovic G., Alejandro",
+   "si": 11,
+   "no": 1,
+   "abstencion": 2,
+   "otros": 1,
+   "n_proyectos": 12,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Keitel B., Sebastián",
+   "si": 12,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 2,
+   "n_proyectos": 12,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25"
+   ]
+  },
+  {
+   "nombre": "De Urresti L., Alfonso",
+   "si": 13,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 10,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17702-15",
+    "18029-17",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Gahona S., Sergio",
+   "si": 12,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 4,
+   "n_proyectos": 13,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17246-15",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Gatica B., María José",
+   "si": 12,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Velásquez N., Esteban",
+   "si": 13,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 2,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Saavedra C., Gastón",
+   "si": 13,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 12,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16481-25",
+    "16569-25",
+    "16836-06",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Ordenes N., Ximena",
+   "si": 11,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 12,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25"
+   ]
+  },
+  {
+   "nombre": "Macaya D., Javier",
+   "si": 11,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 10,
+   "proyectos": [
+    "15850-11",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17371-25",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Araya G., Pedro",
+   "si": 11,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 9,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16569-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Coloma C., Juan Antonio",
+   "si": 9,
+   "no": 1,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 9,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Núñez A., Daniel",
+   "si": 9,
+   "no": 0,
+   "abstencion": 2,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "17702-15",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "García R., José",
+   "si": 9,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Rincón G., Ximena",
+   "si": 10,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 9,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Ebensperger O., Luz Eliana",
+   "si": 9,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Prohens E., Rafael",
+   "si": 9,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Latorre R., Juan Ignacio",
+   "si": 10,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Pugh O., Kenneth",
+   "si": 7,
+   "no": 1,
+   "abstencion": 2,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15347-07",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Castro G., Juan Luis",
+   "si": 10,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 10,
+   "proyectos": [
+    "15347-07",
+    "15850-11",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Becker A., Miguel Ángel",
+   "si": 9,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Bianchi R., Karim",
+   "si": 10,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "16569-25",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Cruz-Coke C., Luciano",
+   "si": 9,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 1,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "17535-25",
+    "17702-15",
+    "18029-17"
+   ]
+  },
+  {
+   "nombre": "Espinoza S., Fidel",
+   "si": 9,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 1,
+   "n_proyectos": 10,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Durana S., José Miguel",
+   "si": 8,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Huenchumilla J., Francisco",
+   "si": 8,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16703-25",
+    "17371-25",
+    "17535-25",
+    "18029-17",
+    "18208-25"
+   ]
+  },
+  {
+   "nombre": "Urrutia B., Ignacio",
+   "si": 6,
+   "no": 2,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Chahuán C., Francisco",
+   "si": 8,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Galilea V., Rodrigo",
+   "si": 8,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16569-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Squella O., Arturo",
+   "si": 5,
+   "no": 2,
+   "abstencion": 1,
+   "otros": 1,
+   "n_proyectos": 8,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Balladares L., Andrea",
+   "si": 8,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Sánchez M., Beatriz",
+   "si": 6,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Celis A., Ricardo",
+   "si": 7,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Aravena A., Carmen Gloria",
+   "si": 7,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16143-02",
+    "16703-25",
+    "17246-15",
+    "17371-25"
+   ]
+  },
+  {
+   "nombre": "Trisotti M., Renzo",
+   "si": 4,
+   "no": 2,
+   "abstencion": 1,
+   "otros": 1,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Campillai R., Fabiola",
+   "si": 4,
+   "no": 1,
+   "abstencion": 2,
+   "otros": 1,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16481-25",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25"
+   ]
+  },
+  {
+   "nombre": "Carter F., Rodolfo",
+   "si": 5,
+   "no": 1,
+   "abstencion": 1,
+   "otros": 1,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Vodanovic R., Paulina",
+   "si": 7,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 4,
+   "n_proyectos": 11,
+   "proyectos": [
+    "15850-11",
+    "15975-25",
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "16836-06",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Mirosevic V., Vlado",
+   "si": 7,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Longton H., Andrés",
+   "si": 6,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Sandoval P., David",
+   "si": 6,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16569-25",
+    "16703-25",
+    "17246-15",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Carvajal A., Loreto",
+   "si": 7,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16569-25",
+    "17702-15",
+    "18029-17",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Vial M., Cristian",
+   "si": 4,
+   "no": 2,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 5,
+   "proyectos": [
+    "16836-06",
+    "17535-25",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Ibáñez C., Diego",
+   "si": 5,
+   "no": 1,
+   "abstencion": 0,
+   "otros": 3,
+   "n_proyectos": 7,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Lee F., Enrique",
+   "si": 3,
+   "no": 1,
+   "abstencion": 2,
+   "otros": 1,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Insulza S., José Miguel",
+   "si": 5,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 4,
+   "proyectos": [
+    "16143-02",
+    "16481-25",
+    "16703-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Núñez U., Paulina",
+   "si": 6,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 6,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "16836-06",
+    "17535-25",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Kaiser B., Vanessa",
+   "si": 4,
+   "no": 0,
+   "abstencion": 2,
+   "otros": 1,
+   "n_proyectos": 6,
+   "proyectos": [
+    "16836-06",
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25"
+   ]
+  },
+  {
+   "nombre": "Lagos W., Ricardo",
+   "si": 4,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16143-02",
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Quintana L., Jaime",
+   "si": 4,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 0,
+   "n_proyectos": 4,
+   "proyectos": [
+    "15347-07",
+    "16569-25",
+    "16703-25",
+    "17371-25"
+   ]
+  },
+  {
+   "nombre": "Castro P., Juan",
+   "si": 5,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 5,
+   "proyectos": [
+    "15347-07",
+    "15975-25",
+    "16703-25",
+    "17246-15",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Flores O., Camila",
+   "si": 3,
+   "no": 1,
+   "abstencion": 1,
+   "otros": 2,
+   "n_proyectos": 6,
+   "proyectos": [
+    "17535-25",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Cicardini M., Daniella",
+   "si": 4,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 2,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25",
+    "18208-25",
+    "18232-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Astudillo P., Danisa",
+   "si": 4,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 3,
+   "n_proyectos": 6,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17702-15",
+    "18029-17",
+    "18208-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "De Rementería V., Tomás",
+   "si": 4,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 4,
+   "proyectos": [
+    "16481-25",
+    "16569-25",
+    "17371-25",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Calisto Á., Miguel Ángel",
+   "si": 3,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15850-11",
+    "16836-06",
+    "17535-25"
+   ]
+  },
+  {
+   "nombre": "Cariola O., Karol",
+   "si": 3,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15850-11",
+    "17535-25",
+    "18257-10"
+   ]
+  },
+  {
+   "nombre": "Kast S., Felipe",
+   "si": 3,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15975-25",
+    "16143-02",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Allende B., Isabel",
+   "si": 3,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 2,
+   "proyectos": [
+    "16481-25",
+    "16703-25"
+   ]
+  },
+  {
+   "nombre": "Soria Q., Jorge",
+   "si": 2,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "n_proyectos": 2,
+   "proyectos": [
+    "15975-25",
+    "16703-25"
+   ]
+  }
+ ],
+ "votos_diputados": [],
+ "nota": "Perfiles por fuente: los nombres se muestran como los informa cada fuente y no se cruzan entre sí."
+}

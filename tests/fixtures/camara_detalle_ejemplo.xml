@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejemplo construido según la estructura del servicio retornarVotacionDetalle (para pruebas del lector) -->
+<Votacion xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>99001</Id>
+  <Votos>
+    <Voto><Diputado><Id>1001</Id><Nombre>Ana</Nombre><ApellidoPaterno>Pérez</ApellidoPaterno><ApellidoMaterno>Soto</ApellidoMaterno></Diputado><OpcionVoto Valor="1">Afirmativo</OpcionVoto></Voto>
+    <Voto><Diputado><Id>1002</Id><Nombre>Juan</Nombre><ApellidoPaterno>Rojas</ApellidoPaterno><ApellidoMaterno>Díaz</ApellidoMaterno></Diputado><OpcionVoto Valor="0">En Contra</OpcionVoto></Voto>
+  </Votos>
+</Votacion>

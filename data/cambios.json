@@ -1,0 +1,1381 @@
+[
+ {
+  "fecha_deteccion": "2026-10-28 12:35",
+  "boletin": "18525-06",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Despachado al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:35",
+  "boletin": "16836-06",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Despachado al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:34",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta del Mensaje 424-374 que hace presente la urgencia Discusión inmediata (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:34",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta oficio aprobación sin modificaciones de C. Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:34",
+  "boletin": "18525-06",
+  "tipo": "Subetapa",
+  "antes": "Cuenta oficio aprobación sin modificaciones de C. Revisora",
+  "despues": "Oficio de ley al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:34",
+  "boletin": "18349-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta del Mensaje 426-374 que hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 12:34",
+  "boletin": "18329-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – Cuenta del Mensaje 426-374 que hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 07:41",
+  "boletin": "17535-25",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Despachado al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 07:41",
+  "boletin": "15805-07",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Despachado al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 411-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Discusión general . Aprobado en general y particular a la vez . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 384-374 que hace presente la urgencia Discusión inmediata (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 383-374 que retira la urgencia Discusión inmediata (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Primer informe de comisión de Defensa Nacional. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18709-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18656-01",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta del Mensaje 406-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18621-34",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18597-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-08-18 – La Sala acuerda que el proyecto sea conocido, en general, por la Comisión de Constitución, Legislación, Justicia y Reglamento y, en particular, por la Comisión de Constitución, Legislación, Justicia y Reglamento y por la Comisión de Seguridad Pública, y por la Comisión de Defensa Nacional, sólo en lo relativo al artículo 42 bis, contenido en el número 6) del artículo único. Asimismo, se acuerda que la Comisión de Constitución, Legislación, Justicia y Reglamento será comisión técnica para efectos de la tramitación del proyecto (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18597-07",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "despues": ""
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18597-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (Senado)",
+  "despues": "Tramitación terminada"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18597-07",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Retirado"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Indicación Ejecutivo N° 194-374 (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta de primer informe de comisión . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Primer informe de comisión de Seguridad Pública. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18585-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Simple",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18585-25",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Seguridad Pública",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18584-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 416-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18584-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18566-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18566-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18562-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18562-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18544-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 387-374 que hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Oficio aprobación sin modificaciones a Cámara de Origen . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Discusión particular . Aprobado sin modificaciones Al haber sido retiradas y declaradas inadmisible las indicaciones presentadas al proyecto de ley y en virtud del artículo 120 del Reglamento del Senado, la Sala da por aprobado en particular la presente iniciativa legal (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-23 – Boletín de indicaciones . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Cuenta del Mensaje 402-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 23/10/2026 a las 12:00 (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 23/10/2026 a las 12:00 (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 393-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta de primer informe de comisión . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – La Sala acuerda eximir del trámite de la Comisión de Seguridad Pública (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Primer informe de comisión de Gobierno, Descentralización y Regionalización. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Discusión inmediata"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Gobierno, Descentralización y Regionalización",
+  "despues": "Cuenta oficio aprobación sin modificaciones de C. Revisora"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18525-06",
+  "tipo": "Etapa",
+  "antes": "Segundo trámite constitucional (Senado)",
+  "despues": "Trámite finalización en Cámara de Origen (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18521-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18521-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18434-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Discusión general . Queda pendiente (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Primer informe de comisión Mujeres y Equidad de Género. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18414-18",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión Mujeres y Equidad de Género",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 420-374 que retira la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-23 – Primer informe de comisión de la Familia. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 391-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Sin urgencia"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18378-18",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de la Familia",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18341-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18341-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Cuenta del Mensaje 379-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18341-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Discusión inmediata",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18315-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18315-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18315-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Discusión general . Aprobado en general y particular a la vez (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18315-07",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18315-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Cuenta oficio insistencia del Ejecutivo . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta, Oficio de S. E. el Presidente de la República por el cual solicita, en uso de la facultad que le confiere el artículo 68 de la Constitución Política de la República, que el proyecto sea remitido al Senado. (186-374). (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Subetapa",
+  "antes": "",
+  "despues": "Informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Etapa",
+  "antes": "Tramitación terminada",
+  "despues": "Insistencia (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18314-07",
+  "tipo": "Situación",
+  "antes": "Rechazado",
+  "despues": "En tramitación"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Indicación Ejecutivo N° 194-374 (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18258-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18258-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18239-36",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18239-36",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 392-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18239-36",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Primer informe de comisión de la Mujer y Equidad de Género. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18239-36",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 372-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18239-36",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de la Mujer y Equidad de Género",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Discusión general . Queda pendiente . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Primer informe de comisión Mujeres y Equidad de Género. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18236-18",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión Mujeres y Equidad de Género",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18211-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18211-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 393-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18211-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18211-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Discusión inmediata"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18161-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18161-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Simple",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18155-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18155-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Simple",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18029-17",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "18029-17",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17702-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12.00 horas del día 19 de noviembre de 2026, en la Secretaría del Senado (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17662-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 396-374 que retira y hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17637-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17637-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta oficio N? 343-26, que comunica aprobacion de modificaciones (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Oficio al Tribunal Constitucional . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Oficio de ley al Ejecutivo . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Oficio N° 343-26, que comunica aprobacion de modificaciones (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Discusión única . Aprobadas las modificaciones (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Discusión única . Queda pendiente Se solicita aplazamiento de la votación (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Oficio modificaciones a Cámara de Origen . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Discusión general . Aprobado en general y particular con modificaciones . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Primer informe de comisión de Seguridad Ciudadana. Pasa a Comisión de Hacienda (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Primer informe de comisión de Hacienda. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – (Seguridad Ciudadana). Pasa a Hacienda. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Indicación del Ejecutivo (197-374) (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 386-374 que retira y hace presente la urgencia Discusión inmediata (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Cuenta del Mensaje 379-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Seguridad Ciudadana",
+  "despues": "Ingreso fallo del Tribunal Constitucional"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17535-25",
+  "tipo": "Etapa",
+  "antes": "Segundo trámite constitucional (C.Diputados)",
+  "despues": "Trámite en Tribunal Constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17486-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17486-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17170-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17170-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17125-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 395-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17125-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17111-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 395-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17111-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "17044-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16948-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16948-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16948-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Discusión general . Aprobado en general y particular a la vez . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16948-07",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16948-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16858-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-05 – Discusión general . Aprobado en general . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16858-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-05 – Oficio N° 21631. Remite el proyecto a segundo trámite reglamentario por haber sido objeto de indicaciones durante su discusión general. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16858-15",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Segundo informe de comisión de Obras Públicas, Transportes y Telecomunicaciones"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta Oficio de S.E. el Presidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Cuenta oficio aprobación de informe de Comisión Mixta . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Oficio aprobación de informe de Comisión Mixta a C.de Origen . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Discusión informe de Comisión Mixta . Aprobado (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta oficio aprobación de informe de Comisión Mixta . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Oficio aprobación de informe de Comisión Mixta a C. Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta informe Comisión Mixta . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta del Mensaje 384-374 que hace presente la urgencia Discusión inmediata (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Discusión informe de Comisión Mixta . Aprobado . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Informe de Comisión Mixta Comisión Mixta para Boletín Nº 16836-06. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Discusión inmediata"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Subetapa",
+  "antes": "Informe de Comisión Mixta",
+  "despues": "Oficio de ley al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16836-06",
+  "tipo": "Etapa",
+  "antes": "Comisión Mixta por rechazo de modificaciones (Senado)",
+  "despues": "Trámite finalización en Cámara de Origen (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16741-15",
+  "tipo": "N° de ley",
+  "antes": "",
+  "despues": "Ley N° 21.844"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16741-15",
+  "tipo": "Subetapa",
+  "antes": "Ingreso de observaciones",
+  "despues": ""
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16741-15",
+  "tipo": "Etapa",
+  "antes": "Trámite de aprobacion presidencial (Senado)",
+  "despues": "Tramitación terminada"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16741-15",
+  "tipo": "Situación",
+  "antes": "Despachado al Ejecutivo",
+  "despues": "Publicado como ley"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16481-25",
+  "tipo": "N° de ley",
+  "antes": "",
+  "despues": "Ley N° 21.845"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16481-25",
+  "tipo": "Situación",
+  "antes": "Despachado al Ejecutivo",
+  "despues": "Publicado como ley"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16300-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Cuenta del Mensaje 414-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16300-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 377-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16143-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "16143-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15975-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Cuenta del oficio N° 21.661, por el que informa reemplazo de integrante de la Comisión Mixta (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15975-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Oficio N° 21661. Oficio de la Cámara de Diputados, por el informa reemplazo de integrante de la Comisión Mixta (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15905-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta de segundo informe de comisión . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Segundo informe de comisión de Salud. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-06-24 – La Sala acuerda eximir del trámite de la Comisión de Constitución, Legislación, Justicia y Reglamento. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15850-11",
+  "tipo": "Subetapa",
+  "antes": "Segundo informe de comisión de Salud",
+  "despues": "Discusión particular"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15817-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 396-374 que retira y hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Copia autorizada de la resolución del Tribunal Constitucional recaída en el requerimiento de inconstitucionalidad Rol 18148-06-CPT presentado por un grupo de senadoras y senadores, respecto de las expresiones que indican del proyecto de ley. Inadmisible. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-19 – Cuenta oficio aprobación de informe de Comisión Mixta . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-09 – Oficio de ley al Ejecutivo . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Oficio aprobación de informe de Comisión Mixta a C.de Origen . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Discusión informe de Comisión Mixta . Aprobado (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – El Honorable Senador señor Castro hace reserva de constitucionalidad (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Cuenta oficio aprobación de informe de Comisión Mixta . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Oficio aprobación de informe de Comisión Mixta a C. Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Se consigna reserva de constitucionalidad formulada por la diputada Lorena Pizarro. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-07 – Discusión informe de Comisión Mixta . Aprobado . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-05 – Informe de Comisión Mixta Comisión Mixta para Boletín Nº 15805-07. RUF. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Subetapa",
+  "antes": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 15805-07. RUF",
+  "despues": "Discusión informe de Comisión Mixta"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15805-07",
+  "tipo": "Etapa",
+  "antes": "Comisión Mixta por rechazo de modificaciones (Senado)",
+  "despues": "Disc. informe C.Mixta por rechazo de modif. C. Revisora (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15589-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15589-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15295-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15295-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de proyecto",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15261-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-20 – Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 00:54",
+  "boletin": "15261-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-06 – Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma (Senado)"
+ }
+]

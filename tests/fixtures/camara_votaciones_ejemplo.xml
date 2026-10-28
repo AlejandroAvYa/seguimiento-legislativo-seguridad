@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejemplo construido según la estructura del servicio retornarVotacionesXAnno (para pruebas del lector) -->
+<VotacionesColeccion xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Votacion>
+    <Id>99001</Id>
+    <Descripcion>Boletín N° 18.341-25 Crea el registro de actos vandálicos e incivilidades. Votación en general.</Descripcion>
+    <Fecha>2026-10-20T12:31:00</Fecha>
+    <TotalSi>84</TotalSi><TotalNo>54</TotalNo><TotalAbstencion>3</TotalAbstencion><TotalDispensado>0</TotalDispensado>
+    <Quorum Valor="1">Quórum Simple</Quorum>
+    <Resultado Valor="1">Aprobado</Resultado>
+    <Tipo Valor="1">Proyecto de Ley</Tipo>
+  </Votacion>
+  <Votacion>
+    <Id>99002</Id>
+    <Descripcion>Proyecto de acuerdo N° 1234 sobre otra materia.</Descripcion>
+    <Fecha>2026-10-21T10:00:00</Fecha>
+    <TotalSi>100</TotalSi><TotalNo>0</TotalNo><TotalAbstencion>0</TotalAbstencion><TotalDispensado>0</TotalDispensado>
+    <Quorum Valor="1">Quórum Simple</Quorum><Resultado Valor="1">Aprobado</Resultado><Tipo Valor="2">Proyecto de Acuerdo</Tipo>
+  </Votacion>
+</VotacionesColeccion>

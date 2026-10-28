@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seguimiento legislativo – Seguridad pública</title>
+<style>
+  :root { --azul:#1F3864; --azul2:#2E5597; --gris:#5f6368; --borde:#d9dde3; --fondo:#f5f7fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#1d1d1f; background:var(--fondo); }
+  header { background:var(--azul); color:#fff; padding:18px 24px; }
+  header h1 { margin:0; font-size:19px; }
+  header p { margin:6px 0 0; font-size:12px; opacity:.85; }
+  main { max-width:1400px; margin:0 auto; padding:16px 24px 40px; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:16px; }
+  .kpi { background:#fff; border:1px solid var(--borde); border-left:4px solid var(--azul2); padding:10px 12px; }
+  .kpi b { display:block; font-size:22px; color:var(--azul); }
+  .kpi span { font-size:11px; color:var(--gris); }
+  .filtros { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
+  .filtros select, .filtros input { font:inherit; padding:6px 8px; border:1px solid var(--borde); background:#fff; }
+  .filtros input { flex:1; min-width:220px; }
+  .grid { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,1fr); gap:16px; }
+  @media (max-width:1000px) { .grid { grid-template-columns:minmax(0,1fr); } }
+  .filtros select { max-width:100%; min-width:0; }
+  @media (max-width:700px) { .filtros select, .filtros input { flex:1 1 100%; min-width:0; } .actores { grid-template-columns:minmax(0,1fr); } }
+  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--borde); }
+  th { background:var(--azul); color:#fff; text-align:left; padding:7px 8px; font-size:11px; position:sticky; top:0; cursor:pointer; }
+  td { padding:7px 8px; border-top:1px solid var(--borde); vertical-align:top; }
+  tr:hover td { background:#f0f4fa; }
+  .tit { font-weight:bold; }
+  .desc { color:var(--gris); font-size:11.5px; margin-top:3px; }
+  .tag { display:inline-block; padding:1px 6px; font-size:10.5px; border:1px solid var(--borde); margin:2px 2px 0 0; white-space:nowrap; }
+  .u-di { background:#fde7e7; border-color:#f3b4b4; } .u-su { background:#fff2d9; border-color:#f1d08a; } .u-si { background:#e8f1fb; border-color:#b7cff0; }
+  .s-ley { background:#e6f4ea; border-color:#a8d5b5; }
+  a { color:var(--azul2); }
+  td:first-child a { white-space:nowrap; font-weight:bold; }
+  .tabla { overflow-x:auto; }
+  @media (max-width:700px) { main { padding:12px; } td:nth-child(5), th:nth-child(5) { display:none; } }
+  .panel { background:#fff; border:1px solid var(--borde); padding:10px 12px; }
+  .panel h2 { font-size:13px; margin:0 0 8px; color:var(--azul); }
+  .cambio { border-top:1px solid var(--borde); padding:6px 0; font-size:11.5px; }
+  .cambio small { color:var(--gris); }
+  .vacio { padding:20px; text-align:center; color:var(--gris); }
+  tr.fila { cursor:pointer; }
+  tr.det td { background:#fafbfd; border-top:none; }
+  .det-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+  .det-grid h3 { font-size:11.5px; margin:0 0 4px; color:var(--azul); text-transform:uppercase; letter-spacing:.03em; }
+  .det-grid ul { margin:0; padding-left:16px; } .det-grid li { margin:2px 0; font-size:11.5px; }
+  .barra { display:flex; height:8px; background:#e6e9ee; margin:4px 0; } .barra span { display:block; }
+  .b-eje { background:#1F3864; } .b-par { background:#8fa9d6; }
+  footer { color:var(--gris); font-size:11px; margin-top:16px; }
+  .fuentes { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
+  .fuente { font-size:11px; padding:2px 8px; border-radius:10px; background:rgba(255,255,255,.15); }
+  .fuente.ok::before { content:"● "; color:#7ee2a0; } .fuente.mal::before { content:"● "; color:#ffb3b3; }
+  .pestanas { display:flex; gap:4px; margin-bottom:12px; border-bottom:2px solid var(--azul); }
+  .pestanas button { font:inherit; border:1px solid var(--borde); border-bottom:none; background:#fff; padding:7px 14px; cursor:pointer; color:var(--azul); }
+  .pestanas button.activa { background:var(--azul); color:#fff; }
+  .lado { display:flex; flex-direction:column; gap:16px; }
+  .urg { border-top:1px solid var(--borde); padding:6px 0; font-size:11.5px; }
+  .linea { list-style:none; padding-left:0 !important; border-left:2px solid #c9d3e3; margin-left:4px !important; }
+  .linea li { position:relative; padding-left:12px; margin:0 0 5px !important; }
+  .linea li::before { content:""; position:absolute; left:-6px; top:4px; width:8px; height:8px; border-radius:50%; background:var(--azul2); }
+  .linea li.t-vot::before { background:#c0392b; } .linea li.t-inf::before { background:#8fa9d6; }
+  .actores { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; }
+  .actores table { font-size:11.5px; } .actores .caja { max-height:520px; overflow:auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Seguimiento legislativo · Seguridad pública y prevención del delito</h1>
+  <p id="meta">Cargando datos…</p>
+  <div class="fuentes" id="fuentes"></div>
+</header>
+<main>
+  <section class="kpis" id="kpis"></section>
+  <nav class="pestanas"><button data-v="vProy" class="activa">Proyectos</button><button data-v="vAct">Actores</button></nav>
+  <div id="vProy">
+  <div class="filtros">
+    <input id="q" type="search" placeholder="Buscar por boletín, título o materia">
+    <select id="fSit"><option value="">Situación: todas</option></select>
+    <select id="fCla"><option value="">Clasificación: todas</option></select>
+    <select id="fMat"><option value="">Materia: todas</option></select>
+    <select id="fUrg"><option value="">Urgencia: todas</option></select>
+    <select id="fIns"><option value="">Instancia: todas</option></select>
+  </div>
+  <div class="grid">
+    <div class="tabla">
+      <table>
+        <thead><tr>
+          <th data-k="boletin">Boletín</th><th data-k="titulo">Proyecto</th><th data-k="situacion">Estado</th>
+          <th data-k="urgencia_vigente">Urgencia</th><th data-k="ultimo_tramite_fecha">Último trámite</th>
+        </tr></thead>
+        <tbody id="filas"></tbody>
+      </table>
+      <div id="cuenta" class="desc" style="margin-top:6px"></div>
+    </div>
+    <aside class="lado">
+      <div class="panel"><h2>Urgencias que vencen en 7 días</h2><div id="urgencias"></div>
+        <div class="desc" style="margin-top:6px">Plazo estimado desde el ingreso de la urgencia (simple 30, suma 15, discusión inmediata 6 días).</div></div>
+      <div class="panel"><h2>Cambios recientes</h2><div id="cambios"></div></div>
+    </aside>
+  </div>
+  </div>
+  <div id="vAct" hidden>
+    <div class="filtros"><input id="qa" type="search" placeholder="Buscar parlamentario o autor"></div>
+    <div class="actores" id="actores"></div>
+    <div class="desc" style="margin-top:8px" id="notaActores"></div>
+  </div>
+  <footer>Fuentes: servicio web de tramitación del Senado (ambas cámaras) y datos abiertos de la Cámara de Diputadas y Diputados (votaciones en Sala). Clasificación y descripciones: catálogo propio (config/catalogo.csv). Datos descargables en la carpeta <code>data/</code> del repositorio.</footer>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = f => /^\d{4}-\d{2}-\d{2}/.test(f||"") ? f.slice(8,10)+"-"+f.slice(5,7)+"-"+f.slice(0,4) + f.slice(10) : (f||"");
+const claseUrg = u => u.startsWith("Discusión") ? "u-di" : u === "Suma" ? "u-su" : u === "Simple" ? "u-si" : "";
+let datos = [], orden = {k:"ultimo_tramite_fecha", asc:false};
+
+async function cargar(ruta, defecto) {
+  try { const r = await fetch(ruta, {cache:"no-store"}); if (!r.ok) throw 0; return await r.json(); }
+  catch (e) { return defecto; }
+}
+
+function opciones(sel, valores) {
+  [...new Set(valores.filter(Boolean))].sort().forEach(v => sel.insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
+}
+
+function kpis(d) {
+  const n = f => d.filter(f).length;
+  const items = [
+    ["Proyectos seguidos", d.length],
+    ["En tramitación", n(p => p.situacion === "En tramitación")],
+    ["Discusión inmediata", n(p => p.urgencia_vigente.startsWith("Discusión"))],
+    ["Suma urgencia", n(p => p.urgencia_vigente === "Suma")],
+    ["Urgencia simple", n(p => p.urgencia_vigente === "Simple")],
+    ["Despachados al Ejecutivo", n(p => p.situacion === "Despachado al Ejecutivo")],
+    ["Publicados como ley", n(p => p.situacion === "Publicado como ley")],
+  ];
+  $("#kpis").innerHTML = items.map(([t, v]) => `<div class="kpi"><b>${v}</b><span>${t}</span></div>`).join("");
+}
+
+function lineaTiempo(p) {
+  const ev = [
+    ...(p.hitos || []).map(h => ({f: h.fecha, t: `${h.hito} (${h.camara})`, c: ""})),
+    ...(p.informes || []).map(i => ({f: i.fecha, t: `Informe de comisión · ${i.tramite}`, c: "t-inf"})),
+    ...(p.votaciones || []).map(v => ({f: v.fecha, t: `Votación Sala Senado · ${v.tipo}: ${v.resultado || "s/r"} (${v.si}-${v.no}-${v.abstencion})`, c: "t-vot"})),
+    ...(p.votaciones_camara || []).map(v => ({f: v.fecha, t: `Votación Sala Cámara · ${v.tipo || ""}: ${v.resultado || "s/r"} (${v.si}-${v.no}-${v.abstencion})`, c: "t-vot"})),
+  ].filter(e => e.f).sort((a, b) => a.f < b.f ? -1 : 1);
+  const vistos = new Set(), unicos = ev.filter(e => { const k = e.f + e.t; if (vistos.has(k)) return false; vistos.add(k); return true; });
+  return unicos.length ? `<ul class="linea">${unicos.slice(-18).map(e => `<li class="${e.c}">${fmt(e.f)} · ${esc(e.t)}</li>`).join("")}</ul>` : `<div class="desc">Sin registros</div>`;
+}
+
+function detalle(p) {
+  const li = (arr, f, max = 12) => arr.length ? `<ul>${arr.slice(-max).map(f).join("")}</ul>` : `<div class="desc">Sin registros</div>`;
+  const tot = p.n_indicaciones_senado || 0, eje = p.n_indicaciones_senado_ejecutivo || 0, par = p.n_indicaciones_senado_parlamentarias || 0;
+  const barra = tot ? `<div class="barra"><span class="b-eje" style="width:${100*eje/tot}%"></span><span class="b-par" style="width:${100*par/tot}%"></span></div>` : "";
+  return `<div class="det-grid">
+    <div><h3>Etapa</h3><ul>
+      <li><b>${esc(p.tramite_constitucional)}</b>${p.camara_actual ? " · " + esc(p.camara_actual) : ""}</li>
+      <li>Instancia: ${esc(p.instancia_actual || "—")}</li>
+      <li>En esta etapa desde ${fmt(p.fecha_inicio_etapa)} (${p.dias_en_etapa} días)</li>
+      <li>${p.dias_desde_ingreso} días desde el ingreso</li>
+      <li>Urgencia: ${esc(p.urgencia_vigente)}${p.urgencia_plazo ? " · " + esc(p.urgencia_plazo.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m))) : ""}</li>
+      ${p.refundidos ? `<li>Refundido: ${esc(p.refundidos)}</li>` : ""}
+      ${p.nota ? `<li>${esc(p.nota)}</li>` : ""}</ul>
+      <h3 style="margin-top:10px">Línea de tiempo</h3>${lineaTiempo(p)}</div>
+    <div><h3>Indicaciones en el Senado</h3>
+      ${tot ? `<div>${tot} indicaciones: <b>${eje}</b> del Ejecutivo (${p.n_indicaciones_senado_ejecutivo_gobierno_actual} del actual Gobierno) y <b>${par}</b> parlamentarias</div>${barra}` : `<div class="desc">Sin boletines de indicaciones en el Senado</div>`}
+      ${li(p.indicaciones_por_autor || [], a => `<li>${esc(a.autor)}: ${a.n}</li>`, 10)}
+      ${li(p.boletines_indicaciones || [], b => `<li><a href="${esc(b.link)}" target="_blank" rel="noopener">Boletín ${fmt(b.fecha)}</a> · ${esc(b.etapa)}</li>`, 6)}
+      <h3 style="margin-top:10px">Oficios del Ejecutivo con indicaciones</h3>
+      ${li((p.oficios || []).filter(o => /indicaci/i.test(o.descripcion) && /(Presidente|Ejecutivo)/.test(o.descripcion)), o => `<li><a href="${esc(o.link)}" target="_blank" rel="noopener">${fmt(o.fecha)}</a> · ${esc(o.camara)}</li>`)}</div>
+    <div><h3>Informes de comisión</h3>${li(p.informes || [], i => `<li><a href="${esc(i.link)}" target="_blank" rel="noopener">${fmt(i.fecha)}</a> · ${esc(i.tramite)}</li>`, 8)}
+      <h3 style="margin-top:10px">Votaciones en Sala del Senado</h3>${li(p.votaciones || [], v => `<li>${fmt(v.fecha)} · ${esc(v.tipo)}: <b>${esc(v.resultado || "s/r")}</b> (${v.si} sí, ${v.no} no, ${v.abstencion} abst.)</li>`, 8)}
+      <h3 style="margin-top:10px">Votaciones en Sala de la Cámara</h3>${li(p.votaciones_camara || [], v => `<li>${fmt(v.fecha)} · ${esc(v.tipo || v.descripcion.slice(0, 60))}: <b>${esc(v.resultado || "s/r")}</b> (${v.si} sí, ${v.no} no, ${v.abstencion} abst.)</li>`, 8)}
+      <h3 style="margin-top:10px">Documentos</h3><ul>
+      <li><a href="${esc(p.link_senado)}" target="_blank" rel="noopener">Ficha Senado</a>${p.link_camara ? ` · <a href="${esc(p.link_camara)}" target="_blank" rel="noopener">Ficha Cámara</a>` : ""} · <a href="${esc(p.link_texto)}" target="_blank" rel="noopener">Texto original</a></li></ul></div>
+  </div>`;
+}
+
+function pintar() {
+  const q = $("#q").value.trim().toLowerCase();
+  const f = {situacion:$("#fSit").value, clasificacion:$("#fCla").value, materia:$("#fMat").value, urgencia_vigente:$("#fUrg").value, instancia_actual:$("#fIns").value};
+  let filas = datos.filter(p => Object.entries(f).every(([k, v]) => !v || p[k] === v) &&
+    (!q || [p.boletin, p.titulo, p.materia, p.descripcion].join(" ").toLowerCase().includes(q)));
+  filas.sort((a, b) => { const x = String(a[orden.k] ?? ""), y = String(b[orden.k] ?? ""); return (x < y ? -1 : x > y ? 1 : 0) * (orden.asc ? 1 : -1); });
+  $("#filas").innerHTML = filas.length ? filas.map(p => `
+    <tr class="fila" data-b="${esc(p.boletin)}">
+      <td><a href="${esc(p.link_senado)}" target="_blank" rel="noopener">${esc(p.boletin)}</a><br>
+          <span class="desc">${esc(p.iniciativa)} · ${fmt(p.fecha_ingreso)}</span></td>
+      <td><div class="tit">${esc(p.titulo)}</div>
+          <div class="desc">${esc(p.descripcion)}</div>
+          <span class="tag">${esc(p.clasificacion)}</span><span class="tag">${esc(p.materia)}</span>${p.acot ? `<span class="tag">${esc(p.acot)}</span>` : ""}</td>
+      <td><span class="tag ${p.ley_numero ? "s-ley" : ""}">${esc(p.situacion)}</span>${p.ley_numero ? `<div class="desc">${esc(p.ley_numero)} (${fmt(p.ley_fecha_diario_oficial)})</div>` : ""}
+          <div class="desc">${esc(p.etapa)}${p.subetapa ? " – " + esc(p.subetapa) : ""}</div></td>
+      <td><span class="tag ${claseUrg(p.urgencia_vigente)}">${esc(p.urgencia_vigente)}</span>
+          <div class="desc">${p.n_urgencias_gobierno_actual} del actual Gobierno</div></td>
+      <td><b>${fmt(p.ultimo_tramite_fecha)}</b><div class="desc">${esc(p.ultimo_tramite)}</div></td>
+    </tr>
+    <tr class="det" data-d="${esc(p.boletin)}" hidden><td colspan="5">${detalle(p)}</td></tr>`).join("") : `<tr><td colspan="5" class="vacio">Sin resultados</td></tr>`;
+  $("#cuenta").textContent = `${filas.length} de ${datos.length} proyectos · clic en una fila para ver el detalle`;
+  document.querySelectorAll("tr.fila").forEach(tr => tr.addEventListener("click", e => {
+    if (e.target.closest("a")) return;
+    const d = document.querySelector(`tr[data-d="${tr.dataset.b}"]`); d.hidden = !d.hidden;
+  }));
+}
+
+function urgencias(d) {
+  const hoy = new Date(), lim = new Date(hoy.getTime() + 7 * 864e5), iso = x => x.toISOString().slice(0, 10);
+  const u = d.filter(p => p.situacion === "En tramitación" && p.urgencia_vence_estimado && p.urgencia_vence_estimado >= iso(hoy) && p.urgencia_vence_estimado <= iso(lim))
+             .sort((a, b) => a.urgencia_vence_estimado < b.urgencia_vence_estimado ? -1 : 1);
+  $("#urgencias").innerHTML = u.length ? u.map(p => `<div class="urg"><span class="tag ${claseUrg(p.urgencia_vigente)}">${esc(p.urgencia_vigente)}</span>
+    vence <b>${fmt(p.urgencia_vence_estimado)}</b> · <a href="${esc(p.link_senado)}" target="_blank" rel="noopener">${esc(p.boletin)}</a><br><span class="desc">${esc(p.titulo)}</span></div>`).join("")
+    : `<div class="vacio">Ninguna en los próximos 7 días</div>`;
+}
+
+function pintarActores(a) {
+  const q = $("#qa").value.trim().toLowerCase(), filtra = arr => (arr || []).filter(x => !q || x.nombre.toLowerCase().includes(q));
+  const caja = (titulo, arr, cols) => `<div class="panel"><h2>${titulo} (${filtra(arr).length})</h2><div class="caja"><table><thead><tr>${cols.map(c => `<th>${c[1]}</th>`).join("")}</tr></thead><tbody>
+    ${filtra(arr).slice(0, 300).map(x => `<tr>${cols.map(c => `<td>${c[0] === "proyectos" ? (x.proyectos || []).map(esc).join(", ") : esc(x[c[0]])}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="${cols.length}" class="vacio">Sin datos</td></tr>`}</tbody></table></div></div>`;
+  $("#actores").innerHTML =
+    caja("Autores de mociones seguidas", a.autores_mociones, [["nombre", "Parlamentario"], ["n_proyectos", "N°"], ["proyectos", "Boletines"]]) +
+    caja("Autores de indicaciones (Senado)", a.autores_indicaciones_senado, [["nombre", "Autor"], ["n_indicaciones", "Indicaciones"], ["n_proyectos", "Proyectos"]]) +
+    caja("Votos de senadores en Sala", a.votos_senadores, [["nombre", "Senador/a"], ["si", "Sí"], ["no", "No"], ["abstencion", "Abst."], ["n_proyectos", "Proyectos"]]) +
+    caja("Votos de diputados en Sala", a.votos_diputados, [["nombre", "Diputado/a"], ["si", "Sí"], ["no", "No"], ["abstencion", "Abst."], ["n_proyectos", "Proyectos"]]);
+  $("#notaActores").textContent = a.nota || "";
+}
+
+(async () => {
+  const [proyectos, cambios, meta, actores] = await Promise.all([
+    cargar("data/proyectos.json", []), cargar("data/cambios.json", []), cargar("data/meta.json", {}), cargar("data/actores.json", {})]);
+  datos = proyectos;
+  $("#meta").textContent = proyectos.length
+    ? `Última verificación: ${fmt(meta.fecha_verificacion)} · Últimos datos nuevos: ${fmt(meta.ultima_actualizacion_datos)}`
+    : "No se pudieron cargar los datos (abrir desde GitHub Pages o un servidor local).";
+  const nombres = {senado: "Senado (tramitación)", camara_votaciones: "Cámara (votaciones)"};
+  $("#fuentes").innerHTML = Object.entries(meta.fuentes || {}).map(([k, v]) =>
+    `<span class="fuente ${v.estado === "ok" ? "ok" : "mal"}" title="${esc(v.estado)}">${esc(nombres[k] || k)}: ${v.estado === "ok" ? "al día" : "sin conexión, se muestran los últimos datos obtenidos"}${v.ultima_consulta_exitosa ? " · última consulta exitosa " + fmt(v.ultima_consulta_exitosa) : ""}</span>`).join("");
+  kpis(datos);
+  urgencias(datos);
+  pintarActores(actores);
+  $("#qa").addEventListener("input", () => pintarActores(actores));
+  document.querySelectorAll(".pestanas button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".pestanas button").forEach(x => x.classList.toggle("activa", x === b));
+    $("#vProy").hidden = b.dataset.v !== "vProy"; $("#vAct").hidden = b.dataset.v !== "vAct";
+  }));
+  opciones($("#fSit"), datos.map(p => p.situacion));
+  opciones($("#fCla"), datos.map(p => p.clasificacion));
+  opciones($("#fMat"), datos.map(p => p.materia));
+  opciones($("#fUrg"), datos.map(p => p.urgencia_vigente));
+  opciones($("#fIns"), datos.map(p => p.instancia_actual));
+  ["#q", "#fSit", "#fCla", "#fMat", "#fUrg", "#fIns"].forEach(s => $(s).addEventListener("input", pintar));
+  document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+    orden = {k: th.dataset.k, asc: orden.k === th.dataset.k ? !orden.asc : true}; pintar();
+  }));
+  pintar();
+  const relevantes = cambios.filter(c => c.tipo !== "Nuevo trámite").slice(0, 40);
+  $("#cambios").innerHTML = relevantes.length ? relevantes.map(c => `
+    <div class="cambio"><small>${fmt(c.fecha_deteccion)} · <a href="https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=${esc(c.boletin)}" target="_blank" rel="noopener">${esc(c.boletin)}</a></small><br>
+      <b>${esc(c.tipo)}:</b> ${c.antes ? esc(c.antes) + " → " : ""}${esc(c.despues)}</div>`).join("")
+    : `<div class="vacio">Sin cambios registrados</div>`;
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,7421 @@
+{
+ "2963": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "2",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso quinto"
+   },
+   {
+    "numero": "3",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1)"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra, nueva"
+   },
+   {
+    "numero": "6",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "7",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlos",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "10",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "11",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra nueva"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Párrafo final propuesto"
+   },
+   {
+    "numero": "13",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "14",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "15",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra d)"
+   },
+   {
+    "numero": "16",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra d)"
+   },
+   {
+    "numero": "17",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 3 / Literal l) propuesto"
+   },
+   {
+    "numero": "18",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Literal l) propuesto"
+   },
+   {
+    "numero": "19",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra b)"
+   },
+   {
+    "numero": "20",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Letra b)"
+   },
+   {
+    "numero": "21",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "22",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "23",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "24",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5)"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "26",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 4 / Letra b)"
+   },
+   {
+    "numero": "27",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso tercero propuesto"
+   },
+   {
+    "numero": "28",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 4 / Inciso tercero propuesto"
+   },
+   {
+    "numero": "29",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Literal d) propuesto"
+   },
+   {
+    "numero": "30",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4 / Número 4)"
+   },
+   {
+    "numero": "31",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Número 5)"
+   },
+   {
+    "numero": "32",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Párrafo cuarto propuesto"
+   },
+   {
+    "numero": "33",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4 / Letra a)"
+   },
+   {
+    "numero": "34",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4 / Letra b)"
+   },
+   {
+    "numero": "35",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1)"
+   },
+   {
+    "numero": "36",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlas",
+    "ubicacion": "ARTÍCULO 6 / Número 2)"
+   },
+   {
+    "numero": "37",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 6 / Letra nueva"
+   },
+   {
+    "numero": "38",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Letra nueva"
+   },
+   {
+    "numero": "39",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "40",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "41",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "42",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "43",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "44",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "45",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "46",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "47",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "48",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra b)"
+   },
+   {
+    "numero": "49",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Párrafo final propuesto"
+   },
+   {
+    "numero": "50",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra d)"
+   },
+   {
+    "numero": "51",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra d)"
+   },
+   {
+    "numero": "52",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Número 2)"
+   },
+   {
+    "numero": "53",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "54",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 7 / Letra nueva"
+   },
+   {
+    "numero": "55",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 7 / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "56",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 7 / Inciso segundo propuesto"
+   },
+   {
+    "numero": "57",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Número 7)"
+   },
+   {
+    "numero": "58",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 9 / Numeral 1) propuesto"
+   },
+   {
+    "numero": "59",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 4 propuesto / Inciso tercero"
+   },
+   {
+    "numero": "60",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Literal d) propuesto"
+   },
+   {
+    "numero": "61",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Literal d) propuesto"
+   },
+   {
+    "numero": "62",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 38 propuesto / Inciso segundo"
+   },
+   {
+    "numero": "63",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo primero"
+   },
+   {
+    "numero": "64",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo primero"
+   },
+   {
+    "numero": "65",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo tercero"
+   },
+   {
+    "numero": "66",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 13 / Número 1)"
+   },
+   {
+    "numero": "67",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 13 / Número 1)"
+   },
+   {
+    "numero": "68",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "69",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 25 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "70",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo primero"
+   },
+   {
+    "numero": "71",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo tercero"
+   },
+   {
+    "numero": "72",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo tercero"
+   },
+   {
+    "numero": "73",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo 25 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "74",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Literal f) propuesto"
+   },
+   {
+    "numero": "75",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Literal f) propuesto"
+   },
+   {
+    "numero": "76",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "Artículo 25 bis propuesto / Letra b)"
+   },
+   {
+    "numero": "77",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "78",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "79",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "80",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6° bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "81",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "82",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "83",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "84",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "85",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "86",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso tercero propuesto"
+   },
+   {
+    "numero": "87",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "88",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 18 / Literal a)"
+   },
+   {
+    "numero": "89",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 20 / Letra d)"
+   },
+   {
+    "numero": "90",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 203 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "91",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 21 / Letra a)"
+   },
+   {
+    "numero": "92",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 14 propuesto"
+   },
+   {
+    "numero": "93",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 14 propuesto"
+   },
+   {
+    "numero": "94",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 53 propuesto / Literal h)"
+   },
+   {
+    "numero": "95",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "Artículo 53 propuesto / Letra a)"
+   },
+   {
+    "numero": "96",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 53 propuesto / Número 17)"
+   },
+   {
+    "numero": "97",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 277 propuesto / Inciso tercero"
+   },
+   {
+    "numero": "98",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplar",
+    "ubicacion": "Artículo 277 propuesto / Número nuevo"
+   },
+   {
+    "numero": "99",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 25"
+   },
+   {
+    "numero": "100",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO TRANSITORIO NUEVO"
+   }
+  ]
+ },
+ "2988": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO ÚNICO"
+   },
+   {
+    "numero": "2",
+    "autor": "Pascual y Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO ÚNICO"
+   },
+   {
+    "numero": "3",
+    "autor": "Pascual y Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO ÚNICO / Inciso segundo propuesto"
+   }
+  ]
+ },
+ "3001": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "1A",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso tercero"
+   },
+   {
+    "numero": "1B",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso tercero"
+   },
+   {
+    "numero": "1C",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso cuarto"
+   },
+   {
+    "numero": "1D",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso cuarto"
+   },
+   {
+    "numero": "1E",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso quinto"
+   },
+   {
+    "numero": "1F",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso quinto"
+   },
+   {
+    "numero": "2",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso quinto"
+   },
+   {
+    "numero": "2A",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "2B",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "2C",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO NUEVO"
+   },
+   {
+    "numero": "3",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3B",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3C",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3D",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3F",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3G",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3H",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3I",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1)"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra nueva"
+   },
+   {
+    "numero": "6",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "7",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlos",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "10",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra a)"
+   },
+   {
+    "numero": "11",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra nueva"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Párrafo final propuesto"
+   },
+   {
+    "numero": "13",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "14",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "15",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra d)"
+   },
+   {
+    "numero": "16",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Letra d)"
+   },
+   {
+    "numero": "17",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 3 / Literal l) propuesto"
+   },
+   {
+    "numero": "18",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Literal l) propuesto"
+   },
+   {
+    "numero": "19",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Letra b)"
+   },
+   {
+    "numero": "20",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Letra b)"
+   },
+   {
+    "numero": "21",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "22",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "23",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "23A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número 4)"
+   },
+   {
+    "numero": "24",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5)"
+   },
+   {
+    "numero": "24A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número 5)"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 3 / Letra c)"
+   },
+   {
+    "numero": "26",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 4 / Letra b)"
+   },
+   {
+    "numero": "27",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso tercero propuesto"
+   },
+   {
+    "numero": "28",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 4 / Inciso tercero propuesto"
+   },
+   {
+    "numero": "29",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Literal d) propuesto"
+   },
+   {
+    "numero": "29A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4 / Número 3)"
+   },
+   {
+    "numero": "30",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4 / Número 4)"
+   },
+   {
+    "numero": "31",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Número 5)"
+   },
+   {
+    "numero": "32",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Párrafo cuarto propuesto"
+   },
+   {
+    "numero": "32A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Letra a)"
+   },
+   {
+    "numero": "33",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4 / Letra a)"
+   },
+   {
+    "numero": "34",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4 / Letra b)"
+   },
+   {
+    "numero": "34A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso primero"
+   },
+   {
+    "numero": "34B",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso primero"
+   },
+   {
+    "numero": "34C",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso primero"
+   },
+   {
+    "numero": "34D",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso segundo"
+   },
+   {
+    "numero": "34E",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso tercero"
+   },
+   {
+    "numero": "34F",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso tercero"
+   },
+   {
+    "numero": "34G",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "modificarlo",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso tercero"
+   },
+   {
+    "numero": "34H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlos",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso tercero"
+   },
+   {
+    "numero": "34I",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso cuarto"
+   },
+   {
+    "numero": "34J",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso cuarto"
+   },
+   {
+    "numero": "34K",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso cuarto"
+   },
+   {
+    "numero": "34L",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso cuarto"
+   },
+   {
+    "numero": "34M",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso quinto"
+   },
+   {
+    "numero": "34N",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso quinto"
+   },
+   {
+    "numero": "34O",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso sexto"
+   },
+   {
+    "numero": "34P",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 3° ter propuesto / Inciso sexto"
+   },
+   {
+    "numero": "35",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1)"
+   },
+   {
+    "numero": "36",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlas",
+    "ubicacion": "ARTÍCULO 6 / Número 2)"
+   },
+   {
+    "numero": "37",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 6 / Letra nueva"
+   },
+   {
+    "numero": "38",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Letra nueva"
+   },
+   {
+    "numero": "39",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "40",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "41",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "42",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "43",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "44",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "45",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "46",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "47",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "48",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra b)"
+   },
+   {
+    "numero": "49",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Párrafo final propuesto"
+   },
+   {
+    "numero": "50",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 7 / Letra d)"
+   },
+   {
+    "numero": "51",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Letra d)"
+   },
+   {
+    "numero": "51A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Letra d)"
+   },
+   {
+    "numero": "52",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Número 2)"
+   },
+   {
+    "numero": "52A",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Número 2)"
+   },
+   {
+    "numero": "52B",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Número 2)"
+   },
+   {
+    "numero": "53",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO 7 / Letra a)"
+   },
+   {
+    "numero": "54",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 7 / Letra nueva"
+   },
+   {
+    "numero": "55",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 7 / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "55A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 7 / Letra nueva"
+   },
+   {
+    "numero": "56",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 7 / Inciso segundo propuesto"
+   },
+   {
+    "numero": "57",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7 / Número 7)"
+   },
+   {
+    "numero": "58",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 9 / Numeral 1) propuesto"
+   },
+   {
+    "numero": "59",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 4 propuesto / Inciso tercero"
+   },
+   {
+    "numero": "60",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Literal d) propuesto"
+   },
+   {
+    "numero": "61",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Literal d) propuesto"
+   },
+   {
+    "numero": "62",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 38 propuesto / Inciso segundo"
+   },
+   {
+    "numero": "63",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo primero"
+   },
+   {
+    "numero": "64",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo primero"
+   },
+   {
+    "numero": "65",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 12 / Párrafo tercero"
+   },
+   {
+    "numero": "66",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 13 / Número 1)"
+   },
+   {
+    "numero": "67",
+    "autor": "Durana",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 13 / Número 1)"
+   },
+   {
+    "numero": "68",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "69",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 25 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "70",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo primero"
+   },
+   {
+    "numero": "71",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo tercero"
+   },
+   {
+    "numero": "72",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 25 bis propuesto / Párrafo tercero"
+   },
+   {
+    "numero": "73",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo 25 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "74",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Literal f) propuesto"
+   },
+   {
+    "numero": "75",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 25 bis propuesto / Literal f) propuesto"
+   },
+   {
+    "numero": "76",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "Artículo 25 bis propuesto / Letra b)"
+   },
+   {
+    "numero": "77",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "78",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "79",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 18 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "80",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6° bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "81",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "82",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 6 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "83",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "84",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "85",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "86",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso tercero propuesto"
+   },
+   {
+    "numero": "87",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 2 bis propuesto / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "87A",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 18"
+   },
+   {
+    "numero": "88",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 18 / Literal a)"
+   },
+   {
+    "numero": "88A",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 19 / Número 2"
+   },
+   {
+    "numero": "88B",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 19 / Número 2"
+   },
+   {
+    "numero": "88C",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 5° A, propuesto / Inciso primero"
+   },
+   {
+    "numero": "88D",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 5° A, propuesto / Inciso segundo"
+   },
+   {
+    "numero": "88E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "modificarlo",
+    "ubicacion": "Artículo 5° A, propuesto / Inciso tercero"
+   },
+   {
+    "numero": "88F",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlos",
+    "ubicacion": "Artículo 5° A, propuesto / Inciso tercero"
+   },
+   {
+    "numero": "89",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarla",
+    "ubicacion": "ARTÍCULO 20 / Letra d)"
+   },
+   {
+    "numero": "90",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 203 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "91",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 21 / Letra a)"
+   },
+   {
+    "numero": "92",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 14 propuesto"
+   },
+   {
+    "numero": "93",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 14 propuesto"
+   },
+   {
+    "numero": "94",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 53 propuesto / Literal h)"
+   },
+   {
+    "numero": "95",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "Artículo 53 propuesto / Letra a)"
+   },
+   {
+    "numero": "96",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 53 propuesto / Número 17)"
+   },
+   {
+    "numero": "96A",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 22"
+   },
+   {
+    "numero": "97",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 277 propuesto / Inciso tercero"
+   },
+   {
+    "numero": "98",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplar",
+    "ubicacion": "Artículo 277 propuesto / Número nuevo"
+   },
+   {
+    "numero": "98A",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 24"
+   },
+   {
+    "numero": "98B",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 25"
+   },
+   {
+    "numero": "99",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 25"
+   },
+   {
+    "numero": "99A",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO PRIMERO TRANSITORIO"
+   },
+   {
+    "numero": "100",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO TRANSITORIO NUEVO"
+   }
+  ]
+ },
+ "3018": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1° / Inciso nuevo"
+   },
+   {
+    "numero": "2",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 2°"
+   },
+   {
+    "numero": "3",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3°"
+   },
+   {
+    "numero": "4",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 6°"
+   }
+  ]
+ },
+ "3020": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "2",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "3",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "5",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "7",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "8",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "9",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "10",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final"
+   },
+   {
+    "numero": "11",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "13",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 2 / Número 2"
+   },
+   {
+    "numero": "14",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "15",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "16",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "17",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "18",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "19",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 5"
+   },
+   {
+    "numero": "20",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Párrafo segundo"
+   },
+   {
+    "numero": "21",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "22",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "23",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "24",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "25",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "26",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "27",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "28",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "29",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "30",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "31",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "32",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "33",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "34",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "35",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "36",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "37",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "38",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "39",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "40",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "41",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "42",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "43",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "44",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "45",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "46",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "47",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "48",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "49",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "50",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "51",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "52",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "53",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "54",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "55",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "56",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "57",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "58",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "59",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "60",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "61",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "62",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "63",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "64",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "65",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "66",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 5 / Inciso segundo"
+   },
+   {
+    "numero": "67",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 5 / Inciso tercero"
+   },
+   {
+    "numero": "68",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 5 / Inciso nuevo"
+   },
+   {
+    "numero": "69",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 5 / Inciso final nuevo"
+   },
+   {
+    "numero": "70",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "71",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "72",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "73",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "74",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "75",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "76",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 2"
+   },
+   {
+    "numero": "77",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 3"
+   },
+   {
+    "numero": "78",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 6 / Número 3"
+   },
+   {
+    "numero": "79",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "80",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "81",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "82",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "83",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "84",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "85",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "86",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "87",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "88",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "89",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "90",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "91",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "92",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "93",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "94",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 6 / Número 8"
+   },
+   {
+    "numero": "95",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Número 8"
+   },
+   {
+    "numero": "96",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "97",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "98",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Número 2"
+   },
+   {
+    "numero": "99",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Número 3"
+   },
+   {
+    "numero": "100",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Número 4"
+   },
+   {
+    "numero": "101",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Encabezamiento"
+   },
+   {
+    "numero": "102",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 8 / Número 2"
+   },
+   {
+    "numero": "103",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Número 3"
+   },
+   {
+    "numero": "104",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 8 / Número 3"
+   },
+   {
+    "numero": "105",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Número 4"
+   },
+   {
+    "numero": "106",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Número 4"
+   },
+   {
+    "numero": "107",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "108",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "109",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "110",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "111",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "112",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "113",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "114",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "115",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "116",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "117",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "118",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 10"
+   },
+   {
+    "numero": "119",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "120",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "121",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Inciso primero"
+   },
+   {
+    "numero": "122",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 11 / Inciso primero"
+   },
+   {
+    "numero": "123",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Inciso nuevo"
+   },
+   {
+    "numero": "124",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "125",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "126",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "127",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 12 / Inciso primero"
+   },
+   {
+    "numero": "128",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 12 / Inciso primero"
+   },
+   {
+    "numero": "129",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "130",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "131",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "132",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "133",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "134",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "135",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "136",
+    "autor": "Edwards y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso primero"
+   },
+   {
+    "numero": "137",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 15 / Inciso primero"
+   },
+   {
+    "numero": "138",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "139",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "140",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "141",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso tercero"
+   },
+   {
+    "numero": "142",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "143",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "144",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "145",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "146",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "147",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 17 / Inciso segundo"
+   },
+   {
+    "numero": "148",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 17 / Inciso segundo"
+   },
+   {
+    "numero": "149",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "150",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "151",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "152",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "153",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "154",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "155",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "156",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "157",
+    "autor": "Gatica y Edwards, Kuschel, Kusanovic y Chahuán",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "158",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "159",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   }
+  ]
+ },
+ "3027": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": ""
+   },
+   {
+    "numero": "2",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1°"
+   },
+   {
+    "numero": "3",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1°"
+   },
+   {
+    "numero": "4",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2°"
+   },
+   {
+    "numero": "5",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2°"
+   },
+   {
+    "numero": "6",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2° / Numeral 5)"
+   },
+   {
+    "numero": "7",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2° / Numeral 5)"
+   },
+   {
+    "numero": "8",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2° / Numeral 5)"
+   },
+   {
+    "numero": "9",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3°"
+   },
+   {
+    "numero": "10",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3°"
+   },
+   {
+    "numero": "11",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplarlo",
+    "ubicacion": "TÍTULO II"
+   },
+   {
+    "numero": "12",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "TÍTULO II"
+   },
+   {
+    "numero": "13",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4°"
+   },
+   {
+    "numero": "14",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlos",
+    "ubicacion": "ARTÍCULO 4°"
+   },
+   {
+    "numero": "15",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4° / Numeral 6"
+   },
+   {
+    "numero": "16",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5°"
+   },
+   {
+    "numero": "17",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5°"
+   },
+   {
+    "numero": "18",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 5° / Inciso nuevo"
+   },
+   {
+    "numero": "19",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 5° / Inciso nuevo"
+   },
+   {
+    "numero": "20",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 6°"
+   },
+   {
+    "numero": "21",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 6°"
+   },
+   {
+    "numero": "22",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6° / Inciso primero"
+   },
+   {
+    "numero": "23",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 6° / Inciso primero"
+   },
+   {
+    "numero": "24",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7°"
+   },
+   {
+    "numero": "25",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 7°"
+   },
+   {
+    "numero": "26",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 7° / Inciso primero"
+   },
+   {
+    "numero": "27",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 7° / Inciso final"
+   },
+   {
+    "numero": "28",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 7° / Inciso final"
+   },
+   {
+    "numero": "29",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 8°"
+   },
+   {
+    "numero": "30",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 8°"
+   },
+   {
+    "numero": "31",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 9°"
+   },
+   {
+    "numero": "32",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 9°"
+   },
+   {
+    "numero": "33",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "34",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 10"
+   },
+   {
+    "numero": "35",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 10"
+   },
+   {
+    "numero": "36",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 11"
+   },
+   {
+    "numero": "37",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 11"
+   },
+   {
+    "numero": "38",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 11 / Numeral 2)"
+   },
+   {
+    "numero": "39",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 11 / Numeral 3)"
+   },
+   {
+    "numero": "40",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 11 / Numeral 4)"
+   },
+   {
+    "numero": "41",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 11 / Numeral 6)"
+   },
+   {
+    "numero": "42",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "TÍTULO III"
+   },
+   {
+    "numero": "43",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón para contemplarlo, a continuación del artículo 14",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplarlo",
+    "ubicacion": "TÍTULO III"
+   },
+   {
+    "numero": "44",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "45",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "46",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 13"
+   },
+   {
+    "numero": "47",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 13"
+   },
+   {
+    "numero": "48",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 13"
+   },
+   {
+    "numero": "49",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "50",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 14"
+   },
+   {
+    "numero": "51",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 14"
+   },
+   {
+    "numero": "52",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "53",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "54",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplarlo",
+    "ubicacion": "TÍTULO IV"
+   },
+   {
+    "numero": "55",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "TÍTULO IV"
+   },
+   {
+    "numero": "56",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 16"
+   },
+   {
+    "numero": "57",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "remplazarlo",
+    "ubicacion": "ARTÍCULO 16"
+   },
+   {
+    "numero": "58",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "59",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "60",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 18"
+   },
+   {
+    "numero": "61",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 18"
+   },
+   {
+    "numero": "62",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 19"
+   },
+   {
+    "numero": "63",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 19"
+   },
+   {
+    "numero": "64",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 20"
+   },
+   {
+    "numero": "65",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 20"
+   },
+   {
+    "numero": "66",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "67",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 21"
+   },
+   {
+    "numero": "68",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 21"
+   },
+   {
+    "numero": "69",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplarlo",
+    "ubicacion": "TÍTULO V"
+   },
+   {
+    "numero": "70",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 22"
+   },
+   {
+    "numero": "71",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 22"
+   },
+   {
+    "numero": "72",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "remplazarlo",
+    "ubicacion": "ARTÍCULO 23"
+   },
+   {
+    "numero": "73",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 24"
+   },
+   {
+    "numero": "74",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "75",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 25"
+   },
+   {
+    "numero": "76",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 25 / Inciso primero"
+   },
+   {
+    "numero": "77",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 25 / Inciso primero"
+   },
+   {
+    "numero": "78",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 25 / Inciso segundo"
+   },
+   {
+    "numero": "79",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 26"
+   },
+   {
+    "numero": "80",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 27"
+   },
+   {
+    "numero": "81",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 27"
+   },
+   {
+    "numero": "82",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 28"
+   },
+   {
+    "numero": "83",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 28"
+   },
+   {
+    "numero": "84",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 28"
+   },
+   {
+    "numero": "85",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 28 / Letra a)"
+   },
+   {
+    "numero": "86",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 28 / Letra a)"
+   },
+   {
+    "numero": "87",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 28 / Letra b)"
+   },
+   {
+    "numero": "88",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 28 / Letra c)"
+   },
+   {
+    "numero": "89",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 28 / Letra c)"
+   },
+   {
+    "numero": "90",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 28 / Letra d)"
+   },
+   {
+    "numero": "91",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 28 / Letra f)"
+   },
+   {
+    "numero": "92",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 29"
+   },
+   {
+    "numero": "93",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 29"
+   },
+   {
+    "numero": "94",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 29"
+   },
+   {
+    "numero": "95",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 29"
+   },
+   {
+    "numero": "96",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 29 / Inciso primero"
+   },
+   {
+    "numero": "97",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 29 / Inciso primero"
+   },
+   {
+    "numero": "98",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "TÍTULO VI"
+   },
+   {
+    "numero": "99",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 30"
+   },
+   {
+    "numero": "100",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "101",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "102",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "103",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "104",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "105",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "106",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "107",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "108",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "109",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "110",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "111",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "112",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "113",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "114",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "115",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "116",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "117",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "118",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "119",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "120",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "DISPOSICIÓN TRANSITORIA"
+   },
+   {
+    "numero": "121",
+    "autor": "Ebensperger y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   },
+   {
+    "numero": "122",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   },
+   {
+    "numero": "123",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   },
+   {
+    "numero": "124",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo transitorio, nuevo"
+   },
+   {
+    "numero": "125",
+    "autor": "Pugh, Aravena, y Edwards, Macaya y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo transitorio, nuevo"
+   }
+  ]
+ },
+ "3061": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Literal b)"
+   },
+   {
+    "numero": "2H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 1 / Inciso séptimo"
+   },
+   {
+    "numero": "3H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "4H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "5H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "6H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 5 / Literal f)"
+   },
+   {
+    "numero": "7H",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 5 / Numeral 3)"
+   },
+   {
+    "numero": "8H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5 / Literal a)"
+   },
+   {
+    "numero": "9H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "introducir",
+    "ubicacion": "ARTÍCULO 6"
+   },
+   {
+    "numero": "10H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Numeral 1)"
+   },
+   {
+    "numero": "11H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 7 / Numeral 1)"
+   },
+   {
+    "numero": "12H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 8 / Numeral 2)"
+   },
+   {
+    "numero": "13H",
+    "autor": "Kast",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Numeral 2)"
+   },
+   {
+    "numero": "14H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 9 / Literal a)"
+   },
+   {
+    "numero": "15H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 9 / Literal a)"
+   },
+   {
+    "numero": "16H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 9 / Literal a)"
+   },
+   {
+    "numero": "17H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15 / Numeral 1)"
+   },
+   {
+    "numero": "18H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 21 / Numeral 1)"
+   },
+   {
+    "numero": "19H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 2)"
+   },
+   {
+    "numero": "20H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 21 / Numeral 2)"
+   },
+   {
+    "numero": "21H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 21 / Numeral 2)"
+   },
+   {
+    "numero": "22H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 23 / Literal b)"
+   },
+   {
+    "numero": "23H",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 23 / Numeral 4)"
+   },
+   {
+    "numero": "24H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 23 / Numeral 4)"
+   },
+   {
+    "numero": "25H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 24 / Literal b)"
+   },
+   {
+    "numero": "26H",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 277"
+   },
+   {
+    "numero": "27H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "Artículo 277"
+   },
+   {
+    "numero": "28H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 26 / Número 15 propuesto"
+   },
+   {
+    "numero": "29H",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 27"
+   },
+   {
+    "numero": "30H",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "ARTÍCULO 27"
+   },
+   {
+    "numero": "31H",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 27"
+   },
+   {
+    "numero": "32H",
+    "autor": "Kast",
+    "tipo_autor": "Parlamentario",
+    "accion": "contemplar",
+    "ubicacion": "ARTÍCULO 27"
+   }
+  ]
+ },
+ "3065": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1H a)",
+    "autor": "Coloma",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "2H b)",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "3H c)",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   },
+   {
+    "numero": "4H d)",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 5 / Literal b)"
+   }
+  ]
+ },
+ "3104": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "2",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "3",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "5",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso nuevo"
+   },
+   {
+    "numero": "7",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "8",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "9",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo"
+   },
+   {
+    "numero": "10",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final"
+   },
+   {
+    "numero": "11",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "12",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "13",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "14",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 2 / Número 2"
+   },
+   {
+    "numero": "15",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "16",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "17",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "18",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "19",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "20",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 4"
+   },
+   {
+    "numero": "21",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 5"
+   },
+   {
+    "numero": "22",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2 / Párrafo segundo"
+   },
+   {
+    "numero": "23",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "24",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 3 / Encabezamiento"
+   },
+   {
+    "numero": "26",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "27",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "28",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "29",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "30",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "31",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Número 1"
+   },
+   {
+    "numero": "32",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "33",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "34",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "35",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Número 2"
+   },
+   {
+    "numero": "36",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "37",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "38",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "39",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "40",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "41",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "42",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "43",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número 3"
+   },
+   {
+    "numero": "44",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "45",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "46",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "47",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "48",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "49",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 4"
+   },
+   {
+    "numero": "50",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "51",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "52",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "53",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "54",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "55",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número 5"
+   },
+   {
+    "numero": "56",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "57",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "58",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "59",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 3 / Número nuevo"
+   },
+   {
+    "numero": "60",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "61",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "62",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "63",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "64",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "65",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 4 / Inciso primero"
+   },
+   {
+    "numero": "66",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "67",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "68",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 4 / Inciso segundo"
+   },
+   {
+    "numero": "69",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "70",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "71",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "72",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 5"
+   },
+   {
+    "numero": "73",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 5 / Inciso segundo"
+   },
+   {
+    "numero": "74",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 5 / Inciso tercero"
+   },
+   {
+    "numero": "75",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 5 / Inciso nuevo"
+   },
+   {
+    "numero": "76",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 5 / Inciso final nuevo"
+   },
+   {
+    "numero": "77",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "78",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "79",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "80",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "81",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "82",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número 1"
+   },
+   {
+    "numero": "83",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 2"
+   },
+   {
+    "numero": "84",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 3"
+   },
+   {
+    "numero": "85",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 6 / Número 3"
+   },
+   {
+    "numero": "86",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "87",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "88",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "89",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "90",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 6 / Número 4"
+   },
+   {
+    "numero": "91",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "92",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "93",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Número 5"
+   },
+   {
+    "numero": "94",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "95",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "96",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "97",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "98",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Número 6"
+   },
+   {
+    "numero": "99",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "100",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "101",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "102",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "103",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Párrafo primero"
+   },
+   {
+    "numero": "104",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 6 / Número 8"
+   },
+   {
+    "numero": "105",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 6 / Número 8"
+   },
+   {
+    "numero": "106",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 6 / Número 8"
+   },
+   {
+    "numero": "107",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "108",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 6 / Número nuevo"
+   },
+   {
+    "numero": "109",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 7 / Encabezamiento"
+   },
+   {
+    "numero": "110",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 7 / Número 1"
+   },
+   {
+    "numero": "111",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 7 / Número 2"
+   },
+   {
+    "numero": "112",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Número 3"
+   },
+   {
+    "numero": "113",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 7 / Número 3"
+   },
+   {
+    "numero": "114",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 7 / Número 4"
+   },
+   {
+    "numero": "115",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "ARTÍCULO 7 / Número 4"
+   },
+   {
+    "numero": "116",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 7 / Número 5"
+   },
+   {
+    "numero": "117",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "118",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Encabezamiento"
+   },
+   {
+    "numero": "119",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Encabezamiento"
+   },
+   {
+    "numero": "120",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 8 / Número 1"
+   },
+   {
+    "numero": "121",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 8 / Número 2"
+   },
+   {
+    "numero": "122",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 8 / Número 2"
+   },
+   {
+    "numero": "123",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Número 3"
+   },
+   {
+    "numero": "124",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 8 / Número 3"
+   },
+   {
+    "numero": "125",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 8 / Número 4"
+   },
+   {
+    "numero": "126",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Número 4"
+   },
+   {
+    "numero": "127",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Número 4"
+   },
+   {
+    "numero": "128",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "129",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "130",
+    "autor": "Campillai",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 8 / Párrafo nuevo"
+   },
+   {
+    "numero": "131",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "132",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "133",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "134",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "135",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "136",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 8 / Número 5"
+   },
+   {
+    "numero": "137",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "138",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "139",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 9"
+   },
+   {
+    "numero": "140",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 9"
+   },
+   {
+    "numero": "141",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "142",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 10"
+   },
+   {
+    "numero": "143",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "144",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "145",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Inciso primero"
+   },
+   {
+    "numero": "146",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 11 / Inciso primero"
+   },
+   {
+    "numero": "147",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 11 / Inciso nuevo"
+   },
+   {
+    "numero": "148",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "149",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "150",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "151",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 12"
+   },
+   {
+    "numero": "152",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 12 / Inciso primero"
+   },
+   {
+    "numero": "153",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 12 / Inciso primero"
+   },
+   {
+    "numero": "154",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "155",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "156",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "157",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "158",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "159",
+    "autor": "Araya y Quintana",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "160",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "161",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15"
+   },
+   {
+    "numero": "162",
+    "autor": "Edwards y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso primero"
+   },
+   {
+    "numero": "163",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminar",
+    "ubicacion": "ARTÍCULO 15 / Inciso primero"
+   },
+   {
+    "numero": "164",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "165",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "166",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 15 / Inciso segundo"
+   },
+   {
+    "numero": "167",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 15 / Inciso tercero"
+   },
+   {
+    "numero": "168",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "169",
+    "autor": "Rincón y Walker",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "170",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "171",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "172",
+    "autor": "Núñez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 17"
+   },
+   {
+    "numero": "173",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 17 / Inciso segundo"
+   },
+   {
+    "numero": "174",
+    "autor": "Flores",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 17 / Inciso segundo"
+   },
+   {
+    "numero": "175",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "176",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "introducir",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "177",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "178",
+    "autor": "Ebensperger y Durana, Edwards, Macaya y Pugh",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "179",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "180",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "181",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "182",
+    "autor": "Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "183",
+    "autor": "Gatica y Edwards, Kuschel, Kusanovic y Chahuán",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "184",
+    "autor": "Ebensperger y Durana y Macaya",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "185",
+    "autor": "Aravena y García",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   }
+  ]
+ },
+ "3158": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 46 bis propuesto / Inciso segundo"
+   }
+  ]
+ },
+ "3189": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "2",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "3",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo propuesto"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "7",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 88 quinquies / Inciso séptimo"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "11",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "Artículo transitorio nuevo"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO PRIMERO / Inciso primero"
+   }
+  ]
+ },
+ "3190": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "2",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "3",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso segundo propuesto"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "7",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 88 quinquies / Inciso séptimo"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "11",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "Artículo transitorio nuevo"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO PRIMERO / Inciso primero"
+   }
+  ]
+ },
+ "3194": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "2",
+    "autor": "Kusanovic y Van Rysselberghe",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso tercero"
+   },
+   {
+    "numero": "3",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "7",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 88 quinquies / Inciso séptimo"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "11",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "Artículo transitorio nuevo"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO PRIMERO / Inciso primero"
+   }
+  ]
+ },
+ "3195": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "2",
+    "autor": "Kusanovic y Van Rysselberghe",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Inciso tercero"
+   },
+   {
+    "numero": "3",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "5",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso primero"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "7",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 quinquies / Inciso sexto"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 88 quinquies / Inciso séptimo"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 88 sexies propuesto / Inciso primero"
+   },
+   {
+    "numero": "11",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "Artículo transitorio nuevo"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO PRIMERO / Inciso primero"
+   }
+  ]
+ },
+ "3202": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra a)"
+   },
+   {
+    "numero": "2",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra b)"
+   },
+   {
+    "numero": "3",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra c)"
+   },
+   {
+    "numero": "4",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO ÚNICO / Número 2"
+   }
+  ]
+ },
+ "3203": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra a)"
+   },
+   {
+    "numero": "2",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra b)"
+   },
+   {
+    "numero": "3",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirla",
+    "ubicacion": "ARTÍCULO ÚNICO / Letra c)"
+   },
+   {
+    "numero": "4",
+    "autor": "Coloma, Chahuán y Galilea",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO ÚNICO / Número 2"
+   }
+  ]
+ },
+ "3224": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "2",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "3",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "4",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "5",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "7",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Encabezamiento"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 1 / Número 4"
+   },
+   {
+    "numero": "9",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 134 bis propuesto / Número 5"
+   },
+   {
+    "numero": "11",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso tercero propuesto"
+   },
+   {
+    "numero": "12",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "13",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "14",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso quinto propuesto"
+   },
+   {
+    "numero": "15",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso quinto propuesto"
+   },
+   {
+    "numero": "16",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso sexto propuesto"
+   },
+   {
+    "numero": "17",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso séptimo propuesto"
+   },
+   {
+    "numero": "18",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 134 bis propuesto / Número 7"
+   },
+   {
+    "numero": "19",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 134 bis propuesto / Número 7"
+   },
+   {
+    "numero": "20",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo 134 bis propuesto / Número 7"
+   },
+   {
+    "numero": "21",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "Artículo 134 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "22",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "contemplar",
+    "ubicacion": "Artículo 134 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "23",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 134 bis propuesto / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "24",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2 / Literal d) propuesto"
+   },
+   {
+    "numero": "26",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2 / Literal d) propuesto"
+   },
+   {
+    "numero": "27",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "Artículo nuevo"
+   }
+  ]
+ },
+ "3234": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 1"
+   },
+   {
+    "numero": "2",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 1"
+   },
+   {
+    "numero": "3",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "4",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "5",
+    "autor": "Provoste",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "6",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 119 bis"
+   },
+   {
+    "numero": "7",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 119 bis"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "Artículo 119 bis / Inciso primero"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 119 bis / Inciso segundo"
+   },
+   {
+    "numero": "10",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimir",
+    "ubicacion": "Artículo 119 bis / Inciso tercero"
+   },
+   {
+    "numero": "11",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 bis / Inciso cuarto"
+   },
+   {
+    "numero": "12",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 bis / Inciso cuarto"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 119 bis / Inciso final"
+   },
+   {
+    "numero": "14",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 119 bis / Inciso final"
+   },
+   {
+    "numero": "15",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 119 bis / Inciso final"
+   },
+   {
+    "numero": "16",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 119 bis / Inciso final"
+   },
+   {
+    "numero": "17",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter"
+   },
+   {
+    "numero": "18",
+    "autor": "Trisotti",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "Artículo 119 ter / Numeral nuevo"
+   },
+   {
+    "numero": "19",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 1"
+   },
+   {
+    "numero": "20",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 1"
+   },
+   {
+    "numero": "21",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 2"
+   },
+   {
+    "numero": "22",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 2"
+   },
+   {
+    "numero": "23",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 119 ter / Numeral 3"
+   },
+   {
+    "numero": "24",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 119 ter / Numeral 3"
+   },
+   {
+    "numero": "25",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 119 ter / Numeral 4"
+   },
+   {
+    "numero": "26",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 119 ter / Numeral 4"
+   },
+   {
+    "numero": "27",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 119 ter / Numeral 4"
+   },
+   {
+    "numero": "28",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 119 ter / Numeral 6"
+   },
+   {
+    "numero": "29",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 7"
+   },
+   {
+    "numero": "30",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Numeral 8"
+   },
+   {
+    "numero": "31",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "Artículo 119 ter / Numeral 9"
+   },
+   {
+    "numero": "32",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Número 3"
+   },
+   {
+    "numero": "33",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Número 3"
+   },
+   {
+    "numero": "34",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo 119 ter / Número 3"
+   },
+   {
+    "numero": "35",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "36",
+    "autor": "Velásquez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "37",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "38",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 1"
+   },
+   {
+    "numero": "39",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2 / Número 2"
+   },
+   {
+    "numero": "40",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2 / Número 2"
+   },
+   {
+    "numero": "41",
+    "autor": "Astudillo",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "42",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   }
+  ]
+ },
+ "3257": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "2",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "3",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "4",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 1"
+   },
+   {
+    "numero": "5",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 1"
+   },
+   {
+    "numero": "6",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número 1"
+   },
+   {
+    "numero": "7",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "8",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "9",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "10",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 2"
+   },
+   {
+    "numero": "11",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso final propuesto"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "13",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "14",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "15",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "16",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "17",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "18",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirla",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "19",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarla",
+    "ubicacion": "ARTÍCULO 1 / Letra a)"
+   },
+   {
+    "numero": "20",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Letra nueva"
+   },
+   {
+    "numero": "21",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Letra nueva"
+   },
+   {
+    "numero": "22",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 1 / Inciso final"
+   },
+   {
+    "numero": "23",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 1 / Letra nueva"
+   },
+   {
+    "numero": "24",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "26",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1 / Número 5"
+   },
+   {
+    "numero": "27",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1 / Numeral 6 propuesto"
+   },
+   {
+    "numero": "28",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Numeral 6 propuesto"
+   },
+   {
+    "numero": "29",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Numeral 6 propuesto"
+   },
+   {
+    "numero": "30",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Numeral 6 propuesto"
+   },
+   {
+    "numero": "31",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "32",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "33",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "34",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "35",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "36",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 55 ter propuesto"
+   },
+   {
+    "numero": "37",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 55 ter propuesto"
+   },
+   {
+    "numero": "38",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 55 ter propuesto"
+   },
+   {
+    "numero": "39",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "Artículo 55 ter propuesto / Número nuevo"
+   },
+   {
+    "numero": "40",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "41",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "42",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "43",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2 / Número nuevo"
+   },
+   {
+    "numero": "44",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2 / Número nuevo"
+   },
+   {
+    "numero": "45",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2 / Número nuevo"
+   },
+   {
+    "numero": "46",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2 / Número nuevo"
+   },
+   {
+    "numero": "47",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2 / Número nuevo"
+   },
+   {
+    "numero": "48",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 2 / Numeral 6 propuesto"
+   },
+   {
+    "numero": "49",
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 3"
+   },
+   {
+    "numero": "50",
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 3"
+   },
+   {
+    "numero": "51",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "eliminarlo",
+    "ubicacion": "ARTÍCULO 3"
+   },
+   {
+    "numero": "52",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 3"
+   },
+   {
+    "numero": "53",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 3"
+   },
+   {
+    "numero": "54",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "consultar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "55",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   },
+   {
+    "numero": "56",
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   },
+   {
+    "numero": "57",
+    "autor": "Vodanovic",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   }
+  ]
+ },
+ "3263": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 1° / Número nuevo"
+   },
+   {
+    "numero": "2",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1° / Número 1)"
+   },
+   {
+    "numero": "3",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1° / Número 2)"
+   },
+   {
+    "numero": "4",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 1° / Número 3)"
+   },
+   {
+    "numero": "5",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 129 E propuesto / Inciso nuevo"
+   },
+   {
+    "numero": "6",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "anteponer",
+    "ubicacion": "ARTÍCULO 2° / Número nuevo"
+   },
+   {
+    "numero": "7",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "ARTÍCULO 2° / Número nuevo"
+   },
+   {
+    "numero": "8",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 2° / Número nuevo"
+   },
+   {
+    "numero": "9",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminar",
+    "ubicacion": "Artículo 313° b / Inciso segundo propuesto"
+   },
+   {
+    "numero": "10",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "Artículo 313° b / Inciso segundo propuesto"
+   },
+   {
+    "numero": "11",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 313° b / Inciso segundo propuesto"
+   },
+   {
+    "numero": "12",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 313° b / Inciso segundo propuesto"
+   },
+   {
+    "numero": "13",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 313° b / Inciso segundo propuesto"
+   },
+   {
+    "numero": "14",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 313° b / Número 2"
+   },
+   {
+    "numero": "15",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 313° b / Número 3"
+   },
+   {
+    "numero": "16",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 313° e propuesto"
+   },
+   {
+    "numero": "17",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 313° e propuesto / Número 4"
+   },
+   {
+    "numero": "18",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 313° f propuesto"
+   },
+   {
+    "numero": "19",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 313° f propuesto / Número nuevo"
+   },
+   {
+    "numero": "20",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 313° f propuesto / Número nuevo"
+   },
+   {
+    "numero": "21",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 313° f propuesto / Número nuevo"
+   },
+   {
+    "numero": "22",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "eliminarlo",
+    "ubicacion": "Artículo 313° f propuesto / Número 5"
+   },
+   {
+    "numero": "23",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 448° nonies propuesto"
+   },
+   {
+    "numero": "24",
+    "autor": "Gahona",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 448° nonies propuesto"
+   },
+   {
+    "numero": "25",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 3° / Numeral 6 propuesto"
+   },
+   {
+    "numero": "26",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO 4° / Número 3)"
+   },
+   {
+    "numero": "27",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4° / Número 4"
+   },
+   {
+    "numero": "28",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "ARTÍCULO 4° / Número 5"
+   },
+   {
+    "numero": "29",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "30",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "31",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   }
+  ]
+ },
+ "3265": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1"
+   },
+   {
+    "numero": "2E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Letra b)"
+   },
+   {
+    "numero": "3E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "4E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 46 bis propuesto / Inciso primero"
+   },
+   {
+    "numero": "5E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 46 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "6E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo 46 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "7E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 46 bis propuesto / Inciso tercero"
+   },
+   {
+    "numero": "8E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 46 bis propuesto / Letra a)"
+   },
+   {
+    "numero": "9E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 46 bis propuesto / Letra nueva"
+   },
+   {
+    "numero": "10E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 46 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "11E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "agregar",
+    "ubicacion": "Artículo 46 bis propuesto / Número nuevo"
+   },
+   {
+    "numero": "12E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "suprimirlo",
+    "ubicacion": "Artículo segundo"
+   },
+   {
+    "numero": "13E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo tercero"
+   },
+   {
+    "numero": "14E",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   }
+  ]
+ },
+ "3267": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1"
+   },
+   {
+    "numero": "2",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "3",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "4",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "ARTÍCULO 9"
+   },
+   {
+    "numero": "5",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 9 / Inciso nuevo"
+   },
+   {
+    "numero": "6",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 10"
+   },
+   {
+    "numero": "7",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "8",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "9",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimirlas",
+    "ubicacion": "ARTÍCULO 19 / Inciso primero"
+   },
+   {
+    "numero": "10",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 19 / Inciso nuevo"
+   },
+   {
+    "numero": "11",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "ARTÍCULO 21 / Inciso nuevo"
+   }
+  ]
+ },
+ "3271": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1 bis",
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "accion": "sustituir",
+    "ubicacion": ""
+   },
+   {
+    "numero": "2 bis",
+    "autor": "Araya, Huenchumilla y Saavedra",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "TÍTULO VII"
+   },
+   {
+    "numero": "11 bis",
+    "autor": "Flores y Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   }
+  ]
+ },
+ "3273": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO PRIMERO"
+   },
+   {
+    "numero": "2",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO PRIMERO / Inciso final propuesto"
+   },
+   {
+    "numero": "3",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 14 bis propuesto / Inciso final"
+   },
+   {
+    "numero": "4",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 14 ter propuesto / Inciso primero"
+   },
+   {
+    "numero": "5",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 14 quinquies propuesto / Inciso nuevo"
+   },
+   {
+    "numero": "6",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "Artículo 23 quáter propuesto"
+   },
+   {
+    "numero": "7",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 23 quinquies propuesto"
+   },
+   {
+    "numero": "8",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 23 quinquies propuesto / Número 3"
+   },
+   {
+    "numero": "9",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo 23 quinquies propuesto / Número nuevo"
+   },
+   {
+    "numero": "10",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO TERCERO / Número 1"
+   },
+   {
+    "numero": "11",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "Artículo 8 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "12",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "Artículo 8 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "13",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 8 bis propuesto / Inciso segundo"
+   },
+   {
+    "numero": "14",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "Artículo 8 bis propuesto / Número 2"
+   },
+   {
+    "numero": "15",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituir",
+    "ubicacion": "Artículo 8 ter propuesto / Inciso primero"
+   },
+   {
+    "numero": "16",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "agregar",
+    "ubicacion": "Artículo 8 ter propuesto / Inciso nuevo"
+   },
+   {
+    "numero": "17",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO CUARTO"
+   },
+   {
+    "numero": "18",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO CUARTO"
+   },
+   {
+    "numero": "19",
+    "autor": "Vial",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO QUINTO"
+   },
+   {
+    "numero": "20",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO QUINTO"
+   },
+   {
+    "numero": "21",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazarlo",
+    "ubicacion": "ARTÍCULO SEXTO"
+   },
+   {
+    "numero": "22",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "incorporar",
+    "ubicacion": "Artículo nuevo"
+   },
+   {
+    "numero": "23",
+    "autor": "Núñez y Calisto, Flores, Kusanovic y Kuschel",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO TRANSITORIO"
+   }
+  ]
+ },
+ "3280": {
+  "estado": "leído",
+  "items": [
+   {
+    "numero": "1",
+    "autor": "Becker y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "2",
+    "autor": "Becker y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "reemplazar",
+    "ubicacion": "ARTÍCULO 1 / Inciso cuarto propuesto"
+   },
+   {
+    "numero": "3",
+    "autor": "Becker y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "suprimir",
+    "ubicacion": "ARTÍCULO 1 / Inciso décimo propuesto"
+   },
+   {
+    "numero": "4",
+    "autor": "Kaiser",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "ARTÍCULO 1 / Inciso décimo propuesto"
+   },
+   {
+    "numero": "5",
+    "autor": "Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "intercalar",
+    "ubicacion": "ARTÍCULO 1 / Número nuevo"
+   },
+   {
+    "numero": "6",
+    "autor": "Becker y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 1 / Número 3"
+   },
+   {
+    "numero": "7",
+    "autor": "Becker y Ossandón",
+    "tipo_autor": "Parlamentario",
+    "accion": "sustituirlo",
+    "ubicacion": "ARTÍCULO 2"
+   },
+   {
+    "numero": "8",
+    "autor": "Kaiser",
+    "tipo_autor": "Parlamentario",
+    "accion": "consultar",
+    "ubicacion": "Artículo nuevo"
+   }
+  ]
+ }
+}

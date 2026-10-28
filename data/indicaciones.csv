@@ -1,0 +1,922 @@
+boletin,iddocto,fecha_boletin,etapa,numero,autor,tipo_autor,accion,ubicacion
+15261-25,3234,2026-05-28,Segundo trámite constitucional,1,Pascual,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,2,Sánchez,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,3,Pascual,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,4,Sánchez,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,5,Provoste,Parlamentario,reemplazarlo,ARTÍCULO 1 / Número 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,6,Velásquez,Parlamentario,sustituirlo,Artículo 119 bis
+15261-25,3234,2026-05-28,Segundo trámite constitucional,7,Astudillo,Parlamentario,reemplazarlo,Artículo 119 bis
+15261-25,3234,2026-05-28,Segundo trámite constitucional,8,Presidente de la República,Ejecutivo,eliminar,Artículo 119 bis / Inciso primero
+15261-25,3234,2026-05-28,Segundo trámite constitucional,9,Presidente de la República,Ejecutivo,intercalar,Artículo 119 bis / Inciso segundo
+15261-25,3234,2026-05-28,Segundo trámite constitucional,10,Presidente de la República,Ejecutivo,suprimir,Artículo 119 bis / Inciso tercero
+15261-25,3234,2026-05-28,Segundo trámite constitucional,11,Presidente de la República,Ejecutivo,suprimirlo,Artículo 119 bis / Inciso cuarto
+15261-25,3234,2026-05-28,Segundo trámite constitucional,12,Trisotti,Parlamentario,suprimirlo,Artículo 119 bis / Inciso cuarto
+15261-25,3234,2026-05-28,Segundo trámite constitucional,13,Presidente de la República,Ejecutivo,sustituir,Artículo 119 bis / Inciso final
+15261-25,3234,2026-05-28,Segundo trámite constitucional,14,Presidente de la República,Ejecutivo,reemplazar,Artículo 119 bis / Inciso final
+15261-25,3234,2026-05-28,Segundo trámite constitucional,15,Sánchez,Parlamentario,sustituir,Artículo 119 bis / Inciso final
+15261-25,3234,2026-05-28,Segundo trámite constitucional,16,Presidente de la República,Ejecutivo,intercalar,Artículo 119 bis / Inciso final
+15261-25,3234,2026-05-28,Segundo trámite constitucional,17,Astudillo,Parlamentario,suprimirlo,Artículo 119 ter
+15261-25,3234,2026-05-28,Segundo trámite constitucional,18,Trisotti,Parlamentario,anteponer,Artículo 119 ter / Numeral nuevo
+15261-25,3234,2026-05-28,Segundo trámite constitucional,19,Presidente de la República,Ejecutivo,suprimirlo,Artículo 119 ter / Numeral 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,20,Sánchez,Parlamentario,suprimirlo,Artículo 119 ter / Numeral 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,21,Presidente de la República,Ejecutivo,suprimirlo,Artículo 119 ter / Numeral 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,22,Velásquez,Parlamentario,suprimirlo,Artículo 119 ter / Numeral 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,23,Presidente de la República,Ejecutivo,eliminarlo,Artículo 119 ter / Numeral 3
+15261-25,3234,2026-05-28,Segundo trámite constitucional,24,Sánchez,Parlamentario,intercalar,Artículo 119 ter / Numeral 3
+15261-25,3234,2026-05-28,Segundo trámite constitucional,25,Sánchez,Parlamentario,eliminarlo,Artículo 119 ter / Numeral 4
+15261-25,3234,2026-05-28,Segundo trámite constitucional,26,Velásquez,Parlamentario,eliminarlo,Artículo 119 ter / Numeral 4
+15261-25,3234,2026-05-28,Segundo trámite constitucional,27,Presidente de la República,Ejecutivo,sustituir,Artículo 119 ter / Numeral 4
+15261-25,3234,2026-05-28,Segundo trámite constitucional,28,Presidente de la República,Ejecutivo,eliminarlo,Artículo 119 ter / Numeral 6
+15261-25,3234,2026-05-28,Segundo trámite constitucional,29,Sánchez,Parlamentario,suprimirlo,Artículo 119 ter / Numeral 7
+15261-25,3234,2026-05-28,Segundo trámite constitucional,30,Sánchez,Parlamentario,suprimirlo,Artículo 119 ter / Numeral 8
+15261-25,3234,2026-05-28,Segundo trámite constitucional,31,Presidente de la República,Ejecutivo,eliminar,Artículo 119 ter / Numeral 9
+15261-25,3234,2026-05-28,Segundo trámite constitucional,32,Presidente de la República,Ejecutivo,suprimirlo,Artículo 119 ter / Número 3
+15261-25,3234,2026-05-28,Segundo trámite constitucional,33,Pascual,Parlamentario,suprimirlo,Artículo 119 ter / Número 3
+15261-25,3234,2026-05-28,Segundo trámite constitucional,34,Sánchez,Parlamentario,suprimirlo,Artículo 119 ter / Número 3
+15261-25,3234,2026-05-28,Segundo trámite constitucional,35,Pascual,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,36,Velásquez,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,37,Astudillo,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,38,Sánchez,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 1
+15261-25,3234,2026-05-28,Segundo trámite constitucional,39,Pascual,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,40,Astudillo,Parlamentario,agregar,ARTÍCULO 2 / Número 2
+15261-25,3234,2026-05-28,Segundo trámite constitucional,41,Astudillo,Parlamentario,incorporar,Artículo nuevo
+15261-25,3234,2026-05-28,Segundo trámite constitucional,42,Sánchez,Parlamentario,incorporar,Artículo nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,1,Longton,Parlamentario,anteponer,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,2,Presidente de la República,Ejecutivo,anteponer,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,3,Vodanovic,Parlamentario,anteponer,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,4,Sánchez,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 1
+15589-07,3257,2026-07-20,Segundo trámite constitucional,5,Pascual,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 1
+15589-07,3257,2026-07-20,Segundo trámite constitucional,6,Vodanovic,Parlamentario,agregar,ARTÍCULO 1 / Número 1
+15589-07,3257,2026-07-20,Segundo trámite constitucional,7,Longton,Parlamentario,consultar,ARTÍCULO 1 / Número 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,8,Sánchez,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,9,Vodanovic,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,10,Pascual,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,11,Pascual,Parlamentario,sustituirlo,ARTÍCULO 1 / Inciso final propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,12,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,13,Longton,Parlamentario,agregar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,14,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,15,Longton,Parlamentario,agregar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,16,Longton,Parlamentario,agregar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,17,Sánchez,Parlamentario,suprimirla,ARTÍCULO 1 / Letra a)
+15589-07,3257,2026-07-20,Segundo trámite constitucional,18,Pascual,Parlamentario,suprimirla,ARTÍCULO 1 / Letra a)
+15589-07,3257,2026-07-20,Segundo trámite constitucional,19,Longton,Parlamentario,reemplazarla,ARTÍCULO 1 / Letra a)
+15589-07,3257,2026-07-20,Segundo trámite constitucional,20,Longton,Parlamentario,agregar,ARTÍCULO 1 / Letra nueva
+15589-07,3257,2026-07-20,Segundo trámite constitucional,21,Vodanovic,Parlamentario,intercalar,ARTÍCULO 1 / Letra nueva
+15589-07,3257,2026-07-20,Segundo trámite constitucional,22,Pascual,Parlamentario,eliminarlo,ARTÍCULO 1 / Inciso final
+15589-07,3257,2026-07-20,Segundo trámite constitucional,23,Longton,Parlamentario,incorporar,ARTÍCULO 1 / Letra nueva
+15589-07,3257,2026-07-20,Segundo trámite constitucional,24,Longton,Parlamentario,agregar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,25,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,26,Longton,Parlamentario,reemplazarlo,ARTÍCULO 1 / Número 5
+15589-07,3257,2026-07-20,Segundo trámite constitucional,27,Longton,Parlamentario,sustituirlo,ARTÍCULO 1 / Numeral 6 propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,28,Vodanovic,Parlamentario,suprimir,ARTÍCULO 1 / Numeral 6 propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,29,Longton,Parlamentario,agregar,ARTÍCULO 1 / Numeral 6 propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,30,Longton,Parlamentario,agregar,ARTÍCULO 1 / Numeral 6 propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,31,Vodanovic,Parlamentario,intercalar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,32,Vodanovic,Parlamentario,agregar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,33,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,34,Longton,Parlamentario,intercalar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,35,Longton,Parlamentario,intercalar,ARTÍCULO 1 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,36,Longton,Parlamentario,sustituirlo,Artículo 55 ter propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,37,Pascual,Parlamentario,reemplazar,Artículo 55 ter propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,38,Pascual,Parlamentario,sustituir,Artículo 55 ter propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,39,Presidente de la República,Ejecutivo,consultar,Artículo 55 ter propuesto / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,40,Pascual,Parlamentario,suprimirlo,ARTÍCULO 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,41,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,42,Pascual,Parlamentario,reemplazarlo,ARTÍCULO 2
+15589-07,3257,2026-07-20,Segundo trámite constitucional,43,Vodanovic,Parlamentario,anteponer,ARTÍCULO 2 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,44,Vodanovic,Parlamentario,anteponer,ARTÍCULO 2 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,45,Vodanovic,Parlamentario,anteponer,ARTÍCULO 2 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,46,Vodanovic,Parlamentario,anteponer,ARTÍCULO 2 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,47,Vodanovic,Parlamentario,anteponer,ARTÍCULO 2 / Número nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,48,Vodanovic,Parlamentario,suprimir,ARTÍCULO 2 / Numeral 6 propuesto
+15589-07,3257,2026-07-20,Segundo trámite constitucional,49,Sánchez,Parlamentario,eliminarlo,ARTÍCULO 3
+15589-07,3257,2026-07-20,Segundo trámite constitucional,50,Pascual,Parlamentario,eliminarlo,ARTÍCULO 3
+15589-07,3257,2026-07-20,Segundo trámite constitucional,51,Vodanovic,Parlamentario,eliminarlo,ARTÍCULO 3
+15589-07,3257,2026-07-20,Segundo trámite constitucional,52,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 3
+15589-07,3257,2026-07-20,Segundo trámite constitucional,53,Longton,Parlamentario,sustituirlo,ARTÍCULO 3
+15589-07,3257,2026-07-20,Segundo trámite constitucional,54,Presidente de la República,Ejecutivo,consultar,Artículo nuevo
+15589-07,3257,2026-07-20,Segundo trámite constitucional,55,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO TRANSITORIO
+15589-07,3257,2026-07-20,Segundo trámite constitucional,56,Longton,Parlamentario,reemplazarlo,ARTÍCULO TRANSITORIO
+15589-07,3257,2026-07-20,Segundo trámite constitucional,57,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO TRANSITORIO
+15805-07,3020,2024-08-02,Segundo trámite constitucional,1,Araya y Quintana,Parlamentario,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,2,Araya y Quintana,Parlamentario,suprimir,ARTÍCULO 1 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,3,Flores,Parlamentario,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,4,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,5,Flores,Parlamentario,agregar,ARTÍCULO 1 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,6,Araya y Quintana,Parlamentario,intercalar,ARTÍCULO 1 / Inciso nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,7,Araya y Quintana,Parlamentario,sustituir,ARTÍCULO 1 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,8,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,suprimir,ARTÍCULO 1 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,9,Flores,Parlamentario,suprimir,ARTÍCULO 1 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,10,Ossandón,Parlamentario,incorporar,ARTÍCULO 1 / Inciso final
+15805-07,3020,2024-08-02,Segundo trámite constitucional,11,Flores,Parlamentario,agregar,ARTÍCULO 2 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,12,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 2 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,13,Saavedra,Parlamentario,incorporar,ARTÍCULO 2 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,14,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,15,Rincón y Walker,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,16,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 2 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,17,Aravena y García,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,18,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,sustituirlo,ARTÍCULO 2 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,19,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,20,Rincón y Walker,Parlamentario,sustituirlo,ARTÍCULO 2 / Párrafo segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,21,Araya y Quintana,Parlamentario,reemplazar,ARTÍCULO 3 / Encabezamiento
+15805-07,3020,2024-08-02,Segundo trámite constitucional,22,Araya y Quintana,Parlamentario,reemplazar,ARTÍCULO 3 / Encabezamiento
+15805-07,3020,2024-08-02,Segundo trámite constitucional,23,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 3 / Encabezamiento
+15805-07,3020,2024-08-02,Segundo trámite constitucional,24,Campillai,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,25,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,26,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,27,Ossandón,Parlamentario,suprimir,ARTÍCULO 3 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,28,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazar,ARTÍCULO 3 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,29,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,sustituirlo,ARTÍCULO 3 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,30,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,31,Ossandón,Parlamentario,reemplazar,ARTÍCULO 3 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,32,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,33,Aravena y García,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,34,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,35,Ossandón,Parlamentario,sustituir,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,36,Ossandón,Parlamentario,agregar,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,37,Pascual,Parlamentario,agregar,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,38,Núñez,Parlamentario,incorporar,ARTÍCULO 3 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,39,Flores,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,40,Flores,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,41,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,42,Saavedra,Parlamentario,sustituir,ARTÍCULO 3 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,43,Ossandón,Parlamentario,agregar,ARTÍCULO 3 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,44,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,45,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,46,Flores,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,47,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,48,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,49,Núñez,Parlamentario,agregar,ARTÍCULO 3 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,50,Pascual,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,51,Campillai,Parlamentario,consultar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,52,Saavedra,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,53,Saavedra,Parlamentario,incorporar,ARTÍCULO 3 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,54,Núñez,Parlamentario,intercalar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,55,Saavedra,Parlamentario,sustituirlo,ARTÍCULO 4 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,56,Ossandón,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,57,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 4 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,58,Flores,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,59,Ossandón,Parlamentario,agregar,ARTÍCULO 4 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,60,Aravena y García,Parlamentario,suprimir,ARTÍCULO 4 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,61,Saavedra,Parlamentario,suprimir,ARTÍCULO 4 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,62,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,63,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,suprimirlo,ARTÍCULO 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,64,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,65,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,66,Núñez,Parlamentario,intercalar,ARTÍCULO 5 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,67,Núñez,Parlamentario,intercalar,ARTÍCULO 5 / Inciso tercero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,68,Núñez,Parlamentario,consultar,ARTÍCULO 5 / Inciso nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,69,Saavedra,Parlamentario,incorporar,ARTÍCULO 5 / Inciso final nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,70,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,71,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,72,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,73,Ossandón,Parlamentario,sustituir,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,74,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,75,Núñez,Parlamentario,agregar,ARTÍCULO 6 / Número 1
+15805-07,3020,2024-08-02,Segundo trámite constitucional,76,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,77,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,78,Saavedra,Parlamentario,suprimir,ARTÍCULO 6 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,79,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 6 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,80,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,81,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 6 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,82,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 6 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,83,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,84,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 6
+15805-07,3020,2024-08-02,Segundo trámite constitucional,85,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 6 / Número 6
+15805-07,3020,2024-08-02,Segundo trámite constitucional,86,Saavedra,Parlamentario,eliminar,ARTÍCULO 6 / Número 6
+15805-07,3020,2024-08-02,Segundo trámite constitucional,87,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 6
+15805-07,3020,2024-08-02,Segundo trámite constitucional,88,Núñez,Parlamentario,incorporar,ARTÍCULO 6 / Número 6
+15805-07,3020,2024-08-02,Segundo trámite constitucional,89,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 6 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,90,Ossandón,Parlamentario,sustituir,ARTÍCULO 6 / Párrafo primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,91,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Párrafo primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,92,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 6 / Párrafo primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,93,Saavedra,Parlamentario,incorporar,ARTÍCULO 6 / Párrafo primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,94,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,eliminarlo,ARTÍCULO 6 / Número 8
+15805-07,3020,2024-08-02,Segundo trámite constitucional,95,Ossandón,Parlamentario,incorporar,ARTÍCULO 6 / Número 8
+15805-07,3020,2024-08-02,Segundo trámite constitucional,96,Flores,Parlamentario,agregar,ARTÍCULO 6 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,97,Núñez,Parlamentario,agregar,ARTÍCULO 6 / Número nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,98,Ebensperger y Durana y Macaya,Parlamentario,sustituirlo,ARTÍCULO 7 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,99,Ebensperger y Durana y Macaya,Parlamentario,sustituir,ARTÍCULO 7 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,100,Saavedra,Parlamentario,sustituir,ARTÍCULO 7 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,101,Ossandón,Parlamentario,agregar,ARTÍCULO 8 / Encabezamiento
+15805-07,3020,2024-08-02,Segundo trámite constitucional,102,Aravena y García,Parlamentario,eliminar,ARTÍCULO 8 / Número 2
+15805-07,3020,2024-08-02,Segundo trámite constitucional,103,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 8 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,104,Núñez,Parlamentario,consultar,ARTÍCULO 8 / Número 3
+15805-07,3020,2024-08-02,Segundo trámite constitucional,105,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazar,ARTÍCULO 8 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,106,Núñez,Parlamentario,agregar,ARTÍCULO 8 / Número 4
+15805-07,3020,2024-08-02,Segundo trámite constitucional,107,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,108,Pascual,Parlamentario,incorporar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,109,Campillai,Parlamentario,incorporar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,110,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 8 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,111,Pascual,Parlamentario,reemplazarlo,ARTÍCULO 8 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,112,Núñez,Parlamentario,sustituirlo,ARTÍCULO 8 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,113,Saavedra,Parlamentario,eliminar,ARTÍCULO 8 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,114,Rincón y Walker,Parlamentario,reemplazar,ARTÍCULO 8 / Número 5
+15805-07,3020,2024-08-02,Segundo trámite constitucional,115,Presidente de la República,Ejecutivo,intercalar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,116,Presidente de la República,Ejecutivo,intercalar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,117,Pascual,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,118,Núñez,Parlamentario,agregar,ARTÍCULO 10
+15805-07,3020,2024-08-02,Segundo trámite constitucional,119,Presidente de la República,Ejecutivo,incorporar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,120,Pascual,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,121,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 11 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,122,Ossandón,Parlamentario,agregar,ARTÍCULO 11 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,123,Rincón y Walker,Parlamentario,intercalar,ARTÍCULO 11 / Inciso nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,124,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 12
+15805-07,3020,2024-08-02,Segundo trámite constitucional,125,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazarlo,ARTÍCULO 12
+15805-07,3020,2024-08-02,Segundo trámite constitucional,126,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 12
+15805-07,3020,2024-08-02,Segundo trámite constitucional,127,Pascual,Parlamentario,reemplazarla,ARTÍCULO 12 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,128,Saavedra,Parlamentario,suprimir,ARTÍCULO 12 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,129,Ossandón,Parlamentario,incorporar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,130,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,131,Pascual,Parlamentario,sustituirlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,132,Saavedra,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,133,Rincón y Walker,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,134,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,135,Ebensperger y Durana y Macaya,Parlamentario,sustituirlo,ARTÍCULO 15
+15805-07,3020,2024-08-02,Segundo trámite constitucional,136,Edwards y Pugh,Parlamentario,sustituirlo,ARTÍCULO 15 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,137,Núñez,Parlamentario,eliminar,ARTÍCULO 15 / Inciso primero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,138,Núñez,Parlamentario,suprimirlo,ARTÍCULO 15 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,139,Aravena y García,Parlamentario,suprimir,ARTÍCULO 15 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,140,Ossandón,Parlamentario,agregar,ARTÍCULO 15 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,141,Núñez,Parlamentario,suprimirlo,ARTÍCULO 15 / Inciso tercero
+15805-07,3020,2024-08-02,Segundo trámite constitucional,142,Rincón y Walker,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,143,Rincón y Walker,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,144,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 17
+15805-07,3020,2024-08-02,Segundo trámite constitucional,145,Pascual,Parlamentario,suprimirlo,ARTÍCULO 17
+15805-07,3020,2024-08-02,Segundo trámite constitucional,146,Núñez,Parlamentario,suprimirlo,ARTÍCULO 17
+15805-07,3020,2024-08-02,Segundo trámite constitucional,147,Ossandón,Parlamentario,agregar,ARTÍCULO 17 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,148,Flores,Parlamentario,reemplazar,ARTÍCULO 17 / Inciso segundo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,149,Aravena y García,Parlamentario,introducir,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,150,Aravena y García,Parlamentario,introducir,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,151,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,152,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,incorporar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,153,Ossandón,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,154,Ossandón,Parlamentario,consultar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,155,Ossandón,Parlamentario,incorporar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,156,Saavedra,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,157,"Gatica y Edwards, Kuschel, Kusanovic y Chahuán",Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,158,Ebensperger y Durana y Macaya,Parlamentario,agregar,Artículo nuevo
+15805-07,3020,2024-08-02,Segundo trámite constitucional,159,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO TRANSITORIO
+15805-07,3104,2024-08-06,Segundo trámite constitucional,1,Araya y Quintana,Parlamentario,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,2,Araya y Quintana,Parlamentario,suprimir,ARTÍCULO 1 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,3,Flores,Parlamentario,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,4,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 1 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,5,Flores,Parlamentario,agregar,ARTÍCULO 1 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,6,Araya y Quintana,Parlamentario,intercalar,ARTÍCULO 1 / Inciso nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,7,Araya y Quintana,Parlamentario,sustituir,ARTÍCULO 1 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,8,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,suprimir,ARTÍCULO 1 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,9,Flores,Parlamentario,suprimir,ARTÍCULO 1 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,10,Ossandón,Parlamentario,incorporar,ARTÍCULO 1 / Inciso final
+15805-07,3104,2024-08-06,Segundo trámite constitucional,11,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 2 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,12,Flores,Parlamentario,agregar,ARTÍCULO 2 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,13,Vodanovic,Parlamentario,agregar,ARTÍCULO 2 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,14,Saavedra,Parlamentario,incorporar,ARTÍCULO 2 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,15,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,16,Vodanovic,Parlamentario,suprimirlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,17,Rincón y Walker,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,18,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,19,Aravena y García,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,20,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,sustituirlo,ARTÍCULO 2 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,21,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 2 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,22,Rincón y Walker,Parlamentario,sustituirlo,ARTÍCULO 2 / Párrafo segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,23,Araya y Quintana,Parlamentario,reemplazar,ARTÍCULO 3 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,24,Araya y Quintana,Parlamentario,reemplazar,ARTÍCULO 3 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,25,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 3 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,26,Campillai,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,27,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,28,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,29,Ossandón,Parlamentario,suprimir,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,30,Vodanovic,Parlamentario,sustituir,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,31,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazar,ARTÍCULO 3 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,32,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,sustituirlo,ARTÍCULO 3 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,33,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,34,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,35,Ossandón,Parlamentario,reemplazar,ARTÍCULO 3 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,36,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,37,Aravena y García,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,38,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,39,Ossandón,Parlamentario,sustituir,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,40,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,41,Ossandón,Parlamentario,agregar,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,42,Pascual,Parlamentario,agregar,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,43,Núñez,Parlamentario,incorporar,ARTÍCULO 3 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,44,Flores,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,45,Flores,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,46,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 3 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,47,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,48,Saavedra,Parlamentario,sustituir,ARTÍCULO 3 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,49,Ossandón,Parlamentario,agregar,ARTÍCULO 3 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,50,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,51,Núñez,Parlamentario,intercalar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,52,Flores,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,53,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 3 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,54,Araya y Quintana,Parlamentario,sustituirlo,ARTÍCULO 3 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,55,Núñez,Parlamentario,agregar,ARTÍCULO 3 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,56,Pascual,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,57,Campillai,Parlamentario,consultar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,58,Saavedra,Parlamentario,agregar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,59,Saavedra,Parlamentario,incorporar,ARTÍCULO 3 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,60,Núñez,Parlamentario,intercalar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,61,Saavedra,Parlamentario,sustituirlo,ARTÍCULO 4 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,62,Ossandón,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,63,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 4 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,64,Flores,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,65,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,66,Ossandón,Parlamentario,agregar,ARTÍCULO 4 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,67,Aravena y García,Parlamentario,suprimir,ARTÍCULO 4 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,68,Saavedra,Parlamentario,suprimir,ARTÍCULO 4 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,69,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,70,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,suprimirlo,ARTÍCULO 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,71,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,72,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,73,Núñez,Parlamentario,intercalar,ARTÍCULO 5 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,74,Núñez,Parlamentario,intercalar,ARTÍCULO 5 / Inciso tercero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,75,Núñez,Parlamentario,consultar,ARTÍCULO 5 / Inciso nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,76,Saavedra,Parlamentario,incorporar,ARTÍCULO 5 / Inciso final nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,77,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,78,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,79,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,80,Ossandón,Parlamentario,sustituir,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,81,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,82,Núñez,Parlamentario,agregar,ARTÍCULO 6 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,83,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,84,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,85,Saavedra,Parlamentario,suprimir,ARTÍCULO 6 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,86,Vodanovic,Parlamentario,eliminar,ARTÍCULO 6 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,87,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 6 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,88,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 6 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,89,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,90,Vodanovic,Parlamentario,sustituir,ARTÍCULO 6 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,91,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 6 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,92,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 6 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,93,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,94,Araya y Quintana,Parlamentario,suprimirlo,ARTÍCULO 6 / Número 6
+15805-07,3104,2024-08-06,Segundo trámite constitucional,95,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 6 / Número 6
+15805-07,3104,2024-08-06,Segundo trámite constitucional,96,Saavedra,Parlamentario,eliminar,ARTÍCULO 6 / Número 6
+15805-07,3104,2024-08-06,Segundo trámite constitucional,97,Ossandón,Parlamentario,eliminar,ARTÍCULO 6 / Número 6
+15805-07,3104,2024-08-06,Segundo trámite constitucional,98,Núñez,Parlamentario,incorporar,ARTÍCULO 6 / Número 6
+15805-07,3104,2024-08-06,Segundo trámite constitucional,99,Presidente de la República,Ejecutivo,consultar,ARTÍCULO 6 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,100,Ossandón,Parlamentario,sustituir,ARTÍCULO 6 / Párrafo primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,101,Ossandón,Parlamentario,reemplazar,ARTÍCULO 6 / Párrafo primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,102,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 6 / Párrafo primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,103,Saavedra,Parlamentario,incorporar,ARTÍCULO 6 / Párrafo primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,104,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,eliminarlo,ARTÍCULO 6 / Número 8
+15805-07,3104,2024-08-06,Segundo trámite constitucional,105,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO 6 / Número 8
+15805-07,3104,2024-08-06,Segundo trámite constitucional,106,Ossandón,Parlamentario,incorporar,ARTÍCULO 6 / Número 8
+15805-07,3104,2024-08-06,Segundo trámite constitucional,107,Flores,Parlamentario,agregar,ARTÍCULO 6 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,108,Núñez,Parlamentario,agregar,ARTÍCULO 6 / Número nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,109,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 7 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,110,Vodanovic,Parlamentario,suprimirlo,ARTÍCULO 7 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,111,Ebensperger y Durana y Macaya,Parlamentario,sustituirlo,ARTÍCULO 7 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,112,Ebensperger y Durana y Macaya,Parlamentario,sustituir,ARTÍCULO 7 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,113,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 7 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,114,Saavedra,Parlamentario,sustituir,ARTÍCULO 7 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,115,Vodanovic,Parlamentario,introducir,ARTÍCULO 7 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,116,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 7 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,117,Vodanovic,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,118,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 8 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,119,Ossandón,Parlamentario,agregar,ARTÍCULO 8 / Encabezamiento
+15805-07,3104,2024-08-06,Segundo trámite constitucional,120,Vodanovic,Parlamentario,suprimirlo,ARTÍCULO 8 / Número 1
+15805-07,3104,2024-08-06,Segundo trámite constitucional,121,Vodanovic,Parlamentario,eliminarlo,ARTÍCULO 8 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,122,Aravena y García,Parlamentario,eliminar,ARTÍCULO 8 / Número 2
+15805-07,3104,2024-08-06,Segundo trámite constitucional,123,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 8 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,124,Núñez,Parlamentario,consultar,ARTÍCULO 8 / Número 3
+15805-07,3104,2024-08-06,Segundo trámite constitucional,125,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO 8 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,126,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazar,ARTÍCULO 8 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,127,Núñez,Parlamentario,agregar,ARTÍCULO 8 / Número 4
+15805-07,3104,2024-08-06,Segundo trámite constitucional,128,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,129,Pascual,Parlamentario,incorporar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,130,Campillai,Parlamentario,incorporar,ARTÍCULO 8 / Párrafo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,131,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,132,Pascual,Parlamentario,reemplazarlo,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,133,Núñez,Parlamentario,sustituirlo,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,134,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,135,Saavedra,Parlamentario,eliminar,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,136,Rincón y Walker,Parlamentario,reemplazar,ARTÍCULO 8 / Número 5
+15805-07,3104,2024-08-06,Segundo trámite constitucional,137,Presidente de la República,Ejecutivo,intercalar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,138,Presidente de la República,Ejecutivo,intercalar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,139,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 9
+15805-07,3104,2024-08-06,Segundo trámite constitucional,140,Vodanovic,Parlamentario,agregar,ARTÍCULO 9
+15805-07,3104,2024-08-06,Segundo trámite constitucional,141,Pascual,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,142,Núñez,Parlamentario,agregar,ARTÍCULO 10
+15805-07,3104,2024-08-06,Segundo trámite constitucional,143,Presidente de la República,Ejecutivo,incorporar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,144,Pascual,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,145,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 11 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,146,Ossandón,Parlamentario,agregar,ARTÍCULO 11 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,147,Rincón y Walker,Parlamentario,intercalar,ARTÍCULO 11 / Inciso nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,148,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 12
+15805-07,3104,2024-08-06,Segundo trámite constitucional,149,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,reemplazarlo,ARTÍCULO 12
+15805-07,3104,2024-08-06,Segundo trámite constitucional,150,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 12
+15805-07,3104,2024-08-06,Segundo trámite constitucional,151,Vodanovic,Parlamentario,sustituirlo,ARTÍCULO 12
+15805-07,3104,2024-08-06,Segundo trámite constitucional,152,Pascual,Parlamentario,reemplazarla,ARTÍCULO 12 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,153,Saavedra,Parlamentario,suprimir,ARTÍCULO 12 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,154,Ossandón,Parlamentario,incorporar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,155,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,156,Pascual,Parlamentario,sustituirlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,157,Saavedra,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,158,Rincón y Walker,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,159,Araya y Quintana,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,160,Vodanovic,Parlamentario,reemplazarlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,161,Ebensperger y Durana y Macaya,Parlamentario,sustituirlo,ARTÍCULO 15
+15805-07,3104,2024-08-06,Segundo trámite constitucional,162,Edwards y Pugh,Parlamentario,sustituirlo,ARTÍCULO 15 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,163,Núñez,Parlamentario,eliminar,ARTÍCULO 15 / Inciso primero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,164,Núñez,Parlamentario,suprimirlo,ARTÍCULO 15 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,165,Aravena y García,Parlamentario,suprimir,ARTÍCULO 15 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,166,Ossandón,Parlamentario,agregar,ARTÍCULO 15 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,167,Núñez,Parlamentario,suprimirlo,ARTÍCULO 15 / Inciso tercero
+15805-07,3104,2024-08-06,Segundo trámite constitucional,168,Rincón y Walker,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,169,Rincón y Walker,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,170,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 17
+15805-07,3104,2024-08-06,Segundo trámite constitucional,171,Pascual,Parlamentario,suprimirlo,ARTÍCULO 17
+15805-07,3104,2024-08-06,Segundo trámite constitucional,172,Núñez,Parlamentario,suprimirlo,ARTÍCULO 17
+15805-07,3104,2024-08-06,Segundo trámite constitucional,173,Ossandón,Parlamentario,agregar,ARTÍCULO 17 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,174,Flores,Parlamentario,reemplazar,ARTÍCULO 17 / Inciso segundo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,175,Aravena y García,Parlamentario,introducir,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,176,Aravena y García,Parlamentario,introducir,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,177,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,178,"Ebensperger y Durana, Edwards, Macaya y Pugh",Parlamentario,incorporar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,179,Ossandón,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,180,Ossandón,Parlamentario,consultar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,181,Ossandón,Parlamentario,incorporar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,182,Saavedra,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,183,"Gatica y Edwards, Kuschel, Kusanovic y Chahuán",Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,184,Ebensperger y Durana y Macaya,Parlamentario,agregar,Artículo nuevo
+15805-07,3104,2024-08-06,Segundo trámite constitucional,185,Aravena y García,Parlamentario,suprimirlo,ARTÍCULO TRANSITORIO
+15850-11,3263,2026-08-14,Primer trámite constitucional,1,Presidente de la República,Ejecutivo,anteponer,ARTÍCULO 1° / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,2,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 1° / Número 1)
+15850-11,3263,2026-08-14,Primer trámite constitucional,3,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 1° / Número 2)
+15850-11,3263,2026-08-14,Primer trámite constitucional,4,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 1° / Número 3)
+15850-11,3263,2026-08-14,Primer trámite constitucional,5,Gahona,Parlamentario,intercalar,Artículo 129 E propuesto / Inciso nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,6,Presidente de la República,Ejecutivo,anteponer,ARTÍCULO 2° / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,7,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 2° / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,8,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 2° / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,9,Presidente de la República,Ejecutivo,eliminar,Artículo 313° b / Inciso segundo propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,10,Gahona,Parlamentario,suprimir,Artículo 313° b / Inciso segundo propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,11,Gahona,Parlamentario,sustituir,Artículo 313° b / Inciso segundo propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,12,Presidente de la República,Ejecutivo,agregar,Artículo 313° b / Inciso segundo propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,13,Presidente de la República,Ejecutivo,reemplazar,Artículo 313° b / Inciso segundo propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,14,Presidente de la República,Ejecutivo,reemplazarlo,Artículo 313° b / Número 2
+15850-11,3263,2026-08-14,Primer trámite constitucional,15,Presidente de la República,Ejecutivo,sustituirlo,Artículo 313° b / Número 3
+15850-11,3263,2026-08-14,Primer trámite constitucional,16,Gahona,Parlamentario,sustituir,Artículo 313° e propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,17,Presidente de la República,Ejecutivo,reemplazarlo,Artículo 313° e propuesto / Número 4
+15850-11,3263,2026-08-14,Primer trámite constitucional,18,Gahona,Parlamentario,sustituir,Artículo 313° f propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,19,Presidente de la República,Ejecutivo,intercalar,Artículo 313° f propuesto / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,20,Presidente de la República,Ejecutivo,intercalar,Artículo 313° f propuesto / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,21,Presidente de la República,Ejecutivo,intercalar,Artículo 313° f propuesto / Número nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,22,Presidente de la República,Ejecutivo,eliminarlo,Artículo 313° f propuesto / Número 5
+15850-11,3263,2026-08-14,Primer trámite constitucional,23,Gahona,Parlamentario,sustituir,Artículo 448° nonies propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,24,Gahona,Parlamentario,reemplazar,Artículo 448° nonies propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,25,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 3° / Numeral 6 propuesto
+15850-11,3263,2026-08-14,Primer trámite constitucional,26,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 4° / Número 3)
+15850-11,3263,2026-08-14,Primer trámite constitucional,27,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 4° / Número 4
+15850-11,3263,2026-08-14,Primer trámite constitucional,28,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 4° / Número 5
+15850-11,3263,2026-08-14,Primer trámite constitucional,29,Presidente de la República,Ejecutivo,incorporar,Artículo nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,30,Presidente de la República,Ejecutivo,incorporar,Artículo nuevo
+15850-11,3263,2026-08-14,Primer trámite constitucional,31,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO TRANSITORIO
+15975-25,2963,2024-01-11,Primer trámite constitucional,1,Coloma,Parlamentario,intercalar,ARTÍCULO 1 / Inciso nuevo
+15975-25,2963,2024-01-11,Primer trámite constitucional,2,Durana,Parlamentario,reemplazar,ARTÍCULO 1 / Inciso quinto
+15975-25,2963,2024-01-11,Primer trámite constitucional,3,Coloma,Parlamentario,intercalar,ARTÍCULO 2
+15975-25,2963,2024-01-11,Primer trámite constitucional,4,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 3 / Número 1)
+15975-25,2963,2024-01-11,Primer trámite constitucional,5,Presidente de la República,Ejecutivo,incorporar,"ARTÍCULO 3 / Letra, nueva"
+15975-25,2963,2024-01-11,Primer trámite constitucional,6,Durana,Parlamentario,eliminarla,ARTÍCULO 3 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,7,Coloma,Parlamentario,suprimirlos,ARTÍCULO 3 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,8,Presidente de la República,Ejecutivo,eliminar,ARTÍCULO 3 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,9,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 3 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,10,Coloma,Parlamentario,sustituirlo,ARTÍCULO 3 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,11,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 3 / Letra nueva
+15975-25,2963,2024-01-11,Primer trámite constitucional,12,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 3 / Párrafo final propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,13,Durana,Parlamentario,suprimirla,ARTÍCULO 3 / Letra c)
+15975-25,2963,2024-01-11,Primer trámite constitucional,14,Presidente de la República,Ejecutivo,sustituirla,ARTÍCULO 3 / Letra c)
+15975-25,2963,2024-01-11,Primer trámite constitucional,15,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 3 / Letra d)
+15975-25,2963,2024-01-11,Primer trámite constitucional,16,Coloma,Parlamentario,suprimirlo,ARTÍCULO 3 / Letra d)
+15975-25,2963,2024-01-11,Primer trámite constitucional,17,Durana,Parlamentario,eliminarlo,ARTÍCULO 3 / Literal l) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,18,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 3 / Literal l) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,19,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 3 / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,20,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 3 / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,21,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 3 / Número 4)
+15975-25,2963,2024-01-11,Primer trámite constitucional,22,Coloma,Parlamentario,consultar,ARTÍCULO 3 / Número 4)
+15975-25,2963,2024-01-11,Primer trámite constitucional,23,Coloma,Parlamentario,consultar,ARTÍCULO 3 / Número 4)
+15975-25,2963,2024-01-11,Primer trámite constitucional,24,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 3 / Número 5)
+15975-25,2963,2024-01-11,Primer trámite constitucional,25,Presidente de la República,Ejecutivo,reemplazarla,ARTÍCULO 3 / Letra c)
+15975-25,2963,2024-01-11,Primer trámite constitucional,26,Presidente de la República,Ejecutivo,reemplazarla,ARTÍCULO 4 / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,27,Coloma,Parlamentario,reemplazar,ARTÍCULO 4 / Inciso tercero propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,28,Coloma,Parlamentario,agregar,ARTÍCULO 4 / Inciso tercero propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,29,Durana,Parlamentario,suprimir,ARTÍCULO 4 / Literal d) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,30,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 4 / Número 4)
+15975-25,2963,2024-01-11,Primer trámite constitucional,31,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 4 / Número 5)
+15975-25,2963,2024-01-11,Primer trámite constitucional,32,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 4 / Párrafo cuarto propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,33,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 4 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,34,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 4 / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,35,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 6 / Número 1)
+15975-25,2963,2024-01-11,Primer trámite constitucional,36,Coloma,Parlamentario,eliminarlas,ARTÍCULO 6 / Número 2)
+15975-25,2963,2024-01-11,Primer trámite constitucional,37,Coloma,Parlamentario,consultar,ARTÍCULO 6 / Letra nueva
+15975-25,2963,2024-01-11,Primer trámite constitucional,38,Coloma,Parlamentario,agregar,ARTÍCULO 6 / Letra nueva
+15975-25,2963,2024-01-11,Primer trámite constitucional,39,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 6 / Número nuevo
+15975-25,2963,2024-01-11,Primer trámite constitucional,40,Durana,Parlamentario,eliminarla,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,41,Coloma,Parlamentario,sustituirla,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,42,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,43,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,44,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,45,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,46,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,47,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,48,Presidente de la República,Ejecutivo,sustituirla,ARTÍCULO 7 / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,49,Durana,Parlamentario,sustituir,ARTÍCULO 7 / Párrafo final propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,50,Coloma,Parlamentario,eliminarlo,ARTÍCULO 7 / Letra d)
+15975-25,2963,2024-01-11,Primer trámite constitucional,51,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 7 / Letra d)
+15975-25,2963,2024-01-11,Primer trámite constitucional,52,Coloma,Parlamentario,agregar,ARTÍCULO 7 / Número 2)
+15975-25,2963,2024-01-11,Primer trámite constitucional,53,Presidente de la República,Ejecutivo,sustituirla,ARTÍCULO 7 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,54,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 7 / Letra nueva
+15975-25,2963,2024-01-11,Primer trámite constitucional,55,Durana,Parlamentario,intercalar,ARTÍCULO 7 / Inciso cuarto propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,56,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 7 / Inciso segundo propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,57,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 7 / Número 7)
+15975-25,2963,2024-01-11,Primer trámite constitucional,58,Coloma,Parlamentario,intercalar,ARTÍCULO 9 / Numeral 1) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,59,Presidente de la República,Ejecutivo,intercalar,Artículo 4 propuesto / Inciso tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,60,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 11 / Literal d) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,61,Coloma,Parlamentario,intercalar,ARTÍCULO 11 / Literal d) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,62,Presidente de la República,Ejecutivo,intercalar,Artículo 38 propuesto / Inciso segundo
+15975-25,2963,2024-01-11,Primer trámite constitucional,63,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 12 / Párrafo primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,64,Coloma,Parlamentario,intercalar,ARTÍCULO 12 / Párrafo primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,65,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 12 / Párrafo tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,66,Coloma,Parlamentario,eliminarlo,ARTÍCULO 13 / Número 1)
+15975-25,2963,2024-01-11,Primer trámite constitucional,67,Durana,Parlamentario,eliminarlo,ARTÍCULO 13 / Número 1)
+15975-25,2963,2024-01-11,Primer trámite constitucional,68,Presidente de la República,Ejecutivo,intercalar,Artículo 25 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,69,Presidente de la República,Ejecutivo,agregar,Artículo 25 bis propuesto / Inciso segundo
+15975-25,2963,2024-01-11,Primer trámite constitucional,70,Presidente de la República,Ejecutivo,intercalar,Artículo 25 bis propuesto / Párrafo primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,71,Presidente de la República,Ejecutivo,sustituir,Artículo 25 bis propuesto / Párrafo tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,72,Presidente de la República,Ejecutivo,agregar,Artículo 25 bis propuesto / Párrafo tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,73,Presidente de la República,Ejecutivo,incorporar,Artículo 25 bis propuesto / Número nuevo
+15975-25,2963,2024-01-11,Primer trámite constitucional,74,Coloma,Parlamentario,intercalar,Artículo 25 bis propuesto / Literal f) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,75,Coloma,Parlamentario,intercalar,Artículo 25 bis propuesto / Literal f) propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,76,Presidente de la República,Ejecutivo,reemplazarla,Artículo 25 bis propuesto / Letra b)
+15975-25,2963,2024-01-11,Primer trámite constitucional,77,Presidente de la República,Ejecutivo,intercalar,Artículo 18 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,78,Coloma,Parlamentario,intercalar,Artículo 18 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,79,Presidente de la República,Ejecutivo,agregar,Artículo 18 bis propuesto / Inciso tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,80,Presidente de la República,Ejecutivo,intercalar,Artículo 6° bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,81,Presidente de la República,Ejecutivo,intercalar,Artículo 6 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,82,Presidente de la República,Ejecutivo,intercalar,Artículo 6 bis propuesto / Inciso segundo
+15975-25,2963,2024-01-11,Primer trámite constitucional,83,Presidente de la República,Ejecutivo,agregar,Artículo 2 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,84,Coloma,Parlamentario,intercalar,Artículo 2 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,85,Presidente de la República,Ejecutivo,intercalar,Artículo 2 bis propuesto / Inciso tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,86,Presidente de la República,Ejecutivo,agregar,Artículo 2 bis propuesto / Inciso tercero propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,87,Presidente de la República,Ejecutivo,intercalar,Artículo 2 bis propuesto / Inciso cuarto propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,88,Coloma,Parlamentario,intercalar,ARTÍCULO 18 / Literal a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,89,Presidente de la República,Ejecutivo,eliminarla,ARTÍCULO 20 / Letra d)
+15975-25,2963,2024-01-11,Primer trámite constitucional,90,Presidente de la República,Ejecutivo,intercalar,Artículo 203 bis propuesto / Inciso primero
+15975-25,2963,2024-01-11,Primer trámite constitucional,91,Presidente de la República,Ejecutivo,reemplazarla,ARTÍCULO 21 / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,92,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 21 / Numeral 14 propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,93,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 21 / Numeral 14 propuesto
+15975-25,2963,2024-01-11,Primer trámite constitucional,94,Presidente de la República,Ejecutivo,eliminarlo,Artículo 53 propuesto / Literal h)
+15975-25,2963,2024-01-11,Primer trámite constitucional,95,Presidente de la República,Ejecutivo,reemplazarla,Artículo 53 propuesto / Letra a)
+15975-25,2963,2024-01-11,Primer trámite constitucional,96,Presidente de la República,Ejecutivo,sustituirlo,Artículo 53 propuesto / Número 17)
+15975-25,2963,2024-01-11,Primer trámite constitucional,97,Coloma,Parlamentario,reemplazar,Artículo 277 propuesto / Inciso tercero
+15975-25,2963,2024-01-11,Primer trámite constitucional,98,Coloma,Parlamentario,contemplar,Artículo 277 propuesto / Número nuevo
+15975-25,2963,2024-01-11,Primer trámite constitucional,99,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 25
+15975-25,2963,2024-01-11,Primer trámite constitucional,100,Presidente de la República,Ejecutivo,agregar,ARTÍCULO TRANSITORIO NUEVO
+15975-25,3001,2024-05-22,Primer trámite constitucional,1A,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 1 / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,1B,Vodanovic,Parlamentario,reemplazarlo,ARTÍCULO 1 / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,1C,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 1 / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,1D,Vodanovic,Parlamentario,reemplazarlo,ARTÍCULO 1 / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,1E,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 1 / Inciso quinto
+15975-25,3001,2024-05-22,Primer trámite constitucional,1F,Ossandón,Parlamentario,reemplazar,ARTÍCULO 1 / Inciso quinto
+15975-25,3001,2024-05-22,Primer trámite constitucional,2A,Ossandón,Parlamentario,agregar,ARTÍCULO 1 / Inciso nuevo
+15975-25,3001,2024-05-22,Primer trámite constitucional,2B,Vodanovic,Parlamentario,agregar,ARTÍCULO 1 / Inciso nuevo
+15975-25,3001,2024-05-22,Primer trámite constitucional,2C,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO NUEVO
+15975-25,3001,2024-05-22,Primer trámite constitucional,3A,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3B,Vodanovic,Parlamentario,intercalar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3C,Ossandón,Parlamentario,intercalar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3D,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3E,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3F,Vodanovic,Parlamentario,reemplazar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3G,Ossandón,Parlamentario,reemplazar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3H,Vodanovic,Parlamentario,agregar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,3I,Ossandón,Parlamentario,agregar,ARTÍCULO 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,5,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 3 / Letra nueva
+15975-25,3001,2024-05-22,Primer trámite constitucional,23A,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 3 / Número 4)
+15975-25,3001,2024-05-22,Primer trámite constitucional,24A,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 3 / Número 5)
+15975-25,3001,2024-05-22,Primer trámite constitucional,29A,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 4 / Número 3)
+15975-25,3001,2024-05-22,Primer trámite constitucional,32A,Presidente de la República,Ejecutivo,suprimir,ARTÍCULO 4 / Letra a)
+15975-25,3001,2024-05-22,Primer trámite constitucional,34A,Presidente de la República,Ejecutivo,reemplazarlo,Artículo 3° ter propuesto / Inciso primero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34B,Vodanovic,Parlamentario,reemplazar,Artículo 3° ter propuesto / Inciso primero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34C,Ossandón,Parlamentario,reemplazar,Artículo 3° ter propuesto / Inciso primero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34D,Presidente de la República,Ejecutivo,reemplazar,Artículo 3° ter propuesto / Inciso segundo
+15975-25,3001,2024-05-22,Primer trámite constitucional,34E,Vodanovic,Parlamentario,eliminarlo,Artículo 3° ter propuesto / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34F,Ossandón,Parlamentario,eliminarlo,Artículo 3° ter propuesto / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34G,Presidente de la República,Ejecutivo,modificarlo,Artículo 3° ter propuesto / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34H,Presidente de la República,Ejecutivo,eliminarlos,Artículo 3° ter propuesto / Inciso tercero
+15975-25,3001,2024-05-22,Primer trámite constitucional,34I,Vodanovic,Parlamentario,reemplazar,Artículo 3° ter propuesto / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34J,Ossandón,Parlamentario,reemplazar,Artículo 3° ter propuesto / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34K,Vodanovic,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34L,Ossandón,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso cuarto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34M,Vodanovic,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso quinto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34N,Ossandón,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso quinto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34O,Vodanovic,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso sexto
+15975-25,3001,2024-05-22,Primer trámite constitucional,34P,Ossandón,Parlamentario,agregar,Artículo 3° ter propuesto / Inciso sexto
+15975-25,3001,2024-05-22,Primer trámite constitucional,51A,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 7 / Letra d)
+15975-25,3001,2024-05-22,Primer trámite constitucional,52A,Vodanovic,Parlamentario,agregar,ARTÍCULO 7 / Número 2)
+15975-25,3001,2024-05-22,Primer trámite constitucional,52B,Ossandón,Parlamentario,agregar,ARTÍCULO 7 / Número 2)
+15975-25,3001,2024-05-22,Primer trámite constitucional,55A,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 7 / Letra nueva
+15975-25,3001,2024-05-22,Primer trámite constitucional,87A,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 18
+15975-25,3001,2024-05-22,Primer trámite constitucional,88A,Vodanovic,Parlamentario,reemplazarlo,ARTÍCULO 19 / Número 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,88B,Ossandón,Parlamentario,reemplazarlo,ARTÍCULO 19 / Número 2
+15975-25,3001,2024-05-22,Primer trámite constitucional,88C,Presidente de la República,Ejecutivo,reemplazarlo,"Artículo 5° A, propuesto / Inciso primero"
+15975-25,3001,2024-05-22,Primer trámite constitucional,88D,Presidente de la República,Ejecutivo,reemplazar,"Artículo 5° A, propuesto / Inciso segundo"
+15975-25,3001,2024-05-22,Primer trámite constitucional,88E,Presidente de la República,Ejecutivo,modificarlo,"Artículo 5° A, propuesto / Inciso tercero"
+15975-25,3001,2024-05-22,Primer trámite constitucional,88F,Presidente de la República,Ejecutivo,eliminarlos,"Artículo 5° A, propuesto / Inciso tercero"
+15975-25,3001,2024-05-22,Primer trámite constitucional,96A,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 22
+15975-25,3001,2024-05-22,Primer trámite constitucional,98A,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 24
+15975-25,3001,2024-05-22,Primer trámite constitucional,98B,Ossandón,Parlamentario,suprimirlo,ARTÍCULO 25
+15975-25,3001,2024-05-22,Primer trámite constitucional,99A,Ossandón,Parlamentario,suprimirlo,ARTÍCULO PRIMERO TRANSITORIO
+15975-25,3061,2024-11-11,Primer trámite constitucional,1H,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 1 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,2H,Presidente de la República,Ejecutivo,sustituir,ARTÍCULO 1 / Inciso séptimo
+15975-25,3061,2024-11-11,Primer trámite constitucional,3H,Coloma,Parlamentario,suprimirlo,ARTÍCULO 5 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,4H,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 5 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,5H,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 5 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,6H,Coloma,Parlamentario,eliminarlo,ARTÍCULO 5 / Literal f)
+15975-25,3061,2024-11-11,Primer trámite constitucional,7H,Vodanovic,Parlamentario,intercalar,ARTÍCULO 5 / Numeral 3)
+15975-25,3061,2024-11-11,Primer trámite constitucional,8H,Coloma,Parlamentario,suprimirlo,ARTÍCULO 5 / Literal a)
+15975-25,3061,2024-11-11,Primer trámite constitucional,9H,Presidente de la República,Ejecutivo,introducir,ARTÍCULO 6
+15975-25,3061,2024-11-11,Primer trámite constitucional,10H,Presidente de la República,Ejecutivo,sustituir,ARTÍCULO 7 / Numeral 1)
+15975-25,3061,2024-11-11,Primer trámite constitucional,11H,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 7 / Numeral 1)
+15975-25,3061,2024-11-11,Primer trámite constitucional,12H,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 8 / Numeral 2)
+15975-25,3061,2024-11-11,Primer trámite constitucional,13H,Kast,Parlamentario,agregar,ARTÍCULO 8 / Numeral 2)
+15975-25,3061,2024-11-11,Primer trámite constitucional,14H,Coloma,Parlamentario,eliminarlo,ARTÍCULO 9 / Literal a)
+15975-25,3061,2024-11-11,Primer trámite constitucional,15H,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 9 / Literal a)
+15975-25,3061,2024-11-11,Primer trámite constitucional,16H,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 9 / Literal a)
+15975-25,3061,2024-11-11,Primer trámite constitucional,17H,Coloma,Parlamentario,suprimirlo,ARTÍCULO 15 / Numeral 1)
+15975-25,3061,2024-11-11,Primer trámite constitucional,18H,Presidente de la República,Ejecutivo,suprimirlo,ARTÍCULO 21 / Numeral 1)
+15975-25,3061,2024-11-11,Primer trámite constitucional,19H,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 21 / Numeral 2)
+15975-25,3061,2024-11-11,Primer trámite constitucional,20H,Presidente de la República,Ejecutivo,sustituir,ARTÍCULO 21 / Numeral 2)
+15975-25,3061,2024-11-11,Primer trámite constitucional,21H,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 21 / Numeral 2)
+15975-25,3061,2024-11-11,Primer trámite constitucional,22H,Coloma,Parlamentario,suprimir,ARTÍCULO 23 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,23H,Coloma,Parlamentario,eliminar,ARTÍCULO 23 / Numeral 4)
+15975-25,3061,2024-11-11,Primer trámite constitucional,24H,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 23 / Numeral 4)
+15975-25,3061,2024-11-11,Primer trámite constitucional,25H,Presidente de la República,Ejecutivo,sustituirlo,ARTÍCULO 24 / Literal b)
+15975-25,3061,2024-11-11,Primer trámite constitucional,26H,Saavedra,Parlamentario,reemplazar,Artículo 277
+15975-25,3061,2024-11-11,Primer trámite constitucional,27H,Presidente de la República,Ejecutivo,consultar,Artículo 277
+15975-25,3061,2024-11-11,Primer trámite constitucional,28H,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 26 / Número 15 propuesto
+15975-25,3061,2024-11-11,Primer trámite constitucional,29H,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 27
+15975-25,3061,2024-11-11,Primer trámite constitucional,30H,Vodanovic,Parlamentario,introducir,ARTÍCULO 27
+15975-25,3061,2024-11-11,Primer trámite constitucional,31H,Vodanovic,Parlamentario,agregar,ARTÍCULO 27
+15975-25,3061,2024-11-11,Primer trámite constitucional,32H,Kast,Parlamentario,contemplar,ARTÍCULO 27
+15975-25,3065,2024-12-03,Primer trámite constitucional,1H a),Coloma,Parlamentario,reemplazarlo,ARTÍCULO 5 / Literal b)
+15975-25,3065,2024-12-03,Primer trámite constitucional,2H b),Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 5 / Literal b)
+15975-25,3065,2024-12-03,Primer trámite constitucional,3H c),Presidente de la República,Ejecutivo,agregar,ARTÍCULO 5 / Literal b)
+15975-25,3065,2024-12-03,Primer trámite constitucional,4H d),Saavedra,Parlamentario,consultar,ARTÍCULO 5 / Literal b)
+16143-02,3027,2024-09-13,Primer trámite constitucional,1,Presidente de la República,Ejecutivo,sustituir,
+16143-02,3027,2024-09-13,Primer trámite constitucional,2,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 1°
+16143-02,3027,2024-09-13,Primer trámite constitucional,3,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 1°
+16143-02,3027,2024-09-13,Primer trámite constitucional,4,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 2°
+16143-02,3027,2024-09-13,Primer trámite constitucional,5,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlo,ARTÍCULO 2°
+16143-02,3027,2024-09-13,Primer trámite constitucional,6,Pascual,Parlamentario,reemplazar,ARTÍCULO 2° / Numeral 5)
+16143-02,3027,2024-09-13,Primer trámite constitucional,7,Ebensperger y Macaya,Parlamentario,reemplazar,ARTÍCULO 2° / Numeral 5)
+16143-02,3027,2024-09-13,Primer trámite constitucional,8,Ebensperger y Macaya,Parlamentario,agregar,ARTÍCULO 2° / Numeral 5)
+16143-02,3027,2024-09-13,Primer trámite constitucional,9,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 3°
+16143-02,3027,2024-09-13,Primer trámite constitucional,10,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 3°
+16143-02,3027,2024-09-13,Primer trámite constitucional,11,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,contemplarlo,TÍTULO II
+16143-02,3027,2024-09-13,Primer trámite constitucional,12,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazar,TÍTULO II
+16143-02,3027,2024-09-13,Primer trámite constitucional,13,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 4°
+16143-02,3027,2024-09-13,Primer trámite constitucional,14,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlos,ARTÍCULO 4°
+16143-02,3027,2024-09-13,Primer trámite constitucional,15,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 4° / Numeral 6
+16143-02,3027,2024-09-13,Primer trámite constitucional,16,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 5°
+16143-02,3027,2024-09-13,Primer trámite constitucional,17,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 5°
+16143-02,3027,2024-09-13,Primer trámite constitucional,18,Ebensperger y Macaya,Parlamentario,agregar,ARTÍCULO 5° / Inciso nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,19,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,consultar,ARTÍCULO 5° / Inciso nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,20,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlo,ARTÍCULO 6°
+16143-02,3027,2024-09-13,Primer trámite constitucional,21,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 6°
+16143-02,3027,2024-09-13,Primer trámite constitucional,22,Pascual,Parlamentario,reemplazar,ARTÍCULO 6° / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,23,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,consultar,ARTÍCULO 6° / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,24,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 7°
+16143-02,3027,2024-09-13,Primer trámite constitucional,25,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 7°
+16143-02,3027,2024-09-13,Primer trámite constitucional,26,Pascual,Parlamentario,eliminar,ARTÍCULO 7° / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,27,Pascual,Parlamentario,suprimirlo,ARTÍCULO 7° / Inciso final
+16143-02,3027,2024-09-13,Primer trámite constitucional,28,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,consultar,ARTÍCULO 7° / Inciso final
+16143-02,3027,2024-09-13,Primer trámite constitucional,29,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlo,ARTÍCULO 8°
+16143-02,3027,2024-09-13,Primer trámite constitucional,30,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 8°
+16143-02,3027,2024-09-13,Primer trámite constitucional,31,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 9°
+16143-02,3027,2024-09-13,Primer trámite constitucional,32,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 9°
+16143-02,3027,2024-09-13,Primer trámite constitucional,33,Ebensperger y Macaya,Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,34,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlo,ARTÍCULO 10
+16143-02,3027,2024-09-13,Primer trámite constitucional,35,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 10
+16143-02,3027,2024-09-13,Primer trámite constitucional,36,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 11
+16143-02,3027,2024-09-13,Primer trámite constitucional,37,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 11
+16143-02,3027,2024-09-13,Primer trámite constitucional,38,Ebensperger y Macaya,Parlamentario,suprimir,ARTÍCULO 11 / Numeral 2)
+16143-02,3027,2024-09-13,Primer trámite constitucional,39,Ebensperger y Macaya,Parlamentario,suprimirlo,ARTÍCULO 11 / Numeral 3)
+16143-02,3027,2024-09-13,Primer trámite constitucional,40,Ebensperger y Macaya,Parlamentario,reemplazarlo,ARTÍCULO 11 / Numeral 4)
+16143-02,3027,2024-09-13,Primer trámite constitucional,41,Pascual,Parlamentario,reemplazarlo,ARTÍCULO 11 / Numeral 6)
+16143-02,3027,2024-09-13,Primer trámite constitucional,42,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazar,TÍTULO III
+16143-02,3027,2024-09-13,Primer trámite constitucional,43,"Pugh, Aravena, y Edwards, Macaya y Ossandón para contemplarlo, a continuación del artículo 14",Parlamentario,contemplarlo,TÍTULO III
+16143-02,3027,2024-09-13,Primer trámite constitucional,44,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 12
+16143-02,3027,2024-09-13,Primer trámite constitucional,45,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 12
+16143-02,3027,2024-09-13,Primer trámite constitucional,46,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 13
+16143-02,3027,2024-09-13,Primer trámite constitucional,47,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 13
+16143-02,3027,2024-09-13,Primer trámite constitucional,48,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,consultar,ARTÍCULO 13
+16143-02,3027,2024-09-13,Primer trámite constitucional,49,Ebensperger y Macaya,Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,50,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 14
+16143-02,3027,2024-09-13,Primer trámite constitucional,51,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 14
+16143-02,3027,2024-09-13,Primer trámite constitucional,52,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 15
+16143-02,3027,2024-09-13,Primer trámite constitucional,53,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 15
+16143-02,3027,2024-09-13,Primer trámite constitucional,54,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,contemplarlo,TÍTULO IV
+16143-02,3027,2024-09-13,Primer trámite constitucional,55,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazar,TÍTULO IV
+16143-02,3027,2024-09-13,Primer trámite constitucional,56,"Araya, Huenchumilla y Saavedra",Parlamentario,sustituirlo,ARTÍCULO 16
+16143-02,3027,2024-09-13,Primer trámite constitucional,57,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,remplazarlo,ARTÍCULO 16
+16143-02,3027,2024-09-13,Primer trámite constitucional,58,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 17
+16143-02,3027,2024-09-13,Primer trámite constitucional,59,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 17
+16143-02,3027,2024-09-13,Primer trámite constitucional,60,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 18
+16143-02,3027,2024-09-13,Primer trámite constitucional,61,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 18
+16143-02,3027,2024-09-13,Primer trámite constitucional,62,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 19
+16143-02,3027,2024-09-13,Primer trámite constitucional,63,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 19
+16143-02,3027,2024-09-13,Primer trámite constitucional,64,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 20
+16143-02,3027,2024-09-13,Primer trámite constitucional,65,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 20
+16143-02,3027,2024-09-13,Primer trámite constitucional,66,Ebensperger y Macaya,Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,67,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 21
+16143-02,3027,2024-09-13,Primer trámite constitucional,68,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 21
+16143-02,3027,2024-09-13,Primer trámite constitucional,69,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,contemplarlo,TÍTULO V
+16143-02,3027,2024-09-13,Primer trámite constitucional,70,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO 22
+16143-02,3027,2024-09-13,Primer trámite constitucional,71,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 22
+16143-02,3027,2024-09-13,Primer trámite constitucional,72,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,remplazarlo,ARTÍCULO 23
+16143-02,3027,2024-09-13,Primer trámite constitucional,73,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 24
+16143-02,3027,2024-09-13,Primer trámite constitucional,74,Ebensperger y Macaya,Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,75,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 25
+16143-02,3027,2024-09-13,Primer trámite constitucional,76,Ebensperger y Macaya,Parlamentario,suprimir,ARTÍCULO 25 / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,77,Ebensperger y Macaya,Parlamentario,reemplazar,ARTÍCULO 25 / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,78,Ebensperger y Macaya,Parlamentario,suprimir,ARTÍCULO 25 / Inciso segundo
+16143-02,3027,2024-09-13,Primer trámite constitucional,79,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 26
+16143-02,3027,2024-09-13,Primer trámite constitucional,80,Aravena y García,Parlamentario,reemplazarlo,ARTÍCULO 27
+16143-02,3027,2024-09-13,Primer trámite constitucional,81,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 27
+16143-02,3027,2024-09-13,Primer trámite constitucional,82,"Araya, Huenchumilla y Saavedra",Parlamentario,eliminarlo,ARTÍCULO 28
+16143-02,3027,2024-09-13,Primer trámite constitucional,83,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituirlo,ARTÍCULO 28
+16143-02,3027,2024-09-13,Primer trámite constitucional,84,Pascual,Parlamentario,sustituirlo,ARTÍCULO 28
+16143-02,3027,2024-09-13,Primer trámite constitucional,85,Aravena y García,Parlamentario,eliminar,ARTÍCULO 28 / Letra a)
+16143-02,3027,2024-09-13,Primer trámite constitucional,86,Ebensperger y Macaya,Parlamentario,eliminar,ARTÍCULO 28 / Letra a)
+16143-02,3027,2024-09-13,Primer trámite constitucional,87,Ebensperger y Macaya,Parlamentario,sustituir,ARTÍCULO 28 / Letra b)
+16143-02,3027,2024-09-13,Primer trámite constitucional,88,Aravena y García,Parlamentario,suprimirla,ARTÍCULO 28 / Letra c)
+16143-02,3027,2024-09-13,Primer trámite constitucional,89,Ebensperger y Macaya,Parlamentario,suprimirla,ARTÍCULO 28 / Letra c)
+16143-02,3027,2024-09-13,Primer trámite constitucional,90,Ebensperger y Macaya,Parlamentario,suprimirla,ARTÍCULO 28 / Letra d)
+16143-02,3027,2024-09-13,Primer trámite constitucional,91,Ebensperger y Macaya,Parlamentario,suprimirla,ARTÍCULO 28 / Letra f)
+16143-02,3027,2024-09-13,Primer trámite constitucional,92,Ebensperger y Macaya,Parlamentario,suprimirlo,ARTÍCULO 29
+16143-02,3027,2024-09-13,Primer trámite constitucional,93,"Araya, Huenchumilla y Saavedra",Parlamentario,suprimirlo,ARTÍCULO 29
+16143-02,3027,2024-09-13,Primer trámite constitucional,94,Pascual,Parlamentario,suprimirlo,ARTÍCULO 29
+16143-02,3027,2024-09-13,Primer trámite constitucional,95,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 29
+16143-02,3027,2024-09-13,Primer trámite constitucional,96,Aravena y García,Parlamentario,reemplazarla,ARTÍCULO 29 / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,97,Aravena y García,Parlamentario,incorporar,ARTÍCULO 29 / Inciso primero
+16143-02,3027,2024-09-13,Primer trámite constitucional,98,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,suprimirlo,TÍTULO VI
+16143-02,3027,2024-09-13,Primer trámite constitucional,99,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,reemplazarlo,ARTÍCULO 30
+16143-02,3027,2024-09-13,Primer trámite constitucional,100,"Araya, Huenchumilla y Saavedra",Parlamentario,agregar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,101,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,102,Ebensperger y Macaya,Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,103,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,104,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,agregar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,105,Ebensperger y Macaya,Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,106,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,107,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,agregar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,108,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,109,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,110,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,111,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,agregar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,112,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,113,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,114,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,115,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,116,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,agregar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,117,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,118,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,intercalar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,119,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,Artículo nuevo
+16143-02,3027,2024-09-13,Primer trámite constitucional,120,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,sustituir,DISPOSICIÓN TRANSITORIA
+16143-02,3027,2024-09-13,Primer trámite constitucional,121,Ebensperger y Macaya,Parlamentario,eliminarlo,ARTÍCULO TRANSITORIO
+16143-02,3027,2024-09-13,Primer trámite constitucional,122,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,eliminarlo,ARTÍCULO TRANSITORIO
+16143-02,3027,2024-09-13,Primer trámite constitucional,123,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazarlo,ARTÍCULO TRANSITORIO
+16143-02,3027,2024-09-13,Primer trámite constitucional,124,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,"Artículo transitorio, nuevo"
+16143-02,3027,2024-09-13,Primer trámite constitucional,125,"Pugh, Aravena, y Edwards, Macaya y Ossandón",Parlamentario,incorporar,"Artículo transitorio, nuevo"
+16143-02,3271,2026-09-04,Primer trámite constitucional,1 bis,Presidente de la República,Ejecutivo,sustituir,
+16143-02,3271,2026-09-04,Primer trámite constitucional,2 bis,"Araya, Huenchumilla y Saavedra",Parlamentario,reemplazar,TÍTULO VII
+16143-02,3271,2026-09-04,Primer trámite constitucional,11 bis,Flores y Vial,Parlamentario,incorporar,Artículo nuevo
+16481-25,2988,2024-03-18,Primer trámite constitucional,1,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO ÚNICO
+16481-25,2988,2024-03-18,Primer trámite constitucional,2,Pascual y Núñez,Parlamentario,consultar,ARTÍCULO ÚNICO
+16481-25,2988,2024-03-18,Primer trámite constitucional,3,Pascual y Núñez,Parlamentario,sustituirlo,ARTÍCULO ÚNICO / Inciso segundo propuesto
+16569-25,3202,2025-12-18,Segundo trámite constitucional,1,"Coloma, Chahuán y Galilea",Parlamentario,sustituirla,ARTÍCULO ÚNICO / Letra a)
+16569-25,3202,2025-12-18,Segundo trámite constitucional,2,"Coloma, Chahuán y Galilea",Parlamentario,reemplazarla,ARTÍCULO ÚNICO / Letra b)
+16569-25,3202,2025-12-18,Segundo trámite constitucional,3,"Coloma, Chahuán y Galilea",Parlamentario,sustituirla,ARTÍCULO ÚNICO / Letra c)
+16569-25,3202,2025-12-18,Segundo trámite constitucional,4,"Coloma, Chahuán y Galilea",Parlamentario,suprimirlo,ARTÍCULO ÚNICO / Número 2
+16703-25,3018,2024-07-24,Primer trámite constitucional,1,Flores,Parlamentario,agregar,ARTÍCULO 1° / Inciso nuevo
+16703-25,3018,2024-07-24,Primer trámite constitucional,2,Flores,Parlamentario,incorporar,ARTÍCULO 2°
+16703-25,3018,2024-07-24,Primer trámite constitucional,3,Flores,Parlamentario,reemplazar,ARTÍCULO 3°
+16703-25,3018,2024-07-24,Primer trámite constitucional,4,Flores,Parlamentario,reemplazarlo,ARTÍCULO 6°
+16836-06,3224,2026-05-06,Segundo trámite constitucional,1,Presidente de la República,Ejecutivo,anteponer,ARTÍCULO 1 / Número nuevo
+16836-06,3224,2026-05-06,Segundo trámite constitucional,2,Trisotti,Parlamentario,reemplazar,ARTÍCULO 1 / Inciso final propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,3,Velásquez,Parlamentario,suprimirlo,ARTÍCULO 1 / Número 2
+16836-06,3224,2026-05-06,Segundo trámite constitucional,4,Astudillo,Parlamentario,sustituirlo,ARTÍCULO 1 / Número 2
+16836-06,3224,2026-05-06,Segundo trámite constitucional,5,Astudillo,Parlamentario,incorporar,ARTÍCULO 1 / Número 2
+16836-06,3224,2026-05-06,Segundo trámite constitucional,6,Presidente de la República,Ejecutivo,reemplazarla,ARTÍCULO 1 / Letra b)
+16836-06,3224,2026-05-06,Segundo trámite constitucional,7,Pascual,Parlamentario,reemplazar,ARTÍCULO 1 / Encabezamiento
+16836-06,3224,2026-05-06,Segundo trámite constitucional,8,Presidente de la República,Ejecutivo,eliminarlo,ARTÍCULO 1 / Número 4
+16836-06,3224,2026-05-06,Segundo trámite constitucional,9,Pascual,Parlamentario,sustituirlo,Artículo 134 bis propuesto / Inciso primero
+16836-06,3224,2026-05-06,Segundo trámite constitucional,10,Presidente de la República,Ejecutivo,reemplazarlo,Artículo 134 bis propuesto / Número 5
+16836-06,3224,2026-05-06,Segundo trámite constitucional,11,Pascual,Parlamentario,reemplazar,Artículo 134 bis propuesto / Inciso tercero propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,12,Velásquez,Parlamentario,reemplazar,Artículo 134 bis propuesto / Inciso cuarto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,13,Pascual,Parlamentario,sustituir,Artículo 134 bis propuesto / Inciso cuarto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,14,Trisotti,Parlamentario,sustituir,Artículo 134 bis propuesto / Inciso quinto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,15,Trisotti,Parlamentario,intercalar,Artículo 134 bis propuesto / Inciso quinto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,16,Trisotti,Parlamentario,reemplazar,Artículo 134 bis propuesto / Inciso sexto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,17,Pascual,Parlamentario,reemplazar,Artículo 134 bis propuesto / Inciso séptimo propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,18,Velásquez,Parlamentario,suprimirlo,Artículo 134 bis propuesto / Número 7
+16836-06,3224,2026-05-06,Segundo trámite constitucional,19,Presidente de la República,Ejecutivo,reemplazarlo,Artículo 134 bis propuesto / Número 7
+16836-06,3224,2026-05-06,Segundo trámite constitucional,20,Velásquez,Parlamentario,incorporar,Artículo 134 bis propuesto / Número 7
+16836-06,3224,2026-05-06,Segundo trámite constitucional,21,Presidente de la República,Ejecutivo,consultar,Artículo 134 bis propuesto / Número nuevo
+16836-06,3224,2026-05-06,Segundo trámite constitucional,22,Presidente de la República,Ejecutivo,contemplar,Artículo 134 bis propuesto / Número nuevo
+16836-06,3224,2026-05-06,Segundo trámite constitucional,23,Pascual,Parlamentario,sustituir,Artículo 134 bis propuesto / Inciso cuarto propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,24,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 2 / Número 1
+16836-06,3224,2026-05-06,Segundo trámite constitucional,25,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO 2 / Literal d) propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,26,Pascual,Parlamentario,reemplazar,ARTÍCULO 2 / Literal d) propuesto
+16836-06,3224,2026-05-06,Segundo trámite constitucional,27,Presidente de la República,Ejecutivo,consultar,Artículo nuevo
+16984-25,3203,2025-12-18,Segundo trámite constitucional,1,"Coloma, Chahuán y Galilea",Parlamentario,sustituirla,ARTÍCULO ÚNICO / Letra a)
+16984-25,3203,2025-12-18,Segundo trámite constitucional,2,"Coloma, Chahuán y Galilea",Parlamentario,reemplazarla,ARTÍCULO ÚNICO / Letra b)
+16984-25,3203,2025-12-18,Segundo trámite constitucional,3,"Coloma, Chahuán y Galilea",Parlamentario,sustituirla,ARTÍCULO ÚNICO / Letra c)
+16984-25,3203,2025-12-18,Segundo trámite constitucional,4,"Coloma, Chahuán y Galilea",Parlamentario,suprimirlo,ARTÍCULO ÚNICO / Número 2
+17246-15,3189,2025-11-17,Segundo trámite constitucional,1,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 1 / Letra b)
+17246-15,3189,2025-11-17,Segundo trámite constitucional,2,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 1 / Letra a)
+17246-15,3189,2025-11-17,Segundo trámite constitucional,3,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 1 / Inciso segundo propuesto
+17246-15,3189,2025-11-17,Segundo trámite constitucional,4,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 1 / Inciso final propuesto
+17246-15,3189,2025-11-17,Segundo trámite constitucional,5,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso primero
+17246-15,3189,2025-11-17,Segundo trámite constitucional,6,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso sexto
+17246-15,3189,2025-11-17,Segundo trámite constitucional,7,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso sexto
+17246-15,3189,2025-11-17,Segundo trámite constitucional,8,Presidente de la República,Ejecutivo,agregar,Artículo 88 quinquies / Inciso séptimo
+17246-15,3189,2025-11-17,Segundo trámite constitucional,9,Presidente de la República,Ejecutivo,intercalar,Artículo 88 sexies propuesto / Inciso primero
+17246-15,3189,2025-11-17,Segundo trámite constitucional,10,Presidente de la República,Ejecutivo,reemplazar,Artículo 88 sexies propuesto / Inciso primero
+17246-15,3189,2025-11-17,Segundo trámite constitucional,11,Vodanovic,Parlamentario,incorporar,Artículo nuevo
+17246-15,3189,2025-11-17,Segundo trámite constitucional,12,Presidente de la República,Ejecutivo,anteponer,Artículo transitorio nuevo
+17246-15,3189,2025-11-17,Segundo trámite constitucional,13,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO PRIMERO / Inciso primero
+17246-15,3194,2025-11-20,Segundo trámite constitucional,2,Kusanovic y Van Rysselberghe,Parlamentario,agregar,ARTÍCULO 1 / Inciso tercero
+17246-15,3194,2025-11-20,Segundo trámite constitucional,3,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 1 / Letra a)
+17441-15,3190,2025-11-17,Segundo trámite constitucional,1,Presidente de la República,Ejecutivo,intercalar,ARTÍCULO 1 / Letra b)
+17441-15,3190,2025-11-17,Segundo trámite constitucional,2,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 1 / Letra a)
+17441-15,3190,2025-11-17,Segundo trámite constitucional,3,Presidente de la República,Ejecutivo,agregar,ARTÍCULO 1 / Inciso segundo propuesto
+17441-15,3190,2025-11-17,Segundo trámite constitucional,4,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 1 / Inciso final propuesto
+17441-15,3190,2025-11-17,Segundo trámite constitucional,5,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso primero
+17441-15,3190,2025-11-17,Segundo trámite constitucional,6,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso sexto
+17441-15,3190,2025-11-17,Segundo trámite constitucional,7,Presidente de la República,Ejecutivo,intercalar,Artículo 88 quinquies / Inciso sexto
+17441-15,3190,2025-11-17,Segundo trámite constitucional,8,Presidente de la República,Ejecutivo,agregar,Artículo 88 quinquies / Inciso séptimo
+17441-15,3190,2025-11-17,Segundo trámite constitucional,9,Presidente de la República,Ejecutivo,intercalar,Artículo 88 sexies propuesto / Inciso primero
+17441-15,3190,2025-11-17,Segundo trámite constitucional,10,Presidente de la República,Ejecutivo,reemplazar,Artículo 88 sexies propuesto / Inciso primero
+17441-15,3190,2025-11-17,Segundo trámite constitucional,11,Vodanovic,Parlamentario,incorporar,Artículo nuevo
+17441-15,3190,2025-11-17,Segundo trámite constitucional,12,Presidente de la República,Ejecutivo,anteponer,Artículo transitorio nuevo
+17441-15,3190,2025-11-17,Segundo trámite constitucional,13,Presidente de la República,Ejecutivo,reemplazarlo,ARTÍCULO PRIMERO / Inciso primero
+17441-15,3195,2025-11-20,Segundo trámite constitucional,2,Kusanovic y Van Rysselberghe,Parlamentario,agregar,ARTÍCULO 1 / Inciso tercero
+17441-15,3195,2025-11-20,Segundo trámite constitucional,3,Presidente de la República,Ejecutivo,incorporar,ARTÍCULO 1 / Letra a)
+17535-25,3158,2025-09-05,Primer trámite constitucional,1,Pascual,Parlamentario,reemplazar,Artículo 46 bis propuesto / Inciso segundo
+17535-25,3265,2026-08-05,Primer trámite constitucional,1E,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 1
+17535-25,3265,2026-08-05,Primer trámite constitucional,2E,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 1 / Letra b)
+17535-25,3265,2026-08-05,Primer trámite constitucional,3E,Presidente de la República,Ejecutivo,reemplazar,ARTÍCULO 2
+17535-25,3265,2026-08-05,Primer trámite constitucional,4E,Presidente de la República,Ejecutivo,reemplazar,Artículo 46 bis propuesto / Inciso primero
+17535-25,3265,2026-08-05,Primer trámite constitucional,5E,Presidente de la República,Ejecutivo,reemplazar,Artículo 46 bis propuesto / Inciso tercero
+17535-25,3265,2026-08-05,Primer trámite constitucional,6E,Presidente de la República,Ejecutivo,incorporar,Artículo 46 bis propuesto / Inciso tercero
+17535-25,3265,2026-08-05,Primer trámite constitucional,7E,Presidente de la República,Ejecutivo,reemplazar,Artículo 46 bis propuesto / Inciso tercero
+17535-25,3265,2026-08-05,Primer trámite constitucional,8E,Presidente de la República,Ejecutivo,reemplazar,Artículo 46 bis propuesto / Letra a)
+17535-25,3265,2026-08-05,Primer trámite constitucional,9E,Presidente de la República,Ejecutivo,agregar,Artículo 46 bis propuesto / Letra nueva
+17535-25,3265,2026-08-05,Primer trámite constitucional,10E,Presidente de la República,Ejecutivo,agregar,Artículo 46 bis propuesto / Número nuevo
+17535-25,3265,2026-08-05,Primer trámite constitucional,11E,Presidente de la República,Ejecutivo,agregar,Artículo 46 bis propuesto / Número nuevo
+17535-25,3265,2026-08-05,Primer trámite constitucional,12E,Presidente de la República,Ejecutivo,suprimirlo,Artículo segundo
+17535-25,3265,2026-08-05,Primer trámite constitucional,13E,Presidente de la República,Ejecutivo,reemplazar,Artículo tercero
+17535-25,3265,2026-08-05,Primer trámite constitucional,14E,Presidente de la República,Ejecutivo,incorporar,Artículo nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,1,Vial,Parlamentario,sustituirlo,ARTÍCULO 1
+18029-17,3267,2026-08-28,Primer trámite constitucional,2,Vial,Parlamentario,sustituirlo,ARTÍCULO 2
+18029-17,3267,2026-08-28,Primer trámite constitucional,3,Vial,Parlamentario,incorporar,Artículo nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,4,Vial,Parlamentario,sustituir,ARTÍCULO 9
+18029-17,3267,2026-08-28,Primer trámite constitucional,5,Vial,Parlamentario,agregar,ARTÍCULO 9 / Inciso nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,6,Vial,Parlamentario,sustituirlo,ARTÍCULO 10
+18029-17,3267,2026-08-28,Primer trámite constitucional,7,Vial,Parlamentario,incorporar,Artículo nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,8,Vial,Parlamentario,incorporar,Artículo nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,9,Vial,Parlamentario,suprimirlas,ARTÍCULO 19 / Inciso primero
+18029-17,3267,2026-08-28,Primer trámite constitucional,10,Vial,Parlamentario,consultar,ARTÍCULO 19 / Inciso nuevo
+18029-17,3267,2026-08-28,Primer trámite constitucional,11,Vial,Parlamentario,agregar,ARTÍCULO 21 / Inciso nuevo
+18420-25,3273,2026-09-07,Primer trámite constitucional,1,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,ARTÍCULO PRIMERO
+18420-25,3273,2026-09-07,Primer trámite constitucional,2,Vial,Parlamentario,sustituirlo,ARTÍCULO PRIMERO / Inciso final propuesto
+18420-25,3273,2026-09-07,Primer trámite constitucional,3,Vial,Parlamentario,intercalar,Artículo 14 bis propuesto / Inciso final
+18420-25,3273,2026-09-07,Primer trámite constitucional,4,Vial,Parlamentario,reemplazar,Artículo 14 ter propuesto / Inciso primero
+18420-25,3273,2026-09-07,Primer trámite constitucional,5,Vial,Parlamentario,agregar,Artículo 14 quinquies propuesto / Inciso nuevo
+18420-25,3273,2026-09-07,Primer trámite constitucional,6,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,Artículo 23 quáter propuesto
+18420-25,3273,2026-09-07,Primer trámite constitucional,7,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,reemplazarlo,Artículo 23 quinquies propuesto
+18420-25,3273,2026-09-07,Primer trámite constitucional,8,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,reemplazarlo,Artículo 23 quinquies propuesto / Número 3
+18420-25,3273,2026-09-07,Primer trámite constitucional,9,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,incorporar,Artículo 23 quinquies propuesto / Número nuevo
+18420-25,3273,2026-09-07,Primer trámite constitucional,10,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,ARTÍCULO TERCERO / Número 1
+18420-25,3273,2026-09-07,Primer trámite constitucional,11,Vial,Parlamentario,intercalar,Artículo 8 bis propuesto / Inciso segundo
+18420-25,3273,2026-09-07,Primer trámite constitucional,12,Vial,Parlamentario,reemplazar,Artículo 8 bis propuesto / Inciso segundo
+18420-25,3273,2026-09-07,Primer trámite constitucional,13,Vial,Parlamentario,sustituir,Artículo 8 bis propuesto / Inciso segundo
+18420-25,3273,2026-09-07,Primer trámite constitucional,14,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,reemplazarlo,Artículo 8 bis propuesto / Número 2
+18420-25,3273,2026-09-07,Primer trámite constitucional,15,Vial,Parlamentario,sustituir,Artículo 8 ter propuesto / Inciso primero
+18420-25,3273,2026-09-07,Primer trámite constitucional,16,Vial,Parlamentario,agregar,Artículo 8 ter propuesto / Inciso nuevo
+18420-25,3273,2026-09-07,Primer trámite constitucional,17,Vial,Parlamentario,reemplazarlo,ARTÍCULO CUARTO
+18420-25,3273,2026-09-07,Primer trámite constitucional,18,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,ARTÍCULO CUARTO
+18420-25,3273,2026-09-07,Primer trámite constitucional,19,Vial,Parlamentario,reemplazarlo,ARTÍCULO QUINTO
+18420-25,3273,2026-09-07,Primer trámite constitucional,20,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,ARTÍCULO QUINTO
+18420-25,3273,2026-09-07,Primer trámite constitucional,21,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,reemplazarlo,ARTÍCULO SEXTO
+18420-25,3273,2026-09-07,Primer trámite constitucional,22,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,incorporar,Artículo nuevo
+18420-25,3273,2026-09-07,Primer trámite constitucional,23,"Núñez y Calisto, Flores, Kusanovic y Kuschel",Parlamentario,sustituirlo,ARTÍCULO TRANSITORIO
+18525-06,3280,2026-10-23,Segundo trámite constitucional,1,Becker y Ossandón,Parlamentario,intercalar,ARTÍCULO 1 / Inciso cuarto propuesto
+18525-06,3280,2026-10-23,Segundo trámite constitucional,2,Becker y Ossandón,Parlamentario,reemplazar,ARTÍCULO 1 / Inciso cuarto propuesto
+18525-06,3280,2026-10-23,Segundo trámite constitucional,3,Becker y Ossandón,Parlamentario,suprimir,ARTÍCULO 1 / Inciso décimo propuesto
+18525-06,3280,2026-10-23,Segundo trámite constitucional,4,Kaiser,Parlamentario,consultar,ARTÍCULO 1 / Inciso décimo propuesto
+18525-06,3280,2026-10-23,Segundo trámite constitucional,5,Ossandón,Parlamentario,intercalar,ARTÍCULO 1 / Número nuevo
+18525-06,3280,2026-10-23,Segundo trámite constitucional,6,Becker y Ossandón,Parlamentario,sustituirlo,ARTÍCULO 1 / Número 3
+18525-06,3280,2026-10-23,Segundo trámite constitucional,7,Becker y Ossandón,Parlamentario,sustituirlo,ARTÍCULO 2
+18525-06,3280,2026-10-23,Segundo trámite constitucional,8,Kaiser,Parlamentario,consultar,Artículo nuevo

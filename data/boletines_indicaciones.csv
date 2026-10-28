@@ -1,0 +1,26 @@
+boletin,iddocto,fecha,etapa,tramite,estado_lectura,n_indicaciones,reedita_boletin,n_indicaciones_nuevas,n_ejecutivo,n_parlamentarias,link
+15261-25,3234,2026-05-28,Segundo trámite constitucional,Boletin de Indicaciones,leído,42,,42,14,28,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3234&tipodoc=indi
+15589-07,3257,2026-07-20,Segundo trámite constitucional,Boletin de Indicaciones,leído,57,,57,10,47,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3257&tipodoc=indi
+15805-07,3020,2024-08-02,Segundo trámite constitucional,Boletin de Indicaciones,leído,159,,159,23,136,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3020&tipodoc=indi
+15805-07,3104,2024-08-06,Segundo trámite constitucional,Boletin de Indicaciones,leído,185,,185,23,162,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3104&tipodoc=indi
+15850-11,3263,2026-08-14,Primer trámite constitucional,Boletin de Indicaciones,leído,31,,31,24,7,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3263&tipodoc=indi
+15975-25,2963,2024-01-11,Primer trámite constitucional,Boletin de Indicaciones,leído,100,,100,65,35,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=2963&tipodoc=indi
+15975-25,3001,2024-05-22,Primer trámite constitucional,Boletin de Indicaciones,leído,153,2963,54,20,34,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3001&tipodoc=indi
+15975-25,3061,2024-11-11,Primer trámite constitucional,Boletin de Indicaciones,leído,32,,32,19,13,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3061&tipodoc=indi
+15975-25,3065,2024-12-03,Primer trámite constitucional,Boletin de Indicaciones,leído,4,,4,2,2,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3065&tipodoc=indi
+16143-02,3027,2024-09-13,Primer trámite constitucional,Boletin de Indicaciones,leído,125,,125,1,124,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3027&tipodoc=indi
+16143-02,3271,2026-09-04,Primer trámite constitucional,Boletin de Indicaciones,leído,3,,3,1,2,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3271&tipodoc=indi
+16481-25,2988,2024-03-18,Primer trámite constitucional,Boletin de Indicaciones,leído,3,,3,1,2,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=2988&tipodoc=indi
+16569-25,3202,2025-12-18,Segundo trámite constitucional,Boletin de Indicaciones,leído,4,,4,0,4,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3202&tipodoc=indi
+16703-25,3018,2024-07-24,Primer trámite constitucional,Boletin de Indicaciones,leído,4,,4,0,4,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3018&tipodoc=indi
+16836-06,3224,2026-05-06,Segundo trámite constitucional,Boletin de Indicaciones,leído,27,,27,10,17,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3224&tipodoc=indi
+16984-25,3203,2025-12-18,Segundo trámite constitucional,Boletin de Indicaciones,leído,4,,4,0,4,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3203&tipodoc=indi
+17246-15,3189,2025-11-17,Segundo trámite constitucional,Boletin de Indicaciones,leído,13,,13,12,1,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3189&tipodoc=indi
+17246-15,3194,2025-11-20,Segundo trámite constitucional,Boletin de Indicaciones,leído,13,3189,2,1,1,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3194&tipodoc=indi
+17441-15,3190,2025-11-17,Segundo trámite constitucional,Boletin de Indicaciones,leído,13,,13,12,1,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3190&tipodoc=indi
+17441-15,3195,2025-11-20,Segundo trámite constitucional,Boletin de Indicaciones,leído,13,3190,2,1,1,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3195&tipodoc=indi
+17535-25,3158,2025-09-05,Primer trámite constitucional,Boletin de Indicaciones,leído,1,,1,0,1,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3158&tipodoc=indi
+17535-25,3265,2026-08-05,Primer trámite constitucional,Boletin de Indicaciones,leído,14,,14,14,0,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3265&tipodoc=indi
+18029-17,3267,2026-08-28,Primer trámite constitucional,Boletin de Indicaciones,leído,11,,11,0,11,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3267&tipodoc=indi
+18420-25,3273,2026-09-07,Primer trámite constitucional,Boletin de Indicaciones,leído,23,,23,0,23,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3273&tipodoc=indi
+18525-06,3280,2026-10-23,Segundo trámite constitucional,Boletin de Indicaciones,leído,8,,8,0,8,https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3280&tipodoc=indi
