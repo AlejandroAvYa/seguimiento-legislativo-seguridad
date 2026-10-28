@@ -23,7 +23,7 @@
     },
     "senado_sala": {
      "estado": "ok",
-     "n": 3
+     "n": 2
     },
     "camara_sala": {
      "estado": "ok",
@@ -32,6 +32,10 @@
     "senado_plazos": {
      "estado": "ok",
      "n": 4
+    },
+    "camara_prensa": {
+     "estado": "ok",
+     "n": 11
     }
    },
    "ultima_consulta_exitosa": "2026-10-28"

@@ -228,22 +228,6 @@
   },
   {
    "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-10-28",
-   "instancia": "Sala del Senado · sesión especial N° 76",
-   "estado": "Citada",
-   "horario": "20:30 a 22:00",
-   "lugar": "",
-   "materia": "Circular Nº 255/SEC\nValparaíso, 28 de octubre de 2026.\nL.O.C._ Por orden de la señora Presidenta del Senado, tengo el honor de citar a Usía a Sesión Especial de la Corporación para el día de hoy miércoles 28 de octubre de 2026, de 20:30 a 22:00 horas, con la finalidad de tratar el proyecto de ley, iniciado en Mensaje de Su Excelencia el Presidente de la República, en primer trámite constitucional, que modifica la ley N° 21.040, que crea el sistema de educación pública, con la finalidad de ajustar la segunda etapa de instalación y el traspaso de los servicios locales de educación, con informe de la Comisión de Educación e informe y nuevo primer informe de la Comisión de Hacienda. (proyecto discutido en general y en particular por la Comisión). (Boletín N° 18.551-04). Con urgencia calificada de “discusión inmediata”.\nDios guarde a Usía.\nLUIS ROJAS GALLARDO\nSecretario General del Senado\n2\n2\n",
-   "boletines": [
-    "18551-04"
-   ],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81902",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-10-28",
    "instancia": "Comisión de Hacienda",
@@ -411,6 +395,169 @@
    "hora": "12:00",
    "donde": "Secretaría de la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
    "seguido": false
+  }
+ ],
+ "noticias_camara": [
+  {
+   "fecha": "2026-10-28",
+   "titulo": "Sala analizó pérdidas registradas durante 2026 en fondos de pensiones",
+   "link": "https://www.camara.cl/cms/2026/10/28/sala-analizo-perdidas-registradas-durante-2026-en-fondos-de-pensiones/",
+   "tipo": "Sala",
+   "resumen": "Participaron los ministros de Hacienda y del Trabajo, el Banco Central y la Superintendencia de Pensiones. En la ocasión se aprobaron nueve resoluciones que piden sanciones para las AFP y la restitución de los dineros perdidos.",
+   "temas": [
+    "AFP",
+    "Banco Central",
+    "Fondos de pensiones",
+    "Ministerio de Hacienda",
+    "Ministerio del Trabajo y Previsión Social",
+    "pérdidas fondos de pensiones"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-28",
+   "titulo": "A ley proyecto que simplifica el sistema de patentes mineras",
+   "link": "https://www.camara.cl/cms/2026/10/28/a-ley-proyecto-que-simplifica-el-sistema-de-patentes-mineras/",
+   "tipo": "Sala",
+   "resumen": "La Cámara respaldó las modificaciones propuestas por el Senado a esta iniciativa que perfecciona el régimen de amparo y patentes mineras aplicable a las concesiones de exploración y explotación en este ámbito.",
+   "temas": [
+    "Código de minería",
+    "Minería",
+    "Patentes mineras"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-28",
+   "titulo": "Sala aprobó alternativas de autentificación biométrica para personas mayores",
+   "link": "https://www.camara.cl/cms/2026/10/28/sala-aprobo-alternativas-de-autentificacion-biometrica-para-personas-mayores/",
+   "tipo": "Sala",
+   "resumen": "La iniciativa, despachada a segundo trámite, dispone que organismos públicos y privados que utilicen sistemas de identificación por huella dactilar cuenten con alternativas que aseguren el acceso de personas mayores y con discapacidad.",
+   "temas": [
+    "Autentificación biométrica",
+    "Personas con discapacidad",
+    "Personas Mayores"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-27",
+   "titulo": "Cámara respaldó reforma que facilita acceso a primera vivienda",
+   "link": "https://www.camara.cl/cms/2026/10/27/camara-respaldo-reforma-que-facilita-acceso-a-primera-vivienda/",
+   "tipo": "Sala",
+   "resumen": "La propuesta, despachada a segundo trámite, considera instrumentos para favorecer el acceso a créditos hipotecarios. Además, presenta un amplio marco de normas para modernizar y fortalecer el mercado de capitales y de fondos.",
+   "temas": [
+    "Acceso a la vivienda",
+    "Crecimiento",
+    "Economía",
+    "Mercado de capitales",
+    "MK4"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-27",
+   "titulo": "Reinserción social juvenil: exponen desafíos en seguridad e infraestructura",
+   "link": "https://www.camara.cl/cms/2026/10/27/reinsercion-social-juvenil-exponen-desafios-en-seguridad-e-infraestructura/",
+   "tipo": "Comisión",
+   "resumen": "El Ejecutivo dijo que se identificaron problemas de coordinación institucional y de seguridad, entre otros aspectos. Además, presentó las medidas en curso para fortalecer la atención de jóvenes y la protección de los funcionarios.",
+   "temas": [
+    "Comisión de Desarrollo Social",
+    "Servicio de Reinserción Social Juvenil"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-27",
+   "titulo": "Cámara investigará fiscalización a las AFP por pérdidas en fondos de pensiones",
+   "link": "https://www.camara.cl/cms/2026/10/27/camara-investigara-fiscalizacion-a-las-afp-por-perdidas-en-fondos-de-pensiones/",
+   "tipo": "Comisión",
+   "resumen": "La Cámara aprobó la creación de una comisión investigadora. Además, la Comisión de Trabajo recibió a autoridades fiscalizadoras y representantes de las AFP y la Sala realizará una sesión especial, esta tarde, a las 19:05 horas.",
+   "temas": [
+    "AFP",
+    "Comisión de Trabajo",
+    "Comisión Investigadora",
+    "pérdidas fondos de pensiones",
+    "Sesión Especial",
+    "Superintendencia de Pensiones"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-26",
+   "titulo": "Agricultura, violencia contra las mujeres y lobby en los temas de la Sala de este lunes",
+   "link": "https://www.camara.cl/cms/2026/10/26/agricultura-violencia-contra-las-mujeres-y-lobby-en-los-temas-de-la-sala-de-este-lunes/",
+   "tipo": "Sala",
+   "resumen": "En primer lugar, se encuentra una iniciativa que busca proteger la producción agrícola nacional, a través de elevar las penas y multas para los responsables del ingreso ilegal de mercancías e insumos.",
+   "temas": [
+    "tabla de a sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-26",
+   "titulo": "Proyectos despachados a la Sala avanzan en familia, salud y vivienda",
+   "link": "https://www.camara.cl/cms/2026/10/26/proyectos-despachados-a-la-sala-avanzan-en-familia-salud-y-vivienda/",
+   "tipo": "Comisión",
+   "resumen": "Los proyectos despachados a la Sala por distintas comisiones permanentes abordan materias vinculadas a responsabilidad parental, salud reproductiva, crimen organizado, acceso a la vivienda, financiamiento e inserción internacional.",
+   "temas": [
+    "Comisión de Constitución",
+    "Comisión de Hacienda",
+    "Comisión de la Familia",
+    "Comisión de Relaciones Exteriores",
+    "Comisión de Salud"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-26",
+   "titulo": "Presupuesto 2027: Subcomisiones mixtas avanzan en análisis de partidas",
+   "link": "https://www.camara.cl/cms/2026/10/26/presupuesto-2027-subcomisiones-mixtas-avanzan-en-analisis-de-partidas/",
+   "tipo": "Comisión",
+   "resumen": "Las cinco subcomisiones de presupuesto sesionan para estudiar las asignaciones de los distintos ministerios y reparticiones públicas. Hasta ahora, se han registrado tanto aprobaciones como rechazos y postergaciones de debate y votación.",
+   "temas": [
+    "Comisión Mixta de Presupuesto",
+    "presupuesto 2027",
+    "Subcomisiones de Presupuesto"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-23",
+   "titulo": "Proyectos relativos a seguridad pública despachó la Cámara esta semana",
+   "link": "https://www.camara.cl/cms/2026/10/23/proyectos-relativos-a-seguridad-publica-despacho-la-camara-esta-semana/",
+   "tipo": "Sala",
+   "resumen": "La Sala aprobó en sus últimas fases en el Congreso Nacional la nueva regulación para las expulsiones administrativas y la propuesta que incentiva la carrera de Carabineros de Chile, que también se respaldaron luego en el Senado.",
+   "temas": [
+    "Carabineros de Chile",
+    "expulsión administrativa",
+    "Leyes publicadas",
+    "Sala de la Cámara"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-19",
+   "titulo": "Estado de excepción en el sur y expulsiones administrativas en tabla para el lunes 19",
+   "link": "https://www.camara.cl/cms/2026/10/19/estado-de-excepcion-en-el-sur-y-expulsiones-administrativas-en-tabla-para-el-lunes-19/",
+   "tipo": "Tabla de la Sala",
+   "resumen": "La tabla semanal tentativa también incluye la propuesta que busca incentivar el ingreso a Carabineros de Chile y la iniciativa que protege los neuroderechos.",
+   "temas": [
+    "Estado de excepción",
+    "Tabla de la Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
   }
  ]
 }
