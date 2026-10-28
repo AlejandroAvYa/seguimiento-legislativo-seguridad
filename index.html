@@ -179,13 +179,13 @@ table.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;m
 .mx tr.grp:hover td{background:var(--surface-3)}
 .mx .sticky{position:sticky;left:0;z-index:1;background:var(--surface);box-shadow:1px 0 0 var(--line)}
 .mx th.sticky{background:var(--surface-2);z-index:2}
-.pname{padding:8px 12px 8px 14px;min-width:250px;max-width:330px}
+.pname{padding:8px 12px 8px 14px;min-width:230px;max-width:300px}
 .pname b{display:block;font-size:13px;font-weight:700;color:var(--ink);line-height:1.3}
 .pname span{display:flex;gap:6px;align-items:center;margin-top:3px;font-size:11px;color:var(--ink-3);flex-wrap:wrap}
 .cnt{display:block;font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:3px;letter-spacing:0}
 .cnt.zero{color:var(--ink-3)}
 /* pista de etapas: línea continua con hitos */
-.st{position:relative;width:100%;height:52px;min-width:62px}
+.st{position:relative;width:100%;height:52px;min-width:54px}
 .st::before{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;background:var(--track-todo)}
 .st.first::before{left:50%} .st.last::before{right:50%}
 .st.done::before,.st.cur.lineok::before{background:var(--track-done)}
@@ -445,7 +445,7 @@ function celdaEtapa(p, e, i) {
   const cam = (p.avance_camaras || {})[e.c] || "";
   let marca = "", tip = `${e.g} · ${e.n}`;
   if (est === "hecha") { cls.push(e.c === "LEY" ? "ley" : "done"); if (e.c === "LEY") marca = "✓"; tip += ": cumplida"; }
-  else if (est === "actual") { cls.push("cur"); if (p.urgencia_vigente === "Discusión inmediata") cls.push("c-di"); else if (p.urgencia_vigente === "Suma") cls.push("c-su");
+  else if (est === "actual") { cls.push("cur"); if (enTram(p) && p.urgencia_vigente === "Discusión inmediata") cls.push("c-di"); else if (enTram(p) && p.urgencia_vigente === "Suma") cls.push("c-su");
     marca = inicial(cam) || "•"; tip += `: etapa actual${cam ? " (" + cam + ")" : ""}${p.instancia_actual ? " · " + p.instancia_actual : ""}`; }
   else if (est === "omitida") { cls.push("skip"); tip += ": no fue necesaria"; }
   else if (est === "detenida") { cls.push("stop"); marca = "×"; tip += `: ${p.situacion.toLowerCase()} en esta etapa`; }
@@ -474,7 +474,7 @@ function filaProyecto(p) {
   const dias = enTram(p) && p.dias_en_etapa !== "" ? `${p.dias_en_etapa} d<small>en la etapa</small>` :
     p.situacion === "Publicado como ley" ? `${esc(p.ley_numero.replace("Ley N° ", "N° "))}<small>${fmt(p.ley_fecha_diario_oficial)}</small>` : `<small>${esc(p.situacion)}</small>`;
   return `<tr data-b="${esc(p.boletin)}">
-    <td class="sticky left"><div class="pname"><b>${esc(p.nombre_corto)}</b><span><span class="mono">${esc(p.boletin)}</span>${urg(p.urgencia_vigente)}${p.acot_n ? `<span class="tag" title="${esc("ACOT N° " + p.acot_n + ": " + p.acot_iniciativa)}">ACOT ${esc(p.acot_n)}</span>` : ""}${proxSesion(p) ? `<span class="cal" title="${esc("Citado: " + fmt(proxSesion(p).fecha) + " · " + proxSesion(p).instancia)}">${ICON_CAL}</span>` : ""}${p.n_alertas || (p.alertas || []).length ? `<span title="Alertas" style="color:var(--c-amber);display:inline-flex">${ICON_AL}</span>` : ""}</span></div></td>
+    <td class="sticky left"><div class="pname"><b>${esc(p.nombre_corto)}</b><span><span class="mono">${esc(p.boletin)}</span>${enTram(p) ? urg(p.urgencia_vigente) : ""}${p.acot_n ? `<span class="tag" title="${esc("ACOT N° " + p.acot_n + ": " + p.acot_iniciativa)}">ACOT ${esc(p.acot_n)}</span>` : ""}${proxSesion(p) ? `<span class="cal" title="${esc("Citado: " + fmt(proxSesion(p).fecha) + " · " + proxSesion(p).instancia)}">${ICON_CAL}</span>` : ""}${p.n_alertas || (p.alertas || []).length ? `<span title="Alertas" style="color:var(--c-amber);display:inline-flex">${ICON_AL}</span>` : ""}</span></div></td>
     ${ETAPAS.map((e, i) => celdaEtapa(p, e, i)).join("")}
     <td class="g">${prio(p).replace('class="prio', 'style="margin:0 10px" class="prio')}</td>
     <td><div class="dias tnum">${dias}</div></td></tr>`;
