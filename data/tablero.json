@@ -4103,7 +4103,7 @@
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
-  "n_votaciones_sala_camara": 0,
+  "n_votaciones_sala_camara": 1,
   "link_senado": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=18236-18",
   "responsable": ""
  },

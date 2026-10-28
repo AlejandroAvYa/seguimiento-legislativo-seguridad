@@ -3725,6 +3725,22 @@
    "quorum": "Quórum Simple",
    "resultado": "Aprobado",
    "tipo": "Proyecto de Ley"
+  },
+  "90749": {
+   "id": "90749",
+   "fecha": "2026-10-28",
+   "hora": "13:31",
+   "descripcion": "Boletín N° 18236-18",
+   "boletines": [
+    "18236-18"
+   ],
+   "si": 140,
+   "no": 0,
+   "abstencion": 0,
+   "dispensados": 0,
+   "quorum": "Quórum Simple",
+   "resultado": "Aprobado",
+   "tipo": "Proyecto de Ley"
   }
  },
  "detalles": {
@@ -178050,6 +178066,783 @@
     "diputado_id": "1256",
     "diputado": "Tatiana Urrutia Herrera",
     "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1257",
+    "diputado": "Alejandra Valdebenito Torres",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1258",
+    "diputado": "Guillermo Valdés Carmona",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1259",
+    "diputado": "Juan Marcelo Valenzuela Henríquez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1260",
+    "diputado": "César Valenzuela Maass",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1261",
+    "diputado": "Daniel Valenzuela Salazar",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1262",
+    "diputado": "Diego Vergara Rodríguez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1263",
+    "diputado": "Sebastián Zamora Soto",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1264",
+    "diputado": "Fernando Zamorano Peralta",
+    "seleccion": "Afirmativo"
+   }
+  ],
+  "90749": [
+   {
+    "diputado_id": "803",
+    "diputado": "René Alinco Bustos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "815",
+    "diputado": "Sergio Bobadilla Muñoz",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "843",
+    "diputado": "René Manuel García García",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "872",
+    "diputado": "Jaime Mulet Martínez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "915",
+    "diputado": "Germán Verdugo Soto",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "986",
+    "diputado": "Marcela Hernando Pérez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1009",
+    "diputado": "Jorge Alessandri Vergara",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1012",
+    "diputado": "Boris Barrera Moreno",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1013",
+    "diputado": "Alejandro Bernales Maldonado",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1015",
+    "diputado": "Jorge Brito Hasbún",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1017",
+    "diputado": "Álvaro Carter Fernández",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1021",
+    "diputado": "Andrés Celis Montt",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1025",
+    "diputado": "Catalina Del Real Mihovilovic",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1028",
+    "diputado": "Eduardo Durán Salinas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1038",
+    "diputado": "Marcos Ilabaca Cerda",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1039",
+    "diputado": "Pamela Jiles Moreno",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1044",
+    "diputado": "Raúl Leiva Carvajal",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1054",
+    "diputado": "Francesca Muñoz González",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1056",
+    "diputado": "Emilia Nuyado Ancapichun",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1059",
+    "diputado": "Ximena Ossandón Irarrázabal",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1060",
+    "diputado": "Luis Pardo Sáinz",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1061",
+    "diputado": "Andrea Parra Sauterel",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1062",
+    "diputado": "Joanna Pérez Olea",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1065",
+    "diputado": "Guillermo Ramírez Diez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1073",
+    "diputado": "Juan Santana Castillo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1074",
+    "diputado": "Marisela Santibáñez Novoa",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1075",
+    "diputado": "Diego Schalper Sepúlveda",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1077",
+    "diputado": "Raúl Soto Mardones",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1082",
+    "diputado": "Cristóbal Urruticoechea Ríos",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1086",
+    "diputado": "Gonzalo Winter Etcheberry",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1087",
+    "diputado": "Gael Yeomans Araya",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1099",
+    "diputado": "Jaime Araya Guerrero",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1100",
+    "diputado": "Cristián Araya Lerdo de Tejada",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1102",
+    "diputado": "Roberto Arroyo Muñoz",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1104",
+    "diputado": "Chiara Barchiesi Chávez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1105",
+    "diputado": "Héctor Barría Angulo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1107",
+    "diputado": "María Francisca Bello Campos",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1108",
+    "diputado": "Juan Carlos Beltrán Silva",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1110",
+    "diputado": "Carlos Bianchi Chelech",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1114",
+    "diputado": "Félix Bugueño Sotelo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1116",
+    "diputado": "Felipe Camaño Cárdenas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1117",
+    "diputado": "Nathalie Castillo Rojas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1119",
+    "diputado": "Sara Concha Smith",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1122",
+    "diputado": "Luis Alberto Cuello Peña y Lillo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1127",
+    "diputado": "Lorena Fries Monleón",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1128",
+    "diputado": "Ana María Gazmuri Vieira",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1131",
+    "diputado": "Mauro González Villarroel",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1132",
+    "diputado": "Jorge Guzmán Zepeda",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1133",
+    "diputado": "Juan Irarrázaval Rossel",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1140",
+    "diputado": "Daniel Lilayu Vivanco",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1141",
+    "diputado": "Luis Malla Valenzuela",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1142",
+    "diputado": "Daniel Manouchehri Lobos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1143",
+    "diputado": "Cristóbal Martínez Ramírez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1146",
+    "diputado": "José Carlos Meza Pereira",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1148",
+    "diputado": "Javiera Morales Alvarado",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1150",
+    "diputado": "Benjamín Moreno Bascur",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1152",
+    "diputado": "Gloria Naveillan Arriagada",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1153",
+    "diputado": "Coca Ericka Ñanco Vásquez",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1157",
+    "diputado": "Marlene Pérez Cartes",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1159",
+    "diputado": "Lorena Pizarro Sierra",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1165",
+    "diputado": "Agustín Romero Leiva",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1166",
+    "diputado": "Natalia Romero Talguia",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1170",
+    "diputado": "Luis Sánchez Ossa",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1171",
+    "diputado": "Emilia Schneider Videla",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1172",
+    "diputado": "Stephan Schubert Rubio",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1173",
+    "diputado": "Daniela Serrano Salazar",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1174",
+    "diputado": "Marco Antonio Sulantay Olivares",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1175",
+    "diputado": "Cristián Tapia Ramos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1176",
+    "diputado": "Hotuiti Teao Drago",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1177",
+    "diputado": "Carolina Tello Rojas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1178",
+    "diputado": "Héctor Ulloa Aguilera",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1180",
+    "diputado": "Consuelo Veloso Ávila",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1181",
+    "diputado": "Nelson Venegas Salazar",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1182",
+    "diputado": "Sebastián Videla Castillo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1183",
+    "diputado": "Flor Weisse Novoa",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1184",
+    "diputado": "Roberto Celedón Fernández",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1186",
+    "diputado": "Ignacio Achurra Díaz",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1187",
+    "diputado": "Carlo Arqueros Pizarro",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1188",
+    "diputado": "Marcos Barraza Gómez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1189",
+    "diputado": "Jaime Bassa Mercado",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1190",
+    "diputado": "Enrique Bassaletti Riess",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1191",
+    "diputado": "Valentina Becerra Peña",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1192",
+    "diputado": "Lilian Betancurt Delgado",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1193",
+    "diputado": "Patricio Briones Moller",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1194",
+    "diputado": "Daniel Bustos Leal",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1195",
+    "diputado": "Carlos Carvajal Gallardo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1196",
+    "diputado": "Priscilla Castillo Gerli",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1197",
+    "diputado": "Carlos Chandía Alarcón",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1198",
+    "diputado": "Paz Charpentier Rajcevich",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1199",
+    "diputado": "Jaime Coloma Álamos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1200",
+    "diputado": "Cristian Contreras Radovic",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1201",
+    "diputado": "Flor Contreras Vivallo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1202",
+    "diputado": "Eduardo Cretton Rebolledo",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1203",
+    "diputado": "Sebastián Cristoffanini Jaraquemada",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1204",
+    "diputado": "Francisco Crisóstomo Llanos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1205",
+    "diputado": "Carlos Cuadrado Prats",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1206",
+    "diputado": "Carolina Cucumides Calderón",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1207",
+    "diputado": "Valentina Cáceres Monsálvez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1208",
+    "diputado": "Jorge Díaz Ibarra",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1209",
+    "diputado": "Matías Fernández Hartwig",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1210",
+    "diputado": "Gustavo Gatica Villarroel",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1211",
+    "diputado": "Sofía González Cortés",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1212",
+    "diputado": "Erich Grohs Marín",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1213",
+    "diputado": "Irací Hassler Jacob",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1214",
+    "diputado": "Constanza Hube Portus",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1215",
+    "diputado": "Álvaro Jofré Cáceres",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1216",
+    "diputado": "Stephanie Jéldrez Ortiz",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1217",
+    "diputado": "Pier Karlezi Hazleby",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1218",
+    "diputado": "José Antonio Kast Adriasola",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1219",
+    "diputado": "Tomás Kast Sommerhoff",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1220",
+    "diputado": "Leandro Kunstmann Collado",
+    "seleccion": "No Vota"
+   },
+   {
+    "diputado_id": "1221",
+    "diputado": "Benjamín Lorca Inzunza",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1222",
+    "diputado": "Andrea Macías Palma",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1223",
+    "diputado": "Hans Marowski Cuevas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1224",
+    "diputado": "Cristian Mella Andaur",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1225",
+    "diputado": "Cristian Menchaca Pinochet",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1226",
+    "diputado": "José Montalva Feuerhake",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1227",
+    "diputado": "Claudia Mora Vega",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1228",
+    "diputado": "Paulina Muñoz Minte",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1229",
+    "diputado": "Javier Muñoz Riquelme",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1230",
+    "diputado": "Alex Nahuelquin Nahuelquin",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1231",
+    "diputado": "Ximena Naranjo Pinto",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1232",
+    "diputado": "Cristian Neira Martínez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1233",
+    "diputado": "Ricardo Neumann Bertín",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1234",
+    "diputado": "Mario Olavarría Rodríguez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1235",
+    "diputado": "Javier Olivares Avendaño",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1236",
+    "diputado": "Paula Olmos Contreras",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1237",
+    "diputado": "Francisco Orrego Gutiérrez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1238",
+    "diputado": "Álvaro Ortiz Vera",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1239",
+    "diputado": "Fabián Ossandón Briceño",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1240",
+    "diputado": "Zandra Parisi Fernández",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1241",
+    "diputado": "Patricio Pinilla Valencia",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1242",
+    "diputado": "Rodrigo Ramírez Parra",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1243",
+    "diputado": "Tamara Ramírez Ramírez",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1244",
+    "diputado": "Claudia Reyes Larenas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1245",
+    "diputado": "Alejandro Riquelme Ducci",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1246",
+    "diputado": "José Antonio Rivas Villalobos",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1247",
+    "diputado": "Javiera Rodríguez Pascual",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1248",
+    "diputado": "Felipe Ross Correa",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1249",
+    "diputado": "Omar Sabat Guzmán",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1250",
+    "diputado": "Bernardo Salinas Maya",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1251",
+    "diputado": "Macarena Santelices Cañas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1252",
+    "diputado": "Constanza Schonhaut Soto",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1253",
+    "diputado": "Fernando Ugarte Tejeda",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1254",
+    "diputado": "Ignacio Urcullú Clèment-Lund",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1255",
+    "diputado": "Eileen Urqueta Rojas",
+    "seleccion": "Afirmativo"
+   },
+   {
+    "diputado_id": "1256",
+    "diputado": "Tatiana Urrutia Herrera",
+    "seleccion": "Afirmativo"
    },
    {
     "diputado_id": "1257",
