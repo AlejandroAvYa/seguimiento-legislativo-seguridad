@@ -187,6 +187,11 @@ class Agenda(unittest.TestCase):
         self.assertEqual(n[0]["boletines"], ["18585-25"])
         self.assertEqual(n[0]["temas"], ["ADN"])
         self.assertEqual(n[1]["tipo"], "Comisión")
+        xml2 = """<rss><item><title>Agricultura, violencia contra las mujeres y lobby en los temas de la Sala de este lunes</title><link>a</link>
+        <category><![CDATA[#Sala]]></category></item><item><title>Proyectos relativos a seguridad pública despachó la Cámara esta semana</title>
+        <link>b</link><category><![CDATA[#Sala]]></category></item></rss>"""
+        n2 = agenda.leer_feed(xml2)
+        self.assertEqual([x["tipo"] for x in n2], ["Tabla de la Sala", "Sala"])
 
     def test_secretaria(self):
         import agenda

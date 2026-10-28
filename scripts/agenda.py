@@ -258,7 +258,9 @@ def leer_feed(xml):
             fecha = ""
         resumen = re.sub(r"\s+", " ", texto(campo("description"))).replace("[…]", "…").strip()
         titulo = texto(campo("title"))
-        es_tabla = bool(re.search(r"\btabla\b", titulo, re.I)) and ("#Sala" in cats or re.search(r"\bSala\b", titulo))
+        # nota que anuncia la tabla: menciona la tabla, o los temas de la Sala de "este lunes"/"esta semana", sin informar lo ya despachado
+        anuncia = re.search(r"\btabla\b", titulo + " " + " ".join(cats), re.I) or re.search(r"temas de la Sala|(?:este|el) (?:lunes|martes|miércoles)", titulo, re.I)
+        es_tabla = bool(anuncia) and ("#Sala" in cats or re.search(r"\bSala\b", titulo)) and not re.search(r"despach|aprob", titulo, re.I)
         tipo = "Tabla de la Sala" if es_tabla else ("Comisión" if "#Comisión" in cats or re.search(r"[Cc]omisi[oó]n", titulo) else
                                                     ("Sala" if "#Sala" in cats else "Otra"))
         salida.append({"fecha": fecha, "titulo": titulo, "link": campo("link"), "tipo": tipo, "resumen": resumen[:700],
