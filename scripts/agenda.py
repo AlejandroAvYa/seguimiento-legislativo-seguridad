@@ -219,7 +219,15 @@ def actualizar(previa, seguidos, hoy, sesiones_camara=None):
     plazos = [p for p in plazos if p.get("fecha", "") >= hoy]
     for p in plazos:
         p["seguido"] = p["boletin"] in seguidos
-    return {"desde": lunes, "items": items, "plazos_indicaciones": plazos}, estados, nuevas
+    notas = previa.get("noticias_camara", [])
+    try:
+        notas = acumular_noticias(notas, noticias_camara(), hoy)
+        estados["camara_prensa"] = {"estado": "ok", "n": len(notas)}
+    except Exception as e:  # noqa: BLE001
+        estados["camara_prensa"] = {"estado": f"sin conexión: {type(e).__name__}"[:80]}
+    for n in notas:
+        n["seguidos"] = [b for b in n.get("boletines", []) if b in seguidos]
+    return {"desde": lunes, "items": items, "plazos_indicaciones": plazos, "noticias_camara": notas}, estados, nuevas
 
 
 def agenda_de(boletin, agenda):
@@ -228,3 +236,52 @@ def agenda_de(boletin, agenda):
            for x in agenda.get("items", []) if boletin in x.get("boletines", [])]
     plz = [{k: p[k] for k in ("fecha", "hora", "donde")} for p in agenda.get("plazos_indicaciones", []) if p["boletin"] == boletin]
     return ses, plz
+
+
+# ----------------------------------------------------------------- Cámara: notas de prensa (feed RSS)
+FEEDS_CAMARA = ["https://www.camara.cl/cms/feed/?s=tabla", "https://www.camara.cl/cms/feed/?s=comisi%C3%B3n", "https://www.camara.cl/cms/feed/"]
+DIAS_SEM = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
+
+
+def leer_feed(xml):
+    """Notas del feed de prensa de la Cámara: título, enlace, fecha, categorías y resumen."""
+    from email.utils import parsedate_to_datetime
+    salida = []
+    for it in re.findall(r"(?s)<item>(.*?)</item>", xml):
+        def campo(etq):
+            m = re.search(rf"(?s)<{etq}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</{etq}>", it)
+            return html.unescape(m.group(1)).strip() if m else ""
+        cats = [html.unescape(c) for c in re.findall(r"<category><!\[CDATA\[(.*?)\]\]>", it)]
+        try:
+            fecha = parsedate_to_datetime(campo("pubDate")).astimezone().strftime("%Y-%m-%d")
+        except Exception:  # noqa: BLE001
+            fecha = ""
+        resumen = re.sub(r"\s+", " ", texto(campo("description"))).replace("[…]", "…").strip()
+        titulo = texto(campo("title"))
+        es_tabla = bool(re.search(r"\btabla\b", titulo, re.I)) and ("#Sala" in cats or re.search(r"\bSala\b", titulo))
+        tipo = "Tabla de la Sala" if es_tabla else ("Comisión" if "#Comisión" in cats or re.search(r"[Cc]omisi[oó]n", titulo) else
+                                                    ("Sala" if "#Sala" in cats else "Otra"))
+        salida.append({"fecha": fecha, "titulo": titulo, "link": campo("link"), "tipo": tipo, "resumen": resumen[:700],
+                       "temas": [c for c in cats if c not in ("Destacado Centro Prensa", "Noticias Centro de Prensa", "Noticias Destacadas",
+                                                              "Portada Multimedia Inicio Web", "#Sala", "#Comisión")][:6],
+                       "boletines": boletines(titulo + " " + resumen)})
+    return salida
+
+
+def noticias_camara():
+    vistos, salida = set(), []
+    for u in FEEDS_CAMARA:
+        for n in leer_feed(descargar(u)):
+            if n["link"] and n["link"] not in vistos and n["tipo"] in ("Tabla de la Sala", "Comisión", "Sala"):
+                vistos.add(n["link"])
+                salida.append(n)
+    return salida
+
+
+def acumular_noticias(previas, nuevas, hoy, dias=21):
+    """El feed solo trae las últimas notas: se acumulan las de las últimas semanas."""
+    from datetime import datetime, timedelta
+    desde = (datetime.strptime(hoy, "%Y-%m-%d") - timedelta(days=dias)).strftime("%Y-%m-%d")
+    por_link = {n["link"]: n for n in previas}
+    por_link.update({n["link"]: n for n in nuevas})
+    return sorted([n for n in por_link.values() if n.get("fecha", "") >= desde], key=lambda n: n["fecha"], reverse=True)

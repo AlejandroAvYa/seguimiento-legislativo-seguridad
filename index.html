@@ -955,15 +955,25 @@ function vistaAgenda() {
       const t = proyecto(p.boletin); return `<tr class="${t ? "click" : ""}" ${t ? `data-b="${esc(p.boletin)}"` : ""}><td class="mono" style="white-space:nowrap">${fmt(p.fecha)} ${esc(p.hora)}</td><td><b style="color:var(--ink)">${esc(t ? t.nombre_corto : p.materia)}</b><div class="small muted mono">${esc(p.boletin)}</div></td><td>${esc(p.donde)}</td></tr>`; }).join("")}</tbody></table></div></div>`
       : `<div class="card"><div class="empty">Sin plazos de indicaciones abiertos${st.todo ? "" : " para los proyectos seguidos"}.</div></div>`;
     document.querySelectorAll("#agPlazos tr[data-b]").forEach(r => r.addEventListener("click", () => location.hash = linkFicha(r.dataset.b)));
+    const notas = (A.noticias_camara || []).filter(n => st.todo || n.tipo === "Tabla de la Sala" || (n.seguidos || []).length);
+    $("#agCamara").innerHTML = notas.length ? `<div class="card">${notas.slice(0, 25).map(n => `<div class="ses"><div class="ses__h">${fmt(n.fecha)}<small>${esc(n.tipo)}</small></div>
+      <div><div class="ses__i"><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a></div>
+        ${n.resumen ? `<div class="ses__m">${esc(n.resumen)}</div>` : ""}
+        ${(n.seguidos || []).length ? `<div>${n.seguidos.map(b => `<a class="pchip" href="${linkFicha(b)}">${esc((proyecto(b) || {}).nombre_corto || b)}</a>`).join("")}</div>` : ""}
+        ${(n.temas || []).length ? `<div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap">${n.temas.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}</div></div>`).join("")}</div>`
+      : `<div class="card"><div class="empty">Sin notas de tabla publicadas por la Cámara en las últimas semanas.</div></div>`;
   };
   const nSeg = (A.items || []).filter(x => (x.seguidos || []).length && x.fecha >= hoy).length;
   $("#page").innerHTML = `<div class="page__eyebrow">Agenda de la semana</div><h1 class="page__title">Qué se discute y quiénes asisten</h1>
     <p class="page__lead">${nSeg} sesiones citadas desde hoy tratan proyectos seguidos. Se muestran las citaciones de comisiones del Senado con su materia e invitados, la tabla de la Sala del Senado, las sesiones de Sala de la Cámara y los plazos para presentar indicaciones. Se actualiza cada hora.</p>
-    <div class="filterbar"><div class="seg" id="agTodo"><button type="button" data-k="0" class="is-on">Solo proyectos seguidos</button><button type="button" data-k="1">Toda la agenda del Senado</button></div>
+    <div class="filterbar"><div class="seg" id="agTodo"><button type="button" data-k="0" class="is-on">Solo proyectos seguidos</button><button type="button" data-k="1">Toda la agenda</button></div>
       <span class="fcount">Desde el ${fmt(A.desde || hoy)}${fuentes.estado && fuentes.estado !== "ok" ? " · algunas fuentes sin conexión; se muestran los últimos datos obtenidos" : ""}</span></div>
     <div id="agLista"></div>
     <div class="section-title">Plazos para presentar indicaciones</div><div id="agPlazos"></div>
-    <div class="notebar" style="margin-top:16px">Las citaciones de comisiones de la Cámara (con materia e invitados) solo se publican en camara.cl, que bloquea las consultas desde servidores fuera de Chile. Se pueden incorporar ejecutando la actualización desde un computador en Chile.</div>`;
+    <div class="section-title">Cámara: tabla anunciada y trabajo en comisiones</div>
+    <div class="notebar">Notas que publica la prensa de la Cámara: cada semana anuncia la tabla de la Sala y da cuenta del trabajo de las comisiones. Se muestran el título, el resumen y el enlace a la nota completa. Con "Toda la agenda" se ven también las notas de comisiones.</div>
+    <div id="agCamara"></div>
+    <div class="notebar" style="margin-top:16px">Las citaciones de comisiones de la Cámara, con su materia e invitados, se publican solo en camara.cl, que exige una verificación de navegador y rechaza las consultas automáticas desde servidores. Para incorporarlas hay que ejecutar la actualización desde un computador en Chile o pedir a la Cámara que las publique en sus datos abiertos.</div>`;
   document.querySelectorAll("#agTodo button").forEach(b => b.addEventListener("click", () => { st.todo = b.dataset.k === "1"; document.querySelectorAll("#agTodo button").forEach(x => x.classList.toggle("is-on", x === b)); pintar(); }));
   pintar();
 }

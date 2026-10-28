@@ -174,6 +174,20 @@ class Agenda(unittest.TestCase):
         self.assertEqual(c[1]["estado"], "Suspendida")
         self.assertEqual(c[1]["boletines"], ["18551-04"])
 
+    def test_feed_camara(self):
+        import agenda
+        xml = """<rss><channel><item><title>Tabla de la Sala: Cambio al sistema de registro de ADN para este lunes 21</title>
+        <link>https://www.camara.cl/cms/2026/09/18/tabla/</link><pubDate>Fri, 18 Sep 2026 15:00:00 +0000</pubDate>
+        <category><![CDATA[Noticias Centro de Prensa]]></category><category><![CDATA[#Sala]]></category><category><![CDATA[ADN]]></category>
+        <description><![CDATA[<p>La Sala verá el proyecto (boletín 18.585-25) que habilita a las policías&#8230; [&#8230;]</p>]]></description></item>
+        <item><title>Aprueban en general proyecto de apoderados</title><link>https://www.camara.cl/cms/x/</link>
+        <pubDate>Wed, 28 Oct 2026 18:19:00 +0000</pubDate><category><![CDATA[#Comisión]]></category><description>Texto</description></item></channel></rss>"""
+        n = agenda.leer_feed(xml)
+        self.assertEqual(n[0]["tipo"], "Tabla de la Sala")
+        self.assertEqual(n[0]["boletines"], ["18585-25"])
+        self.assertEqual(n[0]["temas"], ["ADN"])
+        self.assertEqual(n[1]["tipo"], "Comisión")
+
     def test_secretaria(self):
         import agenda
         self.assertEqual(agenda.nombre_secretaria("PARA PRESENTAR EN SECRETARÍA DE LA COMISIÓN DE ECONOMíA"), "Secretaría de la Comisión de Economía")
