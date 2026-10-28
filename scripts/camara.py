@@ -106,3 +106,21 @@ def votaciones_del_anno(anno):
 
 def detalle_votacion(vid):
     return leer_detalle(descargar(f"{BASE}/retornarVotacionDetalle?prmVotacionId={vid}"))
+
+
+def sesiones_sala(anno):
+    """Sesiones de Sala del año (servicio WSSala): las futuras vienen con estado "Citada"."""
+    raiz = _limpiar(ET.fromstring(descargar(f"https://opendata.camara.cl/camaradiputados/WServices/WSSala.asmx/retornarSesionesXAnno?prmAnno={anno}")))
+    salida = []
+    for s in raiz.iter("Sesion"):
+        ini, fin = _txt(s, "FechaInicio"), _txt(s, "FechaTermino")
+        salida.append({"id": _txt(s, "Id"), "numero": _txt(s, "Numero"), "fecha": ini[:10], "hora_inicio": ini[11:16],
+                       "hora_termino": fin[11:16], "tipo": _txt(s, "Tipo"), "estado": _txt(s, "Estado")})
+    return salida
+
+
+def agenda_sala(hoy):
+    """Sesiones de Sala citadas desde hoy, en el formato de la agenda."""
+    return [{"camara": "Cámara de Diputados", "tipo": "Sala", "fecha": s["fecha"], "instancia": f"Sala de la Cámara · sesión {s['tipo'].lower()} N° {s['numero']}",
+             "estado": "Citada", "horario": f"{s['hora_inicio']} a {s['hora_termino']}", "lugar": "", "materia": "", "boletines": [], "invitados": [],
+             "link": ""} for s in sesiones_sala(int(hoy[:4])) if s["fecha"] >= hoy and s["estado"].lower().startswith("citad")]

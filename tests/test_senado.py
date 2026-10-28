@@ -155,6 +155,30 @@ class TextoIndicaciones(unittest.TestCase):
         self.assertIn("Presidente de la República", items[2]["texto"])
 
 
+class Agenda(unittest.TestCase):
+    def test_citaciones_senado(self):
+        import agenda
+        html = """<article><header><h1 class="titular serif">Miércoles, 28 de Octubre de 2026</h1></header>
+        <div><table><tbody><tr><th>COMISI&Oacute;N:</th><td><strong>de Constitución, Legislación, Justicia y Reglamento</strong>
+        <label>-- La sesi&oacute;n ser&aacute; transmitida --</label></td></tr><tr><th>LUGAR:</th><td>Sala 3</td></tr>
+        <tr><th>HORARIO:</th><td>15:00 a 17:00</td></tr><tr><th>MATERIA:</th><td><strong>1.- ( Bol.N° <a href="x">15589-07</a>) Continuar el estudio.
+        <br>A esta sesión ha sido invitado el Ministro de Seguridad Pública, señor X.</strong></td></tr></tbody></table></div>
+        <div><table><tbody><tr><th>COMISI&Oacute;N:</th><td><strong>de Minería</strong><label>-- HA QUEDADO SIN EFECTO --</label></td></tr>
+        <tr><th>MATERIA:</th><td>Boletín N° 18.551-04</td></tr></tbody></table></div></article>"""
+        c = agenda.leer_citaciones(html)
+        self.assertEqual(len(c), 2)
+        self.assertEqual(c[0]["fecha"], "2026-10-28")
+        self.assertEqual(c[0]["instancia"], "Comisión de Constitución, Legislación, Justicia y Reglamento")
+        self.assertEqual(c[0]["boletines"], ["15589-07"])
+        self.assertTrue(c[0]["invitados"][0].startswith("A esta sesión"))
+        self.assertEqual(c[1]["estado"], "Suspendida")
+        self.assertEqual(c[1]["boletines"], ["18551-04"])
+
+    def test_secretaria(self):
+        import agenda
+        self.assertEqual(agenda.nombre_secretaria("PARA PRESENTAR EN SECRETARÍA DE LA COMISIÓN DE ECONOMíA"), "Secretaría de la Comisión de Economía")
+
+
 class SepararAutores(unittest.TestCase):
     def test_coma_y(self):
         self.assertEqual(actualizar.separar_autores("Pugh, Aravena, y Edwards, Macaya y Ossandón"),

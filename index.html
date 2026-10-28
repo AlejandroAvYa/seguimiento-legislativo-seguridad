@@ -12,7 +12,7 @@
 /* Sistema visual SPD (plantilla Plan Maestro 2026–2029): barra lateral azul institucional, banda de resumen,
    tarjetas sobrias y matriz de avance por etapas como pieza central. */
 :root{
-  --gob-red:#e82c36;
+  --gob-red:#e82c36; --gob-blue:#0f69b4;
   --c-blue:#0063b1; --c-blue-700:#0a4f8c; --c-blue-900:#08355d; --c-blue-950:#06294a; --c-blue-soft:#e6f0fa;
   --c-red:#d52b34; --c-red-soft:#fbe9ea;
   --c-orange:#d2691e; --c-orange-soft:#fcecdf;
@@ -295,10 +295,45 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 .def dt{font-weight:700;color:var(--ink)} .def dd{margin:0;color:var(--ink-2)}
 @media (max-width:640px){.def{grid-template-columns:minmax(0,1fr)}.def dd{margin-bottom:8px}}
 .loading{padding:40px;text-align:center;color:var(--ink-3)}
+/* Kit Digital: línea institucional, barra de accesibilidad, salto al contenido y pie */
+.linea-gob{height:5px;flex:none;background:linear-gradient(90deg,var(--gob-blue) 0 50%,var(--gob-red) 50% 100%)}
+.a11y{display:flex;gap:4px;flex:none}
+.a11y button{width:34px;height:34px;border-radius:8px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);font-weight:800;font-size:13px;display:grid;place-items:center}
+.a11y button:hover{border-color:var(--c-blue);color:var(--c-blue)}
+.a11y button[aria-pressed="true"]{background:var(--c-blue);color:#fff;border-color:var(--c-blue)}
+.saltar{position:absolute;left:-9999px;top:8px;z-index:50;background:var(--c-blue);color:#fff;padding:8px 14px;border-radius:8px;font-weight:700;text-decoration:none}
+.saltar:focus{left:max(16px,env(safe-area-inset-left,0px))}
+.pie{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-3);line-height:1.6;display:flex;flex-wrap:wrap;gap:6px 18px}
+.page{zoom:var(--zoom,1)}
+:root.contraste{--bg:#000;--surface:#000;--surface-2:#111;--surface-3:#1a1a1a;--ink:#fff;--ink-2:#fff;--ink-3:#ffe600;--line:#fff;--line-2:#fff;
+  --c-blue:#ffe600;--c-blue-700:#ffe600;--c-blue-soft:#222;--track-done:#ffe600;--track-todo:#777;--c-red:#ff7b7b;--c-red-soft:#300;--c-amber:#ffd24d;--c-amber-soft:#332600;
+  --c-ok:#7dffb2;--c-ok-soft:#032;--c-slate:#ccc;--c-slate-soft:#222;--c-orange:#ffab70;--c-orange-soft:#331a00;color-scheme:dark}
+:root.contraste .hero,:root.contraste .sidebar{background:#000;border:1px solid #fff}
+:root.contraste a{color:#ffe600}
+/* agenda */
+.dia{margin-top:18px}
+.dia__t{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--ink-2);margin-bottom:8px;display:flex;gap:10px;align-items:center}
+.dia__t.hoy{color:var(--c-blue)}
+.ses{display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;padding:14px 16px;border-top:1px solid var(--line)}
+.ses:first-child{border-top:0}
+.ses__h{font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--ink)}
+.ses__h small{display:block;font-family:var(--sans);font-weight:600;color:var(--ink-3);font-size:11px;margin-top:4px}
+.ses__i{font-size:13.5px;font-weight:700;line-height:1.35}
+.ses__m{font-size:12.5px;color:var(--ink-2);line-height:1.55;margin-top:6px;white-space:pre-line;overflow-wrap:anywhere}
+.ses__inv{margin:8px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.ses__inv li{font-size:12.3px;color:var(--ink-2);padding-left:14px;position:relative;line-height:1.45}
+.ses__inv li::before{content:"";position:absolute;left:2px;top:7px;width:6px;height:6px;border-radius:50%;background:var(--c-blue)}
+.ses.susp .ses__i{text-decoration:line-through;color:var(--ink-3)}
+.ses details summary{cursor:pointer;font-size:12px;color:var(--c-blue);font-weight:700;margin-top:6px}
+.pchip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:3px 9px;border-radius:7px;background:var(--c-blue-soft);color:var(--c-blue-700);text-decoration:none;margin:6px 6px 0 0}
+.pchip:hover{outline:1px solid var(--c-blue)}
+.cal{display:inline-flex;color:var(--c-blue)}
+@media (max-width:560px){.ses{grid-template-columns:minmax(0,1fr);gap:6px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
 <body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
 <div class="app">
   <aside class="sidebar">
     <div class="sidebar__brand">
@@ -310,18 +345,24 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
     <div class="sidebar__foot" id="fuentes"></div>
   </aside>
   <div class="main">
+    <div class="linea-gob" aria-hidden="true"></div>
     <header class="topbar">
       <div class="topbar__head"><div class="topbar__title" id="tTitle">Panorama</div><div class="topbar__sub" id="tSub"></div></div>
       <div class="corte" id="corte"><span class="dot" style="background:var(--c-ok)"></span>Cargando…</div>
+      <div class="a11y" role="group" aria-label="Accesibilidad">
+        <button type="button" id="aMenos" title="Reducir el tamaño del texto" aria-label="Reducir el tamaño del texto">A−</button>
+        <button type="button" id="aMas" title="Aumentar el tamaño del texto" aria-label="Aumentar el tamaño del texto">A+</button>
+        <button type="button" id="aCon" title="Alto contraste" aria-label="Alto contraste" aria-pressed="false"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+      </div>
     </header>
     <nav class="mnav" id="mnav"></nav>
-    <div class="scroll" id="scroll"><div class="page" id="page"><div class="loading">Cargando datos…</div></div></div>
+    <main class="scroll" id="scroll"><span id="contenido"></span><div class="page" id="page" tabindex="-1"><div class="loading">Cargando datos…</div></div></main>
   </div>
 </div>
 <script>
 "use strict";
 /* ============================================================ datos y utilidades */
-const D = {tablero: [], meta: {}, cambios: [], proyectos: null, actores: null, ind: {}};
+const D = {tablero: [], meta: {}, cambios: [], proyectos: null, actores: null, ind: {}, agenda: {items: [], plazos_indicaciones: []}, acot: []};
 const ETAPAS = [
   {c:"1C", g:"Primer trámite", n:"Comisión"}, {c:"1S", g:"Primer trámite", n:"Sala"},
   {c:"2C", g:"Segundo trámite", n:"Comisión"}, {c:"2S", g:"Segundo trámite", n:"Sala"},
@@ -329,6 +370,8 @@ const ETAPAS = [
   {c:"TC", g:"Control y promulgación", n:"TC · veto · Ejecutivo"}, {c:"LEY", g:"Ley", n:"Publicada"}];
 const VISTAS = [
   {id:"panorama", n:"Panorama", s:"Estado de todos los proyectos en una vista"},
+  {id:"agenda", n:"Agenda de la semana", s:"Citaciones, tabla de Sala y plazos de indicaciones"},
+  {id:"acot", n:"Agenda ACOT", s:"Agenda contra el Crimen Organizado y el Terrorismo"},
   {id:"urgencias", n:"Urgencias y alertas", s:"Plazos de urgencia y señales de riesgo"},
   {id:"indicaciones", n:"Indicaciones", s:"Qué se ha propuesto modificar y quién"},
   {id:"votaciones", n:"Votaciones y actores", s:"Votaciones en Sala y parlamentarios"},
@@ -360,31 +403,42 @@ const urg = (u, txt) => `<span class="chip ${urgClase(u)}">${esc(txt || urgCorta
 const inicial = c => !c ? "" : c.startsWith("Senado") ? "S" : c.startsWith("Cámara") ? "C" : c.startsWith("Ambas") ? "M" : "";
 const ICON_AL = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>';
 const enTram = p => p.situacion === "En tramitación";
+const ICON_CAL = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>';
+const proxSesion = p => (p.agenda || []).filter(x => x.fecha >= hoyISO() && x.estado !== "Suspendida").sort((a, b) => (a.fecha + a.horario).localeCompare(b.fecha + b.horario))[0];
+const sesionesSeguidas = () => (D.agenda.items || []).filter(x => (x.seguidos || []).length);
 const ORDEN_PRIO = {"Crítica":0,"Alta":1,"Media":2,"Baja":3,"Despachado":4,"Ley publicada":5,"Fuera de tramitación":6};
 const vence7 = p => enTram(p) && p.urgencia_vence_estimado && diasHasta(p.urgencia_vence_estimado) >= 0 && diasHasta(p.urgencia_vence_estimado) <= 7;
 const linkFicha = b => `#p-${b}`;
 
 /* ============================================================ navegación */
 function pintarNav(actual) {
-  const badge = {urgencias: D.tablero.filter(vence7).length};
+  const badge = {urgencias: D.tablero.filter(vence7).length, agenda: sesionesSeguidas().filter(x => x.fecha >= hoyISO()).length};
   $("#nav").innerHTML = `<div class="nav__group">Vistas</div>` + VISTAS.map((v, i) =>
-    `<a class="nav__item ${actual === v.id ? "is-active" : ""}" href="#${v.id}"><span class="nav__num">${i + 1}</span><span>${v.n}</span>${badge[v.id] ? `<span class="nav__badge" title="Urgencias que vencen en 7 días">${badge[v.id]}</span>` : ""}</a>`).join("");
+    `<a class="nav__item ${actual === v.id ? "is-active" : ""}" href="#${v.id}"><span class="nav__num">${i + 1}</span><span>${v.n}</span>${badge[v.id] ? `<span class="nav__badge" title="${v.id === "agenda" ? "Sesiones citadas con proyectos seguidos" : "Urgencias que vencen en 7 días"}">${badge[v.id]}</span>` : ""}</a>`).join("");
   $("#mnav").innerHTML = VISTAS.map(v => `<a href="#${v.id}" class="${actual === v.id ? "is-active" : ""}">${v.n}</a>`).join("");
 }
 function encabezado(t, s) { $("#tTitle").textContent = t; $("#tSub").textContent = s; }
-function ruta() {
+async function ruta() {
   const h = decodeURIComponent(location.hash.slice(1));
-  if (h.startsWith("p-") && proyecto(h.slice(2))) { pintarNav(""); return vistaFicha(h.slice(2)); }
+  if (h === "contenido") { $("#page").focus(); return; }
+  if (h.startsWith("p-") && proyecto(h.slice(2))) { pintarNav(""); await vistaFicha(h.slice(2)); return pie(); }
   const v = VISTAS.find(x => x.id === h) || VISTAS[0];
   pintarNav(v.id); encabezado(v.n, v.s);
-  ({panorama: vistaPanorama, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
-    cambios: vistaCambios, leyes: vistaLeyes, metodologia: vistaMetodo})[v.id]();
   $("#scroll").scrollTop = 0;
+  await ({panorama: vistaPanorama, agenda: vistaAgenda, acot: vistaAcot, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
+    cambios: vistaCambios, leyes: vistaLeyes, metodologia: vistaMetodo})[v.id]();
+  pie();
+}
+function pie() {
+  if ($("#page .pie")) return;
+  $("#page").insertAdjacentHTML("beforeend", `<footer class="pie"><span>Subsecretaría de Prevención del Delito · Ministerio de Seguridad Pública</span>
+    <span>Fuentes oficiales: Senado y Cámara de Diputadas y Diputados</span><span>Datos al ${fmt(D.meta.ultima_actualizacion_datos)} · se actualiza cada hora</span>
+    <a href="#metodologia">Fuentes y método</a></footer>`);
 }
 window.addEventListener("hashchange", ruta);
 
 /* ============================================================ cuadro de avance */
-const F = {sit: "tram", cla: "", mat: "", urg: "", prio: "", q: "", orden: "prio"};
+const F = {sit: "tram", cla: "", mat: "", urg: "", prio: "", q: "", orden: "prio", acot: false};
 function celdaEtapa(p, e, i) {
   const est = (p.avance_estados || {})[e.c] || "todo";
   const cls = ["st"]; if (i === 0) cls.push("first"); if (i === ETAPAS.length - 1) cls.push("last");
@@ -404,7 +458,7 @@ function filtrar() {
     (F.sit === "todos" || (F.sit === "tram" && enTram(p)) || (F.sit === "fin" && ["Despachado al Ejecutivo","Publicado como ley"].includes(p.situacion)) ||
      (F.sit === "fuera" && ["Archivado","Retirado","Rechazado"].includes(p.situacion))) &&
     (!F.cla || p.clasificacion === F.cla) && (!F.mat || p.materia === F.mat) && (!F.urg || p.urgencia_vigente === F.urg) &&
-    (!F.prio || p.prioridad_nivel === F.prio) &&
+    (!F.prio || p.prioridad_nivel === F.prio) && (!F.acot || p.acot_n) &&
     (!q || [p.boletin, p.nombre_corto, p.titulo, p.materia, p.descripcion, p.acot].join(" ").toLowerCase().includes(q)));
 }
 function ordenar(lista) {
@@ -420,7 +474,7 @@ function filaProyecto(p) {
   const dias = enTram(p) && p.dias_en_etapa !== "" ? `${p.dias_en_etapa} d<small>en la etapa</small>` :
     p.situacion === "Publicado como ley" ? `${esc(p.ley_numero.replace("Ley N° ", "N° "))}<small>${fmt(p.ley_fecha_diario_oficial)}</small>` : `<small>${esc(p.situacion)}</small>`;
   return `<tr data-b="${esc(p.boletin)}">
-    <td class="sticky left"><div class="pname"><b>${esc(p.nombre_corto)}</b><span><span class="mono">${esc(p.boletin)}</span>${urg(p.urgencia_vigente)}${p.n_alertas || (p.alertas || []).length ? `<span title="Alertas" style="color:var(--c-amber);display:inline-flex">${ICON_AL}</span>` : ""}</span></div></td>
+    <td class="sticky left"><div class="pname"><b>${esc(p.nombre_corto)}</b><span><span class="mono">${esc(p.boletin)}</span>${urg(p.urgencia_vigente)}${p.acot_n ? `<span class="tag" title="${esc("ACOT N° " + p.acot_n + ": " + p.acot_iniciativa)}">ACOT ${esc(p.acot_n)}</span>` : ""}${proxSesion(p) ? `<span class="cal" title="${esc("Citado: " + fmt(proxSesion(p).fecha) + " · " + proxSesion(p).instancia)}">${ICON_CAL}</span>` : ""}${p.n_alertas || (p.alertas || []).length ? `<span title="Alertas" style="color:var(--c-amber);display:inline-flex">${ICON_AL}</span>` : ""}</span></div></td>
     ${ETAPAS.map((e, i) => celdaEtapa(p, e, i)).join("")}
     <td class="g">${prio(p).replace('class="prio', 'style="margin:0 10px" class="prio')}</td>
     <td><div class="dias tnum">${dias}</div></td></tr>`;
@@ -469,6 +523,7 @@ function bloqueFiltros() {
     <div class="seg" id="fSit">${[["tram", `En tramitación (${n(enTram)})`], ["fin", `Despachados y leyes (${n(p => ["Despachado al Ejecutivo","Publicado como ley"].includes(p.situacion))})`],
       ["fuera", `Fuera de tramitación (${n(p => ["Archivado","Retirado","Rechazado"].includes(p.situacion))})`], ["todos", `Todos (${T.length})`]]
       .map(([k, t]) => `<button data-k="${k}" class="${F.sit === k ? "is-on" : ""}">${t}</button>`).join("")}</div>
+    <div class="seg"><button type="button" id="fAcot" class="${F.acot ? "is-on" : ""}" aria-pressed="${F.acot}">Solo ACOT (${n(p => p.acot_n)})</button></div>
     <input class="fsearch" id="fQ" type="search" placeholder="Buscar por nombre, boletín o materia" value="${esc(F.q)}">
     <select class="fsel" id="fCla" aria-label="Clasificación">${opciones(T.map(p => p.clasificacion), F.cla, "Núcleo y conexos")}</select>
     <select class="fsel" id="fMat" aria-label="Materia">${opciones(T.map(p => p.materia), F.mat, "Todas las materias")}</select>
@@ -481,6 +536,7 @@ function bloqueFiltros() {
 function conectarFiltros() {
   document.querySelectorAll("#fSit button").forEach(b => b.addEventListener("click", () => { F.sit = b.dataset.k; document.querySelectorAll("#fSit button").forEach(x => x.classList.toggle("is-on", x === b)); pintarAvance(); }));
   $("#fQ").addEventListener("input", e => { F.q = e.target.value; pintarAvance(); });
+  $("#fAcot").addEventListener("click", e => { F.acot = !F.acot; e.currentTarget.classList.toggle("is-on", F.acot); e.currentTarget.setAttribute("aria-pressed", F.acot); pintarAvance(); });
   [["#fCla","cla"],["#fMat","mat"],["#fUrg","urg"],["#fPrio","prio"],["#fOrd","orden"]].forEach(([s, k]) => $(s).addEventListener("change", e => { F[k] = e.target.value; pintarAvance(); }));
 }
 
@@ -497,8 +553,7 @@ function vistaPanorama() {
   const alertasTop = tram.filter(p => (p.alertas || []).some(a => /Urgencia por vencer|Votación/.test(a.tipo)))
     .sort((a, b) => (a.urgencia_vence_estimado || "9").localeCompare(b.urgencia_vence_estimado || "9")).slice(0, 6);
   const rel = D.cambios.filter(c => c.tipo !== "Nuevo trámite").slice(0, 6);
-  const porEtapa = ETAPAS.slice(0, 7).map(e => ({e, n: tram.filter(p => p.etapa_codigo === e.c).length + (e.c === "TC" ? n(p => p.situacion === "Despachado al Ejecutivo") : 0)}));
-  const max = Math.max(1, ...porEtapa.map(x => x.n));
+  const semana = sesionesSeguidas().filter(x => x.fecha >= hoyISO());
   $("#page").innerHTML = `
     <section class="hero">
       <div class="hero__top"><div><div class="hero__k">Proyectos de ley de seguridad pública · Gobierno 2026–2030</div>
@@ -517,9 +572,11 @@ function vistaPanorama() {
         <div class="card__body">${rel.length ? rel.map(c => { const p = proyecto(c.boletin);
           return `<div class="lrow" data-b="${esc(c.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p ? p.nombre_corto : c.boletin)}</div><div class="lrow__s">${esc(textoCambio(c))}</div></div><div class="lrow__r muted mono" style="font-weight:500;font-size:11px">${fmt(c.fecha_deteccion.slice(0, 10)).slice(0, 5)}</div></div>`; }).join("") : `<div class="empty">Sin cambios.</div>`}
           <a class="more" href="#cambios">Ver todos los cambios →</a></div></div>
-      <div class="card"><div class="card__head"><span class="card__title">Dónde están los proyectos</span><span class="card__sub">en tramitación y despachados</span></div>
-        <div class="card__body">${porEtapa.map(({e, n}) => `<div class="barrow"><div class="barrow__lab">${e.g}<small>${e.c === "TC" ? "TC, veto o promulgación" : e.n}</small></div>
-          <div class="barrow__track"><div class="barrow__fill" style="width:${100 * n / max}%;background:var(--c-blue)"></div></div><div class="barrow__n tnum">${n}</div></div>`).join("")}</div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Esta semana en el Congreso</span><span class="card__sub">proyectos seguidos</span></div>
+        <div class="card__body">${semana.length ? semana.slice(0, 6).map(x => `<div class="lrow" data-b="${esc(x.seguidos[0])}"><div class="lrow__main"><div class="lrow__t">${esc(x.seguidos.map(b => (proyecto(b) || {}).nombre_corto || b).join(" · "))}</div>
+          <div class="lrow__s">${esc(x.instancia)}${x.estado === "Suspendida" ? " · suspendida" : ""}</div></div><div class="lrow__r ${x.fecha === hoyISO() ? "" : "muted"}" style="font-size:11.5px">${x.fecha === hoyISO() ? "Hoy" : fmt(x.fecha).slice(0, 5)}<div class="small muted" style="font-weight:500">${esc((x.horario || "").split(" a ")[0])}</div></div></div>`).join("")
+          : `<div class="empty">Sin sesiones citadas para los proyectos seguidos.</div>`}
+          <a class="more" href="#agenda">Ver la agenda completa →</a></div></div>
     </div>
     <div class="section-title">Cuadro de avance por etapa</div>
     ${bloqueFiltros()}
@@ -591,6 +648,11 @@ async function vistaFicha(b) {
             <div class="metric"><div class="k">Urgencia</div><div class="v">${esc(urgTxt)}</div></div>
             <div class="metric" style="grid-column:1/-1"><div class="k">Último trámite · ${fmt(p.ultimo_tramite_fecha)}</div><div class="v" style="font-weight:600">${esc(p.ultimo_tramite)}</div></div>
           </div></div>
+        ${(p.agenda || []).length || (p.plazo_indicaciones || []).length ? `<div class="dsec"><div class="dsec__t">Agenda</div>
+          ${(p.agenda || []).map(x => `<div class="alerta" style="background:var(--c-blue-soft)"><span class="cal">${ICON_CAL}</span><div><b>${fmt(x.fecha)} ${esc(x.horario)}${x.estado === "Suspendida" ? " · suspendida" : ""}</b><span>${esc(x.instancia)}${x.lugar ? " · " + esc(x.lugar) : ""}</span></div></div>`).join("")}
+          ${(p.plazo_indicaciones || []).map(x => `<div class="alerta"><span class="cal">${ICON_CAL}</span><div><b>Plazo de indicaciones: ${fmt(x.fecha)} ${esc(x.hora)}</b><span>Presentarlas en ${esc(x.donde)}</span></div></div>`).join("")}
+          <p class="small muted" style="margin-top:6px"><a href="#agenda">Ver la agenda de la semana</a></p></div>` : ""}
+        ${p.acot_n ? `<div class="dsec"><div class="dsec__t">Agenda ACOT</div><p><b>N° ${esc(p.acot_n)}</b> · ${esc(p.acot_iniciativa)} <span class="muted">(${esc(p.acot_grupo)})</span></p></div>` : ""}
         ${p.refundidos ? `<div class="dsec"><div class="dsec__t">Refundido con</div><p>${esc(p.refundidos)}</p></div>` : ""}
         <div class="dsec"><div class="dsec__t">Autoría y acción del Gobierno</div><p>${esc(p.iniciativa === "Mensaje" ? "Mensaje · " + p.autoria : "Moción de " + p.autoria)}</p>
           ${gob.length ? `<ul class="motivos">${gob.map(g => `<li>${esc(g)}</li>`).join("")}</ul>` : ""}</div>
@@ -860,20 +922,106 @@ function vistaMetodo() {
     <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
       <dt>Indicaciones</dt><dd>Solo las del Senado traen el texto y autor de cada una. En la Cámara se registran los oficios del Ejecutivo con indicaciones.</dd>
       <dt>Votaciones de la Cámara</dt><dd>Solo en Sala y desde 2022.</dd>
-      <dt>Tabla y citaciones</dt><dd>La tabla semanal y las citaciones de comisiones aún no se incluyen.</dd>
+      <dt>Agenda del Senado</dt><dd>Citaciones de comisiones (con materia e invitados), tabla de Sala y plazos de indicaciones, desde el sitio de tramitación del Senado.</dd>
+      <dt>Agenda de la Cámara</dt><dd>Solo las sesiones de Sala citadas (fecha y hora), desde los datos abiertos de la Cámara. Las citaciones de comisiones de la Cámara, con su materia e invitados, se publican solo en camara.cl, que bloquea las consultas desde servidores fuera de Chile; para incluirlas se requiere ejecutar la actualización desde un computador en Chile.</dd>
       <dt>Plazos de urgencia</dt><dd>Son estimaciones desde el ingreso de la urgencia.</dd></dl></div></div>`;
+}
+
+
+/* ============================================================ vista: agenda de la semana */
+function vistaAgenda() {
+  const A = D.agenda || {}, hoy = hoyISO();
+  const st = {todo: false};
+  const fuentes = (D.meta.fuentes || {}).agenda || {};
+  const pintar = () => {
+    const items = (A.items || []).filter(x => st.todo || (x.seguidos || []).length || (x.camara !== "Senado" && x.tipo === "Sala"));
+    const dias = {};
+    items.forEach(x => (dias[x.fecha] ||= []).push(x));
+    const sesion = x => {
+      const seg = (x.seguidos || []).map(b => `<a class="pchip" href="${linkFicha(b)}">${esc((proyecto(b) || {}).nombre_corto || b)} <span class="mono" style="font-weight:500">${esc(b)}</span></a>`).join("");
+      const otros = (x.boletines || []).filter(b => !(x.seguidos || []).includes(b));
+      return `<div class="ses ${x.estado === "Suspendida" ? "susp" : ""}"><div class="ses__h">${esc(x.horario || "Por definir")}<small>${esc(x.camara === "Senado" ? "Senado" : "Cámara")} · ${esc(x.tipo)}</small></div>
+        <div><div class="ses__i">${esc(x.instancia)} ${x.estado === "Suspendida" ? '<span class="chip u-di">Suspendida</span>' : ""}</div>
+          ${x.lugar ? `<div class="small muted" style="margin-top:2px">${esc(x.lugar)}</div>` : ""}
+          ${seg ? `<div>${seg}</div>` : ""}
+          ${(x.invitados || []).length ? `<ul class="ses__inv">${x.invitados.map(i => `<li>${esc(i)}</li>`).join("")}</ul>` : ""}
+          ${x.materia ? `<details><summary>Ver tabla completa${otros.length ? ` (${otros.length} ${otros.length === 1 ? "otro proyecto" : "otros proyectos"})` : ""}</summary><div class="ses__m">${esc(x.materia)}</div></details>` : (x.camara !== "Senado" ? `<div class="small muted" style="margin-top:6px">La Cámara no publica en datos abiertos la tabla de esta sesión.</div>` : "")}
+          ${x.link ? `<a class="more" style="padding-left:0" href="${esc(x.link)}" target="_blank" rel="noopener">Documento oficial</a>` : ""}</div></div>`;
+    };
+    const plazos = (A.plazos_indicaciones || []).filter(p => st.todo || p.seguido);
+    $("#agLista").innerHTML = (Object.keys(dias).length ? Object.entries(dias).map(([d, xs]) => `<div class="dia"><div class="dia__t ${d === hoy ? "hoy" : ""}">${d === hoy ? "Hoy · " : ""}${["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"][new Date(d + "T12:00:00").getDay()]} ${fLarga(d)}${d < hoy ? ' <span class="tag">realizada</span>' : ""}</div>
+      <div class="card">${xs.map(sesion).join("")}</div></div>`).join("") : `<div class="card"><div class="empty">No hay sesiones citadas${st.todo ? "" : " para los proyectos seguidos"} en este período.</div></div>`);
+    $("#agPlazos").innerHTML = plazos.length ? `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Vence</th><th>Proyecto</th><th>Dónde se presentan</th></tr></thead><tbody>${plazos.map(p => {
+      const t = proyecto(p.boletin); return `<tr class="${t ? "click" : ""}" ${t ? `data-b="${esc(p.boletin)}"` : ""}><td class="mono" style="white-space:nowrap">${fmt(p.fecha)} ${esc(p.hora)}</td><td><b style="color:var(--ink)">${esc(t ? t.nombre_corto : p.materia)}</b><div class="small muted mono">${esc(p.boletin)}</div></td><td>${esc(p.donde)}</td></tr>`; }).join("")}</tbody></table></div></div>`
+      : `<div class="card"><div class="empty">Sin plazos de indicaciones abiertos${st.todo ? "" : " para los proyectos seguidos"}.</div></div>`;
+    document.querySelectorAll("#agPlazos tr[data-b]").forEach(r => r.addEventListener("click", () => location.hash = linkFicha(r.dataset.b)));
+  };
+  const nSeg = (A.items || []).filter(x => (x.seguidos || []).length && x.fecha >= hoy).length;
+  $("#page").innerHTML = `<div class="page__eyebrow">Agenda de la semana</div><h1 class="page__title">Qué se discute y quiénes asisten</h1>
+    <p class="page__lead">${nSeg} sesiones citadas desde hoy tratan proyectos seguidos. Se muestran las citaciones de comisiones del Senado con su materia e invitados, la tabla de la Sala del Senado, las sesiones de Sala de la Cámara y los plazos para presentar indicaciones. Se actualiza cada hora.</p>
+    <div class="filterbar"><div class="seg" id="agTodo"><button type="button" data-k="0" class="is-on">Solo proyectos seguidos</button><button type="button" data-k="1">Toda la agenda del Senado</button></div>
+      <span class="fcount">Desde el ${fmt(A.desde || hoy)}${fuentes.estado && fuentes.estado !== "ok" ? " · algunas fuentes sin conexión; se muestran los últimos datos obtenidos" : ""}</span></div>
+    <div id="agLista"></div>
+    <div class="section-title">Plazos para presentar indicaciones</div><div id="agPlazos"></div>
+    <div class="notebar" style="margin-top:16px">Las citaciones de comisiones de la Cámara (con materia e invitados) solo se publican en camara.cl, que bloquea las consultas desde servidores fuera de Chile. Se pueden incorporar ejecutando la actualización desde un computador en Chile.</div>`;
+  document.querySelectorAll("#agTodo button").forEach(b => b.addEventListener("click", () => { st.todo = b.dataset.k === "1"; document.querySelectorAll("#agTodo button").forEach(x => x.classList.toggle("is-on", x === b)); pintar(); }));
+  pintar();
+}
+
+/* ============================================================ vista: agenda ACOT */
+function vistaAcot() {
+  const ac = D.acot || [], conB = ac.filter(a => a.boletin && proyecto(a.boletin)), sinB = ac.filter(a => !a.boletin || !proyecto(a.boletin));
+  const lista = conB.map(a => proyecto(a.boletin)).filter((p, i, arr) => arr.indexOf(p) === i);
+  const tram = lista.filter(enTram), fin = lista.filter(p => ["Despachado al Ejecutivo","Publicado como ley"].includes(p.situacion));
+  const iniciativa = b => { const a = ac.find(x => x.boletin === b); return a ? `N° ${a.n_acot} · ${a.iniciativa}` : ""; };
+  const ordenAcot = (x, y) => { const k = n => /^\d+$/.test(n) ? +n : n.startsWith("N") ? 100 + +n.slice(1) : 200; return k(x.acot_n) - k(y.acot_n); };
+  $("#page").innerHTML = `<div class="page__eyebrow">Agenda ACOT</div><h1 class="page__title">Agenda contra el Crimen Organizado y el Terrorismo</h1>
+    <p class="page__lead">${ac.length} iniciativas según el listado del Ministerio de Seguridad Pública (06-08-2026): ${conB.length} con boletín en seguimiento y ${sinB.length} sin boletín identificado o aún no ingresadas al Congreso.</p>
+    <section class="hero" style="padding:14px 20px 16px"><div class="hero__stats" style="margin-top:0">
+      ${[[ac.length, "Iniciativas ACOT", "listado del Ministerio"], [tram.length, "En tramitación", `${tram.filter(p => p.urgencia_vigente === "Discusión inmediata").length} con discusión inmediata`],
+         [fin.length, "Despachadas o ley", "terminaron en el Congreso"], [lista.filter(p => proxSesion(p)).length, "Citadas esta semana", "comisión o Sala"], [sinB.length, "Sin boletín", "anunciadas o por identificar"]]
+        .map(([v, l, x]) => `<div class="hstat" style="cursor:default"><div class="hstat__n tnum">${v}</div><div class="hstat__l">${l}</div><div class="hstat__s">${x}</div></div>`).join("")}</div></section>
+    <div class="section-title">Avance de los proyectos ACOT</div>
+    <div id="acotTabla"></div>
+    <div class="section-title">Iniciativas sin boletín en seguimiento · ${sinB.length}</div>
+    <div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>N°</th><th>Iniciativa</th><th>Grupo</th><th>Estado</th></tr></thead><tbody>
+      ${sinB.map(a => `<tr><td class="mono">${esc(a.n_acot)}</td><td><b style="color:var(--ink)">${esc(a.iniciativa)}</b>${a.nota ? `<div class="small muted">${esc(a.nota)}</div>` : ""}</td><td>${esc(a.grupo)}</td><td>${esc(a.estado_boletin || "Boletín fuera del seguimiento")}</td></tr>`).join("")}
+    </tbody></table></div></div>
+    <p class="small muted" style="margin-top:10px">Cuando el Gobierno ingrese una de estas iniciativas, el sistema la detecta como proyecto nuevo y se agrega al seguimiento y a esta vista.</p>`;
+  $("#acotTabla").innerHTML = tablaAvance([...lista].sort(ordenAcot), false);
+  document.querySelectorAll("#acotTabla tbody tr[data-b]").forEach(tr => {
+    tr.addEventListener("click", () => location.hash = linkFicha(tr.dataset.b));
+    const b = tr.querySelector(".pname b"); if (b) b.insertAdjacentHTML("afterend", `<small class="muted" style="display:block;font-size:11px;margin-top:2px">${esc(iniciativa(tr.dataset.b))}</small>`);
+  });
+}
+
+/* ============================================================ accesibilidad (Kit Digital) */
+function a11y() {
+  const leer = k => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  const guardar = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
+  let zoom = parseFloat(leer("zoom") || "1") || 1;
+  const aplicar = () => { document.documentElement.style.setProperty("--zoom", zoom); };
+  $("#aMas").addEventListener("click", () => { zoom = Math.min(1.4, +(zoom + 0.1).toFixed(2)); aplicar(); guardar("zoom", zoom); });
+  $("#aMenos").addEventListener("click", () => { zoom = Math.max(0.9, +(zoom - 0.1).toFixed(2)); aplicar(); guardar("zoom", zoom); });
+  const con = leer("contraste") === "1";
+  document.documentElement.classList.toggle("contraste", con); $("#aCon").setAttribute("aria-pressed", con);
+  $("#aCon").addEventListener("click", () => { const on = !document.documentElement.classList.contains("contraste");
+    document.documentElement.classList.toggle("contraste", on); $("#aCon").setAttribute("aria-pressed", on); guardar("contraste", on ? "1" : "0"); });
+  aplicar();
 }
 
 /* ============================================================ inicio */
 (async () => {
-  const [t, m, c] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", [])]);
-  Object.assign(D, {tablero: t, meta: m, cambios: c});
+  const [t, m, c, ag, ac] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", []),
+    cargar("data/agenda.json", {items: [], plazos_indicaciones: []}), cargar("data/acot.json", [])]);
+  Object.assign(D, {tablero: t, meta: m, cambios: c, agenda: ag, acot: ac});
   if (!t.length) { $("#page").innerHTML = `<div class="empty">No se pudieron cargar los datos. Esta página debe abrirse desde GitHub Pages o un servidor web.</div>`; return; }
   const f = m.fuentes || {}, ok = k => (f[k] && (f[k].estado || "").startsWith("ok"));
   $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${fmt(m.ultima_actualizacion_datos)}`;
   $("#fuentes").innerHTML = `<div class="src"><span class="dot" style="background:${ok("senado") ? "#5fd39a" : "#ff9a9f"}"></span>Senado ${ok("senado") ? "al día" : "sin conexión"}</div>
     <div class="src"><span class="dot" style="background:${ok("camara_votaciones") ? "#5fd39a" : "#ff9a9f"}"></span>Cámara ${ok("camara_votaciones") ? "al día" : "sin conexión"}</div>
     <div style="margin-top:6px">Datos al ${fmt(m.ultima_actualizacion_datos)}. Se actualiza cada hora.</div>`;
+  a11y();
   ruta();
   setTimeout(proyectos, 1200);   // la ficha completa se precarga en segundo plano
 })();

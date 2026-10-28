@@ -190,6 +190,10 @@ def prioridad(p, hoy, alertas_p):
     elif p.get("n_urgencias_gobierno_actual"):
         puntos += 5
         motivos.append("Con urgencias del actual Gobierno (+5)")
+    prox = proxima_sesion(p, hoy)
+    if prox:
+        puntos += 8
+        motivos.append(f"Citado a sesión el {prox['fecha'][8:10]}-{prox['fecha'][5:7]} (+8)")
     if p.get("ultimo_tramite_fecha"):
         dias = (datetime.strptime(hoy, "%Y-%m-%d") - datetime.strptime(p["ultimo_tramite_fecha"], "%Y-%m-%d")).days
         if dias <= 14:
@@ -197,12 +201,24 @@ def prioridad(p, hoy, alertas_p):
             motivos.append("Movimiento en los últimos 14 días (+5)")
     puntos = min(puntos, 100)
     nivel = "Crítica" if puntos >= 70 else "Alta" if puntos >= 50 else "Media" if puntos >= 30 else "Baja"
-    return {"prioridad_indice": puntos, "prioridad_nivel": nivel, "accion_sugerida": accion_sugerida(p, tipos), "prioridad_motivos": motivos}
+    return {"prioridad_indice": puntos, "prioridad_nivel": nivel, "accion_sugerida": accion_sugerida(p, tipos, hoy), "prioridad_motivos": motivos}
 
 
-def accion_sugerida(p, tipos):
+def proxima_sesion(p, hoy, dias=7):
+    """Primera sesión citada (comisión o Sala) en los próximos días, según la agenda."""
+    lim = (datetime.strptime(hoy, "%Y-%m-%d") + timedelta(days=dias)).strftime("%Y-%m-%d")
+    ses = [x for x in p.get("agenda", []) if hoy <= x.get("fecha", "") <= lim and x.get("estado") != "Suspendida"]
+    return sorted(ses, key=lambda x: (x["fecha"], x.get("horario", "")))[0] if ses else None
+
+
+def accion_sugerida(p, tipos, hoy=""):
     cod = p.get("etapa_codigo", "")
     u = p.get("urgencia_vigente", "Sin urgencia")
+    prox = proxima_sesion(p, hoy) if hoy else None
+    if prox and prox.get("tipo") == "Sala":
+        return f"Preparar la votación: está en tabla de la Sala ({prox['camara']}) el {prox['fecha'][8:10]}-{prox['fecha'][5:7]}"
+    if prox:
+        return f"Preparar la sesión de {prox['instancia']} del {prox['fecha'][8:10]}-{prox['fecha'][5:7]}"
     if "Urgencia con plazo cumplido" in tipos:
         return "Decidir si se renueva o se retira la urgencia"
     if "Urgencia por vencer" in tipos and u == "Discusión inmediata":

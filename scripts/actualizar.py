@@ -23,6 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import indicaciones as ind_mod  # noqa: E402
 import camara  # noqa: E402
 import gestion  # noqa: E402
+import agenda as agenda_mod  # noqa: E402
 import senado  # noqa: E402
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -314,6 +315,7 @@ def registro(cat, f, cache=None):
     return {
         "boletin": b,
         "nombre_corto": cat.get("nombre_corto", "") or f["titulo"][:70],
+        "acot_n": "", "acot_iniciativa": "", "acot_grupo": "", "agenda": [], "plazo_indicaciones": [],
         "titulo": f["titulo"],
         "clasificacion": cat.get("clasificacion", ""),
         "materia": cat.get("materia", ""),
@@ -374,7 +376,7 @@ def registro(cat, f, cache=None):
     }
 
 
-CAMPOS_PLANOS = ["boletin", "nombre_corto", "titulo", "clasificacion", "materia", "descripcion", "acot", "nota",
+CAMPOS_PLANOS = ["boletin", "nombre_corto", "acot_n", "acot_iniciativa", "titulo", "clasificacion", "materia", "descripcion", "acot", "nota",
                  "etapa_codigo", "etapa_texto", "prioridad_nivel", "prioridad_indice", "accion_sugerida", "n_alertas",
                  "responsable", "posicion_ejecutivo", "ultima_gestion", "proximo_paso", "iniciativa", "autoria",
                  "fecha_ingreso", "camara_origen", "situacion", "etapa", "subetapa", "tramite_constitucional", "camara_actual",
@@ -389,7 +391,7 @@ CAMPOS_PLANOS = ["boletin", "nombre_corto", "titulo", "clasificacion", "materia"
                  "n_votaciones_sala_camara", "ultima_votacion_sala_camara", "veto",
                  "link_senado", "link_camara", "link_texto"]
 # versión liviana para la portada del dashboard (la ficha completa se carga desde proyectos.json)
-CAMPOS_TABLERO = ["boletin", "nombre_corto", "titulo", "clasificacion", "materia", "descripcion", "acot", "situacion",
+CAMPOS_TABLERO = ["boletin", "nombre_corto", "acot_n", "acot_iniciativa", "acot_grupo", "agenda", "plazo_indicaciones", "titulo", "clasificacion", "materia", "descripcion", "acot", "situacion",
                   "etapa_codigo", "etapa_texto", "avance_estados", "avance_camaras", "instancia_actual", "camara_actual",
                   "camara_origen", "dias_en_etapa", "fecha_ingreso", "iniciativa", "urgencia_vigente", "urgencia_vence_estimado",
                   "urgencia_plazo", "prioridad_indice", "prioridad_nivel", "accion_sugerida", "alertas", "ultimo_tramite_fecha",
@@ -546,6 +548,32 @@ def escribir_detalle(orden, cache):
 
 # ----------------------------------------------------------------- Cámara de Diputados
 RUTA_CACHE_CAMARA = os.path.join(DATA, "cache_votaciones_camara.json")
+RUTA_AGENDA = os.path.join(DATA, "agenda.json")
+
+
+def acot_filas():
+    return leer_csv(os.path.join(CONFIG, "acot.csv"))
+
+
+def cargar_acot():
+    """Boletín -> N° e iniciativa de la Agenda contra el Crimen Organizado y el Terrorismo (ACOT)."""
+    res = {}
+    for r in acot_filas():
+        for b in [r.get("boletin", "")] + [x for x in r.get("boletines_relacionados", "").split(";") if x]:
+            if b.strip():
+                res[b.strip()] = {"acot_n": r["n_acot"], "acot_iniciativa": r["iniciativa"], "acot_grupo": r["grupo"]}
+    return res
+
+
+def acot_lista(filas, proyectos):
+    """Las iniciativas ACOT con su proyecto, incluidas las anunciadas que aún no tienen boletín."""
+    salida = []
+    for r in filas:
+        b = r.get("boletin", "").strip()
+        p = proyectos.get(b, {})
+        salida.append({**r, "en_seguimiento": bool(p), "nombre_corto": p.get("nombre_corto", ""),
+                       "situacion": p.get("situacion", ""), "etapa_texto": p.get("etapa_texto", "")})
+    return salida
 PRIMER_ANNO_CAMARA = 2022
 
 
@@ -756,12 +784,27 @@ def main():
     hoy = marca[:10]
     for p in nuevos.values():
         agregar_camara(p, cache_cam)
+
+    # agenda de la semana (citaciones, tabla de Sala, plazos de indicaciones) y agrupación ACOT
+    agenda_prev = leer_json(RUTA_AGENDA, {})
+    agenda, estado_agenda, citaciones_nuevas = agenda_mod.actualizar(agenda_prev, set(nuevos), hoy,
+                                                                    sesiones_camara=lambda: camara.agenda_sala(hoy))
+    print("  Agenda: " + ", ".join(f"{k} {v['estado']}" for k, v in estado_agenda.items()) + f" · {len(agenda['items'])} sesiones")
+    acot = cargar_acot()
+    for p in nuevos.values():
+        p["agenda"], p["plazo_indicaciones"] = agenda_mod.agenda_de(p["boletin"], agenda)
+        p.update(acot.get(p["boletin"], {"acot_n": "", "acot_iniciativa": "", "acot_grupo": ""}))
         gestion.evaluar(p, hoy)
 
     orden = sorted(nuevos.values(), key=lambda p: int(p["boletin"].split("-")[0]))
 
     # cambios
     cambios_nuevos = detectar_cambios(previos, nuevos, marca, camara_con_base) if previos else []
+    if agenda_prev.get("items"):                    # la primera carga de la agenda no genera avisos
+        for x in citaciones_nuevas:
+            for b in x["seguidos"]:
+                cambios_nuevos.append({"fecha_deteccion": marca, "boletin": b, "tipo": "Citado a sesión",
+                                       "antes": "", "despues": f"{x['fecha']} {x.get('horario', '')} – {x['instancia']}".strip()})
     hist = leer_csv(os.path.join(DATA, "cambios.csv")) + cambios_nuevos
     print(f"  Cambios detectados: {len(cambios_nuevos)}")
 
@@ -806,6 +849,8 @@ def main():
                  [{"boletin": p["boletin"], "votacion_id": v["id"], "fecha": v["fecha"], **x} for p in orden for v in p.get("votaciones_camara", []) for x in v["votos"]],
                  ["boletin", "votacion_id", "fecha", "diputado_id", "diputado", "seleccion"])
     escribir_json(os.path.join(DATA, "actores.json"), calcular_actores(orden))
+    escribir_json(RUTA_AGENDA, agenda)
+    escribir_json(os.path.join(DATA, "acot.json"), acot_lista(acot_filas(), nuevos))
     escribir_json(os.path.join(SALIDA, "cambios_nuevos.json"), cambios_nuevos)
     escribir_csv(os.path.join(DATA, "cambios.csv"), hist, ["fecha_deteccion", "boletin", "tipo", "antes", "despues"])
     escribir_json(os.path.join(DATA, "cambios.json"), hist[-500:][::-1])
@@ -823,6 +868,11 @@ def main():
         "fuentes": {
             "senado": {"estado": "ok" if not errores else f"ok con {len(errores)} boletines sin respuesta", "ultima_consulta_exitosa": marca[:10]},
             "camara_votaciones": estado_camara,
+            "agenda": {"estado": "ok" if all(v["estado"] == "ok" for v in estado_agenda.values()) else
+                       ("parcial" if any(v["estado"] == "ok" for v in estado_agenda.values()) else "sin conexión"),
+                       "detalle": estado_agenda,
+                       "ultima_consulta_exitosa": marca[:10] if any(v["estado"] == "ok" for v in estado_agenda.values())
+                       else meta_prev.get("fuentes", {}).get("agenda", {}).get("ultima_consulta_exitosa", "")},
         },
     }
     escribir_json(os.path.join(DATA, "meta.json"), meta)

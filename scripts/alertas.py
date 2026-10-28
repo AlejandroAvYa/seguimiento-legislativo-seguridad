@@ -30,7 +30,7 @@ from actualizar import DATA, SALIDA, ahora, leer_csv, leer_json  # noqa: E402
 
 RELEVANTES = {"Situación", "Etapa", "N° de ley", "Urgencia vigente", "Nuevo informe de comisión",
               "Nuevo boletín de indicaciones (Senado)", "Nueva votación en Sala del Senado",
-              "Nueva votación en Sala de la Cámara", "Proyecto agregado al seguimiento", "Refundidos"}
+              "Nueva votación en Sala de la Cámara", "Proyecto agregado al seguimiento", "Refundidos", "Citado a sesión"}
 URL_SENADO = "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini="
 
 
