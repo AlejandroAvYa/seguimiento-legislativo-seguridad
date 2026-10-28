@@ -1,0 +1,416 @@
+{
+ "desde": "2026-10-26",
+ "items": [
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Minería y Energía",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
+   "lugar": "Sala 1, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- Evaluar las medidas implementadas por el Ministerio de Minería en el plan \"Minería en Marcha\", así como sus avances y resultados.\nA esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González.",
+   "boletines": [],
+   "invitados": [
+    "A esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Recursos Hídricos, Desertificación y Sequía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33).\nA esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange.",
+   "boletines": [
+    "17877-33"
+   ],
+   "invitados": [
+    "A esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Transportes y Telecomunicaciones",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 5, (Valparaíso)",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 17974-15 ) Continuar con el estudio del proyecto de ley, en primer trámite constitucional, originado en moción de los Honorables Senadores señora Provoste, señores Saavedra y Velásquez y de los ex Senadores señores Chahuán y Lagos, que modifica la ley N° 20.433, que crea los servicios de radiodifusión comunitaria ciudadana, con el objeto de fortalecer su desarrollo y sostenibilidad, con urgencia calificada de \"simple\".\n2.- ( Bol.N° 16833-25 ) Iniciar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 18.290, de Tránsito, para tipificar como delito la no detención de la marcha o fuga del que conduce un vehículo, habiendo sido intimado a detenerse por la autoridad.\nA este punto han sido invitados el Ministro de Seguridad Pública, señor Martín Arrau; el General Director de Carabineros, señor Marcelo Araya y el Prefecto de la Prefectura de Investigación de Accidentes en el Tránsito SIAT, Teniente Coronel, señor Juan Eduardo Paredes.",
+   "boletines": [
+    "17974-15",
+    "16833-25"
+   ],
+   "invitados": [
+    "A este punto han sido invitados el Ministro de Seguridad Pública, señor Martín Arrau; el General Director de Carabineros, señor Marcelo Araya y el Prefecto de la Prefectura de Investigación de Accidentes en el Tránsito SIAT, Teniente Coronel, señor Juan Eduardo Paredes."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 11, Valparaíso",
+   "horario": "10:15 a 11:15",
+   "materia": "1.- ( Bol.N° 15975-25 ) Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25.\nA esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau; el Subsecretario de Hacienda, señor Sebastián Vallebona, y el Presidente del Directorio de la Asociación de Bancos e Instituciones Financieras, señor José Manuel Mena.",
+   "boletines": [
+    "15975-25"
+   ],
+   "invitados": [
+    "A esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau; el Subsecretario de Hacienda, señor Sebastián Vallebona, y el Presidente del Directorio de la Asociación de Bancos e Instituciones Financieras, señor José Manuel Mena."
+   ],
+   "seguidos": [
+    "15975-25"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
+   "horario": "10:30 a 13:00",
+   "materia": "1.- Recibir la exposición del Consejo Fiscal Autónomo sobre el ejercicio de sus funciones y atribuciones y atender las consultas de esta instancia legislativa, de conformidad con lo prescrito por el artículo 2 de la ley N°21.148.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Agricultura",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- Escuchar la exposición de un profesional de la Biblioteca del Congreso Nacional sobre el presupuesto para el año 2027 asignado al Ministerio",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "11:00 a 13:00",
+   "materia": "1.- ( Bol.N° 15589-07 ) Modifica la ley N°20.084, que establece un sistema de responsabilidad de los adolescentes por infracciones a la ley penal, para fortalecer la respuesta sancionatoria frente a conductas consideradas de especial gravedad.\nA esta sesión ha sido invitado el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat.\n2.- ( Bol.N° 18709-07 ) Modifica la ley N° 21.780, que crea el Servicio Nacional de Acceso a la Justicia y la Defensoría de Víctimas, con el objeto de otorgar mayor eficiencia al proceso de implementación del servicio.\nA esta sesión ha sido invitado el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat.",
+   "boletines": [
+    "15589-07",
+    "18709-07"
+   ],
+   "invitados": [
+    "A esta sesión ha sido invitado el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat."
+   ],
+   "seguidos": [
+    "15589-07",
+    "18709-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Educación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 8, Comisiones, Senado",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- Analizar la situación de cierre de la Universidad La República.\nA esta sesión han sido invitados el Administrador de Cierre de dicha Casa de Estudios; el Superintendente de Educación Superior; la Subsecretaria de Educación Superior y la Asociación de Estudiantes y Exalumnos de la Universidad La República.",
+   "boletines": [],
+   "invitados": [
+    "A esta sesión han sido invitados el Administrador de Cierre de dicha Casa de Estudios; el Superintendente de Educación Superior; la Subsecretaria de Educación Superior y la Asociación de Estudiantes y Exalumnos de la Universidad La República."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "del Adulto Mayor y Discapacidad",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 2 tercer piso, Senado Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- Recibir al Presidente del Directorio de Fundación Las Rosas.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Obras Públicas",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "13:00 a 14:00",
+   "materia": "1.- ( Bol.N° 8654-15 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica normas relativas al autocontrol en materia de pesaje respecto a empresas generadoras de carga.\nA este punto se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones.",
+   "boletines": [
+    "8654-15"
+   ],
+   "invitados": [
+    "A este punto se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Ética y Transparencia del Senado",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
+   "lugar": "Sala N°1 de Comisiones, piso 3",
+   "horario": "14:00 a 15:00",
+   "materia": "1.- Tratar materias de competencia.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-10-28",
+   "instancia": "Sala del Senado · sesión especial N° 74",
+   "estado": "Citada",
+   "horario": "15:14 a 16:06",
+   "lugar": "",
+   "materia": "Circular Nº 252/SEC\nValparaíso, 27 de octubre de 2026.\nL.O.C._ Por orden de la señora Presidenta del Senado, y en virtud del acuerdo de Comités adoptado con esta fecha, tengo el honor de citar a Usía a Sesión Especial de la Corporación para el día miércoles 28 de octubre de 2026, de 15:00 a 16:00 horas, con la finalidad de tratar el proyecto de ley, iniciado en Mensaje de Su Excelencia el Presidente de la República, en primer trámite constitucional, que modifica la ley N° 21.040, que crea el sistema de educación pública, con la finalidad de ajustar la segunda etapa de instalación y el traspaso de los servicios locales de educación, con informe de la Comisión de Educación e informe y nuevo primer informe de la Comisión de Hacienda. (proyecto discutido en general y en particular por la Comisión). (Boletín N° 18.551-04). Con urgencia calificada de “discusión inmediata”. (Siempre que se hubiere recibido el nuevo primer informe de la Comisión de Hacienda).\nDios guarde a Usía.\nLUIS ROJAS GALLARDO\nSecretario General del Senado\n2\n2\n",
+   "boletines": [
+    "18551-04"
+   ],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81881",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-10-28",
+   "instancia": "Sala del Senado · sesión ordinaria N° 75",
+   "estado": "Citada",
+   "horario": "16:07 a 20:00",
+   "lugar": "",
+   "materia": "Circular Nº 253/SEC\nValparaíso, 27 de octubre de 2026.\nPor orden de la señora Presidenta del Senado, tengo el honor de comunicar a Usía que se ha modificado el horario de inicio de la sesión ordinaria convocada para el día miércoles 28 de octubre de 2026, la que se celebrará de 16:00 a 20:00 horas, con la finalidad de considerar los siguientes asuntos:\nORDEN DEL DÍA\n1.-Proyecto de ley, iniciado en Mensaje de Su Excelencia el Presidente de la República, en primer trámite constitucional, que modifica la ley N° 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales, en el sentido que indica, con informe de la Comisión de Constitución, Legislación, Justicia y Reglamento e informe de la Comisión de Hacienda. (proyecto discutido en general y en particular por la Comisión). (Boletín N° 18.623-07\n[ver]\n). Con urgencia calificada de “discusión inmediata”. (Siempre que se hubieren recibido los informes respectivos).\nL.O.C._ 2.-Proyecto de ley, en segundo trámite constitucional, que modifica el decreto ley N° 2.695, de 1979, estableciendo un nuevo procedimiento para la regularización de la posesión de la pequeña propiedad raíz y la constitución del dominio sobre ella, en situaciones de emergencia, con informe de la Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales. (discusión en general). (Boletín N° 18.464-14\n[ver]\n). Con urgencia calificada de “suma”.\n3.-Proyecto de ley, en segundo trámite constitucional, que deroga la ley N° 18.356, que establece normas sobre control de las artes marciales y deroga la ley N° 18.039, e incorpora el concepto de artes marciales en la ley N° 19.712, del Deporte, con segundo informe de la Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación. (discusión en particular). (Boletines Nos 15.767-29\n[ver]\ny 16.248-29\n[ver]\n, refundidos). Con urgencia calificada de “suma”.\nL.O.C._ 4.-Proyecto de ley, en tercer trámite constitucional, que modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales, con informe de la Comisión de Educación e informe de la Comisión de Hacienda. (discusión de las enmiendas introducidas por la Cámara de Diputados). (Boletín N° 16.743-04\n[ver]\n). Con urgencia calificada de “discusión inmediata”.\nQ.C._ 5.-Proyecto de ley, en segundo trámite constitucional, que modifica el Código Procesal Penal y la ley N° 19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales, con informe de la Comisión de Seguridad Pública. (discusión en general). (Boletín N° 18.585-25\n[ver]\n). Con urgencia calificada de “suma”.\n6.-Proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 20.898, con el objeto de ampliar el régimen excepcional de regularización de viviendas y actualizar la fecha de su aplicación, con informe de la Comisión de Vivienda y Urbanismo. (proyecto de artículo único). (Boletín N° 18.189-14). Con urgencia calificada de “suma”.\nINCIDENTES\nCOMITÉS MINUTOS Partido Republicano e Independientes(5 Senadores) 6 Partido Evópoli e Independientes(4 Senadores) 5 Independiente I(1 Senador) 1 Partido Nacional Libertario(1 Senador) 1 Mixto Partido Socialista, Partido por la Democracia e Independientes y Partido Liberal (12 Senadores) 15 Mixto Partido Demócrata Cristiano, Independiente II, Partido Federación Regionalista Verde Social e Independientes, Partido Comunista y Partido Frente Amplio(11 Senadores) 13 Partido Renovación Nacional e Independientes(10 Senadores) 12 Partido Unión Demócrata Independiente(5 Senadores) 6 Dios guarde a Usía.\nLUIS ROJAS GALLARDO\nSecretario General del Senado\n",
+   "boletines": [
+    "18623-07",
+    "18464-14",
+    "15767-29",
+    "16248-29",
+    "16743-04",
+    "18585-25",
+    "18189-14"
+   ],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81882",
+   "seguidos": [
+    "18585-25"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-10-28",
+   "instancia": "Sala del Senado · sesión especial N° 76",
+   "estado": "Citada",
+   "horario": "20:30 a 22:00",
+   "lugar": "",
+   "materia": "Circular Nº 255/SEC\nValparaíso, 28 de octubre de 2026.\nL.O.C._ Por orden de la señora Presidenta del Senado, tengo el honor de citar a Usía a Sesión Especial de la Corporación para el día de hoy miércoles 28 de octubre de 2026, de 20:30 a 22:00 horas, con la finalidad de tratar el proyecto de ley, iniciado en Mensaje de Su Excelencia el Presidente de la República, en primer trámite constitucional, que modifica la ley N° 21.040, que crea el sistema de educación pública, con la finalidad de ajustar la segunda etapa de instalación y el traspaso de los servicios locales de educación, con informe de la Comisión de Educación e informe y nuevo primer informe de la Comisión de Hacienda. (proyecto discutido en general y en particular por la Comisión). (Boletín N° 18.551-04). Con urgencia calificada de “discusión inmediata”.\nDios guarde a Usía.\nLUIS ROJAS GALLARDO\nSecretario General del Senado\n2\n2\n",
+   "boletines": [
+    "18551-04"
+   ],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81902",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-10-28",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Valparaíso",
+   "horario": "Desde 13:30",
+   "materia": "1.- ( Bol.N° 18551-04 ) Modifica la ley N° 21.040, que crea el sistema de educación pública, con la finalidad de ajustar la segunda etapa de instalación y el traspaso de los servicios locales de educación",
+   "boletines": [
+    "18551-04"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-02",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
+   "horario": "10:00 a 13:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-02",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
+   "horario": "15:00 a 20:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-02",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 86",
+   "estado": "Citada",
+   "horario": "17:00 a 19:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-03",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 87",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-04",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 88",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-04",
+   "instancia": "Comisión de Trabajo y Previsión Social",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°9 Tercer Piso Senado Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- Para recibir en audiencia al Superintendente de Pensiones y al Presidente de la Asociación de AFP, para que se dé cuenta ante la Comisión de lo sucedido con los criterios de inversión, las inversiones y pérdidas del Fondo E.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-05",
+   "instancia": "Comisión de Vivienda y Urbanismo",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "sede Chiloé de la Universidad de Los Lagos, calle Ubaldo Mansilla 131, Castro",
+   "horario": "10:00 a 14:00",
+   "materia": "1.- Analizar los avances y dificultades de la política habitacional y urbana en las regiones del país, especialmente, en la provincia de Chiloé.\nA esta sesión ha sido invitado el Ministro de Vivienda y Urbanismo, señor Iván Poduje.",
+   "boletines": [],
+   "invitados": [
+    "A esta sesión ha sido invitado el Ministro de Vivienda y Urbanismo, señor Iván Poduje."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11, Valparaíso.",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
+   "boletines": [
+    "17293-27"
+   ],
+   "invitados": [],
+   "seguidos": []
+  }
+ ],
+ "plazos_indicaciones": [
+  {
+   "boletin": "15610-03",
+   "materia": "Modifica la ley N°19.496, que establece normas sobre protección de los derechos de los consumidores, para prohibir llamadas telefónicas publicitarias de proveedores sin consentimiento del consumidor",
+   "fecha": "2026-11-06",
+   "hora": "12:00",
+   "donde": "Secretaría del Senado",
+   "seguido": false
+  },
+  {
+   "boletin": "17702-15",
+   "materia": "Modifica la ley N° 18.290, de Tránsito, para tipificar y sancionar la conducción temeraria de vehículos",
+   "fecha": "2026-11-19",
+   "hora": "12:00",
+   "donde": "Secretaría del Senado",
+   "seguido": true
+  },
+  {
+   "boletin": "17163-03",
+   "materia": "Modifica la ley N° 20.423, para establecer medidas que garanticen el cumplimiento de estándares de seguridad en servicios de turismo aventura",
+   "fecha": "2026-11-02",
+   "hora": "12:00",
+   "donde": "Secretaría de la Comisión de Economía",
+   "seguido": false
+  },
+  {
+   "boletin": "16441-19",
+   "materia": "Crea una nueva institucionalidad de prospectiva y desarrollo sostenible basada en conocimiento, y modifica la ley N° 21.105, que crea el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación, en los términos que indica",
+   "fecha": "2026-11-12",
+   "hora": "12:00",
+   "donde": "Secretaría de la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
+   "seguido": false
+  }
+ ]
+}

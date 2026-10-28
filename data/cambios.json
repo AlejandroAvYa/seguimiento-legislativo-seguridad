@@ -1,5 +1,47 @@
 [
  {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-23 – Primer informe de comisión de Defensa Nacional. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18590-07",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "despues": "Cuenta de primer informe de comisión"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18414-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – La Sala acuerda que el proyecto pase a la Comisión de Mujer y Equidad de Género, una vez que sea despachado por la Comisión de Familia, Infancia y Adolescencia (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-23 – Primer informe de comisión de Defensa Nacional. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18282-07",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "despues": "Cuenta de primer informe de comisión"
+ },
+ {
+  "fecha_deteccion": "2026-10-28 17:53",
+  "boletin": "18236-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-28 – La Sala acuerda que el proyecto pase a la Comisión de Mujer y Equidad de Género, una vez que sea despachado por la Comisión de Familia, Infancia y Adolescencia (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-10-28 16:38",
   "boletin": "18236-18",
   "tipo": "Nueva votación en Sala de la Cámara",
