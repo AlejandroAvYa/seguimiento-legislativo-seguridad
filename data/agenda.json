@@ -361,6 +361,20 @@
    ],
    "invitados": [],
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11, Valparaíso.",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- Analizar la situación del fútbol profesional chileno en las zonas extremas del país.\nA esta sesión se invitará al Ministro del Deporte; al Director Nacional del Instituto Nacional de Deportes, y al Presidente de la Asociación Nacional de Fútbol Profesional.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
   }
  ],
  "plazos_indicaciones": [
