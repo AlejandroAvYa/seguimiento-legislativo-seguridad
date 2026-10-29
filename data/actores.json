@@ -14536,5 +14536,345 @@
    ]
   }
  ],
- "nota": "Perfiles por fuente: los nombres se muestran como los informa cada fuente y no se cruzan entre sí."
+ "nota": "Perfiles por fuente: los nombres se muestran como los informa cada fuente y no se cruzan entre sí.",
+ "partidos_senado": [
+  {
+   "partido": "Independiente",
+   "si": 84,
+   "no": 9,
+   "abstencion": 8,
+   "otros": 5,
+   "proyectos": 16
+  },
+  {
+   "partido": "R.N.",
+   "si": 74,
+   "no": 8,
+   "abstencion": 1,
+   "otros": 4,
+   "proyectos": 16
+  },
+  {
+   "partido": "U.D.I.",
+   "si": 70,
+   "no": 7,
+   "abstencion": 0,
+   "otros": 5,
+   "proyectos": 16
+  },
+  {
+   "partido": "P.S.",
+   "si": 60,
+   "no": 0,
+   "abstencion": 1,
+   "otros": 10,
+   "proyectos": 16
+  },
+  {
+   "partido": "P.D.C.",
+   "si": 41,
+   "no": 1,
+   "abstencion": 1,
+   "otros": 0,
+   "proyectos": 15
+  },
+  {
+   "partido": "P.C",
+   "si": 27,
+   "no": 0,
+   "abstencion": 5,
+   "otros": 0,
+   "proyectos": 14
+  },
+  {
+   "partido": "P.P.D.",
+   "si": 25,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 11
+  },
+  {
+   "partido": "Republicano",
+   "si": 15,
+   "no": 6,
+   "abstencion": 3,
+   "otros": 2,
+   "proyectos": 8
+  },
+  {
+   "partido": "Evópoli",
+   "si": 21,
+   "no": 2,
+   "abstencion": 0,
+   "otros": 3,
+   "proyectos": 13
+  },
+  {
+   "partido": "Demócratas",
+   "si": 16,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 1,
+   "proyectos": 12
+  },
+  {
+   "partido": "Frente Amplio",
+   "si": 11,
+   "no": 3,
+   "abstencion": 0,
+   "otros": 3,
+   "proyectos": 7
+  },
+  {
+   "partido": "F.R.E.V.S.",
+   "si": 13,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 2,
+   "proyectos": 11
+  },
+  {
+   "partido": "Liberal",
+   "si": 7,
+   "no": 0,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 6
+  },
+  {
+   "partido": "Nacional Libertario",
+   "si": 4,
+   "no": 0,
+   "abstencion": 2,
+   "otros": 1,
+   "proyectos": 6
+  },
+  {
+   "partido": "Sin información de partido",
+   "si": 130,
+   "no": 7,
+   "abstencion": 7,
+   "otros": 0,
+   "proyectos": 9
+  }
+ ],
+ "partidos_camara": [
+  {
+   "partido": "IND",
+   "si": 4263,
+   "no": 1525,
+   "abstencion": 356,
+   "otros": 829,
+   "proyectos": 51
+  },
+  {
+   "partido": "PREP",
+   "si": 2636,
+   "no": 1518,
+   "abstencion": 62,
+   "otros": 266,
+   "proyectos": 51
+  },
+  {
+   "partido": "UDI",
+   "si": 1941,
+   "no": 1101,
+   "abstencion": 98,
+   "otros": 342,
+   "proyectos": 51
+  },
+  {
+   "partido": "FA",
+   "si": 1860,
+   "no": 807,
+   "abstencion": 92,
+   "otros": 761,
+   "proyectos": 49
+  },
+  {
+   "partido": "RN",
+   "si": 1730,
+   "no": 858,
+   "abstencion": 84,
+   "otros": 356,
+   "proyectos": 51
+  },
+  {
+   "partido": "PS",
+   "si": 1749,
+   "no": 458,
+   "abstencion": 119,
+   "otros": 187,
+   "proyectos": 51
+  },
+  {
+   "partido": "PDG",
+   "si": 1212,
+   "no": 516,
+   "abstencion": 94,
+   "otros": 93,
+   "proyectos": 38
+  },
+  {
+   "partido": "PC",
+   "si": 1112,
+   "no": 602,
+   "abstencion": 96,
+   "otros": 210,
+   "proyectos": 51
+  },
+  {
+   "partido": "DC",
+   "si": 1117,
+   "no": 101,
+   "abstencion": 48,
+   "otros": 49,
+   "proyectos": 51
+  },
+  {
+   "partido": "PNL",
+   "si": 692,
+   "no": 398,
+   "abstencion": 18,
+   "otros": 218,
+   "proyectos": 45
+  },
+  {
+   "partido": "PPD",
+   "si": 522,
+   "no": 79,
+   "abstencion": 61,
+   "otros": 128,
+   "proyectos": 51
+  },
+  {
+   "partido": "PSC",
+   "si": 365,
+   "no": 185,
+   "abstencion": 30,
+   "otros": 20,
+   "proyectos": 42
+  },
+  {
+   "partido": "EVOP",
+   "si": 277,
+   "no": 144,
+   "abstencion": 17,
+   "otros": 16,
+   "proyectos": 51
+  },
+  {
+   "partido": "DEM",
+   "si": 291,
+   "no": 96,
+   "abstencion": 41,
+   "otros": 52,
+   "proyectos": 51
+  },
+  {
+   "partido": "PR",
+   "si": 254,
+   "no": 28,
+   "abstencion": 29,
+   "otros": 8,
+   "proyectos": 51
+  },
+  {
+   "partido": "PAH",
+   "si": 172,
+   "no": 100,
+   "abstencion": 10,
+   "otros": 37,
+   "proyectos": 51
+  },
+  {
+   "partido": "PL",
+   "si": 236,
+   "no": 9,
+   "abstencion": 24,
+   "otros": 1,
+   "proyectos": 36
+  },
+  {
+   "partido": "LIBERAL",
+   "si": 193,
+   "no": 36,
+   "abstencion": 10,
+   "otros": 38,
+   "proyectos": 20
+  },
+  {
+   "partido": "FRVS",
+   "si": 163,
+   "no": 27,
+   "abstencion": 3,
+   "otros": 31,
+   "proyectos": 48
+  },
+  {
+   "partido": "PCS",
+   "si": 96,
+   "no": 37,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 3
+  },
+  {
+   "partido": "RD",
+   "si": 95,
+   "no": 34,
+   "abstencion": 2,
+   "otros": 0,
+   "proyectos": 3
+  },
+  {
+   "partido": "PCCH",
+   "si": 51,
+   "no": 27,
+   "abstencion": 1,
+   "otros": 3,
+   "proyectos": 14
+  },
+  {
+   "partido": "AMA",
+   "si": 37,
+   "no": 21,
+   "abstencion": 1,
+   "otros": 30,
+   "proyectos": 16
+  },
+  {
+   "partido": "PEV",
+   "si": 40,
+   "no": 18,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 14
+  },
+  {
+   "partido": "COMUNES",
+   "si": 32,
+   "no": 12,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 3
+  },
+  {
+   "partido": "PH",
+   "si": 14,
+   "no": 14,
+   "abstencion": 2,
+   "otros": 41,
+   "proyectos": 18
+  },
+  {
+   "partido": "PRI",
+   "si": 11,
+   "no": 11,
+   "abstencion": 0,
+   "otros": 0,
+   "proyectos": 3
+  }
+ ]
 }

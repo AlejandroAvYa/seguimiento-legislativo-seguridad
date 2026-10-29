@@ -1,6 +1,14 @@
 [
  {
   "boletin": "11870-04",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 3039,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Pérdida de beneficios por daños en educación superior",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -76,6 +84,14 @@
  },
  {
   "boletin": "15258-25",
+  "n_urgencias_en_etapa": 4,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 142,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Control de identidad en zonas fronterizas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -147,6 +163,14 @@
  },
  {
   "boletin": "15261-25",
+  "n_urgencias_en_etapa": 13,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 1016,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Delito de ingreso clandestino",
   "acot_n": "17",
   "acot_iniciativa": "Tipificación ingreso clandestino",
@@ -192,11 +216,15 @@
   "urgencia_plazo": "Vence 2026-11-04",
   "prioridad_indice": 71,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Seguir la votación de las indicaciones del Ejecutivo en comisión",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-05) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -218,6 +246,14 @@
  },
  {
   "boletin": "15295-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 23,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Requisitos de libertad condicional",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -285,6 +321,14 @@
  },
  {
   "boletin": "15308-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 1528,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Quebrantamiento de condena y prescripción",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -360,6 +404,8 @@
  },
  {
   "boletin": "15347-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Agravantes en Ley de Drogas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -422,6 +468,14 @@
  },
  {
   "boletin": "15589-07",
+  "n_urgencias_en_etapa": 9,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 394,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Reforma a la Responsabilidad Penal Adolescente",
   "acot_n": "15",
   "acot_iniciativa": "Responsabilidad Penal Adolescente",
@@ -503,6 +557,14 @@
  },
  {
   "boletin": "15630-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 295,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Cautelares en legítima defensa",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -570,6 +632,14 @@
  },
  {
   "boletin": "15631-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 1395,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Reforma constitucional: extranjeros y FF.AA. en frontera",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -637,6 +707,8 @@
  },
  {
   "boletin": "15805-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Reglas de Uso de la Fuerza (RUF)",
   "acot_n": "1",
   "acot_iniciativa": "Reglas de Uso de la Fuerza",
@@ -699,6 +771,14 @@
  },
  {
   "boletin": "15817-07",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 1297,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Penas por quebrantamiento de condena",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -766,6 +846,14 @@
  },
  {
   "boletin": "15850-11",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 1290,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Venta ilegal de medicamentos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -837,6 +925,14 @@
  },
  {
   "boletin": "15905-25",
+  "n_urgencias_en_etapa": 36,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 905,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Notificaciones judiciales sin Carabineros",
   "acot_n": "9",
   "acot_iniciativa": "Supresión notificaciones judiciales por Carabineros",
@@ -889,6 +985,10 @@
     "detalle": "Suma: el plazo se cumplió el 2026-10-21 y no hay renovación registrada."
    },
    {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 36 urgencias desde su último avance (2024-05-07) sin que haya informe, votación ni cambio de etapa."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 905 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
@@ -908,6 +1008,8 @@
  },
  {
   "boletin": "15975-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Subsistema de Inteligencia Económica",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -985,6 +1087,14 @@
  },
  {
   "boletin": "16143-02",
+  "n_urgencias_en_etapa": 63,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 1184,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Protección de infraestructura crítica",
   "acot_n": "12",
   "acot_iniciativa": "Protección infraestructura crítica",
@@ -1030,11 +1140,15 @@
   "urgencia_plazo": "Vence 2026-11-04",
   "prioridad_indice": 65,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguir la votación de las indicaciones del Ejecutivo en comisión",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 63 urgencias desde su último avance (2024-06-19) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -1056,6 +1170,14 @@
  },
  {
   "boletin": "16300-07",
+  "n_urgencias_en_etapa": 6,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 79,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Legítima defensa privilegiada de policías de franco",
   "acot_n": "3",
   "acot_iniciativa": "Legítima defensa privilegiada en franco",
@@ -1118,6 +1240,8 @@
  },
  {
   "boletin": "16430-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Agravantes en Ley de Drogas (refundido)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1180,6 +1304,8 @@
  },
  {
   "boletin": "16481-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Flagrancia de 24 horas y facultades policiales",
   "acot_n": "14",
   "acot_iniciativa": "Flagrancia y facultades autónomas policías",
@@ -1242,6 +1368,8 @@
  },
  {
   "boletin": "16569-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Seguridad perimetral de recintos penitenciarios",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1304,6 +1432,8 @@
  },
  {
   "boletin": "16703-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Identificación en buses interregionales",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1371,6 +1501,8 @@
  },
  {
   "boletin": "16741-15",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Reserva de datos de vehículos policiales y militares",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1433,6 +1565,14 @@
  },
  {
   "boletin": "16773-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 927,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Irreprochable conducta anterior sin antecedentes",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1508,6 +1648,14 @@
  },
  {
   "boletin": "16791-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 923,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Delito de robo de salmón",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1583,6 +1731,14 @@
  },
  {
   "boletin": "16808-25",
+  "n_urgencias_en_etapa": 5,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 148,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Lavado de activos en transporte de carga",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1658,6 +1814,8 @@
  },
  {
   "boletin": "16836-06",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Perfeccionamiento de la expulsión administrativa",
   "acot_n": "18",
   "acot_iniciativa": "Perfeccionamiento expulsión administrativa",
@@ -1720,6 +1878,14 @@
  },
  {
   "boletin": "16857-07",
+  "n_urgencias_en_etapa": 4,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 135,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Agentes encubiertos en internet",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1791,6 +1957,14 @@
  },
  {
   "boletin": "16858-15",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 898,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Dirección IP única por cliente",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1862,6 +2036,14 @@
  },
  {
   "boletin": "16877-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 888,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Libertad condicional de reincidentes",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -1937,6 +2119,14 @@
  },
  {
   "boletin": "16944-25",
+  "n_urgencias_en_etapa": 6,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 225,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Daños a infraestructura penitenciaria",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2012,6 +2202,14 @@
  },
  {
   "boletin": "16948-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 23,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Transporte interno de migrantes irregulares",
   "acot_n": "5",
   "acot_iniciativa": "Transporte interno migrantes irregulares",
@@ -2083,6 +2281,14 @@
  },
  {
   "boletin": "16974-07",
+  "n_urgencias_en_etapa": 23,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 590,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Plazo de 24 horas para entregar registros telefónicos",
   "acot_n": "11",
   "acot_iniciativa": "Plazo entrega registros telecomunicaciones",
@@ -2131,6 +2337,10 @@
   "accion_sugerida": "Evaluar si se le pone urgencia o se deja de impulsar",
   "alertas": [
    {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 23 urgencias desde su último avance (2025-03-18) sin que haya informe, votación ni cambio de etapa."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 590 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
@@ -2150,6 +2360,8 @@
  },
  {
   "boletin": "16984-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Seguridad perimetral penitenciaria (moción paralela)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2212,6 +2424,14 @@
  },
  {
   "boletin": "16986-07",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 751,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Cohecho a funcionario extranjero por personas jurídicas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2279,6 +2499,14 @@
  },
  {
   "boletin": "17044-02",
+  "n_urgencias_en_etapa": 6,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 295,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Porte permanente de armas de Carabineros",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2350,6 +2578,14 @@
  },
  {
   "boletin": "17111-07",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 562,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Origen lícito de cauciones y honorarios",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2421,6 +2657,14 @@
  },
  {
   "boletin": "17125-25",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 562,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Origen lícito de honorarios en Ley de Drogas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2492,6 +2736,14 @@
  },
  {
   "boletin": "17170-07",
+  "n_urgencias_en_etapa": 13,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 198,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Robo en lugar no habitado",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2537,11 +2789,15 @@
   "urgencia_plazo": "Vence 2026-11-04",
   "prioridad_indice": 71,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -2563,6 +2819,14 @@
  },
  {
   "boletin": "17235-07",
+  "n_urgencias_en_etapa": 7,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 190,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Delito de \"turbazo\"",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2630,6 +2894,8 @@
  },
  {
   "boletin": "17246-15",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Evasión en el transporte público",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2692,6 +2958,14 @@
  },
  {
   "boletin": "17371-25",
+  "n_urgencias_en_etapa": 7,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 324,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Nueva carrera de ingreso a la PDI",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2763,6 +3037,14 @@
  },
  {
   "boletin": "17403-07",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 598,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Sanciones por rayados y daños a monumentos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2838,6 +3120,8 @@
  },
  {
   "boletin": "17441-15",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Evasión en el transporte público (refundido)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2900,6 +3184,14 @@
  },
  {
   "boletin": "17474-06",
+  "n_urgencias_en_etapa": 11,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 218,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Beneficios fiscales para migrantes irregulares",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -2956,6 +3248,10 @@
     "detalle": "Tiene urgencia, pero su último trámite fue hace 72 días."
    },
    {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 11 urgencias desde su último avance (2026-03-25) sin que haya informe, votación ni cambio de etapa."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 218 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
@@ -2975,6 +3271,14 @@
  },
  {
   "boletin": "17486-07",
+  "n_urgencias_en_etapa": 12,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 198,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Robo de maquinaria e insumos agrícolas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3027,6 +3331,10 @@
     "detalle": "Suma: el plazo se cumplió el 2026-10-21 y no hay renovación registrada."
    },
    {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 12 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 198 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
@@ -3046,6 +3354,8 @@
  },
  {
   "boletin": "17535-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Modernización de la carrera de Carabineros",
   "acot_n": "2",
   "acot_iniciativa": "Modernización carrera Carabineros",
@@ -3108,6 +3418,14 @@
  },
  {
   "boletin": "17637-07",
+  "n_urgencias_en_etapa": 16,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 338,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Reclutamiento de menores por el crimen organizado",
   "acot_n": "19",
   "acot_iniciativa": "Reclutamiento de menores de edad por asociaciones criminales",
@@ -3153,11 +3471,15 @@
   "urgencia_plazo": "Vence 2026-11-04",
   "prioridad_indice": 71,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 16 urgencias desde su último avance (2025-11-25) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -3179,6 +3501,14 @@
  },
  {
   "boletin": "17657-25",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 492,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Custodia de drogas incautadas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3254,6 +3584,14 @@
  },
  {
   "boletin": "17662-07",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 73,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Atentados contra policías",
   "acot_n": "10",
   "acot_iniciativa": "Aumento sanciones atentado contra autoridad policial",
@@ -3321,6 +3659,14 @@
  },
  {
   "boletin": "17671-02",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 485,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Prisión preventiva por delitos contra la soberanía",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3396,6 +3742,14 @@
  },
  {
   "boletin": "17675-25",
+  "n_urgencias_en_etapa": 13,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 233,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Seguridad del Metro de Santiago",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3441,11 +3795,15 @@
   "urgencia_plazo": "Vence 2026-10-29",
   "prioridad_indice": 53,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguimiento mensual",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Simple vence el 2026-10-29 (en 0 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-03-10) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -3467,6 +3825,8 @@
  },
  {
   "boletin": "17690-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Fiscalía militar en casos de espionaje",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3529,6 +3889,14 @@
  },
  {
   "boletin": "17702-15",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 289,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Conducción temeraria",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3602,6 +3970,14 @@
  },
  {
   "boletin": "17720-05",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 464,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "Contrabando de productos agropecuarios",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3677,6 +4053,14 @@
  },
  {
   "boletin": "17757-29",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 50,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Obligaciones de organizadores del fútbol",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3748,6 +4132,14 @@
  },
  {
   "boletin": "17879-25",
+  "n_urgencias_en_etapa": 7,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 389,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más lento que lo habitual"
+  },
   "nombre_corto": "SINAPROC",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3815,6 +4207,14 @@
  },
  {
   "boletin": "17912-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 72,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Propiedad industrial como delito base de lavado",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3877,6 +4277,14 @@
  },
  {
   "boletin": "18029-17",
+  "n_urgencias_en_etapa": 5,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 309,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Reparación a víctimas de violencia en la Macrozona Sur",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3948,6 +4356,8 @@
  },
  {
   "boletin": "18032-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Gendarmería como Fuerza de Orden",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4010,6 +4420,14 @@
  },
  {
   "boletin": "18155-25",
+  "n_urgencias_en_etapa": 9,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 169,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Agravantes por delitos contra la comunidad educativa",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4077,6 +4495,8 @@
  },
  {
   "boletin": "18156-04",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Seguridad y orden en la comunidad educativa",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4139,6 +4559,14 @@
  },
  {
   "boletin": "18161-07",
+  "n_urgencias_en_etapa": 8,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 169,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Penas por agresiones a docentes",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4201,6 +4629,14 @@
  },
  {
   "boletin": "18208-25",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 29,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Juicio oral en ausencia",
   "acot_n": "16",
   "acot_iniciativa": "Juicio oral en ausencia",
@@ -4268,6 +4704,14 @@
  },
  {
   "boletin": "18211-25",
+  "n_urgencias_en_etapa": 9,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 127,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Ley antiencapuchados",
   "acot_n": "6",
   "acot_iniciativa": "Anti encapuchados",
@@ -4335,6 +4779,8 @@
  },
  {
   "boletin": "18232-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Plazos de estudios de seguridad privada",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4397,6 +4843,14 @@
  },
  {
   "boletin": "18236-18",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 1,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Protección de víctimas de VIF",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4464,6 +4918,14 @@
  },
  {
   "boletin": "18239-36",
+  "n_urgencias_en_etapa": 13,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 176,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Sanciones por denuncias falsas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4514,6 +4976,10 @@
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Discusión inmediata vence el 2026-11-02 (en 4 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-06) sin que haya informe, votación ni cambio de etapa."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-27",
@@ -4531,6 +4997,8 @@
  },
  {
   "boletin": "18257-10",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Inmunidades de INTERPOL (acuerdo)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4593,6 +5061,14 @@
  },
  {
   "boletin": "18258-07",
+  "n_urgencias_en_etapa": 7,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 86,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Control de identidad por FF.AA. en estados de excepción",
   "acot_n": "7",
   "acot_iniciativa": "Control de identidad FF.AA. en Estado de Excepción",
@@ -4660,6 +5136,14 @@
  },
  {
   "boletin": "18282-07",
+  "n_urgencias_en_etapa": 7,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 167,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Instrumentalización de menores para delinquir",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4727,6 +5211,8 @@
  },
  {
   "boletin": "18314-07",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {},
   "nombre_corto": "Detención para ejecutar expulsiones",
   "acot_n": "4",
   "acot_iniciativa": "Ampliación de la retención migratoria",
@@ -4798,6 +5284,14 @@
  },
  {
   "boletin": "18315-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 23,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Tráfico de migrantes y transporte interno",
   "acot_n": "5",
   "acot_iniciativa": "Transporte interno migrantes irregulares",
@@ -4865,6 +5359,14 @@
  },
  {
   "boletin": "18329-06",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 146,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Campamentos en bienes nacionales de uso público",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4927,6 +5429,14 @@
  },
  {
   "boletin": "18341-25",
+  "n_urgencias_en_etapa": 14,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 139,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Registro de actos vandálicos e incivilidades",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -4972,11 +5482,15 @@
   "urgencia_plazo": "Vence 2026-11-03",
   "prioridad_indice": 70,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-19",
@@ -4994,6 +5508,14 @@
  },
  {
   "boletin": "18349-06",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 142,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Ocupación de espacios públicos para pernoctar",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5056,6 +5578,14 @@
  },
  {
   "boletin": "18378-18",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 132,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Responsabilidad parental preventiva",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5118,6 +5648,14 @@
  },
  {
   "boletin": "18414-18",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 1,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Notificación de cautelares en VIF",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5185,6 +5723,14 @@
  },
  {
   "boletin": "18420-25",
+  "n_urgencias_en_etapa": 1,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 127,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Seguridad portuaria contra el crimen organizado",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5256,6 +5802,14 @@
  },
  {
   "boletin": "18429-10",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 71,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Asistencia penal mutua Chile–Brasil (tratado)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5318,6 +5872,14 @@
  },
  {
   "boletin": "18432-07",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 126,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "dentro de lo habitual"
+  },
   "nombre_corto": "Delimitación del delito de apremios ilegítimos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5385,6 +5947,14 @@
  },
  {
   "boletin": "18434-07",
+  "n_urgencias_en_etapa": 6,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 123,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Explotación de servicios sexuales de terceros",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5452,6 +6022,14 @@
  },
  {
   "boletin": "18521-07",
+  "n_urgencias_en_etapa": 6,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 87,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Cesación por consumo de drogas (reforma constitucional)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5514,6 +6092,8 @@
  },
  {
   "boletin": "18525-06",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Ley corta de seguridad municipal",
   "acot_n": "8",
   "acot_iniciativa": "Ley corta de Seguridad Municipal",
@@ -5576,6 +6156,14 @@
  },
  {
   "boletin": "18544-06",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 86,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Matrimonios por conveniencia",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5638,6 +6226,14 @@
  },
  {
   "boletin": "18562-07",
+  "n_urgencias_en_etapa": 5,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 85,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Control de drogas a autoridades",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5700,6 +6296,14 @@
  },
  {
   "boletin": "18566-07",
+  "n_urgencias_en_etapa": 5,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 85,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Sistema de control de drogas a autoridades (reforma constitucional)",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5762,6 +6366,14 @@
  },
  {
   "boletin": "18584-25",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 36,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Antibarricadas 2.0",
   "acot_n": "N1",
   "acot_iniciativa": "Modificación Ley Antibarricadas: eliminación del requisito de violencia",
@@ -5829,6 +6441,14 @@
  },
  {
   "boletin": "18585-25",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 37,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Huellas genéticas (ADN) por las policías",
   "acot_n": "N5",
   "acot_iniciativa": "Test de ADN: habilitación a las policías",
@@ -5840,15 +6460,6 @@
     "camara": "Senado",
     "tipo": "Sala",
     "instancia": "Sala del Senado · sesión N° 75",
-    "estado": "Citada",
-    "lugar": ""
-   },
-   {
-    "fecha": "2026-10-28",
-    "horario": "16:07 a 19:49",
-    "camara": "Senado",
-    "tipo": "Sala",
-    "instancia": "Sala del Senado · sesión ordinaria N° 75",
     "estado": "Citada",
     "lugar": ""
    }
@@ -5915,6 +6526,14 @@
  },
  {
   "boletin": "18590-07",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 80,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Utilización de menores de 14 años para delinquir",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5982,6 +6601,8 @@
  },
  {
   "boletin": "18597-07",
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Reforma constitucional de seguridad pública",
   "acot_n": "RC",
   "acot_iniciativa": "Reforma constitucional que fortalece el sistema nacional de seguridad pública",
@@ -6044,6 +6665,14 @@
  },
  {
   "boletin": "18621-34",
+  "n_urgencias_en_etapa": 3,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 59,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Cautelares en VIF y violencia contra la mujer",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -6106,6 +6735,14 @@
  },
  {
   "boletin": "18656-01",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Primer trámite",
+   "dias": 66,
+   "mediana": 252,
+   "n_base": 57,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Trazabilidad de frutos secos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -6168,6 +6805,14 @@
  },
  {
   "boletin": "18709-07",
+  "n_urgencias_en_etapa": 2,
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 8,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Ajustes al Servicio de Acceso a la Justicia y Defensoría de Víctimas",
   "acot_n": "",
   "acot_iniciativa": "",

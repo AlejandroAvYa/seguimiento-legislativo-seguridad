@@ -1,0 +1,1567 @@
+{
+ "semanas": [
+  {
+   "desde": "2026-08-31",
+   "hasta": "2026-09-06",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 3,
+   "camara_dias": [
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02"
+   ],
+   "senado_sala": 2,
+   "senado_dias": [
+    "2026-09-01",
+    "2026-09-02"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "17474-06",
+     "urgencia": "Suma",
+     "vence": "2026-09-02"
+    }
+   ]
+  },
+  {
+   "desde": "2026-09-07",
+   "hasta": "2026-09-13",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 3,
+   "camara_dias": [
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09"
+   ],
+   "senado_sala": 4,
+   "senado_dias": [
+    "2026-09-08",
+    "2026-09-09"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": []
+  },
+  {
+   "desde": "2026-09-14",
+   "hasta": "2026-09-20",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [
+    {
+     "fecha": "2026-09-18",
+     "nombre": "Independencia Nacional",
+     "fuente": "api.boostr.cl"
+    },
+    {
+     "fecha": "2026-09-19",
+     "nombre": "Día de las Glorias del Ejército",
+     "fuente": "api.boostr.cl"
+    }
+   ],
+   "urgencias_vencen": []
+  },
+  {
+   "desde": "2026-09-21",
+   "hasta": "2026-09-27",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 4,
+   "camara_dias": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23"
+   ],
+   "senado_sala": 2,
+   "senado_dias": [
+    "2026-09-22",
+    "2026-09-23"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": []
+  },
+  {
+   "desde": "2026-09-28",
+   "hasta": "2026-10-04",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 3,
+   "camara_dias": [
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "senado_sala": 3,
+   "senado_dias": [
+    "2026-09-29",
+    "2026-09-30"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": []
+  },
+  {
+   "desde": "2026-10-05",
+   "hasta": "2026-10-11",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 4,
+   "camara_dias": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07"
+   ],
+   "senado_sala": 4,
+   "senado_dias": [
+    "2026-10-06",
+    "2026-10-07"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "15258-25",
+     "urgencia": "Simple",
+     "vence": "2026-10-08"
+    },
+    {
+     "boletin": "15295-07",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-10-11"
+    },
+    {
+     "boletin": "16808-25",
+     "urgencia": "Simple",
+     "vence": "2026-10-08"
+    },
+    {
+     "boletin": "16857-07",
+     "urgencia": "Simple",
+     "vence": "2026-10-08"
+    },
+    {
+     "boletin": "16858-15",
+     "urgencia": "Simple",
+     "vence": "2026-10-09"
+    },
+    {
+     "boletin": "16948-07",
+     "urgencia": "Suma",
+     "vence": "2026-10-06"
+    },
+    {
+     "boletin": "18315-07",
+     "urgencia": "Suma",
+     "vence": "2026-10-06"
+    },
+    {
+     "boletin": "18420-25",
+     "urgencia": "Simple",
+     "vence": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "desde": "2026-10-12",
+   "hasta": "2026-10-18",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [
+    {
+     "fecha": "2026-10-12",
+     "nombre": "Encuentro de Dos Mundos",
+     "fuente": "api.boostr.cl"
+    }
+   ],
+   "urgencias_vencen": []
+  },
+  {
+   "desde": "2026-10-19",
+   "hasta": "2026-10-25",
+   "pasada": true,
+   "actual": false,
+   "camara_sala": 3,
+   "camara_dias": [
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+   ],
+   "senado_sala": 4,
+   "senado_dias": [
+    "2026-10-20",
+    "2026-10-21"
+   ],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "15905-25",
+     "urgencia": "Suma",
+     "vence": "2026-10-21"
+    },
+    {
+     "boletin": "17486-07",
+     "urgencia": "Suma",
+     "vence": "2026-10-21"
+    }
+   ]
+  },
+  {
+   "desde": "2026-10-26",
+   "hasta": "2026-11-01",
+   "pasada": false,
+   "actual": true,
+   "camara_sala": 5,
+   "camara_dias": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28"
+   ],
+   "senado_sala": 5,
+   "senado_dias": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28"
+   ],
+   "senado_comisiones": 10,
+   "senado_comisiones_seguidos": 2,
+   "feriados": [
+    {
+     "fecha": "2026-10-31",
+     "nombre": "Día de las Iglesias Evangélicas y Protestantes",
+     "fuente": "api.boostr.cl"
+    },
+    {
+     "fecha": "2026-11-01",
+     "nombre": "Día de Todos los Santos",
+     "fuente": "api.boostr.cl"
+    }
+   ],
+   "urgencias_vencen": [
+    {
+     "boletin": "17675-25",
+     "urgencia": "Simple",
+     "vence": "2026-10-29"
+    },
+    {
+     "boletin": "17757-29",
+     "urgencia": "Simple",
+     "vence": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "desde": "2026-11-02",
+   "hasta": "2026-11-08",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 3,
+   "camara_dias": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 4,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "15261-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "15589-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "15850-11",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "16143-02",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "17044-02",
+     "urgencia": "Simple",
+     "vence": "2026-11-05"
+    },
+    {
+     "boletin": "17111-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "17125-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "17170-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "17371-25",
+     "urgencia": "Simple",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "17637-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18029-17",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18155-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18208-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18211-25",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-02"
+    },
+    {
+     "boletin": "18236-18",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18239-36",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-02"
+    },
+    {
+     "boletin": "18258-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18282-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18314-07",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-02"
+    },
+    {
+     "boletin": "18341-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18414-18",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18432-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18434-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18585-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-04"
+    },
+    {
+     "boletin": "18590-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-03"
+    },
+    {
+     "boletin": "18709-07",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "desde": "2026-11-09",
+   "hasta": "2026-11-15",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 1,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "16300-07",
+     "urgencia": "Suma",
+     "vence": "2026-11-11"
+    },
+    {
+     "boletin": "18584-25",
+     "urgencia": "Suma",
+     "vence": "2026-11-11"
+    }
+   ]
+  },
+  {
+   "desde": "2026-11-16",
+   "hasta": "2026-11-22",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "15817-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-19"
+    },
+    {
+     "boletin": "17662-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-19"
+    },
+    {
+     "boletin": "18521-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-18"
+    },
+    {
+     "boletin": "18544-06",
+     "urgencia": "Simple",
+     "vence": "2026-11-18"
+    },
+    {
+     "boletin": "18562-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-18"
+    },
+    {
+     "boletin": "18566-07",
+     "urgencia": "Simple",
+     "vence": "2026-11-18"
+    },
+    {
+     "boletin": "18621-34",
+     "urgencia": "Simple",
+     "vence": "2026-11-18"
+    }
+   ]
+  },
+  {
+   "desde": "2026-11-23",
+   "hasta": "2026-11-29",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": [
+    {
+     "boletin": "18329-06",
+     "urgencia": "Simple",
+     "vence": "2026-11-27"
+    },
+    {
+     "boletin": "18349-06",
+     "urgencia": "Simple",
+     "vence": "2026-11-27"
+    },
+    {
+     "boletin": "18378-18",
+     "urgencia": "Simple",
+     "vence": "2026-11-27"
+    },
+    {
+     "boletin": "18656-01",
+     "urgencia": "Simple",
+     "vence": "2026-11-25"
+    }
+   ]
+  }
+ ],
+ "feriados": [
+  {
+   "fecha": "2026-01-01",
+   "nombre": "Año Nuevo",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-04-03",
+   "nombre": "Viernes Santo",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-04-04",
+   "nombre": "Sábado Santo",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-05-01",
+   "nombre": "Día Nacional del Trabajo",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-05-21",
+   "nombre": "Día de las Glorias Navales",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-06-21",
+   "nombre": "Día Nacional de los Pueblos Indígenas",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-06-29",
+   "nombre": "San Pedro y San Pablo",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-07-16",
+   "nombre": "Día de la Virgen del Carmen",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-08-15",
+   "nombre": "Asunción de la Virgen",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-09-18",
+   "nombre": "Independencia Nacional",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-09-19",
+   "nombre": "Día de las Glorias del Ejército",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-10-12",
+   "nombre": "Encuentro de Dos Mundos",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-10-31",
+   "nombre": "Día de las Iglesias Evangélicas y Protestantes",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-11-01",
+   "nombre": "Día de Todos los Santos",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-12-08",
+   "nombre": "Inmaculada Concepción",
+   "fuente": "api.boostr.cl"
+  },
+  {
+   "fecha": "2026-12-25",
+   "nombre": "Navidad",
+   "fuente": "api.boostr.cl"
+  }
+ ],
+ "_camara_sesiones": [
+  {
+   "fecha": "2026-01-05",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-06",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-07",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-12",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-12",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-13",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-14",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-19",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-20",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-21",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-26",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-27",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-01-28",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-02",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-03",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-04",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-04",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-05",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-11",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-17",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-18",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-23",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-24",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-24",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-25",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-03-25",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-06",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-07",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-08",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-13",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-14",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-15",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-20",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-21",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-04-22",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-04",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-05",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-05",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-06",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-11",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-12",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-12",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-13",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-18",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-19",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-05-20",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-01",
+   "tipo": "Congreso Pleno",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-02",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-03",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-08",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-09",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-10",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-15",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-16",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-17",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-22",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-23",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-06-24",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-06",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-07",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-08",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-13",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-14",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-15",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-15",
+   "tipo": "Congreso Pleno",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-20",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-21",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-22",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-07-22",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-03",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-04",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-04",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-05",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-10",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-11",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-11",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-12",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-17",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-18",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-18",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-19",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-08-31",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-01",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-02",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-07",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-08",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-09",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-21",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-22",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-22",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-23",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-28",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-29",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-09-30",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-05",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-06",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-06",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-07",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-19",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-20",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-21",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-26",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-27",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-27",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-28",
+   "tipo": "Ordinaria",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-10-28",
+   "tipo": "Especial",
+   "estado": "Celebrada"
+  },
+  {
+   "fecha": "2026-11-02",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-03",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-04",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  }
+ ],
+ "_senado_sesiones": [
+  {
+   "numero": "75",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-28"
+  },
+  {
+   "numero": "74",
+   "tipo": "Especial",
+   "fecha": "2026-10-28"
+  },
+  {
+   "numero": "73",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-27"
+  },
+  {
+   "numero": "72",
+   "tipo": "Especial",
+   "fecha": "2026-10-27"
+  },
+  {
+   "numero": "",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-26"
+  },
+  {
+   "numero": "71",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-21"
+  },
+  {
+   "numero": "70",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-20"
+  },
+  {
+   "numero": "69",
+   "tipo": "Especial",
+   "fecha": "2026-10-20"
+  },
+  {
+   "numero": "68",
+   "tipo": "Especial",
+   "fecha": "2026-10-20"
+  },
+  {
+   "numero": "67",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-07"
+  },
+  {
+   "numero": "66",
+   "tipo": "Especial",
+   "fecha": "2026-10-07"
+  },
+  {
+   "numero": "65",
+   "tipo": "Ordinaria",
+   "fecha": "2026-10-06"
+  },
+  {
+   "numero": "64",
+   "tipo": "Especial",
+   "fecha": "2026-10-06"
+  },
+  {
+   "numero": "63",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-30"
+  },
+  {
+   "numero": "62",
+   "tipo": "Especial",
+   "fecha": "2026-09-30"
+  },
+  {
+   "numero": "61",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-29"
+  },
+  {
+   "numero": "60",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-23"
+  },
+  {
+   "numero": "59",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-22"
+  },
+  {
+   "numero": "58",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-09"
+  },
+  {
+   "numero": "57",
+   "tipo": "Especial",
+   "fecha": "2026-09-09"
+  },
+  {
+   "numero": "56",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-08"
+  },
+  {
+   "numero": "55",
+   "tipo": "Especial",
+   "fecha": "2026-09-08"
+  },
+  {
+   "numero": "54",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-02"
+  },
+  {
+   "numero": "53",
+   "tipo": "Ordinaria",
+   "fecha": "2026-09-01"
+  },
+  {
+   "numero": "52",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-19"
+  },
+  {
+   "numero": "51",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-18"
+  },
+  {
+   "numero": "50",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-12"
+  },
+  {
+   "numero": "49",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-11"
+  },
+  {
+   "numero": "48",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-05"
+  },
+  {
+   "numero": "47",
+   "tipo": "Ordinaria",
+   "fecha": "2026-08-04"
+  },
+  {
+   "numero": "46",
+   "tipo": "Especial",
+   "fecha": "2026-07-22"
+  },
+  {
+   "numero": "45",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-22"
+  },
+  {
+   "numero": "44",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-21"
+  },
+  {
+   "numero": "43",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-15"
+  },
+  {
+   "numero": "",
+   "tipo": "Congreso pleno",
+   "fecha": "2026-07-15"
+  },
+  {
+   "numero": "42",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-14"
+  },
+  {
+   "numero": "41",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-08"
+  },
+  {
+   "numero": "40",
+   "tipo": "Ordinaria",
+   "fecha": "2026-07-07"
+  },
+  {
+   "numero": "39",
+   "tipo": "Especial",
+   "fecha": "2026-06-30"
+  },
+  {
+   "numero": "38",
+   "tipo": "Especial",
+   "fecha": "2026-06-30"
+  },
+  {
+   "numero": "37",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-24"
+  },
+  {
+   "numero": "36",
+   "tipo": "Extraordinaria",
+   "fecha": "2026-06-24"
+  },
+  {
+   "numero": "35",
+   "tipo": "Extraordinaria",
+   "fecha": "2026-06-23"
+  },
+  {
+   "numero": "34",
+   "tipo": "Especial",
+   "fecha": "2026-06-23"
+  },
+  {
+   "numero": "33",
+   "tipo": "Extraordinaria",
+   "fecha": "2026-06-17"
+  },
+  {
+   "numero": "32",
+   "tipo": "Especial",
+   "fecha": "2026-06-17"
+  },
+  {
+   "numero": "31",
+   "tipo": "Especial",
+   "fecha": "2026-06-17"
+  },
+  {
+   "numero": "30",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-16"
+  },
+  {
+   "numero": "29",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-10"
+  },
+  {
+   "numero": "28",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-09"
+  },
+  {
+   "numero": "27",
+   "tipo": "Especial",
+   "fecha": "2026-06-09"
+  },
+  {
+   "numero": "26",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-03"
+  },
+  {
+   "numero": "25",
+   "tipo": "Especial",
+   "fecha": "2026-06-03"
+  },
+  {
+   "numero": "24",
+   "tipo": "Ordinaria",
+   "fecha": "2026-06-02"
+  },
+  {
+   "numero": "23",
+   "tipo": "Especial",
+   "fecha": "2026-06-02"
+  },
+  {
+   "numero": "",
+   "tipo": "Congreso pleno",
+   "fecha": "2026-06-01"
+  },
+  {
+   "numero": "22",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-20"
+  },
+  {
+   "numero": "21",
+   "tipo": "Especial",
+   "fecha": "2026-05-20"
+  },
+  {
+   "numero": "20",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-19"
+  },
+  {
+   "numero": "19",
+   "tipo": "Especial",
+   "fecha": "2026-05-19"
+  },
+  {
+   "numero": "18",
+   "tipo": "Especial",
+   "fecha": "2026-05-18"
+  },
+  {
+   "numero": "17",
+   "tipo": "Especial",
+   "fecha": "2026-05-18"
+  },
+  {
+   "numero": "16",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-13"
+  },
+  {
+   "numero": "15",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-12"
+  },
+  {
+   "numero": "14",
+   "tipo": "Especial",
+   "fecha": "2026-05-12"
+  },
+  {
+   "numero": "13",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-06"
+  },
+  {
+   "numero": "12",
+   "tipo": "Ordinaria",
+   "fecha": "2026-05-05"
+  },
+  {
+   "numero": "11",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-22"
+  },
+  {
+   "numero": "10",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-21"
+  },
+  {
+   "numero": "9",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-15"
+  },
+  {
+   "numero": "8",
+   "tipo": "Especial",
+   "fecha": "2026-04-15"
+  },
+  {
+   "numero": "7",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-14"
+  },
+  {
+   "numero": "6",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-08"
+  },
+  {
+   "numero": "5",
+   "tipo": "Ordinaria",
+   "fecha": "2026-04-07"
+  },
+  {
+   "numero": "4",
+   "tipo": "Ordinaria",
+   "fecha": "2026-03-25"
+  },
+  {
+   "numero": "3",
+   "tipo": "Ordinaria",
+   "fecha": "2026-03-24"
+  },
+  {
+   "numero": "2",
+   "tipo": "Ordinaria",
+   "fecha": "2026-03-18"
+  },
+  {
+   "numero": "1",
+   "tipo": "Ordinaria",
+   "fecha": "2026-03-17"
+  },
+  {
+   "numero": "",
+   "tipo": "Congreso pleno",
+   "fecha": "2026-03-11"
+  },
+  {
+   "numero": "900",
+   "tipo": "de Instalación",
+   "fecha": "2026-03-11"
+  }
+ ]
+}
