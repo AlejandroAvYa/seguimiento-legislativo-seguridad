@@ -22,6 +22,7 @@ ORDEN = [e["codigo"] for e in ETAPAS]
 
 DIAS_DETENIDO = 180          # sin cambio de etapa por más de estos días
 DIAS_SIN_MOVIMIENTO = 30     # con urgencia y sin trámites en estos días
+URGENCIAS_DESGASTE = 10      # urgencias presentadas desde el último avance sin que el proyecto avance
 MARGEN_ESTRECHO = 0.10       # votación con diferencia menor al 10 % de los votos emitidos
 
 
@@ -127,6 +128,10 @@ def alertas(p, hoy):
         sin_mov = (datetime.strptime(hoy, "%Y-%m-%d") - datetime.strptime(p["ultimo_tramite_fecha"], "%Y-%m-%d")).days
         if sin_mov > DIAS_SIN_MOVIMIENTO:
             salida.append({"tipo": "Urgencia sin movimiento", "detalle": f"Tiene urgencia, pero su último trámite fue hace {sin_mov} días."})
+    n_urg = urgencias_en_etapa(p)
+    if n_urg >= URGENCIAS_DESGASTE:
+        salida.append({"tipo": "Urgencia renovada sin avance",
+                       "detalle": f"Se han presentado {n_urg} urgencias desde su último avance ({ultimo_avance(p)}) sin que haya informe, votación ni cambio de etapa."})
     if isinstance(p.get("dias_en_etapa"), int) and p["dias_en_etapa"] > DIAS_DETENIDO:
         salida.append({"tipo": "Detenido en la misma etapa", "detalle": f"Lleva {p['dias_en_etapa']} días en {p.get('instancia_actual') or 'la etapa actual'}."})
     for camara, lista in (("del Senado", p.get("votaciones", [])), ("de la Cámara", p.get("votaciones_camara", []))):
@@ -231,6 +236,8 @@ def accion_sugerida(p, tipos, hoy=""):
         return "Asegurar los votos para la votación en Sala"
     if "Detenido en la misma etapa" in tipos and u == "Sin urgencia":
         return "Evaluar si se le pone urgencia o se deja de impulsar"
+    if "Urgencia renovada sin avance" in tipos:
+        return "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)"
     if "Urgencia sin movimiento" in tipos:
         return "Pedir que la comisión ponga el proyecto en tabla"
     if p.get("n_indicaciones_senado_ejecutivo_gobierno_actual"):
@@ -240,9 +247,71 @@ def accion_sugerida(p, tipos, hoy=""):
     return "Seguimiento mensual"
 
 
+def ultimo_avance(p):
+    """Fecha del último avance sustantivo: inicio de la etapa, hito, informe de comisión o votación en Sala."""
+    fechas = [p.get("fecha_inicio_etapa") or ""]
+    fechas += [h.get("fecha", "") for h in p.get("hitos", [])]
+    fechas += [i.get("fecha", "") for i in p.get("informes", [])]
+    fechas += [v.get("fecha", "") for v in p.get("votaciones", []) + p.get("votaciones_camara", [])]
+    return max(f for f in fechas if f) if any(fechas) else ""
+
+
+def urgencias_en_etapa(p):
+    """Urgencias presentadas (incluidas las renovaciones) desde el último avance del proyecto."""
+    ini = ultimo_avance(p)
+    if not ini or p.get("situacion") != "En tramitación":
+        return 0
+    return sum(1 for u in p.get("urgencias", []) if (u.get("ingreso") or "") > ini)
+
+
+FIN_SEGUNDO = ("Despachado con modificaciones a la cámara de origen", "Aprobado sin modificaciones por la cámara revisora",
+               "Rechazo de modificaciones (pasa a Comisión Mixta)", "Despachado al Ejecutivo")
+
+
+def duraciones(p):
+    """Días que tomaron el primer y el segundo trámite (solo los ya terminados)."""
+    ini = p.get("avance_inicio", {})
+    res = {}
+    def dias(a, b):
+        try:
+            return (datetime.strptime(b, "%Y-%m-%d") - datetime.strptime(a, "%Y-%m-%d")).days
+        except (ValueError, TypeError):
+            return None
+    if ini.get("1") and ini.get("2"):
+        res["1"] = dias(ini["1"], ini["2"])
+    if ini.get("2"):
+        fines = sorted(h["fecha"] for h in p.get("hitos", []) if h.get("hito") in FIN_SEGUNDO and h.get("fecha", "") >= ini["2"])
+        if fines:
+            res["2"] = dias(ini["2"], fines[0])
+    return {k: v for k, v in res.items() if v is not None and v >= 0}
+
+
+def ritmo(proyectos, hoy):
+    """Compara los días que lleva cada proyecto en su trámite con la mediana de los trámites ya terminados."""
+    from statistics import median
+    base = {"1": [], "2": []}
+    for p in proyectos:
+        for k, v in duraciones(p).items():
+            base[k].append(v)
+    med = {k: int(median(v)) for k, v in base.items() if len(v) >= 5}
+    for p in proyectos:
+        p["ritmo"] = {}
+        cod = p.get("etapa_codigo", "")
+        g = cod[0] if cod[:1] in ("1", "2") else ""
+        ini = p.get("avance_inicio", {}).get(g)
+        if p.get("situacion") != "En tramitación" or not g or not ini or g not in med:
+            continue
+        d = (datetime.strptime(hoy, "%Y-%m-%d") - datetime.strptime(ini, "%Y-%m-%d")).days
+        rel = "más lento que lo habitual" if d > 1.5 * med[g] else "dentro de lo habitual" if d >= 0.5 * med[g] else "más rápido que lo habitual"
+        p["ritmo"] = {"tramite": "Primer trámite" if g == "1" else "Segundo trámite", "dias": d, "mediana": med[g],
+                      "n_base": len(base[g]), "lectura": rel}
+    return med
+
+
 def evaluar(p, hoy):
     """Agrega al registro la etapa normalizada, las alertas y la prioridad."""
     p.update(avance(p))
+    p["n_urgencias_en_etapa"] = urgencias_en_etapa(p)
     al = alertas(p, hoy)
     p["alertas"] = al
     p["n_alertas"] = len(al)

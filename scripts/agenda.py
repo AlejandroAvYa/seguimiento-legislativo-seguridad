@@ -168,7 +168,10 @@ def plazos_indicaciones_senado():
 
 # ----------------------------------------------------------------- integración
 def clave(x):
-    return "|".join([x.get("camara", ""), x.get("tipo", ""), x.get("fecha", ""), x.get("instancia", ""), x.get("horario", "")])
+    """Identifica una sesión. En Sala basta el número de sesión (el texto de la instancia puede variar)."""
+    m = re.search(r"N° (\d+)", x.get("instancia", "")) if x.get("tipo") == "Sala" else None
+    ident = m.group(1) if m else x.get("instancia", "") + "|" + x.get("horario", "")
+    return "|".join([x.get("camara", ""), x.get("tipo", ""), x.get("fecha", ""), ident])
 
 
 def lunes_de(hoy):
@@ -211,6 +214,10 @@ def actualizar(previa, seguidos, hoy, sesiones_camara=None):
         if x.get("fecha", "") >= lunes and clave(x) not in nuevas_claves and (x["fecha"] < hoy or fuente not in consultadas):
             items.append(x)
     items = [x for x in items if x.get("fecha", "") >= lunes]
+    unicos = {}
+    for x in items:                       # sin duplicados: prevalece la versión más reciente (la primera)
+        unicos.setdefault(clave(x), x)
+    items = list(unicos.values())
     for x in items:
         x["seguidos"] = [b for b in x.get("boletines", []) if b in seguidos]
     items.sort(key=lambda x: (x["fecha"], x.get("horario", ""), x.get("camara", ""), x.get("instancia", "")))
@@ -287,3 +294,57 @@ def acumular_noticias(previas, nuevas, hoy, dias=21):
     por_link = {n["link"]: n for n in previas}
     por_link.update({n["link"]: n for n in nuevas})
     return sorted([n for n in por_link.values() if n.get("fecha", "") >= desde], key=lambda n: n["fecha"], reverse=True)
+
+
+# ----------------------------------------------------------------- calendario legislativo
+def senado_sesiones_sala():
+    """Sesiones de Sala del Senado de la legislatura en curso (fecha y tipo)."""
+    # la página de cualquier legislatura trae el selector; la primera opción es la legislatura en curso
+    pag = descargar(f"{BASE}?mo=sesionessala&listado=1&ac=listado&legi=504")
+    m = re.search(r'<option\s+value="(\d+)"\s*>\s*\d{3}\s*\(', pag)
+    if m and m.group(1) != "504":
+        pag = descargar(f"{BASE}?mo=sesionessala&listado=1&ac=listado&legi={m.group(1)}")
+    salida = []
+    for fila in re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", pag):
+        c = [texto(x) for x in re.findall(r"(?is)<td[^>]*>(.*?)</td>", fila)]
+        if len(c) >= 3 and fecha_larga(c[2]):
+            salida.append({"numero": c[0], "tipo": c[1], "fecha": fecha_larga(c[2])})
+    return salida
+
+
+def feriados(anno):
+    """Feriados legales: API de Gobierno Digital; si no responde, api.boostr.cl."""
+    import json as _json
+    try:
+        datos = _json.loads(descargar(f"https://apis.digital.gob.cl/fl/feriados/{anno}", intentos=2, timeout=30))
+        return [{"fecha": d["fecha"], "nombre": d["nombre"], "fuente": "apis.digital.gob.cl"} for d in datos]
+    except Exception:  # noqa: BLE001
+        datos = _json.loads(descargar(f"https://api.boostr.cl/holidays/{anno}.json", intentos=2, timeout=30))
+        return [{"fecha": d["date"], "nombre": d["title"], "fuente": "api.boostr.cl"} for d in datos.get("data", [])]
+
+
+def calendario(hoy, camara_sesiones, senado_sesiones, agenda, proyectos, lista_feriados, atras=8, adelante=4):
+    """Semana a semana: sesiones de Sala de cada cámara, citaciones, feriados y urgencias que vencen."""
+    from datetime import datetime, timedelta
+    lunes = datetime.strptime(lunes_de(hoy), "%Y-%m-%d")
+    semanas = []
+    for k in range(-atras, adelante + 1):
+        ini = lunes + timedelta(weeks=k)
+        fin = ini + timedelta(days=6)
+        a, b = ini.strftime("%Y-%m-%d"), fin.strftime("%Y-%m-%d")
+        en = lambda f: a <= (f or "") <= b  # noqa: E731
+        cam = [s for s in camara_sesiones if en(s["fecha"])]
+        sen = [s for s in senado_sesiones if en(s["fecha"])]
+        sen_fut = [x for x in agenda.get("items", []) if x.get("camara") == "Senado" and x.get("tipo") == "Sala" and en(x["fecha"])]
+        com = [x for x in agenda.get("items", []) if x.get("camara") == "Senado" and x.get("tipo") == "Comisión" and en(x["fecha"]) and x.get("estado") != "Suspendida"]
+        urg = [{"boletin": p["boletin"], "urgencia": p["urgencia_vigente"], "vence": p["urgencia_vence_estimado"]}
+               for p in proyectos if p.get("situacion") == "En tramitación" and en(p.get("urgencia_vence_estimado"))]
+        semanas.append({
+            "desde": a, "hasta": b, "pasada": b < hoy, "actual": a <= hoy <= b,
+            "camara_sala": len(cam), "camara_dias": sorted({s["fecha"] for s in cam}),
+            "senado_sala": max(len(sen), len({x["instancia"] for x in sen_fut})), "senado_dias": sorted({s["fecha"] for s in sen} | {x["fecha"] for x in sen_fut}),
+            "senado_comisiones": len(com), "senado_comisiones_seguidos": sum(1 for x in com if x.get("seguidos")),
+            "feriados": [f for f in lista_feriados if en(f["fecha"])],
+            "urgencias_vencen": urg,
+        })
+    return semanas

@@ -198,6 +198,24 @@ class Agenda(unittest.TestCase):
         self.assertEqual(agenda.nombre_secretaria("PARA PRESENTAR EN SECRETARÍA DE LA COMISIÓN DE ECONOMíA"), "Secretaría de la Comisión de Economía")
 
 
+class Partidos(unittest.TestCase):
+    def test_votos_por_partido(self):
+        import partidos
+        votos = [{"seleccion": "Afirmativo", "p": "A"}, {"seleccion": "No Vota", "p": "A"}, {"seleccion": "En Contra", "p": "B"},
+                 {"seleccion": "Abstención", "p": "B"}, {"seleccion": "Pareo", "p": "B"}]
+        r = {d["partido"]: d for d in partidos.por_partido(votos, lambda v: v["p"])}
+        self.assertEqual((r["A"]["si"], r["A"]["no"], r["A"]["otros"]), (1, 0, 1))
+        self.assertEqual((r["B"]["no"], r["B"]["abstencion"], r["B"]["otros"]), (1, 1, 1))
+
+    def test_cruce_senador(self):
+        import partidos
+        idx = partidos.indice_senadores([{"apellidos": "De Rementería Venegas", "nombre": "Tomás", "partido": "P.S."},
+                                         {"apellidos": "Sepúlveda Orbenes", "nombre": "Alejandra", "partido": "Independiente"}])
+        self.assertEqual(partidos.senador_de_voto("De Rementería V., Tomás", idx)["partido"], "P.S.")
+        self.assertEqual(partidos.senador_de_voto("Sepúlveda O., Alejandra", idx)["partido"], "Independiente")
+        self.assertIsNone(partidos.senador_de_voto("Lagos W., Ricardo", idx))
+
+
 class SepararAutores(unittest.TestCase):
     def test_coma_y(self):
         self.assertEqual(actualizar.separar_autores("Pugh, Aravena, y Edwards, Macaya y Ossandón"),

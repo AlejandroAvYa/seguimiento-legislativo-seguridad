@@ -363,7 +363,7 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 <script>
 "use strict";
 /* ============================================================ datos y utilidades */
-const D = {tablero: [], meta: {}, cambios: [], proyectos: null, actores: null, ind: {}, agenda: {items: [], plazos_indicaciones: []}, acot: []};
+const D = {tablero: [], meta: {}, cambios: [], proyectos: null, actores: null, ind: {}, agenda: {items: [], plazos_indicaciones: []}, acot: [], calendario: {semanas: []}};
 const ETAPAS = [
   {c:"1C", g:"Primer trámite", n:"Comisión"}, {c:"1S", g:"Primer trámite", n:"Sala"},
   {c:"2C", g:"Segundo trámite", n:"Comisión"}, {c:"2S", g:"Segundo trámite", n:"Sala"},
@@ -371,6 +371,7 @@ const ETAPAS = [
   {c:"TC", g:"Control y promulgación", n:"TC · veto · Ejecutivo"}, {c:"LEY", g:"Ley", n:"Publicada"}];
 const VISTAS = [
   {id:"panorama", n:"Panorama", s:"Estado de todos los proyectos en una vista"},
+  {id:"autoridad", n:"Resumen para autoridades", s:"Lo que hay que saber y decidir esta semana"},
   {id:"agenda", n:"Agenda de la semana", s:"Citaciones, tabla de Sala y plazos de indicaciones"},
   {id:"acot", n:"Agenda ACOT", s:"Agenda contra el Crimen Organizado y el Terrorismo"},
   {id:"urgencias", n:"Urgencias y alertas", s:"Plazos de urgencia y señales de riesgo"},
@@ -426,7 +427,7 @@ async function ruta() {
   const v = VISTAS.find(x => x.id === h) || VISTAS[0];
   pintarNav(v.id); encabezado(v.n, v.s);
   $("#scroll").scrollTop = 0;
-  await ({panorama: vistaPanorama, agenda: vistaAgenda, acot: vistaAcot, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
+  await ({panorama: vistaPanorama, autoridad: vistaAutoridad, agenda: vistaAgenda, acot: vistaAcot, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
     cambios: vistaCambios, leyes: vistaLeyes, metodologia: vistaMetodo})[v.id]();
   pie();
 }
@@ -647,6 +648,8 @@ async function vistaFicha(b) {
             <div class="metric"><div class="k">Instancia</div><div class="v">${esc(instancia)}</div></div>
             <div class="metric"><div class="k">Tiempo en la etapa</div><div class="v tnum">${p.dias_en_etapa !== "" ? p.dias_en_etapa + " días" : "—"}<small>${p.dias_desde_ingreso} días desde el ingreso</small></div></div>
             <div class="metric"><div class="k">Urgencia</div><div class="v">${esc(urgTxt)}</div></div>
+            ${p.ritmo && p.ritmo.dias ? `<div class="metric"><div class="k">Ritmo</div><div class="v">${esc(p.ritmo.lectura[0].toUpperCase() + p.ritmo.lectura.slice(1))}<small>${p.ritmo.dias} días en el ${esc(p.ritmo.tramite.toLowerCase())}; lo habitual es ${p.ritmo.mediana} (mediana de ${p.ritmo.n_base} proyectos seguidos)</small></div></div>` : ""}
+            ${activo && p.urgencia_vigente !== "Sin urgencia" ? `<div class="metric"><div class="k">Urgencias desde el último avance</div><div class="v tnum">${p.n_urgencias_en_etapa || 0}<small>presentadas o renovadas sin informe, votación ni cambio de etapa</small></div></div>` : ""}
             <div class="metric" style="grid-column:1/-1"><div class="k">Último trámite · ${fmt(p.ultimo_tramite_fecha)}</div><div class="v" style="font-weight:600">${esc(p.ultimo_tramite)}</div></div>
           </div></div>
         ${(p.agenda || []).length || (p.plazo_indicaciones || []).length ? `<div class="dsec"><div class="dsec__t">Agenda</div>
@@ -664,6 +667,9 @@ async function vistaFicha(b) {
           ${(p.prioridad_motivos || []).length ? `<ul class="motivos">${p.prioridad_motivos.map(m => `<li>${esc(m)}</li>`).join("")}</ul>` : ""}
           ${(p.alertas || []).map(a => `<div class="alerta ${/Urgencia por vencer|rechazada|plazo cumplido/i.test(a.tipo) ? "r" : ""}">${ICON_AL}<div><b>${esc(a.tipo)}</b><span>${esc(a.detalle.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m)))}</span></div></div>`).join("")}
           <p class="small muted" style="margin-top:8px">Prioridad y acción se calculan con reglas fijas descritas en <a href="#metodologia">Fuentes y método</a>.</p></div>
+        ${p.comision_actual && p.comision_actual.integrantes ? `<div class="dsec"><div class="dsec__t">Integrantes de la ${esc(p.comision_actual.nombre)}</div>
+          <div class="tblwrap"><table class="dt"><tbody>${p.comision_actual.integrantes.map(i => `<tr><td style="color:var(--ink);font-weight:600">${esc(i.nombre)}${i.funcion ? ` <span class="tag">${esc(i.funcion)}</span>` : ""}</td><td>${esc(i.partido)}</td></tr>`).join("")}</tbody></table></div>
+          <p class="small muted" style="margin-top:6px">${resumenPartidos(p.comision_actual.integrantes)}</p></div>` : ""}
         <div class="dsec"><div class="dsec__t">Gestión MSP</div>
           <div class="metrics">${gest.map(([k, v]) => `<div class="metric"><div class="k">${k}</div><div class="v">${v ? esc(v) : '<span class="porinf">Por informar</span>'}</div></div>`).join("")}</div></div>
         <div class="dsec"><div class="dsec__t">Documentos oficiales</div><p>
@@ -760,7 +766,18 @@ function bloqueVoto(v, camara) {
     ${v.tema || v.descripcion ? `<div class="small muted" style="margin-top:4px">${esc((v.tema || v.descripcion).slice(0, 300))}</div>` : ""}
     <div class="vote__bar"><span style="width:${100 * v.si / tot}%;background:var(--c-ok)"></span><span style="width:${100 * v.no / tot}%;background:var(--c-red)"></span><span style="width:${100 * v.abstencion / tot}%;background:var(--c-slate)"></span></div>
     <div class="small" style="margin-top:4px"><b>${v.si}</b> a favor · <b>${v.no}</b> en contra · <b>${v.abstencion}</b> abstenciones</div>
+    ${(v.por_partido || []).length ? `<details><summary>Ver votos por partido</summary>${tablaPartidos(v.por_partido)}</details>` : ""}
     ${(v.votos || []).length ? `<details><summary>Ver cómo votó cada parlamentario</summary><div class="vote__list">${Object.entries(grupos).map(([k, ns]) => `<h5>${esc(k)} (${ns.length})</h5>${ns.sort().map(n => `<div>${esc(n)}</div>`).join("")}`).join("")}</div></details>` : ""}</div>`;
+}
+function tablaPartidos(lista, conProyectos) {
+  return `<div class="tblwrap"><table class="dt" style="margin-top:6px"><thead><tr><th>Partido</th><th style="text-align:right">Sí</th><th style="text-align:right">No</th><th style="text-align:right">Abst.</th>${conProyectos ? '<th style="text-align:right">Proyectos</th>' : ""}<th style="width:34%"></th></tr></thead><tbody>
+    ${lista.map(d => { const t = (d.si + d.no + d.abstencion) || 1;
+      return `<tr><td style="color:var(--ink);font-weight:600">${esc(d.partido)}</td><td class="n">${d.si}</td><td class="n">${d.no}</td><td class="n">${d.abstencion}</td>${conProyectos ? `<td class="n">${d.proyectos}</td>` : ""}
+        <td><div class="vote__bar" style="margin:0"><span style="width:${100 * d.si / t}%;background:var(--c-ok)"></span><span style="width:${100 * d.no / t}%;background:var(--c-red)"></span><span style="width:${100 * d.abstencion / t}%;background:var(--c-slate)"></span></div></td></tr>`; }).join("")}</tbody></table></div>`;
+}
+function resumenPartidos(integ) {
+  const c = {}; integ.forEach(i => c[i.partido] = (c[i.partido] || 0) + 1);
+  return "Composición: " + Object.entries(c).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${esc(k)} ${v}`).join(" · ") + ". Partido según el Senado.";
 }
 function pintarVotos(p, c) {
   const s = [...(p.votaciones || [])].reverse(), k = [...(p.votaciones_camara || [])].reverse();
@@ -834,6 +851,12 @@ async function vistaVotaciones() {
       ${sesiones.slice(0, 15).map(({p, c, fecha, vs}) => { const r = vs.filter(v => /rechaz/i.test(v.resultado || "")).length;
         return `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)}</div><div class="lrow__s">Sala ${c === "Senado" ? "del Senado" : "de la Cámara"} · ${fmt(fecha)} · ${vs.length === 1 ? `${vs[0].si} a favor, ${vs[0].no} en contra` : `${vs.length} votaciones`}</div></div>
         <div class="lrow__r">${vs.length - r ? `<span class="chip p-ley">${vs.length - r} ${vs.length - r === 1 ? "aprobada" : "aprobadas"}</span>` : ""} ${r ? `<span class="chip u-di">${r} ${r === 1 ? "rechazada" : "rechazadas"}</span>` : ""}</div></div>`; }).join("")}</div></div>
+    <div class="section-title">Votos por partido en los proyectos seguidos</div>
+    <div class="grid g2">
+      <div class="card"><div class="card__head"><span class="card__title">Sala del Senado</span><span class="card__sub">partido actual del senador</span></div><div class="card__body">${(A.partidos_senado || []).length ? tablaPartidos(A.partidos_senado, true) : '<div class="empty">Sin datos.</div>'}</div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Sala de la Cámara</span><span class="card__sub">militancia a la fecha de cada votación</span></div><div class="card__body">${(A.partidos_camara || []).length ? tablaPartidos(A.partidos_camara, true) : '<div class="empty">Sin datos.</div>'}</div></div>
+    </div>
+    <p class="small muted" style="margin-top:8px">Suma de todas las votaciones en Sala de los proyectos seguidos. "Sin información de partido" agrupa a exsenadores y a quienes no tienen militancia registrada en la fuente.</p>
     <div class="section-title">Parlamentarios</div>
     <div class="grid g2">
       ${tabla("Votos de senadores en Sala", A.votos_senadores, [["nombre","Senador/a"],["si","Sí","n"],["no","No","n"],["abstencion","Abst.","n"],["n_proyectos","Proyectos","n"]], "tSen")}
@@ -918,7 +941,14 @@ function vistaMetodo() {
       <dt>Urgencia sin movimiento</dt><dd>Tiene urgencia, pero no registra trámites en más de 30 días.</dd>
       <dt>Detenido en la misma etapa</dt><dd>Más de 180 días sin cambiar de etapa.</dd>
       <dt>Votación estrecha</dt><dd>La última votación en Sala se aprobó con una diferencia menor al 10 % de los votos.</dd>
-      <dt>Votación rechazada</dt><dd>La última votación registrada en Sala fue rechazada. Puede referirse a la idea de legislar o a una norma en particular.</dd></dl></div></div>
+      <dt>Votación rechazada</dt><dd>La última votación registrada en Sala fue rechazada. Puede referirse a la idea de legislar o a una norma en particular.</dd>
+      <dt>Urgencia renovada sin avance</dt><dd>Se han presentado 10 o más urgencias desde el último avance del proyecto (cambio de etapa, informe de comisión, votación o hito).</dd></dl></div></div>
+    <div class="section-title">Ritmo, partidos y calendario</div>
+    <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
+      <dt>Ritmo</dt><dd>Días que lleva el proyecto en su trámite actual, comparados con la mediana de los primeros y segundos trámites ya terminados de los proyectos seguidos. Más de 1,5 veces la mediana es "más lento que lo habitual".</dd>
+      <dt>Votos por partido</dt><dd>Senado: partido actual de cada senador según el listado del Senado; los exsenadores quedan como "sin información de partido". Cámara: militancia vigente a la fecha de la votación, según los datos abiertos de la Cámara.</dd>
+      <dt>Comisión actual</dt><dd>Integrantes de la comisión del Senado donde está el proyecto, según el servicio de comisiones del Senado. La Cámara no publica en datos abiertos la integración actual de sus comisiones.</dd>
+      <dt>Calendario</dt><dd>Sesiones de Sala realizadas y citadas de cada cámara, feriados legales y vencimiento de urgencias por semana.</dd></dl></div></div>
     <div class="section-title">Límites conocidos</div>
     <div class="card"><div class="card__body" style="padding-top:16px"><dl class="def">
       <dt>Indicaciones</dt><dd>Solo las del Senado traen el texto y autor de cada una. En la Cámara se registran los oficios del Ejecutivo con indicaciones.</dd>
@@ -928,6 +958,64 @@ function vistaMetodo() {
       <dt>Plazos de urgencia</dt><dd>Son estimaciones desde el ingreso de la urgencia.</dd></dl></div></div>`;
 }
 
+
+
+/* ============================================================ calendario */
+function tablaCalendario() {
+  const sem = (D.calendario.semanas || []);
+  if (!sem.length) return `<div class="card"><div class="empty">Calendario no disponible.</div></div>`;
+  const fut = sem.filter(s => !s.pasada), pas = sem.filter(s => s.pasada).slice(-4);
+  const dia = f => ["dom","lun","mar","mié","jue","vie","sáb"][new Date(f + "T12:00:00").getDay()];
+  const fila = s => {
+    const cam = s.camara_sala ? `${s.camara_sala} ${s.camara_sala === 1 ? "sesión" : "sesiones"} <span class="muted small">(${s.camara_dias.map(dia).join(", ")})</span>` : (s.pasada ? '<span class="muted">Sin sesiones de Sala</span>' : '<span class="muted">Sin citación publicada aún</span>');
+    const sen = s.senado_sala ? `${s.senado_sala} ${s.senado_sala === 1 ? "sesión" : "sesiones"} <span class="muted small">(${s.senado_dias.map(dia).join(", ")})</span>` : (s.pasada ? '<span class="muted">Sin sesiones de Sala</span>' : '<span class="muted">Sin tabla publicada aún</span>');
+    const urgs = s.urgencias_vencen || [];
+    return `<tr${s.actual ? ' style="background:var(--c-blue-soft)"' : ""}><td style="white-space:nowrap;color:var(--ink);font-weight:700">${fmt(s.desde).slice(0, 5)} al ${fmt(s.hasta).slice(0, 5)}${s.actual ? ' <span class="tag">esta semana</span>' : ""}</td>
+      <td>${cam}</td><td>${sen}${s.senado_comisiones ? `<div class="small muted">${s.senado_comisiones} citaciones de comisiones${s.senado_comisiones_seguidos ? `, ${s.senado_comisiones_seguidos} con proyectos seguidos` : ""}</div>` : ""}</td>
+      <td>${(s.feriados || []).map(f => `<div class="small">${fmt(f.fecha).slice(0, 5)} ${esc(f.nombre)}</div>`).join("") || '<span class="muted">—</span>'}</td>
+      <td class="n">${urgs.length ? `<span title="${esc(urgs.map(u => (proyecto(u.boletin) || {}).nombre_corto || u.boletin).join(" · "))}">${urgs.length}</span>` : '<span class="muted">0</span>'}</td></tr>`;
+  };
+  return `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Semana</th><th>Sala de la Cámara</th><th>Senado</th><th>Feriados</th><th style="text-align:right">Urgencias que vencen</th></tr></thead>
+    <tbody>${fut.map(fila).join("")}<tr><td colspan="5" class="small muted" style="background:var(--surface-2)">Semanas anteriores (sesiones realizadas)</td></tr>${pas.slice().reverse().map(fila).join("")}</tbody></table></div></div>
+    <p class="small muted" style="margin-top:6px">Sesiones según los registros oficiales de cada cámara. Una semana pasada sin sesiones de Sala corresponde normalmente a semana distrital (Cámara) o regional (Senado), o a feriados. Las semanas futuras solo muestran lo ya citado: las cámaras no publican su calendario de semanas distritales y regionales en un formato que se pueda consultar automáticamente.</p>`;
+}
+
+/* ============================================================ vista: resumen para autoridades */
+function vistaAutoridad() {
+  const T = D.tablero, hoy = hoyISO(), tram = T.filter(enTram);
+  const sem = (D.calendario.semanas || []).find(s => s.actual) || {};
+  const decidir = tram.filter(p => (p.alertas || []).some(a => /Urgencia (por vencer|con plazo cumplido|renovada)|Votación rechazada/.test(a.tipo)) && ["Crítica", "Alta"].includes(p.prioridad_nivel))
+    .sort((a, b) => (+b.prioridad_indice || 0) - (+a.prioridad_indice || 0)).slice(0, 8);
+  const semana = sesionesSeguidas().filter(x => x.fecha >= (sem.desde || hoy) && x.fecha <= (sem.hasta || hoy) || x.fecha >= hoy).slice(0, 8);
+  const hace7 = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  const cambios = D.cambios.filter(c => c.tipo !== "Nuevo trámite" && c.fecha_deteccion.slice(0, 10) >= hace7);
+  const hitosRel = cambios.filter(c => /Situación|Etapa|N° de ley|Nueva votación|Nuevo informe|Citado/.test(c.tipo)).slice(0, 8);
+  const acot = T.filter(p => p.acot_n), acotT = acot.filter(enTram);
+  const caja = (titulo, sub, cuerpo, color) => `<div class="card"><div class="card__head"><span class="card__title"${color ? ` style="color:${color}"` : ""}>${titulo}</span><span class="card__sub">${sub}</span></div><div class="card__body">${cuerpo}</div></div>`;
+  $("#page").innerHTML = `
+    <section class="hero"><div class="hero__k">Resumen para autoridades</div>
+      <div class="hero__t">Semana del ${fmt(sem.desde || hoy).slice(0, 5)} al ${fmt(sem.hasta || hoy)}</div>
+      <div class="hero__meta">Seguridad pública y prevención del delito · ${tram.length} proyectos en tramitación · datos al ${fmt(D.meta.ultima_actualizacion_datos)}</div>
+      <div class="hero__stats">${[
+        [decidir.length, "Requieren decisión", "prioridad crítica o alta con alerta"],
+        [semana.length, "Sesiones con proyectos seguidos", "comisiones y Sala"],
+        [T.filter(vence7).length, "Urgencias vencen en 7 días", "plazo estimado"],
+        [hitosRel.length, "Avances en 7 días", "etapa, votación, informe, ley"],
+        [`${acotT.length}/${acot.length}`, "ACOT en tramitación", `${acot.filter(p => proxSesion(p)).length} citadas esta semana`]]
+        .map(([v, l, x]) => `<div class="hstat" style="cursor:default"><div class="hstat__n tnum">${v}</div><div class="hstat__l">${l}</div><div class="hstat__s">${x}</div></div>`).join("")}</div></section>
+    <div class="grid g2">
+      ${caja("Qué requiere decisión", "prioridad crítica o alta", decidir.length ? decidir.map(p => { const a = p.alertas.find(x => /Urgencia (por vencer|con plazo cumplido|renovada)|Votación rechazada/.test(x.tipo));
+        return `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)} ${p.acot_n ? `<span class="tag">ACOT ${esc(p.acot_n)}</span>` : ""}</div>
+          <div class="lrow__s"><b style="color:var(--ink-2)">${esc(a.tipo)}.</b> ${esc(p.accion_sugerida)}</div></div><div class="lrow__r">${prio(p)}</div></div>`; }).join("") : '<div class="empty">Nada pendiente de decisión.</div>', "var(--c-red)")}
+      ${caja("Qué pasa esta semana en el Congreso", "proyectos seguidos", semana.length ? semana.map(x => `<div class="lrow" data-b="${esc(x.seguidos[0])}"><div class="lrow__main"><div class="lrow__t">${esc(x.seguidos.map(b => (proyecto(b) || {}).nombre_corto || b).join(" · "))}</div>
+          <div class="lrow__s">${esc(x.instancia)}${(x.invitados || []).length ? " · con invitados" : ""}${x.estado === "Suspendida" ? " · suspendida" : ""}</div></div><div class="lrow__r">${x.fecha === hoy ? "Hoy" : fmt(x.fecha).slice(0, 5)}<div class="small muted" style="font-weight:500">${esc((x.horario || "").split(" a ")[0])}</div></div></div>`).join("") : '<div class="empty">Sin sesiones citadas para los proyectos seguidos.</div>')}
+      ${caja("Qué avanzó en los últimos 7 días", `${cambios.length} cambios relevantes`, hitosRel.length ? hitosRel.map(c => `<div class="lrow" data-b="${esc(c.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc((proyecto(c.boletin) || {}).nombre_corto || c.boletin)}</div><div class="lrow__s">${esc(textoCambio(c))}</div></div><div class="lrow__r muted mono" style="font-weight:500;font-size:11px">${fmt(c.fecha_deteccion.slice(0, 10)).slice(0, 5)}</div></div>`).join("") : '<div class="empty">Sin avances registrados.</div>')}
+      ${caja("Urgencias que vencen esta semana y la próxima", "plazo estimado", T.filter(p => enTram(p) && p.urgencia_vence_estimado && diasHasta(p.urgencia_vence_estimado) >= 0 && diasHasta(p.urgencia_vence_estimado) <= 14).sort((a, b) => a.urgencia_vence_estimado.localeCompare(b.urgencia_vence_estimado)).slice(0, 8)
+        .map(p => `<div class="lrow" data-b="${esc(p.boletin)}"><div class="lrow__main"><div class="lrow__t">${esc(p.nombre_corto)}</div><div class="lrow__s">${esc(p.etapa_texto)}</div></div><div class="lrow__r">${urg(p.urgencia_vigente)}<div class="small" style="margin-top:3px">${fmt(p.urgencia_vence_estimado).slice(0, 5)}</div></div></div>`).join("") || '<div class="empty">Ninguna.</div>')}
+    </div>
+    <p class="small muted" style="margin-top:12px">Cada fila abre la ficha del proyecto. Las prioridades y acciones se calculan con las reglas de <a href="#metodologia">Fuentes y método</a>.</p>`;
+  document.querySelectorAll("#page .lrow[data-b]").forEach(r => r.addEventListener("click", () => { if (proyecto(r.dataset.b)) location.hash = linkFicha(r.dataset.b); }));
+}
 
 /* ============================================================ vista: agenda de la semana */
 function vistaAgenda() {
@@ -965,10 +1053,14 @@ function vistaAgenda() {
       : `<div class="card"><div class="empty">Sin notas de tabla publicadas por la Cámara en las últimas semanas.</div></div>`;
   };
   const nSeg = (A.items || []).filter(x => (x.seguidos || []).length && x.fecha >= hoy).length;
+  setTimeout(() => { const el = $("#agCal"); if (el) el.innerHTML = tablaCalendario(); }, 0);
   $("#page").innerHTML = `<div class="page__eyebrow">Agenda de la semana</div><h1 class="page__title">Qué se discute y quiénes asisten</h1>
     <p class="page__lead">${nSeg} sesiones citadas desde hoy tratan proyectos seguidos. Se muestran las citaciones de comisiones del Senado con su materia e invitados, la tabla de la Sala del Senado, las sesiones de Sala de la Cámara y los plazos para presentar indicaciones. Se actualiza cada hora.</p>
     <div class="filterbar"><div class="seg" id="agTodo"><button type="button" data-k="0" class="is-on">Solo proyectos seguidos</button><button type="button" data-k="1">Toda la agenda</button></div>
       <span class="fcount">Desde el ${fmt(A.desde || hoy)}${fuentes.estado && fuentes.estado !== "ok" ? " · algunas fuentes sin conexión; se muestran los últimos datos obtenidos" : ""}</span></div>
+    <div class="section-title">Calendario de las próximas semanas</div>
+    <div id="agCal"></div>
+    <div class="section-title">Sesiones citadas</div>
     <div id="agLista"></div>
     <div class="section-title">Plazos para presentar indicaciones</div><div id="agPlazos"></div>
     <div class="section-title">Cámara: tabla anunciada y trabajo en comisiones</div>
@@ -1023,9 +1115,9 @@ function a11y() {
 
 /* ============================================================ inicio */
 (async () => {
-  const [t, m, c, ag, ac] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", []),
-    cargar("data/agenda.json", {items: [], plazos_indicaciones: []}), cargar("data/acot.json", [])]);
-  Object.assign(D, {tablero: t, meta: m, cambios: c, agenda: ag, acot: ac});
+  const [t, m, c, ag, ac, cal] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", []),
+    cargar("data/agenda.json", {items: [], plazos_indicaciones: []}), cargar("data/acot.json", []), cargar("data/calendario.json", {semanas: []})]);
+  Object.assign(D, {tablero: t, meta: m, cambios: c, agenda: ag, acot: ac, calendario: cal});
   if (!t.length) { $("#page").innerHTML = `<div class="empty">No se pudieron cargar los datos. Esta página debe abrirse desde GitHub Pages o un servidor web.</div>`; return; }
   const f = m.fuentes || {}, ok = k => (f[k] && (f[k].estado || "").startsWith("ok"));
   $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${fmt(m.ultima_actualizacion_datos)}`;

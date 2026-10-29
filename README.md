@@ -39,6 +39,7 @@ data/cambios.csv / cambios.json   Historial de cambios detectados
 data/candidatos.csv               Proyectos detectados para revisar y su decisión
 data/agenda.json                  Agenda de la semana: citaciones, tabla de Sala y plazos de indicaciones
 data/acot.json                    Iniciativas ACOT con su estado
+data/calendario.json              Calendario semana a semana
 data/meta.json                    Fechas de actualización y estado de cada fuente
 data/cache_*.json                 Datos ya descargados (no se editan)
 informes/                         Informes semanales en Word (se crean solos los lunes)
@@ -46,7 +47,8 @@ scripts/actualizar.py             Proceso de actualización
 scripts/senado.py, camara.py      Lectura de las fuentes oficiales
 scripts/indicaciones.py           Lectura de los boletines de indicaciones (autor y texto)
 scripts/gestion.py                Etapa normalizada, prioridad, acción sugerida y alertas
-scripts/agenda.py                 Agenda: citaciones de comisiones, tabla de Sala y plazos de indicaciones
+scripts/agenda.py                 Agenda: citaciones de comisiones, tabla de Sala, plazos de indicaciones y calendario
+scripts/partidos.py               Partido de cada parlamentario y composición de comisiones del Senado
 scripts/alertas.py                Avisos por correo y Teams; resumen diario
 scripts/informe_semanal.py        Informe semanal en Word
 tests/                            Pruebas (se ejecutan antes de cada actualización)
@@ -161,6 +163,7 @@ Se abre en `https://TU_USUARIO.github.io/seguimiento-legislativo-seguridad/` y t
 |---|---|
 | Panorama | Resumen en cifras, atención inmediata, movimientos recientes y el **cuadro de avance**: cada proyecto en una fila y las ocho etapas en columnas (primer trámite comisión y Sala, segundo trámite comisión y Sala, tercer trámite, Comisión Mixta, control y promulgación, ley). La etapa actual se marca con la cámara (S, C o M) y el color de la urgencia. |
 | Ficha del proyecto | Se abre con un clic en cualquier proyecto: avance por etapa con fechas, qué hace, dónde está, prioridad y alertas, gestión MSP, línea de tiempo, indicaciones (por autor, por artículo y el texto de cada una), votaciones de ambas cámaras con el voto de cada parlamentario, informes, oficios y todos los trámites. |
+| Resumen para autoridades | Una pantalla para el Subsecretario, el Ministro y sus asesores: qué requiere decisión, qué pasa esta semana en el Congreso, qué avanzó en 7 días y qué urgencias vencen. |
 | Agenda de la semana | Citaciones de comisiones del Senado con materia e invitados, tabla de la Sala del Senado, sesiones de Sala de la Cámara y plazos para presentar indicaciones. Por defecto muestra solo lo que toca proyectos seguidos. |
 | Agenda ACOT | Las 29 iniciativas de la ACOT: cuadro de avance de las que tienen boletín y estado de las anunciadas sin boletín. En el panorama, el botón "Solo ACOT" filtra el cuadro. |
 | Urgencias y alertas | Urgencias que vencen en 7 y 30 días, plazos cumplidos sin renovación y alertas de riesgo. |
@@ -173,6 +176,8 @@ Se abre en `https://TU_USUARIO.github.io/seguimiento-legislativo-seguridad/` y t
 La barra superior incluye los elementos del Kit Digital de Gobierno: línea institucional azul y roja, botones para aumentar o reducir el texto y modo de alto contraste, y enlace para saltar al contenido.
 
 Las citaciones de comisiones de la Cámara (con materia e invitados) solo se publican en camara.cl, que bloquea consultas desde servidores fuera de Chile. Para incluirlas hay que ejecutar la actualización desde un computador en Chile (ver "Si la Cámara no conecta").
+
+La agenda incluye un calendario semana a semana (sesiones de Sala de cada cámara, citaciones, feriados y urgencias que vencen). La ficha muestra el ritmo de tramitación frente a la mediana de los proyectos seguidos, las urgencias presentadas desde el último avance, los integrantes de la comisión del Senado donde está el proyecto y los votos por partido de cada votación.
 
 La prioridad (crítica, alta, media, baja) y la acción sugerida se calculan con reglas fijas en `scripts/gestion.py`, descritas en la vista Fuentes y método.
 

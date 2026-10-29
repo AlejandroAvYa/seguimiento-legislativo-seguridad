@@ -24,6 +24,7 @@ import indicaciones as ind_mod  # noqa: E402
 import camara  # noqa: E402
 import gestion  # noqa: E402
 import agenda as agenda_mod  # noqa: E402
+import partidos as partidos_mod  # noqa: E402
 import senado  # noqa: E402
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -391,7 +392,7 @@ CAMPOS_PLANOS = ["boletin", "nombre_corto", "acot_n", "acot_iniciativa", "titulo
                  "n_votaciones_sala_camara", "ultima_votacion_sala_camara", "veto",
                  "link_senado", "link_camara", "link_texto"]
 # versión liviana para la portada del dashboard (la ficha completa se carga desde proyectos.json)
-CAMPOS_TABLERO = ["boletin", "nombre_corto", "acot_n", "acot_iniciativa", "acot_grupo", "agenda", "plazo_indicaciones", "titulo", "clasificacion", "materia", "descripcion", "acot", "situacion",
+CAMPOS_TABLERO = ["boletin", "n_urgencias_en_etapa", "ritmo", "nombre_corto", "acot_n", "acot_iniciativa", "acot_grupo", "agenda", "plazo_indicaciones", "titulo", "clasificacion", "materia", "descripcion", "acot", "situacion",
                   "etapa_codigo", "etapa_texto", "avance_estados", "avance_camaras", "instancia_actual", "camara_actual",
                   "camara_origen", "dias_en_etapa", "fecha_ingreso", "iniciativa", "urgencia_vigente", "urgencia_vence_estimado",
                   "urgencia_plazo", "prioridad_indice", "prioridad_nivel", "accion_sugerida", "alertas", "ultimo_tramite_fecha",
@@ -549,6 +550,94 @@ def escribir_detalle(orden, cache):
 # ----------------------------------------------------------------- Cámara de Diputados
 RUTA_CACHE_CAMARA = os.path.join(DATA, "cache_votaciones_camara.json")
 RUTA_AGENDA = os.path.join(DATA, "agenda.json")
+
+
+RUTA_CACHE_PARTIDOS = os.path.join(DATA, "cache_partidos.json")
+
+
+def agregar_partidos(nuevos, cache_cam, hoy):
+    """Agrega el desglose por partido a cada votación y la composición de la comisión actual (Senado)."""
+    cache = leer_json(RUTA_CACHE_PARTIDOS, {})
+    estados = []
+    if cache.get("fecha") != hoy or not cache.get("diputados") or not cache.get("senadores"):   # se renueva una vez al día
+        for clave, f in (("senadores", partidos_mod.senadores), ("comisiones", partidos_mod.comisiones_senado)):
+            try:
+                cache[clave] = f()
+                estados.append(f"{clave} ok")
+            except Exception as e:  # noqa: BLE001
+                estados.append(f"{clave} sin conexión ({type(e).__name__})")
+        try:
+            ids = {x["diputado_id"] for vs in cache_cam.get("detalles", {}).values() for x in vs}
+            todos = partidos_mod.diputados()
+            cache["diputados"] = {i: todos[i] for i in ids if i in todos}
+            estados.append("diputados ok")
+        except Exception as e:  # noqa: BLE001
+            estados.append(f"diputados sin conexión ({type(e).__name__})")
+        if any(e.endswith(" ok") for e in estados):
+            cache["fecha"] = hoy
+            escribir_json(RUTA_CACHE_PARTIDOS, cache)
+    else:
+        estados.append("datos del día")
+    idx = partidos_mod.indice_senadores(cache.get("senadores", []))
+    dips = cache.get("diputados", {})
+    for p in nuevos.values():
+        for v in p.get("votaciones", []):
+            v["por_partido"] = partidos_mod.por_partido(v.get("votos", []), lambda x: (partidos_mod.senador_de_voto(x.get("parlamentario"), idx) or {}).get("partido"))
+        for v in p.get("votaciones_camara", []):
+            v["por_partido"] = partidos_mod.por_partido(v.get("votos", []), lambda x, f=v["fecha"]: partidos_mod.partido_diputado(dips.get(x.get("diputado_id")), f))
+        p["comision_actual"] = {}
+        if p.get("situacion") == "En tramitación" and p.get("camara_actual") == "Senado" and (p.get("instancia_actual") or "").startswith("Comisión"):
+            c = partidos_mod.comision_de(p["instancia_actual"], cache.get("comisiones", []))
+            if c:
+                integ = []
+                for i in c["integrantes"]:
+                    s_ = next((s for s in cache.get("senadores", []) if all(w in partidos_mod.norm(i["nombre"]) for w in partidos_mod.norm(s["apellidos"]))), None)
+                    integ.append({"nombre": i["nombre"], "funcion": i["funcion"], "partido": s_["partido"] if s_ else partidos_mod.SIN_DATO})
+                p["comision_actual"] = {"nombre": "Comisión " + c["nombre"], "integrantes": integ}
+    return ", ".join(estados)
+
+
+def partidos_agregados(orden):
+    """Votos por partido sumando todas las votaciones de Sala de los proyectos seguidos."""
+    res = {}
+    for clave, lista in (("partidos_senado", "votaciones"), ("partidos_camara", "votaciones_camara")):
+        tot = {}
+        for p in orden:
+            for v in p.get(lista, []):
+                for d in v.get("por_partido", []):
+                    t = tot.setdefault(d["partido"], {"partido": d["partido"], "si": 0, "no": 0, "abstencion": 0, "otros": 0, "proyectos": set()})
+                    for k in ("si", "no", "abstencion", "otros"):
+                        t[k] += d[k]
+                    t["proyectos"].add(p["boletin"])
+        res[clave] = sorted([{**t, "proyectos": len(t["proyectos"])} for t in tot.values()],
+                            key=lambda t: (t["partido"] == partidos_mod.SIN_DATO, -(t["si"] + t["no"] + t["abstencion"])))
+    return res
+
+
+def armar_calendario(hoy, agenda, proyectos):
+    previo = leer_json(os.path.join(DATA, "calendario.json"), {})
+    estados, cam, sen = [], previo.get("_camara_sesiones", []), previo.get("_senado_sesiones", [])
+    try:
+        cam = [{"fecha": s["fecha"], "tipo": s["tipo"], "estado": s["estado"]} for s in camara.sesiones_sala(int(hoy[:4]))]
+        if hoy[5:7] == "01":
+            cam += [{"fecha": s["fecha"], "tipo": s["tipo"], "estado": s["estado"]} for s in camara.sesiones_sala(int(hoy[:4]) - 1)]
+        estados.append("Cámara ok")
+    except Exception as e:  # noqa: BLE001
+        estados.append(f"Cámara sin conexión ({type(e).__name__})")
+    try:
+        sen = agenda_mod.senado_sesiones_sala()
+        estados.append("Senado ok")
+    except Exception as e:  # noqa: BLE001
+        estados.append(f"Senado sin conexión ({type(e).__name__})")
+    fer = previo.get("feriados", [])
+    if not any(f["fecha"].startswith(hoy[:4]) for f in fer) or (hoy[5:7] == "12" and not any(f["fecha"].startswith(str(int(hoy[:4]) + 1)) for f in fer)):
+        try:
+            fer = agenda_mod.feriados(int(hoy[:4])) + (agenda_mod.feriados(int(hoy[:4]) + 1) if hoy[5:7] == "12" else [])
+            estados.append(f"feriados ok ({fer[0]['fuente'] if fer else 's/f'})")
+        except Exception as e:  # noqa: BLE001
+            estados.append(f"feriados sin conexión ({type(e).__name__})")
+    semanas = agenda_mod.calendario(hoy, cam, sen, agenda, proyectos, fer)
+    return {"semanas": semanas, "feriados": fer, "_camara_sesiones": cam, "_senado_sesiones": sen}, ", ".join(estados)
 
 
 def acot_filas():
@@ -795,6 +884,15 @@ def main():
         p["agenda"], p["plazo_indicaciones"] = agenda_mod.agenda_de(p["boletin"], agenda)
         p.update(acot.get(p["boletin"], {"acot_n": "", "acot_iniciativa": "", "acot_grupo": ""}))
         gestion.evaluar(p, hoy)
+    gestion.ritmo(list(nuevos.values()), hoy)
+
+    # partidos: votos por partido y composición de la comisión del Senado donde está cada proyecto
+    estado_partidos = agregar_partidos(nuevos, cache_cam, hoy)
+    print(f"  Partidos: {estado_partidos}")
+
+    # calendario legislativo (semanas pasadas y próximas)
+    calendario, estado_cal = armar_calendario(hoy, agenda, list(nuevos.values()))
+    print(f"  Calendario: {estado_cal}")
 
     orden = sorted(nuevos.values(), key=lambda p: int(p["boletin"].split("-")[0]))
 
@@ -848,8 +946,11 @@ def main():
     escribir_csv(os.path.join(DATA, "votos_camara.csv"),
                  [{"boletin": p["boletin"], "votacion_id": v["id"], "fecha": v["fecha"], **x} for p in orden for v in p.get("votaciones_camara", []) for x in v["votos"]],
                  ["boletin", "votacion_id", "fecha", "diputado_id", "diputado", "seleccion"])
-    escribir_json(os.path.join(DATA, "actores.json"), calcular_actores(orden))
+    actores = calcular_actores(orden)
+    actores.update(partidos_agregados(orden))
+    escribir_json(os.path.join(DATA, "actores.json"), actores)
     escribir_json(RUTA_AGENDA, agenda)
+    escribir_json(os.path.join(DATA, "calendario.json"), calendario)
     escribir_json(os.path.join(DATA, "acot.json"), acot_lista(acot_filas(), nuevos))
     escribir_json(os.path.join(SALIDA, "cambios_nuevos.json"), cambios_nuevos)
     escribir_csv(os.path.join(DATA, "cambios.csv"), hist, ["fecha_deteccion", "boletin", "tipo", "antes", "despues"])
@@ -868,6 +969,8 @@ def main():
         "fuentes": {
             "senado": {"estado": "ok" if not errores else f"ok con {len(errores)} boletines sin respuesta", "ultima_consulta_exitosa": marca[:10]},
             "camara_votaciones": estado_camara,
+            "partidos": {"estado": estado_partidos},
+            "calendario": {"estado": estado_cal},
             "agenda": {"estado": "ok" if all(v["estado"] == "ok" for v in estado_agenda.values()) else
                        ("parcial" if any(v["estado"] == "ok" for v in estado_agenda.values()) else "sin conexión"),
                        "detalle": estado_agenda,
