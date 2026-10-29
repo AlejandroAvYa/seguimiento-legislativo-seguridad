@@ -1,5 +1,12 @@
 [
  {
+  "fecha_deteccion": "2026-10-28 22:50",
+  "boletin": "18585-25",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-10-28 16:07 a 19:49 – Sala del Senado · sesión ordinaria N° 75"
+ },
+ {
   "fecha_deteccion": "2026-10-28 17:53",
   "boletin": "18590-07",
   "tipo": "Nuevo trámite",
