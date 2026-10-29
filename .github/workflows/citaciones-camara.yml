@@ -1,0 +1,45 @@
+name: Citaciones de comisiones de la Cámara (computador en Chile)
+
+# camara.cl rechaza consultas desde servidores fuera de Chile. Esta tarea corre en un computador de la SPD
+# registrado como runner propio con la etiqueta "camara" (ver README, sección "Citaciones de la Cámara").
+# Lunes a viernes, cada hora entre las 9 y las 20 (hora de Chile en horario de verano; una hora antes en invierno).
+on:
+  schedule:
+    - cron: "5 12-23 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: citaciones-camara
+  cancel-in-progress: true        # si el computador estuvo apagado, solo queda una ejecución pendiente
+
+jobs:
+  citaciones:
+    runs-on: [self-hosted, camara]
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias (usa el Chrome ya instalado en el equipo)
+        run: python -m pip install --quiet playwright
+
+      - name: Leer citaciones de la semana actual y la siguiente
+        run: python scripts/citaciones_camara.py
+
+      - name: Guardar en el repositorio
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/citaciones_camara.json
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { Write-Output "Sin cambios."; exit 0 }
+          git commit -m "Citaciones de la Cámara $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+          git pull --rebase
+          git push

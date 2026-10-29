@@ -954,7 +954,7 @@ function vistaMetodo() {
       <dt>Indicaciones</dt><dd>Solo las del Senado traen el texto y autor de cada una. En la Cámara se registran los oficios del Ejecutivo con indicaciones.</dd>
       <dt>Votaciones de la Cámara</dt><dd>Solo en Sala y desde 2022.</dd>
       <dt>Agenda del Senado</dt><dd>Citaciones de comisiones (con materia e invitados), tabla de Sala y plazos de indicaciones, desde el sitio de tramitación del Senado.</dd>
-      <dt>Agenda de la Cámara</dt><dd>Solo las sesiones de Sala citadas (fecha y hora), desde los datos abiertos de la Cámara. Las citaciones de comisiones de la Cámara, con su materia e invitados, se publican solo en camara.cl, que bloquea las consultas desde servidores fuera de Chile; para incluirlas se requiere ejecutar la actualización desde un computador en Chile.</dd>
+      <dt>Agenda de la Cámara</dt><dd>Sesiones de Sala citadas (datos abiertos de la Cámara) y citaciones de comisiones con materia e invitados, leídas desde camara.cl por un computador de la SPD en Chile de lunes a viernes entre 9 y 20 horas, porque ese sitio rechaza consultas desde servidores fuera de Chile.</dd>
       <dt>Plazos de urgencia</dt><dd>Son estimaciones desde el ingreso de la urgencia.</dd></dl></div></div>`;
 }
 
@@ -971,11 +971,11 @@ function tablaCalendario() {
     const sen = s.senado_sala ? `${s.senado_sala} ${s.senado_sala === 1 ? "sesión" : "sesiones"} <span class="muted small">(${s.senado_dias.map(dia).join(", ")})</span>` : (s.pasada ? '<span class="muted">Sin sesiones de Sala</span>' : '<span class="muted">Sin tabla publicada aún</span>');
     const urgs = s.urgencias_vencen || [];
     return `<tr${s.actual ? ' style="background:var(--c-blue-soft)"' : ""}><td style="white-space:nowrap;color:var(--ink);font-weight:700">${fmt(s.desde).slice(0, 5)} al ${fmt(s.hasta).slice(0, 5)}${s.actual ? ' <span class="tag">esta semana</span>' : ""}</td>
-      <td>${cam}</td><td>${sen}${s.senado_comisiones ? `<div class="small muted">${s.senado_comisiones} citaciones de comisiones${s.senado_comisiones_seguidos ? `, ${s.senado_comisiones_seguidos} con proyectos seguidos` : ""}</div>` : ""}</td>
+      <td>${cam}${s.camara_comisiones ? `<div class="small muted">${s.camara_comisiones} citaciones de comisiones${s.camara_comisiones_seguidos ? `, ${s.camara_comisiones_seguidos} con proyectos seguidos` : ""}</div>` : ""}</td><td>${sen}${s.senado_comisiones ? `<div class="small muted">${s.senado_comisiones} citaciones de comisiones${s.senado_comisiones_seguidos ? `, ${s.senado_comisiones_seguidos} con proyectos seguidos` : ""}</div>` : ""}</td>
       <td>${(s.feriados || []).map(f => `<div class="small">${fmt(f.fecha).slice(0, 5)} ${esc(f.nombre)}</div>`).join("") || '<span class="muted">—</span>'}</td>
       <td class="n">${urgs.length ? `<span title="${esc(urgs.map(u => (proyecto(u.boletin) || {}).nombre_corto || u.boletin).join(" · "))}">${urgs.length}</span>` : '<span class="muted">0</span>'}</td></tr>`;
   };
-  return `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Semana</th><th>Sala de la Cámara</th><th>Senado</th><th>Feriados</th><th style="text-align:right">Urgencias que vencen</th></tr></thead>
+  return `<div class="card"><div class="tblwrap"><table class="dt"><thead><tr><th>Semana</th><th>Cámara</th><th>Senado</th><th>Feriados</th><th style="text-align:right">Urgencias que vencen</th></tr></thead>
     <tbody>${fut.map(fila).join("")}<tr><td colspan="5" class="small muted" style="background:var(--surface-2)">Semanas anteriores (sesiones realizadas)</td></tr>${pas.slice().reverse().map(fila).join("")}</tbody></table></div></div>
     <p class="small muted" style="margin-top:6px">Sesiones según los registros oficiales de cada cámara. Una semana pasada sin sesiones de Sala corresponde normalmente a semana distrital (Cámara) o regional (Senado), o a feriados. Las semanas futuras solo muestran lo ya citado: las cámaras no publican su calendario de semanas distritales y regionales en un formato que se pueda consultar automáticamente.</p>`;
 }
@@ -1066,7 +1066,9 @@ function vistaAgenda() {
     <div class="section-title">Cámara: tabla anunciada y trabajo en comisiones</div>
     <div class="notebar">Notas que publica la prensa de la Cámara: cada semana anuncia la tabla de la Sala y da cuenta del trabajo de las comisiones. Se muestran el título, el resumen y el enlace a la nota completa. Con "Toda la agenda" se ven también las notas de comisiones.</div>
     <div id="agCamara"></div>
-    <div class="notebar" style="margin-top:16px">Las citaciones de comisiones de la Cámara, con su materia e invitados, se publican solo en camara.cl, que exige una verificación de navegador y rechaza las consultas automáticas desde servidores. Para incorporarlas hay que ejecutar la actualización desde un computador en Chile o pedir a la Cámara que las publique en sus datos abiertos.</div>`;
+    <div class="notebar" style="margin-top:16px">${(() => { const e = ((D.meta.fuentes || {}).agenda || {}).detalle || {}; const c = e.camara_comisiones;
+      return c ? `Citaciones de comisiones de la Cámara leídas desde camara.cl por un computador de la SPD en Chile (última lectura: ${fmt(c.actualizado)}${c.estado === "ok" ? "" : "; sin actualizar recientemente"}).`
+        : "Las citaciones de comisiones de la Cámara se incorporan cuando el computador de la SPD en Chile las lee desde camara.cl (lunes a viernes, de 9 a 20 horas)."; })()}</div>`;
   document.querySelectorAll("#agTodo button").forEach(b => b.addEventListener("click", () => { st.todo = b.dataset.k === "1"; document.querySelectorAll("#agTodo button").forEach(x => x.classList.toggle("is-on", x === b)); pintar(); }));
   pintar();
 }

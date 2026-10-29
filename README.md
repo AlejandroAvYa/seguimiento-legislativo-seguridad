@@ -48,6 +48,7 @@ scripts/senado.py, camara.py      Lectura de las fuentes oficiales
 scripts/indicaciones.py           Lectura de los boletines de indicaciones (autor y texto)
 scripts/gestion.py                Etapa normalizada, prioridad, acción sugerida y alertas
 scripts/agenda.py                 Agenda: citaciones de comisiones, tabla de Sala, plazos de indicaciones y calendario
+scripts/citaciones_camara.py      Citaciones de comisiones de la Cámara (corre en el computador en Chile)
 scripts/partidos.py               Partido de cada parlamentario y composición de comisiones del Senado
 scripts/alertas.py                Avisos por correo y Teams; resumen diario
 scripts/informe_semanal.py        Informe semanal en Word
@@ -196,6 +197,26 @@ El informe semanal también se puede generar a pedido: **Actions** → **Resumen
 Los cambios menores (cada trámite nuevo) no generan aviso, pero quedan en `data/cambios.csv` y en el dashboard.
 
 ---
+
+## Citaciones de comisiones de la Cámara (computador en Chile)
+
+camara.cl rechaza las consultas desde servidores fuera de Chile, así que las citaciones de comisiones de la Cámara las lee un computador de la SPD. Basta con que esté encendido de lunes a viernes entre las 9 y las 20 horas. Si está apagado, la tarea espera y corre al encenderlo; el resto del sistema sigue funcionando en GitHub.
+
+Instalación (una vez, en Windows):
+
+1. Tener instalados **Git para Windows** y **Google Chrome**.
+2. En GitHub: **Settings → Actions → Runners → New self-hosted runner → Windows**. GitHub muestra los comandos con un código de registro válido por una hora.
+3. Abrir **PowerShell** y ejecutar los comandos de la sección *Download* (crean la carpeta `C:\actions-runner` y descargan el programa).
+4. Ejecutar el comando de la sección *Configure*. Cuando pregunte:
+   - *runner group*: Enter.
+   - *name of runner*: `spd-camara` (o Enter).
+   - *additional labels*: escribir **`camara`** (importante).
+   - *work folder*: Enter.
+   - *run as service*: **N** (la tarea abre Chrome y necesita la sesión de Windows iniciada).
+5. Iniciar el runner con `.\run.cmd`. Para que parta solo al encender el equipo, crear un acceso directo a `C:\actions-runner\run.cmd` en la carpeta de inicio de Windows (Win+R → `shell:startup`).
+6. Probar: **Actions → Citaciones de comisiones de la Cámara → Run workflow**.
+
+El equipo no debe suspenderse en ese horario (la pantalla puede bloquearse, pero la sesión debe quedar iniciada).
 
 ## Si la Cámara no conecta
 

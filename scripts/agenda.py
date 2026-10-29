@@ -47,7 +47,7 @@ def texto(fragmento):
 
 def fecha_larga(t):
     """'Miércoles, 28 de Octubre de 2026' -> '2026-10-28'"""
-    m = re.search(r"(\d{1,2})\s+de\s+([A-Za-zÁÉÍÓÚáéíóú]+)\s+de\s+(\d{4})", t or "")
+    m = re.search(r"(\d{1,2})\s+de\s+([A-Za-zÁÉÍÓÚáéíóú]+)\s+de\s+(\d{4})", t or "", re.I)
     if not m or m.group(2).lower() not in MESES:
         return ""
     return f"{m.group(3)}-{MESES[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
@@ -180,7 +180,7 @@ def lunes_de(hoy):
     return (d - timedelta(days=d.weekday())).strftime("%Y-%m-%d")
 
 
-def actualizar(previa, seguidos, hoy, sesiones_camara=None):
+def actualizar(previa, seguidos, hoy, sesiones_camara=None, citaciones_camara=None):
     """Arma la agenda desde el lunes de esta semana en adelante.
 
     previa: agenda anterior (se conservan los días ya pasados de la semana, que el Senado deja de publicar).
@@ -206,7 +206,11 @@ def actualizar(previa, seguidos, hoy, sesiones_camara=None):
         estados["senado_plazos"] = {"estado": "ok", "n": len(plazos)}
     except Exception as e:  # noqa: BLE001
         estados["senado_plazos"] = {"estado": f"sin conexión: {type(e).__name__}"[:80]}
-    origen = {"senado_citaciones": ("Senado", "Comisión"), "senado_sala": ("Senado", "Sala"), "camara_sala": ("Cámara de Diputados", "Sala")}
+    if citaciones_camara is not None:            # leídas en un computador en Chile (data/citaciones_camara.json)
+        items += citaciones_camara
+        consultadas.add("camara_comisiones")
+    origen = {"senado_citaciones": ("Senado", "Comisión"), "senado_sala": ("Senado", "Sala"), "camara_sala": ("Cámara de Diputados", "Sala"),
+              "camara_comisiones": ("Cámara de Diputados", "Comisión")}
     nuevas_claves = {clave(x) for x in items}
     for x in previa.get("items", []):
         fuente = next((k for k, v in origen.items() if v == (x.get("camara"), x.get("tipo"))), "")
@@ -337,6 +341,7 @@ def calendario(hoy, camara_sesiones, senado_sesiones, agenda, proyectos, lista_f
         sen = [s for s in senado_sesiones if en(s["fecha"])]
         sen_fut = [x for x in agenda.get("items", []) if x.get("camara") == "Senado" and x.get("tipo") == "Sala" and en(x["fecha"])]
         com = [x for x in agenda.get("items", []) if x.get("camara") == "Senado" and x.get("tipo") == "Comisión" and en(x["fecha"]) and x.get("estado") != "Suspendida"]
+        com_c = [x for x in agenda.get("items", []) if x.get("camara") != "Senado" and x.get("tipo") == "Comisión" and en(x["fecha"]) and x.get("estado") != "Suspendida"]
         urg = [{"boletin": p["boletin"], "urgencia": p["urgencia_vigente"], "vence": p["urgencia_vence_estimado"]}
                for p in proyectos if p.get("situacion") == "En tramitación" and en(p.get("urgencia_vence_estimado"))]
         semanas.append({
@@ -344,6 +349,7 @@ def calendario(hoy, camara_sesiones, senado_sesiones, agenda, proyectos, lista_f
             "camara_sala": len(cam), "camara_dias": sorted({s["fecha"] for s in cam}),
             "senado_sala": max(len(sen), len({x["instancia"] for x in sen_fut})), "senado_dias": sorted({s["fecha"] for s in sen} | {x["fecha"] for x in sen_fut}),
             "senado_comisiones": len(com), "senado_comisiones_seguidos": sum(1 for x in com if x.get("seguidos")),
+            "camara_comisiones": len(com_c), "camara_comisiones_seguidos": sum(1 for x in com_c if x.get("seguidos")),
             "feriados": [f for f in lista_feriados if en(f["fecha"])],
             "urgencias_vencen": urg,
         })

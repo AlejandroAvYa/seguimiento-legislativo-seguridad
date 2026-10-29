@@ -876,8 +876,14 @@ def main():
 
     # agenda de la semana (citaciones, tabla de Sala, plazos de indicaciones) y agrupación ACOT
     agenda_prev = leer_json(RUTA_AGENDA, {})
+    cit_cam = leer_json(os.path.join(DATA, "citaciones_camara.json"), {})
     agenda, estado_agenda, citaciones_nuevas = agenda_mod.actualizar(agenda_prev, set(nuevos), hoy,
-                                                                    sesiones_camara=lambda: camara.agenda_sala(hoy))
+                                                                    sesiones_camara=lambda: camara.agenda_sala(hoy),
+                                                                    citaciones_camara=cit_cam.get("items") if cit_cam else None)
+    if cit_cam:
+        fresca = (cit_cam.get("actualizado", "")[:10] >= (ahora() - timedelta(days=4)).strftime("%Y-%m-%d"))
+        estado_agenda["camara_comisiones"] = {"estado": "ok" if fresca else f"sin actualizar desde {cit_cam.get('actualizado', '')}",
+                                              "n": len(cit_cam.get("items", [])), "actualizado": cit_cam.get("actualizado", "")}
     print("  Agenda: " + ", ".join(f"{k} {v['estado']}" for k, v in estado_agenda.items()) + f" · {len(agenda['items'])} sesiones")
     acot = cargar_acot()
     for p in nuevos.values():

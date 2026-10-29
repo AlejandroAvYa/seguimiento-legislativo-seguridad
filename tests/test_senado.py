@@ -216,6 +216,24 @@ class Partidos(unittest.TestCase):
         self.assertIsNone(partidos.senador_de_voto("Lagos W., Ricardo", idx))
 
 
+class CitacionesCamara(unittest.TestCase):
+    def test_lector(self):
+        import citaciones_camara as cc
+        with open(os.path.join(AQUI, "fixtures", "camara_citaciones_ejemplo.html"), encoding="utf-8") as f:
+            items = cc.leer(f.read())
+        self.assertEqual(len(items), 3)
+        self.assertEqual(items[0]["estado"], "Suspendida")
+        self.assertTrue(items[0]["instancia"].startswith("CEI 8"))
+        self.assertEqual(items[0]["invitados"], ["Ministro de Obras Públicas, señor Louis de Grange Concha."])
+        seg = items[1]
+        self.assertEqual((seg["fecha"], seg["instancia"], seg["horario"]), ("2026-10-26", "Comisión de Seguridad Ciudadana", "14:50 a 16:50"))
+        self.assertEqual(seg["boletines"], ["18594-25", "18211-25"])
+        self.assertIn("Martín Arrau", seg["invitados"][0])
+        self.assertEqual(items[2]["fecha"], "2026-10-27")
+        self.assertEqual(items[2]["boletines"], ["15589-07"])
+        self.assertFalse(cc.es_verificacion("<html><title>Just a moment...</title>") is False)
+
+
 class SepararAutores(unittest.TestCase):
     def test_coma_y(self):
         self.assertEqual(actualizar.separar_autores("Pugh, Aravena, y Edwards, Macaya y Ossandón"),
