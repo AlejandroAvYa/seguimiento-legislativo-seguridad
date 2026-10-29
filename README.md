@@ -160,7 +160,7 @@ Se abre en `https://TU_USUARIO.github.io/seguimiento-legislativo-seguridad/` y t
 | Vista | Para qué sirve |
 |---|---|
 | Panorama | Resumen en cifras, atención inmediata, movimientos recientes y el **cuadro de avance**: cada proyecto en una fila y las ocho etapas en columnas (primer trámite comisión y Sala, segundo trámite comisión y Sala, tercer trámite, Comisión Mixta, control y promulgación, ley). La etapa actual se marca con la cámara (S, C o M) y el color de la urgencia. |
-| Ficha del proyecto | Se abre con un clic en cualquier proyecto: avance por etapa con fechas, qué hace, dónde está, prioridad y alertas, gestión SPD, línea de tiempo, indicaciones (por autor, por artículo y el texto de cada una), votaciones de ambas cámaras con el voto de cada parlamentario, informes, oficios y todos los trámites. |
+| Ficha del proyecto | Se abre con un clic en cualquier proyecto: avance por etapa con fechas, qué hace, dónde está, prioridad y alertas, gestión MSP, línea de tiempo, indicaciones (por autor, por artículo y el texto de cada una), votaciones de ambas cámaras con el voto de cada parlamentario, informes, oficios y todos los trámites. |
 | Agenda de la semana | Citaciones de comisiones del Senado con materia e invitados, tabla de la Sala del Senado, sesiones de Sala de la Cámara y plazos para presentar indicaciones. Por defecto muestra solo lo que toca proyectos seguidos. |
 | Agenda ACOT | Las 29 iniciativas de la ACOT: cuadro de avance de las que tienen boletín y estado de las anunciadas sin boletín. En el panorama, el botón "Solo ACOT" filtra el cuadro. |
 | Urgencias y alertas | Urgencias que vencen en 7 y 30 días, plazos cumplidos sin renovación y alertas de riesgo. |
@@ -231,7 +231,7 @@ Cuando llega un issue "Candidatos nuevos para revisar":
   18806-07,Núcleo,Sistema penitenciario y cumplimiento de penas,Descripción breve del proyecto,,
   ```
 
-  Columnas: `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso`. Solo el boletín es obligatorio; si un texto lleva comas, va entre comillas. Las cuatro últimas columnas son los campos de "Gestión SPD" de la ficha.
+  Columnas: `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso`. Solo el boletín es obligatorio; si un texto lleva comas, va entre comillas. Las cuatro últimas columnas son los campos de "Gestión MSP" de la ficha.
 - **Para descartarlo:** en `data/candidatos.csv`, cambiar `pendiente` por `descartado` en la columna `decision`.
 
 Un candidato ya listado no vuelve a generar aviso. Criterio de detección: movimiento en los últimos 6 días, con urgencia, indicaciones del Ejecutivo o mensaje del actual Gobierno (desde el 11-03-2026), y título con términos de seguridad (lista `PALABRAS_CLAVE` en `scripts/actualizar.py`).

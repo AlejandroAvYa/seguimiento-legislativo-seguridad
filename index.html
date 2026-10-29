@@ -12,8 +12,9 @@
 /* Sistema visual SPD (plantilla Plan Maestro 2026–2029): barra lateral azul institucional, banda de resumen,
    tarjetas sobrias y matriz de avance por etapas como pieza central. */
 :root{
-  --gob-red:#e82c36; --gob-blue:#0f69b4;
-  --c-blue:#0063b1; --c-blue-700:#0a4f8c; --c-blue-900:#08355d; --c-blue-950:#06294a; --c-blue-soft:#e6f0fa;
+  /* Colores oficiales Gobierno de Chile (Manual de Normas Gráficas 2026): azul Pantone 293 C #0F69B4 y rojo Pantone 185 C #EB3C46 */
+  --gob-red:#eb3c46; --gob-blue:#0f69b4;
+  --c-blue:#0f69b4; --c-blue-700:#0b5592; --c-blue-900:#08355d; --c-blue-950:#06294a; --c-blue-soft:#e6f0fa;
   --c-red:#d52b34; --c-red-soft:#fbe9ea;
   --c-orange:#d2691e; --c-orange-soft:#fcecdf;
   --c-ok:#1f8a5b; --c-ok-soft:#e4f3ec;
@@ -663,7 +664,7 @@ async function vistaFicha(b) {
           ${(p.prioridad_motivos || []).length ? `<ul class="motivos">${p.prioridad_motivos.map(m => `<li>${esc(m)}</li>`).join("")}</ul>` : ""}
           ${(p.alertas || []).map(a => `<div class="alerta ${/Urgencia por vencer|rechazada|plazo cumplido/i.test(a.tipo) ? "r" : ""}">${ICON_AL}<div><b>${esc(a.tipo)}</b><span>${esc(a.detalle.replace(/(\d{4}-\d{2}-\d{2})/g, m => fmt(m)))}</span></div></div>`).join("")}
           <p class="small muted" style="margin-top:8px">Prioridad y acción se calculan con reglas fijas descritas en <a href="#metodologia">Fuentes y método</a>.</p></div>
-        <div class="dsec"><div class="dsec__t">Gestión SPD</div>
+        <div class="dsec"><div class="dsec__t">Gestión MSP</div>
           <div class="metrics">${gest.map(([k, v]) => `<div class="metric"><div class="k">${k}</div><div class="v">${v ? esc(v) : '<span class="porinf">Por informar</span>'}</div></div>`).join("")}</div></div>
         <div class="dsec"><div class="dsec__t">Documentos oficiales</div><p>
           <a href="${esc(p.link_senado)}" target="_blank" rel="noopener">Ficha en el Senado</a>${p.link_camara ? ` · <a href="${esc(p.link_camara)}" target="_blank" rel="noopener">Ficha en la Cámara</a>` : ""}${p.link_texto ? ` · <a href="${esc(p.link_texto)}" target="_blank" rel="noopener">Texto original</a>` : ""}</p></div>
@@ -887,7 +888,7 @@ function vistaMetodo() {
   const f = D.meta.fuentes || {};
   const est = (k, n) => { const v = f[k] || {}; return `<dt>${n}</dt><dd><span class="dot" style="background:${(v.estado || "").startsWith("ok") ? "var(--c-ok)" : "var(--c-red)"}"></span> ${(v.estado || "").startsWith("ok") ? "Al día" : "Sin conexión; se muestran los últimos datos obtenidos"}${v.ultima_consulta_exitosa ? ` · última consulta exitosa ${fmt(v.ultima_consulta_exitosa)}` : ""}</dd>`; };
   $("#page").innerHTML = `<div class="page__eyebrow">Fuentes y método</div><h1 class="page__title">Cómo se construye cada dato</h1>
-    <p class="page__lead">Toda la información de tramitación proviene de registros oficiales y se actualiza cada hora. Lo único que se define a mano es qué proyectos se siguen, su nombre corto, su materia y los campos de gestión SPD.</p>
+    <p class="page__lead">Toda la información de tramitación proviene de registros oficiales y se actualiza cada hora. Lo único que se define a mano es qué proyectos se siguen, su nombre corto, su materia y los campos de gestión MSP.</p>
     <div class="card"><div class="card__body" style="padding-top:16px"><div class="dsec__t">Estado de las fuentes</div><dl class="def">
       ${est("senado", "Senado: tramitación de ambas cámaras")}${est("camara_votaciones", "Cámara: votaciones en Sala")}
       <dt>Última actualización</dt><dd>${fmt(D.meta.ultima_actualizacion_datos)} (datos nuevos) · verificado el ${fmt(D.meta.fecha_verificacion)}</dd></dl></div></div>
