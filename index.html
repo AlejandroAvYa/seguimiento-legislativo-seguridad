@@ -1001,7 +1001,7 @@ function vistaAutoridad() {
         [semana.length, "Sesiones con proyectos seguidos", "comisiones y Sala"],
         [T.filter(vence7).length, "Urgencias vencen en 7 días", "plazo estimado"],
         [hitosRel.length, "Avances en 7 días", "etapa, votación, informe, ley"],
-        [`${acotT.length}/${acot.length}`, "ACOT en tramitación", `${acot.filter(p => proxSesion(p)).length} citadas esta semana`]]
+        [`${acotT.length}/${acot.length}`, "ACOT en tramitación", `${acot.filter(p => proxSesion(p)).length} con sesión citada desde hoy`]]
         .map(([v, l, x]) => `<div class="hstat" style="cursor:default"><div class="hstat__n tnum">${v}</div><div class="hstat__l">${l}</div><div class="hstat__s">${x}</div></div>`).join("")}</div></section>
     <div class="grid g2">
       ${caja("Qué requiere decisión", "prioridad crítica o alta", decidir.length ? decidir.map(p => { const a = p.alertas.find(x => /Urgencia (por vencer|con plazo cumplido|renovada)|Votación rechazada/.test(x.tipo));
