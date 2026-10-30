@@ -449,8 +449,10 @@
    "actual": false,
    "camara_sala": 0,
    "camara_dias": [],
-   "senado_sala": 0,
-   "senado_dias": [],
+   "senado_sala": 1,
+   "senado_dias": [
+    "2026-11-10"
+   ],
    "senado_comisiones": 1,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
@@ -1189,6 +1191,11 @@
   }
  ],
  "_senado_sesiones": [
+  {
+   "numero": "76",
+   "tipo": "Ordinaria",
+   "fecha": "2026-11-10"
+  },
   {
    "numero": "75",
    "tipo": "Ordinaria",
