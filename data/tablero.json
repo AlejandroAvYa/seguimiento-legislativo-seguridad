@@ -4,7 +4,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 3039,
+   "dias": 3040,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -46,7 +46,7 @@
   "instancia_actual": "Comisión de Educación",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 3039,
+  "dias_en_etapa": 3040,
   "fecha_ingreso": "2018-07-04",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -62,11 +62,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 204 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 205 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 3039 días en Comisión de Educación."
+    "detalle": "Lleva 3040 días en Comisión de Educación."
    }
   ],
   "ultimo_tramite_fecha": "2026-04-08",
@@ -87,7 +87,7 @@
   "n_urgencias_en_etapa": 4,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 142,
+   "dias": 143,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -129,7 +129,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 142,
+  "dias_en_etapa": 143,
   "fecha_ingreso": "2022-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -145,7 +145,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 51 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 52 días."
    }
   ],
   "ultimo_tramite_fecha": "2026-09-08",
@@ -166,7 +166,7 @@
   "n_urgencias_en_etapa": 13,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 1016,
+   "dias": 1017,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -208,7 +208,7 @@
   "instancia_actual": "Comisión de Gobierno, Descentralización y Regionalización",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 1016,
+  "dias_en_etapa": 1017,
   "fecha_ingreso": "2022-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -220,7 +220,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -228,7 +228,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1016 días en Comisión de Gobierno, Descentralización y Regionalización."
+    "detalle": "Lleva 1017 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -249,7 +249,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 23,
+   "dias": 24,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -291,7 +291,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 23,
+  "dias_en_etapa": 24,
   "fecha_ingreso": "2022-08-18",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
@@ -324,7 +324,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1528,
+   "dias": 1529,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -366,7 +366,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 1528,
+  "dias_en_etapa": 1529,
   "fecha_ingreso": "2022-08-23",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -382,11 +382,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 149 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 150 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1528 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1529 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-06-02",
@@ -443,7 +443,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
-  "dias_en_etapa": 219,
+  "dias_en_etapa": 220,
   "fecha_ingreso": "2022-09-13",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -471,7 +471,7 @@
   "n_urgencias_en_etapa": 9,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 394,
+   "dias": 395,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -523,7 +523,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 394,
+  "dias_en_etapa": 395,
   "fecha_ingreso": "2022-12-14",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -535,11 +535,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 394 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 395 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -560,7 +560,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 295,
+   "dias": 296,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -602,7 +602,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 295,
+  "dias_en_etapa": 296,
   "fecha_ingreso": "2022-12-27",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -614,7 +614,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 295 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 296 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-24",
@@ -635,7 +635,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1395,
+   "dias": 1396,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -677,7 +677,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 1395,
+  "dias_en_etapa": 1396,
   "fecha_ingreso": "2023-01-03",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -689,7 +689,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1395 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1396 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-17",
@@ -746,7 +746,7 @@
   "instancia_actual": "Comisión Mixta",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 10,
+  "dias_en_etapa": 11,
   "fecha_ingreso": "2023-04-10",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -774,7 +774,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1297,
+   "dias": 1298,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -816,7 +816,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 1297,
+  "dias_en_etapa": 1298,
   "fecha_ingreso": "2023-04-11",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -828,7 +828,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1297 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1298 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -849,7 +849,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1290,
+   "dias": 1291,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -891,7 +891,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 1290,
+  "dias_en_etapa": 1291,
   "fecha_ingreso": "2023-04-18",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -903,11 +903,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1290 días en Sala."
+    "detalle": "Lleva 1291 días en Sala."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -928,7 +928,7 @@
   "n_urgencias_en_etapa": 36,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 905,
+   "dias": 906,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -970,7 +970,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 905,
+  "dias_en_etapa": 906,
   "fecha_ingreso": "2023-05-09",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -990,7 +990,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 905 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 906 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-06",
@@ -1057,7 +1057,7 @@
   "instancia_actual": "Comisión Mixta",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 141,
+  "dias_en_etapa": 142,
   "fecha_ingreso": "2023-05-31",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -1090,7 +1090,7 @@
   "n_urgencias_en_etapa": 63,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1184,
+   "dias": 1185,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -1132,7 +1132,7 @@
   "instancia_actual": "Comisión de Defensa Nacional",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 1184,
+  "dias_en_etapa": 1185,
   "fecha_ingreso": "2023-08-02",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -1144,7 +1144,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -1152,7 +1152,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1184 días en Comisión de Defensa Nacional."
+    "detalle": "Lleva 1185 días en Comisión de Defensa Nacional."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -1173,7 +1173,7 @@
   "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 79,
+   "dias": 80,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -1215,7 +1215,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 79,
+  "dias_en_etapa": 80,
   "fecha_ingreso": "2023-09-25",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -1279,7 +1279,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
-  "dias_en_etapa": 219,
+  "dias_en_etapa": 220,
   "fecha_ingreso": "2023-11-21",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -1343,7 +1343,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
-  "dias_en_etapa": 31,
+  "dias_en_etapa": 32,
   "fecha_ingreso": "2023-12-19",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
@@ -1407,7 +1407,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 85,
+  "dias_en_etapa": 86,
   "fecha_ingreso": "2024-01-15",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -1471,7 +1471,7 @@
   "instancia_actual": "Comisión Mixta",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 218,
+  "dias_en_etapa": 219,
   "fecha_ingreso": "2024-04-02",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -1483,7 +1483,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 218 días en Comisión Mixta."
+    "detalle": "Lleva 219 días en Comisión Mixta."
    }
   ],
   "ultimo_tramite_fecha": "2026-08-11",
@@ -1540,7 +1540,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
-  "dias_en_etapa": 50,
+  "dias_en_etapa": 51,
   "fecha_ingreso": "2024-04-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -1568,7 +1568,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 927,
+   "dias": 928,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -1610,7 +1610,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 927,
+  "dias_en_etapa": 928,
   "fecha_ingreso": "2024-04-15",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -1626,11 +1626,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 220 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 221 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 927 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 928 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-23",
@@ -1651,7 +1651,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 923,
+   "dias": 924,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -1693,7 +1693,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 923,
+  "dias_en_etapa": 924,
   "fecha_ingreso": "2024-04-19",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -1709,11 +1709,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 204 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 205 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 923 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 924 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-04-08",
@@ -1734,7 +1734,7 @@
   "n_urgencias_en_etapa": 5,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 148,
+   "dias": 149,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -1776,7 +1776,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 148,
+  "dias_en_etapa": 149,
   "fecha_ingreso": "2024-04-25",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -1792,7 +1792,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 51 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 52 días."
    },
    {
     "tipo": "Votación rechazada",
@@ -1853,7 +1853,7 @@
   "instancia_actual": "Oficio de ley al Ejecutivo",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 8,
+  "dias_en_etapa": 9,
   "fecha_ingreso": "2024-05-13",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -1881,7 +1881,7 @@
   "n_urgencias_en_etapa": 4,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 135,
+   "dias": 136,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -1923,7 +1923,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 135,
+  "dias_en_etapa": 136,
   "fecha_ingreso": "2024-05-15",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -1939,7 +1939,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 51 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 52 días."
    }
   ],
   "ultimo_tramite_fecha": "2026-09-08",
@@ -1960,7 +1960,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 898,
+   "dias": 899,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -2002,7 +2002,7 @@
   "instancia_actual": "Comisión de Obras Públicas, Transportes y Telecomunicaciones",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 898,
+  "dias_en_etapa": 899,
   "fecha_ingreso": "2024-05-14",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -2018,7 +2018,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 898 días en Comisión de Obras Públicas, Transportes y Telecomunicaciones."
+    "detalle": "Lleva 899 días en Comisión de Obras Públicas, Transportes y Telecomunicaciones."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-05",
@@ -2039,7 +2039,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 888,
+   "dias": 889,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -2081,7 +2081,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 888,
+  "dias_en_etapa": 889,
   "fecha_ingreso": "2024-05-24",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -2097,11 +2097,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 220 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 221 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 888 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 889 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-23",
@@ -2122,7 +2122,7 @@
   "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 225,
+   "dias": 226,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -2164,7 +2164,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 225,
+  "dias_en_etapa": 226,
   "fecha_ingreso": "2024-06-19",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -2180,11 +2180,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 100 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 101 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 225 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 226 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-07-21",
@@ -2205,7 +2205,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 23,
+   "dias": 24,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -2247,7 +2247,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 23,
+  "dias_en_etapa": 24,
   "fecha_ingreso": "2024-06-19",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -2284,7 +2284,7 @@
   "n_urgencias_en_etapa": 23,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 590,
+   "dias": 591,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -2326,7 +2326,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 590,
+  "dias_en_etapa": 591,
   "fecha_ingreso": "2024-07-09",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -2342,7 +2342,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 590 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 591 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-04",
@@ -2399,7 +2399,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 85,
+  "dias_en_etapa": 86,
   "fecha_ingreso": "2024-07-12",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -2427,7 +2427,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 751,
+   "dias": 752,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -2469,7 +2469,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 751,
+  "dias_en_etapa": 752,
   "fecha_ingreso": "2024-07-19",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -2481,7 +2481,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 751 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 752 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-07-07",
@@ -2502,7 +2502,7 @@
   "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 295,
+   "dias": 296,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -2544,7 +2544,7 @@
   "instancia_actual": "Comisión de Defensa Nacional",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 295,
+  "dias_en_etapa": 296,
   "fecha_ingreso": "2024-08-07",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -2556,11 +2556,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-05 (en 7 días)."
+    "detalle": "Simple vence el 2026-11-05 (en 6 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 295 días en Comisión de Defensa Nacional."
+    "detalle": "Lleva 296 días en Comisión de Defensa Nacional."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-06",
@@ -2581,7 +2581,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 562,
+   "dias": 563,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -2623,7 +2623,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 562,
+  "dias_en_etapa": 563,
   "fecha_ingreso": "2024-09-03",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -2635,11 +2635,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 562 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 563 días en Comisión de Seguridad Pública."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -2660,7 +2660,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 562,
+   "dias": 563,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -2702,7 +2702,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 562,
+  "dias_en_etapa": 563,
   "fecha_ingreso": "2024-09-11",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -2714,11 +2714,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 562 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 563 días en Comisión de Seguridad Pública."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -2739,7 +2739,7 @@
   "n_urgencias_en_etapa": 13,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 198,
+   "dias": 199,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -2781,7 +2781,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 198,
+  "dias_en_etapa": 199,
   "fecha_ingreso": "2024-10-09",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -2793,7 +2793,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -2801,7 +2801,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 198 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 199 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -2822,7 +2822,7 @@
   "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 190,
+   "dias": 191,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -2864,7 +2864,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 190,
+  "dias_en_etapa": 191,
   "fecha_ingreso": "2024-11-14",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -2876,7 +2876,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 190 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 191 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-07-21",
@@ -2933,7 +2933,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 204,
+  "dias_en_etapa": 205,
   "fecha_ingreso": "2024-11-18",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -2961,7 +2961,7 @@
   "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 324,
+   "dias": 325,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -3003,7 +3003,7 @@
   "instancia_actual": "Comisión de Hacienda",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Senado",
-  "dias_en_etapa": 324,
+  "dias_en_etapa": 325,
   "fecha_ingreso": "2025-01-30",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
@@ -3015,11 +3015,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-04 (en 6 días)."
+    "detalle": "Simple vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 324 días en Comisión de Hacienda."
+    "detalle": "Lleva 325 días en Comisión de Hacienda."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-05",
@@ -3040,7 +3040,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 598,
+   "dias": 599,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -3082,7 +3082,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 598,
+  "dias_en_etapa": 599,
   "fecha_ingreso": "2025-03-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -3098,11 +3098,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 149 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 150 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 598 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 599 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-06-02",
@@ -3159,7 +3159,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 204,
+  "dias_en_etapa": 205,
   "fecha_ingreso": "2025-04-01",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -3187,7 +3187,7 @@
   "n_urgencias_en_etapa": 11,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 218,
+   "dias": 219,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -3229,7 +3229,7 @@
   "instancia_actual": "Comisión de Gobierno, Descentralización y Regionalización",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 218,
+  "dias_en_etapa": 219,
   "fecha_ingreso": "2025-04-07",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -3245,7 +3245,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 72 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 73 días."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -3253,7 +3253,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 218 días en Comisión de Gobierno, Descentralización y Regionalización."
+    "detalle": "Lleva 219 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
   "ultimo_tramite_fecha": "2026-08-18",
@@ -3274,7 +3274,7 @@
   "n_urgencias_en_etapa": 12,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 198,
+   "dias": 199,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -3316,7 +3316,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 198,
+  "dias_en_etapa": 199,
   "fecha_ingreso": "2025-04-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -3336,7 +3336,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 198 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 199 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -3393,7 +3393,7 @@
   "instancia_actual": "Ingreso fallo del Tribunal Constitucional",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 2,
+  "dias_en_etapa": 3,
   "fecha_ingreso": "2025-05-12",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -3421,7 +3421,7 @@
   "n_urgencias_en_etapa": 16,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 338,
+   "dias": 339,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más lento que lo habitual"
@@ -3463,7 +3463,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 338,
+  "dias_en_etapa": 339,
   "fecha_ingreso": "2025-06-17",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -3475,7 +3475,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -3483,7 +3483,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 338 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 339 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -3504,7 +3504,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 492,
+   "dias": 493,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -3546,7 +3546,7 @@
   "instancia_actual": "Comisión de Seguridad Ciudadana",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 492,
+  "dias_en_etapa": 493,
   "fecha_ingreso": "2025-06-24",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -3562,11 +3562,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 192 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 193 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 492 días en Comisión de Seguridad Ciudadana."
+    "detalle": "Lleva 493 días en Comisión de Seguridad Ciudadana."
    }
   ],
   "ultimo_tramite_fecha": "2026-04-20",
@@ -3587,7 +3587,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 73,
+   "dias": 74,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -3629,7 +3629,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 58,
+  "dias_en_etapa": 59,
   "fecha_ingreso": "2025-06-30",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -3662,7 +3662,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 485,
+   "dias": 486,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -3704,7 +3704,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 485,
+  "dias_en_etapa": 486,
   "fecha_ingreso": "2025-07-01",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -3720,11 +3720,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 108 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 109 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 485 días en Sala."
+    "detalle": "Lleva 486 días en Sala."
    }
   ],
   "ultimo_tramite_fecha": "2026-07-13",
@@ -3745,7 +3745,7 @@
   "n_urgencias_en_etapa": 13,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 233,
+   "dias": 234,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -3787,19 +3787,23 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 233,
+  "dias_en_etapa": 234,
   "fecha_ingreso": "2025-07-02",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-10-29",
-  "urgencia_plazo": "Vence 2026-10-29",
-  "prioridad_indice": 53,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "urgencia_plazo": "Plazo cumplido el 2026-10-29 sin renovación registrada",
+  "prioridad_indice": 38,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-10-29 (en 0 días)."
+    "tipo": "Urgencia con plazo cumplido",
+    "detalle": "Simple: el plazo se cumplió el 2026-10-29 y no hay renovación registrada."
+   },
+   {
+    "tipo": "Urgencia sin movimiento",
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 31 días."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -3807,7 +3811,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 233 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 234 días en Comisión de Seguridad Pública."
    }
   ],
   "ultimo_tramite_fecha": "2026-09-29",
@@ -3864,7 +3868,7 @@
   "instancia_actual": "Desarchivo de proyecto",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 198,
+  "dias_en_etapa": 199,
   "fecha_ingreso": "2025-07-09",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -3892,7 +3896,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 289,
+   "dias": 290,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -3940,7 +3944,7 @@
   "instancia_actual": "Boletín de indicaciones de Transportes y Telecomunicaciones",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 289,
+  "dias_en_etapa": 290,
   "fecha_ingreso": "2025-07-14",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -3952,7 +3956,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 289 días en Boletín de indicaciones de Transportes y Telecomunicaciones."
+    "detalle": "Lleva 290 días en Boletín de indicaciones de Transportes y Telecomunicaciones."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-06",
@@ -3973,7 +3977,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 464,
+   "dias": 465,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -4015,7 +4019,7 @@
   "instancia_actual": "Comisión de Hacienda",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 464,
+  "dias_en_etapa": 465,
   "fecha_ingreso": "2025-07-22",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -4031,11 +4035,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 149 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 150 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 464 días en Comisión de Hacienda."
+    "detalle": "Lleva 465 días en Comisión de Hacienda."
    }
   ],
   "ultimo_tramite_fecha": "2026-06-02",
@@ -4056,7 +4060,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 50,
+   "dias": 51,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -4098,19 +4102,23 @@
   "instancia_actual": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 50,
+  "dias_en_etapa": 51,
   "fecha_ingreso": "2025-08-06",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-10-29",
-  "urgencia_plazo": "Vence 2026-10-29",
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Seguimiento mensual",
+  "urgencia_plazo": "Plazo cumplido el 2026-10-29 sin renovación registrada",
+  "prioridad_indice": 28,
+  "prioridad_nivel": "Baja",
+  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-10-29 (en 0 días)."
+    "tipo": "Urgencia con plazo cumplido",
+    "detalle": "Simple: el plazo se cumplió el 2026-10-29 y no hay renovación registrada."
+   },
+   {
+    "tipo": "Urgencia sin movimiento",
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 31 días."
    },
    {
     "tipo": "Votación rechazada",
@@ -4135,7 +4143,7 @@
   "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 389,
+   "dias": 390,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más lento que lo habitual"
@@ -4177,7 +4185,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 389,
+  "dias_en_etapa": 390,
   "fecha_ingreso": "2025-10-05",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -4189,7 +4197,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 389 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 390 días en Comisión de Seguridad Pública."
    }
   ],
   "ultimo_tramite_fecha": "2026-03-03",
@@ -4210,7 +4218,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 72,
+   "dias": 73,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -4252,7 +4260,7 @@
   "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 72,
+  "dias_en_etapa": 73,
   "fecha_ingreso": "2025-10-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Sin urgencia",
@@ -4280,7 +4288,7 @@
   "n_urgencias_en_etapa": 5,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 309,
+   "dias": 310,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -4322,7 +4330,7 @@
   "instancia_actual": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 309,
+  "dias_en_etapa": 310,
   "fecha_ingreso": "2025-12-24",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -4334,11 +4342,11 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 309 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
+    "detalle": "Lleva 310 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -4395,7 +4403,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 225,
+  "dias_en_etapa": 226,
   "fecha_ingreso": "2026-01-05",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -4423,7 +4431,7 @@
   "n_urgencias_en_etapa": 9,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 169,
+   "dias": 170,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -4465,7 +4473,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 169,
+  "dias_en_etapa": 170,
   "fecha_ingreso": "2026-04-07",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -4477,7 +4485,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -4534,7 +4542,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 129,
+  "dias_en_etapa": 130,
   "fecha_ingreso": "2026-04-07",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -4562,7 +4570,7 @@
   "n_urgencias_en_etapa": 8,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 169,
+   "dias": 170,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -4604,7 +4612,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 169,
+  "dias_en_etapa": 170,
   "fecha_ingreso": "2026-04-07",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -4632,7 +4640,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 29,
+   "dias": 30,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -4674,7 +4682,7 @@
   "instancia_actual": "Comisión de Seguridad Ciudadana",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Senado",
-  "dias_en_etapa": 29,
+  "dias_en_etapa": 30,
   "fecha_ingreso": "2026-04-20",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -4686,7 +4694,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-19",
@@ -4707,7 +4715,7 @@
   "n_urgencias_en_etapa": 9,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 127,
+   "dias": 128,
    "mediana": 221,
    "n_base": 18,
    "lectura": "dentro de lo habitual"
@@ -4749,7 +4757,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 127,
+  "dias_en_etapa": 128,
   "fecha_ingreso": "2026-04-22",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
@@ -4761,7 +4769,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-02 (en 4 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-02 (en 3 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-27",
@@ -4818,7 +4826,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 149,
+  "dias_en_etapa": 150,
   "fecha_ingreso": "2026-05-04",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -4846,7 +4854,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 1,
+   "dias": 2,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -4888,7 +4896,7 @@
   "instancia_actual": "Comisión de Familia, Infancia y Adolescencia.",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 1,
+  "dias_en_etapa": 2,
   "fecha_ingreso": "2026-05-04",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -4900,7 +4908,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-28",
@@ -4921,7 +4929,7 @@
   "n_urgencias_en_etapa": 13,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 176,
+   "dias": 177,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -4963,7 +4971,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 176,
+  "dias_en_etapa": 177,
   "fecha_ingreso": "2026-05-06",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
@@ -4975,7 +4983,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-02 (en 4 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-02 (en 3 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -5036,7 +5044,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 58,
+  "dias_en_etapa": 59,
   "fecha_ingreso": "2026-05-18",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -5064,7 +5072,7 @@
   "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 86,
+   "dias": 87,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -5106,7 +5114,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 86,
+  "dias_en_etapa": 87,
   "fecha_ingreso": "2026-05-18",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -5118,7 +5126,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-20",
@@ -5139,7 +5147,7 @@
   "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 167,
+   "dias": 168,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5181,7 +5189,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 167,
+  "dias_en_etapa": 168,
   "fecha_ingreso": "2026-05-15",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -5193,7 +5201,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-23",
@@ -5250,7 +5258,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 22,
+  "dias_en_etapa": 23,
   "fecha_ingreso": "2026-06-08",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -5262,7 +5270,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-02 (en 4 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-02 (en 3 días)."
    },
    {
     "tipo": "Votación rechazada",
@@ -5287,7 +5295,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 23,
+   "dias": 24,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -5329,7 +5337,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 23,
+  "dias_en_etapa": 24,
   "fecha_ingreso": "2026-06-08",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -5362,7 +5370,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 146,
+   "dias": 147,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5404,7 +5412,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 146,
+  "dias_en_etapa": 147,
   "fecha_ingreso": "2026-06-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -5432,7 +5440,7 @@
   "n_urgencias_en_etapa": 14,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 139,
+   "dias": 140,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5474,7 +5482,7 @@
   "instancia_actual": "Comisión de Seguridad Ciudadana",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 139,
+  "dias_en_etapa": 140,
   "fecha_ingreso": "2026-06-12",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -5486,7 +5494,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -5511,7 +5519,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 142,
+   "dias": 143,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5553,7 +5561,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 142,
+  "dias_en_etapa": 143,
   "fecha_ingreso": "2026-06-09",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -5581,7 +5589,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 132,
+   "dias": 133,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5623,7 +5631,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 132,
+  "dias_en_etapa": 133,
   "fecha_ingreso": "2026-06-19",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
@@ -5651,7 +5659,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 1,
+   "dias": 2,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -5693,7 +5701,7 @@
   "instancia_actual": "Comisión de Familia, Infancia y Adolescencia.",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 1,
+  "dias_en_etapa": 2,
   "fecha_ingreso": "2026-06-22",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -5705,7 +5713,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-28",
@@ -5726,7 +5734,7 @@
   "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 127,
+   "dias": 128,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5768,7 +5776,7 @@
   "instancia_actual": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
   "camara_actual": "Senado",
   "camara_origen": "Senado",
-  "dias_en_etapa": 127,
+  "dias_en_etapa": 128,
   "fecha_ingreso": "2026-06-24",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -5784,7 +5792,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 51 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 52 días."
    }
   ],
   "ultimo_tramite_fecha": "2026-09-08",
@@ -5805,7 +5813,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 71,
+   "dias": 72,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -5847,7 +5855,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 71,
+  "dias_en_etapa": 72,
   "fecha_ingreso": "2026-07-06",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Sin urgencia",
@@ -5875,7 +5883,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 126,
+   "dias": 127,
    "mediana": 252,
    "n_base": 57,
    "lectura": "dentro de lo habitual"
@@ -5917,7 +5925,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 126,
+  "dias_en_etapa": 127,
   "fecha_ingreso": "2026-06-25",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -5929,7 +5937,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-04 (en 6 días)."
+    "detalle": "Simple vence el 2026-11-04 (en 5 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-05",
@@ -5950,7 +5958,7 @@
   "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 123,
+   "dias": 124,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -5992,7 +6000,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 123,
+  "dias_en_etapa": 124,
   "fecha_ingreso": "2026-06-28",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -6004,7 +6012,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-19",
@@ -6025,7 +6033,7 @@
   "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 87,
+   "dias": 88,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6067,7 +6075,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 87,
+  "dias_en_etapa": 88,
   "fecha_ingreso": "2026-08-03",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
@@ -6131,7 +6139,7 @@
   "instancia_actual": "Oficio de ley al Ejecutivo",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 1,
+  "dias_en_etapa": 2,
   "fecha_ingreso": "2026-08-04",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -6159,7 +6167,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 86,
+   "dias": 87,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6201,7 +6209,7 @@
   "instancia_actual": "Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 86,
+  "dias_en_etapa": 87,
   "fecha_ingreso": "2026-08-04",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -6229,7 +6237,7 @@
   "n_urgencias_en_etapa": 5,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 85,
+   "dias": 86,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6271,7 +6279,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 85,
+  "dias_en_etapa": 86,
   "fecha_ingreso": "2026-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -6299,7 +6307,7 @@
   "n_urgencias_en_etapa": 5,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 85,
+   "dias": 86,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6341,7 +6349,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 85,
+  "dias_en_etapa": 86,
   "fecha_ingreso": "2026-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -6369,7 +6377,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 36,
+   "dias": 37,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -6411,7 +6419,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 36,
+  "dias_en_etapa": 37,
   "fecha_ingreso": "2026-08-17",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -6444,7 +6452,7 @@
   "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 37,
+   "dias": 38,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -6496,7 +6504,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 37,
+  "dias_en_etapa": 38,
   "fecha_ingreso": "2026-08-17",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
@@ -6508,7 +6516,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-04 (en 6 días)."
+    "detalle": "Suma vence el 2026-11-04 (en 5 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-27",
@@ -6529,7 +6537,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 80,
+   "dias": 81,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6571,7 +6579,7 @@
   "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 80,
+  "dias_en_etapa": 81,
   "fecha_ingreso": "2026-08-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
@@ -6583,7 +6591,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 5 días)."
+    "detalle": "Suma vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-23",
@@ -6640,7 +6648,7 @@
   "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
-  "dias_en_etapa": 9,
+  "dias_en_etapa": 10,
   "fecha_ingreso": "2026-08-18",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
@@ -6668,7 +6676,7 @@
   "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 59,
+   "dias": 60,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6710,7 +6718,7 @@
   "instancia_actual": "Comisión de Mujeres y Equidad de Género",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 59,
+  "dias_en_etapa": 60,
   "fecha_ingreso": "2026-08-31",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
@@ -6738,7 +6746,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 66,
+   "dias": 67,
    "mediana": 252,
    "n_base": 57,
    "lectura": "más rápido que lo habitual"
@@ -6780,7 +6788,7 @@
   "instancia_actual": "Comisión de Agricultura, Silvicultura y Desarrollo Rural",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 66,
+  "dias_en_etapa": 67,
   "fecha_ingreso": "2026-08-24",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
@@ -6808,7 +6816,7 @@
   "n_urgencias_en_etapa": 2,
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 8,
+   "dias": 9,
    "mediana": 221,
    "n_base": 18,
    "lectura": "más rápido que lo habitual"
@@ -6860,7 +6868,7 @@
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 8,
+  "dias_en_etapa": 9,
   "fecha_ingreso": "2026-10-05",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -6872,7 +6880,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-03 (en 5 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-03 (en 4 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-10-28",
