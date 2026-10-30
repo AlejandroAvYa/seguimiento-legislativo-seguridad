@@ -78,6 +78,41 @@ def escribir_json(ruta, obj):
         f.write("\n")
 
 
+def escribir_fichas(orden):
+    """Una ficha por proyecto (data/fichas/<boletín>.json) y las votaciones recientes, para que el dashboard
+    no tenga que descargar proyectos.json completo."""
+    carpeta = os.path.join(DATA, "fichas")
+    os.makedirs(carpeta, exist_ok=True)
+    vigentes = set()
+    for p in orden:
+        nombre = f"{p['boletin']}.json"
+        vigentes.add(nombre)
+        ruta = os.path.join(carpeta, nombre)
+        texto = json.dumps(p, ensure_ascii=False, separators=(",", ":")) + "\n"
+        if contenido_txt(ruta) != texto:
+            with open(ruta, "w", encoding="utf-8") as f:
+                f.write(texto)
+    for nombre in os.listdir(carpeta):
+        if nombre.endswith(".json") and nombre not in vigentes:
+            os.remove(os.path.join(carpeta, nombre))
+    votos = []
+    for p in orden:
+        for c, clave in (("Senado", "votaciones"), ("Cámara", "votaciones_camara")):
+            for v in p.get(clave) or []:
+                votos.append({"boletin": p["boletin"], "nombre_corto": p.get("nombre_corto", ""), "camara": c, "fecha": v.get("fecha", ""),
+                              "si": v.get("si", ""), "no": v.get("no", ""), "abstencion": v.get("abstencion", ""), "resultado": v.get("resultado", ""),
+                              "tema": (v.get("tema") or v.get("descripcion") or "")[:300]})
+    votos.sort(key=lambda v: v["fecha"], reverse=True)
+    escribir_json(os.path.join(DATA, "votaciones.json"), votos)
+
+
+def contenido_txt(ruta):
+    if not os.path.exists(ruta):
+        return None
+    with open(ruta, encoding="utf-8") as f:
+        return f.read()
+
+
 def leer_json(ruta, defecto):
     if not os.path.exists(ruta):
         return defecto
@@ -442,6 +477,14 @@ def detectar_cambios(previos, nuevos, marca, camara_con_base=True):
 
 
 # ----------------------------------------------------------------- candidatos
+def url_solicitud(accion, boletin):
+    """Enlace a una solicitud de gestión de boletín ya completada (formulario .github/ISSUE_TEMPLATE/gestionar-boletin.yml)."""
+    from urllib.parse import urlencode
+    repo = os.environ.get("GITHUB_REPOSITORY", "AlejandroAvYa/seguimiento-legislativo-seguridad")
+    q = urlencode({"template": "gestionar-boletin.yml", "title": f"[Boletín] {accion} {boletin}", "accion": accion, "boletin": boletin})
+    return f"https://github.com/{repo}/issues/new?{q}"
+
+
 def buscar_candidatos(seguidos, revisados, marca):
     desde = (ahora() - timedelta(days=DIAS_REVISION_CANDIDATOS)).strftime("%d/%m/%Y")
     nuevos = []
@@ -926,11 +969,13 @@ def main():
             if nuevos_c:
                 with open(alerta, "w", encoding="utf-8") as f:
                     f.write("Proyectos de seguridad con acción del actual Gobierno que no están en `config/catalogo.csv`.\n\n")
-                    f.write("Para incorporarlos, agregar una fila en `config/catalogo.csv`. Para descartarlos, cambiar `decision` en `data/candidatos.csv`.\n\n")
-                    f.write("| Boletín | Título | Motivo |\n|---|---|---|\n")
+                    f.write("Para decidir, usa los enlaces **Incorporar** o **Descartar** de cada fila (o la vista *Gestión de boletines* del dashboard): "
+                            "se abre una solicitud ya completada y basta con enviarla.\n\n")
+                    f.write("| Boletín | Título | Motivo | Decisión |\n|---|---|---|---|\n")
                     for c in nuevos_c:
                         url = f"https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini={c['boletin']}"
-                        f.write(f"| [{c['boletin']}]({url}) | {c['titulo']} | {c['motivo']} |\n")
+                        f.write(f"| [{c['boletin']}]({url}) | {c['titulo']} | {c['motivo']} | "
+                                f"[Incorporar]({url_solicitud('Incorporar', c['boletin'])}) · [Descartar]({url_solicitud('Descartar', c['boletin'])}) |\n")
         except Exception as e:  # noqa: BLE001
             print(f"  AVISO: no se pudo revisar candidatos ({type(e).__name__}: {e})")
 
@@ -938,6 +983,7 @@ def main():
     antes = {n: contenido(os.path.join(DATA, n)) for n in ("proyectos.json", "cambios.csv", "candidatos.csv", "indicaciones.csv", "boletines_indicaciones.csv", "votaciones_camara.csv")}
     escribir_json(os.path.join(DATA, "proyectos.json"), orden)
     escribir_json(os.path.join(DATA, "tablero.json"), [{k: p.get(k, "") for k in CAMPOS_TABLERO} for p in orden])
+    escribir_fichas(orden)
     escribir_csv(os.path.join(DATA, "proyectos.csv"), orden, CAMPOS_PLANOS)
     escribir_csv(os.path.join(DATA, "tramites.csv"),
                  [{"boletin": p["boletin"], **t} for p in orden for t in p["tramites"]],

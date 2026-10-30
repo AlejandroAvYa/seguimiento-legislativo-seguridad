@@ -23,6 +23,8 @@ config/acot.csv                   Iniciativas de la Agenda contra el Crimen Orga
 config/logo.png                   Logo institucional (dashboard e informe semanal)
 data/tablero.json                 Versión liviana para la portada del dashboard
 data/proyectos.json               Base completa, un registro por proyecto
+data/fichas/BOLETIN.json          Ficha completa de cada proyecto (la carga el dashboard, más liviano que proyectos.json)
+data/votaciones.json              Votaciones en Sala de ambas cámaras, de la más reciente a la más antigua
 data/proyectos.csv / .xlsx        Lo mismo en tabla y en Excel (con hojas de detalle)
 data/tramites.csv, urgencias.csv  Todos los trámites y urgencias
 data/hitos.csv                    Hitos (ingreso, aprobación en general, despacho, Comisión Mixta, TC…)
@@ -172,6 +174,7 @@ Se abre en `https://TU_USUARIO.github.io/seguimiento-legislativo-seguridad/` y t
 | Votaciones y actores | Votaciones recientes y tablas de senadores, diputados y autores. |
 | Cambios recientes | Todo lo que cambió, por día. |
 | Leyes y despachos | Despachados al Ejecutivo, leyes publicadas y proyectos fuera de tramitación. |
+| Gestión de boletines | Incorporar o descartar un boletín escribiendo su número, y decidir sobre los candidatos detectados. |
 | Fuentes y método | Estado de las fuentes, definición de cada etapa y reglas de prioridad y alertas. |
 
 La barra superior incluye los elementos del Kit Digital de Gobierno: línea institucional azul y roja, botones para aumentar o reducir el texto y modo de alto contraste, y enlace para saltar al contenido.
@@ -247,24 +250,20 @@ Desde ese momento ambas tareas corren en ese computador. Para volver a los servi
 - `data/cambios.csv` (o la hoja *Cambios* del Excel).
 - El historial de commits: cada commit muestra exactamente qué datos cambiaron.
 
-### Revisar candidatos
+### Incorporar, descartar o quitar un boletín
 
-Cuando llega un issue "Candidatos nuevos para revisar":
+Desde el dashboard, vista **Gestión de boletines**:
 
-- **Para incorporarlo:** editar `config/catalogo.csv` (abrir el archivo en GitHub → ícono del lápiz) y agregar una línea al final:
+1. Escribir el número de boletín (por ejemplo `18806-07`) y elegir **Incorporar** o **Descartar**. La vista avisa si ya está en seguimiento, si es candidato o si fue descartado antes.
+2. Para incorporar se puede agregar nombre corto, clasificación y materia; para descartar, el motivo.
+3. Presionar **Continuar en GitHub**: se abre el formulario ya completo; basta con presionar **Create**.
+4. La tarea "Incorporar o descartar boletín" valida el número en el Senado, actualiza `config/catalogo.csv` y `data/candidatos.csv`, responde en la misma solicitud, la cierra y lanza la actualización del dashboard.
 
-  ```
-  18806-07,Núcleo,Sistema penitenciario y cumplimiento de penas,Descripción breve del proyecto,,
-  ```
+Los candidatos pendientes aparecen en la misma vista con botones **Incorporar** y **Descartar**, y también en el issue "Candidatos nuevos para revisar". La ficha de cada proyecto tiene el botón **Quitar del seguimiento**. Solo se procesan solicitudes de cuentas con acceso al repositorio (dueño o colaboradores); para sumar a alguien: Settings → Collaborators.
 
-  Columnas: `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso`. Solo el boletín es obligatorio; si un texto lleva comas, va entre comillas. Las cuatro últimas columnas son los campos de "Gestión MSP" de la ficha.
-- **Para descartarlo:** en `data/candidatos.csv`, cambiar `pendiente` por `descartado` en la columna `decision`.
+Un boletín descartado no vuelve a proponerse como candidato. Criterio de detección de candidatos: movimiento en los últimos 6 días, con urgencia, indicaciones del Ejecutivo o mensaje del actual Gobierno (desde el 11-03-2026), y título con términos de seguridad (lista `PALABRAS_CLAVE` en `scripts/actualizar.py`).
 
-Un candidato ya listado no vuelve a generar aviso. Criterio de detección: movimiento en los últimos 6 días, con urgencia, indicaciones del Ejecutivo o mensaje del actual Gobierno (desde el 11-03-2026), y título con términos de seguridad (lista `PALABRAS_CLAVE` en `scripts/actualizar.py`).
-
-### Quitar un proyecto del seguimiento
-
-Borrar su línea en `config/catalogo.csv`. Queda registrado en `cambios.csv`.
+Edición manual, si se prefiere: `config/catalogo.csv` tiene las columnas `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso` (solo el boletín es obligatorio; las cuatro últimas son los campos de "Gestión MSP" de la ficha).
 
 ### Logo en el informe semanal
 

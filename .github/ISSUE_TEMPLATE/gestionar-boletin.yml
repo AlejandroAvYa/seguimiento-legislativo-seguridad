@@ -1,0 +1,50 @@
+name: Incorporar o descartar un boletín
+description: Agrega un proyecto al seguimiento o lo descarta. Se aplica solo, en unos minutos.
+title: "[Boletín] "
+labels: ["gestion-boletin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Completa el formulario y presiona **Submit new issue**. Una tarea automática valida el boletín en el Senado,
+        actualiza el catálogo y responde en esta misma página. Solo se procesan solicitudes de personas con acceso al repositorio.
+  - type: input
+    id: accion
+    attributes:
+      label: Acción
+      description: Escribe Incorporar o Descartar.
+      placeholder: Incorporar
+    validations:
+      required: true
+  - type: input
+    id: boletin
+    attributes:
+      label: Boletín
+      description: Número con su sufijo, por ejemplo 17370-07.
+      placeholder: 12345-07
+    validations:
+      required: true
+  - type: input
+    id: nombre_corto
+    attributes:
+      label: Nombre corto (opcional, solo para incorporar)
+      description: Si se deja vacío se usa el título oficial, recortado.
+  - type: input
+    id: clasificacion
+    attributes:
+      label: Clasificación (opcional, solo para incorporar)
+      description: Núcleo, Conexo o vacío (queda "Por clasificar").
+  - type: input
+    id: materia
+    attributes:
+      label: Materia (opcional, solo para incorporar)
+      description: Por ejemplo "Crimen organizado y lavado de activos". Si se deja vacío queda "Por clasificar".
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción (opcional, solo para incorporar)
+  - type: textarea
+    id: nota
+    attributes:
+      label: Nota o motivo
+      description: Para descartar, el motivo (por ejemplo "Materia ajena a seguridad pública").

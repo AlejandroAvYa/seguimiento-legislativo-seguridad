@@ -1,0 +1,71 @@
+name: Incorporar o descartar boletín
+
+# Se activa con las solicitudes creadas desde el dashboard (vista "Gestión de boletines")
+# o con el formulario "Incorporar o descartar un boletín" de la pestaña Issues.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: gestionar-boletin
+  cancel-in-progress: false
+
+jobs:
+  gestionar:
+    if: >-
+      (contains(github.event.issue.labels.*.name, 'gestion-boletin') || startsWith(github.event.issue.title, '[Boletín]')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      NUMERO: ${{ github.event.issue.number }}
+      CUERPO: ${{ github.event.issue.body }}
+      AUTOR: ${{ github.event.issue.user.login }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Aplicar la solicitud
+        id: aplicar
+        run: |
+          printf '%s' "$CUERPO" > "$RUNNER_TEMP/cuerpo.md"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # se reintenta desde cero si otra actualización guardó cambios mientras tanto
+          for intento in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python scripts/gestionar_boletin.py "$RUNNER_TEMP/cuerpo.md"
+            git add config/catalogo.csv data/candidatos.csv
+            if git diff --cached --quiet; then echo "cambios=no" >> "$GITHUB_OUTPUT"; break; fi
+            git commit -q -m "Gestión de boletines: solicitud #$NUMERO ($AUTOR)"
+            if git push -q origin HEAD:main; then echo "cambios=si" >> "$GITHUB_OUTPUT"; break; fi
+            sleep $((intento * 15))
+          done
+
+      - name: Responder y cerrar la solicitud
+        if: always()
+        run: |
+          if [ -f salida/respuesta_gestion.md ]; then
+            gh issue comment "$NUMERO" --body-file salida/respuesta_gestion.md
+          else
+            gh issue comment "$NUMERO" --body "✖ No se pudo procesar la solicitud. Revisa el registro de la tarea en la pestaña Actions."
+          fi
+          if [ "${{ steps.aplicar.outputs.ok }}" = "true" ] || grep -q '^✔' salida/respuesta_gestion.md 2>/dev/null; then
+            gh issue close "$NUMERO" --reason completed
+          else
+            gh issue close "$NUMERO" --reason "not planned"
+          fi
+
+      - name: Actualizar el dashboard
+        if: steps.aplicar.outputs.cambios == 'si'
+        run: gh workflow run actualizar.yml --ref main

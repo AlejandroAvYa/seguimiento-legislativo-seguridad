@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Seguimiento Legislativo SPD</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Seguimiento de los proyectos de ley de seguridad pública y prevención del delito: etapa, urgencias, agenda, indicaciones y votaciones. Fuentes oficiales del Senado y la Cámara.">
+<meta name="theme-color" content="#06294a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f69b4'/%3E%3Crect x='0' y='27' width='14' height='5' fill='%230f69b4'/%3E%3Cpath d='M6 12 16 6l10 6z' fill='%23fff'/%3E%3Cpath d='M8 14h3v8H8zm6.5 0h3v8h-3zM21 14h3v8h-3zM6 23.5h20V26H6z' fill='%23fff'/%3E%3Crect x='0' y='29' width='14' height='3' fill='%23eb3c46'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
@@ -330,6 +333,51 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 .pchip:hover{outline:1px solid var(--c-blue)}
 .cal{display:inline-flex;color:var(--c-blue)}
 @media (max-width:560px){.ses{grid-template-columns:minmax(0,1fr);gap:6px}}
+/* ---------------- gestión de boletines, acciones y avisos */
+.btn.primary{background:var(--c-blue);border-color:var(--c-blue);color:#fff}
+.btn.primary:hover{background:var(--c-blue-700);color:#fff}
+.btn.peligro{color:var(--c-red)} .btn.peligro:hover{border-color:var(--c-red);color:var(--c-red)}
+.btn.sm{font-size:11.5px;padding:5px 10px;border-radius:7px}
+.btn[disabled]{opacity:.5;pointer-events:none}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 16px}
+.form .full{grid-column:1/-1}
+.form label{display:block;font-size:11.5px;font-weight:700;color:var(--ink-2);margin-bottom:5px}
+.form label small{font-weight:500;color:var(--ink-3)}
+.form input,.form select,.form textarea{width:100%;font:inherit;font-size:13px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line-2);border-radius:8px;padding:8px 10px}
+.form textarea{min-height:64px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus,.fsearch:focus,.fsel:focus{outline:2px solid var(--c-blue);outline-offset:1px}
+@media (max-width:640px){.form{grid-template-columns:minmax(0,1fr)}}
+.verif{font-size:12.5px;line-height:1.5;border-radius:9px;padding:9px 12px;background:var(--surface-2);color:var(--ink-2)}
+.verif.ok{background:var(--c-ok-soft);color:var(--c-ok)} .verif.aviso{background:var(--c-amber-soft);color:var(--c-amber)}
+.pasos{margin:0;padding-left:18px;font-size:12.5px;color:var(--ink-2);line-height:1.7}
+.aviso-flot{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--ink);color:var(--surface);font-size:12.5px;font-weight:600;padding:9px 16px;border-radius:999px;box-shadow:var(--shadow);z-index:50}
+.g-form{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+@media (max-width:860px){.g-form{grid-template-columns:minmax(0,1fr)}}
+.cand{display:flex;gap:14px;align-items:flex-start;padding:12px 2px;border-top:1px solid var(--line)}
+.cand:first-child{border-top:0}
+.cand__main{flex:1;min-width:0}
+.cand__t{font-size:13px;font-weight:600;line-height:1.4;color:var(--ink)}
+.cand__s{font-size:11.5px;color:var(--ink-3);margin-top:4px;line-height:1.45}
+@media (max-width:640px){.cand{flex-direction:column;gap:8px}}
+.nav__sep{height:1px;background:rgba(255,255,255,.1);margin:10px 12px}
+@media print{
+  @page{margin:14mm 12mm}
+  html,body{background:#fff!important;height:auto!important;overflow:visible!important}
+  .sidebar,.topbar,.mnav,.saltar,.no-print,.btn,.a11y,.linea-gob{display:none!important}
+  .app,.main,.scroll{display:block!important;height:auto!important;overflow:visible!important}
+  .page{padding:0!important;max-width:none}
+  .card{box-shadow:none!important} .hero,.lrow,.cand{break-inside:avoid}
+  .hero{padding:12px 16px!important;margin-bottom:10px!important} .hero__stats{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important}
+  .hstat{padding:8px 10px!important} body{font-size:11px}
+  .hero{background:#06294a!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .chip,.prio,.st,.tk i{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .grid.g2,.grid.g3{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}
+  .imprimible-solo{display:block!important}
+  a{color:inherit;text-decoration:none}
+}
+.imprimible-solo{display:none}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -379,6 +427,7 @@ const VISTAS = [
   {id:"votaciones", n:"Votaciones y actores", s:"Votaciones en Sala y parlamentarios"},
   {id:"cambios", n:"Cambios recientes", s:"Lo que cambió en la tramitación"},
   {id:"leyes", n:"Leyes y despachos", s:"Proyectos que terminaron su paso por el Congreso"},
+  {id:"gestion", n:"Gestión de boletines", s:"Incorporar o descartar proyectos del seguimiento"},
   {id:"metodologia", n:"Fuentes y método", s:"Cómo se construye cada dato"}];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt = f => /^\d{4}-\d{2}-\d{2}/.test(f || "") ? `${f.slice(8,10)}-${f.slice(5,7)}-${f.slice(0,4)}${f.slice(10)}` : (f || "");
@@ -392,6 +441,11 @@ async function cargar(ruta, defecto) {
   try { const r = await fetch(ruta, {cache: "no-store"}); if (!r.ok) throw 0; return await r.json(); } catch (e) { return defecto; }
 }
 let cargaProyectos = null;
+const fichas = {};
+function fichaCompleta(b) {     // una ficha liviana por proyecto; si no existe, se usa el archivo completo
+  if (!fichas[b]) fichas[b] = cargar(`data/fichas/${b}.json`, null).then(async f => f || (await proyectos(), (D.proyectos || []).find(x => x.boletin === b)));
+  return fichas[b];
+}
 function proyectos() {
   if (!cargaProyectos) cargaProyectos = cargar("data/proyectos.json", []).then(p => (D.proyectos = p));
   return cargaProyectos;
@@ -414,9 +468,11 @@ const linkFicha = b => `#p-${b}`;
 
 /* ============================================================ navegación */
 function pintarNav(actual) {
-  const badge = {urgencias: D.tablero.filter(vence7).length, agenda: sesionesSeguidas().filter(x => x.fecha >= hoyISO()).length};
+  const badge = {urgencias: D.tablero.filter(vence7).length, agenda: sesionesSeguidas().filter(x => x.fecha >= hoyISO()).length,
+    gestion: (D.candidatos || []).filter(c => c.decision === "pendiente").length};
+  const TIT = {agenda: "Sesiones citadas con proyectos seguidos", urgencias: "Urgencias que vencen en 7 días", gestion: "Candidatos pendientes de decisión"};
   $("#nav").innerHTML = `<div class="nav__group">Vistas</div>` + VISTAS.map((v, i) =>
-    `<a class="nav__item ${actual === v.id ? "is-active" : ""}" href="#${v.id}"><span class="nav__num">${i + 1}</span><span>${v.n}</span>${badge[v.id] ? `<span class="nav__badge" title="${v.id === "agenda" ? "Sesiones citadas con proyectos seguidos" : "Urgencias que vencen en 7 días"}">${badge[v.id]}</span>` : ""}</a>`).join("");
+    `<a class="nav__item ${actual === v.id ? "is-active" : ""}" href="#${v.id}"><span class="nav__num">${i + 1}</span><span>${v.n}</span>${badge[v.id] ? `<span class="nav__badge" title="${TIT[v.id]}">${badge[v.id]}</span>` : ""}</a>`).join("");
   $("#mnav").innerHTML = VISTAS.map(v => `<a href="#${v.id}" class="${actual === v.id ? "is-active" : ""}">${v.n}</a>`).join("");
 }
 function encabezado(t, s) { $("#tTitle").textContent = t; $("#tSub").textContent = s; }
@@ -428,7 +484,7 @@ async function ruta() {
   pintarNav(v.id); encabezado(v.n, v.s);
   $("#scroll").scrollTop = 0;
   await ({panorama: vistaPanorama, autoridad: vistaAutoridad, agenda: vistaAgenda, acot: vistaAcot, urgencias: vistaUrgencias, indicaciones: vistaIndicaciones, votaciones: vistaVotaciones,
-    cambios: vistaCambios, leyes: vistaLeyes, metodologia: vistaMetodo})[v.id]();
+    cambios: vistaCambios, leyes: vistaLeyes, gestion: vistaGestion, metodologia: vistaMetodo})[v.id]();
   pie();
 }
 function pie() {
@@ -618,8 +674,7 @@ async function vistaFicha(b) {
   const t = proyecto(b);
   encabezado(t.nombre_corto, `Boletín ${b} · ${t.materia}`);
   $("#page").innerHTML = `<div class="loading">Cargando ficha…</div>`; $("#scroll").scrollTop = 0;
-  await proyectos();
-  const p = (D.proyectos || []).find(x => x.boletin === b) || t;
+  const p = (await fichaCompleta(b)) || t;
   const vence = p.urgencia_vence_estimado ? diasHasta(p.urgencia_vence_estimado) : null;
   const activo = enTram(p);
   const instancia = activo ? (p.instancia_actual || "—") : p.situacion === "Despachado al Ejecutivo" ? (p.etapa_codigo === "TC" && /Tribunal/.test(p.etapa) ? "Tribunal Constitucional" : "Despachado por el Congreso") : p.situacion;
@@ -630,7 +685,10 @@ async function vistaFicha(b) {
   const nInd = p.n_indicaciones_senado || 0, nVot = (p.votaciones || []).length + (p.votaciones_camara || []).length;
   const gest = [["Responsable", p.responsable], ["Posición del Ejecutivo", p.posicion_ejecutivo], ["Última gestión", p.ultima_gestion], ["Próximo paso", p.proximo_paso]];
   $("#page").innerHTML = `
-    <div style="margin-bottom:14px"><a class="btn back" href="#panorama">← Volver al panorama</a></div>
+    <div class="fbar"><a class="btn back" href="#panorama">← Volver al panorama</a>
+      <div class="acciones no-print"><button type="button" class="btn sm" id="fCopiar" title="Copiar el enlace directo a esta ficha"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>Copiar enlace</button>
+        <button type="button" class="btn sm" id="fImprimir">Imprimir</button>
+        <a class="btn sm peligro" href="#gestion" id="fQuitar" title="Pedir que este proyecto deje de seguirse">Quitar del seguimiento</a></div></div>
     <div class="card fhead">
       <div class="fhead__eyebrow"><span class="mono" style="color:var(--ink)">Boletín ${esc(b)}</span><span class="sep">·</span><span>${esc(p.iniciativa)} · ingresó el ${fmt(p.fecha_ingreso)} en ${esc(p.camara_origen)}</span><span class="sep">·</span><span>${esc(p.clasificacion)} · ${esc(p.materia)}</span></div>
       <h1 class="fhead__t">${esc(p.nombre_corto)}</h1>
@@ -681,6 +739,9 @@ async function vistaFicha(b) {
     <div id="fcont"></div>`;
   document.querySelectorAll("#ftabs .tab").forEach(t => t.addEventListener("click", () => { tabFicha = t.dataset.k; document.querySelectorAll("#ftabs .tab").forEach(x => x.classList.toggle("is-on", x === t)); pintarTab(p); }));
   pintarTab(p);
+  $("#fCopiar").addEventListener("click", () => copiar(location.href.split("#")[0] + linkFicha(b)));
+  $("#fImprimir").addEventListener("click", () => window.print());
+  $("#fQuitar").addEventListener("click", () => { G.pre = {accion: "Descartar", boletin: b}; });
 }
 function pintarTab(p) {
   const c = $("#fcont");
@@ -832,10 +893,11 @@ async function vistaIndicaciones() {
 /* ============================================================ vista 4: votaciones y actores */
 async function vistaVotaciones() {
   $("#page").innerHTML = `<div class="loading">Cargando votaciones…</div>`;
-  await proyectos();
-  if (!D.actores) D.actores = await cargar("data/actores.json", {});
-  const votos = [];
-  (D.proyectos || []).forEach(p => { (p.votaciones || []).forEach(v => votos.push({p, v, c: "Senado"})); (p.votaciones_camara || []).forEach(v => votos.push({p, v, c: "Cámara"})); });
+  const [lista, actores] = await Promise.all([D.votaciones || cargar("data/votaciones.json", null), D.actores || cargar("data/actores.json", {})]);
+  D.actores = actores;
+  let votos = [];
+  if (lista) { D.votaciones = lista; votos = lista.map(v => ({p: {boletin: v.boletin, nombre_corto: (proyecto(v.boletin) || v).nombre_corto}, v, c: v.camara})); }
+  else { await proyectos(); (D.proyectos || []).forEach(p => { (p.votaciones || []).forEach(v => votos.push({p, v, c: "Senado"})); (p.votaciones_camara || []).forEach(v => votos.push({p, v, c: "Cámara"})); }); }
   votos.sort((a, b) => b.v.fecha.localeCompare(a.v.fecha));
   const sesiones = [];                    // agrupa las votaciones de un mismo proyecto, día y cámara
   votos.forEach(x => { const k = x.p.boletin + x.v.fecha + x.c; let g = sesiones.find(s => s.k === k);
@@ -993,6 +1055,9 @@ function vistaAutoridad() {
   const acot = T.filter(p => p.acot_n), acotT = acot.filter(enTram);
   const caja = (titulo, sub, cuerpo, color) => `<div class="card"><div class="card__head"><span class="card__title"${color ? ` style="color:${color}"` : ""}>${titulo}</span><span class="card__sub">${sub}</span></div><div class="card__body">${cuerpo}</div></div>`;
   $("#page").innerHTML = `
+    <div class="imprimible-solo" style="margin-bottom:10px"><img src="config/logo.png" alt="" style="height:44px"><div class="small muted">Seguimiento legislativo · Subsecretaría de Prevención del Delito · generado el ${fmt(hoy)}</div></div>
+    <div class="fbar no-print"><span class="small muted">Lectura de 2 minutos. Se puede imprimir o guardar como PDF para enviarlo.</span>
+      <button type="button" class="btn sm" id="btnImprimir"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>Imprimir o guardar PDF</button></div>
     <section class="hero"><div class="hero__k">Resumen para autoridades</div>
       <div class="hero__t">Semana del ${fmt(sem.desde || hoy).slice(0, 5)} al ${fmt(sem.hasta || hoy)}</div>
       <div class="hero__meta">Seguridad pública y prevención del delito · ${tram.length} proyectos en tramitación · datos al ${fmt(D.meta.ultima_actualizacion_datos)}</div>
@@ -1015,6 +1080,7 @@ function vistaAutoridad() {
     </div>
     <p class="small muted" style="margin-top:12px">Cada fila abre la ficha del proyecto. Las prioridades y acciones se calculan con las reglas de <a href="#metodologia">Fuentes y método</a>.</p>`;
   document.querySelectorAll("#page .lrow[data-b]").forEach(r => r.addEventListener("click", () => { if (proyecto(r.dataset.b)) location.hash = linkFicha(r.dataset.b); }));
+  $("#btnImprimir").addEventListener("click", () => window.print());
 }
 
 /* ============================================================ vista: agenda de la semana */
@@ -1115,6 +1181,137 @@ function a11y() {
   aplicar();
 }
 
+/* ============================================================ gestión de boletines */
+const REPO = "AlejandroAvYa/seguimiento-legislativo-seguridad";
+const G = {pre: null};
+function leerCSV(txt) {          // CSV con comillas (RFC 4180) -> lista de objetos
+  const filas = []; let fila = [], campo = "", q = false;
+  for (let i = 0; i < txt.length; i++) {
+    const c = txt[i];
+    if (q) { if (c === '"') { if (txt[i + 1] === '"') { campo += '"'; i++; } else q = false; } else campo += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { fila.push(campo); campo = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && txt[i + 1] === "\n") i++; fila.push(campo); filas.push(fila); fila = []; campo = ""; }
+    else campo += c;
+  }
+  if (campo || fila.length) { fila.push(campo); filas.push(fila); }
+  const [cab, ...resto] = filas.filter(f => f.some(x => x !== ""));
+  return (resto || []).map(f => Object.fromEntries((cab || []).map((k, i) => [k, f[i] ?? ""])));
+}
+async function cargarCandidatos() {
+  try { const r = await fetch("data/candidatos.csv", {cache: "no-store"}); D.candidatos = r.ok ? leerCSV(await r.text()) : []; }
+  catch (e) { D.candidatos = []; }
+  return D.candidatos;
+}
+const normBoletin = t => { const m = String(t || "").match(/(\d{1,2})\.?(\d{3})\s*-\s*(\d{2})/); return m ? `${m[1]}${m[2]}-${m[3]}` : ""; };
+function urlSolicitud(d) {
+  const q = new URLSearchParams({template: "gestionar-boletin.yml", title: `[Boletín] ${d.accion} ${d.boletin}`, accion: d.accion, boletin: d.boletin});
+  if (d.accion === "Incorporar") ["nombre_corto", "clasificacion", "materia", "descripcion"].forEach(k => d[k] && q.set(k, d[k]));
+  if (d.nota) q.set("nota", d.nota);
+  return `https://github.com/${REPO}/issues/new?${q}`;
+}
+async function vistaGestion() {
+  if (!D.candidatos) await cargarCandidatos();
+  const C = D.candidatos || [], pend = C.filter(c => c.decision === "pendiente").sort((a, b) => b.fecha_deteccion.localeCompare(a.fecha_deteccion));
+  const desc = C.filter(c => c.decision === "descartado");
+  const materias = [...new Set(D.tablero.map(p => p.materia).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
+  const senado = b => `https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=${encodeURIComponent(b)}`;
+  $("#page").innerHTML = `<div class="page__eyebrow">Gestión de boletines</div><h1 class="page__title">Incorporar o descartar proyectos</h1>
+    <p class="page__lead">Agrega al seguimiento un boletín que el sistema no detectó, o quita uno que no es de interés. La solicitud queda registrada en GitHub con fecha y autor, y se aplica sola en unos dos minutos.</p>
+    <div class="grid g-form">
+      <div class="card" id="gForm"><div class="card__head"><span class="card__title">Nueva solicitud</span></div><div class="card__body">
+        <div class="form">
+          <div><label for="gBol">Boletín</label><input id="gBol" inputmode="numeric" autocomplete="off" placeholder="12345-07" aria-describedby="gVer"></div>
+          <div><label>Acción</label><div class="seg" id="gAcc" role="group" aria-label="Acción"><button type="button" data-k="Incorporar" class="is-on">Incorporar</button><button type="button" data-k="Descartar">Descartar</button></div></div>
+          <div class="full"><div class="verif" id="gVer" aria-live="polite">Escribe el número de boletín con su sufijo.</div></div>
+          <div class="solo-inc"><label for="gNom">Nombre corto <small>opcional</small></label><input id="gNom" maxlength="80" placeholder="Si se deja vacío, se usa el título oficial"></div>
+          <div class="solo-inc"><label for="gCla">Clasificación <small>opcional</small></label><select id="gCla"><option value="">Por clasificar</option><option>Núcleo</option><option>Conexo</option></select></div>
+          <div class="full solo-inc"><label for="gMat">Materia <small>opcional</small></label><input id="gMat" list="gMats" placeholder="Elegir o escribir"><datalist id="gMats">${materias.map(m => `<option value="${esc(m)}">`).join("")}</datalist></div>
+          <div class="full"><label for="gNota" id="gNotaL">Nota <small>opcional</small></label><textarea id="gNota" placeholder=""></textarea></div>
+        </div>
+        <div class="acciones" style="margin-top:16px"><a class="btn primary" id="gEnviar" target="_blank" rel="noopener" href="#">Continuar en GitHub</a><button type="button" class="btn" id="gLimpiar">Limpiar</button></div>
+      </div></div>
+      <div class="card"><div class="card__head"><span class="card__title">Cómo funciona</span></div><div class="card__body">
+        <ol class="pasos"><li>Completa el boletín y la acción, y presiona <b>Continuar en GitHub</b>.</li>
+          <li>Se abre el formulario ya completo. Presiona <b>Create</b> (o <b>Submit new issue</b>).</li>
+          <li>Una tarea automática valida el boletín en el Senado, actualiza el catálogo y responde en la misma solicitud.</li>
+          <li>El dashboard se actualiza en unos minutos con la tramitación completa.</li></ol>
+        <p class="small muted" style="margin:12px 0 0">Requiere una cuenta de GitHub con acceso al repositorio. Para sumar a alguien del equipo, agrégalo como colaborador en la configuración del repositorio. Las solicitudes de otras cuentas no se procesan.</p>
+        <p class="small" style="margin:10px 0 0"><a href="https://github.com/${REPO}/issues?q=label%3Agestion-boletin" target="_blank" rel="noopener">Ver solicitudes anteriores</a></p>
+      </div></div>
+    </div>
+    <div class="section-title">Candidatos detectados pendientes de decisión · ${pend.length}</div>
+    <div class="card"><div class="card__body">${pend.length ? pend.map(c => `<div class="cand"><div class="cand__main"><div class="cand__t">${esc(c.titulo)}</div>
+        <div class="cand__s"><a class="mono" href="${senado(c.boletin)}" target="_blank" rel="noopener">Boletín ${esc(c.boletin)}</a> · detectado el ${fmt(c.fecha_deteccion)} · ${esc(c.motivo)}</div></div>
+        <div class="acciones" style="flex:none"><button type="button" class="btn sm" data-g="Incorporar" data-b="${esc(c.boletin)}">Incorporar</button><button type="button" class="btn sm peligro" data-g="Descartar" data-b="${esc(c.boletin)}">Descartar</button></div></div>`).join("")
+      : '<div class="empty">No hay candidatos pendientes. Cada hora el sistema revisa los proyectos con movimiento reciente que tienen acción del Gobierno y palabras clave de seguridad.</div>'}</div></div>
+    <details class="card" style="margin-top:16px"><summary class="card__head" style="cursor:pointer;padding-bottom:14px"><span class="card__title">Boletines descartados</span><span class="card__sub">${desc.length}</span></summary>
+      <div class="card__body"><input class="fsearch" style="width:100%;margin-bottom:8px" type="search" id="gDescQ" placeholder="Buscar por boletín o título">
+      <div class="tblwrap" style="max-height:440px;overflow:auto"><table class="dt" id="gDesc"><thead><tr><th>Boletín</th><th>Título</th><th>Motivo</th><th></th></tr></thead><tbody>
+      ${desc.map(c => `<tr data-n="${esc((c.boletin + " " + c.titulo).toLowerCase())}"><td class="mono" style="white-space:nowrap">${esc(c.boletin)}</td><td>${esc(c.titulo)}</td><td class="small">${esc(c.observacion)}</td><td><button type="button" class="btn sm" data-g="Incorporar" data-b="${esc(c.boletin)}">Reconsiderar</button></td></tr>`).join("")}</tbody></table></div></div></details>`;
+
+  let accion = "Incorporar";
+  const datos = () => ({accion, boletin: normBoletin($("#gBol").value), nombre_corto: $("#gNom").value.trim(), clasificacion: $("#gCla").value,
+    materia: $("#gMat").value.trim(), nota: $("#gNota").value.trim()});
+  const actualizar = () => {
+    document.querySelectorAll("#gAcc button").forEach(x => x.classList.toggle("is-on", x.dataset.k === accion));
+    document.querySelectorAll("#gForm .solo-inc").forEach(x => x.hidden = accion !== "Incorporar");
+    $("#gNotaL").innerHTML = accion === "Descartar" ? 'Motivo del descarte <small>recomendado</small>' : 'Nota <small>opcional</small>';
+    $("#gNota").placeholder = accion === "Descartar" ? "Por ejemplo: materia ajena a seguridad pública" : "Por ejemplo: pedido por el gabinete del Ministro";
+    const d = datos(), raw = $("#gBol").value.trim(), t = proyecto(d.boletin), c = C.find(x => x.boletin === d.boletin);
+    let msg = "Escribe el número de boletín con su sufijo.", cls = "", valido = false;
+    if (raw && !d.boletin) msg = "Formato no válido. Debe ser como 12345-07.";
+    else if (d.boletin && accion === "Incorporar") {
+      if (t) { msg = `Ya está en seguimiento: ${t.nombre_corto}.`; cls = "aviso"; }
+      else if (c && c.decision === "incorporado") { msg = "Su incorporación ya fue registrada; aparecerá tras la próxima actualización."; cls = "aviso"; }
+      else { valido = true; cls = "ok"; msg = c ? `Detectado como candidato el ${fmt(c.fecha_deteccion)}: ${c.titulo}` + (c.decision === "descartado" ? ` (descartado antes: ${c.observacion || "sin motivo"})` : "")
+        : "No está en seguimiento. Al enviarlo se valida en el Senado y se toma el título oficial."; }
+    } else if (d.boletin) {
+      if (t) { valido = true; cls = "aviso"; msg = `Se quitará del seguimiento: ${t.nombre_corto} (${t.situacion.toLowerCase()}).`; }
+      else if (c && c.decision === "descartado") { msg = "Ya figura como descartado."; cls = "aviso"; }
+      else { valido = true; cls = "ok"; msg = c ? `Candidato pendiente: ${c.titulo}` : "No está en seguimiento. Quedará registrado como descartado para que no se proponga como candidato."; }
+    }
+    $("#gVer").className = `verif ${cls}`; $("#gVer").textContent = msg;
+    const btn = $("#gEnviar");
+    btn.toggleAttribute("disabled", !valido); btn.setAttribute("aria-disabled", String(!valido));
+    btn.href = valido ? urlSolicitud(d) : "#";
+    btn.textContent = valido ? `${accion === "Incorporar" ? "Incorporar" : "Descartar"} ${d.boletin} en GitHub` : "Continuar en GitHub";
+  };
+  const precargar = (acc, b) => { accion = acc; $("#gBol").value = b; actualizar(); $("#gForm").scrollIntoView({behavior: "smooth", block: "start"});
+    setTimeout(() => (acc === "Incorporar" ? $("#gNom") : $("#gNota")).focus({preventScroll: true}), 350); };
+  document.querySelectorAll("#gAcc button").forEach(x => x.addEventListener("click", () => { accion = x.dataset.k; actualizar(); }));
+  ["#gBol", "#gNom", "#gCla", "#gMat", "#gNota"].forEach(id => $(id).addEventListener("input", actualizar));
+  $("#gLimpiar").addEventListener("click", () => { ["#gBol", "#gNom", "#gMat", "#gNota"].forEach(id => $(id).value = ""); $("#gCla").value = ""; accion = "Incorporar"; actualizar(); });
+  $("#gEnviar").addEventListener("click", e => { if ($("#gEnviar").hasAttribute("disabled")) e.preventDefault(); else aviso("Se abrió GitHub en otra pestaña"); });
+  document.querySelectorAll("[data-g]").forEach(x => x.addEventListener("click", () => precargar(x.dataset.g, x.dataset.b)));
+  $("#gDescQ").addEventListener("input", e => { const q = e.target.value.toLowerCase(); document.querySelectorAll("#gDesc tbody tr").forEach(tr => tr.hidden = q && !tr.dataset.n.includes(q)); });
+  actualizar();
+  if (G.pre) { const {accion: a, boletin: b} = G.pre; G.pre = null; precargar(a, b); }
+}
+function haceCuanto(f) {        // "2026-10-30 04:10" (hora de Chile) -> "hace 25 min"
+  if (!/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(f || "")) return "";
+  const d = new Date(f.slice(0, 16).replace(" ", "T") + ":00Z");     // se interpreta en hora de Chile, esté donde esté el lector
+  const enZona = z => new Date(d.toLocaleString("en-US", {timeZone: z}));
+  const min = Math.round((Date.now() - (d.getTime() + (enZona("UTC") - enZona("America/Santiago")))) / 6e4);
+  return min < 1 ? "recién" : min < 60 ? `hace ${min} min` : min < 48 * 60 ? `hace ${Math.round(min / 60)} h` : `hace ${Math.round(min / 1440)} días`;
+}
+function pintarCorte() {
+  const m = D.meta, f = m.fuentes || {}, ok = k => (f[k] && (f[k].estado || "").startsWith("ok"));
+  const rel = haceCuanto(m.ultima_actualizacion_datos);
+  $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${rel || fmt(m.ultima_actualizacion_datos)}`;
+  $("#corte").title = `Datos al ${fmt(m.ultima_actualizacion_datos)}`;
+}
+function aviso(txt) {
+  document.querySelector(".aviso-flot")?.remove();
+  const d = document.createElement("div"); d.className = "aviso-flot"; d.setAttribute("role", "status"); d.textContent = txt;
+  document.body.appendChild(d); setTimeout(() => d.remove(), 2600);
+}
+async function copiar(txt) {
+  try { await navigator.clipboard.writeText(txt); aviso("Enlace copiado"); }
+  catch (e) { const i = document.createElement("textarea"); i.value = txt; document.body.appendChild(i); i.select();
+    try { document.execCommand("copy"); aviso("Enlace copiado"); } catch (e2) { aviso("No se pudo copiar"); } i.remove(); }
+}
+
 /* ============================================================ inicio */
 (async () => {
   const [t, m, c, ag, ac, cal] = await Promise.all([cargar("data/tablero.json", []), cargar("data/meta.json", {}), cargar("data/cambios.json", []),
@@ -1122,13 +1319,14 @@ function a11y() {
   Object.assign(D, {tablero: t, meta: m, cambios: c, agenda: ag, acot: ac, calendario: cal});
   if (!t.length) { $("#page").innerHTML = `<div class="empty">No se pudieron cargar los datos. Esta página debe abrirse desde GitHub Pages o un servidor web.</div>`; return; }
   const f = m.fuentes || {}, ok = k => (f[k] && (f[k].estado || "").startsWith("ok"));
-  $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${fmt(m.ultima_actualizacion_datos)}`;
+  pintarCorte();
   $("#fuentes").innerHTML = `<div class="src"><span class="dot" style="background:${ok("senado") ? "#5fd39a" : "#ff9a9f"}"></span>Senado ${ok("senado") ? "al día" : "sin conexión"}</div>
     <div class="src"><span class="dot" style="background:${ok("camara_votaciones") ? "#5fd39a" : "#ff9a9f"}"></span>Cámara ${ok("camara_votaciones") ? "al día" : "sin conexión"}</div>
     <div style="margin-top:6px">Datos al ${fmt(m.ultima_actualizacion_datos)}. Se actualiza cada hora.</div>`;
   a11y();
   ruta();
-  setTimeout(proyectos, 1200);   // la ficha completa se precarga en segundo plano
+  cargarCandidatos().then(() => pintarNav((VISTAS.find(x => x.id === location.hash.slice(1)) || {}).id || (location.hash.startsWith("#p-") ? "" : "panorama")));
+  setInterval(pintarCorte, 60000);
 })();
 </script>
 </body>

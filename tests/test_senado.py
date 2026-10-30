@@ -252,5 +252,58 @@ class PrimeraCargaCamara(unittest.TestCase):
         self.assertEqual(len(actualizar.detectar_cambios({"1": prev}, {"1": nuevo}, "m", True)), 1)
 
 
+class GestionBoletines(unittest.TestCase):
+    CUERPO = ("### Acción\n\n{accion}\n\n### Boletín\n\n{boletin}\n\n### Nombre corto (opcional, solo para incorporar)\n\n{nombre}\n\n"
+              "### Clasificación (opcional, solo para incorporar)\n\n_No response_\n\n### Materia (opcional, solo para incorporar)\n\n_No response_\n\n"
+              "### Descripción (opcional, solo para incorporar)\n\n_No response_\n\n### Nota o motivo\n\n{nota}")
+
+    def setUp(self):
+        import shutil
+        import tempfile
+        import gestionar_boletin as g
+        self.g, self.dir = g, tempfile.mkdtemp()
+        self.addCleanup(shutil.rmtree, self.dir)
+        with open(os.path.join(self.dir, "catalogo.csv"), "w", encoding="utf-8") as f:
+            f.write(",".join(g.CAMPOS_CAT) + "\n18341-25,Registro de incivilidades,Núcleo,Orden público,,,,,,,\n")
+        with open(os.path.join(self.dir, "candidatos.csv"), "w", encoding="utf-8") as f:
+            f.write(",".join(g.CAMPOS_CAND) + '\n17000-07,"Título, con coma",2026-10-01,Mensaje,pendiente,\n')
+        self._orig = (g.CONFIG, g.DATA, g.senado.ficha)
+        g.CONFIG = g.DATA = self.dir
+        g.senado.ficha = lambda b: {"titulo": "Proyecto de prueba sobre seguridad"} if b.startswith("17") else None
+        self.addCleanup(self._restaurar)
+
+    def _restaurar(self):
+        self.g.CONFIG, self.g.DATA, self.g.senado.ficha = self._orig
+
+    def _filas(self, nombre):
+        return actualizar.leer_csv(os.path.join(self.dir, nombre))
+
+    def _procesar(self, accion, boletin, nombre="_No response_", nota="_No response_"):
+        return self.g.procesar(self.g.leer_formulario(self.CUERPO.format(accion=accion, boletin=boletin, nombre=nombre, nota=nota)), "prueba")
+
+    def test_incorporar_candidato(self):
+        ok, msg = self._procesar("Incorporar", "17.000-07", nombre="Proyecto corto")
+        self.assertTrue(ok, msg)
+        cat = {r["boletin"]: r for r in self._filas("catalogo.csv")}
+        self.assertEqual(cat["17000-07"]["nombre_corto"], "Proyecto corto")
+        self.assertEqual(cat["17000-07"]["clasificacion"], "Por clasificar")
+        cand = self._filas("candidatos.csv")[0]
+        self.assertEqual((cand["decision"], cand["titulo"]), ("incorporado", "Título, con coma"))
+
+    def test_no_duplica_ni_acepta_inexistentes(self):
+        self.assertFalse(self._procesar("Incorporar", "18341-25")[0])
+        self.assertFalse(self._procesar("Incorporar", "99999-07")[0])
+        self.assertFalse(self._procesar("Incorporar", "abc")[0])
+        self.assertEqual(len(self._filas("catalogo.csv")), 1)
+
+    def test_descartar_seguido(self):
+        ok, msg = self._procesar("Descartar", "18341-25", nota="Ya no es prioridad")
+        self.assertTrue(ok, msg)
+        self.assertEqual(self._filas("catalogo.csv"), [])
+        cand = {r["boletin"]: r for r in self._filas("candidatos.csv")}
+        self.assertEqual((cand["18341-25"]["decision"], cand["18341-25"]["observacion"]), ("descartado", "Ya no es prioridad"))
+        self.assertEqual(cand["18341-25"]["titulo"], "Registro de incivilidades")
+
+
 if __name__ == "__main__":
     unittest.main()
