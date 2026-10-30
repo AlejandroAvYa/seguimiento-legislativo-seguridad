@@ -251,7 +251,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
    "horario": "10:00 a 13:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 2 ) Partida 02 Congreso Nacional",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 2 ) Partida 02 Congreso Nacional\n.- ( Bol.N° 16 ) Partida 16 Ministerio de Salud",
    "boletines": [
     "18702-05"
    ],
@@ -321,8 +321,8 @@
    "tipo": "Comisión",
    "fecha": "2026-11-04",
    "instancia": "Comisión de Trabajo y Previsión Social",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala N°9 Tercer Piso Senado Valparaíso",
    "horario": "12:30 a 14:00",
    "materia": "1.- Para recibir en audiencia al Superintendente de Pensiones y al Presidente de la Asociación de AFP, para que se dé cuenta ante la Comisión de lo sucedido con los criterios de inversión, las inversiones y pérdidas del Fondo E.",
@@ -412,6 +412,50 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-10-30",
+   "titulo": "Sala de la Cámara: Cinco proyectos despachados esta semana",
+   "link": "https://www.camara.cl/cms/2026/10/30/sala-de-la-camara-cinco-proyectos-despachados-esta-semana/",
+   "tipo": "Sala",
+   "resumen": "Entre las propuestas aprobadas, una pasó a fase de promulgación. Además, se realizaron dos sesiones especiales: por la pérdida de dineros de los fondos previsionales y por las rebajas de condenas otorgadas por el Ministerio de Justicia.",
+   "temas": [
+    "Resumen de trabajo en Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-30",
+   "titulo": "Comisiones de la Cámara: revisan reinserción juvenil, apoderados y seguridad",
+   "link": "https://www.camara.cl/cms/2026/10/30/comisiones-de-la-camara-revisan-reinsercion-juvenil-apoderados-y-seguridad/",
+   "tipo": "Comisión",
+   "resumen": "Las comisiones de la Cámara abordaron la infraestructura de los centros juveniles, la regulación de los apoderados y proyectos sobre extorsión y armas en cárceles.",
+   "temas": [
+    "comisiones",
+    "desarrollo social",
+    "Educación",
+    "Seguridad ciudadana"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-10-30",
+   "titulo": "Semana legislativa: Sala respaldó ocho resoluciones y un proyecto de acuerdo",
+   "link": "https://www.camara.cl/cms/2026/10/30/semana-legislativa-sala-respaldo-ocho-resoluciones-y-un-proyecto-de-acuerdo/",
+   "tipo": "Sala",
+   "resumen": "Las resoluciones piden al Primer Mandatario adoptar medidas en materias de Salud, zonas aisladas y beneficios para aliviar el alza del costo de la vida. El acuerdo, en tanto, aborda la rebaja de penas a condenados por delitos sexuales.",
+   "temas": [
+    "Aysén",
+    "Proyecto de Acuerdo",
+    "Rebaja de Condena",
+    "Resoluciones",
+    "Sala de la Cámara",
+    "salud"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-10-28",
    "titulo": "Sala analizó pérdidas registradas durante 2026 en fondos de pensiones",
