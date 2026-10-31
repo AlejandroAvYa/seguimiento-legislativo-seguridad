@@ -1739,8 +1739,23 @@
   }
  ],
  "diputados": {
-  "1025": {
-   "nombre": "Catalina Del Real Mihovilovic",
+  "1105": {
+   "nombre": "Héctor Barría Angulo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "DC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1030": {
+   "nombre": "Camila Flores Oporto",
    "militancias": [
     [
      "2018-03-11",
@@ -1749,48 +1764,38 @@
     ],
     [
      "2022-03-11",
-     "2023-08-22",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1069": {
+   "nombre": "Leonidas Romero Sáez",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
      "RN"
     ],
     [
-     "2023-08-23",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1202": {
-   "nombre": "Eduardo Cretton Rebolledo",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1175": {
-   "nombre": "Cristián Tapia Ramos",
-   "militancias": [
-    [
      "2022-03-11",
-     "2026-03-10",
+     "2022-09-12",
+     "RN"
+    ],
+    [
+     "2022-09-13",
+     "2025-06-10",
      "IND"
     ],
     [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
+     "2025-06-11",
+     "2026-03-10",
+     "PNL"
     ]
    ]
   },
-  "1223": {
-   "nombre": "Hans Marowski Cuevas",
+  "1228": {
+   "nombre": "Paulina Muñoz Minte",
    "militancias": [
     [
      "2026-03-11",
@@ -1799,53 +1804,8 @@
     ]
    ]
   },
-  "1243": {
-   "nombre": "Tamara Ramírez Ramírez",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1036": {
-   "nombre": "Tomás Hirsch Goldschmidt",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2020-05-05",
-     "PH"
-    ],
-    [
-     "2020-05-06",
-     "2022-03-10",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2023-03-06",
-     "IND"
-    ],
-    [
-     "2023-03-07",
-     "2026-03-10",
-     "PAH"
-    ]
-   ]
-  },
-  "1230": {
-   "nombre": "Alex Nahuelquin Nahuelquin",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1253": {
-   "nombre": "Fernando Ugarte Tejeda",
+  "1198": {
+   "nombre": "Paz Charpentier Rajcevich",
    "militancias": [
     [
      "2026-03-11",
@@ -1854,8 +1814,8 @@
     ]
    ]
   },
-  "1130": {
-   "nombre": "Marta González Olea",
+  "1115": {
+   "nombre": "Mercedes Bulnes Núñez",
    "militancias": [
     [
      "2022-03-11",
@@ -1864,12 +1824,262 @@
     ]
    ]
   },
-  "1207": {
-   "nombre": "Valentina Cáceres Monsálvez",
+  "1205": {
+   "nombre": "Carlos Cuadrado Prats",
    "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
+     "PPD"
+    ]
+   ]
+  },
+  "948": {
+   "nombre": "Gaspar Rivas Sánchez",
+   "militancias": [
+    [
+     "2010-03-11",
+     "2014-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2024-08-26",
+     "PDG"
+    ],
+    [
+     "2024-08-27",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2014-08-14",
+     "2018-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1155": {
+   "nombre": "Rubén Darío Oyarzo Figueroa",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-04-15",
+     "PDG"
+    ],
+    [
+     "2024-04-16",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1216": {
+   "nombre": "Stephanie Jéldrez Ortiz",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1119": {
+   "nombre": "Sara Concha Smith",
+   "militancias": [
+    [
+     "2023-03-22",
+     "2026-03-10",
+     "PSC"
+    ],
+    [
+     "2022-03-11",
+     "2023-03-21",
+     "PCC"
+    ],
+    [
+     "2026-03-11",
+     "2026-09-01",
+     "PSC"
+    ],
+    [
+     "2026-09-02",
+     "2030-03-10",
+     "PCCH"
+    ]
+   ]
+  },
+  "1227": {
+   "nombre": "Claudia Mora Vega",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1231": {
+   "nombre": "Ximena Naranjo Pinto",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "872": {
+   "nombre": "Jaime Mulet Martínez",
+   "militancias": [
+    [
+     "1998-03-11",
+     "2002-03-10",
+     "DC"
+    ],
+    [
+     "2002-03-11",
+     "2006-03-10",
+     "DC"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "FRVS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "FRVS"
+    ],
+    [
+     "2006-03-11",
+     "2010-03-10",
+     "PRI"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FRVS"
+    ]
+   ]
+  },
+  "1263": {
+   "nombre": "Sebastián Zamora Soto",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1075": {
+   "nombre": "Diego Schalper Sepúlveda",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1100": {
+   "nombre": "Cristián Araya Lerdo de Tejada",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1076": {
+   "nombre": "Alexis Sepúlveda Soto",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PR"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PR"
+    ]
+   ]
+  },
+  "1195": {
+   "nombre": "Carlos Carvajal Gallardo",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1054": {
+   "nombre": "Francesca Muñoz González",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-12-12",
+     "2023-05-30",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2022-12-11",
+     "RN"
+    ],
+    [
+     "2023-05-31",
+     "2026-03-10",
+     "PSC"
+    ],
+    [
+     "2026-09-02",
+     "2030-03-10",
+     "PCCH"
+    ],
+    [
+     "2026-03-11",
+     "2026-09-01",
+     "PSC"
+    ]
+   ]
+  },
+  "1040": {
+   "nombre": "Harry Jürgensen Rundshagen",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
      "IND"
     ]
    ]
@@ -1889,14 +2099,329 @@
     ]
    ]
   },
-  "1021": {
-   "nombre": "Andrés Celis Montt",
+  "1114": {
+   "nombre": "Félix Bugueño Sotelo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-06-12",
+     "FRVS"
+    ],
+    [
+     "2022-06-13",
+     "2024-07-02",
+     "IND"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1117": {
+   "nombre": "Nathalie Castillo Rojas",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1086": {
+   "nombre": "Gonzalo Winter Etcheberry",
+   "militancias": [
+    [
+     "2018-04-05",
+     "2020-03-10",
+     "IND"
+    ],
+    [
+     "2018-03-11",
+     "2018-04-04",
+     "RD"
+    ],
+    [
+     "2020-03-11",
+     "2022-03-10",
+     "PCS"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1178": {
+   "nombre": "Héctor Ulloa Aguilera",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1209": {
+   "nombre": "Matías Fernández Hartwig",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1247": {
+   "nombre": "Javiera Rodríguez Pascual",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1174": {
+   "nombre": "Marco Antonio Sulantay Olivares",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1220": {
+   "nombre": "Leandro Kunstmann Collado",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1074": {
+   "nombre": "Marisela Santibáñez Novoa",
+   "militancias": [
+    [
+     "2019-04-17",
+     "2019-09-26",
+     "IND"
+    ],
+    [
+     "2018-03-11",
+     "2019-04-16",
+     "PRO"
+    ],
+    [
+     "2019-09-27",
+     "2022-03-10",
+     "PC"
+    ],
+    [
+     "2022-03-11",
+     "2024-01-16",
+     "PC"
+    ],
+    [
+     "2024-01-17",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1058": {
+   "nombre": "Maite Orsini Pascal",
    "militancias": [
     [
      "2018-03-11",
      "2022-03-10",
-     "RN"
+     "RD"
     ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "RD"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1188": {
+   "nombre": "Marcos Barraza Gómez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1051": {
+   "nombre": "Claudia Mix Jiménez",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "COMUNES"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "COMUNES"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1214": {
+   "nombre": "Constanza Hube Portus",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1044": {
+   "nombre": "Raúl Leiva Carvajal",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1134": {
+   "nombre": "Andrés Jouannet Valderrama",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-07-17",
+     "IND"
+    ],
+    [
+     "2023-07-18",
+     "2026-03-10",
+     "AMA"
+    ]
+   ]
+  },
+  "1163": {
+   "nombre": "Marcia Raphael Mora",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1257": {
+   "nombre": "Alejandra Valdebenito Torres",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1132": {
+   "nombre": "Jorge Guzmán Zepeda",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "EVOP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "EVOP"
+    ]
+   ]
+  },
+  "1196": {
+   "nombre": "Priscilla Castillo Gerli",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1201": {
+   "nombre": "Flor Contreras Vivallo",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1108": {
+   "nombre": "Juan Carlos Beltrán Silva",
+   "militancias": [
     [
      "2022-03-11",
      "2026-03-10",
@@ -1906,6 +2431,356 @@
      "2026-03-11",
      "2030-03-10",
      "RN"
+    ]
+   ]
+  },
+  "1151": {
+   "nombre": "Camila Musante Müller",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1229": {
+   "nombre": "Javier Muñoz Riquelme",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1171": {
+   "nombre": "Emilia Schneider Videla",
+   "militancias": [
+    [
+     "2023-01-18",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2022-03-11",
+     "2023-01-17",
+     "COMUNES"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "815": {
+   "nombre": "Sergio Bobadilla Muñoz",
+   "militancias": [
+    [
+     "2010-03-11",
+     "2014-03-10",
+     "UDI"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ],
+    [
+     "2006-03-11",
+     "2010-03-10",
+     "UDI"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1199": {
+   "nombre": "Jaime Coloma Álamos",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1148": {
+   "nombre": "Javiera Morales Alvarado",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2022-04-11",
+     "IND"
+    ],
+    [
+     "2022-04-12",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "975": {
+   "nombre": "Daniella Cicardini Milla",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "PS"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1202": {
+   "nombre": "Eduardo Cretton Rebolledo",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1063": {
+   "nombre": "Catalina Pérez Salinas",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RD"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "RD"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1253": {
+   "nombre": "Fernando Ugarte Tejeda",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1056": {
+   "nombre": "Emilia Nuyado Ancapichun",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1048": {
+   "nombre": "Carolina Marzán Pinto",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PPD"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PPD"
+    ]
+   ]
+  },
+  "1103": {
+   "nombre": "Danisa Astudillo Peiretti",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1194": {
+   "nombre": "Daniel Bustos Leal",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1248": {
+   "nombre": "Felipe Ross Correa",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1243": {
+   "nombre": "Tamara Ramírez Ramírez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1169": {
+   "nombre": "Clara Sagardía Cabezas",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "IND"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1126": {
+   "nombre": "Felipe Donoso Castro",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1061": {
+   "nombre": "Andrea Parra Sauterel",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PPD"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PPD"
+    ]
+   ]
+  },
+  "1016": {
+   "nombre": "Miguel Ángel Calisto Águila",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "DC"
+    ],
+    [
+     "2022-03-11",
+     "2023-03-08",
+     "DC"
+    ],
+    [
+     "2023-03-09",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1013": {
+   "nombre": "Alejandro Bernales Maldonado",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "LIBERAL"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "LIBERAL"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PL"
+    ]
+   ]
+  },
+  "1241": {
+   "nombre": "Patricio Pinilla Valencia",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1182": {
+   "nombre": "Sebastián Videla Castillo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
     ]
    ]
   },
@@ -1926,6 +2801,171 @@
      "2026-03-11",
      "2030-03-10",
      "PDG"
+    ]
+   ]
+  },
+  "1258": {
+   "nombre": "Guillermo Valdés Carmona",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1068": {
+   "nombre": "Camila Rojas Valderrama",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2018-05-30",
+     "IGUAL"
+    ],
+    [
+     "2018-05-30",
+     "2020-03-09",
+     "IND"
+    ],
+    [
+     "2020-03-10",
+     "2022-03-10",
+     "COMUNES"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "COMUNES"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1127": {
+   "nombre": "Lorena Fries Monleón",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-03-27",
+     "IND"
+    ],
+    [
+     "2023-03-28",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1019": {
+   "nombre": "José Miguel Castro Bascuñán",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1131": {
+   "nombre": "Mauro González Villarroel",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1213": {
+   "nombre": "Irací Hassler Jacob",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1067": {
+   "nombre": "Hugo Rey Martínez",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1122": {
+   "nombre": "Luis Alberto Cuello Peña y Lillo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1211": {
+   "nombre": "Sofía González Cortés",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1158": {
+   "nombre": "Víctor Alejandro Pino Fuentes",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-04-13",
+     "PDG"
+    ],
+    [
+     "2023-04-14",
+     "2024-05-14",
+     "IND"
+    ],
+    [
+     "2024-05-15",
+     "2026-03-10",
+     "DEM"
     ]
    ]
   },
@@ -1979,498 +3019,8 @@
     ]
    ]
   },
-  "1027": {
-   "nombre": "Jorge Durán Espinoza",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "986": {
-   "nombre": "Marcela Hernando Pérez",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PR"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PR"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PR"
-    ]
-   ]
-  },
-  "1155": {
-   "nombre": "Rubén Darío Oyarzo Figueroa",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-04-15",
-     "PDG"
-    ],
-    [
-     "2024-04-16",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1221": {
-   "nombre": "Benjamín Lorca Inzunza",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1131": {
-   "nombre": "Mauro González Villarroel",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1231": {
-   "nombre": "Ximena Naranjo Pinto",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1104": {
-   "nombre": "Chiara Barchiesi Chávez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1196": {
-   "nombre": "Priscilla Castillo Gerli",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1156": {
-   "nombre": "Hernán Palma Pérez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1125": {
-   "nombre": "Viviana Delgado Riquelme",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-04-03",
-     "PEV"
-    ],
-    [
-     "2023-04-04",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1135": {
-   "nombre": "Johannes Kaiser Barents-Von Hohenhagen",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-01-09",
-     "PREP"
-    ],
-    [
-     "2024-01-10",
-     "2025-06-15",
-     "IND"
-    ],
-    [
-     "2025-06-16",
-     "2026-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1017": {
-   "nombre": "Álvaro Carter Fernández",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2025-03-18",
-     "UDI"
-    ],
-    [
-     "2020-09-29",
-     "2022-03-10",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2025-03-18",
-     "UDI"
-    ],
-    [
-     "2025-03-19",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1031": {
-   "nombre": "Juan Fuenzalida Cobo",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1120": {
-   "nombre": "María Luisa Cordero Velásquez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1050": {
-   "nombre": "Miguel Mellado Suazo",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1215": {
-   "nombre": "Álvaro Jofré Cáceres",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1146": {
-   "nombre": "José Carlos Meza Pereira",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1105": {
-   "nombre": "Héctor Barría Angulo",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "DC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1186": {
-   "nombre": "Ignacio Achurra Díaz",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1110": {
-   "nombre": "Carlos Bianchi Chelech",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1193": {
-   "nombre": "Patricio Briones Moller",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1254": {
-   "nombre": "Ignacio Urcullú Clèment-Lund",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1256": {
-   "nombre": "Tatiana Urrutia Herrera",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1106": {
-   "nombre": "Miguel Ángel Becker Alvear",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1181": {
-   "nombre": "Nelson Venegas Salazar",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1034": {
-   "nombre": "Félix González Gatica",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PEV"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "PEV"
-    ],
-    [
-     "2024-07-03",
-     "2025-08-11",
-     "IND"
-    ],
-    [
-     "2025-08-12",
-     "2026-03-10",
-     "PEV"
-    ]
-   ]
-  },
-  "1236": {
-   "nombre": "Paula Olmos Contreras",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1249": {
-   "nombre": "Omar Sabat Guzmán",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1235": {
-   "nombre": "Javier Olivares Avendaño",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1250": {
-   "nombre": "Bernardo Salinas Maya",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1150": {
-   "nombre": "Benjamín Moreno Bascur",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1103": {
-   "nombre": "Danisa Astudillo Peiretti",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1137": {
-   "nombre": "Tomás Lagomarsino Guzmán",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1049": {
-   "nombre": "Cosme Mellado Pino",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PR"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PR"
-    ]
-   ]
-  },
-  "1201": {
-   "nombre": "Flor Contreras Vivallo",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1222": {
-   "nombre": "Andrea Macías Palma",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1126": {
-   "nombre": "Felipe Donoso Castro",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1044": {
-   "nombre": "Raúl Leiva Carvajal",
+  "1038": {
+   "nombre": "Marcos Ilabaca Cerda",
    "militancias": [
     [
      "2018-03-11",
@@ -2489,388 +3039,8 @@
     ]
    ]
   },
-  "1101": {
-   "nombre": "Mónica Arce Castro",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1145": {
-   "nombre": "Karen Medina Vásquez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-08-06",
-     "PDG"
-    ],
-    [
-     "2024-08-07",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1190": {
-   "nombre": "Enrique Bassaletti Riess",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1245": {
-   "nombre": "Alejandro Riquelme Ducci",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1210": {
-   "nombre": "Gustavo Gatica Villarroel",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1176": {
-   "nombre": "Hotuiti Teao Drago",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1136": {
-   "nombre": "Paula Labra Besserer",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1169": {
-   "nombre": "Clara Sagardía Cabezas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "IND"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1237": {
-   "nombre": "Francisco Orrego Gutiérrez",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1214": {
-   "nombre": "Constanza Hube Portus",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1076": {
-   "nombre": "Alexis Sepúlveda Soto",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PR"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PR"
-    ]
-   ]
-  },
-  "1114": {
-   "nombre": "Félix Bugueño Sotelo",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-06-12",
-     "FRVS"
-    ],
-    [
-     "2022-06-13",
-     "2024-07-02",
-     "IND"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1200": {
-   "nombre": "Cristian Contreras Radovic",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1134": {
-   "nombre": "Andrés Jouannet Valderrama",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-07-17",
-     "IND"
-    ],
-    [
-     "2023-07-18",
-     "2026-03-10",
-     "AMA"
-    ]
-   ]
-  },
-  "1241": {
-   "nombre": "Patricio Pinilla Valencia",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1059": {
-   "nombre": "Ximena Ossandón Irarrázabal",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1159": {
-   "nombre": "Lorena Pizarro Sierra",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1246": {
-   "nombre": "José Antonio Rivas Villalobos",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1182": {
-   "nombre": "Sebastián Videla Castillo",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1067": {
-   "nombre": "Hugo Rey Martínez",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1040": {
-   "nombre": "Harry Jürgensen Rundshagen",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1198": {
-   "nombre": "Paz Charpentier Rajcevich",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1263": {
-   "nombre": "Sebastián Zamora Soto",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1003": {
-   "nombre": "Renzo Trisotti Martínez",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2024-04-16",
-     "UDI"
-    ],
-    [
-     "2024-04-17",
-     "2025-07-08",
-     "IND"
-    ],
-    [
-     "2025-07-09",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1123": {
-   "nombre": "Gonzalo De la Carrera Correa",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2022-08-31",
-     "PREP"
-    ],
-    [
-     "2022-09-01",
-     "2025-06-16",
-     "IND"
-    ],
-    [
-     "2025-06-17",
-     "2026-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1124": {
-   "nombre": "Tomás De Rementería Venegas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2025-05-05",
-     "PS"
-    ]
-   ]
-  },
-  "1107": {
-   "nombre": "María Francisca Bello Campos",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "PCS"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1174": {
-   "nombre": "Marco Antonio Sulantay Olivares",
+  "1143": {
+   "nombre": "Cristóbal Martínez Ramírez",
    "militancias": [
     [
      "2022-03-11",
@@ -2881,1571 +3051,6 @@
      "2026-03-11",
      "2030-03-10",
      "UDI"
-    ]
-   ]
-  },
-  "1117": {
-   "nombre": "Nathalie Castillo Rojas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1028": {
-   "nombre": "Eduardo Durán Salinas",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1242": {
-   "nombre": "Rodrigo Ramírez Parra",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1161": {
-   "nombre": "Francisco Pulgar Castillo",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1195": {
-   "nombre": "Carlos Carvajal Gallardo",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1191": {
-   "nombre": "Valentina Becerra Peña",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1260": {
-   "nombre": "César Valenzuela Maass",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1113": {
-   "nombre": "Marta Bravo Salinas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1213": {
-   "nombre": "Irací Hassler Jacob",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1099": {
-   "nombre": "Jaime Araya Guerrero",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1247": {
-   "nombre": "Javiera Rodríguez Pascual",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1100": {
-   "nombre": "Cristián Araya Lerdo de Tejada",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1240": {
-   "nombre": "Zandra Parisi Fernández",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1061": {
-   "nombre": "Andrea Parra Sauterel",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PPD"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PPD"
-    ]
-   ]
-  },
-  "1062": {
-   "nombre": "Joanna Pérez Olea",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "DC"
-    ],
-    [
-     "2022-12-12",
-     "2023-09-04",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2022-12-11",
-     "DC"
-    ],
-    [
-     "2023-09-05",
-     "2026-03-10",
-     "DEM"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DEM"
-    ]
-   ]
-  },
-  "1173": {
-   "nombre": "Daniela Serrano Salazar",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1164": {
-   "nombre": "Marcela Riquelme Aliaga",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "IND"
-    ],
-    [
-     "2024-07-03",
-     "2025-06-10",
-     "FA"
-    ],
-    [
-     "2025-06-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1115": {
-   "nombre": "Mercedes Bulnes Núñez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1009": {
-   "nombre": "Jorge Alessandri Vergara",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1022": {
-   "nombre": "Sofía Cid Versalovic",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2024-08-05",
-     "RN"
-    ],
-    [
-     "2024-08-06",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1234": {
-   "nombre": "Mario Olavarría Rodríguez",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1015": {
-   "nombre": "Jorge Brito Hasbún",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RD"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "RD"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1171": {
-   "nombre": "Emilia Schneider Videla",
-   "militancias": [
-    [
-     "2023-01-18",
-     "2024-07-02",
-     "PCS"
-    ],
-    [
-     "2022-03-11",
-     "2023-01-17",
-     "COMUNES"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "976": {
-   "nombre": "Juan Antonio Coloma Álamos",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "UDI"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1112": {
-   "nombre": "Ana María Bravo Castro",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1133": {
-   "nombre": "Juan Irarrázaval Rossel",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1002": {
-   "nombre": "Leonardo Soto Ferrada",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PS"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1212": {
-   "nombre": "Erich Grohs Marín",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1226": {
-   "nombre": "José Montalva Feuerhake",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1074": {
-   "nombre": "Marisela Santibáñez Novoa",
-   "militancias": [
-    [
-     "2019-04-17",
-     "2019-09-26",
-     "IND"
-    ],
-    [
-     "2018-03-11",
-     "2019-04-16",
-     "PRO"
-    ],
-    [
-     "2019-09-27",
-     "2022-03-10",
-     "PC"
-    ],
-    [
-     "2022-03-11",
-     "2024-01-16",
-     "PC"
-    ],
-    [
-     "2024-01-17",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1149": {
-   "nombre": "Carla Morales Maldonado",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1053": {
-   "nombre": "Cristhian Moreira Barros",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "973": {
-   "nombre": "Karol Cariola Oliva",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PC"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PC"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1219": {
-   "nombre": "Tomás Kast Sommerhoff",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "EVOP"
-    ]
-   ]
-  },
-  "1187": {
-   "nombre": "Carlo Arqueros Pizarro",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1211": {
-   "nombre": "Sofía González Cortés",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1206": {
-   "nombre": "Carolina Cucumides Calderón",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1019": {
-   "nombre": "José Miguel Castro Bascuñán",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1179": {
-   "nombre": "Alberto Undurraga Vicuña",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1035": {
-   "nombre": "Carmen Hertz Cádiz",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PC"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1081": {
-   "nombre": "Francisco Undurraga Gazitúa",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "EVOP"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "EVOP"
-    ]
-   ]
-  },
-  "1152": {
-   "nombre": "Gloria Naveillan Arriagada",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2022-09-06",
-     "PREP"
-    ],
-    [
-     "2022-09-07",
-     "2025-06-29",
-     "IND"
-    ],
-    [
-     "2025-06-30",
-     "2026-03-10",
-     "PNL"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1262": {
-   "nombre": "Diego Vergara Rodríguez",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1205": {
-   "nombre": "Carlos Cuadrado Prats",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PPD"
-    ]
-   ]
-  },
-  "1063": {
-   "nombre": "Catalina Pérez Salinas",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RD"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "RD"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1180": {
-   "nombre": "Consuelo Veloso Ávila",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-05-30",
-     "RD"
-    ],
-    [
-     "2024-05-31",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "971": {
-   "nombre": "Bernardo Berger Fett",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1129": {
-   "nombre": "Andrés Giordano Salazar",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "IND"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1229": {
-   "nombre": "Javier Muñoz Riquelme",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1030": {
-   "nombre": "Camila Flores Oporto",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1170": {
-   "nombre": "Luis Sánchez Ossa",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1096": {
-   "nombre": "María Candelaria Acevedo Sáez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1172": {
-   "nombre": "Stephan Schubert Rubio",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2025-08-03",
-     "IND"
-    ],
-    [
-     "2025-08-04",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1220": {
-   "nombre": "Leandro Kunstmann Collado",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1051": {
-   "nombre": "Claudia Mix Jiménez",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "COMUNES"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "COMUNES"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1252": {
-   "nombre": "Constanza Schonhaut Soto",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1086": {
-   "nombre": "Gonzalo Winter Etcheberry",
-   "militancias": [
-    [
-     "2018-04-05",
-     "2020-03-10",
-     "IND"
-    ],
-    [
-     "2018-03-11",
-     "2018-04-04",
-     "RD"
-    ],
-    [
-     "2020-03-11",
-     "2022-03-10",
-     "PCS"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "PCS"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1208": {
-   "nombre": "Jorge Díaz Ibarra",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1248": {
-   "nombre": "Felipe Ross Correa",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1233": {
-   "nombre": "Ricardo Neumann Bertín",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "803": {
-   "nombre": "René Alinco Bustos",
-   "militancias": [
-    [
-     "2010-03-11",
-     "2014-03-10",
-     "IND"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2006-03-11",
-     "2010-03-10",
-     "PPD"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "948": {
-   "nombre": "Gaspar Rivas Sánchez",
-   "militancias": [
-    [
-     "2010-03-11",
-     "2014-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2024-08-26",
-     "PDG"
-    ],
-    [
-     "2024-08-27",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2014-08-14",
-     "2018-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1111": {
-   "nombre": "Fernando Bórquez Montecinos",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1261": {
-   "nombre": "Daniel Valenzuela Salazar",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1165": {
-   "nombre": "Agustín Romero Leiva",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PREP"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1238": {
-   "nombre": "Álvaro Ortiz Vera",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1144": {
-   "nombre": "Christian Matheson Villán",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1204": {
-   "nombre": "Francisco Crisóstomo Llanos",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1097": {
-   "nombre": "Eric Aedo Jeldres",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1183": {
-   "nombre": "Flor Weisse Novoa",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1160": {
-   "nombre": "Alejandra Placencia Cabello",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1151": {
-   "nombre": "Camila Musante Müller",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1178": {
-   "nombre": "Héctor Ulloa Aguilera",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1225": {
-   "nombre": "Cristian Menchaca Pinochet",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1046": {
-   "nombre": "Andrés Longton Herrera",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1057": {
-   "nombre": "Erika Olivera De La Fuente",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2023-09-04",
-     "IND"
-    ],
-    [
-     "2023-09-05",
-     "2026-03-10",
-     "DEM"
-    ]
-   ]
-  },
-  "1199": {
-   "nombre": "Jaime Coloma Álamos",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1012": {
-   "nombre": "Boris Barrera Moreno",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PC"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1077": {
-   "nombre": "Raúl Soto Mardones",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2019-08-25",
-     "DC"
-    ],
-    [
-     "2019-08-26",
-     "2022-03-10",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PPD"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PPD"
-    ]
-   ]
-  },
-  "1128": {
-   "nombre": "Ana María Gazmuri Vieira",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-03-06",
-     "IND"
-    ],
-    [
-     "2023-03-07",
-     "2026-03-10",
-     "PAH"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PAH"
-    ]
-   ]
-  },
-  "1163": {
-   "nombre": "Marcia Raphael Mora",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1216": {
-   "nombre": "Stephanie Jéldrez Ortiz",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1217": {
-   "nombre": "Pier Karlezi Hazleby",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1162": {
-   "nombre": "Matías Ramírez Pascal",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "1166": {
-   "nombre": "Natalia Romero Talguia",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "872": {
-   "nombre": "Jaime Mulet Martínez",
-   "militancias": [
-    [
-     "1998-03-11",
-     "2002-03-10",
-     "DC"
-    ],
-    [
-     "2002-03-11",
-     "2006-03-10",
-     "DC"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "FRVS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "FRVS"
-    ],
-    [
-     "2006-03-11",
-     "2010-03-10",
-     "PRI"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FRVS"
-    ]
-   ]
-  },
-  "1224": {
-   "nombre": "Cristian Mella Andaur",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "DC"
-    ]
-   ]
-  },
-  "1177": {
-   "nombre": "Carolina Tello Rojas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-05-13",
-     "PC"
-    ],
-    [
-     "2024-05-14",
-     "2024-07-02",
-     "IND"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1142": {
-   "nombre": "Daniel Manouchehri Lobos",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1013": {
-   "nombre": "Alejandro Bernales Maldonado",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "LIBERAL"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "LIBERAL"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PL"
-    ]
-   ]
-  },
-  "1157": {
-   "nombre": "Marlene Pérez Cartes",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1209": {
-   "nombre": "Matías Fernández Hartwig",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1048": {
-   "nombre": "Carolina Marzán Pinto",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PPD"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PPD"
-    ]
-   ]
-  },
-  "1228": {
-   "nombre": "Paulina Muñoz Minte",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1037": {
-   "nombre": "Diego Ibáñez Cotroneo",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2020-03-10",
-     "IND"
-    ],
-    [
-     "2020-03-11",
-     "2022-03-10",
-     "PCS"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "PCS"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "990": {
-   "nombre": "Daniel Melo Contreras",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1116": {
-   "nombre": "Felipe Camaño Cárdenas",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1073": {
-   "nombre": "Juan Santana Castillo",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1068": {
-   "nombre": "Camila Rojas Valderrama",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2018-05-30",
-     "IGUAL"
-    ],
-    [
-     "2018-05-30",
-     "2020-03-09",
-     "IND"
-    ],
-    [
-     "2020-03-10",
-     "2022-03-10",
-     "COMUNES"
-    ],
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "COMUNES"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1069": {
-   "nombre": "Leonidas Romero Sáez",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-03-11",
-     "2022-09-12",
-     "RN"
-    ],
-    [
-     "2022-09-13",
-     "2025-06-10",
-     "IND"
-    ],
-    [
-     "2025-06-11",
-     "2026-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1098": {
-   "nombre": "Yovana Ahumada Palma",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-04-18",
-     "PDG"
-    ],
-    [
-     "2023-04-19",
-     "2025-03-16",
-     "IND"
-    ],
-    [
-     "2025-03-17",
-     "2026-03-10",
-     "PSC"
     ]
    ]
   },
@@ -4484,34 +3089,194 @@
     ]
    ]
   },
-  "1158": {
-   "nombre": "Víctor Alejandro Pino Fuentes",
+  "986": {
+   "nombre": "Marcela Hernando Pérez",
    "militancias": [
     [
-     "2022-03-11",
-     "2023-04-13",
-     "PDG"
+     "2014-03-11",
+     "2018-03-10",
+     "PR"
     ],
     [
-     "2023-04-14",
-     "2024-05-14",
-     "IND"
+     "2018-03-11",
+     "2022-03-10",
+     "PR"
     ],
     [
-     "2024-05-15",
-     "2026-03-10",
-     "DEM"
+     "2026-03-11",
+     "2030-03-10",
+     "PR"
     ]
    ]
   },
-  "815": {
-   "nombre": "Sergio Bobadilla Muñoz",
+  "1260": {
+   "nombre": "César Valenzuela Maass",
    "militancias": [
     [
-     "2010-03-11",
-     "2014-03-10",
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1137": {
+   "nombre": "Tomás Lagomarsino Guzmán",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1017": {
+   "nombre": "Álvaro Carter Fernández",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2025-03-18",
      "UDI"
     ],
+    [
+     "2020-09-29",
+     "2022-03-10",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2025-03-18",
+     "UDI"
+    ],
+    [
+     "2025-03-19",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1097": {
+   "nombre": "Eric Aedo Jeldres",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1128": {
+   "nombre": "Ana María Gazmuri Vieira",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-03-06",
+     "IND"
+    ],
+    [
+     "2023-03-07",
+     "2026-03-10",
+     "PAH"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PAH"
+    ]
+   ]
+  },
+  "1147": {
+   "nombre": "Helia Molina Milman",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PPD"
+    ]
+   ]
+  },
+  "1157": {
+   "nombre": "Marlene Pérez Cartes",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1212": {
+   "nombre": "Erich Grohs Marín",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1037": {
+   "nombre": "Diego Ibáñez Cotroneo",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2020-03-10",
+     "IND"
+    ],
+    [
+     "2020-03-11",
+     "2022-03-10",
+     "PCS"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1166": {
+   "nombre": "Natalia Romero Talguia",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1144": {
+   "nombre": "Christian Matheson Villán",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1053": {
+   "nombre": "Cristhian Moreira Barros",
+   "militancias": [
     [
      "2018-03-11",
      "2022-03-10",
@@ -4521,42 +3286,72 @@
      "2022-03-11",
      "2026-03-10",
      "UDI"
-    ],
+    ]
+   ]
+  },
+  "1104": {
+   "nombre": "Chiara Barchiesi Chávez",
+   "militancias": [
     [
-     "2006-03-11",
-     "2010-03-10",
-     "UDI"
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
     ],
     [
      "2026-03-11",
      "2030-03-10",
-     "UDI"
+     "PREP"
     ]
    ]
   },
-  "1109": {
-   "nombre": "Gustavo Benavente Vergara",
+  "1046": {
+   "nombre": "Andrés Longton Herrera",
    "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
     [
      "2022-03-11",
      "2026-03-10",
-     "UDI"
+     "RN"
     ]
    ]
   },
-  "1118": {
-   "nombre": "Ricardo Cifuentes Lillo",
+  "1164": {
+   "nombre": "Marcela Riquelme Aliaga",
    "militancias": [
     [
      "2022-03-11",
+     "2024-07-02",
+     "IND"
+    ],
+    [
+     "2024-07-03",
+     "2025-06-10",
+     "FA"
+    ],
+    [
+     "2025-06-11",
      "2026-03-10",
-     "DC"
+     "IND"
     ]
    ]
   },
-  "1244": {
-   "nombre": "Claudia Reyes Larenas",
+  "1172": {
+   "nombre": "Stephan Schubert Rubio",
    "militancias": [
+    [
+     "2022-03-11",
+     "2025-08-03",
+     "IND"
+    ],
+    [
+     "2025-08-04",
+     "2026-03-10",
+     "PREP"
+    ],
     [
      "2026-03-11",
      "2030-03-10",
@@ -4574,8 +3369,108 @@
     ]
    ]
   },
-  "1121": {
-   "nombre": "Eduardo Cornejo Lagos",
+  "1210": {
+   "nombre": "Gustavo Gatica Villarroel",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "973": {
+   "nombre": "Karol Cariola Oliva",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "PC"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PC"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1120": {
+   "nombre": "María Luisa Cordero Velásquez",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1106": {
+   "nombre": "Miguel Ángel Becker Alvear",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1237": {
+   "nombre": "Francisco Orrego Gutiérrez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1159": {
+   "nombre": "Lorena Pizarro Sierra",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1167": {
+   "nombre": "Jaime Sáez Quiroz",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "RD"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1244": {
+   "nombre": "Claudia Reyes Larenas",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1113": {
+   "nombre": "Marta Bravo Salinas",
    "militancias": [
     [
      "2022-03-11",
@@ -4584,33 +3479,48 @@
     ]
    ]
   },
-  "1203": {
-   "nombre": "Sebastián Cristoffanini Jaraquemada",
+  "1057": {
+   "nombre": "Erika Olivera De La Fuente",
    "militancias": [
     [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
+     "2018-03-11",
+     "2022-03-10",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2023-09-04",
+     "IND"
+    ],
+    [
+     "2023-09-05",
+     "2026-03-10",
+     "DEM"
     ]
    ]
   },
-  "1232": {
-   "nombre": "Cristian Neira Martínez",
+  "1236": {
+   "nombre": "Paula Olmos Contreras",
    "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
-     "PREP"
+     "PDG"
     ]
    ]
   },
-  "1218": {
-   "nombre": "José Antonio Kast Adriasola",
+  "1176": {
+   "nombre": "Hotuiti Teao Drago",
    "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
     [
      "2026-03-11",
      "2030-03-10",
-     "PREP"
+     "IND"
     ]
    ]
   },
@@ -4621,6 +3531,111 @@
      "2026-03-11",
      "2030-03-10",
      "PDG"
+    ]
+   ]
+  },
+  "1240": {
+   "nombre": "Zandra Parisi Fernández",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1165": {
+   "nombre": "Agustín Romero Leiva",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1087": {
+   "nombre": "Gael Yeomans Araya",
+   "militancias": [
+    [
+     "2019-04-17",
+     "2020-03-10",
+     "IND"
+    ],
+    [
+     "2018-03-11",
+     "2019-04-16",
+     "RD"
+    ],
+    [
+     "2020-03-11",
+     "2022-03-10",
+     "PCS"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "PCS"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1116": {
+   "nombre": "Felipe Camaño Cárdenas",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1141": {
+   "nombre": "Luis Malla Valenzuela",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "LIBERAL"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PL"
+    ]
+   ]
+  },
+  "1184": {
+   "nombre": "Roberto Celedón Fernández",
+   "militancias": [
+    [
+     "2025-01-08",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
     ]
    ]
   },
@@ -4649,308 +3664,23 @@
     ]
    ]
   },
-  "1258": {
-   "nombre": "Guillermo Valdés Carmona",
+  "1226": {
+   "nombre": "José Montalva Feuerhake",
    "militancias": [
     [
      "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1194": {
-   "nombre": "Daniel Bustos Leal",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PREP"
-    ]
-   ]
-  },
-  "1189": {
-   "nombre": "Jaime Bassa Mercado",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1251": {
-   "nombre": "Macarena Santelices Cañas",
-   "militancias": [
-    [
-     "2026-10-20",
-     "2030-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2026-10-19",
-     "PREP"
-    ]
-   ]
-  },
-  "1141": {
-   "nombre": "Luis Malla Valenzuela",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "LIBERAL"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PL"
-    ]
-   ]
-  },
-  "1167": {
-   "nombre": "Jaime Sáez Quiroz",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "RD"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1038": {
-   "nombre": "Marcos Ilabaca Cerda",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1255": {
-   "nombre": "Eileen Urqueta Rojas",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1153": {
-   "nombre": "Coca Ericka Ñanco Vásquez",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-07-02",
-     "RD"
-    ],
-    [
-     "2024-07-03",
-     "2026-03-10",
-     "FA"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "FA"
-    ]
-   ]
-  },
-  "1102": {
-   "nombre": "Roberto Arroyo Muñoz",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2023-11-07",
-     "PDG"
-    ],
-    [
-     "2023-11-08",
-     "2026-03-10",
-     "PSC"
-    ],
-    [
-     "2026-03-11",
-     "2026-08-30",
-     "PSC"
-    ],
-    [
-     "2026-08-31",
      "2030-03-10",
      "IND"
     ]
    ]
   },
-  "989": {
-   "nombre": "Joaquín Lavín León",
+  "1112": {
+   "nombre": "Ana María Bravo Castro",
    "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ],
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "917": {
-   "nombre": "Gastón Von Mühlenbrock Zamora",
-   "militancias": [
-    [
-     "2006-03-11",
-     "2010-03-10",
-     "UDI"
-    ],
-    [
-     "2010-03-11",
-     "2014-03-10",
-     "UDI"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ],
-    [
-     "2002-03-11",
-     "2006-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1056": {
-   "nombre": "Emilia Nuyado Ancapichun",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PS"
-    ],
     [
      "2022-03-11",
      "2026-03-10",
      "PS"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "991": {
-   "nombre": "Vlado Mirosevic Verdugo",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PL"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "LIBERAL"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "LIBERAL"
-    ]
-   ]
-  },
-  "1192": {
-   "nombre": "Lilian Betancurt Delgado",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PDG"
-    ]
-   ]
-  },
-  "1094": {
-   "nombre": "Cristian Labbé Martínez",
-   "militancias": [
-    [
-     "2021-04-13",
-     "2022-03-10",
-     "UDI"
-    ],
-    [
-     "2022-03-11",
-     "2025-06-29",
-     "UDI"
-    ],
-    [
-     "2025-06-30",
-     "2026-03-10",
-     "PNL"
-    ]
-   ]
-  },
-  "1060": {
-   "nombre": "Luis Pardo Sáinz",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
-  "1185": {
-   "nombre": "Arturo Barrios Oteíza",
-   "militancias": [
-    [
-     "2025-05-06",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1257": {
-   "nombre": "Alejandra Valdebenito Torres",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "UDI"
     ]
    ]
   },
@@ -4989,68 +3719,28 @@
     ]
    ]
   },
-  "1138": {
-   "nombre": "Henry Leal Bizama",
+  "1145": {
+   "nombre": "Karen Medina Vásquez",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-08-06",
+     "PDG"
+    ],
+    [
+     "2024-08-07",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1179": {
+   "nombre": "Alberto Undurraga Vicuña",
    "militancias": [
     [
      "2022-03-11",
      "2026-03-10",
-     "UDI"
-    ]
-   ]
-  },
-  "1188": {
-   "nombre": "Marcos Barraza Gómez",
-   "militancias": [
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "PC"
-    ]
-   ]
-  },
-  "975": {
-   "nombre": "Daniella Cicardini Milla",
-   "militancias": [
-    [
-     "2014-03-11",
-     "2018-03-10",
-     "PS"
-    ],
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "PS"
-    ],
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "PS"
-    ]
-   ]
-  },
-  "1119": {
-   "nombre": "Sara Concha Smith",
-   "militancias": [
-    [
-     "2023-03-22",
-     "2026-03-10",
-     "PSC"
-    ],
-    [
-     "2022-03-11",
-     "2023-03-21",
-     "PCC"
-    ],
-    [
-     "2026-03-11",
-     "2026-09-01",
-     "PSC"
-    ],
-    [
-     "2026-09-02",
-     "2030-03-10",
-     "PCCH"
+     "DC"
     ]
    ]
   },
@@ -5074,8 +3764,8 @@
     ]
    ]
   },
-  "1075": {
-   "nombre": "Diego Schalper Sepúlveda",
+  "1022": {
+   "nombre": "Sofía Cid Versalovic",
    "militancias": [
     [
      "2018-03-11",
@@ -5084,7 +3774,32 @@
     ],
     [
      "2022-03-11",
+     "2024-08-05",
+     "RN"
+    ],
+    [
+     "2024-08-06",
      "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1156": {
+   "nombre": "Hernán Palma Pérez",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1060": {
+   "nombre": "Luis Pardo Sáinz",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
      "RN"
     ],
     [
@@ -5094,31 +3809,86 @@
     ]
    ]
   },
-  "1143": {
-   "nombre": "Cristóbal Martínez Ramírez",
+  "1246": {
+   "nombre": "José Antonio Rivas Villalobos",
    "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "UDI"
-    ],
     [
      "2026-03-11",
      "2030-03-10",
-     "UDI"
+     "PS"
     ]
    ]
   },
-  "1127": {
-   "nombre": "Lorena Fries Monleón",
+  "1218": {
+   "nombre": "José Antonio Kast Adriasola",
    "militancias": [
     [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1186": {
+   "nombre": "Ignacio Achurra Díaz",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1221": {
+   "nombre": "Benjamín Lorca Inzunza",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1025": {
+   "nombre": "Catalina Del Real Mihovilovic",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
      "2022-03-11",
-     "2023-03-27",
+     "2023-08-22",
+     "RN"
+    ],
+    [
+     "2023-08-23",
+     "2026-03-10",
      "IND"
     ],
     [
-     "2023-03-28",
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1206": {
+   "nombre": "Carolina Cucumides Calderón",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1107": {
+   "nombre": "María Francisca Bello Campos",
+   "militancias": [
+    [
+     "2022-03-11",
      "2024-07-02",
      "PCS"
     ],
@@ -5134,13 +3904,78 @@
     ]
    ]
   },
-  "1227": {
-   "nombre": "Claudia Mora Vega",
+  "803": {
+   "nombre": "René Alinco Bustos",
+   "militancias": [
+    [
+     "2010-03-11",
+     "2014-03-10",
+     "IND"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2006-03-11",
+     "2010-03-10",
+     "PPD"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1232": {
+   "nombre": "Cristian Neira Martínez",
    "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
-     "RN"
+     "PREP"
+    ]
+   ]
+  },
+  "1189": {
+   "nombre": "Jaime Bassa Mercado",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1261": {
+   "nombre": "Daniel Valenzuela Salazar",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1150": {
+   "nombre": "Benjamín Moreno Bascur",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
     ]
    ]
   },
@@ -5164,71 +3999,6 @@
     ]
    ]
   },
-  "1139": {
-   "nombre": "Enrique Lee Flores",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2024-08-28",
-     "PRI"
-    ],
-    [
-     "2024-08-29",
-     "2026-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1054": {
-   "nombre": "Francesca Muñoz González",
-   "militancias": [
-    [
-     "2018-03-11",
-     "2022-03-10",
-     "RN"
-    ],
-    [
-     "2022-12-12",
-     "2023-05-30",
-     "IND"
-    ],
-    [
-     "2022-03-11",
-     "2022-12-11",
-     "RN"
-    ],
-    [
-     "2023-05-31",
-     "2026-03-10",
-     "PSC"
-    ],
-    [
-     "2026-09-02",
-     "2030-03-10",
-     "PCCH"
-    ],
-    [
-     "2026-03-11",
-     "2026-09-01",
-     "PSC"
-    ]
-   ]
-  },
-  "1108": {
-   "nombre": "Juan Carlos Beltrán Silva",
-   "militancias": [
-    [
-     "2022-03-11",
-     "2026-03-10",
-     "RN"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "RN"
-    ]
-   ]
-  },
   "1154": {
    "nombre": "Mauricio Ojeda Rebolledo",
    "militancias": [
@@ -5239,38 +4009,213 @@
     ]
    ]
   },
-  "1016": {
-   "nombre": "Miguel Ángel Calisto Águila",
+  "1130": {
+   "nombre": "Marta González Olea",
    "militancias": [
     [
-     "2018-03-11",
-     "2022-03-10",
-     "DC"
-    ],
-    [
      "2022-03-11",
-     "2023-03-08",
-     "DC"
-    ],
-    [
-     "2023-03-09",
      "2026-03-10",
      "IND"
     ]
    ]
   },
-  "1132": {
-   "nombre": "Jorge Guzmán Zepeda",
+  "1009": {
+   "nombre": "Jorge Alessandri Vergara",
    "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
     [
      "2022-03-11",
      "2026-03-10",
-     "EVOP"
+     "UDI"
     ],
     [
      "2026-03-11",
      "2030-03-10",
-     "EVOP"
+     "UDI"
+    ]
+   ]
+  },
+  "1162": {
+   "nombre": "Matías Ramírez Pascal",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1003": {
+   "nombre": "Renzo Trisotti Martínez",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2024-04-16",
+     "UDI"
+    ],
+    [
+     "2024-04-17",
+     "2025-07-08",
+     "IND"
+    ],
+    [
+     "2025-07-09",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1050": {
+   "nombre": "Miguel Mellado Suazo",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1136": {
+   "nombre": "Paula Labra Besserer",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1197": {
+   "nombre": "Carlos Chandía Alarcón",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1249": {
+   "nombre": "Omar Sabat Guzmán",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1256": {
+   "nombre": "Tatiana Urrutia Herrera",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "976": {
+   "nombre": "Juan Antonio Coloma Álamos",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "UDI"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1015": {
+   "nombre": "Jorge Brito Hasbún",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RD"
+    ],
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "RD"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1094": {
+   "nombre": "Cristian Labbé Martínez",
+   "militancias": [
+    [
+     "2021-04-13",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2025-06-29",
+     "UDI"
+    ],
+    [
+     "2025-06-30",
+     "2026-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1101": {
+   "nombre": "Mónica Arce Castro",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1118": {
+   "nombre": "Ricardo Cifuentes Lillo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "DC"
     ]
    ]
   },
@@ -5294,43 +4239,98 @@
     ]
    ]
   },
-  "1122": {
-   "nombre": "Luis Alberto Cuello Peña y Lillo",
+  "1096": {
+   "nombre": "María Candelaria Acevedo Sáez",
    "militancias": [
     [
      "2022-03-11",
      "2026-03-10",
-     "PC"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
      "PC"
     ]
    ]
   },
-  "1148": {
-   "nombre": "Javiera Morales Alvarado",
+  "1223": {
+   "nombre": "Hans Marowski Cuevas",
    "militancias": [
     [
-     "2022-03-11",
-     "2022-04-11",
+     "2026-03-11",
+     "2030-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1251": {
+   "nombre": "Macarena Santelices Cañas",
+   "militancias": [
+    [
+     "2026-10-20",
+     "2030-03-10",
      "IND"
     ],
     [
-     "2022-04-12",
-     "2024-07-02",
-     "PCS"
-    ],
+     "2026-03-11",
+     "2026-10-19",
+     "PREP"
+    ]
+   ]
+  },
+  "1217": {
+   "nombre": "Pier Karlezi Hazleby",
+   "militancias": [
     [
-     "2024-07-03",
+     "2026-03-11",
+     "2030-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1149": {
+   "nombre": "Carla Morales Maldonado",
+   "militancias": [
+    [
+     "2022-03-11",
      "2026-03-10",
-     "FA"
-    ],
+     "RN"
+    ]
+   ]
+  },
+  "1252": {
+   "nombre": "Constanza Schonhaut Soto",
+   "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
      "FA"
+    ]
+   ]
+  },
+  "1224": {
+   "nombre": "Cristian Mella Andaur",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "989": {
+   "nombre": "Joaquín Lavín León",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ],
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "UDI"
     ]
    ]
   },
@@ -5354,58 +4354,443 @@
     ]
    ]
   },
-  "1184": {
-   "nombre": "Roberto Celedón Fernández",
-   "militancias": [
-    [
-     "2025-01-08",
-     "2026-03-10",
-     "IND"
-    ],
-    [
-     "2026-03-11",
-     "2030-03-10",
-     "IND"
-    ]
-   ]
-  },
-  "1264": {
-   "nombre": "Fernando Zamorano Peralta",
+  "1230": {
+   "nombre": "Alex Nahuelquin Nahuelquin",
    "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
-     "PPD"
+     "PDG"
     ]
    ]
   },
-  "1058": {
-   "nombre": "Maite Orsini Pascal",
+  "1238": {
+   "nombre": "Álvaro Ortiz Vera",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1208": {
+   "nombre": "Jorge Díaz Ibarra",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DC"
+    ]
+   ]
+  },
+  "1081": {
+   "nombre": "Francisco Undurraga Gazitúa",
    "militancias": [
     [
      "2018-03-11",
      "2022-03-10",
-     "RD"
+     "EVOP"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "EVOP"
+    ]
+   ]
+  },
+  "1124": {
+   "nombre": "Tomás De Rementería Venegas",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2025-05-05",
+     "PS"
+    ]
+   ]
+  },
+  "1254": {
+   "nombre": "Ignacio Urcullú Clèment-Lund",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "917": {
+   "nombre": "Gastón Von Mühlenbrock Zamora",
+   "militancias": [
+    [
+     "2006-03-11",
+     "2010-03-10",
+     "UDI"
+    ],
+    [
+     "2010-03-11",
+     "2014-03-10",
+     "UDI"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ],
+    [
+     "2002-03-11",
+     "2006-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1034": {
+   "nombre": "Félix González Gatica",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PEV"
     ],
     [
      "2022-03-11",
      "2024-07-02",
-     "RD"
+     "PEV"
+    ],
+    [
+     "2024-07-03",
+     "2025-08-11",
+     "IND"
+    ],
+    [
+     "2025-08-12",
+     "2026-03-10",
+     "PEV"
+    ]
+   ]
+  },
+  "991": {
+   "nombre": "Vlado Mirosevic Verdugo",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "PL"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "LIBERAL"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "LIBERAL"
+    ]
+   ]
+  },
+  "1109": {
+   "nombre": "Gustavo Benavente Vergara",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1173": {
+   "nombre": "Daniela Serrano Salazar",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1177": {
+   "nombre": "Carolina Tello Rojas",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-05-13",
+     "PC"
+    ],
+    [
+     "2024-05-14",
+     "2024-07-02",
+     "IND"
     ],
     [
      "2024-07-03",
      "2026-03-10",
      "FA"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
     ]
    ]
   },
-  "1197": {
-   "nombre": "Carlos Chandía Alarcón",
+  "1242": {
+   "nombre": "Rodrigo Ramírez Parra",
    "militancias": [
     [
      "2026-03-11",
      "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1028": {
+   "nombre": "Eduardo Durán Salinas",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
      "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1098": {
+   "nombre": "Yovana Ahumada Palma",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-04-18",
+     "PDG"
+    ],
+    [
+     "2023-04-19",
+     "2025-03-16",
+     "IND"
+    ],
+    [
+     "2025-03-17",
+     "2026-03-10",
+     "PSC"
+    ]
+   ]
+  },
+  "1111": {
+   "nombre": "Fernando Bórquez Montecinos",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1110": {
+   "nombre": "Carlos Bianchi Chelech",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1133": {
+   "nombre": "Juan Irarrázaval Rossel",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1031": {
+   "nombre": "Juan Fuenzalida Cobo",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "UDI"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1062": {
+   "nombre": "Joanna Pérez Olea",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "DC"
+    ],
+    [
+     "2022-12-12",
+     "2023-09-04",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2022-12-11",
+     "DC"
+    ],
+    [
+     "2023-09-05",
+     "2026-03-10",
+     "DEM"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "DEM"
+    ]
+   ]
+  },
+  "1102": {
+   "nombre": "Roberto Arroyo Muñoz",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-11-07",
+     "PDG"
+    ],
+    [
+     "2023-11-08",
+     "2026-03-10",
+     "PSC"
+    ],
+    [
+     "2026-03-11",
+     "2026-08-30",
+     "PSC"
+    ],
+    [
+     "2026-08-31",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1027": {
+   "nombre": "Jorge Durán Espinoza",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1175": {
+   "nombre": "Cristián Tapia Ramos",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1191": {
+   "nombre": "Valentina Becerra Peña",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1059": {
+   "nombre": "Ximena Ossandón Irarrázabal",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1245": {
+   "nombre": "Alejandro Riquelme Ducci",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1193": {
+   "nombre": "Patricio Briones Moller",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1235": {
+   "nombre": "Javier Olivares Avendaño",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
     ]
    ]
   },
@@ -5434,38 +4819,233 @@
     ]
    ]
   },
-  "1147": {
-   "nombre": "Helia Molina Milman",
+  "1099": {
+   "nombre": "Jaime Araya Guerrero",
    "militancias": [
     [
      "2022-03-11",
      "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1207": {
+   "nombre": "Valentina Cáceres Monsálvez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1233": {
+   "nombre": "Ricardo Neumann Bertín",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1152": {
+   "nombre": "Gloria Naveillan Arriagada",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2022-09-06",
+     "PREP"
+    ],
+    [
+     "2022-09-07",
+     "2025-06-29",
+     "IND"
+    ],
+    [
+     "2025-06-30",
+     "2026-03-10",
+     "PNL"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1234": {
+   "nombre": "Mario Olavarría Rodríguez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1049": {
+   "nombre": "Cosme Mellado Pino",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PR"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PR"
+    ]
+   ]
+  },
+  "1262": {
+   "nombre": "Diego Vergara Rodríguez",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1190": {
+   "nombre": "Enrique Bassaletti Riess",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1250": {
+   "nombre": "Bernardo Salinas Maya",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1139": {
+   "nombre": "Enrique Lee Flores",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-08-28",
+     "PRI"
+    ],
+    [
+     "2024-08-29",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1002": {
+   "nombre": "Leonardo Soto Ferrada",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "PS"
+    ],
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1183": {
+   "nombre": "Flor Weisse Novoa",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1077": {
+   "nombre": "Raúl Soto Mardones",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2019-08-25",
+     "DC"
+    ],
+    [
+     "2019-08-26",
+     "2022-03-10",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PPD"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
      "PPD"
     ]
    ]
   },
-  "1087": {
-   "nombre": "Gael Yeomans Araya",
+  "1160": {
+   "nombre": "Alejandra Placencia Cabello",
    "militancias": [
     [
-     "2019-04-17",
-     "2020-03-10",
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1161": {
+   "nombre": "Francisco Pulgar Castillo",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
      "IND"
-    ],
+    ]
+   ]
+  },
+  "1222": {
+   "nombre": "Andrea Macías Palma",
+   "militancias": [
     [
-     "2018-03-11",
-     "2019-04-16",
-     "RD"
-    ],
-    [
-     "2020-03-11",
-     "2022-03-10",
-     "PCS"
-    ],
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1153": {
+   "nombre": "Coca Ericka Ñanco Vásquez",
+   "militancias": [
     [
      "2022-03-11",
      "2024-07-02",
-     "PCS"
+     "RD"
     ],
     [
      "2024-07-03",
@@ -5478,7 +5058,427 @@
      "FA"
     ]
    ]
+  },
+  "1012": {
+   "nombre": "Boris Barrera Moreno",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PC"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1146": {
+   "nombre": "José Carlos Meza Pereira",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1142": {
+   "nombre": "Daniel Manouchehri Lobos",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1215": {
+   "nombre": "Álvaro Jofré Cáceres",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1225": {
+   "nombre": "Cristian Menchaca Pinochet",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1021": {
+   "nombre": "Andrés Celis Montt",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "RN"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1255": {
+   "nombre": "Eileen Urqueta Rojas",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "990": {
+   "nombre": "Daniel Melo Contreras",
+   "militancias": [
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1121": {
+   "nombre": "Eduardo Cornejo Lagos",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
+  },
+  "1123": {
+   "nombre": "Gonzalo De la Carrera Correa",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2022-08-31",
+     "PREP"
+    ],
+    [
+     "2022-09-01",
+     "2025-06-16",
+     "IND"
+    ],
+    [
+     "2025-06-17",
+     "2026-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1185": {
+   "nombre": "Arturo Barrios Oteíza",
+   "militancias": [
+    [
+     "2025-05-06",
+     "2026-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1170": {
+   "nombre": "Luis Sánchez Ossa",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PREP"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1204": {
+   "nombre": "Francisco Crisóstomo Llanos",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1180": {
+   "nombre": "Consuelo Veloso Ávila",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-05-30",
+     "RD"
+    ],
+    [
+     "2024-05-31",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "FA"
+    ],
+    [
+     "2026-03-11",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1035": {
+   "nombre": "Carmen Hertz Cádiz",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PC"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PC"
+    ]
+   ]
+  },
+  "1200": {
+   "nombre": "Cristian Contreras Radovic",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1219": {
+   "nombre": "Tomás Kast Sommerhoff",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "EVOP"
+    ]
+   ]
+  },
+  "971": {
+   "nombre": "Bernardo Berger Fett",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "RN"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "IND"
+    ],
+    [
+     "2014-03-11",
+     "2018-03-10",
+     "RN"
+    ]
+   ]
+  },
+  "1125": {
+   "nombre": "Viviana Delgado Riquelme",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2023-04-03",
+     "PEV"
+    ],
+    [
+     "2023-04-04",
+     "2026-03-10",
+     "IND"
+    ]
+   ]
+  },
+  "1264": {
+   "nombre": "Fernando Zamorano Peralta",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PPD"
+    ]
+   ]
+  },
+  "1181": {
+   "nombre": "Nelson Venegas Salazar",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1192": {
+   "nombre": "Lilian Betancurt Delgado",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PDG"
+    ]
+   ]
+  },
+  "1187": {
+   "nombre": "Carlo Arqueros Pizarro",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1073": {
+   "nombre": "Juan Santana Castillo",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2022-03-10",
+     "PS"
+    ],
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "PS"
+    ],
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PS"
+    ]
+   ]
+  },
+  "1203": {
+   "nombre": "Sebastián Cristoffanini Jaraquemada",
+   "militancias": [
+    [
+     "2026-03-11",
+     "2030-03-10",
+     "PREP"
+    ]
+   ]
+  },
+  "1036": {
+   "nombre": "Tomás Hirsch Goldschmidt",
+   "militancias": [
+    [
+     "2018-03-11",
+     "2020-05-05",
+     "PH"
+    ],
+    [
+     "2020-05-06",
+     "2022-03-10",
+     "IND"
+    ],
+    [
+     "2022-03-11",
+     "2023-03-06",
+     "IND"
+    ],
+    [
+     "2023-03-07",
+     "2026-03-10",
+     "PAH"
+    ]
+   ]
+  },
+  "1135": {
+   "nombre": "Johannes Kaiser Barents-Von Hohenhagen",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-01-09",
+     "PREP"
+    ],
+    [
+     "2024-01-10",
+     "2025-06-15",
+     "IND"
+    ],
+    [
+     "2025-06-16",
+     "2026-03-10",
+     "PNL"
+    ]
+   ]
+  },
+  "1129": {
+   "nombre": "Andrés Giordano Salazar",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2024-07-02",
+     "IND"
+    ],
+    [
+     "2024-07-03",
+     "2026-03-10",
+     "FA"
+    ]
+   ]
+  },
+  "1138": {
+   "nombre": "Henry Leal Bizama",
+   "militancias": [
+    [
+     "2022-03-11",
+     "2026-03-10",
+     "UDI"
+    ]
+   ]
   }
  },
- "fecha": "2026-10-30"
+ "fecha": "2026-10-31"
 }
