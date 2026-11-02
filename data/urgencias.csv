@@ -746,7 +746,8 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 17371-25,Simple,2026-07-20,2026-08-17,C. Diputados,211-374
 17371-25,Simple,2026-08-17,2026-09-07,C. Diputados,262-374
 17371-25,Simple,2026-09-07,2026-10-05,C. Diputados,302-374
-17371-25,Simple,2026-10-05,,C. Diputados,368-374
+17371-25,Simple,2026-10-05,2026-11-02,C. Diputados,368-374
+17371-25,Simple,2026-11-02,,C. Diputados,438-374
 17403-07,Simple,2026-04-20,,C. Diputados,51-374
 17403-07,Simple,2026-06-02,,C. Diputados,122-374
 17441-15,Suma,2025-04-08,2025-04-14,C. Diputados,103-373
@@ -965,7 +966,8 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 18208-25,Suma,2026-09-23,2026-09-29,Senado,342-374
 18208-25,Discusión inmediata,2026-09-29,,Senado,343-374
 18208-25,Suma,2026-10-05,2026-10-19,C. Diputados,370-374
-18208-25,Suma,2026-10-19,,C. Diputados,385-374
+18208-25,Suma,2026-10-19,2026-11-02,C. Diputados,385-374
+18208-25,Suma,2026-11-02,,C. Diputados,437-374
 18211-25,Suma,2026-06-02,2026-06-17,C. Diputados,119-374
 18211-25,Suma,2026-06-17,,C. Diputados,157-374
 18211-25,Suma,2026-07-21,,Senado,218-374
@@ -1017,7 +1019,8 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 18282-07,Suma,2026-09-07,2026-09-21,C. Diputados,303-374
 18282-07,Suma,2026-09-21,2026-10-05,C. Diputados,326-374
 18282-07,Suma,2026-10-05,2026-10-19,C. Diputados,369-374
-18282-07,Suma,2026-10-19,,C. Diputados,385-374
+18282-07,Suma,2026-10-19,2026-11-02,C. Diputados,385-374
+18282-07,Suma,2026-11-02,,C. Diputados,437-374
 18314-07,Suma,2026-06-08,,C. Diputados,133-374
 18314-07,Suma,2026-06-22,2026-07-07,C. Diputados,162-374
 18314-07,Suma,2026-07-06,2026-07-20,C. Diputados,182-374
@@ -1054,7 +1057,8 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 18341-25,Discusión inmediata,2026-09-30,2026-10-05,C. Diputados,357-374
 18341-25,Discusión inmediata,2026-10-05,2026-10-07,C. Diputados,366-374
 18341-25,Suma,2026-10-07,2026-10-19,C. Diputados,379-374
-18341-25,Suma,2026-10-19,,C. Diputados,385-374
+18341-25,Suma,2026-10-19,2026-11-02,C. Diputados,385-374
+18341-25,Suma,2026-11-02,,C. Diputados,437-374
 18349-06,Simple,2026-07-13,,C. Diputados,196-374
 18349-06,Simple,2026-10-28,,C. Diputados,426-374
 18378-18,Suma,2026-06-22,2026-07-07,C. Diputados,164-374
@@ -1078,13 +1082,15 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 18420-25,Simple,2026-09-08,,Senado,311-374
 18432-07,Simple,2026-08-10,2026-09-07,C. Diputados,247-374
 18432-07,Simple,2026-09-07,2026-10-05,C. Diputados,302-374
-18432-07,Simple,2026-10-05,,C. Diputados,368-374
+18432-07,Simple,2026-11-02,2026-11-02,C. Diputados,368-374
+18432-07,Simple,2026-11-02,,C. Diputados,438-374
 18434-07,Simple,2026-08-10,2026-08-19,C. Diputados,247-374
 18434-07,Suma,2026-08-19,,C. Diputados,274-374
 18434-07,Suma,2026-08-19,2026-09-02,C. Diputados,274-374
 18434-07,Suma,2026-09-02,2026-09-07,C. Diputados,294-374
 18434-07,Suma,2026-09-07,2026-10-19,C. Diputados,303-374
-18434-07,Suma,2026-10-19,,C. Diputados,385-374
+18434-07,Suma,2026-10-19,2026-11-02,C. Diputados,385-374
+18434-07,Suma,2026-11-02,,C. Diputados,437-374
 18521-07,Simple,2026-08-04,2026-08-31,C. Diputados,228-374
 18521-07,Suma,2026-08-31,2026-09-07,C. Diputados,281-374
 18521-07,Suma,2026-09-07,2026-09-21,C. Diputados,303-374
@@ -1131,7 +1137,8 @@ boletin,tipo,ingreso,retiro,camara,mensaje
 18585-25,Suma,2026-10-20,,Senado,394-374
 18590-07,Suma,2026-09-21,2026-10-05,C. Diputados,326-374
 18590-07,Suma,2026-10-05,2026-10-19,C. Diputados,369-374
-18590-07,Suma,2026-10-19,,C. Diputados,385-374
+18590-07,Suma,2026-10-19,2026-11-02,C. Diputados,385-374
+18590-07,Suma,2026-11-02,,C. Diputados,437-374
 18597-07,Suma,2026-08-18,2026-09-01,Senado,269-374
 18597-07,Simple,2026-09-01,,Senado,288-374
 18621-34,Simple,2026-09-07,,C. Diputados,304-374

@@ -26,7 +26,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
    "horario": "15:00 a 20:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 17 ) Partida 17 Ministerio de Minería\n.- ( Bol.N° 4 ) Partida 04 Contraloría General de la Republica\n.- ( Bol.N° 2 ) Partida 02 Congreso Nacional\n.- ( Bol.N° 15 ) Partida 15 Ministerio del Trabajo y Previsión Social",
    "boletines": [
     "18702-05"
    ],
@@ -34,17 +34,19 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-02",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 86",
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-03",
+   "instancia": "Especial Mixta de Presupuestos",
    "estado": "Citada",
-   "horario": "17:00 a 19:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso",
+   "horario": "10:00 a 13:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
+   ],
    "invitados": [],
-   "link": "",
    "seguidos": []
   },
   {
@@ -59,6 +61,22 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-03",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
+   "horario": "14:00 a 20:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -102,6 +120,25 @@
    "boletines": [],
    "invitados": [
     "A esta sesión ha sido invitado el Ministro de Vivienda y Urbanismo, señor Iván Poduje."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
+   "instancia": "Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 144 de Comisiones, Ex Congreso Nacional, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- Recibir a diversos rectores para que se refieran a modificaciones en los programas de BecasChile.\nA este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez.\n2.- Recibir a la Secretaria Ejecutiva del Consejo del Futuro, señora Carolina Muñoz, para la presentación anual del Consejo del Futuro.\n3.- ( Bol.N° 17590-05 ) Continuar con la discusión en general del proyecto de ley, en primer trámite constitucional, que crea el Sistema Nacional de Gestión de Datos y modifica los cuerpos legales que indica (Boletín Nº 17.590-05).\nA este punto han sido especialmente invitados el Subsecretario de Hacienda, señor Sebastián Vallebona y el Director de la Dirección de Presupuestos, señor José Pablo Gómez.",
+   "boletines": [
+    "17590-05"
+   ],
+   "invitados": [
+    "A este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez.",
+    "A este punto han sido especialmente invitados el Subsecretario de Hacienda, señor Sebastián Vallebona y el Director de la Dirección de Presupuestos, señor José Pablo Gómez."
    ],
    "seguidos": []
   },
@@ -178,6 +215,51 @@
    "temas": [
     "Seguridad Municipal",
     "Tabla de la Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-02",
+   "titulo": "Extorsión territorial: comisión despacha nuevas sanciones penales",
+   "link": "https://www.camara.cl/cms/2026/11/02/extorsion-territorial-comision-despacha-nuevas-sanciones-penales/",
+   "tipo": "Comisión",
+   "resumen": "Además, la instancia también remitió a la Sala el proyecto que regula la continuidad del juicio oral y permite dictar sentencia definitiva ante la incomparecencia injustificada del acusado.",
+   "temas": [
+    "Comisión de Seguridad Ciudadana",
+    "Extorsión",
+    "procedimiento penal"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-02",
+   "titulo": "A ley cambios para fortalecer seguridad municipal",
+   "link": "https://www.camara.cl/cms/2026/11/02/a-ley-cambios-para-fortalecer-seguridad-municipal/",
+   "tipo": "Sala",
+   "resumen": "La norma faculta a los municipios a destinar desde un 5 a un 25% de los recursos propios para contratar inspectores de seguridad y regula la licencia de conducir exigible para conductores de vehículos municipales.",
+   "temas": [
+    "Inspectores de seguridad municipal",
+    "Sala de la Cámara",
+    "Seguridad Municipal"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-02",
+   "titulo": "Comisión mixta inicia votación de proyecto de Ley de Presupuesto 2027",
+   "link": "https://www.camara.cl/cms/2026/11/02/comision-mixta-inicia-votacion-de-proyecto-de-ley-de-presupuesto-2027/",
+   "tipo": "Comisión",
+   "resumen": "La comisón mixta debatió en general e inició la votación de las partidas del presupuesto 2027 aprobadas en las cinco subcomisiones. La instancia ya aprobó Presidencia, Congreso Nacional y Minería.",
+   "temas": [
+    "Comisión Mixta de Presupuesto",
+    "Congreso Nacional",
+    "dieta de expresidentes",
+    "Ley Presupuesto",
+    "Ley Presupuesto 2027",
+    "partidas"
    ],
    "boletines": [],
    "seguidos": []

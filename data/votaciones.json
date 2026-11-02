@@ -1,5 +1,27 @@
 [
  {
+  "boletin": "18525-06",
+  "nombre_corto": "Ley corta de seguridad municipal",
+  "camara": "Cámara",
+  "fecha": "2026-11-02",
+  "si": 121,
+  "no": 7,
+  "abstencion": 6,
+  "resultado": "Aprobado",
+  "tema": "Boletín N° 18525-06"
+ },
+ {
+  "boletin": "18525-06",
+  "nombre_corto": "Ley corta de seguridad municipal",
+  "camara": "Cámara",
+  "fecha": "2026-11-02",
+  "si": 126,
+  "no": 4,
+  "abstencion": 4,
+  "resultado": "Aprobado",
+  "tema": "Boletín N° 18525-06"
+ },
+ {
   "boletin": "18236-18",
   "nombre_corto": "Protección de víctimas de VIF",
   "camara": "Cámara",

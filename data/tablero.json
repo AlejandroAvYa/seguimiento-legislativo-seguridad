@@ -2938,7 +2938,7 @@
  },
  {
   "boletin": "17371-25",
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 8,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 328,
@@ -2987,27 +2987,23 @@
   "fecha_ingreso": "2025-01-30",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Vence 2026-11-04",
-  "prioridad_indice": 53,
-  "prioridad_nivel": "Alta",
+  "urgencia_vence_estimado": "2026-12-02",
+  "urgencia_plazo": "Vence 2026-12-02",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
   "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-04 (en 2 días)."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 328 días en Comisión de Hacienda."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-05",
-  "ultimo_tramite": "Cuenta del Mensaje 368-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 438-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 8,
+  "n_urgencias_gobierno_actual": 9,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 1,
@@ -4617,7 +4613,7 @@
  },
  {
   "boletin": "18208-25",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 33,
@@ -4666,23 +4662,18 @@
   "fecha_ingreso": "2026-04-20",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 76,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vence_estimado": "2026-11-17",
+  "urgencia_plazo": "Vence 2026-11-17",
+  "prioridad_indice": 61,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Seguimiento semanal de la comisión",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 1 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 15,
+  "n_urgencias_gobierno_actual": 16,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 2,
@@ -5124,7 +5115,7 @@
  },
  {
   "boletin": "18282-07",
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 171,
@@ -5173,23 +5164,18 @@
   "fecha_ingreso": "2026-05-15",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 77,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vence_estimado": "2026-11-17",
+  "urgencia_plazo": "Vence 2026-11-17",
+  "prioridad_indice": 62,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 1 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-26",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 7,
+  "n_urgencias_gobierno_actual": 8,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5417,7 +5403,7 @@
  },
  {
   "boletin": "18341-25",
-  "n_urgencias_en_etapa": 14,
+  "n_urgencias_en_etapa": 15,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 143,
@@ -5466,27 +5452,23 @@
   "fecha_ingreso": "2026-06-12",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 82,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vence_estimado": "2026-11-17",
+  "urgencia_plazo": "Vence 2026-11-17",
+  "prioridad_indice": 67,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [
    {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 1 días)."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 15 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-26",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 14,
+  "n_urgencias_gobierno_actual": 15,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5860,7 +5842,7 @@
  },
  {
   "boletin": "18432-07",
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 4,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 130,
@@ -5909,23 +5891,18 @@
   "fecha_ingreso": "2026-06-25",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Vence 2026-11-04",
-  "prioridad_indice": 47,
+  "urgencia_vence_estimado": "2026-12-02",
+  "urgencia_plazo": "Vence 2026-12-02",
+  "prioridad_indice": 37,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-04 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-05",
-  "ultimo_tramite": "Cuenta del Mensaje 368-374 que retira y hace presente la urgencia Simple",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 438-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 3,
+  "n_urgencias_gobierno_actual": 4,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5935,7 +5912,7 @@
  },
  {
   "boletin": "18434-07",
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 127,
@@ -5984,23 +5961,18 @@
   "fecha_ingreso": "2026-06-28",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 55,
-  "prioridad_nivel": "Alta",
+  "urgencia_vence_estimado": "2026-11-17",
+  "urgencia_plazo": "Vence 2026-11-17",
+  "prioridad_indice": 40,
+  "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento semanal de la comisión",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 1 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6101,7 +6073,7 @@
    "1S": "hecha",
    "2C": "hecha",
    "2S": "hecha",
-   "3T": "omitida",
+   "3T": "hecha",
    "CM": "omitida",
    "TC": "actual",
    "LEY": "pendiente"
@@ -6116,10 +6088,10 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Oficio de ley al Ejecutivo",
+  "instancia_actual": "Ingreso de observaciones",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 5,
+  "dias_en_etapa": 0,
   "fecha_ingreso": "2026-08-04",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -6129,8 +6101,8 @@
   "prioridad_nivel": "Despachado",
   "accion_sugerida": "Seguir el control del Tribunal Constitucional, la promulgación y la publicación",
   "alertas": [],
-  "ultimo_tramite_fecha": "2026-10-28",
-  "ultimo_tramite": "Cuenta del Mensaje 424-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Oficio de ley al Ejecutivo .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -6138,7 +6110,7 @@
   "n_indicaciones_senado": 8,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
-  "n_votaciones_sala_camara": 4,
+  "n_votaciones_sala_camara": 6,
   "link_senado": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=18525-06",
   "responsable": ""
  },
@@ -6504,7 +6476,7 @@
  },
  {
   "boletin": "18590-07",
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 84,
@@ -6553,23 +6525,18 @@
   "fecha_ingreso": "2026-08-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 77,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vence_estimado": "2026-11-17",
+  "urgencia_plazo": "Vence 2026-11-17",
+  "prioridad_indice": 62,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-03 (en 1 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-26",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite": "Discusión general . Queda pendiente",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 3,
+  "n_urgencias_gobierno_actual": 4,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
