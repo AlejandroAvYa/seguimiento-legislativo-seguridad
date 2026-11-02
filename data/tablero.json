@@ -5124,7 +5124,7 @@
  },
  {
   "boletin": "18282-07",
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 171,
@@ -5184,8 +5184,8 @@
     "detalle": "Suma vence el 2026-11-03 (en 1 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-23",
-  "ultimo_tramite": "Primer informe de comisión de Defensa Nacional.",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -5437,11 +5437,11 @@
   "descripcion": "Crea el Registro Nacional de Actos Vandálicos e Incivilidades, a cargo del Registro Civil, con restricciones temporales de acceso a beneficios, subsidios, becas y permisos financiados con recursos fiscales; tipifica los rayados no autorizados y, para delitos graves que indica, prohíbe o suspende por cinco años la gratuidad y la PGU.",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "1C",
-  "etapa_texto": "Primer trámite · Comisión (Cámara de Diputados)",
+  "etapa_codigo": "1S",
+  "etapa_texto": "Primer trámite · Sala (Cámara de Diputados)",
   "avance_estados": {
-   "1C": "actual",
-   "1S": "pendiente",
+   "1C": "hecha",
+   "1S": "actual",
    "2C": "pendiente",
    "2S": "pendiente",
    "3T": "pendiente",
@@ -5459,7 +5459,7 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Comisión de Seguridad Ciudadana",
+  "instancia_actual": "Sala",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 143,
@@ -5468,9 +5468,9 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-11-03",
   "urgencia_plazo": "Vence 2026-11-03",
-  "prioridad_indice": 70,
+  "prioridad_indice": 82,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
@@ -5481,8 +5481,8 @@
     "detalle": "Se han presentado 14 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -6504,7 +6504,7 @@
  },
  {
   "boletin": "18590-07",
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 84,
@@ -6564,8 +6564,8 @@
     "detalle": "Suma vence el 2026-11-03 (en 1 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-23",
-  "ultimo_tramite": "Primer informe de comisión de Defensa Nacional.",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,

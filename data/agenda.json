@@ -10,7 +10,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
    "horario": "10:00 a 13:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 2 ) Partida 02 Congreso Nacional\n.- ( Bol.N° 1 ) Partida 01 Presidencia de la Republica",
    "boletines": [
     "18702-05"
    ],
@@ -114,10 +114,8 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
-   "boletines": [
-    "17293-27"
-   ],
+   "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
+   "boletines": [],
    "invitados": [],
    "seguidos": []
   },
@@ -171,6 +169,19 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-02",
+   "titulo": "Seguridad municipal y uso de menores en delitos en tabla para este lunes 2 de noviembre",
+   "link": "https://www.camara.cl/cms/2026/11/02/seguridad-municipal-y-uso-de-menores-en-delitos-en-tabla-para-este-lunes-2-de-noviembre/",
+   "tipo": "Tabla de la Sala",
+   "resumen": "La tabla de la Sala tentativa también plantea para el martes un texto que avanza en la prevención de incendios forestales y rurales. Para el miércoles, se propone una propuesta sobre regularización de viviendas.",
+   "temas": [
+    "Seguridad Municipal",
+    "Tabla de la Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-10-30",
    "titulo": "Sala de la Cámara: Cinco proyectos despachados esta semana",

@@ -241516,7 +241516,7 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Primer trámite constitucional (C.Diputados)",
-  "subetapa": "Cuenta de primer informe de comisión",
+  "subetapa": "Discusión general",
   "tramite_constitucional": "Primer trámite constitucional",
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
@@ -241535,10 +241535,10 @@
   "primera_urgencia_gobierno_actual": "2026-08-03",
   "ultima_urgencia": "Suma (2026-10-19)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-23",
-  "ultimo_tramite": "Primer informe de comisión de Defensa Nacional.",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 13,
+  "n_tramites": 14,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -241546,8 +241546,8 @@
   "n_indicaciones_senado_parlamentarias": 0,
   "n_oficios_indicaciones_ejecutivo": 0,
   "ultima_presentacion_indicaciones": "",
-  "n_informes_comision": 0,
-  "ultimo_informe": "",
+  "n_informes_comision": 1,
+  "ultimo_informe": "2026-10-23 – Primer informe de comisión de Defensa Nacional",
   "n_votaciones_sala_senado": 0,
   "ultima_votacion_sala_senado": "",
   "n_votaciones_sala_camara": 0,
@@ -241647,6 +241647,13 @@
     "descripcion": "Primer informe de comisión de Defensa Nacional.",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-10-26",
+    "sesion": "81/374",
+    "descripcion": "Cuenta de primer informe de comisión .",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -241708,7 +241715,14 @@
     "etapa": "Primer trámite constitucional"
    }
   ],
-  "informes": [],
+  "informes": [
+   {
+    "fecha": "2026-10-23",
+    "tramite": "Primer informe de comisión de Defensa Nacional",
+    "etapa": "Primer trámite constitucional",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28353&tipodoc=info"
+   }
+  ],
   "comparados": [],
   "oficios": [
    {
@@ -241762,7 +241776,7 @@
   "avance_inicio": {
    "1": "2026-05-15"
   },
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 0,
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
@@ -243836,10 +243850,10 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Primer trámite constitucional (C.Diputados)",
-  "subetapa": "Primer informe de comisión de Seguridad Ciudadana",
+  "subetapa": "Discusión general",
   "tramite_constitucional": "Primer trámite constitucional",
   "camara_actual": "Cámara de Diputados",
-  "instancia_actual": "Comisión de Seguridad Ciudadana",
+  "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-06-12",
   "dias_en_etapa": 143,
   "dias_desde_ingreso": 143,
@@ -243855,10 +243869,10 @@
   "primera_urgencia_gobierno_actual": "2026-06-15",
   "ultima_urgencia": "Suma (2026-10-19)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-08-21",
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 19,
+  "n_tramites": 20,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -244009,6 +244023,13 @@
     "descripcion": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-10-26",
+    "sesion": "81/374",
+    "descripcion": "Cuenta de primer informe de comisión .",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -244148,11 +244169,11 @@
   "indicaciones_por_autor": [],
   "indicaciones_por_articulo": [],
   "votaciones_camara": [],
-  "etapa_codigo": "1C",
-  "etapa_texto": "Primer trámite · Comisión (Cámara de Diputados)",
+  "etapa_codigo": "1S",
+  "etapa_texto": "Primer trámite · Sala (Cámara de Diputados)",
   "avance_estados": {
-   "1C": "actual",
-   "1S": "pendiente",
+   "1C": "hecha",
+   "1S": "actual",
    "2C": "pendiente",
    "2S": "pendiente",
    "3T": "pendiente",
@@ -244185,12 +244206,13 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 70,
+  "prioridad_indice": 82,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "Urgencia vence en 7 días o menos (+15)",
+   "En Sala (+12)",
    "Proyecto núcleo de seguridad (+15)",
    "Mensaje del actual Gobierno (+10)",
    "Movimiento en los últimos 14 días (+5)"
@@ -257958,7 +257980,7 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Primer trámite constitucional (C.Diputados)",
-  "subetapa": "Cuenta de primer informe de comisión",
+  "subetapa": "Discusión general",
   "tramite_constitucional": "Primer trámite constitucional",
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
@@ -257977,10 +257999,10 @@
   "primera_urgencia_gobierno_actual": "2026-09-21",
   "ultima_urgencia": "Suma (2026-10-19)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-23",
-  "ultimo_tramite": "Primer informe de comisión de Defensa Nacional.",
+  "ultimo_tramite_fecha": "2026-10-26",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 8,
+  "n_tramites": 9,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -257988,8 +258010,8 @@
   "n_indicaciones_senado_parlamentarias": 0,
   "n_oficios_indicaciones_ejecutivo": 0,
   "ultima_presentacion_indicaciones": "",
-  "n_informes_comision": 0,
-  "ultimo_informe": "",
+  "n_informes_comision": 1,
+  "ultimo_informe": "2026-10-23 – Primer informe de comisión de Defensa Nacional",
   "n_votaciones_sala_senado": 0,
   "ultima_votacion_sala_senado": "",
   "n_votaciones_sala_camara": 0,
@@ -258054,6 +258076,13 @@
     "descripcion": "Primer informe de comisión de Defensa Nacional.",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-10-26",
+    "sesion": "81/374",
+    "descripcion": "Cuenta de primer informe de comisión .",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -258087,7 +258116,14 @@
     "etapa": "Primer trámite constitucional"
    }
   ],
-  "informes": [],
+  "informes": [
+   {
+    "fecha": "2026-10-23",
+    "tramite": "Primer informe de comisión de Defensa Nacional",
+    "etapa": "Primer trámite constitucional",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28354&tipodoc=info"
+   }
+  ],
   "comparados": [],
   "oficios": [
    {
@@ -258131,7 +258167,7 @@
   "avance_inicio": {
    "1": "2026-08-10"
   },
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 0,
   "alertas": [
    {
     "tipo": "Urgencia por vencer",

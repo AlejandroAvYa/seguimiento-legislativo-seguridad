@@ -1,5 +1,61 @@
 [
  {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18590-07",
+  "tipo": "Nuevo informe de comisión",
+  "antes": "",
+  "despues": "2026-10-23 – Primer informe de comisión de Defensa Nacional"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18590-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de primer informe de comisión",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18341-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18341-25",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Seguridad Ciudadana",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-26 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18282-07",
+  "tipo": "Nuevo informe de comisión",
+  "antes": "",
+  "despues": "2026-10-23 – Primer informe de comisión de Defensa Nacional"
+ },
+ {
+  "fecha_deteccion": "2026-11-02 13:00",
+  "boletin": "18282-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de primer informe de comisión",
+  "despues": "Discusión general"
+ },
+ {
   "fecha_deteccion": "2026-10-29 18:10",
   "boletin": "18709-07",
   "tipo": "Nuevo trámite",
