@@ -1,35 +1,6 @@
 {
  "semanas": [
   {
-   "desde": "2026-08-31",
-   "hasta": "2026-09-06",
-   "pasada": true,
-   "actual": false,
-   "camara_sala": 3,
-   "camara_dias": [
-    "2026-08-31",
-    "2026-09-01",
-    "2026-09-02"
-   ],
-   "senado_sala": 2,
-   "senado_dias": [
-    "2026-09-01",
-    "2026-09-02"
-   ],
-   "senado_comisiones": 0,
-   "senado_comisiones_seguidos": 0,
-   "camara_comisiones": 0,
-   "camara_comisiones_seguidos": 0,
-   "feriados": [],
-   "urgencias_vencen": [
-    {
-     "boletin": "17474-06",
-     "urgencia": "Suma",
-     "vence": "2026-09-02"
-    }
-   ]
-  },
-  {
    "desde": "2026-09-07",
    "hasta": "2026-09-13",
    "pasada": true,
@@ -248,8 +219,8 @@
   {
    "desde": "2026-10-26",
    "hasta": "2026-11-01",
-   "pasada": false,
-   "actual": true,
+   "pasada": true,
+   "actual": false,
    "camara_sala": 5,
    "camara_dias": [
     "2026-10-26",
@@ -262,8 +233,8 @@
     "2026-10-27",
     "2026-10-28"
    ],
-   "senado_comisiones": 10,
-   "senado_comisiones_seguidos": 2,
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [
@@ -295,7 +266,7 @@
    "desde": "2026-11-02",
    "hasta": "2026-11-08",
    "pasada": false,
-   "actual": false,
+   "actual": true,
    "camara_sala": 3,
    "camara_dias": [
     "2026-11-02",
@@ -559,6 +530,22 @@
      "vence": "2026-11-25"
     }
    ]
+  },
+  {
+   "desde": "2026-11-30",
+   "hasta": "2026-12-06",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 1,
+   "senado_comisiones_seguidos": 0,
+   "camara_comisiones": 0,
+   "camara_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": []
   }
  ],
  "feriados": [
