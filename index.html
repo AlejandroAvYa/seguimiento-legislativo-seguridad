@@ -361,6 +361,8 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 .cand__t{font-size:13px;font-weight:600;line-height:1.4;color:var(--ink)}
 .cand__s{font-size:11.5px;color:var(--ink-3);margin-top:4px;line-height:1.45}
 @media (max-width:640px){.cand{flex-direction:column;gap:8px}}
+.rs__que{border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:14px}
+.rs__que p{margin:0 0 4px;font-size:14px;line-height:1.6;color:var(--ink);max-width:110ch}
 .rs__g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 26px}
 @media (max-width:900px){.rs__g{grid-template-columns:minmax(0,1fr)}}
 .rs__b p{margin:0 0 6px;font-size:13.2px;line-height:1.55;color:var(--ink-2)}
@@ -706,8 +708,8 @@ async function vistaFicha(b) {
     ${tarjetaResumen(p)}
     <div class="grid g2" style="margin-top:16px">
       <div class="card"><div class="card__body" style="padding-top:16px">
-        <div class="dsec" style="margin-top:0"><div class="dsec__t">Qué hace</div><p>${esc(p.descripcion || p.titulo)}</p>${p.nota ? `<p class="small muted" style="margin-top:6px">${esc(p.nota)}</p>` : ""}</div>
-        <div class="dsec"><div class="dsec__t">Dónde está ahora</div>
+        ${tarjetaResumen(p) ? "" : `<div class="dsec" style="margin-top:0"><div class="dsec__t">Qué hace</div><p>${esc(p.descripcion || p.titulo)}</p>${p.nota ? `<p class="small muted" style="margin-top:6px">${esc(p.nota)}</p>` : ""}</div>`}
+        <div class="dsec"${tarjetaResumen(p) ? ' style="margin-top:0"' : ""}><div class="dsec__t">Dónde está ahora</div>
           <div class="metrics">
             <div class="metric"><div class="k">Etapa</div><div class="v">${esc(p.etapa_texto)}</div></div>
             <div class="metric"><div class="k">Instancia</div><div class="v">${esc(instancia)}</div></div>
@@ -1314,7 +1316,8 @@ function tarjetaResumen(p) {
   const bloque = (t, arr) => (arr || []).length ? `<div class="rs__b"><div class="dsec__t">${t}</div>${arr.map(x => `<p>${esc(x)}</p>`).join("")}</div>` : "";
   return `<div class="card rs" style="margin-top:16px"><div class="card__head" style="flex-wrap:wrap"><span class="card__title">En simple</span><span class="card__sub" style="margin-left:0">Estado al ${fechaDia((D.meta.ultima_actualizacion_datos || hoyISO()).slice(0, 10))}</span>
       <span class="acciones no-print" style="margin-left:auto"><button type="button" class="btn sm" id="rWsp" title="Copia el resumen con negritas para pegar en WhatsApp">Copiar para WhatsApp</button><button type="button" class="btn sm" id="rTxt">Copiar texto</button></span></div>
-    <div class="card__body"><div class="rs__g">${bloque("Dónde está", r.estado)}${bloque("Indicaciones y votaciones", r.indicado.length ? r.indicado : ["Sin indicaciones registradas en el Senado ni votaciones en Sala."])}${bloque("Qué falta", r.falta)}</div>
+    <div class="card__body"><div class="rs__que"><div class="dsec__t">Qué hace</div><p>${esc(p.descripcion || p.titulo)}</p>${p.nota ? `<p class="small muted">${esc(p.nota)}</p>` : ""}</div>
+    <div class="rs__g">${bloque("Dónde está", r.estado)}${bloque("Indicaciones y votaciones", r.indicado.length ? r.indicado : ["Sin indicaciones registradas en el Senado ni votaciones en Sala."])}${bloque("Qué falta", r.falta)}</div>
     ${red ? `<div class="rs__red">${red.secciones.map(sec => `<div class="rs__b"><div class="dsec__t">${esc(sec.titulo)}</div>${sec.parrafos.map(x => `<p>${negrita(x)}</p>`).join("")}${sec.items.length ? `<ul class="rs__l">${sec.items.map(x => `<li>${negrita(x)}</li>`).join("")}</ul>` : ""}</div>`).join("")}
       <p class="small muted" style="margin:10px 0 0">${/por revisar/i.test(red.estado || "") ? `<span class="chip u-su" style="margin-right:6px">Por revisar</span>` : ""}${/^revisado/i.test(red.estado || "") ? `<span class="chip p-ley" style="margin-right:6px">Revisado</span>` : ""}${red.autor ? esc(red.autor) : "Redacción del equipo"}${red.fecha ? `, al ${fechaDia(red.fecha)}` : ""}. ${r.aviso ? `<b style="color:var(--c-amber)">${esc(r.aviso)}</b> ` : ""}<span class="no-print">${/por revisar/i.test(red.estado || "") ? `<a href="${urlSolicitud({accion: "Validar", boletin: p.boletin})}" target="_blank" rel="noopener">Validar</a> · ` : ""}<a href="${urlRedaccion(p)}" target="_blank" rel="noopener">Editar</a></span></p></div>`
     : `<p class="small muted no-print" style="margin:12px 0 0">Dónde está, indicaciones y qué falta se arman solos con los datos oficiales. Los principales contenidos y lo dicho en Sala requieren redacción: <a href="${urlRedaccion(p)}" target="_blank" rel="noopener">agregar redacción</a>.</p>`}
@@ -1325,6 +1328,7 @@ function textoResumen(p, wsp) {
   const limpiar = t => wsp ? t.replace(/\*\*(.+?)\*\*/g, "*$1*") : t.replace(/\*\*(.+?)\*\*/g, "$1");
   const L = [b(`${p.nombre_corto} (Boletín N° ${bolTexto(p.boletin)})`), b(`Estado al ${fechaDia((D.meta.ultima_actualizacion_datos || hoyISO()).slice(0, 10))}`), ""];
   const sec = (t, arr, vineta) => { if (!(arr || []).length) return; L.push(b(t)); arr.forEach(x => L.push(vineta ? `• ${limpiar(x)}` : limpiar(x))); L.push(""); };
+  sec("Qué hace", [p.descripcion || p.titulo]);
   sec("Estado de tramitación", [(r.estado || []).join(" ")]);
   sec("Indicaciones y votaciones", r.indicado, true);
   sec("Qué falta", [(r.falta || []).join(" ")]);
