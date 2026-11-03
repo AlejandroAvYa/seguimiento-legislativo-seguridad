@@ -5709,7 +5709,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-11",
+    "horario": "11:00 a 12:30",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+    "estado": "Citada",
+    "lugar": "Sala N° 1, Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado",
   "clasificacion": "Núcleo",

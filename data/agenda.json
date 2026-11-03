@@ -39,7 +39,7 @@
    "fecha": "2026-11-03",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 87",
    "estado": "Citada",
-   "horario": "10:00 a 14:00",
+   "horario": "10:01 a 14:00",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -56,7 +56,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso",
    "horario": "10:30 a 13:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 19 ) Partida 19 Ministerio de Transportes y Telecomunicaciones",
    "boletines": [
     "18702-05"
    ],
@@ -127,6 +127,20 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-09",
+   "instancia": "Comisión de Salud",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de los Presidentes.",
+   "horario": "14:00 a 15:30",
+   "materia": "1.- Recibir a los integrantes de la Mesa de Trabajo para la Modernización de la Salud en Chile, quienes harán entrega del informe final de su cometido, con las conclusiones y propuestas respectivas, y ofrecer un almuerzo en la Sala N° 1 del 3er piso de Comisiones del Senado.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
    "instancia": "Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -141,6 +155,42 @@
     "A este punto han sido especialmente invitados el Subsecretario de Hacienda, señor Sebastián Vallebona y el Director de la Dirección de Presupuestos, señor José Pablo Gómez."
    ],
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 17852-17 ) Votar la reapertura del debate del proyecto de ley que regula las modalidades de financiamiento de los sitios de memoria y modifica la ley N°17.288, sobre Monumentos Nacionales, del modo que indica\n2.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.\nInvitados:\nEl Presidente de la Central Unitaria de Trabajadores (CUT), señor José Manuel Díaz.\nLa Presidenta de la Confederación de la Producción y del Comercio (CPC), señora Susana Jiménez.\nEl Representante de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, ACNUDH, señor Jan Jarab.",
+   "boletines": [
+    "17852-17",
+    "17196-17",
+    "17446-17"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18420-25 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en primer trámite constitucional, que modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado (Boletín N° 18.420-25).",
+   "boletines": [
+    "18420-25"
+   ],
+   "invitados": [],
+   "seguidos": [
+    "18420-25"
+   ]
   },
   {
    "camara": "Senado",
@@ -161,7 +211,7 @@
   {
    "camara": "Senado",
    "tipo": "Comisión",
-   "fecha": "2026-12-02",
+   "fecha": "2026-11-25",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -169,6 +219,22 @@
    "horario": "15:00 a 16:00",
    "materia": "1.- Analizar la situación del fútbol profesional chileno en las zonas extremas del país.\nA esta sesión se invitará al Ministro del Deporte; al Director Nacional del Instituto Nacional de Deportes, y al Presidente de la Asociación Nacional de Fútbol Profesional.",
    "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11, Valparaíso.",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 17293-27 ) HA MODIFICADO SU TABLA.\nProyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
+   "boletines": [
+    "17293-27"
+   ],
    "invitados": [],
    "seguidos": []
   }
@@ -200,6 +266,20 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-03",
+   "titulo": "Comisión debatió regulaciones a financiamiento cultural",
+   "link": "https://www.camara.cl/cms/2026/11/03/comision-debatio-regulaciones-a-financiamiento-cultural/",
+   "tipo": "Comisión",
+   "resumen": "La iniciativa que analiza Cultura busca impedir el financiamiento estatal de actividades culturales y artísticas que incluyan, total o parcialmente, espectáculos pornográficos o contenidos de explotación comercial de carácter sexual explícito.",
+   "temas": [
+    "#Consejo de Calificación Cinematográfica",
+    "Ministerio de las Culturas",
+    "pornografia"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-02",
    "titulo": "Seguridad municipal y uso de menores en delitos en tabla para este lunes 2 de noviembre",

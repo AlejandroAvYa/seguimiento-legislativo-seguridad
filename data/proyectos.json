@@ -246597,7 +246597,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-11",
+    "horario": "11:00 a 12:30",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+    "estado": "Citada",
+    "lugar": "Sala N° 1, Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado",
   "clasificacion": "Núcleo",
@@ -247051,7 +247061,7 @@
     "Está en primer trámite en el Senado, en la comisión de Intereses Marítimos, Pesca y Acuicultura, desde el 24 de junio (132 días).",
     "El Senado lo aprobó en general el 11 de agosto.",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
-    "Último trámite, sin contar urgencias: Boletín de indicaciones (7 de septiembre)."
+    "Próxima sesión citada: Comisión de Intereses Marítimos, Pesca y Acuicultura, el miércoles 11 de noviembre a las 11:00."
    ],
    "indicado": [
     "En el Senado se presentaron 23 indicaciones, todas parlamentarias (Calisto, Flores, Kusanovic, Kuschel).",
@@ -249585,26 +249595,6 @@
     "tramite": "Oficio de ley al Ejecutivo",
     "etapa": "Trámite finalización en Cámara de Origen",
     "tipo": "Ley",
-    "camara": "C. Diputados",
-    "descripcion": "",
-    "link": ""
-   },
-   {
-    "numero": "",
-    "fecha": "2026-11-02",
-    "tramite": "Oficio aprobación de modificaciones a Cámara Revisora",
-    "etapa": "Tercer trámite constitucional",
-    "tipo": "Aprobación de modificaciones",
-    "camara": "C. Diputados",
-    "descripcion": "",
-    "link": ""
-   },
-   {
-    "numero": "",
-    "fecha": "2026-11-02",
-    "tramite": "Oficio aprobación de modificaciones a Cámara Revisora",
-    "etapa": "Tercer trámite constitucional",
-    "tipo": "Aprobación de modificaciones",
     "camara": "C. Diputados",
     "descripcion": "",
     "link": ""
