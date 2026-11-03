@@ -1,5 +1,19 @@
 [
  {
+  "fecha_deteccion": "2026-11-03 18:03",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-03 – Discusión general . Queda pendiente (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-03 18:03",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-03 – Discusión general . Queda pendiente . (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-03 12:12",
   "boletin": "18420-25",
   "tipo": "Citado a sesión",

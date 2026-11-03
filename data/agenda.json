@@ -34,20 +34,6 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-03",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 87",
-   "estado": "Citada",
-   "horario": "10:01 a 14:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-03",
@@ -72,7 +58,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
    "horario": "14:00 a 20:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 26 ) Partida 26 Ministerio del Deporte\n.- ( Bol.N° 32 ) Partida 32 Ministerio de Seguridad Pública\n.- ( Bol.N° 13 ) Partida 13 Ministerio de Agricultura\n.- ( Bol.N° 24 ) Partida 24 Ministerio de Energía\n.- ( Bol.N° 22 ) Partida 22 Ministerio Secretaría General de la Presidencia de la República\n.- ( Bol.N° 20 ) Partida 20 Ministerio Secretaría General de Gobierno",
    "boletines": [
     "18702-05"
    ],
@@ -159,19 +145,107 @@
   {
    "camara": "Senado",
    "tipo": "Comisión",
+   "fecha": "2026-11-09",
+   "instancia": "Comisión de Economía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 de Comisiones, Ex Congreso Nacional, Santiago",
+   "horario": "17:00 a 18:30",
+   "materia": "1.- ( Bol.N° 14838-03 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea (Boletín N° 14.838-03).\nA este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona.",
+   "boletines": [
+    "14838-03"
+   ],
+   "invitados": [
+    "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Economía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 3 de Comisiones, Valparaíso",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 17163-03 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 20.423, para establecer medidas que garanticen el cumplimiento de estándares de seguridad en servicios de turismo aventura (Boletín N° 17.163-03).\nA esta sesión se encuentra especialmente invitada la Subsecretaria de Turismo, señora María Paz Lagos.",
+   "boletines": [
+    "17163-03"
+   ],
+   "invitados": [
+    "A esta sesión se encuentra especialmente invitada la Subsecretaria de Turismo, señora María Paz Lagos."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Vivienda y Urbanismo",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "10:00 a 12:00",
+   "materia": "1.- Recibir a representantes de la Asociación Gremial Nacional de Constructoras de Viviendas Sociales -junto a dirigentes de los gremios de las entidades patrocinantes- y de la Federación Nacional de Trabajadores y Trabajadoras de Vivienda y Urbanismo, quienes darán a conocer la opinión de sus organizaciones acerca de la propuesta de presupuesto para el Ministerio de Vivienda y Urbanismo, en lo relativo al año 2027.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Familia, Infancia y Adolescencia.",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 5, (Valparaíso)",
+   "horario": "11:15 a 12:30",
+   "materia": "1.- ( Bol.N° 18255-31 ) Iniciar el estudio del proyecto de ley, en segundo trámite constitucional, originado en mensaje de S.E. el Presidente de la República, que establece un beneficio de compensación por la compra de pañales y de medicamentos, con urgencia calificada de \"suma\".\nA este punto han sido invitados el Ministro de Hacienda, señor Jorge Quiroz; el Ministro Secretario General de la Presidencia, señor José García Ruminot y la Ministra de Desarrollo Social y Familia, señora María Jesús Wulf.\n2.- ( Bol.N° 17738-36 ) Continuar con el estudio del proyecto de ley, en primer trámite constitucional, originado en moción del Honorable Senador señor Bianchi, que dispone una regulación aplicable a los establecimientos de corta estadía, con el objeto de prevenir actos constitutivos de explotación sexual de menores de edad.\nA este punto han sido invitados la Presidenta Ejecutiva de la Federación de Empresas de Turismo de Chile (FEDETUR), señora Mónica Zalaquett y el Presidente de la Asociación de Hoteleros de Chile A.G., señor Alberto Pirola.",
+   "boletines": [
+    "18255-31",
+    "17738-36"
+   ],
+   "invitados": [
+    "A este punto han sido invitados el Ministro de Hacienda, señor Jorge Quiroz; el Ministro Secretario General de la Presidencia, señor José García Ruminot y la Ministra de Desarrollo Social y Familia, señora María Jesús Wulf.",
+    "A este punto han sido invitados la Presidenta Ejecutiva de la Federación de Empresas de Turismo de Chile (FEDETUR), señora Mónica Zalaquett y el Presidente de la Asociación de Hoteleros de Chile A.G., señor Alberto Pirola."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
    "fecha": "2026-11-10",
    "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17852-17 ) Votar la reapertura del debate del proyecto de ley que regula las modalidades de financiamiento de los sitios de memoria y modifica la ley N°17.288, sobre Monumentos Nacionales, del modo que indica\n2.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.\nInvitados:\nEl Presidente de la Central Unitaria de Trabajadores (CUT), señor José Manuel Díaz.\nLa Presidenta de la Confederación de la Producción y del Comercio (CPC), señora Susana Jiménez.\nEl Representante de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, ACNUDH, señor Jan Jarab.",
+   "materia": "1.- ( Bol.N° 17852-17 ) Votar la reapertura del debate del proyecto de ley que regula las modalidades de financiamiento de los sitios de memoria y modifica la ley N°17.288, sobre Monumentos Nacionales, del modo que indica\n2.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.\nInvitados:\nEl Presidente de la Central Unitaria de Trabajadores (CUT), señor José Manuel Díaz.\nLa Presidenta de la Confederación de la Producción y del Comercio (CPC), señora Susana Jiménez.\nEl Representante de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, ACNUDH, señor Hernán Vales.",
    "boletines": [
     "17852-17",
     "17196-17",
     "17446-17"
    ],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Recursos Hídricos, Desertificación y Sequía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 17877-33 ) Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33).\nA esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange.",
+   "boletines": [
+    "17877-33"
+   ],
+   "invitados": [
+    "A esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange."
+   ],
    "seguidos": []
   },
   {
@@ -197,14 +271,12 @@
    "tipo": "Comisión",
    "fecha": "2026-11-11",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
-   "boletines": [
-    "17293-27"
-   ],
+   "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
+   "boletines": [],
    "invitados": [],
    "seguidos": []
   },
@@ -271,11 +343,28 @@
    "titulo": "Comisión debatió regulaciones a financiamiento cultural",
    "link": "https://www.camara.cl/cms/2026/11/03/comision-debatio-regulaciones-a-financiamiento-cultural/",
    "tipo": "Comisión",
-   "resumen": "La iniciativa que analiza Cultura busca impedir el financiamiento estatal de actividades culturales y artísticas que incluyan, total o parcialmente, espectáculos pornográficos o contenidos de explotación comercial de carácter sexual explícito.",
+   "resumen": "La iniciativa busca impedir el financiamiento estatal de actividades culturales y artísticas que incluyan, total o parcialmente, espectáculos pornográficos o contenidos de explotación comercial de carácter sexual explícito.",
    "temas": [
     "#Consejo de Calificación Cinematográfica",
     "Ministerio de las Culturas",
     "pornografia"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-03",
+   "titulo": "Cámara votó informe de mixta a ley de prevención de incendios forestales",
+   "link": "https://www.camara.cl/cms/2026/11/03/camara-voto-informe-de-mixta-a-ley-de-prevencion-de-incendios-forestales/",
+   "tipo": "Sala",
+   "resumen": "Pese a su aprobación por 77 votos, estos no fueron suficientes para respaldar las normas de quorum que requerían 78 votos afirmativos. Ministro de Agricultura anunció, por su parte, un veto sustitutivo a la iniciativa.",
+   "temas": [
+    "conaf",
+    "Incendios forestales",
+    "ley de incendios",
+    "Ministerio de Agricultura",
+    "Sala de la Cámara",
+    "Senapred"
    ],
    "boletines": [],
    "seguidos": []

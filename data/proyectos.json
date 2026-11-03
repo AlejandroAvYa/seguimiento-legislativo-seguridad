@@ -242697,10 +242697,10 @@
   "primera_urgencia_gobierno_actual": "2026-08-03",
   "ultima_urgencia": "Suma (2026-11-02)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-02",
-  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-03",
+  "ultimo_tramite": "Discusión general . Queda pendiente .",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 16,
+  "n_tramites": 17,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -242828,6 +242828,13 @@
     "fecha": "2026-11-02",
     "sesion": "86/374",
     "descripcion": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-03",
+    "sesion": "87/374",
+    "descripcion": "Discusión general . Queda pendiente .",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
    }
@@ -242984,7 +242991,7 @@
    "estado": [
     "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 15 de mayo (172 días).",
     "Tiene urgencia suma; el plazo estimado vence el 17 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Queda pendiente (2 de noviembre)."
+    "Último trámite, sin contar urgencias: Discusión general. Queda pendiente (3 de noviembre)."
    ],
    "indicado": [
     "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (23 de octubre)."
@@ -261435,10 +261442,10 @@
   "primera_urgencia_gobierno_actual": "2026-09-21",
   "ultima_urgencia": "Suma (2026-11-02)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-02",
+  "ultimo_tramite_fecha": "2026-11-03",
   "ultimo_tramite": "Discusión general . Queda pendiente",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 11,
+  "n_tramites": 12,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -261530,6 +261537,13 @@
    {
     "fecha": "2026-11-02",
     "sesion": "86/374",
+    "descripcion": "Discusión general . Queda pendiente",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-03",
+    "sesion": "87/374",
     "descripcion": "Discusión general . Queda pendiente",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
@@ -261649,7 +261663,7 @@
    "estado": [
     "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 10 de agosto (85 días).",
     "Tiene urgencia suma; el plazo estimado vence el 17 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Queda pendiente (2 de noviembre)."
+    "Último trámite, sin contar urgencias: Discusión general. Queda pendiente (3 de noviembre)."
    ],
    "indicado": [
     "Último informe: Primer informe de comisión de Defensa Nacional (23 de octubre)."
