@@ -19,6 +19,7 @@ Además, de lunes a viernes envía un **resumen diario** y los lunes genera un *
 
 ```
 config/catalogo.csv               Boletines que se siguen y su clasificación (se edita a mano)
+config/resumenes/BOLETIN.md       Redacción del equipo para el resumen en simple (contenidos, observaciones en Sala)
 config/acot.csv                   Iniciativas de la Agenda contra el Crimen Organizado y el Terrorismo (ACOT) y su boletín
 config/logo.png                   Logo institucional (dashboard e informe semanal)
 data/tablero.json                 Versión liviana para la portada del dashboard
@@ -264,6 +265,13 @@ Los candidatos pendientes aparecen en la misma vista con botones **Incorporar** 
 Un boletín descartado no vuelve a proponerse como candidato. Criterio de detección de candidatos: movimiento en los últimos 6 días, con urgencia, indicaciones del Ejecutivo o mensaje del actual Gobierno (desde el 11-03-2026), y título con términos de seguridad (lista `PALABRAS_CLAVE` en `scripts/actualizar.py`).
 
 Edición manual, si se prefiere: `config/catalogo.csv` tiene las columnas `boletin, nombre_corto, clasificacion, materia, descripcion, acot, nota, responsable, posicion_ejecutivo, ultima_gestion, proximo_paso` (solo el boletín es obligatorio; las cuatro últimas son los campos de "Gestión MSP" de la ficha).
+
+### Resumen en simple de cada proyecto
+
+Cada ficha parte con un recuadro **En simple**, con botones para copiarlo como texto o con formato para WhatsApp:
+
+- **Dónde está, Indicaciones y votaciones, Qué falta:** se arman solos cada hora con los datos oficiales (hitos, trámites, votaciones, indicaciones, urgencias y agenda). Reglas en `scripts/resumen.py`.
+- **Principales contenidos, Observaciones en Sala u otras secciones:** se escriben en `config/resumenes/BOLETIN.md` (plantilla en `config/resumenes/_plantilla.md`). El enlace "agregar redacción" o "Editar" de la ficha abre el archivo en GitHub, ya listo para completar. Si hay avances posteriores a la fecha de la redacción, la ficha lo advierte.
 
 ### Logo en el informe semanal
 

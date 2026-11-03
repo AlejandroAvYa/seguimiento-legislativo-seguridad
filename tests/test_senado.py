@@ -305,5 +305,39 @@ class GestionBoletines(unittest.TestCase):
         self.assertEqual(cand["18341-25"]["titulo"], "Registro de incivilidades")
 
 
+class ResumenSimple(unittest.TestCase):
+    def setUp(self):
+        import resumen
+        self.r = resumen
+
+    def test_recorrido_y_falta(self):
+        p = {"boletin": "18525-06", "situacion": "Despachado al Ejecutivo", "camara_origen": "Cámara de Diputados",
+             "hitos": [{"fecha": "2026-08-18", "hito": "Aprobado en general y particular", "camara": "C.Diputados", "etapa": "Primer trámite constitucional"},
+                       {"fecha": "2026-10-21", "hito": "Aprobado en general", "camara": "Senado", "etapa": "Segundo trámite constitucional"},
+                       {"fecha": "2026-10-27", "hito": "Aprobado en particular", "camara": "Senado", "etapa": "Segundo trámite constitucional"},
+                       {"fecha": "2026-10-27", "hito": "Despachado con modificaciones a la cámara de origen", "camara": "Senado", "etapa": "Segundo trámite constitucional"},
+                       {"fecha": "2026-11-02", "hito": "Despachado al Ejecutivo", "camara": "C.Diputados", "etapa": "Tercer trámite constitucional"}],
+             "tramites": [{"fecha": "2026-11-02", "descripcion": "Discusión única . Aprobadas las modificaciones", "etapa": "Tercer trámite constitucional", "camara": "C.Diputados"}]}
+        e = self.r.estado(p, "2026-11-03")
+        self.assertEqual(e[0], "El proyecto terminó su tramitación en el Congreso el 2 de noviembre.")
+        self.assertIn("El Senado lo aprobó en general el 21 de octubre y en particular el 27 de octubre, con modificaciones.", e)
+        self.assertIn("La Cámara de Diputados aprobó esas modificaciones el 2 de noviembre.", e)
+        self.assertTrue(self.r.falta(p, "2026-11-03")[0].startswith("Queda pendiente su promulgación"))
+
+    def test_falta_en_comision_del_senado_como_origen(self):
+        p = {"situacion": "En tramitación", "camara_origen": "Senado", "etapa_codigo": "1C", "subetapa": "Primer informe de comisión de Seguridad Pública"}
+        f = self.r.falta(p, "2026-11-03")
+        self.assertIn("la Sala del Senado", f[0])
+        self.assertIn("vuelve al Senado", f[1])
+
+    def test_redaccion(self):
+        red = self.r.parsear_redactado("fecha: 2026-11-02\n\n## Principales contenidos\n- **Plazos:** 6 meses.\n\n## Observaciones en Sala\nTexto libre.\n")
+        self.assertEqual(red["fecha"], "2026-11-02")
+        self.assertEqual(red["secciones"][0]["items"], ["**Plazos:** 6 meses."])
+        self.assertEqual(red["secciones"][1]["parrafos"], ["Texto libre."])
+        self.assertEqual(self.r.fecha("2025-03-04", "2026-11-03"), "4 de marzo de 2025")
+        self.assertEqual(self.r.boletin_texto("18525-06"), "18.525-06")
+
+
 if __name__ == "__main__":
     unittest.main()

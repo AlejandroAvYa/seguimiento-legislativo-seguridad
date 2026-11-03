@@ -361,6 +361,12 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 .cand__t{font-size:13px;font-weight:600;line-height:1.4;color:var(--ink)}
 .cand__s{font-size:11.5px;color:var(--ink-3);margin-top:4px;line-height:1.45}
 @media (max-width:640px){.cand{flex-direction:column;gap:8px}}
+.rs__g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 26px}
+@media (max-width:900px){.rs__g{grid-template-columns:minmax(0,1fr)}}
+.rs__b p{margin:0 0 6px;font-size:13.2px;line-height:1.55;color:var(--ink-2)}
+.rs__red{border-top:1px solid var(--line);margin-top:14px;padding-top:14px;display:grid;gap:14px}
+.rs__l{margin:0;padding-left:18px;font-size:13.2px;line-height:1.55;color:var(--ink-2)}
+.rs__l li{margin-bottom:5px} .rs__l b,.rs__b b{color:var(--ink)}
 .nav__sep{height:1px;background:rgba(255,255,255,.1);margin:10px 12px}
 @media print{
   @page{margin:14mm 12mm}
@@ -697,6 +703,7 @@ async function vistaFicha(b) {
       <div class="dsec__t" style="margin-top:22px">Avance de la tramitación</div>
       ${tracker(p)}
     </div>
+    ${tarjetaResumen(p)}
     <div class="grid g2" style="margin-top:16px">
       <div class="card"><div class="card__body" style="padding-top:16px">
         <div class="dsec" style="margin-top:0"><div class="dsec__t">Qué hace</div><p>${esc(p.descripcion || p.titulo)}</p>${p.nota ? `<p class="small muted" style="margin-top:6px">${esc(p.nota)}</p>` : ""}</div>
@@ -740,6 +747,8 @@ async function vistaFicha(b) {
   document.querySelectorAll("#ftabs .tab").forEach(t => t.addEventListener("click", () => { tabFicha = t.dataset.k; document.querySelectorAll("#ftabs .tab").forEach(x => x.classList.toggle("is-on", x === t)); pintarTab(p); }));
   pintarTab(p);
   $("#fCopiar").addEventListener("click", () => copiar(location.href.split("#")[0] + linkFicha(b)));
+  $("#rWsp")?.addEventListener("click", () => copiar(textoResumen(p, true), "Resumen copiado con formato para WhatsApp"));
+  $("#rTxt")?.addEventListener("click", () => copiar(textoResumen(p, false), "Resumen copiado"));
   $("#fImprimir").addEventListener("click", () => window.print());
   $("#fQuitar").addEventListener("click", () => { G.pre = {accion: "Descartar", boletin: b}; });
 }
@@ -1288,6 +1297,41 @@ async function vistaGestion() {
   actualizar();
   if (G.pre) { const {accion: a, boletin: b} = G.pre; G.pre = null; precargar(a, b); }
 }
+/* ============================================================ resumen en simple */
+const negrita = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+const bolTexto = b => { const [n, s] = b.split("-"); return `${Number(n).toLocaleString("es-CL")}${s ? "-" + s : ""}`; };
+const fechaDia = f => /^\d{4}-\d{2}-\d{2}/.test(f || "") ? `${+f.slice(8, 10)} de ${MESES[+f.slice(5, 7) - 1]}${f.slice(0, 4) === hoyISO().slice(0, 4) ? "" : " de " + f.slice(0, 4)}` : "";
+function urlRedaccion(p) {
+  const r = (p.resumen || {}).redactado, ruta = `config/resumenes/${p.boletin}.md`;
+  if (r) return `https://github.com/${REPO}/edit/main/${ruta}`;
+  const plantilla = `fecha: ${hoyISO()}\nautor: \n\n## Principales contenidos\n- **Tema:** \n\n## Observaciones en Sala\n- \n`;
+  return `https://github.com/${REPO}/new/main/config/resumenes?${new URLSearchParams({filename: `${p.boletin}.md`, value: plantilla})}`;
+}
+function tarjetaResumen(p) {
+  const r = p.resumen;
+  if (!r || !(r.estado || []).length) return "";
+  const red = r.redactado;
+  const bloque = (t, arr) => (arr || []).length ? `<div class="rs__b"><div class="dsec__t">${t}</div>${arr.map(x => `<p>${esc(x)}</p>`).join("")}</div>` : "";
+  return `<div class="card rs" style="margin-top:16px"><div class="card__head" style="flex-wrap:wrap"><span class="card__title">En simple</span><span class="card__sub" style="margin-left:0">Estado al ${fechaDia((D.meta.ultima_actualizacion_datos || hoyISO()).slice(0, 10))}</span>
+      <span class="acciones no-print" style="margin-left:auto"><button type="button" class="btn sm" id="rWsp" title="Copia el resumen con negritas para pegar en WhatsApp">Copiar para WhatsApp</button><button type="button" class="btn sm" id="rTxt">Copiar texto</button></span></div>
+    <div class="card__body"><div class="rs__g">${bloque("Dónde está", r.estado)}${bloque("Indicaciones y votaciones", r.indicado.length ? r.indicado : ["Sin indicaciones registradas en el Senado ni votaciones en Sala."])}${bloque("Qué falta", r.falta)}</div>
+    ${red ? `<div class="rs__red">${red.secciones.map(sec => `<div class="rs__b"><div class="dsec__t">${esc(sec.titulo)}</div>${sec.parrafos.map(x => `<p>${negrita(x)}</p>`).join("")}${sec.items.length ? `<ul class="rs__l">${sec.items.map(x => `<li>${negrita(x)}</li>`).join("")}</ul>` : ""}</div>`).join("")}
+      <p class="small muted" style="margin:10px 0 0">Redacción${red.autor ? ` de ${esc(red.autor)}` : " del equipo"}${red.fecha ? ` al ${fechaDia(red.fecha)}` : ""}. ${r.aviso ? `<b style="color:var(--c-amber)">${esc(r.aviso)}</b> ` : ""}<a class="no-print" href="${urlRedaccion(p)}" target="_blank" rel="noopener">Editar</a></p></div>`
+    : `<p class="small muted no-print" style="margin:12px 0 0">Dónde está, indicaciones y qué falta se arman solos con los datos oficiales. Los principales contenidos y lo dicho en Sala requieren redacción: <a href="${urlRedaccion(p)}" target="_blank" rel="noopener">agregar redacción</a>.</p>`}
+    </div></div>`;
+}
+function textoResumen(p, wsp) {
+  const r = p.resumen || {}, red = r.redactado, b = t => wsp ? `*${t}*` : t;
+  const limpiar = t => wsp ? t.replace(/\*\*(.+?)\*\*/g, "*$1*") : t.replace(/\*\*(.+?)\*\*/g, "$1");
+  const L = [b(`${p.nombre_corto} (Boletín N° ${bolTexto(p.boletin)})`), b(`Estado al ${fechaDia((D.meta.ultima_actualizacion_datos || hoyISO()).slice(0, 10))}`), ""];
+  const sec = (t, arr, vineta) => { if (!(arr || []).length) return; L.push(b(t)); arr.forEach(x => L.push(vineta ? `• ${limpiar(x)}` : limpiar(x))); L.push(""); };
+  sec("Estado de tramitación", [(r.estado || []).join(" ")]);
+  sec("Indicaciones y votaciones", r.indicado, true);
+  sec("Qué falta", [(r.falta || []).join(" ")]);
+  (red ? red.secciones : []).forEach(s => { L.push(b(s.titulo)); s.parrafos.forEach(x => L.push(limpiar(x))); s.items.forEach(x => L.push(`• ${limpiar(x)}`)); L.push(""); });
+  L.push(`Ficha: ${location.href.split("#")[0]}${linkFicha(p.boletin)}`);
+  return L.join("\n").replace(/\n{3,}/g, "\n\n");
+}
 function haceCuanto(f) {        // "2026-10-30 04:10" (hora de Chile) -> "hace 25 min"
   if (!/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(f || "")) return "";
   const d = new Date(f.slice(0, 16).replace(" ", "T") + ":00Z");     // se interpreta en hora de Chile, esté donde esté el lector
@@ -1306,10 +1350,10 @@ function aviso(txt) {
   const d = document.createElement("div"); d.className = "aviso-flot"; d.setAttribute("role", "status"); d.textContent = txt;
   document.body.appendChild(d); setTimeout(() => d.remove(), 2600);
 }
-async function copiar(txt) {
-  try { await navigator.clipboard.writeText(txt); aviso("Enlace copiado"); }
+async function copiar(txt, msg = "Enlace copiado") {
+  try { await navigator.clipboard.writeText(txt); aviso(msg); }
   catch (e) { const i = document.createElement("textarea"); i.value = txt; document.body.appendChild(i); i.select();
-    try { document.execCommand("copy"); aviso("Enlace copiado"); } catch (e2) { aviso("No se pudo copiar"); } i.remove(); }
+    try { document.execCommand("copy"); aviso(msg); } catch (e2) { aviso("No se pudo copiar"); } i.remove(); }
 }
 
 /* ============================================================ inicio */

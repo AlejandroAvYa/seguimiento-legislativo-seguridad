@@ -25,6 +25,7 @@ import camara  # noqa: E402
 import gestion  # noqa: E402
 import agenda as agenda_mod  # noqa: E402
 import partidos as partidos_mod  # noqa: E402
+import resumen as resumen_mod  # noqa: E402
 import senado  # noqa: E402
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -942,6 +943,14 @@ def main():
     # calendario legislativo (semanas pasadas y próximas)
     calendario, estado_cal = armar_calendario(hoy, agenda, list(nuevos.values()))
     print(f"  Calendario: {estado_cal}")
+
+    # resumen en lenguaje simple (automático + redacción del equipo en config/resumenes)
+    for p in nuevos.values():
+        try:
+            p["resumen"] = resumen_mod.generar(p, hoy)
+        except Exception as e:  # noqa: BLE001
+            print(f"  AVISO: resumen de {p['boletin']} ({type(e).__name__}: {e})")
+            p["resumen"] = {}
 
     orden = sorted(nuevos.values(), key=lambda p: int(p["boletin"].split("-")[0]))
 
