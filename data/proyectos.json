@@ -249033,7 +249033,7 @@
   "titulo": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
   "clasificacion": "Núcleo",
   "materia": "Institucionalidad de seguridad y seguridad municipal",
-  "descripcion": "Ley corta de seguridad municipal: modifica la Ley N° 21.802 para precisar las reglas de contratación del personal municipal de seguridad (Código del Trabajo; término previo sumario) y excluir sus remuneraciones del límite de gasto en personal, con un tope del 4% de los ingresos propios, entre otras materias.",
+  "descripcion": "Modifica la Ley N° 21.802 de Seguridad Municipal para precisar las reglas de contratación del personal municipal de seguridad (Código del Trabajo) y flexibilizar el límite de gasto en personal de los municipios para contratar inspectores, entre otras materias.",
   "acot": "ACOT: Ley corta de Seguridad Municipal",
   "nota": "",
   "responsable": "",
@@ -255258,6 +255258,7 @@
    "redactado": {
     "fecha": "2026-11-02",
     "autor": "Asesoría de Gabinete SPD",
+    "estado": "",
     "secciones": [
      {
       "titulo": "Principales contenidos",
