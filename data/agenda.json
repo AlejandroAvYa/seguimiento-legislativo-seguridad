@@ -34,22 +34,6 @@
    "seguidos": []
   },
   {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-03",
-   "instancia": "Especial Mixta de Presupuestos",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso",
-   "horario": "10:00 a 13:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
-   "boletines": [
-    "18702-05"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
    "camara": "Cámara de Diputados",
    "tipo": "Sala",
    "fecha": "2026-11-03",
@@ -61,6 +45,22 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-03",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso",
+   "horario": "10:30 a 13:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -147,12 +147,14 @@
    "tipo": "Comisión",
    "fecha": "2026-11-11",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
-   "boletines": [],
+   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
+   "boletines": [
+    "17293-27"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -187,14 +189,6 @@
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": true
-  },
-  {
-   "boletin": "17163-03",
-   "materia": "Modifica la ley N° 20.423, para establecer medidas que garanticen el cumplimiento de estándares de seguridad en servicios de turismo aventura",
-   "fecha": "2026-11-02",
-   "hora": "12:00",
-   "donde": "Secretaría de la Comisión de Economía",
-   "seguido": false
   },
   {
    "boletin": "16441-19",

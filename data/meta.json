@@ -1,21 +1,21 @@
 {
  "fuente": "Servicio web de tramitación del Senado (tramitacion.senado.cl/wspublico)",
- "fecha_verificacion": "2026-11-02",
- "ultima_actualizacion_datos": "2026-11-02 20:34",
+ "fecha_verificacion": "2026-11-03",
+ "ultima_actualizacion_datos": "2026-11-03 01:04",
  "n_proyectos": 92,
  "n_en_tramitacion": 74,
  "inicio_gobierno": "2026-03-11",
  "fuentes": {
   "senado": {
    "estado": "ok",
-   "ultima_consulta_exitosa": "2026-11-02"
+   "ultima_consulta_exitosa": "2026-11-03"
   },
   "camara_votaciones": {
    "estado": "ok",
-   "ultima_consulta_exitosa": "2026-11-02"
+   "ultima_consulta_exitosa": "2026-11-03"
   },
   "partidos": {
-   "estado": "datos del día"
+   "estado": "senadores ok, comisiones ok, diputados ok"
   },
   "calendario": {
    "estado": "Cámara ok, Senado ok"
@@ -25,7 +25,7 @@
    "detalle": {
     "senado_citaciones": {
      "estado": "ok",
-     "n": 10
+     "n": 8
     },
     "senado_sala": {
      "estado": "ok",
@@ -37,14 +37,14 @@
     },
     "senado_plazos": {
      "estado": "ok",
-     "n": 4
+     "n": 3
     },
     "camara_prensa": {
      "estado": "ok",
      "n": 18
     }
    },
-   "ultima_consulta_exitosa": "2026-11-02"
+   "ultima_consulta_exitosa": "2026-11-03"
   }
  }
 }
