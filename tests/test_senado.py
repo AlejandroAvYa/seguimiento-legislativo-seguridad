@@ -296,6 +296,17 @@ class GestionBoletines(unittest.TestCase):
         self.assertFalse(self._procesar("Incorporar", "abc")[0])
         self.assertEqual(len(self._filas("catalogo.csv")), 1)
 
+    def test_validar_redaccion(self):
+        os.makedirs(os.path.join(self.dir, "resumenes"))
+        ruta = os.path.join(self.dir, "resumenes", "18341-25.md")
+        with open(ruta, "w", encoding="utf-8") as f:
+            f.write("fecha: 2026-11-02\nautor: Redacción automática\nestado: por revisar\n\n## Principales contenidos\n- Algo.\n")
+        ok, msg = self._procesar("Validar", "18341-25")
+        self.assertTrue(ok, msg)
+        with open(ruta, encoding="utf-8") as f:
+            self.assertIn("estado: revisado por prueba el", f.read())
+        self.assertFalse(self._procesar("Validar", "17000-07")[0])
+
     def test_descartar_seguido(self):
         ok, msg = self._procesar("Descartar", "18341-25", nota="Ya no es prioridad")
         self.assertTrue(ok, msg)

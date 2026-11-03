@@ -272,6 +272,7 @@ Cada ficha parte con un recuadro **En simple**, con botones para copiarlo como t
 
 - **Dónde está, Indicaciones y votaciones, Qué falta:** se arman solos cada hora con los datos oficiales (hitos, trámites, votaciones, indicaciones, urgencias y agenda). Reglas en `scripts/resumen.py`.
 - **Principales contenidos, Observaciones en Sala u otras secciones:** se escriben en `config/resumenes/BOLETIN.md` (plantilla en `config/resumenes/_plantilla.md`). El enlace "agregar redacción" o "Editar" de la ficha abre el archivo en GitHub, ya listo para completar. Si hay avances posteriores a la fecha de la redacción, la ficha lo advierte.
+- **Redacción automática:** una tarea programada de lunes a viernes en la noche redacta esas secciones para los proyectos con informe, votación o sesión reciente, y para los que aún no tienen redacción (primero ACOT y de mayor prioridad). Quedan marcadas **Por revisar**; el enlace **Validar** de la ficha las marca como revisadas (formulario en GitHub, acción `Validar`) y desde ahí la tarea ya no las reemplaza.
 
 ### Logo en el informe semanal
 

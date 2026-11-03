@@ -120,7 +120,22 @@ def procesar(campos, autor=""):
         cambios.append("quedó como descartado (no volverá a proponerse como candidato)")
         return True, f"Boletín **{boletin}**: " + " y ".join(cambios) + f".\n\nMotivo: {motivo}"
 
-    return False, "La acción debe ser **Incorporar** o **Descartar**."
+    if accion.startswith("validar"):
+        ruta = os.path.join(CONFIG, "resumenes", f"{boletin}.md")
+        if not os.path.exists(ruta):
+            return False, f"El boletín **{boletin}** no tiene redacción para validar."
+        with open(ruta, encoding="utf-8") as f:
+            texto = f.read()
+        marca = f"estado: revisado{(' por ' + autor) if autor else ''} el {hoy}"
+        if re.search(r"(?im)^estado\s*:.*$", texto):
+            texto = re.sub(r"(?im)^estado\s*:.*$", marca, texto, count=1)
+        else:
+            texto = re.sub(r"(?m)^(fecha\s*:.*)$", lambda m: m.group(1) + "\n" + marca, texto, count=1) if re.search(r"(?m)^fecha\s*:", texto) else marca + "\n" + texto
+        with open(ruta, "w", encoding="utf-8") as f:
+            f.write(texto)
+        return True, f"Redacción del boletín **{boletin}** marcada como revisada. Las actualizaciones automáticas ya no la reemplazarán."
+
+    return False, "La acción debe ser **Incorporar**, **Descartar** o **Validar**."
 
 
 def main():

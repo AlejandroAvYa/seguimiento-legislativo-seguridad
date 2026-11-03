@@ -12,7 +12,7 @@ body:
     id: accion
     attributes:
       label: Acción
-      description: Escribe Incorporar o Descartar.
+      description: Escribe Incorporar, Descartar o Validar (marca como revisado el resumen redactado).
       placeholder: Incorporar
     validations:
       required: true

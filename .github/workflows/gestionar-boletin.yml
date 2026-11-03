@@ -45,7 +45,7 @@ jobs:
           for intento in 1 2 3 4; do
             git fetch -q origin main && git reset -q --hard origin/main
             python scripts/gestionar_boletin.py "$RUNNER_TEMP/cuerpo.md"
-            git add config/catalogo.csv data/candidatos.csv
+            git add config/catalogo.csv data/candidatos.csv config/resumenes
             if git diff --cached --quiet; then echo "cambios=no" >> "$GITHUB_OUTPUT"; break; fi
             git commit -q -m "Gestión de boletines: solicitud #$NUMERO ($AUTOR)"
             if git push -q origin HEAD:main; then echo "cambios=si" >> "$GITHUB_OUTPUT"; break; fi

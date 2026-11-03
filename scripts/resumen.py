@@ -6,6 +6,8 @@ Dos partes:
   redactada   config/resumenes/BOLETIN.md, escrita por el equipo (principales contenidos, observaciones en Sala…).
               Formato:
                   fecha: 2026-11-02
+                  autor: Asesoría de Gabinete SPD
+                  estado: por revisar      (opcional; "revisado" cuando el equipo lo valida)
                   ## Principales contenidos
                   - **Personal de seguridad:** regula el régimen laboral…
                   ## Observaciones en Sala
@@ -281,11 +283,11 @@ def leer_redactado(boletin, carpeta=CARPETA):
 
 
 def parsear_redactado(texto):
-    out = {"fecha": "", "autor": "", "secciones": []}
+    out = {"fecha": "", "autor": "", "estado": "", "secciones": []}
     actual = None
     for linea in texto.splitlines():
         l = linea.strip()
-        m = re.match(r"^(fecha|autor)\s*:\s*(.+)$", l, re.I)
+        m = re.match(r"^(fecha|autor|estado)\s*:\s*(.+)$", l, re.I)
         if m and actual is None:
             out[m.group(1).lower()] = m.group(2).strip()
             continue
