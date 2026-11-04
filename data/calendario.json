@@ -275,7 +275,7 @@
    ],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 5,
+   "senado_comisiones": 6,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -390,7 +390,7 @@
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 10,
+   "senado_comisiones": 11,
    "senado_comisiones_seguidos": 1,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,

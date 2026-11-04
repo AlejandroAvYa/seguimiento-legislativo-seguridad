@@ -58,7 +58,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, segundo piso, Senado en Valparaíso.",
    "horario": "14:00 a 20:00",
-   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 26 ) Partida 26 Ministerio del Deporte\n.- ( Bol.N° 32 ) Partida 32 Ministerio de Seguridad Pública\n.- ( Bol.N° 13 ) Partida 13 Ministerio de Agricultura\n.- ( Bol.N° 24 ) Partida 24 Ministerio de Energía\n.- ( Bol.N° 22 ) Partida 22 Ministerio Secretaría General de la Presidencia de la República\n.- ( Bol.N° 20 ) Partida 20 Ministerio Secretaría General de Gobierno",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027.\n.- ( Bol.N° 26 ) Partida 26 Ministerio del Deporte\n.- ( Bol.N° 32 ) Partida 32 Ministerio de Seguridad Pública\n.- ( Bol.N° 13 ) Partida 13 Ministerio de Agricultura\n.- ( Bol.N° 24 ) Partida 24 Ministerio de Energía\n.- ( Bol.N° 10 ) Partida 10 Ministerio de Justicia y Derechos Humanos\n.- ( Bol.N° 22 ) Partida 22 Ministerio Secretaría General de la Presidencia de la República\n.- ( Bol.N° 20 ) Partida 20 Ministerio Secretaría General de Gobierno",
    "boletines": [
     "18702-05"
    ],
@@ -77,6 +77,22 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-04",
+   "instancia": "Especial Mixta de Presupuestos",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, segundo piso, Valparaíso",
+   "horario": "10:30 a 20:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Ley de Presupuestos para el Sector Público correspondiente al año 2027\n.- ( Bol.N° 23 ) Partida 23 Ministerio Público",
+   "boletines": [
+    "18702-05"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -216,6 +232,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-10",
+   "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 11, Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 16553-12 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que fortalece y mejora la eficacia de la fiscalización y el cumplimiento de la regulación ambiental a cargo de la Superintendencia del Medio Ambiente, y regula otras materias que indica (Boletín N° 16.553-12).\nA esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo, y el Superintendente del Medio Ambiente, señor Emanuel Ibarra.",
+   "boletines": [
+    "16553-12"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo, y el Superintendente del Medio Ambiente, señor Emanuel Ibarra."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
    "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -278,6 +312,27 @@
    "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
    "boletines": [],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-11",
+   "instancia": "Sala del Senado · sesión especial N° 77",
+   "estado": "Citada",
+   "horario": "15:00 a 16:00",
+   "lugar": "",
+   "materia": "Circular Nº 259/SEC\nValparaíso, 3 de noviembre de 2026.\nPor orden de la señora Presidenta del Senado, y en virtud del acuerdo de Comités adoptado en su oportunidad, tengo el honor de citar a Usía a Sesión Especial de la Corporación para el día miércoles 11 de noviembre de 2026, de 15:00 a 16:00 horas, con la finalidad de considerar los siguientes asuntos de Tabla:\nORDEN DEL DÍA\n1.- Proyecto de ley, iniciado en Moción de los exsenadores señor Kast, señoras Muñoz y Sabat, y señores Chahuán y Navarro, en primer trámite constitucional, que rehabilita la nacionalidad chilena a doña Ana María Posada Montes, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín N° 13.872-17).\n2.-Proyecto de ley, iniciado en Moción de los Honorables Senadores señores Kuschel, Saavedra, Van Rysselberghe y Walker, y del exsenador señor Chahuán, en primer trámite constitucional, que rehabilita la nacionalidad chilena a la señora María Inés Caorsi Saelzer, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín Nº 17.002-17\n[ver]\n).\n3.-Proyecto de ley, iniciado en Moción del exsenador señor Chahuán, en primer trámite constitucional, que rehabilita la nacionalidad chilena al señor André Améstica Lopes, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín Nº 17.198-17\n[ver]\n).\n4.- Proyecto de ley, iniciado en Moción del Honorable Senador señor Kuschel, y del exsenador señor Chahuán, en primer trámite constitucional, que rehabilita la nacionalidad chilena al señor Alex Cristián De Kartzow Montt, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín N° 17.900-17\n[ver]\n).\n5.-Proyecto de ley, iniciado en Moción del Honorable Senador señor Walker y de la exsenadora señora Rincón, en primer trámite constitucional, que rehabilita la nacionalidad chilena a la señora Cecilia del Carmen Salgado Alfaro, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín N° 18.081-17\n[ver]\n).\n6.-Proyecto de ley, en segundo trámite constitucional, que rehabilita la nacionalidad chilena a Adolfo José Ochagavía Hubner, con informe de la Comisión de Derechos Humanos, Nacionalidad y Ciudadanía. (proyecto de artículo único). (Boletín N° 18.532-06\n[ver]\n).\nDios guarde a Usía.\nLUIS ROJAS GALLARDO\nSecretario General del Senado\n2\n2\n",
+   "boletines": [
+    "13872-17",
+    "17002-17",
+    "17198-17",
+    "17900-17",
+    "18081-17",
+    "18532-06"
+   ],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81941",
    "seguidos": []
   },
   {
