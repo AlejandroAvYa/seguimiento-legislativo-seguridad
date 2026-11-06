@@ -1358,7 +1358,7 @@ function pintarCorte() {
   let txt = "";
   if (e.startsWith("respaldo")) txt = `<b>Aviso:</b> el servicio de datos del Senado no responde${s.servicio_web_sin_respuesta_desde ? ` desde el ${fmt(s.servicio_web_sin_respuesta_desde)}` : ""}. Las fichas se están leyendo directamente desde el sitio de tramitación del Senado y siguen al día; solo las votaciones del Senado se actualizarán cuando el servicio vuelva.`;
   else if (e.startsWith("sin conexión")) txt = `<b>Aviso:</b> el Senado no está respondiendo${s.servicio_web_sin_respuesta_desde ? ` desde el ${fmt(s.servicio_web_sin_respuesta_desde)}` : ""}. Se muestran los últimos datos obtenidos${s.ultima_hora_exitosa ? `, del ${fmt(s.ultima_hora_exitosa)}` : ""}. El sistema reintenta cada hora.`;
-  av.innerHTML = txt ? `<div>${txt}</div>` : ""; av.hidden = !txt;
+  av.innerHTML = txt ? `<div><span>${txt}</span></div>` : ""; av.hidden = !txt;
 }
 function aviso(txt) {
   document.querySelector(".aviso-flot")?.remove();
