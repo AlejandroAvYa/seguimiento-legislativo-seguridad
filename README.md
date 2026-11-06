@@ -155,7 +155,7 @@ Se puede usar solo correo, solo Teams o ambos. Si no se configura ninguno, los a
 ### Paso 8. Avisos de candidatos y de fallas
 
 - **Candidatos nuevos:** en el repositorio, **Watch** → **Custom** → marcar **Issues** → **Apply**.
-- **Fallas:** GitHub envía un correo automáticamente cuando una ejecución programada falla.
+- **Fallas:** el sistema abre un solo issue **Estado del sistema** y lo cierra cuando se resuelve (ver *Autorreparación*). GitHub además envía un correo cuando una ejecución programada falla.
 
 ---
 
@@ -221,6 +221,20 @@ Instalación (una vez, en Windows):
 6. Probar: **Actions → Citaciones de comisiones de la Cámara → Run workflow**.
 
 El equipo no debe suspenderse en ese horario (la pantalla puede bloquearse, pero la sesión debe quedar iniciada).
+
+## Autorreparación: qué pasa cuando algo falla
+
+El sistema está armado para seguir funcionando solo y avisar una sola vez:
+
+| Situación | Qué hace el sistema |
+| --- | --- |
+| El servicio web del Senado no responde | Tras 3 fallas seguidas, lee cada ficha desde el sitio de tramitación del Senado (`scripts/senado_html.py`): trámites, urgencias, informes, indicaciones, etapa y ley. Las votaciones del Senado se conservan y se ponen al día cuando el servicio vuelve. El dashboard muestra un aviso. |
+| Ni el servicio ni el sitio responden | Conserva el último dato bueno de cada proyecto, sigue actualizando la Cámara, la agenda y el calendario, y el dashboard indica desde cuándo. Reintenta cada hora. |
+| Una actualización falla o una fuente queda caída | `scripts/salud.py` abre un issue **Estado del sistema** (etiqueta `estado-sistema`), lo actualiza en cada corrida y lo cierra solo cuando todo vuelve a la normalidad. |
+| Error del propio sistema (cambio de formato de una página, conflicto al guardar, versión de GitHub) | Una tarea programada de mantención (Claude) revisa dos veces al día, a las 07:10 y 15:10, las corridas fallidas y el issue. Si la causa es del sistema, la corrige con una prueba, la publica, relanza la actualización y deja el diagnóstico en el issue. Si depende de terceros o requiere una decisión (permisos, credenciales), lo explica en el issue y no cambia nada. |
+| Dos tareas guardan datos al mismo tiempo | El guardado reintenta hasta 4 veces. |
+
+La tarea de mantención no borra datos ni historial, no desactiva pruebas ni resguardos y no toca el catálogo, la agenda ACOT ni los resúmenes redactados.
 
 ## Si la Cámara no conecta
 

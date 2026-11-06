@@ -1,0 +1,402 @@
+<script language="JavaScript" type="text/javascript">
+
+
+
+dhtmlx.image_path = "/appsenado/includes/dhtmlx_v26/common/common_imgs/imgs/";
+
+
+
+jQuery(document).ready(function(){
+    //---------Ocultando modal para evitar posibles errores----------
+    //se remueve clase de modal por posibles errores
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+    //---------Fin ocultar modals--------
+    if ($('#grid_urg tr').length == 1){
+        $("#modalUrgencias").modal("hide");
+        $("#modalUrgencias2").modal("show");
+    }else{
+        $("#modalUrgencias").modal("show");
+        $("#modalUrgencias2").modal("hide");
+    }
+   var grid_urg = dhtmlXGridFromTable("grid_urg");
+
+   grid_urg.attachEvent("onBeforeSorting",function(ind,type,direction){
+
+      if (ind == 1){
+
+          this.sortRows(5,type,direction);
+
+          this.setSortImgState(true,ind,direction);
+
+          return false;
+
+      }
+
+      else if (ind == 3){
+
+          this.sortRows(6,type,direction);
+
+          this.setSortImgState(true,ind,direction);
+
+          return false;
+
+      }
+
+      return true;
+
+   });
+
+})
+
+
+
+
+
+function myfunc_grid_urg()
+
+{
+
+   grid_urg.enableAutoWidth(true);
+
+   grid_urg.enableAutoHeight(true,4000,true);
+
+   grid_urg.setSkin("modern");
+
+   grid_urg.setSizes();
+
+   grid_urg.enableRowsHover(true,'grid_hover');
+
+   grid_urg.setColumnHidden(5,true);
+
+   grid_urg.setColumnHidden(6,true);
+
+}
+
+
+
+</script>
+
+
+
+<!-- <div class="container" style="alignment-adjust: central;text-align: center;">
+    <span class="titudatos">Urgencias</span>
+    <div class="gridbox_light">
+        <div class="table-responsive">
+        <table width="100%" align="center" class="dhtmlxGrid"
+            name="grid"
+            id="grid"
+            multiline="true"
+            oninit="myfunc_grid()"
+            imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+            border="1">
+            <tr>
+               <td width="400px" align="left" type="ro" sort="date">N&deg; Oficio</td>
+
+               <td width="155px" align="center" type="ro" sort="str">Fecha Inicio</td>
+
+               <td width="205px" align="center" type="ro" sort="str">N&deg; Mensaje Ingreso</td>
+
+               <td width="155px" align="center" type="ro" sort="str">Fecha T&eacute;rmino</td>
+
+               <td width="205px" align="center" type="ro" sort="str">N&deg; Mensaje Retiro</td>
+
+               <td width="0px" type="ro" sort="str">fechaing_sort</td>
+
+               <td width="0px" type="ro" sort="str">fecharet_sort</td>
+            </tr>
+            URGENCIAS
+            <tr>
+               <td></td>
+
+               <td>%%URGENCIAS.URGEFECHAINGRESO%%</td>
+
+               <td>%%URGENCIAS.URGEMENSAJEINGRESO%%</td>
+
+               <td>%%URGENCIAS.URGEFECHARETIRO%%</td>
+
+               <td>%%URGENCIAS.URGEMENSAJERETIRO%%</td>
+
+               <td></td>
+
+               <td></td>
+            </tr>
+            /URGENCIAS
+        </table>
+        </div>
+        <table width="100%">
+            <tr>
+               <td id="pagingArea1" style="height: 30px;"></td>
+            </tr>
+        </table>
+    </div>
+</div> -->
+<div id="modalUrgencias" class="modal fade" role="dialog" style="overflow: scroll;-webkit-overflow-scrolling: touch;">
+    <div class="modal-dialog" >
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Urgencias</h3>
+            </div>
+            <div class="modal-body">
+                <div class="container" style="alignment-adjust: central;text-align: center;">
+                    <h5 class="text-center">Si esta desde un dispositivo m&oacute;vil, deslice para ver toda la informaci&oacute;n</h5>
+                    <div class="gridbox_light">
+                        <div class="table-responsive">
+                        <table width="100%" align="center" class="dhtmlxGrid"
+                            name="grid_urg"
+                            id="grid_urg"
+                            multiline="true"
+                            oninit="myfunc_grid_urg()"
+                            imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+                            border="1">
+                            <tr>
+                               <td align="left" type="ro" sort="date">N&deg; Oficio</td>
+
+                               <td align="center" type="ro" sort="str">Fecha Inicio</td>
+
+                               <td align="center" type="ro" sort="str">N&deg; Mensaje Ingreso</td>
+
+                               <td align="center" type="ro" sort="str">Fecha T&eacute;rmino</td>
+
+                               <td align="center" type="ro" sort="str">N&deg; Mensaje Retiro</td>
+
+                               <td width="0px" type="ro" sort="str">fechaing_sort</td>
+
+                               <td width="0px" type="ro" sort="str">fecharet_sort</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>28/10/2026</td>
+
+                               <td>424-374</td>
+
+                               <td></td>
+
+                               <td></td>
+
+                               <td>2026/10/28</td>
+
+                               <td></td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>21/10/2026</td>
+
+                               <td>402-374</td>
+
+                               <td></td>
+
+                               <td></td>
+
+                               <td>2026/10/21</td>
+
+                               <td></td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>20/10/2026</td>
+
+                               <td>393-374</td>
+
+                               <td>21/10/2026</td>
+
+                               <td>402-374</td>
+
+                               <td>2026/10/20</td>
+
+                               <td>2026/10/21</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Suma</td>
+
+                               <td>06/10/2026</td>
+
+                               <td>376-374</td>
+
+                               <td>20/10/2026</td>
+
+                               <td>393-374</td>
+
+                               <td>2026/10/06</td>
+
+                               <td>2026/10/20</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Suma</td>
+
+                               <td>22/09/2026</td>
+
+                               <td>334-374</td>
+
+                               <td>06/10/2026</td>
+
+                               <td>376-374</td>
+
+                               <td>2026/09/22</td>
+
+                               <td>2026/10/06</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Suma</td>
+
+                               <td>08/09/2026</td>
+
+                               <td>313-374</td>
+
+                               <td>22/09/2026</td>
+
+                               <td>334-374</td>
+
+                               <td>2026/09/08</td>
+
+                               <td>2026/09/22</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>02/09/2026</td>
+
+                               <td>299-374</td>
+
+                               <td>08/09/2026</td>
+
+                               <td>313-374</td>
+
+                               <td>2026/09/02</td>
+
+                               <td>2026/09/08</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>01/09/2026</td>
+
+                               <td>286-374</td>
+
+                               <td>02/09/2026</td>
+
+                               <td>299-374</td>
+
+                               <td>2026/09/01</td>
+
+                               <td>2026/09/02</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Suma</td>
+
+                               <td>19/08/2026</td>
+
+                               <td>279-374</td>
+
+                               <td>01/09/2026</td>
+
+                               <td>286-374</td>
+
+                               <td>2026/08/19</td>
+
+                               <td>2026/09/01</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>18/08/2026</td>
+
+                               <td>265-374</td>
+
+                               <td>19/08/2026</td>
+
+                               <td>279-374</td>
+
+                               <td>2026/08/18</td>
+
+                               <td>2026/08/19</td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>11/08/2026</td>
+
+                               <td>250-374</td>
+
+                               <td></td>
+
+                               <td></td>
+
+                               <td>2026/08/11</td>
+
+                               <td></td>
+                            </tr>
+                            
+                            <tr>
+                               <td>Discusión inmediata</td>
+
+                               <td>04/08/2026</td>
+
+                               <td>230-374</td>
+
+                               <td>11/08/2026</td>
+
+                               <td>248-374</td>
+
+                               <td>2026/08/04</td>
+
+                               <td>2026/08/11</td>
+                            </tr>
+                            
+                        </table>
+                        </div>
+                        <table width="100%">
+                            <tr>
+                               <td id="pagingArea1" style="height: 30px;"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalUrgencias2" class="modal fade" role="dialog" style="overflow: scroll;-webkit-overflow-scrolling: touch;">
+    <div class="modal-dialog modal-lg" >
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Urgencias</h3>
+            </div>
+            <div class="modal-body">
+                    <h2 class="text-left">No Existen Datos Para Mostrar en Urgencias de este Bolet&iacute;n</h2>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

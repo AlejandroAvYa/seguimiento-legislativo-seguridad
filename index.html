@@ -369,6 +369,11 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
 .rs__red{border-top:1px solid var(--line);margin-top:14px;padding-top:14px;display:grid;gap:14px}
 .rs__l{margin:0;padding-left:18px;font-size:13.2px;line-height:1.55;color:var(--ink-2)}
 .rs__l li{margin-bottom:5px} .rs__l b,.rs__b b{color:var(--ink)}
+.aviso-fuentes{max-width:1360px;margin:14px auto 0;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+.aviso-fuentes>div{display:flex;gap:10px;align-items:flex-start;background:var(--c-amber-soft);color:var(--ink);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.5}
+.aviso-fuentes b{color:var(--c-amber)}
+@media (max-width:640px){.aviso-fuentes{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+@media print{.aviso-fuentes{display:none!important}}
 .nav__sep{height:1px;background:rgba(255,255,255,.1);margin:10px 12px}
 @media print{
   @page{margin:14mm 12mm}
@@ -413,7 +418,7 @@ table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
       </div>
     </header>
     <nav class="mnav" id="mnav"></nav>
-    <main class="scroll" id="scroll"><span id="contenido"></span><div class="page" id="page" tabindex="-1"><div class="loading">Cargando datos…</div></div></main>
+    <main class="scroll" id="scroll"><span id="contenido"></span><div class="aviso-fuentes" id="avisoFuentes" role="status" hidden></div><div class="page" id="page" tabindex="-1"><div class="loading">Cargando datos…</div></div></main>
   </div>
 </div>
 <script>
@@ -1349,6 +1354,11 @@ function pintarCorte() {
   const rel = haceCuanto(m.ultima_actualizacion_datos);
   $("#corte").innerHTML = `<span class="dot" style="background:${ok("senado") && ok("camara_votaciones") ? "var(--c-ok)" : "var(--c-amber)"}"></span>Actualizado ${rel || fmt(m.ultima_actualizacion_datos)}`;
   $("#corte").title = `Datos al ${fmt(m.ultima_actualizacion_datos)}`;
+  const s = f.senado || {}, e = s.estado || "", av = $("#avisoFuentes");
+  let txt = "";
+  if (e.startsWith("respaldo")) txt = `<b>Aviso:</b> el servicio de datos del Senado no responde${s.servicio_web_sin_respuesta_desde ? ` desde el ${fmt(s.servicio_web_sin_respuesta_desde)}` : ""}. Las fichas se están leyendo directamente desde el sitio de tramitación del Senado y siguen al día; solo las votaciones del Senado se actualizarán cuando el servicio vuelva.`;
+  else if (e.startsWith("sin conexión")) txt = `<b>Aviso:</b> el Senado no está respondiendo${s.servicio_web_sin_respuesta_desde ? ` desde el ${fmt(s.servicio_web_sin_respuesta_desde)}` : ""}. Se muestran los últimos datos obtenidos${s.ultima_hora_exitosa ? `, del ${fmt(s.ultima_hora_exitosa)}` : ""}. El sistema reintenta cada hora.`;
+  av.innerHTML = txt ? `<div>${txt}</div>` : ""; av.hidden = !txt;
 }
 function aviso(txt) {
   document.querySelector(".aviso-flot")?.remove();

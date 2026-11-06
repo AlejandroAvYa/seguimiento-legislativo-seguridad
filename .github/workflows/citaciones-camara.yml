@@ -2,10 +2,11 @@ name: Citaciones de comisiones de la Cámara (computador en Chile)
 
 # camara.cl rechaza consultas desde servidores fuera de Chile. Esta tarea corre en un computador de la SPD
 # registrado como runner propio con la etiqueta "camara" (ver README, sección "Citaciones de la Cámara").
-# Lunes a viernes, cada hora entre las 9 y las 20 (hora de Chile en horario de verano; una hora antes en invierno).
+# Programación desactivada mientras no haya un computador registrado (sin él, cada corrida queda en espera y se cancela).
+# Para activarla, agregar de nuevo:
+#   schedule:
+#     - cron: "5 12-23 * * 1-5"     # lunes a viernes, cada hora de 9 a 20 (hora de Chile en verano)
 on:
-  schedule:
-    - cron: "5 12-23 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -20,9 +21,9 @@ jobs:
     runs-on: [self-hosted, camara]
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 

@@ -466,8 +466,11 @@ def detectar_cambios(previos, nuevos, marca, camara_con_base=True):
                     if fmt(x) not in previas:
                         cambios.append({"fecha_deteccion": marca, "boletin": b, "tipo": etiqueta, "antes": "", "despues": fmt(x)})
         vistos = {(t["fecha"], t["descripcion"]) for t in p.get("tramites", [])}
+        # trámites antiguos que aparecen al cambiar de fuente (servicio web / sitio) no son novedades
+        corte = (datetime.strptime(p["ultimo_tramite_fecha"], "%Y-%m-%d") - timedelta(days=30)).strftime("%Y-%m-%d") \
+            if re.match(r"\d{4}-\d{2}-\d{2}$", p.get("ultimo_tramite_fecha") or "") else ""
         for t in n["tramites"]:
-            if (t["fecha"], t["descripcion"]) not in vistos and t["descripcion"]:
+            if (t["fecha"], t["descripcion"]) not in vistos and t["descripcion"] and t["fecha"] >= corte:
                 cambios.append({"fecha_deteccion": marca, "boletin": b, "tipo": "Nuevo trámite",
                                 "antes": "", "despues": f"{t['fecha']} – {t['descripcion']} ({t['camara']})"})
     for b in previos:
@@ -486,7 +489,28 @@ def url_solicitud(accion, boletin):
     return f"https://github.com/{repo}/issues/new?{q}"
 
 
+def estado_senado(errores, estado_ws, n_catalogo, marca, previo):
+    """Estado de la fuente Senado para meta.json y el aviso del dashboard."""
+    caido = estado_ws.get("cortado") or estado_ws.get("usos_respaldo")
+    sin_dato = len(errores) == n_catalogo and n_catalogo
+    if sin_dato:
+        estado = "sin conexión: se muestran los últimos datos obtenidos"
+    elif caido:
+        estado = ("respaldo: el servicio web del Senado no responde; las fichas se leen desde el sitio de tramitación "
+                  "(las votaciones del Senado se actualizarán cuando el servicio vuelva)")
+    else:
+        estado = "ok" if not errores else f"ok con {len(errores)} boletines sin respuesta"
+    d = {"estado": estado,
+         "ultima_consulta_exitosa": marca[:10] if not sin_dato else previo.get("ultima_consulta_exitosa", ""),
+         "ultima_hora_exitosa": marca if not sin_dato else previo.get("ultima_hora_exitosa", "")}
+    if caido or sin_dato:
+        d["servicio_web_sin_respuesta_desde"] = previo.get("servicio_web_sin_respuesta_desde") or marca
+    return d
+
+
 def buscar_candidatos(seguidos, revisados, marca):
+    if senado.estado_servicio().get("cortado"):
+        raise RuntimeError("servicio web del Senado sin respuesta; se revisará en la próxima actualización")
     desde = (ahora() - timedelta(days=DIAS_REVISION_CANDIDATOS)).strftime("%d/%m/%Y")
     nuevos = []
     for f in senado.con_movimiento_desde(desde):
@@ -867,7 +891,7 @@ def main():
 
     def consultar(b):
         try:
-            f = senado.ficha(b)
+            f = senado.ficha(b, previos.get(b))
             return b, f, None if f else "El Senado no informa el boletín"
         except Exception as e:  # noqa: BLE001
             return b, None, f"{type(e).__name__}: {e}"
@@ -891,15 +915,27 @@ def main():
     for b, f, err in resultados:
         if f:
             nuevos[b] = registro(catalogo[b], f, cache)
+            prev = previos.get(b, {})
+            # el sitio a veces abrevia u omite la subetapa que daba el servicio web: si la etapa no cambió, se conserva
+            if f.get("_fuente") == "sitio" and prev.get("etapa") == nuevos[b]["etapa"] and prev.get("subetapa") \
+                    and (not nuevos[b]["subetapa"] or prev["subetapa"].startswith(nuevos[b]["subetapa"])):
+                nuevos[b]["subetapa"] = prev["subetapa"]
+                nuevos[b]["instancia_actual"] = prev.get("instancia_actual", nuevos[b]["instancia_actual"])
         else:
             errores.append(f"{b}: {err}")
             if b in previos:                       # conserva el último dato bueno
                 nuevos[b] = {**previos[b], **{k: catalogo[b].get(k, "") for k in CAMPOS_CATALOGO}}
     for e in errores:
         print("  ERROR", e)
-    if catalogo and len(errores) / len(catalogo) > MAX_ERRORES:
-        print(f"Demasiadas fallas ({len(errores)} de {len(catalogo)}). No se escribe nada.")
+    estado_ws = senado.estado_servicio()
+    if estado_ws["usos_respaldo"]:
+        print(f"  AVISO: servicio web del Senado sin respuesta; {estado_ws['usos_respaldo']} fichas leídas desde el sitio de tramitación")
+    if catalogo and not nuevos:
+        print("Sin datos del Senado y sin datos anteriores. No se escribe nada.")
         sys.exit(1)
+    if catalogo and len(errores) / len(catalogo) > MAX_ERRORES:
+        # no se detiene: se conservan los últimos datos buenos de cada proyecto y el dashboard avisa
+        print(f"  AVISO: {len(errores)} de {len(catalogo)} boletines sin respuesta; se conservan sus datos anteriores.")
 
     # Cámara: votaciones de Sala (fuente independiente; si falla, se conserva lo ya descargado)
     fuentes_prev = leer_json(os.path.join(DATA, "meta.json"), {}).get("fuentes", {})
@@ -1028,7 +1064,7 @@ def main():
         "n_en_tramitacion": sum(p["situacion"] == "En tramitación" for p in orden),
         "inicio_gobierno": INICIO_GOBIERNO,
         "fuentes": {
-            "senado": {"estado": "ok" if not errores else f"ok con {len(errores)} boletines sin respuesta", "ultima_consulta_exitosa": marca[:10]},
+            "senado": estado_senado(errores, estado_ws, len(catalogo), marca, fuentes_prev.get("senado", {})),
             "camara_votaciones": estado_camara,
             "partidos": {"estado": estado_partidos},
             "calendario": {"estado": estado_cal},

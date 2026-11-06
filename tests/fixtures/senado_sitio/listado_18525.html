@@ -1,0 +1,194 @@
+<style type="text/css">
+   a {
+      color: #00008B;
+      text-decoration: none;
+   }
+   a:hover{
+      color: #0000FF;
+      text-decoration: underline;
+   }
+</style>
+
+<script language="JavaScript" type="text/javascript">
+
+dhtmlx.image_path = "/appsenado/includes/dhtmlx_v26/common/common_imgs/imgs/";
+
+
+jQuery(document).ready(function(){
+   var grid_nivel1 = dhtmlXGridFromTable("grid_nivel1");
+   grid_nivel1.enablePaging(true,20,15,"pagingArea",true);
+   grid_nivel1.setPagingSkin("bricks");
+   grid_nivel1.attachEvent("onBeforeSorting",function(ind,type,direction){
+      if (ind == 0){
+          this.sortRows(4,type,direction);
+          this.setSortImgState(true,ind,direction);
+          return false;
+      }
+      return true;
+   });
+   grid_nivel1.attachEvent("onResizeEnd", function(){//auto width paging
+        grid_nivel1.callEvent("onGridReconstructed",[]);
+    });
+   grid_nivel1.attachEvent("onRowDblClicked",function(rowid){
+      boletin = grid_nivel1.cells(rowid,5).getValue();
+      desde = 'nivel1';
+      jQuery("#main").fadeOut('solw', function(){
+         jQuery("#mono").css('display','');
+         jQuery("#main2").load('/appsenado/templates/tramitacion/boletin_datos.html?etc='+ new Date().getTime(), function(){
+            jQuery("#mono").css('display','none');
+            jQuery("#main2").fadeIn('solw');
+         });
+      });
+   });
+   //contamos tabla para mostrar si existen datos o no
+   if ($('#grid_nivel1 tr').length == 4){ //tabla empieza a contar desde el 4
+        $("#noEncontrados").show();
+        $("#encontrados").hide();
+    }else{
+        $("#encontrados").show();
+        $("#noEncontrados").hide();
+    }
+})
+
+function myfunc_grid_nivel1()
+{
+   grid_nivel1.i18n.paging={
+       results:"Resultado",
+       records:"Registros desde ",
+       to:" a ",
+       page:"Página ",
+       perpage:"Filas por página",
+       first:"A primera página",
+       previous:"Página anterior",
+       found:"Registros encontrados",
+       next:"Página siguiente",
+       last:"A última página",
+       of:" de ",
+       notfound:"No se encontraron registros" }
+   grid_nivel1.enableAutoWidth(true);
+   grid_nivel1.enableAutoHeight(true,4000,true);
+   grid_nivel1.setSkin("modern")
+   grid_nivel1.attachHeader("#text_filter,#text_filter,#text_filter,#select_filter");
+   grid_nivel1.setSizes();
+   grid_nivel1.enableRowsHover(true,'grid_hover');
+   if(findBootstrapEnvironment()=="xs"){
+        //Se muestra solo columnas 1 y 2
+        //sobrante=screen.width-mono;
+        //titu=screen.width-80-sobrante;//se restan 80px de columna 1 y px sobrantes
+        //console.log("Pequeña",titu);
+        //console.log("medida exacta: ",screen.width);
+        grid_nivel1.setColWidth(1,70);//boletin
+        //grid_nivel1.setColWidth(2,titu);//titulo
+        grid_nivel1.setColumnHidden(0,true);
+        grid_nivel1.setColumnHidden(3,true);
+    }else if(findBootstrapEnvironment()=="md"||findBootstrapEnvironment()=="sm"){
+        //console.log("mediana");
+        //Se muestra solo columnas 0,1,2 y 3
+        //sobrante=screen.width-mono;
+        //titu=(screen.width-240-sobrante);//se restan 80px de columna 0 y 80 px col1 y 80 px col3 y px sobrantes
+        grid_nivel1.setColWidth(0,80);//fecha
+        grid_nivel1.setColWidth(1,80);//boletin
+        //grid_nivel1.setColWidth(2,titu);//titulo
+        grid_nivel1.setColWidth(3,80);//estado
+        grid_nivel1.setColumnHidden(0,false);
+        grid_nivel1.setColumnHidden(3,false);
+    }else if(findBootstrapEnvironment()=="lg"){
+        //console.log("mediana");
+        //Se muestra solo columnas 0,1,2 y 3
+        //sobrante=screen.width-mono;
+        //titu=(screen.width-240-sobrante);//se restan 80px de columna 0 y 80 px col1 y 80 px col3 y px sobrantes
+        grid_nivel1.setColWidth(0,80);//fecha
+        grid_nivel1.setColWidth(1,80);//boletin
+        //grid_nivel1.setColWidth(2,titu);//titulo
+        grid_nivel1.setColWidth(3,80);//estado
+        grid_nivel1.setColumnHidden(0,false);
+        grid_nivel1.setColumnHidden(3,false);
+    }
+   grid_nivel1.setColumnHidden(4,true);
+   grid_nivel1.setColumnHidden(5,true);
+}
+
+function datos(num_boletin)
+{
+   boletin = num_boletin;
+   desde = 'nivel1';
+   jQuery("#main").fadeOut('solw', function(){
+      jQuery("#mono").css('display','');
+      jQuery("#main2").load('/appsenado/templates/tramitacion/boletin_datos.html?etc='+ new Date().getTime(), function(){
+         jQuery("#mono").css('display','none');
+         jQuery("#main2").fadeIn('solw');
+      });
+   });
+}
+//definiendo tamaño de la pantalla
+function findBootstrapEnvironment() {
+    var envs = ['xs', 'sm', 'md', 'lg'];
+
+    var $el = $('<div>');
+    $el.appendTo($('body'));
+
+    for (var i = envs.length - 1; i >= 0; i--) {
+        var env = envs[i];
+
+        $el.addClass('hidden-'+env);
+        if ($el.is(':hidden')) {
+            $el.remove();
+            return env;
+        }
+    }
+}
+
+</script>
+
+<div style="alignment-adjust: central;text-align: center;">
+    <div id="encontrados">
+   <h1>Boletines encontrados</h1>
+   <div class="box_1">
+       <span class="txtinput">Haga doble click sobre la l&iacute;nea en que se encuentra el bolet&iacute;n que desea consultar.</span>
+    </div>
+    <div class="box_2">
+       <div class="gridbox_light">
+        <div class="table-responsive">
+          <table width="100%" align="center" class="dhtmlxGrid"
+             name="grid_nivel1"
+             id="grid_nivel1"
+             multiline="true"
+             oninit="myfunc_grid_nivel1()"
+             imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+             border="1">
+             <tr>
+                <td align="center" type="ro" sort="str">Fecha</td>
+                <td align="center" type="ro" sort="str">N&deg; Bolet&iacute;n</td>
+                <td type="ro" sort="str">T&iacute;tulo</td>
+                <td type="ro" sort="str">Estado</td>
+                <td width="0px" type="ro" sort="str">Fecha_sort</td>
+                <td width="0px" type="ro" sort="na">boletin_oculto</td>
+             </tr>
+             
+             <tr>
+                <td>04/08/2026</td>
+                <td><a href="#" onclick="datos('18525-06')">18525-06</a></td>
+                <td>Modifica la ley NÂ° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pÃºblica y prevenciÃ³n del delito</td>
+                <td>En tramitaciÃ³n</td>
+                <td>2026/08/04</td>
+                <td>18525-06</td>
+             </tr>
+             
+          </table>
+        </div>  
+        <div class="table-responsive">
+          <table width="100%" align="center">
+             <tr>
+                <td id="pagingArea" style="height: 30px;"></td>
+             </tr>
+          </table>
+        </div>
+       </div>
+    </div>
+    </div>
+    <div id="noEncontrados"><!-- mostramos cuando no existen datos -->
+        <h2 class="text-left" style="color: red;">No existen registros que coincidan con la b&uacute;squeda</h2>
+    </div>
+</div>
+
+

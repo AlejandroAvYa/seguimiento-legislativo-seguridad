@@ -1,0 +1,246 @@
+<script language="JavaScript" type="text/javascript">
+
+
+
+dhtmlx.image_path = "/appsenado/includes/dhtmlx_v26/common/common_imgs/imgs/";
+
+
+
+jQuery(document).ready(function(){
+    //---------Ocultando modal para evitar posibles errores----------
+    //se remueve clase de modal por posibles errores
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+    //---------Fin ocultar modals--------
+    if ($('#grid_inf tr').length == 1){
+        $("#modalInformes").modal("hide");
+        $("#modalInformes2").modal("show");
+    }else{
+        $("#modalInformes").modal("show");
+        $("#modalInformes2").modal("hide");
+    }
+   var grid_inf = dhtmlXGridFromTable("grid_inf");
+   grid_inf.attachEvent("onBeforeSorting",function(ind,type,direction){
+
+      if (ind == 0){
+
+          this.sortRows(4,type,direction);
+
+          this.setSortImgState(true,ind,direction);
+
+          return false;
+
+      }
+
+      return true;
+
+   });
+
+})
+
+
+
+function myfunc_grid_inf()
+
+{
+
+   grid_inf.enableAutoWidth(true);
+
+   grid_inf.enableAutoHeight(true,4000,true);
+
+   grid_inf.setSkin("modern");
+
+   grid_inf.setSizes();
+
+   grid_inf.enableRowsHover(true,'grid_inf_hover');
+   grid_inf.setColWidth(0,120);
+   //detectando medida de la pantalla para mostrar tabla a la medida del dispositivo
+   if(findBootstrapEnvironment()=="xs"){
+        grid_inf.setColumnHidden(0,true);
+        grid_inf.setColumnHidden(2,true);
+    }else if(findBootstrapEnvironment()=="md"||findBootstrapEnvironment()=="sm"){
+        grid_inf.setColumnHidden(2,false);
+        grid_inf.setColumnHidden(0,true);
+    }else if(findBootstrapEnvironment()=="lg"){
+        grid_inf.setColumnHidden(0,false);
+        grid_inf.setColumnHidden(2,false);
+    }
+
+   grid_inf.setColumnHidden(4,true);
+
+}
+
+
+
+</script>
+
+
+
+<!-- <div class="container" style="alignment-adjust: central;text-align: center;">
+
+    <span class="titudatos">Informes</span>
+
+    <div class="box_1">
+
+        <span class="txtinput">Para ver un Informe haga doble click en la linea correspondiente.</span>
+
+    </div>
+
+    <div class="gridbox_light">
+        <div class="table-responsive">
+        <table width="100%" align="center" class="dhtmlxGrid"
+
+          name="grid"
+
+          id="grid"
+
+          multiline="true"
+
+          oninit="myfunc_grid()"
+
+          imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+
+          border="1">
+
+          <tr>
+
+             <td width="110px" align="center" type="ro" sort="date">Fecha</td>
+
+             <td width="550px" align="left" type="ro" sort="str">Informe</td>
+
+             <td width="300px" type="ro" sort="str">Etapa</td>
+
+             <td width="160px" align="center" type="ro" sort="na">Ver Docto.</td>
+
+             <td width="0px" type="ro" sort="str">Fecha sort</td>
+
+          </tr>
+
+          INFORMES
+
+          <tr>
+
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+
+          </tr>
+
+          /INFORMES
+
+       </table>
+
+      </div>
+
+       <table width="100%">
+
+          <tr>
+
+             <td id="pagingArea1" style="height: 30px;"></td>
+
+          </tr>
+
+       </table>
+
+   </div>
+
+</div> -->
+<div id="modalInformes" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Informes</h3>
+            </div>
+            <div class="modal-body">
+                <div class="container" style="alignment-adjust: central;text-align: center;">
+                    <h5 class="text-center">Para ver un Informe haga doble click en la linea correspondiente, si esta desde un dispositivo m&oacute;vil, deslice para ver toda la informaci&oacute;n</h5>
+                    <div class="gridbox_light">
+                        <div class="table-responsive">
+                        <table width="100%" align="center" class="dhtmlxGrid"
+                          name="grid_inf"
+                          id="grid_inf"
+                          multiline="true"
+                          oninit="myfunc_grid_inf()"
+                          imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+                          border="1">
+
+                          <tr>
+                             <td align="center" type="ro" sort="date">Fecha</td>
+                             <td align="left" type="ro" sort="str">Informe</td>
+                             <td type="ro" sort="str">Etapa</td>
+                             <td align="center" type="ro" sort="na">Ver Docto.</td>
+                             <td width="0px" type="ro" sort="str">Fecha sort</td>
+                          </tr>
+                          
+                          <tr>
+                             <td>17/08/2026</td>
+
+                             <td>Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización</td>
+
+                             <td>Primer trámite constitucional</td>
+
+                             <td><a class="a1" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28173&tipodoc=info">Informe</a></td>
+
+                             <td>2026/08/17</td>
+                          </tr>
+                          
+                          <tr>
+                             <td>20/10/2026</td>
+
+                             <td>Primer informe de comisión de Gobierno, Descentralización y Regionalización</td>
+
+                             <td>Segundo trámite constitucional</td>
+
+                             <td><a class="a1" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28300&tipodoc=info">Informe</a></td>
+
+                             <td>2026/10/20</td>
+                          </tr>
+                          
+                       </table>
+                        </div>
+                       <table width="100%">
+                          <tr>
+                             <td id="pagingArea1" style="height: 30px;"></td>
+                          </tr>
+                       </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalInformes2" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Informes</h3>
+            </div>
+            <div class="modal-body">
+                <h2 class="text-left">No Existen Datos Para Mostrar en Informes de este Bolet&iacute;n</h2>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

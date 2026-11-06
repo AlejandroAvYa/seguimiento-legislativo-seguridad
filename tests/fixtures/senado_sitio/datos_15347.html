@@ -1,0 +1,175 @@
+
+<script language="JavaScript" type="text/javascript">
+proyid=15863;
+</script>
+<div class="container">
+   <div id="div_contenido" style="display: block;">
+
+      <table width="100%">
+         <tr>
+            <td width="500" colspan="8"><h1>Bolet&iacute;n 15347-07</h1></td>
+            <td id="td0" align="right" valign="middle">
+                <button name="btnVolver_datos_proy" id="btnVolver_datos_proy" onclick="volver_boletin()" type="button" class="btn btn-primary glyphicon glyphicon-chevron-left">Volver</button>
+                <button name="btnVolver_datos_proy2" id="btnVolver_datos_proy2" onclick="volver_boletin()" type="button" class="btn btn-primary glyphicon glyphicon-chevron-left">Inicio</button>
+            </td>
+         </tr>
+      </table>
+
+      <div class="box_1a" id="div_box">
+         <table width="720" border="0" class="table-datos">
+            <tr>
+               <td class="subtitu backgris" align="right">T&iacute;tulo:</td>
+               <td colspan="3" class="backgris">Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.</td>
+            </tr>
+            <tr>
+               <td width="15%" class="subtitu" align="right">Fecha de Ingreso:</td>
+               <td width="35%">Martes 13 de Septiembre, 2022</td>
+               <td width="15%" class="subtitu" align="right">Urgencia Actual:</td>
+               <td width="35%">Sin urgencia</td>
+            </tr>
+            <tr>
+               <td class="subtitu" align="right">C&aacute;mara de Origen:</td>
+               <td>Senado</td>
+               <td class="subtitu" align="right">Iniciativa:</td>
+               <td>Moción</td>
+            </tr>
+            <tr>
+               <td class="subtitu" align="right">Tipo de Proyecto:</td>
+               <td>Proyecto de ley</td>
+               <td class="subtitu" align="right">Refundido:</td>
+               <td> (Refundido con: 15347-07 *matriz* / 16430-07 ) </td>
+            </tr>
+            <tr>
+               <td class="subtitu" align="right">Etapa:</td>
+               <td><strong>Tramitación terminada</strong> </td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+            </tr>
+            <tr>
+               <td class="subtitu" align="right"></td>
+               <td><strong><a href="https://www.bcn.cl/leychile/navegar?idNorma=1224470&tipoVersion=0" target="_blank">Ley N° 21.817 (Diario Oficial del 23/05/2026)</a> </strong></td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+            </tr>
+            <tr>
+               <td class="subtitu" align="right">Link para compartir:</td>
+               <td colspan="3">http://www.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=15347-07</td>
+            </tr>
+            <tr id="tr_prioritario" style="visibility: hidden">
+               <td class="subtitu" align="right">Proyecto prioritario:</td>
+               <td colspan="3">
+                  <a class="link_prio" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=12056&tipodoc=mensaje_mocion">Mensaje</a>&nbsp;&nbsp;&nbsp;
+                  <a class="link_prio" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=20437&tipodoc=info">Informe Comisi&oacute;n de Vivienda y Urbanismo</a>&nbsp;&nbsp;&nbsp;
+                  <a class="link_prio" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=4565&tipodoc=docto_comision">Informe T&eacute;cnico BCN</a>
+               </td>
+            </tr>
+         </table>
+      </div>
+
+
+
+
+      <div id="menu">
+      <h3 class="text-left">Seleccione la informaci&oacute;n que desea ver:</h3>
+        <ul class="nav nav-pills">
+                  <li role="presentation" data-toggle="pill" class="active"><a href="#" onclick="ver_detalle('datos')">Tramitaci&oacute;n</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('informes')">Informes</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('oficios')">Oficios</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('indicaciones')">Indicaciones</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('comparados')">Comparados</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('urgencias')">Urgencias</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('autores', 'Autores')">Autores</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('materias')">Materias</a></li>
+                  <li role="presentation" data-toggle="pill"><a href="#" onclick="ver_detalle('otros')">Presentaciones ante Comisi&oacute;n</a></li>
+        </ul>
+      </div>
+   </div>
+
+   <div class="box_2">
+      <div id="mono2" style="height: none; display: block;">
+        <table width="100%" border="0">
+           <tr>
+              <td align="center">
+               <img class="img-responsive" src="/appsenado/templates/tramitacion/images/cargando2.gif" alt="" />
+              </td>
+           </tr>
+        </table>
+      </div>
+      <div id="cuerpo_tramites"></div>
+      <div id="cuerpo_tramites_auxiliar" style="display: none"></div>
+   </div>
+
+
+<script language="JavaScript" type="text/javascript">
+proyid = 15863;
+camara = 'S';
+AutOMin='Autores';
+jQuery(document).ready(function(){
+    if(activo=="boletin"){
+        jQuery("#btnVolver_datos_proy").css('visibility', 'hidden');
+        jQuery("#btnVolver_datos_proy2").css('visibility', 'show');
+    }else{
+        jQuery("#btnVolver_datos_proy").css('visibility', 'show');
+        jQuery("#btnVolver_datos_proy2").css('visibility', 'hidden');
+    }
+   //se remueve clase de modal por posibles errores
+    $('body').removeClass('modal-open');
+    $('.modal-backdrop').remove();
+   if(proyid!=0)
+   {
+       //$.blockUI({ message: $('#mono2'), css: { width: '275px' } });
+      jQuery("#mono2").css('display', 'block');
+      jQuery("#cuerpo_tramites").load('/appsenado/index.php?mo=tramitacion&ac=tramites&proyid='+proyid+'&=camara='+camara+'boletin='+boletin+'&etc='+new Date().getTime(), function(){
+         jQuery("#cuerpo_tramites").fadeIn('fast');
+         jQuery("#mono2").css('display', 'none');
+         //$.unblockUI();
+         jQuery("#div_contenido").css("display", "block");
+      });
+   }
+   else
+   {
+        jQuery("#btnVolver_datos_proy").css('visibility', 'hidden');
+        //jQuery("#menu").css('visibility', 'hidden');
+        $.blockUI({
+            theme:     true,
+            title:    '<div style="text-align: center; background:red;">Error !</div>',
+            message:  'Al parecer existe un error en los datos ingresados, por favor ingresa un dato correcto',
+            timeout:   2000
+        });
+        jQuery("#menu").css('display', 'none');
+        jQuery("#mono2").css('display', 'none');
+        jQuery("#td1").css('visibility', 'hidden');
+        jQuery("#td2").css('visibility', 'hidden');
+        jQuery("#td3").css('visibility', 'hidden');
+        jQuery("#td4").css('visibility', 'hidden');
+        jQuery("#td5").css('visibility', 'hidden');
+        jQuery("#td6").css('visibility', 'hidden');
+        jQuery("#td7").css('visibility', 'hidden');
+        jQuery("#td8").css('visibility', 'hidden');
+        jQuery("#td9").css('visibility', 'hidden');
+        jQuery("#div_box").css('display', 'none');
+   }
+
+
+   if(proyid==12056){
+      jQuery("#tr_prioritario").css("visibility","visible");
+   }
+
+
+})
+
+function volver_boletin()
+{
+    if(activo=="uvistos"){//ultimos vistos activo
+        $("#menu100").addClass('active');//evitando errores
+    }else if(activo=="comisiones"){//Comisiones activo
+        $("#menu3").addClass('active');//evitando errores
+    }
+   ver_detalle('volver');
+}
+
+</script>
+
+
+
+

@@ -127,14 +127,47 @@ def leer_xml(texto):
     return proyectos
 
 
-def ficha(boletin):
-    """Ficha de un boletín ('18341-25' o '18341'). Devuelve dict o None si el Senado no lo informa."""
+# Cortacircuito: si el servicio web falla varias veces seguidas, el resto de la corrida usa directamente el sitio.
+FALLAS_PARA_CORTAR = 3
+_estado_ws = {"fallas_seguidas": 0, "cortado": False, "usos_respaldo": 0}
+
+
+def estado_servicio():
+    return dict(_estado_ws)
+
+
+def ficha_servicio(boletin):
+    """Ficha desde el servicio web (XML). None si no informa el boletín."""
     num = boletin.split("-")[0]
-    lista = leer_xml(descargar(f"{BASE}?boletin={num}"))
+    lista = leer_xml(descargar(f"{BASE}?boletin={num}", intentos=2))
     for p in lista:
         if p["boletin"] == boletin or "-" not in boletin:
             return p
     return lista[0] if lista else None
+
+
+def ficha(boletin, previo=None):
+    """Ficha de un boletín ('18341-25' o '18341'). Devuelve dict o None si el Senado no lo informa.
+
+    Primero el servicio web; si no responde o no informa el boletín, el sitio de tramitación (senado_html).
+    """
+    import senado_html
+    if not _estado_ws["cortado"]:
+        try:
+            f = ficha_servicio(boletin)
+        except Exception:  # noqa: BLE001
+            f = None
+        if f:
+            _estado_ws["fallas_seguidas"] = 0
+            f["_fuente"] = "servicio"
+            return f
+        _estado_ws["fallas_seguidas"] += 1
+        if _estado_ws["fallas_seguidas"] >= FALLAS_PARA_CORTAR:
+            _estado_ws["cortado"] = True
+    f = senado_html.ficha(boletin, previo)
+    if f:
+        _estado_ws["usos_respaldo"] += 1
+    return f
 
 
 def con_movimiento_desde(fecha_ddmmaaaa):

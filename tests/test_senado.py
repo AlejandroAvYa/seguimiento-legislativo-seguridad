@@ -350,5 +350,66 @@ class ResumenSimple(unittest.TestCase):
         self.assertEqual(self.r.boletin_texto("18525-06"), "18.525-06")
 
 
+class RespaldoSitioSenado(unittest.TestCase):
+    """Lectura del sitio de tramitación cuando el servicio web del Senado no responde."""
+    def _pag(self, nombre):
+        with open(os.path.join(os.path.dirname(__file__), "fixtures", "senado_sitio", nombre), encoding="utf-8", errors="replace") as f:
+            return f.read()
+
+    def test_cabecera(self):
+        import senado_html
+        d = senado_html.leer_datos(self._pag("datos_16143.html"))
+        self.assertEqual((d["proyid"], d["boletin"]), ("16691", "16143-02"))
+        self.assertEqual(d["etapa"], "Primer trámite constitucional (Senado)")
+        self.assertEqual(d["subetapa"], "Segundo informe de comisión de Defensa Nacional")
+        self.assertEqual((d["fecha_ingreso"], d["camara_origen"], d["iniciativa"], d["urgencia_actual"]), ("02/08/2023", "Senado", "Mensaje", "Suma"))
+        ley = senado_html.leer_datos(self._pag("datos_15347.html"))
+        self.assertEqual((ley["leynro"], ley["diariooficial"], ley["etapa"]), ("Ley N° 21.817", "23/05/2026", "Tramitación terminada"))
+        self.assertIn("16430-07", ley["refundidos"])
+
+    def test_tablas(self):
+        import senado_html
+        tr = senado_html.leer_tramites(self._pag("tramites.html"))
+        self.assertEqual(tr[0], {"fecha": "2026-08-04", "sesion": "/", "descripcion": "Ingreso de proyecto . Incluye IF N° 187/04.08.2026.",
+                                 "etapa": "Primer trámite constitucional", "camara": "C.Diputados"})
+        urg = senado_html.leer_urgencias(self._pag("urgencias.html"))
+        self.assertEqual(urg[0]["ingreso"], min(u["ingreso"] for u in urg))
+        inf = senado_html.leer_informes(self._pag("informes.html"))
+        self.assertTrue(inf[-1]["link"].endswith("iddocto=28300&tipodoc=info"))
+        ind = senado_html.leer_indicaciones(self._pag("indicaciones.html"))
+        self.assertEqual(ind[0]["iddocto"], "3280")
+        self.assertEqual(senado_html.leer_estado(self._pag("listado_18525.html"), "18525-06"), "En tramitación")
+
+    def test_registro_con_respaldo(self):
+        """La ficha armada desde el sitio pasa por el mismo proceso que la del servicio web."""
+        import senado_html
+        f = {**senado_html.leer_datos(self._pag("datos_16143.html")), "estado": "En tramitación", "link_mensaje_mocion": "",
+             "autores": [], "urgencias": senado_html.leer_urgencias(self._pag("urgencias.html")),
+             "tramites": senado_html.leer_tramites(self._pag("tramites.html")), "informes": [], "comparados": [],
+             "boletines_indicaciones": [], "oficios": [], "votaciones": [], "observaciones": [], "indicaciones_ejecutivo": []}
+        f.pop("proyid")
+        r = actualizar.registro({"boletin": "16143-02"}, f, {})
+        self.assertEqual(r["subetapa"], "Segundo informe de comisión de Defensa Nacional")
+        self.assertEqual(r["n_tramites"], len(f["tramites"]))
+        self.assertTrue(r["hitos"])
+
+    def test_estado_y_salud(self):
+        import salud
+        e = actualizar.estado_senado([], {"cortado": True, "usos_respaldo": 92}, 92, "2026-11-06 09:17", {})
+        self.assertTrue(e["estado"].startswith("respaldo"))
+        self.assertEqual(e["servicio_web_sin_respuesta_desde"], "2026-11-06 09:17")
+        e2 = actualizar.estado_senado([], {"cortado": True, "usos_respaldo": 92}, 92, "2026-11-06 10:17", e)
+        self.assertEqual(e2["servicio_web_sin_respuesta_desde"], "2026-11-06 09:17")
+        ok = actualizar.estado_senado([], {"cortado": False, "usos_respaldo": 0}, 92, "2026-11-06 11:17", e2)
+        self.assertEqual(ok["estado"], "ok")
+        self.assertNotIn("servicio_web_sin_respuesta_desde", ok)
+        from datetime import datetime
+        hoy = datetime(2026, 11, 6, 12)
+        meta = {"fuentes": {"senado": e2, "camara_votaciones": {"ultima_consulta_exitosa": "2026-11-06", "estado": "ok"}}}
+        self.assertEqual([k for k, _ in salud.diagnostico(meta, "success", hoy)], ["senado-respaldo"])
+        self.assertEqual([k for k, _ in salud.diagnostico({"fuentes": {"senado": ok}}, "failure", hoy)], ["falla-actualizacion"])
+        self.assertEqual(salud.diagnostico({"fuentes": {"senado": ok}}, "success", hoy), [])
+
+
 if __name__ == "__main__":
     unittest.main()

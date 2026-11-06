@@ -1,0 +1,208 @@
+<script language="JavaScript" type="text/javascript">
+
+
+
+dhtmlx.image_path = "/appsenado/includes/dhtmlx_v26/common/common_imgs/imgs/";
+
+
+
+jQuery(document).ready(function(){
+    //---------Ocultando modal para evitar posibles errores----------
+    //se remueve clase de modal por posibles errores
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+    //---------Fin ocultar modals--------
+    if ($('#grid_indi tr').length == 1){
+        $("#modalIndicaciones").modal("hide");
+        $("#modalIndicaciones2").modal("show");
+    }else{
+        $("#modalIndicaciones").modal("show");
+        $("#modalIndicaciones2").modal("hide");
+    }
+   var grid_indi = dhtmlXGridFromTable("grid_indi");
+   grid_indi.attachEvent("onBeforeSorting",function(ind,type,direction){
+
+      if (ind == 0){
+
+          this.sortRows(4,type,direction);
+
+          this.setSortImgState(true,ind,direction);
+
+          return false;
+
+      }
+
+      return true;
+
+   });
+
+})
+
+
+
+
+
+function myfunc_grid_indi()
+
+{
+
+   grid_indi.enableAutoWidth(true);
+
+   grid_indi.enableAutoHeight(true,4000,true);
+
+   grid_indi.setSkin("modern");
+
+   grid_indi.setSizes();
+
+   grid_indi.enableRowsHover(true,'grid_hover');
+      grid_indi.setColWidth(0,120);
+   //detectando medida de la pantalla para mostrar tabla a la medida del dispositivo
+   if(findBootstrapEnvironment()=="xs"){
+        grid_indi.setColumnHidden(0,true);
+        grid_indi.setColumnHidden(2,true);
+    }else if(findBootstrapEnvironment()=="md"||findBootstrapEnvironment()=="sm"){
+        grid_indi.setColumnHidden(2,false);
+        grid_indi.setColumnHidden(0,true);
+    }else if(findBootstrapEnvironment()=="lg"){
+        grid_indi.setColumnHidden(0,false);
+        grid_indi.setColumnHidden(2,false);
+    }
+
+   grid_indi.setColumnHidden(4,true);
+
+}
+
+
+
+</script>
+
+
+
+<!--INICIO Listado boletines por fecha-->
+
+<!-- <div class="container" >
+   <span class="titudatos">Indicaciones</span>
+   <div class="box_1">
+      <span class="txtinput">Para ver una Indicaci&oacute;n haga doble click en la linea correspondiente.</span>
+   </div>
+   <div class="gridbox_light">
+    <div class="table-responsive">
+        <table width="100%" align="center" class="dhtmlxGrid"
+          name="grid"
+          id="grid"
+          multiline="true"
+          oninit="myfunc_grid()"
+          imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+          border="1">
+          <tr>
+             <td width="150px" align="left" type="ro" sort="str">Fecha</td>
+             <td width="300px" type="ro" sort="str">Indicaci&oacute;n</td>
+             <td width="510px" type="ro" sort="str">Etapa</td>
+             <td width="160px" align="center" type="ro" sort="na">Ver Docto.</td>
+             <td width="0px" type="ro" sort="str">Fecha sort</td>
+          </tr>
+          INDICACIONES
+          <tr>
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+
+             <td></td>
+          </tr>
+          /INDICACIONES
+       </table>
+       </div>
+       <table width="100%">
+          <tr>
+             <td id="pagingArea1" style="height: 30px;"></td>
+          </tr>
+       </table>
+   </div>
+</div> -->
+<div id="modalIndicaciones" class="modal fade" role="dialog" style="overflow: scroll;-webkit-overflow-scrolling: touch;">
+    <div class="modal-dialog" >
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Indicaciones</h3>
+            </div>
+            <div class="modal-body">
+                <div class="container" >
+                    <h5 class="text-center">Para ver una Indicaci&oacute;n haga doble click en la linea correspondiente, si esta desde un dispositivo m&oacute;vil, deslice para ver toda la informaci&oacute;n</h5>
+                   <div class="gridbox_light">
+                    <!--<div class="table-responsive">-->
+                        <table width="100%" align="center" class="dhtmlxGrid"
+                          name="grid_indi"
+                          id="grid_indi"
+                          multiline="true"
+                          oninit="myfunc_grid_indi()"
+                          imgpath="/appsenado/includes/dhtmlx_v26/dhtmlxGrid/codebase/imgs/"
+                          border="1">
+                          <tr>
+                             <td align="left" type="ro" sort="str">Fecha</td>
+
+                             <td type="ro" sort="str">Indicaci&oacute;n</td>
+
+                             <td type="ro" sort="str">Etapa</td>
+
+                             <td align="center" type="ro" sort="na">Ver Docto.</td>
+
+                             <td width="0px" type="ro" sort="str">Fecha sort</td>
+                          </tr>
+                          
+                          <tr>
+                             <td>23/10/2026</td>
+
+                             <td>Bolet&iacute;n de Indicaciones</td>
+
+                             <td>Segundo trámite constitucional</td>
+
+                             <td><a class="a1" href="/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3280&tipodoc=indi">Indicaci&oacute;n</a></td>
+
+                             <td>2026/10/23</td>
+                          </tr>
+                          
+                       </table>
+                       <!--</div>-->
+                       <table width="100%">
+                          <tr>
+                             <td id="pagingArea1" style="height: 30px;"></td>
+                          </tr>
+                       </table>
+                   </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalIndicaciones2" class="modal fade" role="dialog" style="overflow: scroll;-webkit-overflow-scrolling: touch;">
+    <div class="modal-dialog modal-lg" >
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Indicaciones</h3>
+            </div>
+            <div class="modal-body">
+                    <h2 class="text-left">No Existen Datos Para Mostrar en Indicaciones de este Bolet&iacute;n</h2>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text-left">Cierre esta ventana para ver toda la informaci&oacute;n del bolet&iacute;n</h5>
+                <button type="button" class="btn btn-default " data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

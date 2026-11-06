@@ -34,10 +34,10 @@ jobs:
       ALERTA_URL_DASHBOARD: ${{ vars.URL_DASHBOARD }}
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Preparar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -49,6 +49,7 @@ jobs:
         run: python -m unittest discover -s tests
 
       - name: Consultar Senado y Cámara y actualizar datos
+        id: datos
         run: python scripts/actualizar.py
 
       - name: Guardar cambios en el repositorio
@@ -61,8 +62,13 @@ jobs:
             exit 0
           fi
           git commit -m "Datos actualizados $(TZ=America/Santiago date '+%Y-%m-%d %H:%M')"
-          git pull --rebase
-          git push
+          # reintenta si otra tarea guardó cambios al mismo tiempo
+          for intento in 1 2 3 4; do
+            git pull --rebase && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((intento * 10))
+          done
+          exit 1
 
       - name: Avisar cambios relevantes (correo / Teams)
         continue-on-error: true
@@ -79,3 +85,11 @@ jobs:
           else
             echo "No hay candidatos nuevos."
           fi
+
+      - name: Revisar el estado del sistema (abre o cierra el aviso automático)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULTADO: ${{ steps.datos.outcome }}
+        run: python scripts/salud.py
