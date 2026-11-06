@@ -9,7 +9,7 @@
   "senado": {
    "estado": "respaldo: el servicio web del Senado no responde; las fichas se leen desde el sitio de tramitación (las votaciones del Senado se actualizarán cuando el servicio vuelva)",
    "ultima_consulta_exitosa": "2026-11-06",
-   "ultima_hora_exitosa": "2026-11-06 15:00",
+   "ultima_hora_exitosa": "2026-11-06 20:12",
    "servicio_web_sin_respuesta_desde": "2026-11-06 08:32"
   },
   "camara_votaciones": {
@@ -27,7 +27,7 @@
    "detalle": {
     "senado_citaciones": {
      "estado": "ok",
-     "n": 30
+     "n": 32
     },
     "senado_sala": {
      "estado": "ok",

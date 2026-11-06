@@ -226,8 +226,8 @@
    "tipo": "Comisión",
    "fecha": "2026-11-09",
    "instancia": "Comisión de Minería y Energía",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala de Sesiones, Santiago",
    "horario": "15:30 a 17:00",
    "materia": "1.- Evaluar las medidas implementadas por el Ministerio de Minería en el plan \"Minería en Marcha\", así como sus avances y resultados.\nA esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González.",
@@ -316,6 +316,23 @@
    "horario": "10:00 a 12:00",
    "materia": "1.- Recibir a representantes de la Asociación Gremial Nacional de Constructoras de Viviendas Sociales -junto a dirigentes de los gremios de las entidades patrocinantes- y de la Federación Nacional de Trabajadores y Trabajadoras de Vivienda y Urbanismo, quienes darán a conocer la opinión de sus organizaciones acerca de la propuesta de presupuesto para el Ministerio de Vivienda y Urbanismo, en lo relativo al año 2027.",
    "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "10:30 a 12:30",
+   "materia": "1.- ( Bol.N° 16391-01 ) Establece un Sistema de Incentivos para la Gestión Sostenible de Suelos Agropecuarios (SIGESS)\n2.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "16391-01",
+    "18643-05"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -487,6 +504,24 @@
    "seguidos": [
     "15975-25"
    ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° 18779-07 ) Proyecto de ley que interpreta y modifica la ley N° 19.856, en materia de exclusión del beneficio de reducción de condena por delitos sexuales cometidos contra menores de edad.\nLos invitados a esta sesión serán comunicados oportunamente.",
+   "boletines": [
+    "18779-07"
+   ],
+   "invitados": [
+    "Los invitados a esta sesión serán comunicados oportunamente."
+   ],
+   "seguidos": []
   },
   {
    "camara": "Senado",

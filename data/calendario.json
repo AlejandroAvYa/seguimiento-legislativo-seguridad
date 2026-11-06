@@ -392,7 +392,7 @@
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 24,
+   "senado_comisiones": 25,
    "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -417,8 +417,12 @@
    "actual": false,
    "camara_sala": 0,
    "camara_dias": [],
-   "senado_sala": 0,
-   "senado_dias": [],
+   "senado_sala": 6,
+   "senado_dias": [
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19"
+   ],
    "senado_comisiones": 0,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
@@ -1192,6 +1196,36 @@
   }
  ],
  "_senado_sesiones": [
+  {
+   "numero": "85",
+   "tipo": "Especial",
+   "fecha": "2026-11-19"
+  },
+  {
+   "numero": "84",
+   "tipo": "Especial",
+   "fecha": "2026-11-19"
+  },
+  {
+   "numero": "83",
+   "tipo": "Especial",
+   "fecha": "2026-11-18"
+  },
+  {
+   "numero": "82",
+   "tipo": "Especial",
+   "fecha": "2026-11-18"
+  },
+  {
+   "numero": "81",
+   "tipo": "Especial",
+   "fecha": "2026-11-17"
+  },
+  {
+   "numero": "80",
+   "tipo": "Especial",
+   "fecha": "2026-11-17"
+  },
   {
    "numero": "79",
    "tipo": "Ordinaria",
