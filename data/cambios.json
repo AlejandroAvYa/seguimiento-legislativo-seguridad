@@ -1,5 +1,103 @@
 [
  {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "16143-02",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-10 12:30 a 14:00 – Comisión de Defensa Nacional"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18709-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-09 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18597-07",
+  "tipo": "Subetapa",
+  "antes": "",
+  "despues": "Retirado"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-04 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-04 – Discusión general . Aprobado en general y particular a la vez (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18590-07",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Cuenta de proyecto"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18590-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-04 – Cuenta, oficio de S. E. el Vicepresidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (441-374). (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18525-06",
+  "tipo": "Subetapa",
+  "antes": "Ingreso de observaciones",
+  "despues": "En espera de promulgación"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-04 – Oficio de ley a Cámara Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-04 – Discusión general . Aprobado en general y particular a la vez . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18282-07",
+  "tipo": "Nueva votación en Sala de la Cámara",
+  "antes": "",
+  "despues": "2026-11-04 – Proyecto de Ley: Aprobado (142-0-0)"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18282-07",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Cuenta de proyecto"
+ },
+ {
+  "fecha_deteccion": "2026-11-06 08:32",
+  "boletin": "18282-07",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Segundo trámite constitucional (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-03 18:03",
   "boletin": "18590-07",
   "tipo": "Nuevo trámite",

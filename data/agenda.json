@@ -129,6 +129,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-09",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° 18709-07 ) Con el fin de continuar el estudio, en general y en particular, del proyecto de ley que modifica la ley N° 21.780, que crea el Servicio Nacional de Acceso a la Justicia y la Defensoría de Víctimas, con el objeto de otorgar mayor eficiencia al proceso de implementación del Servicio (Boletín No 18.709-07).",
+   "boletines": [
+    "18709-07"
+   ],
+   "invitados": [],
+   "seguidos": [
+    "18709-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
    "instancia": "Comisión de Salud",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -136,6 +154,36 @@
    "horario": "14:00 a 15:30",
    "materia": "1.- Recibir a los integrantes de la Mesa de Trabajo para la Modernización de la Salud en Chile, quienes harán entrega del informe final de su cometido, con las conclusiones y propuestas respectivas, y ofrecer un almuerzo en la Sala N° 1 del 3er piso de Comisiones del Senado.",
    "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-09",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 89",
+   "estado": "Citada",
+   "horario": "14:30 a 18:30",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
+   "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de Los Presidentes, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- ( Bol.N° 12712-24 ) Continuar la discusión en particular del proyecto de ley, en segundo trámite constitucional, de Patrimonio Cultural (Boletín N° 12.712-24).",
+   "boletines": [
+    "12712-24"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -162,6 +210,22 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-09",
+   "instancia": "Comisión de Minería y Energía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- Evaluar las medidas implementadas por el Ministerio de Minería en el plan \"Minería en Marcha\", así como sus avances y resultados.\nA esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González.",
+   "boletines": [],
+   "invitados": [
+    "A esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
    "instancia": "Comisión de Economía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -174,6 +238,20 @@
    "invitados": [
     "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-09",
+   "instancia": "Sala de la Cámara · sesión especial N° 90",
+   "estado": "Citada",
+   "horario": "19:00 a 21:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
    "seguidos": []
   },
   {
@@ -198,6 +276,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-10",
+   "instancia": "Comisión de Salud",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11 Dr. Fernando Monckeberg, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 15047-11 ) Proyecto de ley que modifica la ley N°20.850, que Crea un sistema de protección financiera para diagnósticos y tratamientos de alto costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos, para modificar la distribución del Fondo y lograr una mayor disponibilidad de recursos en beneficio de los pacientes (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nA este punto se invitará a la Presidenta de la Corporación FAME Chile, y a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo.\n2.- ( Bol.N° 17678-11 ) Proseguir con el tratamiento del proyecto de ley que modifica el período de carencia del subsidio de incapacidad laboral por accidente o enfermedad común, introduce modificaciones en su aplicación al sector público, fortalece las facultades de las Comisiones de Medicina Preventiva e Invalidez, y modifica las normas que indica (Boletín N° 17.678-11). En esta ocasión, la Ministra de Salud y el Ministro del Trabajo y Previsión Social enunciarán los lineamientos de las indicaciones que presentaría el Ejecutivo para el perfeccionamiento de esta iniciativa de ley.\nAsimismo, se recibirá en audiencia para exponer respecto de este asunto, a la Federación Nacional de Funcionarios de la Subsecretaría de Salud Pública (FENFUSSAP), y a la Multigremial G7 compuesta por: Confederación FENATS Unitaria; CONAFUTECH, FENASALUD, FENTESS, FENATS Histórica, CONFENATS y FENCHOSA.",
+   "boletines": [
+    "15047-11",
+    "17567-11",
+    "17678-11"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
    "instancia": "Comisión de Vivienda y Urbanismo",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -206,6 +302,24 @@
    "materia": "1.- Recibir a representantes de la Asociación Gremial Nacional de Constructoras de Viviendas Sociales -junto a dirigentes de los gremios de las entidades patrocinantes- y de la Federación Nacional de Trabajadores y Trabajadoras de Vivienda y Urbanismo, quienes darán a conocer la opinión de sus organizaciones acerca de la propuesta de presupuesto para el Ministerio de Vivienda y Urbanismo, en lo relativo al año 2027.",
    "boletines": [],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Seguridad Pública",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 6, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18707-07 ) Iniciar el estudio del proyecto de ley, en primer trámite constitucional, que prohíbe la concesión de penas sustitutivas a las privativas o restrictivas de libertad respecto de los delitos que indica, con el objeto de asegurar el cumplimiento efectivo de las condenas (Boletín N° 18.707-07), con urgencia calificada de \"simple\".\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat, y el Fiscal Nacional, señor Ángel Valencia.",
+   "boletines": [
+    "18707-07"
+   ],
+   "invitados": [
+    "Para tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat, y el Fiscal Nacional, señor Ángel Valencia."
+   ],
    "seguidos": []
   },
   {
@@ -227,6 +341,46 @@
     "A este punto han sido invitados la Presidenta Ejecutiva de la Federación de Empresas de Turismo de Chile (FEDETUR), señora Mónica Zalaquett y el Presidente de la Asociación de Hoteleros de Chile A.G., señor Alberto Pirola."
    ],
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 12213-07 ) Iniciar el estudio del proyecto de ley, en segundo tramite constitucional, iniciado en moción del Honorables Diputados señor Ilabaca, señora Hertz y señores Alessandri, Garín, Leiva, Schalper y Walker, que modifica diversos textos legales en materia de ejecución de sanciones penales. (Boletín N° 12.213-07).\nPara el estudio de este proyecto han sido invitados, al Honorable Diputado señor Marcos Ilabaca y la Presidenta de la Excma. Corte Suprema, Ministra señora Gloria Ana Chevesich Ruiz.\n2.- ( Bol.N° S 2765-05 ) Con el objeto de ocuparse del Oficio de Su Excelencia el Presidente de la República con el que solicita el acuerdo del Senado para designar como Ministros Suplentes del Tribunal Constitucional a las señoras Sandra Ponce de León Salucci, y Leslie Sánchez Lobos (Boletín N° S 2.765-05).\nAsimismo, se ha invitado al Ministro Secretario General de la Presidencia, señor José García Ruminot, y a la candidata a Ministra Suplente de ese Excmo. Tribunal, señora Sandra Ponce de León.",
+   "boletines": [
+    "12213-07",
+    "2765-05"
+   ],
+   "invitados": [
+    "Para el estudio de este proyecto han sido invitados, al Honorable Diputado señor Marcos Ilabaca y la Presidenta de la Excma.",
+    "Asimismo, se ha invitado al Ministro Secretario General de la Presidencia, señor José García Ruminot, y a la candidata a Ministra Suplente de ese Excmo."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Defensa Nacional",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- De 12:30 a 12:45 horas:\nEscuchar a la Alcaldesa de Valdivia respecto del estado de avance de la Política Nacional de Construcción Naval 2025-2040 en esa ciudad.\n2.- ( Bol.N° 16143-02 ) De 12:45 a 14:00 horas:\nConsiderar las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, para la protección de la infraestructura crítica del país.\nA este punto han sido invitados el Ministro de Defensa Nacional; el Ministro de Seguridad Pública, y el Subsecretario del Interior.",
+   "boletines": [
+    "16143-02"
+   ],
+   "invitados": [
+    "A este punto han sido invitados el Ministro de Defensa Nacional; el Ministro de Seguridad Pública, y el Subsecretario del Interior."
+   ],
+   "seguidos": [
+    "16143-02"
+   ]
   },
   {
    "camara": "Senado",
@@ -286,6 +440,37 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
+   "instancia": "Comisión de Transportes y Telecomunicaciones",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 5, (Valparaíso)",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 18436-15 ) Iniciar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica la Ley Orgánica de la Empresa de los Ferrocarriles del Estado, con el objeto de establecer una exención de derechos y tributos municipales por la ejecución de obras ferroviarias y declarar dichas obras como infraestructura ejecutada por el Estado, con urgencia calificada de \"suma\".\n2.- ( Bol.N° 17974-15 ) Continuar con el estudio del proyecto de ley, en primer trámite constitucional, originado en moción de los Honorables Senadores señora Provoste, señores Saavedra y Velásquez y de los ex Senadores señores Chahuán y Lagos, que modifica la ley N° 20.433, que crea los servicios de radiodifusión comunitaria ciudadana, con el objeto de fortalecer su desarrollo y sostenibilidad, con urgencia calificada de \"simple\".",
+   "boletines": [
+    "18436-15",
+    "17974-15"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Agricultura",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- Recibir a representantes de la Fundación para la Innovación Agraria (FIA), a fin de conocer la situación de su financiamiento para el año 2027.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -304,13 +489,85 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
-   "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
+   "instancia": "Comisión de Educación",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 8, Comisiones, Senado",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 18277-04 ) Continuar la discusión en general y en particular del proyecto de ley, en primer trámite constitucional, que restringe el uso de redes sociales por parte de los menores de edad que indica (Boletín 18.277-04).",
+   "boletines": [
+    "18277-04"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Obras Públicas",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 8654-15 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica normas relativas al autocontrol en materia de pesaje respecto a empresas generadoras de carga.\nA esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones.",
+   "boletines": [
+    "8654-15"
+   ],
+   "invitados": [
+    "A esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Trabajo y Previsión Social",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°9 Tercer Piso Senado Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 11929-13 ) Para continuar con el estudio del proyecto de ley que modifica el Código del Trabajo para crear el contrato por horas.\nSe ha invitado especialmente a representantes de la Confederación de la Producción y del Comercio (CPC) y del Instituto de Ciencias Alejandro Lipschutz (ICAL).\nAl término de las audiencias se pondrá en votación en general esta iniciativa.",
+   "boletines": [
+    "11929-13"
+   ],
+   "invitados": [
+    "Se ha invitado especialmente a representantes de la Confederación de la Producción y del Comercio (CPC) y del Instituto de Ciencias Alejandro Lipschutz (ICAL)."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "del Adulto Mayor y Discapacidad",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 2 tercer piso, Senado Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 14744-35 ) Iniciar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 20.422, para establecer criterios que faciliten el acceso de las personas con discapacidad a los beneficios establecidos por ley.\nA esta sesión han sido invitados el Director Nacional (S) del Servicio Nacional de la Discapacidad SENADIS, señor Jorge Juárez; el Director Nacional del Instituto de Previsión Social IPS, señor Juan José Cárcamo y la Presidenta de Fundación Matías, señora Edith Espinosa.",
+   "boletines": [
+    "14744-35"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados el Director Nacional (S) del Servicio Nacional de la Discapacidad SENADIS, señor Jorge Juárez; el Director Nacional del Instituto de Previsión Social IPS, señor Juan José Cárcamo y la Presidenta de Fundación Matías, señora Edith Espinosa."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
-   "boletines": [],
+   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
+   "boletines": [
+    "17293-27"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -333,6 +590,23 @@
    ],
    "invitados": [],
    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81941",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
+   "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón Pedro León Gallo Goyenechea, edificio del ex Congreso",
+   "horario": "15:00 a 18:00",
+   "materia": "1.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.",
+   "boletines": [
+    "17196-17",
+    "17446-17"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -393,6 +667,52 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-05",
+   "titulo": "Comisión de Vivienda analizó presupuesto habitacional 2027",
+   "link": "https://www.camara.cl/cms/2026/11/05/comision-de-vivienda-analizo-presupuesto-habitacional-2027/",
+   "tipo": "Comisión",
+   "resumen": "La subsecretaria de Vivienda y Urbanismo, Natalia Aguilar, expuso ante la Comisión de Vivienda los recursos contemplados para subsidios habitacionales, reconstrucción y atención de asentamientos precarios.",
+   "temas": [
+    "#Viviendas",
+    "Comisión de Vivienda",
+    "Presupuesto habitacional"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-05",
+   "titulo": "Protección de Datos: Comisión aprobó postergar entrada en vigencia de la ley",
+   "link": "https://www.camara.cl/cms/2026/11/05/proteccion-de-datos-comision-aprobo-postergar-entrada-en-vigencia-de-la-ley/",
+   "tipo": "Comisión",
+   "resumen": "La propuesta, en segundo trámite constitucional, aplaza al 15 de octubre de 2027 la entrada en vigencia de la ley 21.719, para poder instalar la Agencia de Protección de Datos y su consejo directivo.",
+   "temas": [
+    "Constitución",
+    "Datos sensibles",
+    "Gobierno",
+    "Ley Protección de Datos Personales"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-04",
+   "titulo": "Agravan penas por instrumentalización de menores de edad en delitos",
+   "link": "https://www.camara.cl/cms/2026/11/04/agravan-penas-por-instrumentalizacion-de-menores-de-edad-en-delitos/",
+   "tipo": "Sala",
+   "resumen": "La propuesta, despachada a segundo trámite, plantea aplicar a los adultos las penas máximas según el delito correspondiente. También sanciona el reclutamiento de menores para una asociación delictiva o criminal.",
+   "temas": [
+    "bandas criminales",
+    "Delitos",
+    "Instrumentalización de menores",
+    "Jóvenes infractores de ley",
+    "Reclutamiento delictual",
+    "Seguridad Pública"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-03",
    "titulo": "Comisión debatió regulaciones a financiamiento cultural",
