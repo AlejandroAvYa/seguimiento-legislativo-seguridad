@@ -387,12 +387,12 @@
    "camara_dias": [
     "2026-11-09"
    ],
-   "senado_sala": 2,
+   "senado_sala": 4,
    "senado_dias": [
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 23,
+   "senado_comisiones": 24,
    "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -1193,13 +1193,23 @@
  ],
  "_senado_sesiones": [
   {
-   "numero": "77",
+   "numero": "79",
+   "tipo": "Ordinaria",
+   "fecha": "2026-11-11"
+  },
+  {
+   "numero": "78",
    "tipo": "Especial",
    "fecha": "2026-11-11"
   },
   {
-   "numero": "76",
+   "numero": "77",
    "tipo": "Ordinaria",
+   "fecha": "2026-11-10"
+  },
+  {
+   "numero": "76",
+   "tipo": "Especial",
    "fecha": "2026-11-10"
   },
   {

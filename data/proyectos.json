@@ -69511,7 +69511,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-11",
+    "horario": "10:15 a 11:15",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+    "estado": "Suspendida",
+    "lugar": "Sala N° 11, segundo piso, Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado",
   "clasificacion": "Núcleo",
@@ -263632,7 +263642,7 @@
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
-    "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
+    "lugar": "Sala de Sesiones - Ex Congreso - Santiago"
    }
   ],
   "plazo_indicaciones": [],

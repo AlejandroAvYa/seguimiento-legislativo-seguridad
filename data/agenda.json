@@ -132,7 +132,7 @@
    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago",
+   "lugar": "Sala de Sesiones - Ex Congreso - Santiago",
    "horario": "10:30 a 12:00",
    "materia": "1.- ( Bol.N° 18709-07 ) Con el fin de continuar el estudio, en general y en particular, del proyecto de ley que modifica la ley N° 21.780, que crea el Servicio Nacional de Acceso a la Justicia y la Defensoría de Víctimas, con el objeto de otorgar mayor eficiencia al proceso de implementación del Servicio (Boletín No 18.709-07).",
    "boletines": [
@@ -142,6 +142,24 @@
    "seguidos": [
     "18709-07"
    ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-09",
+   "instancia": "Comisión de Gobierno, Descentralización y Regionalización",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°3, Senado, Santiago.",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 15222-06 ) Recibir audiencias respecto del proyecto de ley, en segundo trámite constitucional, que modifica las leyes orgánicas constitucionales de Municipalidades y de Gobierno y Administración Regional, para regular la subrogación de autoridades comunales y regionales que hagan uso de permisos prenatal, postnatal o postnatal parental.\nA esta sesión han sido invitados la Asociación de Gobernadores y Gobernadoras Regionales de Chile AGORECHI, la Asociación Nacional de Consejeros Regionales ANCORE, la Asociación Chilena de Municipalidades ACHM y la Concejala de la comuna de Talca, señora Paula Retamal.",
+   "boletines": [
+    "15222-06"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados la Asociación de Gobernadores y Gobernadoras Regionales de Chile AGORECHI, la Asociación Nacional de Consejeros Regionales ANCORE, la Asociación Chilena de Municipalidades ACHM y la Concejala de la comuna de Talca, señora Paula Retamal."
+   ],
+   "seguidos": []
   },
   {
    "camara": "Senado",
@@ -196,13 +214,10 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 144 de Comisiones, Ex Congreso Nacional, Santiago",
    "horario": "15:30 a 17:00",
-   "materia": "1.- Recibir a diversos rectores para que se refieran a modificaciones en los programas de BecasChile.\nA este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez.\n2.- Recibir a la Secretaria Ejecutiva del Consejo del Futuro, señora Carolina Muñoz, para la presentación anual del Consejo del Futuro.\n3.- ( Bol.N° 17590-05 ) Continuar con la discusión en general del proyecto de ley, en primer trámite constitucional, que crea el Sistema Nacional de Gestión de Datos y modifica los cuerpos legales que indica (Boletín Nº 17.590-05).\nA este punto han sido especialmente invitados el Subsecretario de Hacienda, señor Sebastián Vallebona y el Director de la Dirección de Presupuestos, señor José Pablo Gómez.",
-   "boletines": [
-    "17590-05"
-   ],
+   "materia": "1.- Recibir a diversos rectores para que se refieran a modificaciones en los programas de BecasChile.\nA este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez.\n2.- Recibir a la Secretaria Ejecutiva del Consejo del Futuro, señora Carolina Muñoz, para la presentación anual del Consejo del Futuro.",
+   "boletines": [],
    "invitados": [
-    "A este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez.",
-    "A este punto han sido especialmente invitados el Subsecretario de Hacienda, señor Sebastián Vallebona y el Director de la Dirección de Presupuestos, señor José Pablo Gómez."
+    "A este punto se encuentran especialmente invitados la rectora de la Universidad de Chile, señora Alejandra Mizala; la rectora de la Universidad Tecnológica Metropolitana (UTEM), señora Marisol Durán; el rector de la Universidad Diego Portales (UDP), señor Carlos Peña; el rector de la Pontificia Universidad Católica de Chile (PUC), señor Juan Carlos de la Llera, y el rector de la Pontificia Universidad Católica de Valparaíso (PUCV), señor Nelson Vásquez."
    ],
    "seguidos": []
   },
@@ -457,12 +472,32 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
+   "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
+   "lugar": "Sala N° 11, segundo piso, Valparaíso",
+   "horario": "10:15 a 11:15",
+   "materia": "1.- ( Bol.N° 15975-25 ) Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25.\nA esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau, y el Subsecretario de Hacienda, señor Sebastián Vallebona.",
+   "boletines": [
+    "15975-25"
+   ],
+   "invitados": [
+    "A esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau, y el Subsecretario de Hacienda, señor Sebastián Vallebona."
+   ],
+   "seguidos": [
+    "15975-25"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
    "instancia": "Comisión de Agricultura",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
    "horario": "11:00 a 12:30",
-   "materia": "1.- Recibir a representantes de la Fundación para la Innovación Agraria (FIA), a fin de conocer la situación de su financiamiento para el año 2027.",
+   "materia": "1.- Recibir a representantes de la Fundación para la Innovación Agraria (FIA), para conocer el trabajo de la institución en regiones y la importancia de la innovación agraria.",
    "boletines": [],
    "invitados": [],
    "seguidos": []
@@ -575,7 +610,7 @@
    "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-11-11",
-   "instancia": "Sala del Senado · sesión especial N° 77",
+   "instancia": "Sala del Senado · sesión especial N° 78",
    "estado": "Citada",
    "horario": "15:00 a 16:00",
    "lugar": "",
@@ -667,6 +702,53 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-06",
+   "titulo": "Seguridad municipal e incendios forestales entre los temas de la Sala",
+   "link": "https://www.camara.cl/cms/2026/11/06/seguridad-municipal-e-incendios-forestales-entre-los-temas-de-la-sala/",
+   "tipo": "Tabla de la Sala",
+   "resumen": "La Cámara también despachó a segundo trámite un proyecto que busca frenar la instrumentalización de menores en actos delictuales y una propuesta que facilita la construcción de edificaciones de Bomberos de Chile.",
+   "temas": [
+    "Resumen del trabajo de la Sala",
+    "Seguridad Municipal"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-06",
+   "titulo": "Trabajo de comisiones: seguridad y educación entre temas estudiados",
+   "link": "https://www.camara.cl/cms/2026/11/06/trabajo-de-comisiones-seguridad-y-educacion-entre-temas-estudiados/",
+   "tipo": "Comisión",
+   "resumen": "El trabajo de las comisiones incluyó proyectos sobre seguridad, financiamiento cultural, protección de niños, educación pública y otros temas clave.",
+   "temas": [
+    "comisiones",
+    "Constitución",
+    "Cultura",
+    "Educación",
+    "Familia",
+    "gobierno interior"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-06",
+   "titulo": "Cámara pide medidas en materia medioambiental y otros apoyos financieros",
+   "link": "https://www.camara.cl/cms/2026/11/06/camara-pide-medidas-en-materia-medioambiental-y-otros-apoyos-financieros/",
+   "tipo": "Sala",
+   "resumen": "A través de 14 resoluciones, la Sala solicitó diversas acciones para el cuidado y protección del medio ambiente. Asimismo, apoyos a programas de salud mental, tenencia de mascotas y propuestas legislativas.",
+   "temas": [
+    "APR",
+    "Desierto Florido",
+    "medio ambinete",
+    "Presupuesto",
+    "Resoluciones",
+    "Sala de la Cámara"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-05",
    "titulo": "Comisión de Vivienda analizó presupuesto habitacional 2027",
