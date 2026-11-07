@@ -9,7 +9,7 @@
   "senado": {
    "estado": "respaldo: el servicio web del Senado no responde; las fichas se leen desde el sitio de tramitación (las votaciones del Senado se actualizarán cuando el servicio vuelva)",
    "ultima_consulta_exitosa": "2026-11-07",
-   "ultima_hora_exitosa": "2026-11-07 07:16",
+   "ultima_hora_exitosa": "2026-11-07 13:32",
    "servicio_web_sin_respuesta_desde": "2026-11-06 08:32"
   },
   "camara_votaciones": {
@@ -17,7 +17,7 @@
    "ultima_consulta_exitosa": "2026-11-07"
   },
   "partidos": {
-   "estado": "senadores ok, comisiones sin conexión (ParseError), diputados ok"
+   "estado": "datos del día"
   },
   "calendario": {
    "estado": "Cámara ok, Senado ok"
