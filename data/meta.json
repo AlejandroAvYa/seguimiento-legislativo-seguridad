@@ -1,7 +1,7 @@
 {
  "fuente": "Servicio web de tramitación del Senado (tramitacion.senado.cl/wspublico)",
  "fecha_verificacion": "2026-11-06",
- "ultima_actualizacion_datos": "2026-11-06 15:00",
+ "ultima_actualizacion_datos": "2026-11-06 21:09",
  "n_proyectos": 92,
  "n_en_tramitacion": 74,
  "inicio_gobierno": "2026-03-11",
@@ -9,7 +9,7 @@
   "senado": {
    "estado": "respaldo: el servicio web del Senado no responde; las fichas se leen desde el sitio de tramitación (las votaciones del Senado se actualizarán cuando el servicio vuelva)",
    "ultima_consulta_exitosa": "2026-11-06",
-   "ultima_hora_exitosa": "2026-11-06 20:12",
+   "ultima_hora_exitosa": "2026-11-06 21:09",
    "servicio_web_sin_respuesta_desde": "2026-11-06 08:32"
   },
   "camara_votaciones": {
