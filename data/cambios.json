@@ -1,5 +1,54 @@
 [
  {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-09 – Primer informe de comisión de Seguridad Ciudadana. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "18208-25",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Seguridad Ciudadana",
+  "despues": "Cuenta de primer informe de comisión"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "17535-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-27 – Oficio N° 401-374. Mensaje 401-374 de S.E. el Presidente de la República, por el cual comunica que no hará uso de la facultad del artículo 73 de la Carta Fundamental (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-22 – Oficio al Tribunal Constitucional . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-10-21 – Oficio de ley al Ejecutivo . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "16836-06",
+  "tipo": "Subetapa",
+  "antes": "Oficio de ley al Ejecutivo",
+  "despues": "En espera de promulgación"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 14:33",
+  "boletin": "16836-06",
+  "tipo": "Etapa",
+  "antes": "Trámite finalización en Cámara de Origen (C.Diputados)",
+  "despues": "Trámite de aprobacion presidencial (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-06 08:32",
   "boletin": "16143-02",
   "tipo": "Citado a sesión",

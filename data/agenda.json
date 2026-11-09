@@ -57,7 +57,7 @@
    "fecha": "2026-11-09",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 89",
    "estado": "Citada",
-   "horario": "14:30 a 18:30",
+   "horario": "14:33 a 18:30",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -102,8 +102,8 @@
    "tipo": "Comisión",
    "fecha": "2026-11-09",
    "instancia": "Comisión de Minería y Energía",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, Santiago",
    "horario": "15:30 a 17:00",
    "materia": "1.- Evaluar las medidas implementadas por el Ministerio de Minería en el plan \"Minería en Marcha\", así como sus avances y resultados.\nA esta sesión fueron especialmente invitados el Ministro de Minería, señor Daniel Mas Valdés, y el Subsecretario de Minería, señor Álvaro González.",
@@ -172,7 +172,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11 Dr. Fernando Monckeberg, Valparaíso.",
    "horario": "09:30 a 11:00",
-   "materia": "1.- ( Bol.N° 15047-11 ) Proyecto de ley que modifica la ley N°20.850, que Crea un sistema de protección financiera para diagnósticos y tratamientos de alto costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos, para modificar la distribución del Fondo y lograr una mayor disponibilidad de recursos en beneficio de los pacientes (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nA este punto se invitará a la Presidenta de la Corporación FAME Chile, y a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo.\n2.- ( Bol.N° 17678-11 ) Proseguir con el tratamiento del proyecto de ley que modifica el período de carencia del subsidio de incapacidad laboral por accidente o enfermedad común, introduce modificaciones en su aplicación al sector público, fortalece las facultades de las Comisiones de Medicina Preventiva e Invalidez, y modifica las normas que indica (Boletín N° 17.678-11). En esta ocasión, la Ministra de Salud y el Ministro del Trabajo y Previsión Social enunciarán los lineamientos de las indicaciones que presentaría el Ejecutivo para el perfeccionamiento de esta iniciativa de ley.\nAsimismo, se recibirá en audiencia para exponer respecto de este asunto, a la Federación Nacional de Funcionarios de la Subsecretaría de Salud Pública (FENFUSSAP), y a la Multigremial G7 compuesta por: Confederación FENATS Unitaria; CONAFUTECH, FENASALUD, FENTESS, FENATS Histórica, CONFENATS y FENCHOSA.",
+   "materia": "1.- ( Bol.N° 15047-11 ) Proyecto de ley que modifica la ley N° 20.850, que Crea un sistema de protección financiera para diagnósticos y tratamientos de alto costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos, para modificar la distribución del Fondo y lograr una mayor disponibilidad de recursos en beneficio de los pacientes (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nA este punto se invitará al Director Nacional de CENABAST; a la Presidenta de la Corporación FAME Chile, y a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo.\n2.- ( Bol.N° 17678-11 ) Proseguir con el tratamiento del proyecto de ley que modifica el período de carencia del subsidio de incapacidad laboral por accidente o enfermedad común, introduce modificaciones en su aplicación al sector público, fortalece las facultades de las Comisiones de Medicina Preventiva e Invalidez, y modifica las normas que indica (Boletín N° 17.678-11). En esta ocasión, la Ministra de Salud y el Ministro del Trabajo y Previsión Social enunciarán los lineamientos de las indicaciones que presentaría el Ejecutivo para el perfeccionamiento de esta iniciativa de ley.\nAsimismo, se recibirá en audiencia para exponer respecto de este asunto, a la Federación Nacional de Funcionarios de la Subsecretaría de Salud Pública (FENFUSSAP), y a la Multigremial G7 compuesta por: Confederación FENATS Unitaria; CONAFUTECH, FENASALUD, FENTESS, FENATS Histórica, CONFENATS y FENCHOSA.",
    "boletines": [
     "15047-11",
     "17567-11",
@@ -309,6 +309,20 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-10",
+   "instancia": "Sala de la Cámara · sesión especial N° 91",
+   "estado": "Citada",
+   "horario": "14:00 a 23:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-10",
@@ -324,6 +338,24 @@
     "17446-17"
    ],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Minería y Energía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 18821-08 ) Modifica la Ley General de Servicios Eléctricos para facilitar la conexión de infraestructura de recarga de vehículos eléctricos y su acceso al régimen de precios libres\nA esta sesión fue especialmente invitada la Ministra de Energía, señora Ximena Rincón.",
+   "boletines": [
+    "18821-08"
+   ],
+   "invitados": [
+    "A esta sesión fue especialmente invitada la Ministra de Energía, señora Ximena Rincón."
+   ],
    "seguidos": []
   },
   {
@@ -385,24 +417,6 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
-   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
-   "horario": "10:30 a 12:00",
-   "materia": "1.- ( Bol.N° 18779-07 ) Proyecto de ley que interpreta y modifica la ley N° 19.856, en materia de exclusión del beneficio de reducción de condena por delitos sexuales cometidos contra menores de edad.\nLos invitados a esta sesión serán comunicados oportunamente.",
-   "boletines": [
-    "18779-07"
-   ],
-   "invitados": [
-    "Los invitados a esta sesión serán comunicados oportunamente."
-   ],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-11",
    "instancia": "Comisión de Agricultura",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -430,6 +444,24 @@
    "seguidos": [
     "18420-25"
    ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "11:00 a 13:00",
+   "materia": "1.- ( Bol.N° 18779-07 ) Proyecto de ley que interpreta y modifica la ley N° 19.856, en materia de exclusión del beneficio de reducción de condena por delitos sexuales cometidos contra menores de edad.\nLos invitados a esta sesión serán comunicados oportunamente.",
+   "boletines": [
+    "18779-07"
+   ],
+   "invitados": [
+    "Los invitados a esta sesión serán comunicados oportunamente."
+   ],
+   "seguidos": []
   },
   {
    "camara": "Senado",
@@ -506,14 +538,12 @@
    "tipo": "Comisión",
    "fecha": "2026-11-11",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno y Campos de Hielo Sur.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
-   "boletines": [
-    "17293-27"
-   ],
+   "materia": "1.- Analizar la situación presupuestaria de las universidades del Estado, de las regiones extremas del norte y sur del país.\nA esta sesión se invitará a la Universidad de Tarapacá; Universidad Arturo Prat; Universidad de Aysén y Universidad de Magallanes.",
+   "boletines": [],
    "invitados": [],
    "seguidos": []
   },
@@ -605,6 +635,20 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-09",
+   "titulo": "Presupuesto 2027 y proyecto SLEP en la tabla de la Cámara para esta semana",
+   "link": "https://www.camara.cl/cms/2026/11/09/presupuesto-2027-y-proyecto-slep-en-la-tabla-de-la-camara-para-esta-semana/",
+   "tipo": "Tabla de la Sala",
+   "resumen": "Este lunes 9, la Sala desarrollará dos sesiones. Una abordará, en general, el Presupuesto 2027; y la otra, será para tramitar un ajuste en la implementación de los servicios locales de educación pública.",
+   "temas": [
+    "presupuesto 2027",
+    "SLEP",
+    "tabla de a sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-06",
    "titulo": "Seguridad municipal e incendios forestales entre los temas de la Sala",

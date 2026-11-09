@@ -360,16 +360,17 @@
    "hasta": "2026-11-15",
    "pasada": false,
    "actual": true,
-   "camara_sala": 2,
+   "camara_sala": 3,
    "camara_dias": [
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
    ],
    "senado_sala": 4,
    "senado_dias": [
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 24,
+   "senado_comisiones": 27,
    "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -1190,6 +1191,11 @@
   },
   {
    "fecha": "2026-11-09",
+   "tipo": "Especial",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-10",
    "tipo": "Especial",
    "estado": "Citada"
   }

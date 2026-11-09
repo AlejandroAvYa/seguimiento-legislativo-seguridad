@@ -1066,6 +1066,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 16836-06,2026-10-20,70/374,Senado,Disc. informe C.Mixta por rechazo de modif. C. Revisora,Discusión informe de Comisión Mixta . Aprobado
 16836-06,2026-10-20,/,Senado,Disc. informe C.Mixta por rechazo de modif. C. Revisora,Oficio aprobación de informe de Comisión Mixta a C.de Origen .
 16836-06,2026-10-21,80/374,C.Diputados,Trámite finalización en Cámara de Origen,Cuenta oficio aprobación de informe de Comisión Mixta .
+16836-06,2026-10-21,/,C.Diputados,Trámite finalización en Cámara de Origen,Oficio de ley al Ejecutivo .
+16836-06,2026-10-22,/,C.Diputados,Trámite en Tribunal Constitucional,Oficio al Tribunal Constitucional .
 16836-06,2026-10-26,81/374,C.Diputados,Trámite finalización en Cámara de Origen,Cuenta Oficio de S.E. el Presidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República.
 16857-07,2024-05-15,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 16857-07,2024-05-29,32/372,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
@@ -1633,9 +1635,10 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17535-25,2026-10-20,/,C.Diputados,Segundo trámite constitucional,Oficio modificaciones a Cámara de Origen .
 17535-25,2026-10-20,70/374,Senado,Tercer trámite constitucional,Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla
 17535-25,2026-10-20,70/374,Senado,Tercer trámite constitucional,Discusión única . Queda pendiente Se solicita aplazamiento de la votación
-17535-25,2026-10-21,/,Senado,Tercer trámite constitucional,"Oficio N° 343-26, que comunica aprobacion de modificaciones"
 17535-25,2026-10-21,71/374,Senado,Tercer trámite constitucional,Discusión única . Aprobadas las modificaciones
+17535-25,2026-10-21,/,Senado,Tercer trámite constitucional,"Oficio N° 343-26, que comunica aprobacion de modificaciones"
 17535-25,2026-10-21,/,Senado,Tercer trámite constitucional,Oficio de ley al Ejecutivo .
+17535-25,2026-10-27,73/374,Senado,Trámite en Tribunal Constitucional,"Oficio N° 401-374. Mensaje 401-374 de S.E. el Presidente de la República, por el cual comunica que no hará uso de la facultad del artículo 73 de la Carta Fundamental"
 17535-25,2026-10-27,/,Senado,Trámite en Tribunal Constitucional,Oficio al Tribunal Constitucional .
 17535-25,2026-10-27,83/374,C.Diputados,Tercer trámite constitucional,"Cuenta oficio N? 343-26, que comunica aprobacion de modificaciones"
 17637-07,2025-06-17,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
@@ -1963,6 +1966,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18208-25,2026-10-05,74/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 370-374 que hace presente la urgencia Suma
 18208-25,2026-10-19,78/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma
 18208-25,2026-11-02,86/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma
+18208-25,2026-11-09,/,C.Diputados,Segundo trámite constitucional,Primer informe de comisión de Seguridad Ciudadana.
 18211-25,2026-04-22,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18211-25,2026-04-22,16/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
 18211-25,2026-06-02,28/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 119-374 que hace presente la urgencia Suma
