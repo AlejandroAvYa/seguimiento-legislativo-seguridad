@@ -1,29 +1,6 @@
 {
  "semanas": [
   {
-   "desde": "2026-09-07",
-   "hasta": "2026-09-13",
-   "pasada": true,
-   "actual": false,
-   "camara_sala": 3,
-   "camara_dias": [
-    "2026-09-07",
-    "2026-09-08",
-    "2026-09-09"
-   ],
-   "senado_sala": 4,
-   "senado_dias": [
-    "2026-09-08",
-    "2026-09-09"
-   ],
-   "senado_comisiones": 0,
-   "senado_comisiones_seguidos": 0,
-   "camara_comisiones": 0,
-   "camara_comisiones_seguidos": 0,
-   "feriados": [],
-   "urgencias_vencen": []
-  },
-  {
    "desde": "2026-09-14",
    "hasta": "2026-09-20",
    "pasada": true,
@@ -265,8 +242,8 @@
   {
    "desde": "2026-11-02",
    "hasta": "2026-11-08",
-   "pasada": false,
-   "actual": true,
+   "pasada": true,
+   "actual": false,
    "camara_sala": 3,
    "camara_dias": [
     "2026-11-02",
@@ -275,7 +252,7 @@
    ],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 6,
+   "senado_comisiones": 0,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -382,7 +359,7 @@
    "desde": "2026-11-09",
    "hasta": "2026-11-15",
    "pasada": false,
-   "actual": false,
+   "actual": true,
    "camara_sala": 2,
    "camara_dias": [
     "2026-11-09"
@@ -554,6 +531,28 @@
      "vence": "2026-12-02"
     }
    ]
+  },
+  {
+   "desde": "2026-12-07",
+   "hasta": "2026-12-13",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "camara_comisiones": 0,
+   "camara_comisiones_seguidos": 0,
+   "feriados": [
+    {
+     "fecha": "2026-12-08",
+     "nombre": "Inmaculada Concepción",
+     "fuente": "api.boostr.cl"
+    }
+   ],
+   "urgencias_vencen": []
   }
  ],
  "feriados": [

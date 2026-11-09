@@ -1,52 +1,49 @@
 {
  "fuente": "Servicio web de tramitación del Senado (tramitacion.senado.cl/wspublico)",
- "fecha_verificacion": "2026-11-08",
- "ultima_actualizacion_datos": "2026-11-08 04:24",
+ "fecha_verificacion": "2026-11-09",
+ "ultima_actualizacion_datos": "2026-11-09 03:39",
  "n_proyectos": 92,
  "n_en_tramitacion": 74,
  "inicio_gobierno": "2026-03-11",
  "fuentes": {
   "senado": {
    "estado": "respaldo: el servicio web del Senado no responde; las fichas se leen desde el sitio de tramitación (las votaciones del Senado se actualizarán cuando el servicio vuelva)",
-   "ultima_consulta_exitosa": "2026-11-08",
-   "ultima_hora_exitosa": "2026-11-08 20:45",
+   "ultima_consulta_exitosa": "2026-11-09",
+   "ultima_hora_exitosa": "2026-11-09 03:39",
    "servicio_web_sin_respuesta_desde": "2026-11-06 08:32"
   },
   "camara_votaciones": {
    "estado": "ok",
-   "ultima_consulta_exitosa": "2026-11-08"
+   "ultima_consulta_exitosa": "2026-11-09"
   },
   "partidos": {
-   "estado": "datos del día"
+   "estado": "senadores sin conexión (HTTPError), comisiones sin conexión (HTTPError), diputados ok"
   },
   "calendario": {
-   "estado": "Cámara ok, Senado ok"
+   "estado": "Cámara ok, Senado sin conexión (HTTPError)"
   },
   "agenda": {
-   "estado": "ok",
+   "estado": "parcial",
    "detalle": {
     "senado_citaciones": {
-     "estado": "ok",
-     "n": 32
+     "estado": "sin conexión: HTTPError"
     },
     "senado_sala": {
-     "estado": "ok",
-     "n": 1
+     "estado": "sin conexión: HTTPError"
     },
     "camara_sala": {
      "estado": "ok",
      "n": 2
     },
     "senado_plazos": {
-     "estado": "ok",
-     "n": 2
+     "estado": "sin conexión: HTTPError"
     },
     "camara_prensa": {
      "estado": "ok",
      "n": 26
     }
    },
-   "ultima_consulta_exitosa": "2026-11-08"
+   "ultima_consulta_exitosa": "2026-11-09"
   }
  }
 }
