@@ -1,5 +1,61 @@
 [
  {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18709-07",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "despues": "Cuenta de primer informe de comisión"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18621-34",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta, oficio de la Comisión de Mujeres y Equidad de Género mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en mensaje y moción, contenidos en los boletines Nºs 18621-34 y 18682-34, respectivamente. ACORDADO. Con consulta al Ejecutivo. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18621-34",
+  "tipo": "Refundidos",
+  "antes": "",
+  "despues": "18621-34 (matriz)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18584-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Sin urgencia"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "18282-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Sin urgencia"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "16836-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta Oficio del Tribunal Constitucional por el cual remite copia autorizada de la resolución mediante la cual solicita informar los quórum de aprobación, en cada uno de sus diversos trámites constitucionales de las normas que indica del proyecto de ley. ROL 18.185-26-CPR. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 14:53",
+  "boletin": "16300-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Sin urgencia"
+ },
+ {
   "fecha_deteccion": "2026-11-09 21:05",
   "boletin": "18597-07",
   "tipo": "Subetapa",

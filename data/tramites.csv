@@ -673,6 +673,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 16143-02,2026-08-18,51/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 267-374 que retira y hace presente la urgencia Simple
 16143-02,2026-08-19,52/374,Senado,Primer trámite constitucional,"La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley hasta las 12.00 horas del día 4 de septiembre de 2026, en la Secretaría de la Comisión de Defensa Nacional"
 16143-02,2026-09-01,53/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 284-374 que retira y hace presente la urgencia Suma
+16143-02,2026-09-03,/,Senado,Primer trámite constitucional,Oficio N°IF 216. Informe financiero
 16143-02,2026-09-04,/,Senado,Primer trámite constitucional,Boletín de indicaciones .
 16143-02,2026-09-08,56/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 309-374 que retira y hace presente la urgencia Suma
 16143-02,2026-09-22,/,Senado,Primer trámite constitucional,Segundo informe de comisión de Defensa Nacional. COMPARADO INDICACIONES para trabajo de la Comisón
@@ -1069,6 +1070,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 16836-06,2026-10-21,/,C.Diputados,Trámite finalización en Cámara de Origen,Oficio de ley al Ejecutivo .
 16836-06,2026-10-22,/,C.Diputados,Trámite en Tribunal Constitucional,Oficio al Tribunal Constitucional .
 16836-06,2026-10-26,81/374,C.Diputados,Trámite finalización en Cámara de Origen,Cuenta Oficio de S.E. el Presidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República.
+16836-06,2026-11-10,90/374,C.Diputados,Trámite de aprobacion presidencial,"Cuenta Oficio del Tribunal Constitucional por el cual remite copia autorizada de la resolución mediante la cual solicita informar los quórum de aprobación, en cada uno de sus diversos trámites constitucionales de las normas que indica del proyecto de ley. ROL 18.185-26-CPR."
 16857-07,2024-05-15,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 16857-07,2024-05-29,32/372,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
 16857-07,2024-05-29,32/372,C.Diputados,Primer trámite constitucional,"A petición de la diputada señora Barchiesi, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana."
@@ -2404,6 +2406,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18621-34,2026-09-07,64/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 304-374 que hace presente la urgencia Simple
 18621-34,2026-09-21,67/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 327-374 que hace presente la urgencia Simple
 18621-34,2026-10-19,78/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple
+18621-34,2026-11-10,89/374,C.Diputados,Primer trámite constitucional,"Cuenta, oficio de la Comisión de Mujeres y Equidad de Género mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en mensaje y moción, contenidos en los boletines Nºs 18621-34 y 18682-34, respectivamente. ACORDADO. Con consulta al Ejecutivo."
 18656-01,2026-08-24,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18656-01,2026-09-22,68/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural"
 18656-01,2026-09-28,71/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 341-374 que hace presente la urgencia Simple
@@ -2421,3 +2424,4 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18709-07,2026-10-21,71/374,Senado,Segundo trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18709-07,2026-10-27,73/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 411-374 que retira y hace presente la urgencia Discusión inmediata
 18709-07,2026-10-28,74/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 433-374 que retira y hace presente la urgencia Discusión inmediata
+18709-07,2026-11-10,/,Senado,Segundo trámite constitucional,"Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento."

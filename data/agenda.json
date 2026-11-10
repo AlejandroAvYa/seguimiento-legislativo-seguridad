@@ -171,29 +171,12 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-10",
-   "instancia": "Comisión de Hacienda",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
-   "horario": "10:30 a 12:30",
-   "materia": "1.- ( Bol.N° 16391-01 ) Establece un Sistema de Incentivos para la Gestión Sostenible de Suelos Agropecuarios (SIGESS)\n2.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
-   "boletines": [
-    "16391-01",
-    "18643-05"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-10",
    "instancia": "Comisión de Seguridad Pública",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 6, Valparaíso",
    "horario": "11:00 a 12:30",
-   "materia": "1.- ( Bol.N° 18707-07 ) Iniciar el estudio del proyecto de ley, en primer trámite constitucional, que prohíbe la concesión de penas sustitutivas a las privativas o restrictivas de libertad respecto de los delitos que indica, con el objeto de asegurar el cumplimiento efectivo de las condenas (Boletín N° 18.707-07), con urgencia calificada de \"simple\".\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat, y el Fiscal Nacional, señor Ángel Valencia.",
+   "materia": "1.- ( Bol.N° 18707-07 ) Iniciar el estudio del proyecto de ley, en primer trámite constitucional, que prohíbe la concesión de penas sustitutivas a las privativas o restrictivas de libertad respecto de los delitos que indica, con el objeto de asegurar el cumplimiento efectivo de las condenas (Boletín N° 18.707-07).\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat, y el Fiscal Nacional, señor Ángel Valencia.",
    "boletines": [
     "18707-07"
    ],
@@ -220,6 +203,23 @@
     "A este punto han sido invitados el Ministro de Hacienda, señor Jorge Quiroz; el Ministro Secretario General de la Presidencia, señor José García Ruminot y la Ministra de Desarrollo Social y Familia, señora María Jesús Wulf.",
     "A este punto han sido invitados la Presidenta Ejecutiva de la Federación de Empresas de Turismo de Chile (FEDETUR), señora Mónica Zalaquett y el Presidente de la Asociación de Hoteleros de Chile A.G., señor Alberto Pirola."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-10",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "11:30 a 12:30",
+   "materia": "1.- ( Bol.N° 16391-01 ) Establece un Sistema de Incentivos para la Gestión Sostenible de Suelos Agropecuarios (SIGESS)\n2.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "16391-01",
+    "18643-05"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -286,7 +286,7 @@
    "fecha": "2026-11-10",
    "instancia": "Sala de la Cámara · sesión especial N° 91",
    "estado": "Citada",
-   "horario": "14:00 a 23:00",
+   "horario": "14:03 a 23:00",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -310,6 +310,34 @@
     "17446-17"
    ],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-10",
+   "instancia": "Sala del Senado · sesión especial N° 76",
+   "estado": "Citada",
+   "horario": "15:00 a 16:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81962",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-10",
+   "instancia": "Sala del Senado · sesión ordinaria N° 77",
+   "estado": "Citada",
+   "horario": "16:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81961",
    "seguidos": []
   },
   {
@@ -366,6 +394,20 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-11",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 92",
+   "estado": "Citada",
+   "horario": "09:30 a 23:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
@@ -384,6 +426,22 @@
    "seguidos": [
     "15975-25"
    ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "10:30 a 12:30",
+   "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "18643-05"
+   ],
+   "invitados": [],
+   "seguidos": []
   },
   {
    "camara": "Senado",
@@ -542,6 +600,118 @@
   },
   {
    "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-11",
+   "instancia": "Sala del Senado · sesión ordinaria N° 79",
+   "estado": "Citada",
+   "horario": "16:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81963",
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-12",
+   "instancia": "Sala de la Cámara · sesión especial N° 93",
+   "estado": "Citada",
+   "horario": "09:30 a 23:55",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-17",
+   "instancia": "Sala del Senado · sesión especial N° 80",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81964",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-17",
+   "instancia": "Sala del Senado · sesión especial N° 81",
+   "estado": "Citada",
+   "horario": "15:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81965",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-18",
+   "instancia": "Sala del Senado · sesión especial N° 82",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81966",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-18",
+   "instancia": "Sala del Senado · sesión especial N° 83",
+   "estado": "Citada",
+   "horario": "15:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81967",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-19",
+   "instancia": "Sala del Senado · sesión especial N° 84",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81968",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-19",
+   "instancia": "Sala del Senado · sesión especial N° 85",
+   "estado": "Citada",
+   "horario": "15:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81969",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-23",
    "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
@@ -607,6 +777,21 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-10",
+   "titulo": "A ley facultad presidencial para postergar instalación de los SLEP",
+   "link": "https://www.camara.cl/cms/2026/11/10/a-ley-facultad-presidencial-para-postergar-instalacion-de-los-slep/",
+   "tipo": "Sala",
+   "resumen": "La norma aprobada permite al Presidente de la República recalendarizar la instalación de los SLEP, con plazo tope al 31 de diciembre de 2030.",
+   "temas": [
+    "Educación",
+    "instalación SLEP",
+    "Ley Sistema Educación Pública",
+    "SLEP"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-09",
    "titulo": "Presupuesto 2027 y proyecto SLEP en la tabla de la Cámara para esta semana",

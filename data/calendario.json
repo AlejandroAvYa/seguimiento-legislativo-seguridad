@@ -355,33 +355,24 @@
    "hasta": "2026-11-15",
    "pasada": false,
    "actual": true,
-   "camara_sala": 3,
+   "camara_sala": 5,
    "camara_dias": [
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12"
    ],
    "senado_sala": 4,
    "senado_dias": [
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 27,
+   "senado_comisiones": 28,
    "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
-   "urgencias_vencen": [
-    {
-     "boletin": "16300-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-11"
-    },
-    {
-     "boletin": "18584-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-11"
-    }
-   ]
+   "urgencias_vencen": []
   },
   {
    "desde": "2026-11-16",
@@ -414,11 +405,6 @@
     },
     {
      "boletin": "18208-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-17"
-    },
-    {
-     "boletin": "18282-07",
      "urgencia": "Suma",
      "vence": "2026-11-17"
     },
@@ -1197,6 +1183,16 @@
   },
   {
    "fecha": "2026-11-10",
+   "tipo": "Especial",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-11",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-12",
    "tipo": "Especial",
    "estado": "Citada"
   }
