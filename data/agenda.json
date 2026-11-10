@@ -52,20 +52,6 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-09",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 89",
-   "estado": "Citada",
-   "horario": "14:33 a 18:30",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-09",
@@ -129,20 +115,6 @@
    "invitados": [
     "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
    ],
-   "seguidos": []
-  },
-  {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-09",
-   "instancia": "Sala de la Cámara · sesión especial N° 90",
-   "estado": "Citada",
-   "horario": "19:00 a 21:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
    "seguidos": []
   },
   {
@@ -645,6 +617,23 @@
     "presupuesto 2027",
     "SLEP",
     "tabla de a sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-09",
+   "titulo": "Sala de la Cámara aprobó en general Presupuesto 2027",
+   "link": "https://www.camara.cl/cms/2026/11/09/sala-de-la-camara-aprobo-en-general-presupuesto-2027/",
+   "tipo": "Sala",
+   "resumen": "La discusión en particular se iniciará en la sesión del martes, convocada entre las 14:00 y las 23:00 hrs. y seguirá el miércoles, entre las 09:30 y las 23:30 hrs.; y el jueves, a partir de las 9:30 hasta total despacho.",
+   "temas": [
+    "discusión presupuestaria",
+    "Erario nacional",
+    "Ley Presupuesto 2027",
+    "Presupuesto de la Nación",
+    "Presupuesto Kast",
+    "rebajas en educación"
    ],
    "boletines": [],
    "seguidos": []

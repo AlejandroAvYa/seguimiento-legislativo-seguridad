@@ -1,5 +1,54 @@
 [
  {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "18597-07",
+  "tipo": "Subetapa",
+  "antes": "Retirado",
+  "despues": ""
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "18525-06",
+  "tipo": "Subetapa",
+  "antes": "En espera de promulgación",
+  "despues": "Ingreso de observaciones"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-09 – Cuenta de primer informe de comisión . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "18208-25",
+  "tipo": "Nuevo informe de comisión",
+  "antes": "",
+  "despues": "2026-11-09 – Primer informe de comisión de Seguridad Ciudadana"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "18208-25",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de primer informe de comisión",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "16858-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-09 – Cuenta del Mensaje 451-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-09 21:05",
+  "boletin": "16836-06",
+  "tipo": "Subetapa",
+  "antes": "En espera de promulgación",
+  "despues": "Ingreso de observaciones"
+ },
+ {
   "fecha_deteccion": "2026-11-09 14:33",
   "boletin": "18208-25",
   "tipo": "Nuevo trámite",

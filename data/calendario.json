@@ -116,11 +116,6 @@
      "vence": "2026-10-08"
     },
     {
-     "boletin": "16858-15",
-     "urgencia": "Simple",
-     "vence": "2026-10-09"
-    },
-    {
      "boletin": "16948-07",
      "urgencia": "Suma",
      "vence": "2026-10-06"
@@ -553,7 +548,13 @@
      "fuente": "api.boostr.cl"
     }
    ],
-   "urgencias_vencen": []
+   "urgencias_vencen": [
+    {
+     "boletin": "16858-15",
+     "urgencia": "Simple",
+     "vence": "2026-12-09"
+    }
+   ]
   }
  ],
  "feriados": [
@@ -1187,12 +1188,12 @@
   {
    "fecha": "2026-11-09",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-09",
    "tipo": "Especial",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-10",

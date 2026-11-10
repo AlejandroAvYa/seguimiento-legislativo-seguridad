@@ -1863,7 +1863,7 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "En espera de promulgación",
+  "instancia_actual": "Ingreso de observaciones",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 14,
@@ -1970,7 +1970,7 @@
  },
  {
   "boletin": "16858-15",
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 909,
@@ -2019,31 +2019,23 @@
   "fecha_ingreso": "2024-05-14",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-10-09",
-  "urgencia_plazo": "Plazo cumplido el 2026-10-09 sin renovación registrada",
-  "prioridad_indice": 32,
+  "urgencia_vence_estimado": "2026-12-09",
+  "urgencia_plazo": "Vence 2026-12-09",
+  "prioridad_indice": 37,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento mensual",
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Simple: el plazo se cumplió el 2026-10-09 y no hay renovación registrada."
-   },
-   {
-    "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 35 días."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 909 días en Comisión de Obras Públicas, Transportes y Telecomunicaciones."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-05",
-  "ultimo_tramite": "Discusión general . Aprobado en general .",
+  "ultimo_tramite_fecha": "2026-11-09",
+  "ultimo_tramite": "Cuenta del Mensaje 451-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 2,
+  "n_urgencias_gobierno_actual": 3,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -4658,7 +4650,7 @@
  },
  {
   "boletin": "18208-25",
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 40,
@@ -4714,7 +4706,7 @@
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [],
   "ultimo_tramite_fecha": "2026-11-09",
-  "ultimo_tramite": "Primer informe de comisión de Seguridad Ciudadana.",
+  "ultimo_tramite": "Cuenta de primer informe de comisión .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -6145,7 +6137,7 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "En espera de promulgación",
+  "instancia_actual": "Ingreso de observaciones",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 5,
@@ -6637,7 +6629,7 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Retirado",
+  "instancia_actual": "",
   "camara_actual": "",
   "camara_origen": "Senado",
   "dias_en_etapa": 20,
