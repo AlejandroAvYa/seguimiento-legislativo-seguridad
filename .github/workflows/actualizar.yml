@@ -79,9 +79,17 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -f salida/alerta_candidatos.md ]; then
-            gh issue create \
-              --title "Candidatos nuevos para revisar ($(TZ=America/Santiago date '+%d-%m-%Y'))" \
-              --body-file salida/alerta_candidatos.md
+            # reintenta si la API de GitHub falla de forma transitoria
+            for intento in 1 2 3; do
+              if gh issue create \
+                --title "Candidatos nuevos para revisar ($(TZ=America/Santiago date '+%d-%m-%Y'))" \
+                --body-file salida/alerta_candidatos.md; then
+                break
+              fi
+              if [ "$intento" = 3 ]; then exit 1; fi
+              echo "Falló la creación del issue (intento $intento); se reintenta en 20 s."
+              sleep 20
+            done
           else
             echo "No hay candidatos nuevos."
           fi

@@ -413,3 +413,15 @@ class RespaldoSitioSenado(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FlujoActualizar(unittest.TestCase):
+    def test_issue_candidatos_reintenta(self):
+        """Un error transitorio de la API de GitHub al crear el issue de candidatos no debe perder el aviso."""
+        raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        with open(os.path.join(raiz, ".github", "workflows", "actualizar.yml"), encoding="utf-8") as f:
+            flujo = f.read()
+        paso = flujo.split("Avisar candidatos nuevos (issue)")[1].split("- name:")[0]
+        self.assertIn("for intento in", paso)
+        self.assertIn("gh issue create", paso)
+        self.assertIn("sleep", paso)
