@@ -60,6 +60,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 15261-25,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 15261-25,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 15261-25,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+15261-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 15295-07,2022-08-18,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 15295-07,2022-08-29,65/370,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 15295-07,2026-04-15,13/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 45-374 que hace presente la urgencia Simple
@@ -154,6 +155,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 15589-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 15589-07,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 15589-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+15589-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 456-374 que hace presente la urgencia Simple
 15630-07,2022-12-27,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 15630-07,2023-01-04,112/370,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 15630-07,2024-10-01,/,C.Diputados,Primer trámite constitucional,"Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento."
@@ -362,6 +364,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 15850-11,2026-10-20,/,Senado,Primer trámite constitucional,Segundo informe de comisión de Salud.
 15850-11,2026-10-20,70/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
 15850-11,2026-10-20,70/374,Senado,Primer trámite constitucional,Cuenta de segundo informe de comisión .
+15850-11,2026-11-10,76/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 15905-25,2023-05-09,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 15905-25,2023-05-10,29/371,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
 15905-25,2024-04-19,/,C.Diputados,Primer trámite constitucional,Primer informe de comisión de Seguridad Ciudadana.
@@ -680,6 +683,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 16143-02,2026-09-22,59/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 16143-02,2026-10-06,65/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 16143-02,2026-10-20,70/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+16143-02,2026-11-10,76/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 16300-07,2023-09-25,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 16300-07,2023-09-26,81/371,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
 16300-07,2023-09-26,81/371,C.Diputados,Primer trámite constitucional,"A petición del diputado señor Kaiser, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana."
@@ -702,6 +706,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 16300-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 16300-07,2026-10-06,64/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 377-374 que retira y hace presente la urgencia Discusión inmediata
 16300-07,2026-10-27,73/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 414-374 que hace presente la urgencia Suma
+16300-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata
 16430-07,2023-11-21,/,Senado,Primer trámite constitucional,Ingreso de proyecto .
 16430-07,2023-11-22,78/371,Senado,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 16430-07,2024-12-10,87/372,Senado,Primer trámite constitucional,"La Sala acuerda que el proyecto de ley sea conocido por la Comisión de Seguridad Pública, en lugar de la Comisión de Constitución, Legislación, Justicia y Reglamento."
@@ -1287,6 +1292,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17044-02,2026-08-11,49/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 253-374 que retira y hace presente la urgencia Simple
 17044-02,2026-09-08,56/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 311-374 que retira y hace presente la urgencia Simple
 17044-02,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple
+17044-02,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 456-374 que hace presente la urgencia Simple
 17111-07,2024-09-03,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17111-07,2024-09-10,75/372,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
 17111-07,2024-09-10,75/372,C.Diputados,Primer trámite constitucional,"A petición del diputado señor Fuenzalida, la Sala acordó radicar el proyecto en la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización."
@@ -1303,6 +1309,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17111-07,2025-04-15,11/373,Senado,Segundo trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Pública
 17111-07,2026-05-20,22/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 116-374 que hace presente la urgencia Simple
 17111-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 395-374 que hace presente la urgencia Suma
+17111-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 17125-25,2024-09-11,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17125-25,2024-09-24,78/372,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
 17125-25,2024-12-16,/,C.Diputados,Primer trámite constitucional,Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización.
@@ -1320,6 +1327,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17125-25,2025-04-15,11/373,Senado,Segundo trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Pública
 17125-25,2026-05-20,22/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 116-374 que hace presente la urgencia Simple
 17125-25,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 395-374 que hace presente la urgencia Suma
+17125-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 17170-07,2024-10-09,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17170-07,2024-10-10,87/372,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
 17170-07,2024-10-10,87/372,C.Diputados,Primer trámite constitucional,"A petición del diputado señor Schalper, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana."
@@ -1347,6 +1355,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17170-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 17170-07,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 17170-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+17170-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 17235-07,2024-11-14,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17235-07,2024-11-18,105/372,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
 17235-07,2024-11-18,105/372,C.Diputados,Primer trámite constitucional,"A petición del diputado señor Romero, don Leonidas, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana."
@@ -1580,6 +1589,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17486-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 17486-07,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 17486-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+17486-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 17535-25,2025-05-12,/,Senado,Primer trámite constitucional,Ingreso de proyecto .
 17535-25,2025-05-13,19/373,Senado,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Seguridad Pública, y a la Comisión de Hacienda, en su caso."
 17535-25,2025-05-27,21/373,Senado,Primer trámite constitucional,Cuenta del Mensaje 511-373 que hace presente la urgencia Suma
@@ -1675,6 +1685,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17637-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 17637-07,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 17637-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+17637-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 456-374 que hace presente la urgencia Simple
 17657-25,2025-06-24,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17657-25,2025-07-07,45/373,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
 17657-25,2026-03-23,3/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 15-374 que hace presente la urgencia Simple
@@ -1825,6 +1836,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18029-17,2026-09-22,59/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 18029-17,2026-10-06,65/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 18029-17,2026-10-20,70/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+18029-17,2026-11-10,76/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 18032-07,2026-01-05,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18032-07,2026-01-06,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18032-07,2026-01-06,106/373,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
@@ -1873,6 +1885,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18155-25,2026-09-01,53/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 288-374 que retira y hace presente la urgencia Simple
 18155-25,2026-09-29,61/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 352-374 que retira y hace presente la urgencia Simple
 18155-25,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+18155-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 456-374 que hace presente la urgencia Simple
 18156-04,2026-04-07,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N°078 / 07.04.2026
 18156-04,2026-04-07,/,C.Diputados,Primer trámite constitucional,Texto del mensaje
 18156-04,2026-04-07,9/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Educación
@@ -1940,6 +1953,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18161-07,2026-09-01,53/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 288-374 que retira y hace presente la urgencia Simple
 18161-07,2026-09-29,61/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 352-374 que retira y hace presente la urgencia Simple
 18161-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+18161-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 456-374 que hace presente la urgencia Simple
 18208-25,2026-04-20,/,Senado,Primer trámite constitucional,Ingreso de proyecto .
 18208-25,2026-04-21,10/374,Senado,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Pública
 18208-25,2026-04-21,10/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 54-374 que hace presente la urgencia Simple
@@ -1995,6 +2009,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18211-25,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 18211-25,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 393-374 que retira y hace presente la urgencia Discusión inmediata
 18211-25,2026-10-27,73/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata
+18211-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata
 18232-25,2026-05-04,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N° 090/30.04.2026.
 18232-25,2026-05-04,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18232-25,2026-05-04,17/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana.
@@ -2055,6 +2070,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18239-36,2026-10-07,/,Senado,Primer trámite constitucional,"Primer informe de comisión de la Mujer y Equidad de Género. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18239-36,2026-10-20,70/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 392-374 que hace presente la urgencia Discusión inmediata
 18239-36,2026-10-27,73/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata
+18239-36,2026-11-10,76/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata
 18257-10,2026-05-18,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N° 96/18.05.2026.
 18257-10,2026-05-18,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18257-10,2026-05-18,25/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana."
@@ -2092,6 +2108,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18258-07,2026-09-22,59/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 334-374 que retira y hace presente la urgencia Suma
 18258-07,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 376-374 que retira y hace presente la urgencia Suma
 18258-07,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
+18258-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
 18282-07,2026-05-15,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18282-07,2026-06-02,28/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18282-07,2026-08-03,49/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 225-374 que hace presente la urgencia Suma
@@ -2111,6 +2128,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18282-07,2026-11-03,87/374,C.Diputados,Primer trámite constitucional,Discusión general . Queda pendiente .
 18282-07,2026-11-04,88/374,C.Diputados,Primer trámite constitucional,Discusión general . Aprobado en general y particular a la vez .
 18282-07,2026-11-04,/,C.Diputados,Primer trámite constitucional,Oficio de ley a Cámara Revisora .
+18282-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
+18282-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma
 18314-07,2026-06-08,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18314-07,2026-06-08,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18314-07,2026-06-08,30/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento."
@@ -2132,6 +2151,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18314-07,2026-10-06,76/374,C.Diputados,En espera de insistencia,"Cuenta, Oficio de S. E. el Presidente de la República por el cual solicita, en uso de la facultad que le confiere el artículo 68 de la Constitución Política de la República, que el proyecto sea remitido al Senado. (186-374)."
 18314-07,2026-10-07,67/374,Senado,Insistencia,"Cuenta oficio insistencia del Ejecutivo . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18314-07,2026-10-27,73/374,Senado,Insistencia,Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata
+18314-07,2026-11-10,76/374,Senado,Insistencia,Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata
 18315-07,2026-06-08,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Tiene informe financiero
 18315-07,2026-06-08,30/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18315-07,2026-06-08,30/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 133-374 que hace presente la urgencia Suma
@@ -2321,6 +2341,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18525-06,2026-11-02,/,C.Diputados,Tercer trámite constitucional,"Oficio N° 21712, que comunica aprobacion de modificaciones"
 18525-06,2026-11-02,/,C.Diputados,Tercer trámite constitucional,Oficio de ley al Ejecutivo .
 18525-06,2026-11-04,88/374,C.Diputados,Trámite de aprobacion presidencial,"Cuenta, oficio de S. E. el Vicepresidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (441-374)."
+18525-06,2026-11-10,76/374,Senado,Tercer trámite constitucional,"Cuenta oficio N° 21712, que comunica aprobación de modificaciones"
 18544-06,2026-08-04,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18544-06,2026-08-10,53/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización
 18544-06,2026-08-18,59/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 272-374 que hace presente la urgencia Simple
@@ -2363,6 +2384,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18584-25,2026-09-23,60/374,Senado,Segundo trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18584-25,2026-10-06,65/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple
 18584-25,2026-10-27,73/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 416-374 que retira y hace presente la urgencia Suma
+18584-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma
 18585-25,2026-08-17,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N° 202/17.08.2026.
 18585-25,2026-08-17,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18585-25,2026-08-17,57/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana.
@@ -2380,6 +2402,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18585-25,2026-10-20,70/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma
 18585-25,2026-10-26,/,Senado,Segundo trámite constitucional,Primer informe de comisión de Seguridad Pública.
 18585-25,2026-10-27,72/374,Senado,Segundo trámite constitucional,Cuenta de primer informe de comisión .
+18585-25,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 454-374 que hace presente la urgencia Suma
+18585-25,2026-11-10,77/374,Senado,Segundo trámite constitucional,Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00
 18590-07,2026-08-10,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18590-07,2026-08-18,58/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18590-07,2026-09-07,64/374,C.Diputados,Primer trámite constitucional,"Cuenta, Oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en moción, contenidos en los boletines N°s 18282-07 y 18590-07. (37/3/2026). ACORDADO."
@@ -2394,6 +2418,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18590-07,2026-11-03,87/374,C.Diputados,Primer trámite constitucional,Discusión general . Queda pendiente
 18590-07,2026-11-04,88/374,C.Diputados,Primer trámite constitucional,Discusión general . Aprobado en general y particular a la vez
 18590-07,2026-11-04,/,C.Diputados,Primer trámite constitucional,Oficio de ley a Cámara Revisora .
+18590-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
+18590-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma
 18597-07,2026-08-18,/,Senado,Primer trámite constitucional,Ingreso de proyecto .
 18597-07,2026-08-18,51/374,Senado,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento y a Comisión de Seguridad Pública"
 18597-07,2026-08-18,51/374,Senado,Primer trámite constitucional,Cuenta del Mensaje 269-374 que hace presente la urgencia Suma
@@ -2425,3 +2451,5 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18709-07,2026-10-27,73/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 411-374 que retira y hace presente la urgencia Discusión inmediata
 18709-07,2026-10-28,74/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 433-374 que retira y hace presente la urgencia Discusión inmediata
 18709-07,2026-11-10,/,Senado,Segundo trámite constitucional,"Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento."
+18709-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta de primer informe de comisión .
+18709-07,2026-11-10,76/374,Senado,Segundo trámite constitucional,Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata

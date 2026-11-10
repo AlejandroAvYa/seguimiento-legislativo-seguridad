@@ -163,8 +163,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 3051,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -2534,21 +2534,21 @@
   "dias_en_etapa": 1028,
   "dias_desde_ingreso": 1558,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 20,
+  "n_urgencias_gobierno_actual": 21,
   "primera_urgencia_gobierno_actual": "2026-03-17",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 35,
+  "n_tramites": 36,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 42,
   "n_indicaciones_senado_ejecutivo": 14,
@@ -2811,6 +2811,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -2953,6 +2960,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -4013,30 +4027,27 @@
    "1": "2022-08-05",
    "2": "2024-01-17"
   },
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-05) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-05-05) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1028 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
-  "n_alertas": 3,
-  "prioridad_indice": 51,
+  "n_alertas": 2,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -4080,9 +4091,9 @@
     "Está en segundo trámite en el Senado, en la comisión de Gobierno, Descentralización y Regionalización, desde el 17 de enero de 2024 (1028 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 17 de enero de 2024.",
     "El Senado lo aprobó en general el 5 de mayo.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: Boletín de indicaciones (28 de mayo).",
-    "Desde su último avance se han presentado o renovado 13 urgencias."
+    "Desde su último avance se han presentado o renovado 14 urgencias."
    ],
    "indicado": [
     "En el Senado se presentaron 42 indicaciones: 14 del Ejecutivo y 28 parlamentarias (Sánchez, Astudillo, Pascual, Velásquez).",
@@ -6695,8 +6706,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1540,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -13762,22 +13773,22 @@
   "fecha_inicio_etapa": "2025-09-30",
   "dias_en_etapa": 406,
   "dias_desde_ingreso": 1427,
-  "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente": "Simple",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 16,
+  "n_urgencias_gobierno_actual": 17,
   "primera_urgencia_gobierno_actual": "2026-03-24",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Simple (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 40,
+  "n_tramites": 41,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 57,
   "n_indicaciones_senado_ejecutivo": 10,
@@ -14075,6 +14086,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -14189,6 +14207,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "456-374"
    }
   ],
   "hitos": [
@@ -22822,11 +22847,11 @@
    "1": "2022-12-14",
    "2": "2025-09-30"
   },
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-07-07) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -22834,14 +22859,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
-   "Urgencia suma (+25)",
+   "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -22885,9 +22911,9 @@
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 30 de septiembre de 2025 (406 días).",
     "La Cámara de Diputados lo aprobó en general el 9 de julio de 2025 y en particular el 17 de septiembre de 2025.",
     "El Senado lo aprobó en general el 7 de julio.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda abrir un nuevo plazo para presentar indicaciones a este proyecto de ley hasta la medianoche del día de hoy, en la Secretaría de la Comisión de Constitución, Legisla (22 de julio).",
-    "Desde su último avance se han presentado o renovado 9 urgencias."
+    "Desde su último avance se han presentado o renovado 10 urgencias."
    ],
    "indicado": [
     "En el Senado se presentaron 57 indicaciones: 10 del Ejecutivo y 47 parlamentarias (Longton, Vodanovic, Pascual, Sánchez).",
@@ -27107,8 +27133,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1407,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -66371,8 +66397,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1309,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -66451,21 +66477,21 @@
   "dias_en_etapa": 1302,
   "dias_desde_ingreso": 1302,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 17,
+  "n_urgencias_gobierno_actual": 18,
   "primera_urgencia_gobierno_actual": "2026-03-17",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta de segundo informe de comisión .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 72,
+  "n_tramites": 73,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 31,
   "n_indicaciones_senado_ejecutivo": 24,
@@ -66987,6 +67013,13 @@
     "descripcion": "Cuenta de segundo informe de comisión .",
     "etapa": "Primer trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -67409,6 +67442,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -67874,32 +67914,29 @@
   "avance_inicio": {
    "1": "2023-04-18"
   },
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1302 días en Sala."
    }
   ],
-  "n_alertas": 2,
-  "prioridad_indice": 47,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "n_alertas": 1,
+  "prioridad_indice": 52,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En Sala (+12)",
    "Proyecto conexo (+5)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1302,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -67907,7 +67944,7 @@
    "estado": [
     "Está en primer trámite, en la Sala del Senado, desde el 18 de abril de 2023 (1302 días).",
     "El Senado lo aprobó en general el 21 de julio.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de segundo informe de comisión (20 de octubre)."
    ],
    "indicado": [
@@ -81182,21 +81219,21 @@
   "dias_en_etapa": 1196,
   "dias_desde_ingreso": 1196,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "primera_urgencia_gobierno_actual": "2026-04-07",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 101,
+  "n_tramites": 102,
   "n_boletines_indicaciones_senado": 2,
   "n_indicaciones_senado": 128,
   "n_indicaciones_senado_ejecutivo": 2,
@@ -81921,6 +81958,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Primer trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -82483,6 +82527,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -83354,36 +83405,33 @@
   "avance_inicio": {
    "1": "2023-08-02"
   },
-  "n_urgencias_en_etapa": 63,
+  "n_urgencias_en_etapa": 64,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 63 urgencias desde su último avance (2024-06-19) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 64 urgencias desde su último avance (2024-06-19) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1196 días en Comisión de Defensa Nacional."
    }
   ],
-  "n_alertas": 3,
-  "prioridad_indice": 53,
+  "n_alertas": 2,
+  "prioridad_indice": 58,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Preparar la sesión de Comisión de Defensa Nacional del 10-11",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 10-11 (+8)"
+   "Citado a sesión el 10-11 (+8)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1196,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -83420,9 +83468,9 @@
    "estado": [
     "Está en primer trámite en el Senado, en la comisión de Defensa Nacional, desde el 2 de agosto de 2023 (1196 días).",
     "El Senado lo aprobó en general el 19 de junio de 2024.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Próxima sesión citada: Comisión de Defensa Nacional, el martes 10 de noviembre a las 12:30.",
-    "Desde su último avance se han presentado o renovado 63 urgencias."
+    "Desde su último avance se han presentado o renovado 64 urgencias."
    ],
    "indicado": [
     "En el Senado se presentaron 128 indicaciones: 2 del Ejecutivo y 126 parlamentarias (Macaya, Aravena, Edwards, Pugh).",
@@ -83486,22 +83534,22 @@
   "fecha_inicio_etapa": "2026-08-11",
   "dias_en_etapa": 91,
   "dias_desde_ingreso": 1142,
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vigente_desde": "",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
+  "urgencia_vigente": "Discusión inmediata",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "primera_urgencia_gobierno_actual": "2026-06-15",
-  "ultima_urgencia": "Suma (2026-10-27)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 414-374 que hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 22,
+  "n_tramites": 23,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -83673,6 +83721,13 @@
     "descripcion": "Cuenta del Mensaje 414-374 que hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -83752,6 +83807,13 @@
     "retiro": "2026-11-10",
     "camara": "Senado",
     "mensaje": "414-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "453-374"
    }
   ],
   "hitos": [
@@ -86591,13 +86653,20 @@
    "1": "2023-09-25",
    "2": "2026-08-11"
   },
-  "n_urgencias_en_etapa": 6,
-  "alertas": [],
-  "n_alertas": 0,
-  "prioridad_indice": 31,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Seguimiento mensual",
+  "n_urgencias_en_etapa": 7,
+  "alertas": [
+   {
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
+   }
+  ],
+  "n_alertas": 1,
+  "prioridad_indice": 86,
+  "prioridad_nivel": "Crítica",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
+   "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
@@ -86644,8 +86713,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de agosto (91 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 11 de agosto.",
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
     "Último trámite, sin contar urgencias: Por acuerdo de Comités, ratificado por la Sala, se dispone que este proyecto de ley sea conocido por la Comisiones de Constitución, Legislación, Justicia y Reglamento y de Segurida (8 de septiembre).",
-    "Desde su último avance se han presentado o renovado 6 urgencias."
+    "Desde su último avance se han presentado o renovado 7 urgencias."
    ],
    "indicado": [
     "El 11 de agosto, la Sala de la Cámara votó 3 veces: 2 aprobadas y 1 rechazadas.",
@@ -103022,8 +103092,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 939,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -103212,8 +103282,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 935,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -127032,8 +127102,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 910,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -127219,8 +127289,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 900,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -135662,21 +135732,21 @@
   "dias_en_etapa": 307,
   "dias_desde_ingreso": 825,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-10-06",
-  "urgencia_vence_estimado": "2026-11-05",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-05 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "primera_urgencia_gobierno_actual": "2026-05-20",
-  "ultima_urgencia": "Simple (2026-10-06)",
+  "ultima_urgencia": "Simple (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-06",
-  "ultimo_tramite": "Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 17,
+  "n_tramites": 18,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -135813,6 +135883,13 @@
     "descripcion": "Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -135857,6 +135934,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "374-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "456-374"
    }
   ],
   "hitos": [
@@ -137818,30 +137902,23 @@
    "1": "2024-08-07",
    "2": "2026-01-07"
   },
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Simple: el plazo se cumplió el 2026-11-05 y no hay renovación registrada."
-   },
-   {
-    "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 35 días."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 307 días en Comisión de Defensa Nacional."
    }
   ],
-  "n_alertas": 3,
-  "prioridad_indice": 38,
+  "n_alertas": 1,
+  "prioridad_indice": 43,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento mensual",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -137884,9 +137961,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Defensa Nacional, desde el 7 de enero (307 días).",
     "La Cámara de Diputados lo aprobó en general el 1 de diciembre de 2025 y en particular el 7 de enero.",
-    "Tiene urgencia simple; el plazo estimado venció el 5 de noviembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Defensa Nacional (7 de enero).",
-    "Desde su último avance se han presentado o renovado 6 urgencias."
+    "Desde su último avance se han presentado o renovado 7 urgencias."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (7 de enero): 105 a favor, 16 en contra y 9 abstenciones (aprobado).",
@@ -137931,21 +138008,21 @@
   "dias_en_etapa": 574,
   "dias_desde_ingreso": 798,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "17125-25 / 17111-07 (matriz)",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 2,
+  "n_urgencias_gobierno_actual": 3,
   "primera_urgencia_gobierno_actual": "2026-05-20",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 16,
+  "n_tramites": 17,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -138075,6 +138152,13 @@
     "descripcion": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -138091,6 +138175,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "395-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -140038,26 +140129,23 @@
    "1": "2024-09-03",
    "2": "2025-04-15"
   },
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 574 días en Comisión de Seguridad Pública."
    }
   ],
-  "n_alertas": 2,
-  "prioridad_indice": 51,
+  "n_alertas": 1,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -140100,8 +140188,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 15 de abril de 2025 (574 días).",
     "La Cámara de Diputados lo aprobó en particular el 14 de abril de 2025.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
-    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (15 de abril de 2025)."
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (15 de abril de 2025).",
+    "Desde su último avance se han presentado o renovado 3 urgencias."
    ],
    "indicado": [
     "El 14 de abril de 2025, la Sala de la Cámara votó 2 veces: todas aprobadas.",
@@ -140176,10 +140265,10 @@
   "primera_urgencia_gobierno_actual": "2026-05-20",
   "ultima_urgencia": "Suma (2026-10-20)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 17,
+  "n_tramites": 18,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -140314,6 +140403,13 @@
     "fecha": "2026-10-20",
     "sesion": "70/374",
     "descripcion": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
    }
@@ -141249,14 +141345,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 51,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -141364,21 +141461,21 @@
   "dias_en_etapa": 210,
   "dias_desde_ingreso": 762,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "17170-07 (matriz) / 17486-07",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 14,
+  "n_urgencias_gobierno_actual": 15,
   "primera_urgencia_gobierno_actual": "2026-04-08",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 27,
+  "n_tramites": 28,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -141585,6 +141682,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -141685,6 +141789,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -144540,30 +144651,27 @@
    "1": "2024-10-09",
    "2": "2026-04-14"
   },
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 210 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "n_alertas": 3,
-  "prioridad_indice": 51,
+  "n_alertas": 2,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -144606,9 +144714,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 14 de abril (210 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de abril.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (14 de abril).",
-    "Desde su último avance se han presentado o renovado 13 urgencias."
+    "Desde su último avance se han presentado o renovado 14 urgencias."
    ],
    "indicado": [
     "El 13 de abril, la Sala de la Cámara votó 3 veces: todas aprobadas.",
@@ -150093,8 +150201,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 610,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -153547,10 +153655,10 @@
   "primera_urgencia_gobierno_actual": "2026-04-08",
   "ultima_urgencia": "Suma (2026-10-06)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 25,
+  "n_tramites": 26,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -153741,6 +153849,13 @@
     "fecha": "2026-10-20",
     "sesion": "70/374",
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
    }
@@ -153952,14 +154067,15 @@
    }
   ],
   "n_alertas": 3,
-  "prioridad_indice": 51,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -173960,22 +174076,22 @@
   "fecha_inicio_etapa": "2025-11-25",
   "dias_en_etapa": 350,
   "dias_desde_ingreso": 511,
-  "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente": "Simple",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 12,
+  "n_urgencias_gobierno_actual": 13,
   "primera_urgencia_gobierno_actual": "2026-06-02",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Simple (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 31,
+  "n_tramites": 32,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -174210,6 +174326,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -174373,6 +174496,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "456-374"
    }
   ],
   "hitos": [
@@ -177254,30 +177384,27 @@
    "1": "2025-06-17",
    "2": "2025-11-25"
   },
-  "n_urgencias_en_etapa": 16,
+  "n_urgencias_en_etapa": 17,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 16 urgencias desde su último avance (2025-11-25) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 17 urgencias desde su último avance (2025-11-25) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 350 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "n_alertas": 3,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "n_alertas": 2,
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
-   "Urgencia suma (+25)",
+   "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -177320,9 +177447,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (350 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 25 de noviembre de 2025.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (25 de noviembre de 2025).",
-    "Desde su último avance se han presentado o renovado 16 urgencias."
+    "Desde su último avance se han presentado o renovado 17 urgencias."
    ],
    "indicado": [
     "El 25 de noviembre de 2025, la Sala de la Cámara votó 3 veces: 2 aprobadas y 1 rechazadas.",
@@ -177531,8 +177658,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 504,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -180949,8 +181076,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 497,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -187376,8 +187503,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 476,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -192579,8 +192706,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 401,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -195710,21 +195837,21 @@
   "dias_en_etapa": 321,
   "dias_desde_ingreso": 321,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "primera_urgencia_gobierno_actual": "2026-06-16",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 17,
+  "n_tramites": 18,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 11,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -195861,6 +195988,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Primer trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -195919,6 +196053,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -196554,31 +196695,28 @@
   "avance_inicio": {
    "1": "2025-12-24"
   },
-  "n_urgencias_en_etapa": 5,
+  "n_urgencias_en_etapa": 6,
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 321 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
    }
   ],
-  "n_alertas": 2,
-  "prioridad_indice": 35,
+  "n_alertas": 1,
+  "prioridad_indice": 40,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "Proyecto conexo (+5)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 321,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -196615,9 +196753,9 @@
    "estado": [
     "Está en primer trámite en el Senado, en la comisión de Derechos Humanos, Nacionalidad y Ciudadanía, desde el 24 de diciembre de 2025 (321 días).",
     "El Senado lo aprobó en general el 8 de julio.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda abrir un nuevo plazo para presentar indicaciones a este proyecto de ley hasta las 20.00 horas del día de hoy, en la Secretaría de la Comisión de Derechos Humanos, N (1 de septiembre).",
-    "Desde su último avance se han presentado o renovado 5 urgencias."
+    "Desde su último avance se han presentado o renovado 6 urgencias."
    ],
    "indicado": [
     "En el Senado se presentaron 11 indicaciones, todas parlamentarias (Vial).",
@@ -200734,22 +200872,22 @@
   "fecha_inicio_etapa": "2026-05-13",
   "dias_en_etapa": 181,
   "dias_desde_ingreso": 217,
-  "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente": "Simple",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18155-25 (matriz) / 18161-07",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 15,
+  "n_urgencias_gobierno_actual": 16,
   "primera_urgencia_gobierno_actual": "2026-04-07",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Simple (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-05-04",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 31,
+  "n_tramites": 32,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -200984,6 +201122,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -201091,6 +201236,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "456-374"
    }
   ],
   "hitos": [
@@ -203058,11 +203210,11 @@
    "1": "2026-04-07",
    "2": "2026-05-13"
   },
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-05-13) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -203070,14 +203222,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 56,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "prioridad_indice": 48,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
-   "Urgencia suma (+25)",
+   "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Mensaje del actual Gobierno (+10)"
+   "Mensaje del actual Gobierno (+10)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -203120,9 +203273,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (181 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de mayo.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (13 de mayo).",
-    "Desde su último avance se han presentado o renovado 9 urgencias."
+    "Desde su último avance se han presentado o renovado 10 urgencias."
    ],
    "indicado": [
     "El 13 de mayo, la Sala de la Cámara votó 2 veces: todas aprobadas.",
@@ -232252,10 +232405,10 @@
   "fecha_inicio_etapa": "2026-05-13",
   "dias_en_etapa": 181,
   "dias_desde_ingreso": 217,
-  "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
+  "urgencia_vigente": "Simple",
+  "urgencia_vigente_desde": "2026-09-29",
+  "urgencia_vence_estimado": "2026-10-29",
+  "urgencia_plazo": "Plazo cumplido el 2026-10-29 sin renovación registrada",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18155-25 (matriz) / 18161-07",
@@ -232264,10 +232417,10 @@
   "primera_urgencia_gobierno_actual": "2026-04-22",
   "ultima_urgencia": "Simple (2026-09-29)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-05-04",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 26,
+  "n_tramites": 27,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -232467,6 +232620,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -232649,19 +232809,24 @@
   "n_urgencias_en_etapa": 8,
   "alertas": [
    {
+    "tipo": "Urgencia con plazo cumplido",
+    "detalle": "Simple: el plazo se cumplió el 2026-10-29 y no hay renovación registrada."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 181 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "n_alertas": 1,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "n_alertas": 2,
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "prioridad_motivos": [
-   "Urgencia suma (+25)",
+   "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -232704,7 +232869,7 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (181 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de mayo.",
-    "Tiene urgencia suma.",
+    "Tiene urgencia simple; el plazo estimado venció el 29 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (13 de mayo).",
     "Desde su último avance se han presentado o renovado 8 urgencias."
    ],
@@ -233821,21 +233986,21 @@
   "dias_en_etapa": 139,
   "dias_desde_ingreso": 202,
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vigente_desde": "2026-10-27",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "primera_urgencia_gobierno_actual": "2026-06-02",
-  "ultima_urgencia": "Discusión inmediata (2026-10-27)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 24,
+  "n_tramites": 25,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -234021,6 +234186,13 @@
     "descripcion": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -234100,6 +234272,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "412-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "452-374"
    }
   ],
   "hitos": [
@@ -235093,19 +235272,24 @@
    "1": "2026-04-22",
    "2": "2026-06-24"
   },
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-06-24) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "n_alertas": 1,
-  "prioridad_indice": 71,
+  "n_alertas": 2,
+  "prioridad_indice": 86,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
@@ -235152,9 +235336,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 24 de junio (139 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 24 de junio.",
-    "Tiene urgencia discusión inmediata; el plazo estimado venció el 2 de noviembre.",
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
     "Último trámite, sin contar urgencias: Por acuerdo de Comités, ratificado por la Sala, se dispone que este proyecto de ley sea conocido por la Comisiones de Constitución, Legislación, Justicia y Reglamento y de Segurida (8 de septiembre).",
-    "Desde su último avance se han presentado o renovado 9 urgencias."
+    "Desde su último avance se han presentado o renovado 10 urgencias."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (24 de junio): 100 a favor, 36 en contra y 2 abstenciones (aprobado).",
@@ -238067,21 +238251,21 @@
   "dias_en_etapa": 188,
   "dias_desde_ingreso": 188,
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vigente_desde": "2026-10-27",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 13,
+  "n_urgencias_gobierno_actual": 14,
   "primera_urgencia_gobierno_actual": "2026-05-13",
-  "ultima_urgencia": "Discusión inmediata (2026-10-27)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 23,
+  "n_tramites": 24,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -238260,6 +238444,13 @@
     "descripcion": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
     "etapa": "Primer trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -238353,6 +238544,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "412-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "452-374"
    }
   ],
   "hitos": [
@@ -238432,15 +238630,15 @@
   "avance_inicio": {
    "1": "2026-05-06"
   },
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-06) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-05-06) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
@@ -238448,11 +238646,12 @@
    }
   ],
   "n_alertas": 3,
-  "prioridad_indice": 55,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "prioridad_indice": 70,
+  "prioridad_nivel": "Crítica",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "Proyecto conexo (+5)",
    "Con urgencias del actual Gobierno (+5)",
    "Movimiento en los últimos 14 días (+5)"
@@ -238460,8 +238659,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 188,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -238497,9 +238696,9 @@
   "resumen": {
    "estado": [
     "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de mayo (188 días).",
-    "Tiene urgencia discusión inmediata; el plazo estimado venció el 2 de noviembre.",
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
     "Último trámite, sin contar urgencias: Primer informe de comisión de la Mujer y Equidad de Género. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (7 de octubre).",
-    "Desde su último avance se han presentado o renovado 13 urgencias."
+    "Desde su último avance se han presentado o renovado 14 urgencias."
    ],
    "indicado": [],
    "falta": [
@@ -240019,21 +240218,21 @@
   "dias_en_etapa": 98,
   "dias_desde_ingreso": 176,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 13,
+  "n_urgencias_gobierno_actual": 14,
   "primera_urgencia_gobierno_actual": "2026-05-20",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 23,
+  "n_tramites": 24,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -240212,6 +240411,13 @@
     "descripcion": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -240305,6 +240511,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -243144,22 +243357,18 @@
    "1": "2026-05-18",
    "2": "2026-08-04"
   },
-  "n_urgencias_en_etapa": 7,
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   }
-  ],
-  "n_alertas": 1,
-  "prioridad_indice": 56,
+  "n_urgencias_en_etapa": 8,
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": 61,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Mensaje del actual Gobierno (+10)"
+   "Mensaje del actual Gobierno (+10)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -243202,9 +243411,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 4 de agosto (98 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de agosto.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (4 de agosto).",
-    "Desde su último avance se han presentado o renovado 7 urgencias."
+    "Desde su último avance se han presentado o renovado 8 urgencias."
    ],
    "indicado": [
     "El 4 de agosto, la Sala de la Cámara votó 3 veces: 2 aprobadas y 1 rechazadas.",
@@ -243259,29 +243468,29 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Cuenta de proyecto",
+  "subetapa": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
-  "instancia_actual": "Sala",
-  "fecha_inicio_etapa": "2026-05-15",
-  "dias_en_etapa": 179,
+  "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+  "fecha_inicio_etapa": "2026-11-10",
+  "dias_en_etapa": 0,
   "dias_desde_ingreso": 179,
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vigente_desde": "",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
+  "urgencia_vigente": "Suma",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18282-07 (matriz) / 18590-07",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 8,
+  "n_urgencias_gobierno_actual": 9,
   "primera_urgencia_gobierno_actual": "2026-08-03",
-  "ultima_urgencia": "Suma (2026-11-02)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
-  "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 19,
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_camara": "Senado",
+  "n_tramites": 21,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -243432,6 +243641,20 @@
     "descripcion": "Oficio de ley a Cámara Revisora .",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -243490,6 +243713,13 @@
     "retiro": "2026-11-10",
     "camara": "C. Diputados",
     "mensaje": "437-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "455-374"
    }
   ],
   "hitos": [
@@ -244487,13 +244717,13 @@
     ]
    }
   ],
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -244510,34 +244740,72 @@
    "LEY": ""
   },
   "avance_inicio": {
-   "1": "2026-05-15"
+   "1": "2026-05-15",
+   "2": "2026-11-10"
   },
   "n_urgencias_en_etapa": 0,
   "alertas": [],
   "n_alertas": 0,
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Asegurar los votos para la votación en Sala",
+  "prioridad_indice": 56,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
-   "En Sala (+12)",
+   "Urgencia suma (+25)",
+   "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
    "Movimiento en los últimos 14 días (+5)"
   ],
-  "ritmo": {},
-  "comision_actual": {},
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 0,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
+  "comision_actual": {
+   "nombre": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "integrantes": [
+    {
+     "nombre": "Andrés Longton Herrera",
+     "funcion": "",
+     "partido": "R.N."
+    },
+    {
+     "nombre": "Vlado Mirosevic Verdugo",
+     "funcion": "presidente",
+     "partido": "Liberal"
+    },
+    {
+     "nombre": "Claudia Pascual Grau",
+     "funcion": "",
+     "partido": "P.C"
+    },
+    {
+     "nombre": "Arturo Squella Ovalle",
+     "funcion": "",
+     "partido": "Republicano"
+    },
+    {
+     "nombre": "Paulina Vodanovic Rojas",
+     "funcion": "",
+     "partido": "P.S."
+    }
+   ]
+  },
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 15 de mayo (179 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (0 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general y particular a la vez (4 de noviembre)."
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (4 de noviembre): 142 a favor, 0 en contra y 0 abstenciones (aprobado).",
     "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (23 de octubre)."
    ],
    "falta": [
-    "Falta la votación en la Sala del Senado.",
+    "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
@@ -244596,21 +244864,21 @@
   "dias_en_etapa": 34,
   "dias_desde_ingreso": 155,
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vigente_desde": "2026-10-27",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 10,
+  "n_urgencias_gobierno_actual": 11,
   "primera_urgencia_gobierno_actual": "2026-06-08",
-  "ultima_urgencia": "Discusión inmediata (2026-10-27)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-08-28",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 21,
+  "n_tramites": 22,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -244775,6 +245043,13 @@
     "descripcion": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
     "etapa": "Insistencia",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
+    "etapa": "Insistencia",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -244847,6 +245122,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "412-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "452-374"
    }
   ],
   "hitos": [
@@ -245870,11 +246152,11 @@
    "1": "2026-06-08",
    "CM": "2026-10-06"
   },
-  "n_urgencias_en_etapa": 1,
+  "n_urgencias_en_etapa": 2,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    },
    {
     "tipo": "Votación rechazada",
@@ -245882,11 +246164,12 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 88,
+  "prioridad_indice": 100,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En trámite final (+18)",
    "Proyecto núcleo de seguridad (+15)",
    "Mensaje del actual Gobierno (+10)",
@@ -245928,7 +246211,7 @@
     "Está en Comisión Mixta (comisión de Constitución, Legislación, Justicia y Reglamento), desde el 7 de octubre (34 días).",
     "La Cámara de Diputados lo rechazó en general el 22 de septiembre.",
     "Hubo insistencia del Senado el 7 de octubre.",
-    "Tiene urgencia discusión inmediata; el plazo estimado venció el 2 de noviembre.",
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio de S. E. el Presidente de la República por el cual solicita, en uso de la facultad que le confiere el artículo 68 de la Constitución Política de la República, que el (6 de octubre)."
    ],
    "indicado": [
@@ -246655,8 +246938,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 158,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -247102,8 +247385,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 151,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -247361,8 +247644,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 154,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -247810,8 +248093,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 144,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -248734,8 +249017,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 139,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -250160,8 +250443,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 138,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -250440,8 +250723,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 135,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {},
@@ -250730,8 +251013,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 99,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -250778,8 +251061,8 @@
   "tramite_constitucional": "Trámite de aprobacion presidencial",
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Ingreso de observaciones",
-  "fecha_inicio_etapa": "2026-11-04",
-  "dias_en_etapa": 6,
+  "fecha_inicio_etapa": "2026-11-10",
+  "dias_en_etapa": 0,
   "dias_desde_ingreso": 98,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-28",
@@ -250793,10 +251076,10 @@
   "primera_urgencia_gobierno_actual": "2026-08-04",
   "ultima_urgencia": "Discusión inmediata (2026-10-28)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-08-10, 2026-08-11",
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Cuenta, oficio de S. E. el Vicepresidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (441-374).",
-  "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 39,
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta oficio N° 21712, que comunica aprobación de modificaciones",
+  "ultimo_tramite_camara": "Senado",
+  "n_tramites": 40,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 8,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -251087,6 +251370,13 @@
     "descripcion": "Cuenta, oficio de S. E. el Vicepresidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (441-374).",
     "etapa": "Trámite de aprobacion presidencial",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta oficio N° 21712, que comunica aprobación de modificaciones",
+    "etapa": "Tercer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -257166,8 +257456,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 98,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -257425,8 +257715,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 97,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -257684,8 +257974,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 97,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -257735,22 +258025,22 @@
   "fecha_inicio_etapa": "2026-09-23",
   "dias_en_etapa": 48,
   "dias_desde_ingreso": 85,
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vigente_desde": "",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
+  "urgencia_vigente": "Suma",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 7,
+  "n_urgencias_gobierno_actual": 8,
   "primera_urgencia_gobierno_actual": "2026-08-17",
-  "ultima_urgencia": "Suma (2026-10-27)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-09-04",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 416-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 17,
+  "n_tramites": 18,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -257887,6 +258177,13 @@
     "descripcion": "Cuenta del Mensaje 416-374 que retira y hace presente la urgencia Suma",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -257938,6 +258235,13 @@
     "retiro": "2026-11-10",
     "camara": "Senado",
     "mensaje": "416-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "455-374"
    }
   ],
   "hitos": [
@@ -260807,7 +261111,7 @@
    "1": "2026-08-17",
    "2": "2026-09-23"
   },
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "alertas": [
    {
     "tipo": "Votación rechazada",
@@ -260815,10 +261119,11 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 36,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Seguimiento mensual",
+  "prioridad_indice": 61,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
+   "Urgencia suma (+25)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Mensaje del actual Gobierno (+10)",
@@ -260865,7 +261170,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 23 de septiembre (48 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 23 de septiembre.",
-    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (23 de septiembre)."
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (23 de septiembre).",
+    "Desde su último avance se han presentado o renovado 3 urgencias."
    ],
    "indicado": [
     "El 23 de septiembre, la Sala de la Cámara votó 3 veces: 2 aprobadas y 1 rechazadas.",
@@ -260904,7 +261211,13 @@
   "acot_iniciativa": "Test de ADN: habilitación a las policías",
   "acot_grupo": "Nuevo (anunciado 06-08-2026)",
   "agenda": [],
-  "plazo_indicaciones": [],
+  "plazo_indicaciones": [
+   {
+    "fecha": "2026-11-26",
+    "hora": "12:00",
+    "donde": "Secretaría del Senado"
+   }
+  ],
   "titulo": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
   "clasificacion": "Núcleo",
   "materia": "Persecución penal y proceso penal",
@@ -260921,29 +261234,29 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Discusión general",
+  "subetapa": "Boletín de indicaciones de Seguridad Pública",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
-  "instancia_actual": "Sala",
+  "instancia_actual": "Boletín de indicaciones de Seguridad Pública",
   "fecha_inicio_etapa": "2026-09-22",
   "dias_en_etapa": 49,
   "dias_desde_ingreso": 85,
   "urgencia_vigente": "Suma",
-  "urgencia_vigente_desde": "2026-10-20",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "primera_urgencia_gobierno_actual": "2026-08-17",
-  "ultima_urgencia": "Suma (2026-10-20)",
+  "ultima_urgencia": "Suma (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 17,
+  "n_tramites": 19,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -260953,8 +261266,8 @@
   "ultima_presentacion_indicaciones": "",
   "n_informes_comision": 2,
   "ultimo_informe": "2026-10-26 – Primer informe de comisión de Seguridad Pública",
-  "n_votaciones_sala_senado": 0,
-  "ultima_votacion_sala_senado": "",
+  "n_votaciones_sala_senado": 1,
+  "ultima_votacion_sala_senado": "2026-11-10 – Discusión general: s/r (34-0-0)",
   "n_votaciones_sala_camara": 2,
   "ultima_votacion_sala_camara": "2026-09-21 – Proyecto de Ley: Aprobado (124-0-9)",
   "veto": "No",
@@ -261080,6 +261393,20 @@
     "descripcion": "Cuenta de primer informe de comisión .",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "77/374",
+    "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -261124,6 +261451,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "394-374"
+   },
+   {
+    "tipo": "Suma",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "454-374"
    }
   ],
   "hitos": [
@@ -261144,6 +261478,12 @@
     "hito": "Despachado a la cámara revisora",
     "camara": "C.Diputados",
     "etapa": "Primer trámite constitucional"
+   },
+   {
+    "fecha": "2026-11-10",
+    "hito": "Aprobado en general",
+    "camara": "Senado",
+    "etapa": "Segundo trámite constitucional"
    }
   ],
   "informes": [
@@ -261209,7 +261549,259 @@
    }
   ],
   "boletines_indicaciones": [],
-  "votaciones": [],
+  "votaciones": [
+   {
+    "fecha": "2026-11-10",
+    "sesion": "77/374",
+    "tipo": "Discusión general",
+    "etapa": "Segundo trámite constitucional",
+    "quorum": "Q.C.",
+    "si": 34,
+    "no": 0,
+    "abstencion": 0,
+    "pareo": 0,
+    "resultado": "",
+    "tema": "En votación el inciso cuarto del artículo 13 bis contenido en el número 5) del artículo 2, que reviste el carácter de norma de quorum calificado, que consta en la página 4 del comparado.",
+    "votos": [
+     {
+      "parlamentario": "Araya G., Pedro",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Kuschel S., Carlos Ignacio",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Flores G., Iván",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "De Urresti L., Alfonso",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Flores O., Camila",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Pascual G., Claudia",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Espinoza S., Fidel",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Longton H., Andrés",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Becker A., Miguel Ángel",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Huenchumilla J., Francisco",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Moreira B., Iván",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Ossandón I., Manuel José",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Lee F., Enrique",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Ordenes N., Ximena",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Vial M., Cristian",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Balladares L., Andrea",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Kaiser B., Vanessa",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Ibáñez C., Diego",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Sánchez M., Beatriz",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Cariola O., Karol",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Trisotti M., Renzo",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Gatica B., María José",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Provoste C., Yasna",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Keitel B., Sebastián",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Mirosevic V., Vlado",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Calisto Á., Miguel Ángel",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Walker P., Matías",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Squella O., Arturo",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Sanhueza D., Gustavo",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Urrutia B., Ignacio",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Velásquez N., Esteban",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Saavedra C., Gastón",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Van Rysselberghe H., Enrique",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Edwards ., Rojo",
+      "seleccion": "Si"
+     }
+    ],
+    "por_partido": [
+     {
+      "partido": "R.N.",
+      "si": 7,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Independiente",
+      "si": 5,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "P.D.C.",
+      "si": 3,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "P.S.",
+      "si": 3,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Republicano",
+      "si": 3,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "U.D.I.",
+      "si": 3,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Frente Amplio",
+      "si": 2,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "P.C",
+      "si": 2,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Demócratas",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Evópoli",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "F.R.E.V.S.",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Liberal",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Nacional Libertario",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "P.P.D.",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     }
+    ]
+   }
+  ],
   "indicaciones_por_autor": [],
   "indicaciones_por_articulo": [],
   "votaciones_camara": [
@@ -263050,13 +263642,13 @@
     ]
    }
   ],
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -263077,19 +263669,14 @@
    "2": "2026-09-22"
   },
   "n_urgencias_en_etapa": 0,
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   }
-  ],
-  "n_alertas": 1,
-  "prioridad_indice": 67,
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": 61,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
-   "En Sala (+12)",
+   "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Mensaje del actual Gobierno (+10)",
    "Movimiento en los últimos 14 días (+5)"
@@ -263104,17 +263691,20 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 22 de septiembre (49 días).",
+    "Está en segundo trámite en el Senado (boletín de indicaciones de Seguridad Pública), desde el 22 de septiembre (49 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de septiembre.",
-    "Tiene urgencia suma; el plazo estimado venció el 4 de noviembre.",
-    "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (27 de octubre)."
+    "El Senado lo aprobó en general el 10 de noviembre.",
+    "Tiene urgencia suma; el plazo estimado vence el 25 de noviembre.",
+    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00 (10 de noviembre)."
    ],
    "indicado": [
+    "El plazo para presentar indicaciones vence el jueves 26 de noviembre a las 12:00.",
     "El 21 de septiembre, la Sala de la Cámara votó 2 veces: todas aprobadas.",
+    "Última votación en la Sala del Senado (10 de noviembre): 34 a favor, 0 en contra y 0 abstenciones ().",
     "Último informe: Primer informe de comisión de Seguridad Pública (26 de octubre)."
    ],
    "falta": [
-    "Falta la votación en general en la Sala del Senado. Si se aprueba, se abre plazo de indicaciones y vuelve a comisión para la discusión en particular, salvo que se vote en general y particular a la vez.",
+    "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
@@ -263136,7 +263726,8 @@
       "parrafos": []
      }
     ]
-   }
+   },
+   "aviso": "Hubo avances después de la redacción del 3 de noviembre (último: aprobado en general, 10 de noviembre)."
   }
  },
  {
@@ -263163,12 +263754,12 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Cuenta de proyecto",
+  "subetapa": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
-  "instancia_actual": "Sala",
-  "fecha_inicio_etapa": "2026-08-10",
-  "dias_en_etapa": 92,
+  "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+  "fecha_inicio_etapa": "2026-11-10",
+  "dias_en_etapa": 0,
   "dias_desde_ingreso": 92,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-02",
@@ -263182,10 +263773,10 @@
   "primera_urgencia_gobierno_actual": "2026-09-21",
   "ultima_urgencia": "Suma (2026-11-02)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
-  "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 14,
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_camara": "Senado",
+  "n_tramites": 16,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -263301,6 +263892,20 @@
     "descripcion": "Oficio de ley a Cámara Revisora .",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -263399,13 +264004,13 @@
   "indicaciones_por_autor": [],
   "indicaciones_por_articulo": [],
   "votaciones_camara": [],
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -263422,7 +264027,8 @@
    "LEY": ""
   },
   "avance_inicio": {
-   "1": "2026-08-10"
+   "1": "2026-08-10",
+   "2": "2026-11-10"
   },
   "n_urgencias_en_etapa": 0,
   "alertas": [
@@ -263432,31 +264038,66 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 77,
+  "prioridad_indice": 71,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Asegurar los votos para la votación en Sala",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "Urgencia vence en 7 días o menos (+15)",
-   "En Sala (+12)",
+   "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
    "Movimiento en los últimos 14 días (+5)"
   ],
-  "ritmo": {},
-  "comision_actual": {},
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 0,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
+  "comision_actual": {
+   "nombre": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "integrantes": [
+    {
+     "nombre": "Andrés Longton Herrera",
+     "funcion": "",
+     "partido": "R.N."
+    },
+    {
+     "nombre": "Vlado Mirosevic Verdugo",
+     "funcion": "presidente",
+     "partido": "Liberal"
+    },
+    {
+     "nombre": "Claudia Pascual Grau",
+     "funcion": "",
+     "partido": "P.C"
+    },
+    {
+     "nombre": "Arturo Squella Ovalle",
+     "funcion": "",
+     "partido": "Republicano"
+    },
+    {
+     "nombre": "Paulina Vodanovic Rojas",
+     "funcion": "",
+     "partido": "P.S."
+    }
+   ]
+  },
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 10 de agosto (92 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (0 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de noviembre.",
     "Tiene urgencia suma; el plazo estimado vence el 17 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general y particular a la vez (4 de noviembre)."
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "indicado": [
     "Último informe: Primer informe de comisión de Defensa Nacional (23 de octubre)."
    ],
    "falta": [
-    "Falta la votación en la Sala del Senado.",
+    "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
@@ -263873,8 +264514,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 71,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -264058,8 +264699,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 78,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -264111,7 +264752,7 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Cuenta de primer informe de comisión",
+  "subetapa": "Discusión general",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
   "instancia_actual": "Sala",
@@ -264119,21 +264760,21 @@
   "dias_en_etapa": 20,
   "dias_desde_ingreso": 36,
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vigente_desde": "2026-10-28",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-03 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-10",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 4,
+  "n_urgencias_gobierno_actual": 5,
   "primera_urgencia_gobierno_actual": "2026-10-05",
-  "ultima_urgencia": "Discusión inmediata (2026-10-28)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
   "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+  "ultimo_tramite": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 14,
+  "n_tramites": 16,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -264141,8 +264782,8 @@
   "n_indicaciones_senado_parlamentarias": 0,
   "n_oficios_indicaciones_ejecutivo": 0,
   "ultima_presentacion_indicaciones": "",
-  "n_informes_comision": 1,
-  "ultimo_informe": "2026-10-19 – Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "n_informes_comision": 2,
+  "ultimo_informe": "2026-11-10 – Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
   "n_votaciones_sala_senado": 0,
   "ultima_votacion_sala_senado": "",
   "n_votaciones_sala_camara": 1,
@@ -264249,6 +264890,20 @@
     "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta de primer informe de comisión .",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "76/374",
+    "descripcion": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -264279,6 +264934,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "433-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-10",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "449-374"
    }
   ],
   "hitos": [
@@ -264307,6 +264969,12 @@
     "tramite": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
     "etapa": "Primer trámite constitucional",
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28290&tipodoc=info"
+   },
+   {
+    "fecha": "2026-11-10",
+    "tramite": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+    "etapa": "Segundo trámite constitucional",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=28377&tipodoc=info"
    }
   ],
   "comparados": [
@@ -265287,19 +265955,20 @@
    "1": "2026-10-05",
    "2": "2026-10-21"
   },
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 0,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-03 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 72,
+  "prioridad_indice": 87,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En Sala (+12)",
    "Proyecto conexo (+5)",
    "Mensaje del actual Gobierno (+10)",
@@ -265317,15 +265986,15 @@
    "estado": [
     "Está en segundo trámite, en la Sala del Senado, desde el 21 de octubre (20 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de octubre.",
-    "Tiene urgencia discusión inmediata; el plazo estimado venció el 3 de noviembre.",
-    "Último trámite, sin contar urgencias: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
+    "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (10 de noviembre)."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (21 de octubre): 122 a favor, 13 en contra y 0 abstenciones (aprobado).",
-    "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (19 de octubre)."
+    "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "falta": [
-    "Falta la votación en la Sala del Senado.",
+    "Falta la votación en general en la Sala del Senado. Si se aprueba, se abre plazo de indicaciones y vuelve a comisión para la discusión en particular, salvo que se vote en general y particular a la vez.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {

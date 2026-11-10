@@ -5,8 +5,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 3051,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Pérdida de beneficios por daños en educación superior",
@@ -163,7 +163,7 @@
  },
  {
   "boletin": "15261-25",
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1028,
@@ -212,31 +212,27 @@
   "fecha_ingreso": "2022-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-05) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-05-05) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1028 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 20,
+  "n_urgencias_gobierno_actual": 21,
   "n_indicaciones_senado": 42,
   "n_indicaciones_senado_ejecutivo": 14,
   "n_votaciones_sala_senado": 0,
@@ -329,8 +325,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1540,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Quebrantamiento de condena y prescripción",
@@ -472,7 +468,7 @@
  },
  {
   "boletin": "15589-07",
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 406,
@@ -520,28 +516,28 @@
   "dias_en_etapa": 406,
   "fecha_ingreso": "2022-12-14",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-07-07) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 406 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 16,
+  "n_urgencias_gobierno_actual": 17,
   "n_indicaciones_senado": 57,
   "n_indicaciones_senado_ejecutivo": 10,
   "n_votaciones_sala_senado": 0,
@@ -630,8 +626,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1407,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Reforma constitucional: extranjeros y FF.AA. en frontera",
@@ -769,8 +765,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1309,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Penas por quebrantamiento de condena",
@@ -840,12 +836,12 @@
  },
  {
   "boletin": "15850-11",
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1302,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Venta ilegal de medicamentos",
@@ -889,27 +885,23 @@
   "fecha_ingreso": "2023-04-18",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 47,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 52,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1302 días en Sala."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta de segundo informe de comisión .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 17,
+  "n_urgencias_gobierno_actual": 18,
   "n_indicaciones_senado": 31,
   "n_indicaciones_senado_ejecutivo": 24,
   "n_votaciones_sala_senado": 1,
@@ -1085,12 +1077,12 @@
  },
  {
   "boletin": "16143-02",
-  "n_urgencias_en_etapa": 63,
+  "n_urgencias_en_etapa": 64,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1196,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Protección de infraestructura crítica",
@@ -1144,31 +1136,27 @@
   "fecha_ingreso": "2023-08-02",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 53,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 58,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Preparar la sesión de Comisión de Defensa Nacional del 10-11",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 63 urgencias desde su último avance (2024-06-19) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 64 urgencias desde su último avance (2024-06-19) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1196 días en Comisión de Defensa Nacional."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "n_indicaciones_senado": 128,
   "n_indicaciones_senado_ejecutivo": 2,
   "n_votaciones_sala_senado": 1,
@@ -1178,7 +1166,7 @@
  },
  {
   "boletin": "16300-07",
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 91,
@@ -1226,19 +1214,24 @@
   "dias_en_etapa": 91,
   "fecha_ingreso": "2023-09-25",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
-  "prioridad_indice": 31,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Seguimiento mensual",
-  "alertas": [],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 414-374 que hace presente la urgencia Suma",
+  "urgencia_vigente": "Discusión inmediata",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
+  "prioridad_indice": 86,
+  "prioridad_nivel": "Crítica",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
+  "alertas": [
+   {
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
+   }
+  ],
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -1577,8 +1570,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 939,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Irreprochable conducta anterior sin antecedentes",
@@ -1660,8 +1653,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 935,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Delito de robo de salmón",
@@ -1969,8 +1962,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 910,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Dirección IP única por cliente",
@@ -2044,8 +2037,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 900,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Libertad condicional de reincidentes",
@@ -2507,7 +2500,7 @@
  },
  {
   "boletin": "17044-02",
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 307,
@@ -2556,31 +2549,23 @@
   "fecha_ingreso": "2024-08-07",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-05",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-05 sin renovación registrada",
-  "prioridad_indice": 38,
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
+  "prioridad_indice": 43,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento mensual",
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Simple: el plazo se cumplió el 2026-11-05 y no hay renovación registrada."
-   },
-   {
-    "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 35 días."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 307 días en Comisión de Defensa Nacional."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-06",
-  "ultimo_tramite": "Cuenta del Mensaje 374-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -2590,7 +2575,7 @@
  },
  {
   "boletin": "17111-07",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 574,
@@ -2639,27 +2624,23 @@
   "fecha_ingreso": "2024-09-03",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 574 días en Comisión de Seguridad Pública."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 2,
+  "n_urgencias_gobierno_actual": 3,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -2720,7 +2701,7 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-11-04",
   "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
@@ -2733,8 +2714,8 @@
     "detalle": "Lleva 574 días en Comisión de Seguridad Pública."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 395-374 que hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -2748,7 +2729,7 @@
  },
  {
   "boletin": "17170-07",
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 210,
@@ -2797,31 +2778,27 @@
   "fecha_ingreso": "2024-10-09",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-04-14) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 210 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 14,
+  "n_urgencias_gobierno_actual": 15,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -3049,8 +3026,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 610,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Sanciones por rayados y daños a monumentos",
@@ -3330,7 +3307,7 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-10-21",
   "urgencia_plazo": "Plazo cumplido el 2026-10-21 sin renovación registrada",
-  "prioridad_indice": 51,
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
@@ -3347,8 +3324,8 @@
     "detalle": "Lleva 210 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -3426,7 +3403,7 @@
  },
  {
   "boletin": "17637-07",
-  "n_urgencias_en_etapa": 16,
+  "n_urgencias_en_etapa": 17,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 350,
@@ -3474,32 +3451,28 @@
   "dias_en_etapa": 350,
   "fecha_ingreso": "2025-06-17",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 16 urgencias desde su último avance (2025-11-25) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 17 urgencias desde su último avance (2025-11-25) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 350 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 12,
+  "n_urgencias_gobierno_actual": 13,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -3513,8 +3486,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 504,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Custodia de drogas incautadas",
@@ -3671,8 +3644,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 497,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Prisión preventiva por delitos contra la soberanía",
@@ -3986,8 +3959,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 476,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Contrabando de productos agropecuarios",
@@ -4152,8 +4125,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 401,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "SINAPROC",
@@ -4293,12 +4266,12 @@
  },
  {
   "boletin": "18029-17",
-  "n_urgencias_en_etapa": 5,
+  "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 321,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Reparación a víctimas de violencia en la Macrozona Sur",
@@ -4342,27 +4315,23 @@
   "fecha_ingreso": "2025-12-24",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 35,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 40,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 321 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "n_indicaciones_senado": 11,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 2,
@@ -4436,7 +4405,7 @@
  },
  {
   "boletin": "18155-25",
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 181,
@@ -4484,28 +4453,28 @@
   "dias_en_etapa": 181,
   "fecha_ingreso": "2026-04-07",
   "iniciativa": "Mensaje",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 56,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
+  "prioridad_indice": 48,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-05-13) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 181 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 15,
+  "n_urgencias_gobierno_actual": 16,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -4627,20 +4596,24 @@
   "dias_en_etapa": 181,
   "fecha_ingreso": "2026-04-07",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-10-29",
+  "urgencia_plazo": "Plazo cumplido el 2026-10-29 sin renovación registrada",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
+   {
+    "tipo": "Urgencia con plazo cumplido",
+    "detalle": "Simple: el plazo se cumplió el 2026-10-29 y no hay renovación registrada."
+   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 181 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 456-374 que hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -4729,7 +4702,7 @@
  },
  {
   "boletin": "18211-25",
-  "n_urgencias_en_etapa": 9,
+  "n_urgencias_en_etapa": 10,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 139,
@@ -4778,23 +4751,27 @@
   "fecha_ingreso": "2026-04-22",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
-  "prioridad_indice": 71,
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
+  "prioridad_indice": 86,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
+   },
+   {
+    "tipo": "Urgencia renovada sin avance",
+    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-06-24) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -4943,12 +4920,12 @@
  },
  {
   "boletin": "18239-36",
-  "n_urgencias_en_etapa": 13,
+  "n_urgencias_en_etapa": 14,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 188,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Sanciones por denuncias falsas",
@@ -4992,31 +4969,31 @@
   "fecha_ingreso": "2026-05-06",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
-  "prioridad_indice": 55,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
+  "prioridad_indice": 70,
+  "prioridad_nivel": "Crítica",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 13 urgencias desde su último avance (2026-05-06) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 14 urgencias desde su último avance (2026-05-06) sin que haya informe, votación ni cambio de etapa."
    },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 188 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 13,
+  "n_urgencias_gobierno_actual": 14,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5090,7 +5067,7 @@
  },
  {
   "boletin": "18258-07",
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 8,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 98,
@@ -5139,23 +5116,18 @@
   "fecha_ingreso": "2026-05-18",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 56,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 61,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 394-374 que retira y hace presente la urgencia Suma",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 454-374 que hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 13,
+  "n_urgencias_gobierno_actual": 14,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5166,7 +5138,13 @@
  {
   "boletin": "18282-07",
   "n_urgencias_en_etapa": 0,
-  "ritmo": {},
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 0,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Instrumentalización de menores para delinquir",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -5179,13 +5157,13 @@
   "descripcion": "Sanciona toda forma de instrumentalización de niños, niñas y adolescentes para cometer delitos y agrava la pena de los adultos que los utilicen.",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -5201,25 +5179,25 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Sala",
+  "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 179,
+  "dias_en_etapa": 0,
   "fecha_ingreso": "2026-05-15",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Asegurar los votos para la votación en Sala",
+  "urgencia_vigente": "Suma",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 56,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [],
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 8,
+  "n_urgencias_gobierno_actual": 9,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5229,7 +5207,7 @@
  },
  {
   "boletin": "18314-07",
-  "n_urgencias_en_etapa": 1,
+  "n_urgencias_en_etapa": 2,
   "ritmo": {},
   "nombre_corto": "Detención para ejecutar expulsiones",
   "acot_n": "4",
@@ -5272,27 +5250,27 @@
   "fecha_ingreso": "2026-06-08",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-02",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-02 sin renovación registrada",
-  "prioridad_indice": 88,
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
+  "prioridad_indice": 100,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-02 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    },
    {
     "tipo": "Votación rechazada",
     "detalle": "La última votación registrada en la Sala de la Cámara (2026-09-22) fue rechazada (88 a favor, 28 en contra). Puede referirse a la idea de legislar o a una norma en particular."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 412-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 10,
+  "n_urgencias_gobierno_actual": 11,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5385,8 +5363,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 158,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Campamentos en bienes nacionales de uso público",
@@ -5455,8 +5433,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 151,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Registro de actos vandálicos e incivilidades",
@@ -5534,8 +5512,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 154,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Ocupación de espacios públicos para pernoctar",
@@ -5604,8 +5582,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 144,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Responsabilidad parental preventiva",
@@ -5749,8 +5727,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 139,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Seguridad portuaria contra el crimen organizado",
@@ -5908,8 +5886,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 138,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Delimitación del delito de apremios ilegítimos",
@@ -5978,8 +5956,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 135,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Explotación de servicios sexuales de terceros",
@@ -6053,8 +6031,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 99,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Cesación por consumo de drogas (reforma constitucional)",
@@ -6158,7 +6136,7 @@
   "instancia_actual": "Ingreso de observaciones",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 6,
+  "dias_en_etapa": 0,
   "fecha_ingreso": "2026-08-04",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
@@ -6168,8 +6146,8 @@
   "prioridad_nivel": "Despachado",
   "accion_sugerida": "Seguir el control del Tribunal Constitucional, la promulgación y la publicación",
   "alertas": [],
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Cuenta, oficio de S. E. el Vicepresidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República. (441-374).",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta oficio N° 21712, que comunica aprobación de modificaciones",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -6187,8 +6165,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 98,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Matrimonios por conveniencia",
@@ -6257,8 +6235,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 97,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Control de drogas a autoridades",
@@ -6327,8 +6305,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 97,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Sistema de control de drogas a autoridades (reforma constitucional)",
@@ -6393,7 +6371,7 @@
  },
  {
   "boletin": "18584-25",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 48,
@@ -6441,24 +6419,24 @@
   "dias_en_etapa": 48,
   "fecha_ingreso": "2026-08-17",
   "iniciativa": "Mensaje",
-  "urgencia_vigente": "Sin urgencia",
-  "urgencia_vence_estimado": "",
-  "urgencia_plazo": "",
-  "prioridad_indice": 36,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Seguimiento mensual",
+  "urgencia_vigente": "Suma",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 61,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [
    {
     "tipo": "Votación rechazada",
     "detalle": "La última votación registrada en la Sala de la Cámara (2026-09-23) fue rechazada (63 a favor, 70 en contra). Puede referirse a la idea de legislar o a una norma en particular."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta del Mensaje 416-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 7,
+  "n_urgencias_gobierno_actual": 8,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6481,20 +6459,26 @@
   "acot_iniciativa": "Test de ADN: habilitación a las policías",
   "acot_grupo": "Nuevo (anunciado 06-08-2026)",
   "agenda": [],
-  "plazo_indicaciones": [],
+  "plazo_indicaciones": [
+   {
+    "fecha": "2026-11-26",
+    "hora": "12:00",
+    "donde": "Secretaría del Senado"
+   }
+  ],
   "titulo": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
   "clasificacion": "Núcleo",
   "materia": "Persecución penal y proceso penal",
   "descripcion": "Habilita a Carabineros y PDI para obtener huellas genéticas, ingresar información al Sistema Nacional de Registros de ADN y practicar peritajes de cotejo en sus laboratorios.",
   "acot": "ACOT (nuevo): Test de ADN – habilitación a las policías",
   "situacion": "En tramitación",
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -6510,33 +6494,28 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Sala",
+  "instancia_actual": "Boletín de indicaciones de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 49,
   "fecha_ingreso": "2026-08-17",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-04",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-04 sin renovación registrada",
-  "prioridad_indice": 67,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 61,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Suma: el plazo se cumplió el 2026-11-04 y no hay renovación registrada."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-27",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
-  "n_votaciones_sala_senado": 0,
+  "n_votaciones_sala_senado": 1,
   "n_votaciones_sala_camara": 2,
   "link_senado": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=18585-25",
   "responsable": ""
@@ -6544,7 +6523,13 @@
  {
   "boletin": "18590-07",
   "n_urgencias_en_etapa": 0,
-  "ritmo": {},
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 0,
+   "mediana": 221,
+   "n_base": 18,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Utilización de menores de 14 años para delinquir",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -6557,13 +6542,13 @@
   "descripcion": "Crea el delito autónomo de utilización de menores de catorce años para cometer delitos y agrava la responsabilidad de las asociaciones que los instrumentalicen.",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Senado)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -6579,26 +6564,26 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Sala",
+  "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
-  "dias_en_etapa": 92,
+  "dias_en_etapa": 0,
   "fecha_ingreso": "2026-08-10",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-11-17",
   "urgencia_plazo": "Vence 2026-11-17",
-  "prioridad_indice": 77,
+  "prioridad_indice": 71,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Asegurar los votos para la votación en Sala",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
     "detalle": "Suma vence el 2026-11-17 (en 7 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-04",
-  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -6680,8 +6665,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 71,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Cautelares en VIF y violencia contra la mujer",
@@ -6750,8 +6735,8 @@
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 78,
-   "mediana": 252,
-   "n_base": 57,
+   "mediana": 251,
+   "n_base": 59,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Trazabilidad de frutos secos",
@@ -6816,7 +6801,7 @@
  },
  {
   "boletin": "18709-07",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 0,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 20,
@@ -6875,23 +6860,23 @@
   "fecha_ingreso": "2026-10-05",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-03",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-03 sin renovación registrada",
-  "prioridad_indice": 72,
+  "urgencia_vence_estimado": "2026-11-16",
+  "urgencia_plazo": "Vence 2026-11-16",
+  "prioridad_indice": 87,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-03 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-16 (en 6 días)."
    }
   ],
   "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+  "ultimo_tramite": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 4,
+  "n_urgencias_gobierno_actual": 5,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,

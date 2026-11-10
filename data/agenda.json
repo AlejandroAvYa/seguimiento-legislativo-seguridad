@@ -162,7 +162,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
    "horario": "10:00 a 12:00",
-   "materia": "1.- Recibir a representantes de la Asociación Gremial Nacional de Constructoras de Viviendas Sociales -junto a dirigentes de los gremios de las entidades patrocinantes- y de la Federación Nacional de Trabajadores y Trabajadoras de Vivienda y Urbanismo, quienes darán a conocer la opinión de sus organizaciones acerca de la propuesta de presupuesto para el Ministerio de Vivienda y Urbanismo, en lo relativo al año 2027.",
+   "materia": "1.- Recibir a representantes de la Asociación Gremial Nacional de Constructoras de Viviendas Sociales -junto a dirigentes de los gremios de las entidades patrocinantes- y de la Federación Nacional de Trabajadores y Trabajadoras de Vivienda y Urbanismo, para conocer la opinión de sus organizaciones acerca de la propuesta de presupuesto para el Ministerio de Vivienda y Urbanismo, en lo relativo al año 2027.",
    "boletines": [],
    "invitados": [],
    "seguidos": []
@@ -318,7 +318,7 @@
    "fecha": "2026-11-10",
    "instancia": "Sala del Senado · sesión especial N° 76",
    "estado": "Citada",
-   "horario": "15:00 a 16:00",
+   "horario": "15:16 a 15:53",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -332,7 +332,7 @@
    "fecha": "2026-11-10",
    "instancia": "Sala del Senado · sesión ordinaria N° 77",
    "estado": "Citada",
-   "horario": "16:00 a 20:00",
+   "horario": "16:06 a 18:45",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -367,12 +367,12 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
    "horario": "09:30 a 11:00",
-   "materia": "1.- ( Bol.N° 17877-33 ) Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33).\nA esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange.",
+   "materia": "1.- Conocer antecedentes relacionados con el derrame de relaves ocurrido en el río Blanco, en Los Andes, y las medidas de fiscalización y mitigación adoptadas sobre el particular (09:30 a 10:15 horas). A este punto han sido invitados representantes de Codelco, de la Superintendencia del Medio Ambiente y  de la Dirección General de Aguas.\n2.- ( Bol.N° 17877-33 ) Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33) (10:15 a 11:00 horas).",
    "boletines": [
     "17877-33"
    ],
    "invitados": [
-    "A esta sesión ha sido invitado el Ministro de Obras Públicas, señor Louis de Grange."
+    "A este punto han sido invitados representantes de Codelco, de la Superintendencia del Medio Ambiente y  de la Dirección General de Aguas."
    ],
    "seguidos": []
   },
@@ -479,17 +479,35 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
+   "instancia": "Comisión de Seguridad Pública",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 6, tercer piso, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18881-25 ) Iniciar el estudio del proyecto de ley, en primer trámite constitucional, que deroga el sistema de reducción de condenas por buena conducta y establece una circunstancia agravante de responsabilidad penal (Boletín N° 18.881-25).\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Ministro de Seguridad Pública, señor Martín Arrau; la Presidenta de la Excelentísima Corte Suprema, señora Gloria Ana Chevesich, y el Director Nacional de Gendarmería, señor Rubén Pérez.",
+   "boletines": [
+    "18881-25"
+   ],
+   "invitados": [
+    "Para tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Ministro de Seguridad Pública, señor Martín Arrau; la Presidenta de la Excelentísima Corte Suprema, señora Gloria Ana Chevesich, y el Director Nacional de Gendarmería, señor Rubén Pérez."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 10 de Comisiones - Valparaíso",
    "horario": "11:00 a 13:00",
-   "materia": "1.- ( Bol.N° 18779-07 ) Proyecto de ley que interpreta y modifica la ley N° 19.856, en materia de exclusión del beneficio de reducción de condena por delitos sexuales cometidos contra menores de edad.\nLos invitados a esta sesión serán comunicados oportunamente.",
+   "materia": "1.- ( Bol.N° 18779-07 ) Proyecto de ley que interpreta y modifica la ley N° 19.856, en materia de exclusión del beneficio de reducción de condena por delitos sexuales cometidos contra menores de edad.\nA esta sesión han sido invitados el ex Ministro de Justicia y Derechos Humanos, señor Hernán Larraín Fernández; el ex Ministro de Justicia y Derechos Humanos, señor Jaime Gajardo Falcon; el Defensor de la Niñez, señor Anuar Quesille; la académica de la Universidad de Chile, señora Rocío Lorca; el académico de la Pontificia Universidad Católica de Valparaíso, señor Eduardo Cordero Quinzacara, y el académico de la Universidad Alberto Hurtado, señor Tomás Jordan.",
    "boletines": [
     "18779-07"
    ],
    "invitados": [
-    "Los invitados a esta sesión serán comunicados oportunamente."
+    "A esta sesión han sido invitados el ex Ministro de Justicia y Derechos Humanos, señor Hernán Larraín Fernández; el ex Ministro de Justicia y Derechos Humanos, señor Jaime Gajardo Falcon; el Defensor de la Niñez, señor Anuar Quesille; la académica de la Universidad de Chile, señora Rocío Lorca; el académico de la Pontificia Universidad Católica de Valparaíso, señor Eduardo Cordero Quinzacara, y el académico de la Universidad Alberto Hurtado, señor Tomás Jordan."
    ],
    "seguidos": []
   },
@@ -498,11 +516,11 @@
    "tipo": "Comisión",
    "fecha": "2026-11-11",
    "instancia": "Comisión de Educación",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala 8, Comisiones, Senado",
    "horario": "12:30 a 14:00",
-   "materia": "1.- ( Bol.N° 18277-04 ) Continuar la discusión en general y en particular del proyecto de ley, en primer trámite constitucional, que restringe el uso de redes sociales por parte de los menores de edad que indica (Boletín 18.277-04).",
+   "materia": "1.- ( Bol.N° 18277-04 ) Continuar la discusión en general y en particular del proyecto de ley, en primer trámite constitucional, que restringe el uso de redes sociales por parte de los menores de edad que indica (Boletín 18.277-04). HA QUEDADO SIN EFECTO.",
    "boletines": [
     "18277-04"
    ],
@@ -624,6 +642,36 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-16",
+   "instancia": "Comisión de Economía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 de Comisiones, Ex Congreso Nacional, Santiago",
+   "horario": "17:00 a 18:30",
+   "materia": "1.- ( Bol.N° 14838-03 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea.",
+   "boletines": [
+    "14838-03"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-17",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "09:00 a 10:00",
+   "materia": "1.- Informe de Estabilidad Financiera (IEF) del Banco Central de Chile.",
+   "boletines": [],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -763,6 +811,14 @@
    "boletin": "17702-15",
    "materia": "Modifica la ley N° 18.290, de Tránsito, para tipificar y sancionar la conducción temeraria de vehículos",
    "fecha": "2026-11-19",
+   "hora": "12:00",
+   "donde": "Secretaría del Senado",
+   "seguido": true
+  },
+  {
+   "boletin": "18585-25",
+   "materia": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
+   "fecha": "2026-11-26",
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": true

@@ -1,5 +1,292 @@
 [
  {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta de primer informe de comisión . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18709-07",
+  "tipo": "Nuevo informe de comisión",
+  "antes": "",
+  "despues": "2026-11-10 – Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18709-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de primer informe de comisión",
+  "despues": "Discusión general"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18590-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18590-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de proyecto",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00 (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18585-25",
+  "tipo": "Nueva votación en Sala del Senado",
+  "antes": "",
+  "despues": "2026-11-10 – Discusión general:  (34-0-0)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18585-25",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Boletín de indicaciones de Seguridad Pública"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18584-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18584-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18525-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta oficio N° 21712, que comunica aprobación de modificaciones (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18314-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 455-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18282-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18282-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18282-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de proyecto",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18258-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18239-36",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18211-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18161-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 456-374 que hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18161-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18155-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 456-374 que hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18155-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "18029-17",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17637-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 456-374 que hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17637-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17486-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17170-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17125-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17111-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "17044-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 456-374 que hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "16300-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "16300-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Sin urgencia",
+  "despues": "Discusión inmediata"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "16143-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "15589-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 456-374 que hace presente la urgencia Simple (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "15589-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-10 20:25",
+  "boletin": "15261-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta del Mensaje 454-374 que hace presente la urgencia Suma (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-10 14:53",
   "boletin": "18709-07",
   "tipo": "Nuevo trámite",
