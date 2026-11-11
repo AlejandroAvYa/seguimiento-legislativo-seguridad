@@ -399,7 +399,7 @@
    "fecha": "2026-11-11",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 92",
    "estado": "Citada",
-   "horario": "09:30 a 23:00",
+   "horario": "09:31 a 23:00",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -585,6 +585,20 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-11",
+   "instancia": "Comisión de Régimen Interior",
+   "estado": "Citada",
+   "aviso": "",
+   "lugar": "Sala de Reuniones de la Presidencia, Valparaíso",
+   "horario": "14:30 a 15:00",
+   "materia": "1.- Tratar asuntos propios de su competencia",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-11",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -642,6 +656,22 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-16",
+   "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de Los Presidentes, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- ( Bol.N° 12712-24 ) Continuar la discusión en particular del proyecto de ley, en segundo trámite constitucional, de Patrimonio Cultural (Boletín N° 12.712-24).",
+   "boletines": [
+    "12712-24"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
