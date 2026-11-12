@@ -2449,8 +2449,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 155,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -2499,7 +2499,25 @@
     "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Zona de aplicación:** se agrega una regla al control preventivo de identidad del artículo 12 de la ley N° 20.931 para el territorio entre el límite fronterizo terrestre y hasta diez kilómetros hacia el interior.",
+       "**Zona marítima:** la regla también se aplica entre el mar territorial y las aguas interiores.",
+       "**Exclusión urbana:** no se aplica en las zonas urbanas definidas por el plan regulador comunal vigente.",
+       "**Registro:** en esas zonas, la policía podrá registrar las vestimentas, el equipaje o el vehículo de la persona cuya identidad se controla.",
+       "**Detención por flagrancia:** la policía detendrá, sin orden judicial, a quien sea sorprendido durante el registro en alguna de las hipótesis de flagrancia del artículo 130 del Código Procesal Penal.",
+       "**Órdenes pendientes:** también detendrá a quien, al momento del cotejo, tenga una orden de detención pendiente."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -4052,8 +4070,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1029,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -6421,8 +6439,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -22872,8 +22890,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 407,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -26927,9 +26945,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 308,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
    "nombre": "Comisión de Constitución, Legislación, Justicia y Reglamento",
@@ -69513,8 +69531,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 918,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -81174,7 +81192,27 @@
    "falta": [
     "Falta el informe de la Comisión Mixta y su votación en ambas Salas. Luego, promulgación y publicación."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Sistema de Inteligencia y Análisis Económico:** la Cámara reemplazó el \"Subsistema de Inteligencia Económica\" del Senado por un Sistema, concebido como modelo de gestión y análisis de información con autonomía funcional.",
+       "**Objeto:** prevenir, detectar e impedir el uso del sistema financiero y de otros sectores económicos por asociaciones delictivas y criminales (artículos 292 y 293 del Código Penal).",
+       "**Comité de Coordinación, Prevención y Seguridad:** lo integran los jefes de la Unidad de Análisis Financiero, el Servicio de Impuestos Internos y el Servicio Nacional de Aduanas, y lo preside el Director de la UAF. Acuerda por unanimidad y mediante resoluciones secretas.",
+       "**Dos tipos de trabajo:** análisis autónomo (riesgos, alertas tempranas, perfiles) y colaboración a requerimiento del Ministerio Público y los tribunales penales, incluidos informes secretos en investigaciones complejas.",
+       "**Información y secreto:** autoriza intercambiar y analizar datos personales, incluidos datos sensibles. La información, modelos, algoritmos y resoluciones del Sistema son secretos, y queda exento de los Títulos II, III y IV de la ley N° 20.285 de Transparencia.",
+       "**Personal:** secreto perpetuo, con pena de presidio mayor en su grado mínimo e inhabilitación absoluta perpetua si se infringe; declaraciones de patrimonio e intereses reforzadas, controles de consumo de drogas y autorización previa de acceso a su información bancaria.",
+       "**Unidad de Análisis Financiero:** amplía sus facultades para acceder e intercambiar información, con un mecanismo excepcional de acceso directo a información bancaria, auditoría y reportes al Congreso.",
+       "**Otras leyes:** nuevas inhabilidades en bancos, aseguradoras, mercado de valores, cooperativas y casinos, con un umbral de 10% de participación; mayores sanciones por obstruir la fiscalización o entregar información falsa, y más intercambio de datos entre SII, Aduanas, CMF, Tesorería y UAF."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -86674,8 +86712,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 92,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -101627,7 +101665,25 @@
    "falta": [
     "Falta el informe de la Comisión Mixta y su votación en ambas Salas. Luego, promulgación y publicación."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Nómina de pasajeros:** al vender pasajes, las empresas de buses interurbanos deberán registrar a cada pasajero con nombre completo, número o rol de identificación, nacionalidad e itinerario. Una resolución del Ministerio de Transportes y Telecomunicaciones fijará los demás requisitos.",
+       "**Documento de identidad:** las empresas deberán exigir un documento de identidad antes de abordar el bus. Esto también rige para quienes suben en paradas intermedias.",
+       "**No es control de identidad:** la revisión solo busca comprobar que los datos del pasaje coincidan con el documento.",
+       "**Negativa a abordar:** quien no muestre su documento o presente uno con otra identidad no podrá subir. La tripulación deberá avisar a Carabineros y dejar constancia en la nómina.",
+       "**Fiscalización:** Carabineros y los inspectores fiscales fiscalizarán la ley. Las policías y los inspectores podrán acceder a la nómina, y las policías podrán coordinarse con el Registro Civil y el Servicio Nacional de Migraciones para verificar documentos.",
+       "**Plazo de conservación:** la nómina se guardará 180 días desde el término del viaje, salvo que el Ministerio Público la haya pedido y esté pendiente su entrega. Luego debe eliminarse, conforme a la ley N° 19.628."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -105527,8 +105583,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 161,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -125902,8 +125958,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 148,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -128588,8 +128644,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 238,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -131725,8 +131781,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -133491,8 +133547,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 603,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -135663,8 +135719,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 764,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -137938,9 +137994,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 308,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
    "nombre": "Comisión de Defensa Nacional",
@@ -140182,8 +140238,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 575,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -141390,8 +141446,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 575,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -144708,8 +144764,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 211,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -146037,8 +146093,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 203,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -150006,8 +150062,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 337,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
@@ -153611,8 +153667,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 231,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -154149,8 +154205,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 211,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -177478,8 +177534,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 351,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "comision_actual": {
@@ -180889,8 +180945,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 86,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -184423,8 +184479,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 246,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -187348,9 +187404,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 302,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "comision_actual": {},
   "resumen": {
@@ -192478,8 +192534,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 63,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -195823,8 +195879,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 85,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -196835,7 +196891,27 @@
     "Falta el segundo informe de la comisión (discusión en particular) y la votación en particular en la Sala del Senado.",
     "Después debe pasar por la Cámara de Diputados (comisión y Sala). Si esa cámara introduce cambios, vuelve al Senado en tercer trámite y, si hay discrepancias, a Comisión Mixta. Al final, promulgación y publicación."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Objeto:** crea mecanismos de reconocimiento, calificación y, cuando corresponda, reparación para víctimas de violencia ocurrida desde 1990 en las regiones del Biobío, La Araucanía, Los Ríos y Los Lagos, en el contexto del conflicto intercultural y territorial.",
+       "**Qué se entiende por violencia:** incluye, entre otras, incendios, muertes, lesiones, detenciones o allanamientos ilegítimos, tortura, apremios ilegítimos, ocupaciones de terrenos, destrucción o sustracción de bienes e impedimentos a la libre circulación o a actividades educacionales, económicas, religiosas o espirituales.",
+       "**Comisión de Calificación:** se crea una comisión dependiente de la Subsecretaría del Interior, integrada por cinco funcionarios y presidida por la jefatura de Acción Social. No podrá pronunciarse sobre responsabilidades penales, civiles o administrativas.",
+       "**Cómo se pide la calificación:** la víctima, sus herederos o un representante presentan la solicitud ante la Delegación Presidencial Regional. La Delegación también podrá iniciar el trámite de oficio, con consentimiento expreso de la persona afectada.",
+       "**Programa de atención:** se crea un programa en la Subsecretaría del Interior para coordinar la atención, el acompañamiento y la reparación de las víctimas calificadas.",
+       "**Medidas de reparación:** atención psicológica, jurídica y social; reposición de actividades económicas y sociales; acceso a beneficios de vivienda, salud y educación; actividades de memoria y diálogo, e intervenciones colectivas de prevención.",
+       "**Catastro Nacional de Víctimas:** registro de las personas calificadas, con resguardo de sus datos personales según la ley N° 19.628.",
+       "**Vigencia:** la ley rige desde la publicación de su reglamento, que debe dictarse en un plazo de seis meses desde la publicación de la ley."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -203304,8 +203380,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 182,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -232900,8 +232976,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 182,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -233980,8 +234056,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 42,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -235367,8 +235443,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 140,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
@@ -238216,8 +238292,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 14,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -243442,9 +243518,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 99,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "más rápido que lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
    "nombre": "Comisión de Constitución, Legislación, Justicia y Reglamento",
@@ -244828,8 +244904,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -246690,8 +246766,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -248583,8 +248659,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 14,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -250316,8 +250392,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 84,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -251144,7 +251220,26 @@
     "Falta que la comisión despache su informe y que la Sala de la Cámara lo vote.",
     "Después debe pasar por el Senado (comisión y Sala). Si esa cámara introduce cambios, vuelve a la Cámara de Diputados en tercer trámite y, si hay discrepancias, a Comisión Mixta. Al final, promulgación y publicación."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Exámenes obligatorios de drogas:** el Presidente de la República, ministros, subsecretarios, diputados, senadores, delegados presidenciales, gobernadores y consejeros regionales, seremis, jefes superiores de servicio, alcaldes y concejales deberán hacerse exámenes para detectar sustancias estupefacientes o sicotrópicas ilícitas.",
+       "**Otras autoridades incluidas:** también los magistrados de los tribunales superiores de justicia, el Fiscal Nacional y los fiscales regionales, el Contralor General, los comandantes en jefe de las Fuerzas Armadas, el General Director de Carabineros, el Director General de la PDI y el Director Nacional de Gendarmería.",
+       "**Momento de los exámenes:** al asumir el cargo y periódicamente durante su ejercicio.",
+       "**Regulación por ley:** una ley de quórum calificado fijará la forma, los procedimientos y la periodicidad de los exámenes, y podrá incluir a otros funcionarios o autoridades.",
+       "**Resultados públicos:** los resultados de los exámenes serán públicos.",
+       "**Cesación en el cargo:** detectar estas sustancias será causal de cesación en el cargo, salvo que el consumo se justifique por un tratamiento médico debidamente acreditado.",
+       "**Cargos de exclusiva confianza:** se agrega un artículo 38 ter a la Constitución. La detección de estas sustancias será incompatible con el ejercicio de los cargos de exclusiva confianza del Presidente, con la misma excepción por tratamiento médico."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -261264,8 +261359,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 49,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -263816,8 +263911,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 50,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {},
@@ -263840,7 +263935,7 @@
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
-    "fecha": "2026-11-03",
+    "fecha": "2026-11-11",
     "autor": "Redacción automática",
     "estado": "por revisar",
     "secciones": [
@@ -263858,8 +263953,7 @@
       "parrafos": []
      }
     ]
-   },
-   "aviso": "Hubo avances después de la redacción del 3 de noviembre (último: aprobado en general, 10 de noviembre)."
+   }
   }
  },
  {
@@ -264184,8 +264278,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "comision_actual": {
@@ -264669,7 +264763,27 @@
     "Falta que la comisión despache su informe y que la Sala de la Cámara lo vote.",
     "Después debe pasar por el Senado (comisión y Sala). Si esa cámara introduce cambios, vuelve a la Cámara de Diputados en tercer trámite y, si hay discrepancias, a Comisión Mixta. Al final, promulgación y publicación."
    ],
-   "redactado": null
+   "redactado": {
+    "fecha": "2026-11-11",
+    "autor": "Redacción automática",
+    "estado": "por revisar",
+    "secciones": [
+     {
+      "titulo": "Principales contenidos",
+      "items": [
+       "**Coordinación entre tribunales:** el juez de familia deberá comunicar al juez de garantía las medidas cautelares que adopte. Si hay contienda de competencia con el Ministerio Público o un juez de garantía, el juez de familia adoptará y conocerá de las medidas cautelares que procedan.",
+       "**Nueva medida cautelar:** el juez de familia podrá prohibir al ofensor cualquier acción de hostigamiento, amenaza u otro atentado contra la víctima o sus hijos, por cualquier medio, incluidos espacios o entornos digitales.",
+       "**Protección de niños, niñas y adolescentes:** el juez de familia deberá pronunciarse sobre las medidas cautelares especiales para proteger sus derechos.",
+       "**Sanciones por incumplimiento:** se agregan sanciones al denunciado por violencia intrafamiliar que incumpla medidas cautelares, condiciones de suspensión condicional del procedimiento o medidas accesorias.",
+       "**Monitoreo telemático:** ya no se exigirá que la investigación esté formalizada para pedirlo. Gendarmería deberá enviar el informe de factibilidad técnica al Ministerio Público y al juzgado de garantía, aunque lo haya pedido el juez de familia.",
+       "**Violencia de género en espacios digitales:** la intimidación en espacios digitales se presume situación de riesgo inminente de violencia de género.",
+       "**Prisión preventiva e inspectores municipales:** el tribunal considerará especialmente si el imputado incumplió medidas cautelares respecto de la víctima. Los inspectores de seguridad municipal podrán colaborar en el control de más medidas cautelares y accesorias.",
+       "**Jueces y protocolo:** en juzgados de garantía con más de tres jueces, el Comité de Jueces evaluará designar jueces con dedicación preferente a estas materias. Se elaborará un protocolo de coordinación entre tribunales de familia, juzgados de garantía y Ministerio Público."
+      ],
+      "parrafos": []
+     }
+    ]
+   }
   }
  },
  {
@@ -264889,10 +265003,10 @@
   "fecha_ingreso": "2026-10-05",
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
-  "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Discusión general",
-  "tramite_constitucional": "Segundo trámite constitucional",
-  "camara_actual": "Senado",
+  "etapa": "Trámite finalización en Cámara de Origen (C.Diputados)",
+  "subetapa": "Cuenta oficio aprobación sin modificaciones de C. Revisora",
+  "tramite_constitucional": "Trámite finalización en Cámara de Origen",
+  "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-10-21",
   "dias_en_etapa": 21,
@@ -264909,10 +265023,10 @@
   "primera_urgencia_gobierno_actual": "2026-10-05",
   "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-11",
+  "ultimo_tramite": "Oficio aprobación sin modificaciones a Cámara de Origen .",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 16,
+  "n_tramites": 18,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -264922,8 +265036,8 @@
   "ultima_presentacion_indicaciones": "",
   "n_informes_comision": 2,
   "ultimo_informe": "2026-11-10 – Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
-  "n_votaciones_sala_senado": 0,
-  "ultima_votacion_sala_senado": "",
+  "n_votaciones_sala_senado": 1,
+  "ultima_votacion_sala_senado": "2026-11-11 – Discusión general: Aprobadas (17-0-0)",
   "n_votaciones_sala_camara": 1,
   "ultima_votacion_sala_camara": "2026-10-21 – Proyecto de Ley: Aprobado (122-13-0)",
   "veto": "No",
@@ -265042,6 +265156,20 @@
     "descripcion": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-11",
+    "sesion": "79/374",
+    "descripcion": "Discusión general . Aprobado en general y particular sin modificaciones",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-11",
+    "sesion": "/",
+    "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -265099,6 +265227,18 @@
     "hito": "Despachado a la cámara revisora",
     "camara": "C.Diputados",
     "etapa": "Primer trámite constitucional"
+   },
+   {
+    "fecha": "2026-11-11",
+    "hito": "Aprobado en general y particular",
+    "camara": "Senado",
+    "etapa": "Segundo trámite constitucional"
+   },
+   {
+    "fecha": "2026-11-11",
+    "hito": "Aprobado sin modificaciones por la cámara revisora",
+    "camara": "Senado",
+    "etapa": "Segundo trámite constitucional"
    }
   ],
   "informes": [
@@ -265141,10 +265281,232 @@
     "camara": "C. Diputados",
     "descripcion": "",
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37335&tipodoc=ofic"
+   },
+   {
+    "numero": "375-26",
+    "fecha": "2026-11-11",
+    "tramite": "Oficio aprobación sin modificaciones a Cámara de Origen",
+    "etapa": "Segundo trámite constitucional",
+    "tipo": "Ley",
+    "camara": "Senado",
+    "descripcion": "",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37441&tipodoc=ofic"
    }
   ],
   "boletines_indicaciones": [],
-  "votaciones": [],
+  "votaciones": [
+   {
+    "fecha": "2026-11-11",
+    "sesion": "79/374",
+    "tipo": "Discusión general",
+    "etapa": "Segundo trámite constitucional",
+    "quorum": "Mayoría simple",
+    "si": 17,
+    "no": 0,
+    "abstencion": 0,
+    "pareo": 0,
+    "resultado": "Aprobadas",
+    "tema": "En votación, en general, el proyecto de ley que modifica la ley N° 21.780, que crea el Servicio Nacional de Acceso a la Justicia y la Defensoría de Víctimas, con el objeto de otorgar mayor eficiencia al proceso de implementación del servicio. Por la sola aprobación en general del proyecto, se entenderán aprobadas en particular las disposiciones de la iniciativa que no han sido objeto de indicaciones ni solicitudes de votación separada.",
+    "votos": [
+     {
+      "parlamentario": "Gatica B., María José",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Ossandón I., Manuel José",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Kaiser B., Vanessa",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Moreira B., Iván",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Urrutia B., Ignacio",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Walker P., Matías",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Becker A., Miguel Ángel",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Longton H., Andrés",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Núñez U., Paulina",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Balladares L., Andrea",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Edwards ., Rojo",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Sanhueza D., Gustavo",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Cruz-Coke C., Luciano",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Vial M., Cristian",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Keitel B., Sebastián",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Lee F., Enrique",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "De Urresti L., Alfonso",
+      "seleccion": "Si"
+     },
+     {
+      "parlamentario": "Flores O., Camila",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Velásquez N., Esteban",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Carter F., Rodolfo",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Vodanovic R., Paulina",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Kuschel S., Carlos Ignacio",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Castro G., Juan Luis",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Squella O., Arturo",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Trisotti M., Renzo",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Cariola O., Karol",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Ordenes N., Ximena",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Espinoza S., Fidel",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Astudillo P., Danisa",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Macaya D., Javier",
+      "seleccion": "Pareo"
+     },
+     {
+      "parlamentario": "Van Rysselberghe H., Enrique",
+      "seleccion": "Pareo"
+     }
+    ],
+    "por_partido": [
+     {
+      "partido": "R.N.",
+      "si": 6,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 2
+     },
+     {
+      "partido": "Independiente",
+      "si": 3,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 2
+     },
+     {
+      "partido": "P.S.",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 4
+     },
+     {
+      "partido": "U.D.I.",
+      "si": 2,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 2
+     },
+     {
+      "partido": "Republicano",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 2
+     },
+     {
+      "partido": "Evópoli",
+      "si": 2,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "Demócratas",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "F.R.E.V.S.",
+      "si": 0,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 1
+     },
+     {
+      "partido": "Nacional Libertario",
+      "si": 1,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 0
+     },
+     {
+      "partido": "P.C",
+      "si": 0,
+      "no": 0,
+      "abstencion": 0,
+      "otros": 1
+     }
+    ]
+   }
+  ],
   "indicaciones_por_autor": [],
   "indicaciones_por_articulo": [],
   "votaciones_camara": [
@@ -266067,14 +266429,14 @@
     ]
    }
   ],
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "3T",
+  "etapa_texto": "Tercer trámite (Cámara de Diputados)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
    "2C": "hecha",
-   "2S": "actual",
-   "3T": "pendiente",
+   "2S": "hecha",
+   "3T": "actual",
    "CM": "pendiente",
    "TC": "pendiente",
    "LEY": "pendiente"
@@ -266101,42 +266463,37 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 87,
+  "prioridad_indice": 93,
   "prioridad_nivel": "Crítica",
   "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
    "Urgencia vence en 7 días o menos (+15)",
-   "En Sala (+12)",
+   "En trámite final (+18)",
    "Proyecto conexo (+5)",
    "Mensaje del actual Gobierno (+10)",
    "Movimiento en los últimos 14 días (+5)"
   ],
-  "ritmo": {
-   "tramite": "Segundo trámite",
-   "dias": 21,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "más rápido que lo habitual"
-  },
+  "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 21 de octubre (21 días).",
+    "Está en tercer trámite en la Cámara de Diputados (sala), desde el 21 de octubre (21 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de octubre.",
+    "El Senado lo aprobó en general y en particular el 11 de noviembre, sin modificaciones.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
-    "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (10 de noviembre)."
+    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general y particular sin modificaciones (11 de noviembre)."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (21 de octubre): 122 a favor, 13 en contra y 0 abstenciones (aprobado).",
+    "Última votación en la Sala del Senado (11 de noviembre): 17 a favor, 0 en contra y 0 abstenciones (aprobadas).",
     "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "falta": [
-    "Falta la votación en general en la Sala del Senado. Si se aprueba, se abre plazo de indicaciones y vuelve a comisión para la discusión en particular, salvo que se vote en general y particular a la vez.",
-    "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
+    "Falta que la Cámara de Diputados se pronuncie sobre las modificaciones de el Senado. Si las aprueba, queda despachado; si las rechaza, se forma una Comisión Mixta."
    ],
    "redactado": {
-    "fecha": "2026-11-03",
+    "fecha": "2026-11-11",
     "autor": "Redacción automática",
     "estado": "por revisar",
     "secciones": [

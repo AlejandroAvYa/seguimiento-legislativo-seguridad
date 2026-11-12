@@ -1,5 +1,40 @@
 [
  {
+  "fecha_deteccion": "2026-11-11 21:04",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-11 – Oficio aprobación sin modificaciones a Cámara de Origen . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-11 21:04",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-11 – Discusión general . Aprobado en general y particular sin modificaciones (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-11 21:04",
+  "boletin": "18709-07",
+  "tipo": "Nueva votación en Sala del Senado",
+  "antes": "",
+  "despues": "2026-11-11 – Discusión general: Aprobadas (17-0-0)"
+ },
+ {
+  "fecha_deteccion": "2026-11-11 21:04",
+  "boletin": "18709-07",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Cuenta oficio aprobación sin modificaciones de C. Revisora"
+ },
+ {
+  "fecha_deteccion": "2026-11-11 21:04",
+  "boletin": "18709-07",
+  "tipo": "Etapa",
+  "antes": "Segundo trámite constitucional (Senado)",
+  "despues": "Trámite finalización en Cámara de Origen (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-10 20:25",
   "boletin": "18709-07",
   "tipo": "Nuevo trámite",

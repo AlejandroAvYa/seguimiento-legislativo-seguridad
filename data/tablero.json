@@ -88,8 +88,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 155,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Control de identidad en zonas fronterizas",
@@ -167,8 +167,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1029,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Delito de ingreso clandestino",
@@ -246,8 +246,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Requisitos de libertad condicional",
@@ -472,8 +472,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 407,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Reforma a la Responsabilidad Penal Adolescente",
@@ -551,9 +551,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 308,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Cautelares en legítima defensa",
   "acot_n": "",
@@ -915,8 +915,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 918,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Notificaciones judiciales sin Carabineros",
@@ -1170,8 +1170,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 92,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Legítima defensa privilegiada de policías de franco",
@@ -1736,8 +1736,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 161,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Lavado de activos en transporte de carga",
@@ -1883,8 +1883,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 148,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Agentes encubiertos en internet",
@@ -2120,8 +2120,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 238,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Daños a infraestructura penitenciaria",
@@ -2203,8 +2203,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Transporte interno de migrantes irregulares",
@@ -2286,8 +2286,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 603,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Plazo de 24 horas para entregar registros telefónicos",
@@ -2429,8 +2429,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 764,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Cohecho a funcionario extranjero por personas jurídicas",
@@ -2504,9 +2504,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 308,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Porte permanente de armas de Carabineros",
   "acot_n": "",
@@ -2579,8 +2579,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 575,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Origen lícito de cauciones y honorarios",
@@ -2654,8 +2654,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 575,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Origen lícito de honorarios en Ley de Drogas",
@@ -2733,8 +2733,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 211,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Robo en lugar no habitado",
@@ -2812,8 +2812,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 203,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Delito de \"turbazo\"",
@@ -2951,8 +2951,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 337,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Nueva carrera de ingreso a la PDI",
@@ -3173,8 +3173,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 231,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Beneficios fiscales para migrantes irregulares",
@@ -3260,8 +3260,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 211,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Robo de maquinaria e insumos agrícolas",
@@ -3407,8 +3407,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 351,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Reclutamiento de menores por el crimen organizado",
@@ -3569,8 +3569,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 86,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Atentados contra policías",
@@ -3727,8 +3727,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 246,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Seguridad del Metro de Santiago",
@@ -3878,9 +3878,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 302,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "dentro de lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Conducción temeraria",
   "acot_n": "",
@@ -4042,8 +4042,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 63,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Obligaciones de organizadores del fútbol",
@@ -4200,8 +4200,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 85,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Propiedad industrial como delito base de lavado",
@@ -4409,8 +4409,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 182,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Agravantes por delitos contra la comunidad educativa",
@@ -4552,8 +4552,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 182,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Penas por agresiones a docentes",
@@ -4631,8 +4631,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 42,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Juicio oral en ausencia",
@@ -4706,8 +4706,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 140,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Ley antiencapuchados",
@@ -4849,8 +4849,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 14,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Protección de víctimas de VIF",
@@ -5071,9 +5071,9 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 99,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "más rápido que lo habitual"
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Control de identidad por FF.AA. en estados de excepción",
   "acot_n": "7",
@@ -5141,8 +5141,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Instrumentalización de menores para delinquir",
@@ -5284,8 +5284,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 36,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Tráfico de migrantes y transporte interno",
@@ -5652,8 +5652,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 14,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Notificación de cautelares en VIF",
@@ -5816,8 +5816,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 84,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Asistencia penal mutua Chile–Brasil (tratado)",
@@ -6395,8 +6395,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 49,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Antibarricadas 2.0",
@@ -6470,8 +6470,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 50,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Huellas genéticas (ADN) por las policías",
@@ -6546,8 +6546,8 @@
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 1,
-   "mediana": 221,
-   "n_base": 18,
+   "mediana": 197,
+   "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Utilización de menores de 14 años para delinquir",
@@ -6827,13 +6827,7 @@
  {
   "boletin": "18709-07",
   "n_urgencias_en_etapa": 0,
-  "ritmo": {
-   "tramite": "Segundo trámite",
-   "dias": 21,
-   "mediana": 221,
-   "n_base": 18,
-   "lectura": "más rápido que lo habitual"
-  },
+  "ritmo": {},
   "nombre_corto": "Ajustes al Servicio de Acceso a la Justicia y Defensoría de Víctimas",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -6856,14 +6850,14 @@
   "descripcion": "Ajusta la implementación del Servicio Nacional de Acceso a la Justicia y Defensoría de Víctimas: el programa de Centros Regionales de Atención y Orientación a Víctimas pasa directamente desde la SPD al nuevo Servicio.",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Senado)",
+  "etapa_codigo": "3T",
+  "etapa_texto": "Tercer trámite (Cámara de Diputados)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
    "2C": "hecha",
-   "2S": "actual",
-   "3T": "pendiente",
+   "2S": "hecha",
+   "3T": "actual",
    "CM": "pendiente",
    "TC": "pendiente",
    "LEY": "pendiente"
@@ -6879,7 +6873,7 @@
    "LEY": ""
   },
   "instancia_actual": "Sala",
-  "camara_actual": "Senado",
+  "camara_actual": "Cámara de Diputados",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 21,
   "fecha_ingreso": "2026-10-05",
@@ -6887,7 +6881,7 @@
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vence_estimado": "2026-11-16",
   "urgencia_plazo": "Vence 2026-11-16",
-  "prioridad_indice": 87,
+  "prioridad_indice": 93,
   "prioridad_nivel": "Crítica",
   "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
@@ -6896,15 +6890,15 @@
     "detalle": "Discusión inmediata vence el 2026-11-16 (en 5 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 449-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-11",
+  "ultimo_tramite": "Oficio aprobación sin modificaciones a Cámara de Origen .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
   "n_urgencias_gobierno_actual": 5,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
-  "n_votaciones_sala_senado": 0,
+  "n_votaciones_sala_senado": 1,
   "n_votaciones_sala_camara": 1,
   "link_senado": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=18709-07",
   "responsable": ""
