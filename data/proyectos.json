@@ -13766,7 +13766,17 @@
   "acot_n": "15",
   "acot_iniciativa": "Responsabilidad Penal Adolescente",
   "acot_grupo": "En tramitación al anunciarse",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-16",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica la ley N°20.084, que establece un sistema de responsabilidad de los adolescentes por infracciones a la ley penal, para fortalecer la respuesta sancionatoria frente a conductas consideradas de especial gravedad",
   "clasificacion": "Núcleo",
@@ -22877,14 +22887,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 16-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
@@ -22930,7 +22941,7 @@
     "La Cámara de Diputados lo aprobó en general el 9 de julio de 2025 y en particular el 17 de septiembre de 2025.",
     "El Senado lo aprobó en general el 7 de julio.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Último trámite, sin contar urgencias: La Sala acuerda abrir un nuevo plazo para presentar indicaciones a este proyecto de ley hasta la medianoche del día de hoy, en la Secretaría de la Comisión de Constitución, Legisla (22 de julio).",
+    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el lunes 16 de noviembre a las 10:30.",
     "Desde su último avance se han presentado o renovado 10 urgencias."
    ],
    "indicado": [
@@ -174181,7 +174192,17 @@
   "acot_n": "19",
   "acot_iniciativa": "Reclutamiento de menores de edad por asociaciones criminales",
   "acot_grupo": "En tramitación al anunciarse",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-16",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales",
   "clasificacion": "Núcleo",
@@ -177526,14 +177547,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 16-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
@@ -177578,7 +177600,7 @@
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (352 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 25 de noviembre de 2025.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (25 de noviembre de 2025).",
+    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el lunes 16 de noviembre a las 10:30.",
     "Desde su último avance se han presentado o renovado 17 urgencias."
    ],
    "indicado": [
@@ -233099,10 +233121,10 @@
   "primera_urgencia_gobierno_actual": "2026-04-21",
   "ultima_urgencia": "Suma (2026-11-02)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-09",
-  "ultimo_tramite": "Cuenta de primer informe de comisión .",
+  "ultimo_tramite_fecha": "2026-11-10",
+  "ultimo_tramite": "Cuenta oficio N° 313-2026 de la Corte Suprema",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 31,
+  "n_tramites": 32,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -233337,6 +233359,13 @@
     "descripcion": "Cuenta de primer informe de comisión .",
     "etapa": "Segundo trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-10",
+    "sesion": "/",
+    "descripcion": "Cuenta oficio N° 313-2026 de la Corte Suprema",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -233537,6 +233566,26 @@
     "camara": "Senado",
     "descripcion": "",
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37262&tipodoc=ofic"
+   },
+   {
+    "numero": "313-2026",
+    "fecha": "2026-11-10",
+    "tramite": "Discusión general",
+    "etapa": "Segundo trámite constitucional",
+    "tipo": "Respuesta de la Corte Suprema",
+    "camara": "Senado",
+    "descripcion": "",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37446&tipodoc=ofic"
+   },
+   {
+    "numero": "313-26",
+    "fecha": "2026-11-12",
+    "tramite": "Discusión general",
+    "etapa": "Segundo trámite constitucional",
+    "tipo": "Respuesta de la Corte Suprema",
+    "camara": "Senado",
+    "descripcion": "",
+    "link": ""
    }
   ],
   "boletines_indicaciones": [],
@@ -265006,14 +265055,14 @@
   "autoria": "Gob. Kast",
   "fecha_ingreso": "2026-10-05",
   "camara_origen": "Cámara de Diputados",
-  "situacion": "En tramitación",
+  "situacion": "Despachado al Ejecutivo",
   "etapa": "Trámite finalización en Cámara de Origen (C.Diputados)",
-  "subetapa": "Cuenta oficio aprobación sin modificaciones de C. Revisora",
+  "subetapa": "Oficio de ley al Ejecutivo",
   "tramite_constitucional": "Trámite finalización en Cámara de Origen",
   "camara_actual": "Cámara de Diputados",
-  "instancia_actual": "Sala",
-  "fecha_inicio_etapa": "2026-10-21",
-  "dias_en_etapa": 22,
+  "instancia_actual": "Oficio de ley al Ejecutivo",
+  "fecha_inicio_etapa": "2026-11-12",
+  "dias_en_etapa": 0,
   "dias_desde_ingreso": 38,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-10",
@@ -265027,10 +265076,10 @@
   "primera_urgencia_gobierno_actual": "2026-10-05",
   "ultima_urgencia": "Discusión inmediata (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-11",
-  "ultimo_tramite": "Oficio aprobación sin modificaciones a Cámara de Origen .",
-  "ultimo_tramite_camara": "Senado",
-  "n_tramites": 18,
+  "ultimo_tramite_fecha": "2026-11-12",
+  "ultimo_tramite": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+  "ultimo_tramite_camara": "C.Diputados",
+  "n_tramites": 19,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -265174,6 +265223,13 @@
     "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-12",
+    "sesion": "93/374",
+    "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+    "etapa": "Trámite finalización en Cámara de Origen",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -266433,16 +266489,16 @@
     ]
    }
   ],
-  "etapa_codigo": "3T",
-  "etapa_texto": "Tercer trámite (Cámara de Diputados)",
+  "etapa_codigo": "TC",
+  "etapa_texto": "Control y promulgación",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
    "2C": "hecha",
    "2S": "hecha",
-   "3T": "actual",
-   "CM": "pendiente",
-   "TC": "pendiente",
+   "3T": "omitida",
+   "CM": "omitida",
+   "TC": "actual",
    "LEY": "pendiente"
   },
   "avance_camaras": {
@@ -266457,36 +266513,23 @@
   },
   "avance_inicio": {
    "1": "2026-10-05",
-   "2": "2026-10-21"
+   "2": "2026-10-21",
+   "3T": "2026-11-12"
   },
   "n_urgencias_en_etapa": 0,
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-16 (en 4 días)."
-   }
-  ],
-  "n_alertas": 1,
-  "prioridad_indice": 93,
-  "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
-  "prioridad_motivos": [
-   "Urgencia discusión inmediata (+40)",
-   "Urgencia vence en 7 días o menos (+15)",
-   "En trámite final (+18)",
-   "Proyecto conexo (+5)",
-   "Mensaje del actual Gobierno (+10)",
-   "Movimiento en los últimos 14 días (+5)"
-  ],
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": "",
+  "prioridad_nivel": "Despachado",
+  "accion_sugerida": "Seguir el control del Tribunal Constitucional, la promulgación y la publicación",
+  "prioridad_motivos": [],
   "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en tercer trámite en la Cámara de Diputados (sala), desde el 21 de octubre (22 días).",
+    "El proyecto terminó su tramitación en el Congreso el 12 de noviembre.",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de octubre.",
-    "El Senado lo aprobó en general y en particular el 11 de noviembre, sin modificaciones.",
-    "Tiene urgencia discusión inmediata; el plazo estimado vence el 16 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general y particular sin modificaciones (11 de noviembre)."
+    "El Senado lo aprobó en general y en particular el 11 de noviembre, sin modificaciones."
    ],
    "indicado": [
     "Última votación en la Sala de la Cámara (21 de octubre): 122 a favor, 13 en contra y 0 abstenciones (aprobado).",
@@ -266494,7 +266537,9 @@
     "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "falta": [
-    "Falta que la Cámara de Diputados se pronuncie sobre las modificaciones de el Senado. Si las aprueba, queda despachado; si las rechaza, se forma una Comisión Mixta."
+    "Queda pendiente su promulgación y publicación en el Diario Oficial.",
+    "Si contiene normas de rango orgánico constitucional, antes debe pasar por el control preventivo del Tribunal Constitucional.",
+    "El Presidente de la República tiene 30 días desde que recibe el proyecto para promulgarlo o formular observaciones (veto)."
    ],
    "redactado": {
     "fecha": "2026-11-11",

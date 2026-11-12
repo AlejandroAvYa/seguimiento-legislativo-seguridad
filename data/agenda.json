@@ -664,7 +664,7 @@
    "fecha": "2026-11-12",
    "instancia": "Sala de la Cámara · sesión especial N° 93",
    "estado": "Citada",
-   "horario": "09:30 a 23:55",
+   "horario": "09:31 a 23:55",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -676,11 +676,31 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-16",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° 15589-07 ) Modifica la ley N°20.084, que establece un sistema de responsabilidad de los adolescentes por infracciones a la ley penal, para fortalecer la respuesta sancionatoria frente a conductas consideradas de especial gravedad.\n2.- ( Bol.N° 17637-07 ) Modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales.",
+   "boletines": [
+    "15589-07",
+    "17637-07"
+   ],
+   "invitados": [],
+   "seguidos": [
+    "15589-07",
+    "17637-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-16",
    "instancia": "Comisión de Agricultura",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 144, edificio ex Congreso, Santiago",
-   "horario": "12:00 a 13:30",
+   "horario": "12:30 a 14:00",
    "materia": "1.- Conocer, de parte del señor Subsecretario de Agricultura, los antecedentes relativos a la eventual compra de trigo por Cotrisa, las modificaciones al reglamento de la ley N° 18.455, que fija normas sobre producción, elaboración y comercialización de alcoholes etílicos, bebidas alcohólicas y vinagres, y otras materias de interés de la Comisión, en el ámbito de su competencia.\nInvitado:\nEl Subsecretario de Agricultura, señor Francesco Venezian.",
    "boletines": [],
    "invitados": [],
@@ -765,6 +785,20 @@
     "14838-03"
    ],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-16",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 94",
+   "estado": "Citada",
+   "horario": "17:00 a 19:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
    "seguidos": []
   },
   {

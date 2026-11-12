@@ -304,16 +304,18 @@
    "hasta": "2026-11-22",
    "pasada": false,
    "actual": false,
-   "camara_sala": 0,
-   "camara_dias": [],
+   "camara_sala": 1,
+   "camara_dias": [
+    "2026-11-16"
+   ],
    "senado_sala": 6,
    "senado_dias": [
     "2026-11-17",
     "2026-11-18",
     "2026-11-19"
    ],
-   "senado_comisiones": 7,
-   "senado_comisiones_seguidos": 0,
+   "senado_comisiones": 8,
+   "senado_comisiones_seguidos": 1,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -392,11 +394,6 @@
      "boletin": "18621-34",
      "urgencia": "Simple",
      "vence": "2026-11-18"
-    },
-    {
-     "boletin": "18709-07",
-     "urgencia": "Discusión inmediata",
-     "vence": "2026-11-16"
     }
    ]
   },
@@ -1214,6 +1211,11 @@
   {
    "fecha": "2026-11-12",
    "tipo": "Especial",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-16",
+   "tipo": "Ordinaria",
    "estado": "Citada"
   }
  ],

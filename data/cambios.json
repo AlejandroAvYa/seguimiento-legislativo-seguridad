@@ -1,5 +1,47 @@
 [
  {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "17637-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-16 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "15589-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-16 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "18709-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-12 – Cuenta oficio aprobación sin modificaciones de C. Revisora . (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "18709-07",
+  "tipo": "Subetapa",
+  "antes": "Cuenta oficio aprobación sin modificaciones de C. Revisora",
+  "despues": "Oficio de ley al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "18709-07",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Despachado al Ejecutivo"
+ },
+ {
+  "fecha_deteccion": "2026-11-12 16:57",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-10 – Cuenta oficio N° 313-2026 de la Corte Suprema (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-11 21:04",
   "boletin": "18709-07",
   "tipo": "Nuevo trámite",
