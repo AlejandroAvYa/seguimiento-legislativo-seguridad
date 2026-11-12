@@ -941,6 +941,22 @@
  ],
  "noticias_camara": [
   {
+   "fecha": "2026-11-12",
+   "titulo": "Discusión presupuestaria: Cámara respalda recursos de Defensa, Obras Públicas y Agricultura",
+   "link": "https://www.camara.cl/cms/2026/11/11/discusion-presupuestaria-camara-respalda-recursos-de-defensa-obras-publicas-y-agricultura/",
+   "tipo": "Sala",
+   "resumen": "Sin embargo, al concluir la segunda jornada de votación particular del proyecto de Presupuesto 2027, la Cámara rechazó los recursos para Indap y el SAG.",
+   "temas": [
+    "dirección de vialidad",
+    "INDAP (Instituto de Desarrollo Agropecuario)",
+    "Ministerio de Agricultura",
+    "Ministerio de Defensa",
+    "Ministerio de Obras Públicas"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
    "fecha": "2026-11-11",
    "titulo": "Presupuesto 2027: aprobadas seis partidas y rechazados recursos del Ministerio del Interior",
    "link": "https://www.camara.cl/cms/2026/11/10/presupuesto-2027-aprobadas-seis-partidas-y-rechazados-recursos-del-ministerio-del-interior/",
