@@ -740,6 +740,20 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-16",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 94",
+   "estado": "Citada",
+   "horario": "15:00 a 17:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-16",
@@ -785,20 +799,6 @@
     "14838-03"
    ],
    "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-16",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 94",
-   "estado": "Citada",
-   "horario": "17:00 a 19:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
    "seguidos": []
   },
   {
@@ -986,6 +986,23 @@
     "Ministerio de Agricultura",
     "Ministerio de Defensa",
     "Ministerio de Obras Públicas"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-12",
+   "titulo": "Con reducciones en Salud, Trabajo y el rechazo de Minería sigue debate de Presupuesto 2027",
+   "link": "https://www.camara.cl/cms/2026/11/12/con-reducciones-en-salud-trabajo-y-el-rechazo-de-mineria-sigue-debate-de-presupuesto-2027/",
+   "tipo": "Sala",
+   "resumen": "Continuando con la discusión del Presupuesto 2027, la Sala no apoyó la partida de Minería, con discursos transversales contra el ingreso de privados a Codelco.",
+   "temas": [
+    "Bienes Nacionales",
+    "Minería",
+    "presupesto 2027",
+    "Sala de la Cámara",
+    "salud",
+    "Tarapacá"
    ],
    "boletines": [],
    "seguidos": []
