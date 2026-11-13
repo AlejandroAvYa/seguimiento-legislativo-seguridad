@@ -963,17 +963,43 @@
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": true
-  },
-  {
-   "boletin": "16441-19",
-   "materia": "Crea una nueva institucionalidad de prospectiva y desarrollo sostenible basada en conocimiento, y modifica la ley N° 21.105, que crea el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación, en los términos que indica",
-   "fecha": "2026-11-12",
-   "hora": "12:00",
-   "donde": "Secretaría de la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
-   "seguido": false
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Cámara respalda recursos de ministerios de Medio Ambiente, Deportes y Energía",
+   "link": "https://www.camara.cl/cms/2026/11/13/camara-respalda-recursos-de-ministerios-de-medio-ambiente-deportes-y-energia/",
+   "tipo": "Sala",
+   "resumen": "Sin embargo, no aprobó las partidas de Cultura y de la Mujer y Equidad de Género. Además, rechazó los fondos del Instituto Nacional del Deporte.",
+   "temas": [
+    "#Presupuerto 2027",
+    "Deportes",
+    "Energía",
+    "IND",
+    "Ministerio de Ciencias",
+    "Ministerio de la Mujer y Equidad de Género"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-13",
+   "titulo": "Cámara despacha partida de Desarrollo Social con rechazo a algunos servicios",
+   "link": "https://www.camara.cl/cms/2026/11/13/camara-despacha-partida-de-desarrollo-social-con-rechazo-a-algunos-servicios/",
+   "tipo": "Sala",
+   "resumen": "Sí se respaldaron los fondos de los ministerios de Vivienda, Transportes y Segpres, pero se rechazó el financiamiento a la Segegob. También se dio el visto bueno a los recursos para el Ministerio Público.",
+   "temas": [
+    "Dipres",
+    "Ministerio de de Desarrollo Social y Familia",
+    "Ministerio de Transportes",
+    "Ministerio de Vivienda",
+    "Ministerio Público",
+    "presupuesto 2027"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-12",
    "titulo": "Discusión presupuestaria: Cámara respalda recursos de Defensa, Obras Públicas y Agricultura",
