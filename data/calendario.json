@@ -308,14 +308,15 @@
    "camara_dias": [
     "2026-11-16"
    ],
-   "senado_sala": 6,
+   "senado_sala": 7,
    "senado_dias": [
+    "2026-11-16",
     "2026-11-17",
     "2026-11-18",
     "2026-11-19"
    ],
-   "senado_comisiones": 8,
-   "senado_comisiones_seguidos": 1,
+   "senado_comisiones": 2,
+   "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -1211,7 +1212,7 @@
   {
    "fecha": "2026-11-12",
    "tipo": "Especial",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-16",
@@ -1221,6 +1222,11 @@
  ],
  "_senado_sesiones": [
   {
+   "numero": "86",
+   "tipo": "Especial",
+   "fecha": "2026-11-19"
+  },
+  {
    "numero": "85",
    "tipo": "Especial",
    "fecha": "2026-11-19"
@@ -1228,7 +1234,7 @@
   {
    "numero": "84",
    "tipo": "Especial",
-   "fecha": "2026-11-19"
+   "fecha": "2026-11-18"
   },
   {
    "numero": "83",
@@ -1238,7 +1244,7 @@
   {
    "numero": "82",
    "tipo": "Especial",
-   "fecha": "2026-11-18"
+   "fecha": "2026-11-17"
   },
   {
    "numero": "81",
@@ -1248,7 +1254,7 @@
   {
    "numero": "80",
    "tipo": "Especial",
-   "fecha": "2026-11-17"
+   "fecha": "2026-11-16"
   },
   {
    "numero": "79",

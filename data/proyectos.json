@@ -13773,7 +13773,7 @@
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-    "estado": "Citada",
+    "estado": "Suspendida",
     "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
    }
   ],
@@ -22887,15 +22887,14 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 16-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
@@ -22941,7 +22940,7 @@
     "La Cámara de Diputados lo aprobó en general el 9 de julio de 2025 y en particular el 17 de septiembre de 2025.",
     "El Senado lo aprobó en general el 7 de julio.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el lunes 16 de noviembre a las 10:30.",
+    "Último trámite, sin contar urgencias: La Sala acuerda abrir un nuevo plazo para presentar indicaciones a este proyecto de ley hasta la medianoche del día de hoy, en la Secretaría de la Comisión de Constitución, Legisla (22 de julio).",
     "Desde su último avance se han presentado o renovado 10 urgencias."
    ],
    "indicado": [
@@ -174284,7 +174283,7 @@
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-    "estado": "Citada",
+    "estado": "Suspendida",
     "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
    }
   ],
@@ -177632,15 +177631,14 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 16-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
@@ -177685,7 +177683,7 @@
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (353 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 25 de noviembre de 2025.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el lunes 16 de noviembre a las 10:30.",
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (25 de noviembre de 2025).",
     "Desde su último avance se han presentado o renovado 17 urgencias."
    ],
    "indicado": [

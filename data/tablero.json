@@ -487,7 +487,7 @@
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-    "estado": "Citada",
+    "estado": "Suspendida",
     "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
    }
   ],
@@ -529,9 +529,9 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-12-10",
   "urgencia_plazo": "Vence 2026-12-10",
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia renovada sin avance",
@@ -3436,7 +3436,7 @@
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-    "estado": "Citada",
+    "estado": "Suspendida",
     "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago"
    }
   ],
@@ -3478,9 +3478,9 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-12-10",
   "urgencia_plazo": "Vence 2026-12-10",
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 16-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "alertas": [
    {
     "tipo": "Urgencia renovada sin avance",
