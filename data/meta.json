@@ -9,20 +9,20 @@
   "senado": {
    "estado": "ok",
    "ultima_consulta_exitosa": "2026-11-14",
-   "ultima_hora_exitosa": "2026-11-14 00:19"
+   "ultima_hora_exitosa": "2026-11-14 08:31"
   },
   "camara_votaciones": {
    "estado": "ok",
    "ultima_consulta_exitosa": "2026-11-14"
   },
   "partidos": {
-   "estado": "senadores ok, comisiones ok, diputados ok"
+   "estado": "datos del día"
   },
   "calendario": {
    "estado": "Cámara ok, Senado ok"
   },
   "agenda": {
-   "estado": "ok",
+   "estado": "parcial",
    "detalle": {
     "senado_citaciones": {
      "estado": "ok",
@@ -41,8 +41,7 @@
      "n": 2
     },
     "camara_prensa": {
-     "estado": "ok",
-     "n": 34
+     "estado": "sin conexión: HTTPError"
     }
    },
    "ultima_consulta_exitosa": "2026-11-14"
