@@ -1,5 +1,89 @@
 [
  {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18621-34",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374) (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18621-34",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18621-34",
+  "tipo": "Refundidos",
+  "antes": "18621-34 (matriz)",
+  "despues": "18682-34 / 18621-34 (matriz)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18566-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18562-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18544-06",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18521-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18341-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18341-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "18208-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Suma",
+  "despues": "Simple"
+ },
+ {
+  "fecha_deteccion": "2026-11-16 19:08",
+  "boletin": "15975-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-16 – Oficio N°. (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-13 19:40",
   "boletin": "17637-07",
   "tipo": "Citado a sesión",

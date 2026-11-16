@@ -172,9 +172,8 @@
     "2026-10-27",
     "2026-10-28"
    ],
-   "senado_sala": 5,
+   "senado_sala": 4,
    "senado_dias": [
-    "2026-10-26",
     "2026-10-27",
     "2026-10-28"
    ],
@@ -283,7 +282,7 @@
     "2026-11-17",
     "2026-11-18"
    ],
-   "senado_sala": 7,
+   "senado_sala": 8,
    "senado_dias": [
     "2026-11-16",
     "2026-11-17",
@@ -312,11 +311,6 @@
      "vence": "2026-11-19"
     },
     {
-     "boletin": "18208-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-17"
-    },
-    {
      "boletin": "18211-25",
      "urgencia": "Discusión inmediata",
      "vence": "2026-11-16"
@@ -332,44 +326,14 @@
      "vence": "2026-11-16"
     },
     {
-     "boletin": "18341-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-17"
-    },
-    {
      "boletin": "18434-07",
      "urgencia": "Suma",
      "vence": "2026-11-17"
     },
     {
-     "boletin": "18521-07",
-     "urgencia": "Simple",
-     "vence": "2026-11-18"
-    },
-    {
-     "boletin": "18544-06",
-     "urgencia": "Simple",
-     "vence": "2026-11-18"
-    },
-    {
-     "boletin": "18562-07",
-     "urgencia": "Simple",
-     "vence": "2026-11-18"
-    },
-    {
-     "boletin": "18566-07",
-     "urgencia": "Simple",
-     "vence": "2026-11-18"
-    },
-    {
      "boletin": "18590-07",
      "urgencia": "Suma",
      "vence": "2026-11-17"
-    },
-    {
-     "boletin": "18621-34",
-     "urgencia": "Simple",
-     "vence": "2026-11-18"
     }
    ]
   },
@@ -382,7 +346,7 @@
    "camara_dias": [],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 2,
+   "senado_comisiones": 4,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -549,7 +513,43 @@
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
-   "urgencias_vencen": []
+   "urgencias_vencen": [
+    {
+     "boletin": "18208-25",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18341-25",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18521-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18544-06",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18562-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18566-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    },
+    {
+     "boletin": "18621-34",
+     "urgencia": "Simple",
+     "vence": "2026-12-16"
+    }
+   ]
   }
  ],
  "feriados": [
@@ -1208,7 +1208,7 @@
   {
    "fecha": "2026-11-16",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-17",
@@ -1258,6 +1258,11 @@
    "fecha": "2026-11-16"
   },
   {
+   "numero": "",
+   "tipo": "Ordinaria",
+   "fecha": "2026-11-16"
+  },
+  {
    "numero": "79",
    "tipo": "Ordinaria",
    "fecha": "2026-11-11"
@@ -1296,11 +1301,6 @@
    "numero": "72",
    "tipo": "Especial",
    "fecha": "2026-10-27"
-  },
-  {
-   "numero": "",
-   "tipo": "Ordinaria",
-   "fecha": "2026-10-26"
   },
   {
    "numero": "71",

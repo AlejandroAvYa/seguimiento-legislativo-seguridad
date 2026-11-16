@@ -1066,7 +1066,7 @@
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vence_estimado": "",
   "urgencia_plazo": "",
-  "prioridad_indice": 38,
+  "prioridad_indice": 43,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
   "alertas": [
@@ -1075,8 +1075,8 @@
     "detalle": "La última votación en la Sala de la Cámara (2026-03-05) se aprobó por estrecho margen: 65 a favor y 53 en contra."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-21",
-  "ultimo_tramite": "Cuenta del oficio N° 21.661, por el que informa reemplazo de integrante de la Comisión Mixta",
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Oficio N°.",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -4653,7 +4653,7 @@
  },
  {
   "boletin": "18208-25",
-  "n_urgencias_en_etapa": 0,
+  "n_urgencias_en_etapa": 1,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 47,
@@ -4701,24 +4701,19 @@
   "dias_en_etapa": 47,
   "fecha_ingreso": "2026-04-20",
   "iniciativa": "Mensaje",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-17",
-  "urgencia_plazo": "Vence 2026-11-17",
-  "prioridad_indice": 82,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 54,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-17 (en 1 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta oficio N° 313-2026 de la Corte Suprema",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 16,
+  "n_urgencias_gobierno_actual": 17,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 2,
@@ -5455,7 +5450,7 @@
  },
  {
   "boletin": "18341-25",
-  "n_urgencias_en_etapa": 15,
+  "n_urgencias_en_etapa": 16,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 157,
@@ -5503,28 +5498,24 @@
   "dias_en_etapa": 157,
   "fecha_ingreso": "2026-06-12",
   "iniciativa": "Mensaje",
-  "urgencia_vigente": "Suma",
-  "urgencia_vence_estimado": "2026-11-17",
-  "urgencia_plazo": "Vence 2026-11-17",
-  "prioridad_indice": 82,
-  "prioridad_nivel": "Crítica",
+  "urgencia_vigente": "Simple",
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 54,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [
    {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Suma vence el 2026-11-17 (en 1 días)."
-   },
-   {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 15 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 16 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-02",
-  "ultimo_tramite": "Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 15,
+  "n_urgencias_gobierno_actual": 16,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6043,7 +6034,7 @@
  },
  {
   "boletin": "18521-07",
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 105,
@@ -6092,23 +6083,18 @@
   "fecha_ingreso": "2026-08-03",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-18",
-  "urgencia_plazo": "Vence 2026-11-18",
-  "prioridad_indice": 42,
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 32,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-18 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6182,7 +6168,7 @@
  },
  {
   "boletin": "18544-06",
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 4,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 104,
@@ -6231,23 +6217,18 @@
   "fecha_ingreso": "2026-08-04",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-18",
-  "urgencia_plazo": "Vence 2026-11-18",
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 27,
+  "prioridad_nivel": "Baja",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-18 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 387-374 que hace presente la urgencia Simple",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 3,
+  "n_urgencias_gobierno_actual": 4,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6257,7 +6238,7 @@
  },
  {
   "boletin": "18562-07",
-  "n_urgencias_en_etapa": 5,
+  "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 103,
@@ -6306,23 +6287,18 @@
   "fecha_ingreso": "2026-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-18",
-  "urgencia_plazo": "Vence 2026-11-18",
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 27,
+  "prioridad_nivel": "Baja",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-18 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 5,
+  "n_urgencias_gobierno_actual": 6,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6332,7 +6308,7 @@
  },
  {
   "boletin": "18566-07",
-  "n_urgencias_en_etapa": 5,
+  "n_urgencias_en_etapa": 6,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 103,
@@ -6381,23 +6357,18 @@
   "fecha_ingreso": "2026-08-05",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-18",
-  "urgencia_plazo": "Vence 2026-11-18",
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 27,
+  "prioridad_nivel": "Baja",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-18 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-10-19",
-  "ultimo_tramite": "Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 5,
+  "n_urgencias_gobierno_actual": 6,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -6697,7 +6668,7 @@
  },
  {
   "boletin": "18621-34",
-  "n_urgencias_en_etapa": 3,
+  "n_urgencias_en_etapa": 4,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 77,
@@ -6746,23 +6717,18 @@
   "fecha_ingreso": "2026-08-31",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-18",
-  "urgencia_plazo": "Vence 2026-11-18",
-  "prioridad_indice": 47,
+  "urgencia_vence_estimado": "2026-12-16",
+  "urgencia_plazo": "Vence 2026-12-16",
+  "prioridad_indice": 32,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-18 (en 2 días)."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta, oficio de la Comisión de Mujeres y Equidad de Género mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en mensaje y moción, contenidos en los boletines Nºs 18621-34 y 18682-34, respectivamente. ACORDADO. Con consulta al Ejecutivo.",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-16",
+  "ultimo_tramite": "Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 3,
+  "n_urgencias_gobierno_actual": 4,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
