@@ -1,33 +1,6 @@
 {
  "semanas": [
   {
-   "desde": "2026-09-14",
-   "hasta": "2026-09-20",
-   "pasada": true,
-   "actual": false,
-   "camara_sala": 0,
-   "camara_dias": [],
-   "senado_sala": 0,
-   "senado_dias": [],
-   "senado_comisiones": 0,
-   "senado_comisiones_seguidos": 0,
-   "camara_comisiones": 0,
-   "camara_comisiones_seguidos": 0,
-   "feriados": [
-    {
-     "fecha": "2026-09-18",
-     "nombre": "Independencia Nacional",
-     "fuente": "api.boostr.cl"
-    },
-    {
-     "fecha": "2026-09-19",
-     "nombre": "Día de las Glorias del Ejército",
-     "fuente": "api.boostr.cl"
-    }
-   ],
-   "urgencias_vencen": []
-  },
-  {
    "desde": "2026-09-21",
    "hasta": "2026-09-27",
    "pasada": true,
@@ -278,8 +251,8 @@
   {
    "desde": "2026-11-09",
    "hasta": "2026-11-15",
-   "pasada": false,
-   "actual": true,
+   "pasada": true,
+   "actual": false,
    "camara_sala": 5,
    "camara_dias": [
     "2026-11-09",
@@ -292,8 +265,8 @@
     "2026-11-10",
     "2026-11-11"
    ],
-   "senado_comisiones": 29,
-   "senado_comisiones_seguidos": 3,
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -303,10 +276,12 @@
    "desde": "2026-11-16",
    "hasta": "2026-11-22",
    "pasada": false,
-   "actual": false,
-   "camara_sala": 1,
+   "actual": true,
+   "camara_sala": 3,
    "camara_dias": [
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18"
    ],
    "senado_sala": 7,
    "senado_dias": [
@@ -559,6 +534,22 @@
      "vence": "2026-12-10"
     }
    ]
+  },
+  {
+   "desde": "2026-12-14",
+   "hasta": "2026-12-20",
+   "pasada": false,
+   "actual": false,
+   "camara_sala": 0,
+   "camara_dias": [],
+   "senado_sala": 0,
+   "senado_dias": [],
+   "senado_comisiones": 0,
+   "senado_comisiones_seguidos": 0,
+   "camara_comisiones": 0,
+   "camara_comisiones_seguidos": 0,
+   "feriados": [],
+   "urgencias_vencen": []
   }
  ],
  "feriados": [
@@ -1216,6 +1207,16 @@
   },
   {
    "fecha": "2026-11-16",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-17",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-18",
    "tipo": "Ordinaria",
    "estado": "Citada"
   }
