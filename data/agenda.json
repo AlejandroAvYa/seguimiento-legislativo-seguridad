@@ -165,26 +165,12 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-17",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 95",
-   "estado": "Citada",
-   "horario": "10:01 a 14:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-11-17",
    "instancia": "Sala del Senado · sesión especial N° 81",
    "estado": "Citada",
-   "horario": "10:17 a 14:00",
+   "horario": "10:17 a 13:56",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -198,7 +184,7 @@
    "fecha": "2026-11-17",
    "instancia": "Sala del Senado · sesión especial N° 82",
    "estado": "Citada",
-   "horario": "15:00 a 20:00",
+   "horario": "15:15 a 20:00",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -280,6 +266,22 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-23",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 3, tercer piso, Senado en SANTIAGO",
+   "horario": "10:00 a 13:45",
+   "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "18643-05"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
    "instancia": "Comisión de Minería y Energía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -299,10 +301,45 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Salón Pedro León Gallo Goyenechea, edificio del ex Congreso",
    "horario": "15:00 a 18:00",
-   "materia": "1.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.",
+   "materia": "1.- Conocer la opinión de diversas autoridades, académicos, representantes de organizaciones y de experiencias comparadas, respecto de ?Derechos Humanos y Empresas?, en el marco de las iniciativas legislativas vinculadas a esta materia, correspondientes a los proyectos de ley contenidos en los boletines Nos 17.196-17 y 17.446-17.\nInvitados:\nLa Directora de la Oficina de la OIT para el Cono Sur de América Latina, señora Yukiko Arai.\nLa Embajadora de la Unión Europea, señora Claudia Gintersdorfer.\nEl Representante de la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos, ACNUDH, señor Hernán Vales.\nEl Académico de la Pontificia Universidad Católica, señor Juan Ibáñez.\nEl Académico de la Universidad Chile, señor Abel Piñones.\nEl Académico de la Universidad Chile, señor Salvador Millaleo.",
    "boletines": [
     "17196-17",
     "17446-17"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Vivienda y Urbanismo",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "10:00 a 12:00",
+   "materia": "1.- Considerar el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14), con urgencia calificada de suma.\nA esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos.",
+   "boletines": [
+    "18644-14"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "10:30 a 12:30",
+   "materia": "1.- ( Bol.N° S 2773-05 ) Oficio de Su Excelencia el Presidente de la República, mediante el cual solicita el acuerdo del Senado para nombrar como Consejero del Consejo Directivo del Administrador del Fondo Autónomo de Protección Previsional, al señor Augusto Iglesias Palau, por el período que indica\n2.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "2773-05",
+    "18643-05"
    ],
    "invitados": [],
    "seguidos": []
@@ -383,6 +420,20 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-17",
+   "titulo": "Constituyen comisión de acusación constitucional contra ministro Rabat",
+   "link": "https://www.camara.cl/cms/2026/11/17/constituyen-comision-de-acusacion-constitucional-contra-ministro-rabat/",
+   "tipo": "Comisión",
+   "resumen": "La instancia, que eligió como presidente al diputado Raúl Soto, acordó solicitar todos los decretos de rebaja de condena firmados por el secretario de Estado.",
+   "temas": [
+    "Acusación Constitucional",
+    "Ministro de Justicia",
+    "Rebaja de Condena"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-16",
    "titulo": "Proyecto sobre combustibles en tabla de la Sala de este lunes",

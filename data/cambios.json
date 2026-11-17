@@ -1,5 +1,82 @@
 [
  {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18709-07",
+  "tipo": "N° de ley",
+  "antes": "",
+  "despues": "Ley N° 21.854"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18709-07",
+  "tipo": "Subetapa",
+  "antes": "Oficio de ley al Ejecutivo",
+  "despues": ""
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18709-07",
+  "tipo": "Etapa",
+  "antes": "Trámite finalización en Cámara de Origen (C.Diputados)",
+  "despues": "Tramitación terminada"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18709-07",
+  "tipo": "Situación",
+  "antes": "Despachado al Ejecutivo",
+  "despues": "Publicado como ley"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-12 – Cuenta, oficio N° 313-2026 de la Corte Suprema, mediante el cual remite opinión sobre el proyecto (informe N° 51-2026) (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-09 – Cuenta de primer informe de comisión . Queda para tabla. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "17671-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-08-12 – Archivado (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "17671-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-08-12 – Los Comités Parlamentarios acordaron enviar el proyecto al archivo. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "17671-02",
+  "tipo": "Subetapa",
+  "antes": "Discusión general",
+  "despues": "Desarchivo de proyecto"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "17671-02",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (C.Diputados)",
+  "despues": "Archivado"
+ },
+ {
+  "fecha_deteccion": "2026-11-17 19:54",
+  "boletin": "17671-02",
+  "tipo": "Situación",
+  "antes": "En tramitación",
+  "despues": "Archivado"
+ },
+ {
   "fecha_deteccion": "2026-11-16 19:08",
   "boletin": "18621-34",
   "tipo": "Nuevo trámite",

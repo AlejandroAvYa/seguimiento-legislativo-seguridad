@@ -181320,12 +181320,12 @@
   "autoria": "Arroyo Muñoz, Roberto; Becker Alvear, Miguel Ángel; Jouannet Valderrama, Andrés; Lee Flores, Enrique; Matheson Villán, Christian; Moreira Barros, Cristhian",
   "fecha_ingreso": "2025-07-01",
   "camara_origen": "Cámara de Diputados",
-  "situacion": "En tramitación",
-  "etapa": "Primer trámite constitucional (C.Diputados)",
-  "subetapa": "Discusión general",
-  "tramite_constitucional": "Primer trámite constitucional",
-  "camara_actual": "Cámara de Diputados",
-  "instancia_actual": "Sala",
+  "situacion": "Archivado",
+  "etapa": "Archivado",
+  "subetapa": "Desarchivo de proyecto",
+  "tramite_constitucional": "Archivado",
+  "camara_actual": "",
+  "instancia_actual": "Desarchivo de proyecto",
   "fecha_inicio_etapa": "2025-07-01",
   "dias_en_etapa": 504,
   "dias_desde_ingreso": 504,
@@ -181341,10 +181341,10 @@
   "primera_urgencia_gobierno_actual": "2026-05-05",
   "ultima_urgencia": "Simple (2026-05-05)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-07-13",
-  "ultimo_tramite": "Cuenta de primer informe de comisión . Queda para tabla.",
+  "ultimo_tramite_fecha": "2026-08-12",
+  "ultimo_tramite": "Archivado",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 5,
+  "n_tramites": 7,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -181397,6 +181397,20 @@
     "descripcion": "Cuenta de primer informe de comisión . Queda para tabla.",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-08-12",
+    "sesion": "/",
+    "descripcion": "Los Comités Parlamentarios acordaron enviar el proyecto al archivo.",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-08-12",
+    "sesion": "/",
+    "descripcion": "Archivado",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -181431,11 +181445,11 @@
   "indicaciones_por_autor": [],
   "indicaciones_por_articulo": [],
   "votaciones_camara": [],
-  "etapa_codigo": "1S",
-  "etapa_texto": "Primer trámite · Sala (Cámara de Diputados)",
+  "etapa_codigo": "1C",
+  "etapa_texto": "Primer trámite · Comisión (Cámara de Diputados)",
   "avance_estados": {
-   "1C": "hecha",
-   "1S": "actual",
+   "1C": "detenida",
+   "1S": "pendiente",
    "2C": "pendiente",
    "2S": "pendiente",
    "3T": "pendiente",
@@ -181457,50 +181471,23 @@
    "1": "2025-07-01"
   },
   "n_urgencias_en_etapa": 0,
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Simple: el plazo se cumplió el 2026-06-04 y no hay renovación registrada."
-   },
-   {
-    "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 127 días."
-   },
-   {
-    "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 504 días en Sala."
-   }
-  ],
-  "n_alertas": 3,
-  "prioridad_indice": 44,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
-  "prioridad_motivos": [
-   "Urgencia simple (+12)",
-   "En Sala (+12)",
-   "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
-  ],
-  "ritmo": {
-   "tramite": "Primer trámite",
-   "dias": 504,
-   "mediana": 251,
-   "n_base": 59,
-   "lectura": "más lento que lo habitual"
-  },
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": "",
+  "prioridad_nivel": "Fuera de tramitación",
+  "accion_sugerida": "Sin acción, salvo decisión de reponerlo",
+  "prioridad_motivos": [],
+  "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 1 de julio de 2025 (504 días).",
-    "Tiene urgencia simple; el plazo estimado venció el 4 de junio.",
-    "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión. Queda para tabla (13 de julio)."
+    "El proyecto está archivado desde el 12 de agosto."
    ],
    "indicado": [
     "Último informe: Primer informe de comisión de Defensa Nacional (13 de julio)."
    ],
    "falta": [
-    "Falta la votación en general en la Sala de la Cámara. Si se aprueba, se abre plazo de indicaciones y vuelve a comisión para la discusión en particular, salvo que se vote en general y particular a la vez.",
-    "Después debe pasar por el Senado (comisión y Sala). Si esa cámara introduce cambios, vuelve a la Cámara de Diputados en tercer trámite y, si hay discrepancias, a Comisión Mixta. Al final, promulgación y publicación."
+    "Para retomarlo se requiere pedir su desarchivo o ingresar un nuevo proyecto."
    ],
    "redactado": {
     "fecha": "2026-11-09",
@@ -233675,14 +233662,14 @@
    {
     "fecha": "2026-11-09",
     "sesion": "89/374",
-    "descripcion": "Cuenta de primer informe de comisión .",
+    "descripcion": "Cuenta de primer informe de comisión . Queda para tabla.",
     "etapa": "Segundo trámite constitucional",
     "camara": "C.Diputados"
    },
    {
-    "fecha": "2026-11-10",
-    "sesion": "/",
-    "descripcion": "Cuenta oficio N° 313-2026 de la Corte Suprema",
+    "fecha": "2026-11-12",
+    "sesion": "93/374",
+    "descripcion": "Cuenta, oficio N° 313-2026 de la Corte Suprema, mediante el cual remite opinión sobre el proyecto (informe N° 51-2026)",
     "etapa": "Segundo trámite constitucional",
     "camara": "C.Diputados"
    },
@@ -234452,7 +234439,7 @@
     "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 30 de septiembre (48 días).",
     "El Senado lo aprobó en general y en particular el 29 de septiembre.",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (9 de noviembre)."
+    "Último trámite, sin contar urgencias: Cuenta, oficio N° 313-2026 de la Corte Suprema, mediante el cual remite opinión sobre el proyecto (informe N° 51-2026) (12 de noviembre)."
    ],
    "indicado": [
     "Última votación en la Sala del Senado (29 de septiembre): 10 a favor, 24 en contra y 1 abstenciones ().",
@@ -265078,7 +265065,7 @@
   "ultima_urgencia": "Simple (2026-11-16)",
   "indicaciones_ejecutivo_gobierno_actual": "",
   "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
   "n_tramites": 9,
   "n_boletines_indicaciones_senado": 0,
@@ -265151,14 +265138,14 @@
    {
     "fecha": "2026-11-16",
     "sesion": "94/374",
-    "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+    "descripcion": "Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
    },
    {
     "fecha": "2026-11-16",
     "sesion": "94/374",
-    "descripcion": "Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)",
+    "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
    }
@@ -265524,12 +265511,12 @@
   "autoria": "Gob. Kast",
   "fecha_ingreso": "2026-10-05",
   "camara_origen": "Cámara de Diputados",
-  "situacion": "Despachado al Ejecutivo",
-  "etapa": "Trámite finalización en Cámara de Origen (C.Diputados)",
-  "subetapa": "Oficio de ley al Ejecutivo",
-  "tramite_constitucional": "Trámite finalización en Cámara de Origen",
-  "camara_actual": "Cámara de Diputados",
-  "instancia_actual": "Oficio de ley al Ejecutivo",
+  "situacion": "Publicado como ley",
+  "etapa": "Tramitación terminada",
+  "subetapa": "",
+  "tramite_constitucional": "Tramitación terminada",
+  "camara_actual": "",
+  "instancia_actual": "",
   "fecha_inicio_etapa": "2026-11-12",
   "dias_en_etapa": 5,
   "dias_desde_ingreso": 43,
@@ -265537,8 +265524,8 @@
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-11-16",
   "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
-  "ley_numero": "",
-  "ley_fecha_diario_oficial": "",
+  "ley_numero": "Ley N° 21.854",
+  "ley_fecha_diario_oficial": "2026-11-13",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
   "n_urgencias_gobierno_actual": 5,
@@ -266958,8 +266945,8 @@
     ]
    }
   ],
-  "etapa_codigo": "TC",
-  "etapa_texto": "Control y promulgación",
+  "etapa_codigo": "LEY",
+  "etapa_texto": "Ley",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
@@ -266967,8 +266954,8 @@
    "2S": "hecha",
    "3T": "omitida",
    "CM": "omitida",
-   "TC": "actual",
-   "LEY": "pendiente"
+   "TC": "hecha",
+   "LEY": "hecha"
   },
   "avance_camaras": {
    "1C": "Cámara de Diputados",
@@ -266983,20 +266970,21 @@
   "avance_inicio": {
    "1": "2026-10-05",
    "2": "2026-10-21",
-   "3T": "2026-11-12"
+   "3T": "2026-11-12",
+   "LEY": "2026-11-13"
   },
   "n_urgencias_en_etapa": 0,
   "alertas": [],
   "n_alertas": 0,
   "prioridad_indice": "",
-  "prioridad_nivel": "Despachado",
-  "accion_sugerida": "Seguir el control del Tribunal Constitucional, la promulgación y la publicación",
+  "prioridad_nivel": "Ley publicada",
+  "accion_sugerida": "Seguimiento de la implementación y de los reglamentos",
   "prioridad_motivos": [],
   "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "El proyecto terminó su tramitación en el Congreso el 12 de noviembre.",
+    "El proyecto es ley: Ley N° 21.854, publicada en el Diario Oficial el 13 de noviembre.",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de octubre.",
     "El Senado lo aprobó en general y en particular el 11 de noviembre, sin modificaciones."
    ],
@@ -267006,9 +266994,7 @@
     "Último informe: Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
    ],
    "falta": [
-    "Queda pendiente su promulgación y publicación en el Diario Oficial.",
-    "Si contiene normas de rango orgánico constitucional, antes debe pasar por el control preventivo del Tribunal Constitucional.",
-    "El Presidente de la República tiene 30 días desde que recibe el proyecto para promulgarlo o formular observaciones (veto)."
+    "Nada en el Congreso. Queda la implementación: reglamentos y plazos que fije la ley."
    ],
    "redactado": {
     "fecha": "2026-11-11",

@@ -1717,6 +1717,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17671-02,2026-05-05,18/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 77-374 que hace presente la urgencia Simple
 17671-02,2026-07-13,/,C.Diputados,Primer trámite constitucional,Primer informe de comisión de Defensa Nacional.
 17671-02,2026-07-13,42/374,C.Diputados,Primer trámite constitucional,Cuenta de primer informe de comisión . Queda para tabla.
+17671-02,2026-08-12,/,C.Diputados,Primer trámite constitucional,Los Comités Parlamentarios acordaron enviar el proyecto al archivo.
+17671-02,2026-08-12,/,C.Diputados,Primer trámite constitucional,Archivado
 17675-25,2025-07-02,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17675-25,2025-07-09,47/373,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
 17675-25,2025-09-01,/,C.Diputados,Primer trámite constitucional,"Oficio del Presidente de la República (N° 177-3723), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero N° 255/29.08.2025."
@@ -1985,8 +1987,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18208-25,2026-10-19,78/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma
 18208-25,2026-11-02,86/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 437-374 que retira y hace presente la urgencia Suma
 18208-25,2026-11-09,/,C.Diputados,Segundo trámite constitucional,Primer informe de comisión de Seguridad Ciudadana.
-18208-25,2026-11-09,89/374,C.Diputados,Segundo trámite constitucional,Cuenta de primer informe de comisión .
-18208-25,2026-11-10,/,C.Diputados,Segundo trámite constitucional,Cuenta oficio N° 313-2026 de la Corte Suprema
+18208-25,2026-11-09,89/374,C.Diputados,Segundo trámite constitucional,Cuenta de primer informe de comisión . Queda para tabla.
+18208-25,2026-11-12,93/374,C.Diputados,Segundo trámite constitucional,"Cuenta, oficio N° 313-2026 de la Corte Suprema, mediante el cual remite opinión sobre el proyecto (informe N° 51-2026)"
 18208-25,2026-11-16,94/374,C.Diputados,Segundo trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
 18211-25,2026-04-22,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18211-25,2026-04-22,16/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana
@@ -2441,8 +2443,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18621-34,2026-09-21,67/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 327-374 que hace presente la urgencia Simple
 18621-34,2026-10-19,78/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple
 18621-34,2026-11-10,89/374,C.Diputados,Primer trámite constitucional,"Cuenta, oficio de la Comisión de Mujeres y Equidad de Género mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en mensaje y moción, contenidos en los boletines Nºs 18621-34 y 18682-34, respectivamente. ACORDADO. Con consulta al Ejecutivo."
-18621-34,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
 18621-34,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,"Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)"
+18621-34,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
 18656-01,2026-08-24,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18656-01,2026-09-22,68/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural"
 18656-01,2026-09-28,71/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 341-374 que hace presente la urgencia Simple

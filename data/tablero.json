@@ -3667,13 +3667,7 @@
  {
   "boletin": "17671-02",
   "n_urgencias_en_etapa": 0,
-  "ritmo": {
-   "tramite": "Primer trámite",
-   "dias": 504,
-   "mediana": 251,
-   "n_base": 59,
-   "lectura": "más lento que lo habitual"
-  },
+  "ritmo": {},
   "nombre_corto": "Prisión preventiva por delitos contra la soberanía",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -3685,12 +3679,12 @@
   "materia": "Persecución penal y proceso penal",
   "descripcion": "Establece prisión preventiva obligatoria para imputados por delitos contra la soberanía y la seguridad exterior del Estado (espionaje) y otros que indica.",
   "acot": "",
-  "situacion": "En tramitación",
-  "etapa_codigo": "1S",
-  "etapa_texto": "Primer trámite · Sala (Cámara de Diputados)",
+  "situacion": "Archivado",
+  "etapa_codigo": "1C",
+  "etapa_texto": "Primer trámite · Comisión (Cámara de Diputados)",
   "avance_estados": {
-   "1C": "hecha",
-   "1S": "actual",
+   "1C": "detenida",
+   "1S": "pendiente",
    "2C": "pendiente",
    "2S": "pendiente",
    "3T": "pendiente",
@@ -3708,8 +3702,8 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Sala",
-  "camara_actual": "Cámara de Diputados",
+  "instancia_actual": "Desarchivo de proyecto",
+  "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 504,
   "fecha_ingreso": "2025-07-01",
@@ -3717,25 +3711,12 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-06-04",
   "urgencia_plazo": "Plazo cumplido el 2026-06-04 sin renovación registrada",
-  "prioridad_indice": 44,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
-  "alertas": [
-   {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Simple: el plazo se cumplió el 2026-06-04 y no hay renovación registrada."
-   },
-   {
-    "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 127 días."
-   },
-   {
-    "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 504 días en Sala."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-07-13",
-  "ultimo_tramite": "Cuenta de primer informe de comisión . Queda para tabla.",
+  "prioridad_indice": "",
+  "prioridad_nivel": "Fuera de tramitación",
+  "accion_sugerida": "Sin acción, salvo decisión de reponerlo",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-08-12",
+  "ultimo_tramite": "Archivado",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -6724,7 +6705,7 @@
   "accion_sugerida": "Seguimiento mensual",
   "alertas": [],
   "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Oficio de S.E. el Presidente de la República mediante el cual manifiesta su conformidad en orden a refundir los proyectos de ley iniciados, en mensaje y moción, contenidos en los boletines números 18621-34 y 18682-34. (463/374)",
+  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -6821,9 +6802,9 @@
   "materia": "Víctimas",
   "descripcion": "Ajusta la implementación del Servicio Nacional de Acceso a la Justicia y Defensoría de Víctimas: el programa de Centros Regionales de Atención y Orientación a Víctimas pasa directamente desde la SPD al nuevo Servicio.",
   "acot": "",
-  "situacion": "Despachado al Ejecutivo",
-  "etapa_codigo": "TC",
-  "etapa_texto": "Control y promulgación",
+  "situacion": "Publicado como ley",
+  "etapa_codigo": "LEY",
+  "etapa_texto": "Ley",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
@@ -6831,8 +6812,8 @@
    "2S": "hecha",
    "3T": "omitida",
    "CM": "omitida",
-   "TC": "actual",
-   "LEY": "pendiente"
+   "TC": "hecha",
+   "LEY": "hecha"
   },
   "avance_camaras": {
    "1C": "Cámara de Diputados",
@@ -6844,8 +6825,8 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Oficio de ley al Ejecutivo",
-  "camara_actual": "Cámara de Diputados",
+  "instancia_actual": "",
+  "camara_actual": "",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 5,
   "fecha_ingreso": "2026-10-05",
@@ -6854,13 +6835,13 @@
   "urgencia_vence_estimado": "2026-11-16",
   "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
   "prioridad_indice": "",
-  "prioridad_nivel": "Despachado",
-  "accion_sugerida": "Seguir el control del Tribunal Constitucional, la promulgación y la publicación",
+  "prioridad_nivel": "Ley publicada",
+  "accion_sugerida": "Seguimiento de la implementación y de los reglamentos",
   "alertas": [],
   "ultimo_tramite_fecha": "2026-11-12",
   "ultimo_tramite": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
-  "ley_numero": "",
-  "ley_fecha_diario_oficial": "",
+  "ley_numero": "Ley N° 21.854",
+  "ley_fecha_diario_oficial": "2026-11-13",
   "mensaje_gobierno_actual": true,
   "n_urgencias_gobierno_actual": 5,
   "n_indicaciones_senado": 0,

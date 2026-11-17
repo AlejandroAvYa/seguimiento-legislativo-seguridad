@@ -346,7 +346,7 @@
    "camara_dias": [],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 4,
+   "senado_comisiones": 7,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -1213,7 +1213,7 @@
   {
    "fecha": "2026-11-17",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-18",
