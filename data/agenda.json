@@ -193,26 +193,12 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-18",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 96",
-   "estado": "Citada",
-   "horario": "10:01 a 14:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-11-18",
    "instancia": "Sala del Senado · sesión especial N° 83",
    "estado": "Citada",
-   "horario": "10:17 a 14:00",
+   "horario": "10:17 a 14:07",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -226,7 +212,7 @@
    "fecha": "2026-11-18",
    "instancia": "Sala del Senado · sesión especial N° 84",
    "estado": "Citada",
-   "horario": "15:00 a 20:00",
+   "horario": "15:16 a 20:00",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -310,12 +296,29 @@
    "seguidos": []
   },
   {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
+   "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de Los Presidentes, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- ( Bol.N° 18559-37 ) De 15:30 a 16:00 horas:\nIniciar la discusión en general, del proyecto de ley, en primer trámite constitucional, que autoriza erigir un monumento, en la región de Arica y Parinacota, en homenaje a \"La Cantinera\", heroína de la Guerra del Pacífico (Boletín N° 18.559-37).\n2.- ( Bol.N° 12712-24 ) De 16:00 a 17:00 horas:\nContinuar la discusión en particular del proyecto de ley, en segundo trámite constitucional, de Patrimonio Cultural (Boletín N° 12.712-24).",
+   "boletines": [
+    "18559-37",
+    "12712-24"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
    "camara": "Cámara de Diputados",
    "tipo": "Sala",
    "fecha": "2026-11-23",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 97",
    "estado": "Citada",
-   "horario": "17:00 a 19:00",
+   "horario": "15:30 a 17:30",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -380,6 +383,26 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-24",
+   "instancia": "Comisión de Defensa Nacional",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 16143-02 ) Considerar las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, para la protección de la infraestructura crítica del país.\nA esta sesión ha sido invitado el Ministro de Defensa Nacional.",
+   "boletines": [
+    "16143-02"
+   ],
+   "invitados": [
+    "A esta sesión ha sido invitado el Ministro de Defensa Nacional."
+   ],
+   "seguidos": [
+    "16143-02"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
    "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -429,6 +452,24 @@
    "seguidos": [
     "18420-25"
    ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión de Obras Públicas",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 8654-15 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica normas relativas al autocontrol en materia de pesaje respecto a empresas generadoras de carga.\nA esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones.",
+   "boletines": [
+    "8654-15"
+   ],
+   "invitados": [
+    "A esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones."
+   ],
+   "seguidos": []
   },
   {
    "camara": "Senado",
@@ -488,6 +529,38 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-18",
+   "titulo": "Comisión analiza millonarias pérdidas en los fondos de pensiones",
+   "link": "https://www.camara.cl/cms/2026/11/18/comision-analiza-millonarias-perdidas-en-los-fondos-de-pensiones/",
+   "tipo": "Comisión",
+   "resumen": "Personas Mayores y Discapacidad se reunió con representantes del Ejecutivo para abordar la situación de los fondos de pensiones D y E.",
+   "temas": [
+    "Comisión Personas Mayores y Discapacidad",
+    "cuenta capitalización individual",
+    "jubilación",
+    "pérdidas fondos de pensiones"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-18",
+   "titulo": "Cámara respaldó extensión del beneficio de la sala cuna",
+   "link": "https://www.camara.cl/cms/2026/11/18/camara-respaldo-extension-del-beneficio-de-la-sala-cuna/",
+   "tipo": "Sala",
+   "resumen": "La propuesta, enviada a tercer trámite, elimina el requisito de contar con 20 o más trabajadoras para que las empresas provean sala cuna. Asimismo, se define un sistema de cotización y un fondo solidario, al que también accederán independientes.",
+   "temas": [
+    "Código del Trabajo",
+    "Empleo",
+    "Mujer",
+    "sala cuna",
+    "Trabajadoras",
+    "Trabajadores"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-17",
    "titulo": "Constituyen comisión de acusación constitucional contra ministro Rabat",

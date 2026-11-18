@@ -784,7 +784,7 @@
  },
  {
   "boletin": "15817-07",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 1317,
@@ -833,27 +833,23 @@
   "fecha_ingreso": "2023-04-11",
   "iniciativa": "Moción",
   "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-19",
-  "urgencia_plazo": "Vence 2026-11-19",
-  "prioridad_indice": 47,
+  "urgencia_vence_estimado": "2026-12-18",
+  "urgencia_plazo": "Vence 2026-12-18",
+  "prioridad_indice": 37,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
   "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-19 (en 1 días)."
-   },
    {
     "tipo": "Detenido en la misma etapa",
     "detalle": "Lleva 1317 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 396-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta del Mensaje 472-374 que retira y hace presente la urgencia Simple",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 2,
+  "n_urgencias_gobierno_actual": 3,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -1110,7 +1106,17 @@
   "acot_n": "12",
   "acot_iniciativa": "Protección infraestructura crítica",
   "acot_grupo": "En tramitación al anunciarse",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-24",
+    "horario": "12:30 a 14:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Defensa Nacional",
+    "estado": "Citada",
+    "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso."
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Para la protección de la infraestructura crítica del país",
   "clasificacion": "Núcleo",
@@ -1149,9 +1155,9 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-11-25",
   "urgencia_plazo": "Vence 2026-11-25",
-  "prioridad_indice": 65,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "prioridad_indice": 73,
+  "prioridad_nivel": "Crítica",
+  "accion_sugerida": "Preparar la sesión de Comisión de Defensa Nacional del 24-11",
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
@@ -3607,7 +3613,7 @@
  },
  {
   "boletin": "17662-07",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 93,
@@ -3655,28 +3661,24 @@
   "dias_en_etapa": 78,
   "fecha_ingreso": "2025-06-30",
   "iniciativa": "Moción",
-  "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-11-19",
-  "urgencia_plazo": "Vence 2026-11-19",
-  "prioridad_indice": 53,
+  "urgencia_vigente": "Suma",
+  "urgencia_vence_estimado": "2026-12-03",
+  "urgencia_plazo": "Vence 2026-12-03",
+  "prioridad_indice": 56,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguimiento mensual",
+  "accion_sugerida": "Seguimiento semanal de la comisión",
   "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-19 (en 1 días)."
-   },
    {
     "tipo": "Votación rechazada",
     "detalle": "La última votación registrada en la Sala de la Cámara (2026-09-01) fue rechazada (61 a favor, 78 en contra). Puede referirse a la idea de legislar o a una norma en particular."
    }
   ],
-  "ultimo_tramite_fecha": "2026-10-20",
-  "ultimo_tramite": "Cuenta del Mensaje 396-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta del Mensaje 473-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 7,
+  "n_urgencias_gobierno_actual": 8,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -4728,7 +4730,7 @@
  },
  {
   "boletin": "18211-25",
-  "n_urgencias_en_etapa": 10,
+  "n_urgencias_en_etapa": 11,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 147,
@@ -4777,27 +4779,27 @@
   "fecha_ingreso": "2026-04-22",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-16",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
-  "prioridad_indice": 71,
+  "urgencia_vence_estimado": "2026-11-24",
+  "urgencia_plazo": "Vence 2026-11-24",
+  "prioridad_indice": 86,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-16 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-24 (en 6 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 10 urgencias desde su último avance (2026-06-24) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 11 urgencias desde su último avance (2026-06-24) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta del Mensaje 470-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 12,
+  "n_urgencias_gobierno_actual": 13,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5243,7 +5245,7 @@
  },
  {
   "boletin": "18314-07",
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 3,
   "ritmo": {},
   "nombre_corto": "Detención para ejecutar expulsiones",
   "acot_n": "4",
@@ -5286,27 +5288,27 @@
   "fecha_ingreso": "2026-06-08",
   "iniciativa": "Mensaje",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-16",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
-  "prioridad_indice": 88,
+  "urgencia_vence_estimado": "2026-11-24",
+  "urgencia_plazo": "Vence 2026-11-24",
+  "prioridad_indice": 100,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-16 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-24 (en 6 días)."
    },
    {
     "tipo": "Votación rechazada",
     "detalle": "La última votación registrada en la Sala de la Cámara (2026-09-22) fue rechazada (88 a favor, 28 en contra). Puede referirse a la idea de legislar o a una norma en particular."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 452-374 que hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta del Mensaje 470-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,

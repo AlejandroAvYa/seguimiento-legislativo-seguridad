@@ -1,5 +1,47 @@
 [
  {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "16143-02",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-24 12:30 a 14:00 – Comisión de Defensa Nacional"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "18314-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-18 – Cuenta del Mensaje 470-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "18211-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-18 – Cuenta del Mensaje 470-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "17662-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-18 – Cuenta del Mensaje 473-374 que retira y hace presente la urgencia Suma (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "17662-07",
+  "tipo": "Urgencia vigente",
+  "antes": "Simple",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 18:59",
+  "boletin": "15817-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-18 – Cuenta del Mensaje 472-374 que retira y hace presente la urgencia Simple (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-18 11:03",
   "boletin": "18420-25",
   "tipo": "Citado a sesión",
