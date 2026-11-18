@@ -1,5 +1,19 @@
 [
  {
+  "fecha_deteccion": "2026-11-18 11:03",
+  "boletin": "18420-25",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-25 11:00 a 12:30 – Comisión de Intereses Marítimos, Pesca y Acuicultura"
+ },
+ {
+  "fecha_deteccion": "2026-11-18 11:03",
+  "boletin": "18208-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-18 – Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/2026). RECHAZADO. (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-17 19:54",
   "boletin": "18709-07",
   "tipo": "N° de ley",

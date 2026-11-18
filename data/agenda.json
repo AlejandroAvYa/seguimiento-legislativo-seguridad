@@ -198,7 +198,7 @@
    "fecha": "2026-11-18",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 96",
    "estado": "Citada",
-   "horario": "10:00 a 14:00",
+   "horario": "10:01 a 14:00",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -212,7 +212,7 @@
    "fecha": "2026-11-18",
    "instancia": "Sala del Senado · sesión especial N° 83",
    "estado": "Citada",
-   "horario": "10:00 a 14:00",
+   "horario": "10:17 a 14:00",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -310,6 +310,20 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-23",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 97",
+   "estado": "Citada",
+   "horario": "17:00 a 19:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-24",
@@ -361,6 +375,60 @@
     "A este punto han sido invitados el Ministro de la Corte de Apelaciones de Temuco, señor Alberto René Amiot y la Ministra encargada de los asuntos de infancia de la Corte Suprema, señora María Soledad Melo."
    ],
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 11 de Comisiones, Senado Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 14024-12 )\nContinuar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 18.700, orgánica constitucional sobre Votaciones Populares y Escrutinios, para prohibir la utilización de elementos de propaganda electoral fabricados con material plástico no compostable, (Boletín 14.024-12).\nA esta sesión ha sido invitada la Ministra del Medio Ambiente, señora Francisca Toledo y la Jefa de la Oficina de Economía Circular del Ministerio de Medio Ambiente, señora María José Ureta.",
+   "boletines": [
+    "14024-12"
+   ],
+   "invitados": [
+    "A esta sesión ha sido invitada la Ministra del Medio Ambiente, señora Francisca Toledo y la Jefa de la Oficina de Economía Circular del Ministerio de Medio Ambiente, señora María José Ureta."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
+   "horario": "10:30 a 12:30",
+   "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "18643-05"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 de Comisiones, Senado Valparaíso.",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18420-25 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en primer trámite constitucional, que modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado.\nA esta sesión han sido invitados el Ministro de Seguridad Pública, señor Carlos Arrau, el Ministro de Hacienda, señor Jorge Quiroz y el Ministro de Transportes y Telecomunicaciones, señor Louis de Grange.",
+   "boletines": [
+    "18420-25"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados el Ministro de Seguridad Pública, señor Carlos Arrau, el Ministro de Hacienda, señor Jorge Quiroz y el Ministro de Transportes y Telecomunicaciones, señor Louis de Grange."
+   ],
+   "seguidos": [
+    "18420-25"
+   ]
   },
   {
    "camara": "Senado",

@@ -233513,10 +233513,10 @@
   "primera_urgencia_gobierno_actual": "2026-04-21",
   "ultima_urgencia": "Simple (2026-11-16)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/2026). RECHAZADO.",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 33,
+  "n_tramites": 34,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -233763,6 +233763,13 @@
     "fecha": "2026-11-16",
     "sesion": "94/374",
     "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-18",
+    "sesion": "96/374",
+    "descripcion": "Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/2026). RECHAZADO.",
     "etapa": "Segundo trámite constitucional",
     "camara": "C.Diputados"
    }
@@ -234525,7 +234532,7 @@
     "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 30 de septiembre (49 días).",
     "El Senado lo aprobó en general y en particular el 29 de septiembre.",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta, oficio N° 313-2026 de la Corte Suprema, mediante el cual remite opinión sobre el proyecto (informe N° 51-2026) (12 de noviembre)."
+    "Último trámite, sin contar urgencias: Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/202 (18 de noviembre)."
    ],
    "indicado": [
     "Última votación en la Sala del Senado (29 de septiembre): 10 a favor, 24 en contra y 1 abstenciones ().",
@@ -249208,7 +249215,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-25",
+    "horario": "11:00 a 12:30",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 de Comisiones, Senado Valparaíso."
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado",
   "clasificacion": "Núcleo",
@@ -249612,13 +249629,14 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 32,
+  "prioridad_indice": 40,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Preparar la sesión de Comisión de Intereses Marítimos, Pesca y Acuicultura del 25-11",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 25-11 (+8)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
@@ -249662,7 +249680,7 @@
     "Está en primer trámite en el Senado, en la comisión de Intereses Marítimos, Pesca y Acuicultura, desde el 24 de junio (147 días).",
     "El Senado lo aprobó en general el 11 de agosto.",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
-    "Último trámite, sin contar urgencias: Boletín de indicaciones (7 de septiembre)."
+    "Próxima sesión citada: Comisión de Intereses Marítimos, Pesca y Acuicultura, el miércoles 25 de noviembre a las 11:00."
    ],
    "indicado": [
     "En el Senado se presentaron 23 indicaciones, todas parlamentarias (Calisto, Flores, Kusanovic, Kuschel).",

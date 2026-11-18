@@ -4713,8 +4713,8 @@
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [],
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-18",
+  "ultimo_tramite": "Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/2026). RECHAZADO.",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
@@ -5767,7 +5767,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-25",
+    "horario": "11:00 a 12:30",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 de Comisiones, Senado Valparaíso."
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado",
   "clasificacion": "Núcleo",
@@ -5806,9 +5816,9 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-10-08",
   "urgencia_plazo": "Plazo cumplido el 2026-10-08 sin renovación registrada",
-  "prioridad_indice": 32,
+  "prioridad_indice": 40,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Preparar la sesión de Comisión de Intereses Marítimos, Pesca y Acuicultura del 25-11",
   "alertas": [
    {
     "tipo": "Urgencia con plazo cumplido",
