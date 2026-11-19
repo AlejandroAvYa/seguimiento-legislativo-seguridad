@@ -322,13 +322,14 @@
    "hasta": "2026-11-29",
    "pasada": false,
    "actual": false,
-   "camara_sala": 1,
+   "camara_sala": 2,
    "camara_dias": [
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 14,
+   "senado_comisiones": 15,
    "senado_comisiones_seguidos": 2,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -1224,6 +1225,11 @@
   },
   {
    "fecha": "2026-11-23",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-11-24",
    "tipo": "Ordinaria",
    "estado": "Citada"
   }

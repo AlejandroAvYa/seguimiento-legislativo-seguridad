@@ -335,13 +335,27 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
    "horario": "10:00 a 12:00",
-   "materia": "1.- Considerar el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14), con urgencia calificada de suma.\nA esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos.",
+   "materia": "1.- ( Bol.N° 18644-14 ) Considerar el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14), con urgencia calificada de suma.\nA esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos.",
    "boletines": [
     "18644-14"
    ],
    "invitados": [
     "A esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-24",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 98",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
    "seguidos": []
   },
   {
@@ -415,6 +429,22 @@
    "invitados": [
     "A esta sesión ha sido invitada la Ministra del Medio Ambiente, señora Francisca Toledo y la Jefa de la Oficina de Economía Circular del Ministerio de Medio Ambiente, señora María José Ureta."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión de Recursos Hídricos, Desertificación y Sequía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 17877-33 ) Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33).",
+   "boletines": [
+    "17877-33"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
