@@ -69736,7 +69736,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-24",
+    "horario": "15:00 a 16:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+    "estado": "Citada",
+    "lugar": "Sala N° 10, tercer piso, Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado",
   "clasificacion": "Núcleo",
@@ -81302,13 +81312,14 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión Mixta para Boletín Nº 15975-25 del 24-11",
   "prioridad_motivos": [
    "En trámite final (+18)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 24-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {},
@@ -81319,7 +81330,7 @@
     "El Senado lo aprobó en general el 20 de diciembre de 2023 y en particular el 25 de marzo de 2025.",
     "La Cámara de Diputados lo aprobó en general y en particular el 5 de marzo, con modificaciones.",
     "El Senado rechazó las modificaciones el 9 de junio, por lo que se formó una Comisión Mixta.",
-    "Último trámite, sin contar urgencias: Cuenta del oficio N° 21.661, por el que informa reemplazo de integrante de la Comisión Mixta (21 de octubre)."
+    "Próxima sesión citada: Comisión Mixta para Boletín Nº 15975-25, el martes 24 de noviembre a las 15:00."
    ],
    "indicado": [
     "En el Senado se presentaron 190 indicaciones: 106 del Ejecutivo y 84 parlamentarias (Coloma, Ossandón, Vodanovic, Durana).",
@@ -83716,21 +83727,21 @@
   "dias_en_etapa": 100,
   "dias_desde_ingreso": 1151,
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vigente_desde": "2026-11-10",
-  "urgencia_vence_estimado": "2026-11-16",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
+  "urgencia_vigente_desde": "2026-11-19",
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 12,
+  "n_urgencias_gobierno_actual": 13,
   "primera_urgencia_gobierno_actual": "2026-06-15",
-  "ultima_urgencia": "Discusión inmediata (2026-11-10)",
+  "ultima_urgencia": "Discusión inmediata (2026-11-19)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-19",
+  "ultimo_tramite": "Cuenta del Mensaje 476-374 que hace presente la urgencia Discusión inmediata",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 23,
+  "n_tramites": 24,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -83909,6 +83920,13 @@
     "descripcion": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-19",
+    "sesion": "86/374",
+    "descripcion": "Cuenta del Mensaje 476-374 que hace presente la urgencia Discusión inmediata",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -83995,6 +84013,13 @@
     "retiro": "",
     "camara": "Senado",
     "mensaje": "453-374"
+   },
+   {
+    "tipo": "Discusión inmediata",
+    "ingreso": "2026-11-19",
+    "retiro": "",
+    "camara": "Senado",
+    "mensaje": "476-374"
    }
   ],
   "hitos": [
@@ -86834,19 +86859,20 @@
    "1": "2023-09-25",
    "2": "2026-08-11"
   },
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 8,
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-16 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-25 (en 6 días)."
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 71,
+  "prioridad_indice": 86,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
@@ -86893,9 +86919,9 @@
    "estado": [
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de agosto (100 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 11 de agosto.",
-    "Tiene urgencia discusión inmediata; el plazo estimado venció el 16 de noviembre.",
+    "Tiene urgencia discusión inmediata; el plazo estimado vence el 25 de noviembre.",
     "Último trámite, sin contar urgencias: Por acuerdo de Comités, ratificado por la Sala, se dispone que este proyecto de ley sea conocido por la Comisiones de Constitución, Legislación, Justicia y Reglamento y de Segurida (8 de septiembre).",
-    "Desde su último avance se han presentado o renovado 7 urgencias."
+    "Desde su último avance se han presentado o renovado 8 urgencias."
    ],
    "indicado": [
     "El 11 de agosto, la Sala de la Cámara votó 3 veces: 2 aprobadas y 1 rechazadas.",
@@ -174500,6 +174526,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 10 de Comisiones - Valparaíso"
+   },
+   {
+    "fecha": "2026-11-23",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
    }
   ],
   "plazo_indicaciones": [],
@@ -177846,14 +177881,15 @@
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 23-11",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 23-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
@@ -177898,7 +177934,7 @@
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (359 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 25 de noviembre de 2025.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (25 de noviembre de 2025).",
+    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el lunes 23 de noviembre a las 10:30.",
     "Desde su último avance se han presentado o renovado 17 urgencias."
    ],
    "indicado": [

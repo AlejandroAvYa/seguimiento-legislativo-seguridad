@@ -1,5 +1,26 @@
 [
  {
+  "fecha_deteccion": "2026-11-19 18:39",
+  "boletin": "15975-25",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-24 15:00 a 16:00 – Comisión Mixta para Boletín Nº 15975-25"
+ },
+ {
+  "fecha_deteccion": "2026-11-19 18:39",
+  "boletin": "17637-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-23 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-19 18:39",
+  "boletin": "16300-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-19 – Cuenta del Mensaje 476-374 que hace presente la urgencia Discusión inmediata (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-18 18:59",
   "boletin": "16143-02",
   "tipo": "Citado a sesión",

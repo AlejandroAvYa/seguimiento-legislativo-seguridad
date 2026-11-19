@@ -296,11 +296,6 @@
    "feriados": [],
    "urgencias_vencen": [
     {
-     "boletin": "16300-07",
-     "urgencia": "Discusión inmediata",
-     "vence": "2026-11-16"
-    },
-    {
      "boletin": "18239-36",
      "urgencia": "Discusión inmediata",
      "vence": "2026-11-16"
@@ -329,8 +324,8 @@
    ],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 15,
-   "senado_comisiones_seguidos": 2,
+   "senado_comisiones": 22,
+   "senado_comisiones_seguidos": 4,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -348,6 +343,11 @@
     {
      "boletin": "16143-02",
      "urgencia": "Suma",
+     "vence": "2026-11-25"
+    },
+    {
+     "boletin": "16300-07",
+     "urgencia": "Discusión inmediata",
      "vence": "2026-11-25"
     },
     {

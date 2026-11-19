@@ -1031,7 +1031,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-24",
+    "horario": "15:00 a 16:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+    "estado": "Citada",
+    "lugar": "Sala N° 10, tercer piso, Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado",
   "clasificacion": "Núcleo",
@@ -1070,9 +1080,9 @@
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vence_estimado": "",
   "urgencia_plazo": "",
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión Mixta para Boletín Nº 15975-25 del 24-11",
   "alertas": [
    {
     "tipo": "Votación estrecha",
@@ -1187,7 +1197,7 @@
  },
  {
   "boletin": "16300-07",
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 8,
   "ritmo": {
    "tramite": "Segundo trámite",
    "dias": 100,
@@ -1236,23 +1246,23 @@
   "fecha_ingreso": "2023-09-25",
   "iniciativa": "Moción",
   "urgencia_vigente": "Discusión inmediata",
-  "urgencia_vence_estimado": "2026-11-16",
-  "urgencia_plazo": "Plazo cumplido el 2026-11-16 sin renovación registrada",
-  "prioridad_indice": 71,
+  "urgencia_vence_estimado": "2026-11-25",
+  "urgencia_plazo": "Vence 2026-11-25",
+  "prioridad_indice": 86,
   "prioridad_nivel": "Crítica",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Coordinar la votación antes del vencimiento o renovar la urgencia",
   "alertas": [
    {
-    "tipo": "Urgencia con plazo cumplido",
-    "detalle": "Discusión inmediata: el plazo se cumplió el 2026-11-16 y no hay renovación registrada."
+    "tipo": "Urgencia por vencer",
+    "detalle": "Discusión inmediata vence el 2026-11-25 (en 6 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-10",
-  "ultimo_tramite": "Cuenta del Mensaje 453-374 que retira y hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-19",
+  "ultimo_tramite": "Cuenta del Mensaje 476-374 que hace presente la urgencia Discusión inmediata",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 12,
+  "n_urgencias_gobierno_actual": 13,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -3462,6 +3472,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 10 de Comisiones - Valparaíso"
+   },
+   {
+    "fecha": "2026-11-23",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
    }
   ],
   "plazo_indicaciones": [],
@@ -3502,9 +3521,9 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-12-10",
   "urgencia_plazo": "Vence 2026-12-10",
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 23-11",
   "alertas": [
    {
     "tipo": "Urgencia renovada sin avance",

@@ -226,7 +226,7 @@
    "fecha": "2026-11-19",
    "instancia": "Sala del Senado · sesión especial N° 85",
    "estado": "Citada",
-   "horario": "10:00 a 14:00",
+   "horario": "10:16 a 14:22",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -240,7 +240,7 @@
    "fecha": "2026-11-19",
    "instancia": "Sala del Senado · sesión especial N° 86",
    "estado": "Citada",
-   "horario": "15:00 a 20:00",
+   "horario": "15:38 a 20:00",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -268,6 +268,28 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-23",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° 17637-07 ) Modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales.\nPara el estudio de este proyecto han sido invitados la Ministra de Desarrollo Social y Familia, señora María Jesús Wulf Le May, y el Director del Centro UC para la Seguridad Pública, señor Cristóbal Weinborn.\n2.- ( Bol.N° 18764-07 ) Sanciona la administración temeraria de los fondos de pensiones.\nPara este punto han sido invitados el Superintendente de Pensiones de Chile, señor Joaquín Cortez Huerta, y el Presidente de la Asociación de AFP de Chile, señor León Fernández de Castro.",
+   "boletines": [
+    "17637-07",
+    "18764-07"
+   ],
+   "invitados": [
+    "Para el estudio de este proyecto han sido invitados la Ministra de Desarrollo Social y Familia, señora María Jesús Wulf Le May, y el Director del Centro UC para la Seguridad Pública, señor Cristóbal Weinborn.",
+    "Para este punto han sido invitados el Superintendente de Pensiones de Chile, señor Joaquín Cortez Huerta, y el Presidente de la Asociación de AFP de Chile, señor León Fernández de Castro."
+   ],
+   "seguidos": [
+    "17637-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
    "instancia": "Comisión de Minería y Energía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -275,6 +297,23 @@
    "horario": "11:15 a 14:15",
    "materia": "1.- Seminario: \"Resiliencia de la Infraestructura Energética en Chile\".\nVisión del Gobierno: Ministra de Energía, señora Ximena Rincón.\nMarco internacional: De la Agencia Internacional de Energía, AIE, el analista en electricidad, sistemas eléctricos, redes, y seguridad del suministro eléctrico, señor Javier Jorquera.\nPanel 1. Resistir y recuperarse: lecciones del apagón del 25F.\nModera: Sen. Daniel Núñez.\nExponen:\n- Del Coordinador Eléctrico Nacional, el Director Ejecutivo, señor Ramón Castañeda.\n- De Transelec, el Gerente General, señor Arturo Le Blanc.\n- De Senapred, la Directora Nacional, señora Alicia Cebrian.\nPanel 2. Redes para el futuro: Buenas prácticas. Nuevos riesgos climáticos y de seguridad.\nModera: Sen. Renzo Trisotti.\nExponen:\n- De la Agencia Nacional de Ciberseguridad, la Directora Nacional (s), señora Michelle Bordachar.\n- De Enel, el Presidente, señor Marcelo Castillo.\n- De Guacolda Energía, la Gerente Comercial, señora Fabiola Montecinos.\nPanel 3. Experiencia comparada para remunerar redes resilientes.\nModera: Sen. Juan Luis Castro\nExponen:\n- De la Biblioteca del Congreso Nacional, el asesor técnico parlamentario, señor Nicolás García.\n- De Empresas Eléctricas, el Director Ejecutivo señor Juan Meriches.\n- De la Universidad Adolfo Ibáñez, el Académico señor Rodrigo Moreno.\n- De Fenacopel, el Gerente General señor Patricio Molina.\nSíntesis y cierre Sen. Miguel Ángel Calisto",
    "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
+   "instancia": "Comisión de Salud",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 3, Santiago.",
+   "horario": "14:00 a 15:30",
+   "materia": "1.- ( Bol.N° 15047-11 ) Proyecto de ley que optimiza el mecanismo de sustentabilidad del Fondo para Diagnósticos y Tratamientos de Alto Costo y modifica la ley N° 20.850, que crea un Sistema de Protección Financiera para Diagnósticos y Tratamientos de Alto Costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nA esta sesión se invitará al Director de CENABAST; a la Presidenta de la Corporación FAME Chile; a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo, y al Dr. Patricio Ibáñez.",
+   "boletines": [
+    "15047-11",
+    "17567-11"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -330,6 +369,22 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-24",
+   "instancia": "Comisión de Economía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 3 de Comisiones, Valparaíso",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 14838-03 ) Continuar el estudio de las indicaciones presentadas\nal proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea",
+   "boletines": [
+    "14838-03"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
    "instancia": "Comisión de Vivienda y Urbanismo",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -373,6 +428,24 @@
     "18643-05"
    ],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Seguridad Pública",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10, Valparaíso",
+   "horario": "11:00 a 12:00",
+   "materia": "1.- ( Bol.N° 18881-25 ) Continuar el estudio del proyecto de ley, en primer trámite constitucional, que deroga el sistema de reducción de condenas por buena conducta y establece una circunstancia agravante de responsabilidad penal (Boletín N° 18.881-25).\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Fiscal Nacional del Ministerio Público, señor Ángel Valencia; la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina, y el Director Nacional de Gendarmería, señor Rubén Pérez.",
+   "boletines": [
+    "18881-25"
+   ],
+   "invitados": [
+    "Para tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Fiscal Nacional del Ministerio Público, señor Ángel Valencia; la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina, y el Director Nacional de Gendarmería, señor Rubén Pérez."
+   ],
    "seguidos": []
   },
   {
@@ -429,6 +502,42 @@
    "invitados": [
     "A esta sesión ha sido invitada la Ministra del Medio Ambiente, señora Francisca Toledo y la Jefa de la Oficina de Economía Circular del Ministerio de Medio Ambiente, señora María José Ureta."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10, tercer piso, Valparaíso",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 15975-25 ) Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25.\nA esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau, y el Subsecretario de Hacienda, señor Sebastián Vallebona.",
+   "boletines": [
+    "15975-25"
+   ],
+   "invitados": [
+    "A esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau, y el Subsecretario de Hacienda, señor Sebastián Vallebona."
+   ],
+   "seguidos": [
+    "15975-25"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7, tercer piso de Comisiones, Valparaíso",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 16886-12 ) Analizar el proyecto de ley que dicta normas sobre protección de personas defensoras de la naturaleza y los derechos humanos medioambientales, Boletín N° 16.886-12.\nInvitados:\n- La Ministra del Medio Ambiente, señora Francisca Toledo.\n- El Honorable Senador señor Vlado Mirosevic.\n- El Honorable Diputado señor Luis Malla.",
+   "boletines": [
+    "16886-12"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -498,6 +607,24 @@
    ],
    "invitados": [
     "A esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión de Trabajo y Previsión Social",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°9 Tercer Piso Senado Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 11929-13 ) Para dar inicio al estudio en particular del proyecto de ley que modifica el Código del Trabajo para crear el contrato por horas (Boletín N°11929-13).\nSe ha invitado especialmente a representantes de Fundación ChileMujeres.\nAl término de la audiencia se dará inicio a la votación de las indicaciones.",
+   "boletines": [
+    "11929-13"
+   ],
+   "invitados": [
+    "Se ha invitado especialmente a representantes de Fundación ChileMujeres."
    ],
    "seguidos": []
   },
@@ -577,6 +704,19 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-19",
+   "titulo": "Reforma al INDH: expertos advierten sobre pérdida de facultades",
+   "link": "https://www.camara.cl/cms/2026/11/19/reforma-al-indh-expertos-advierten-sobre-perdida-de-facultades/",
+   "tipo": "Comisión",
+   "resumen": "Representantes de organismos internacionales y de la ANEF cuestionaron la propuesta del Gobierno para eliminar la facultad de querellarse del instituto y los cambios en la composición de su consejo.",
+   "temas": [
+    "Comisión de Derechos Humanos",
+    "INDH (Instituto Nacional de Derechos Humanos)"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-18",
    "titulo": "Comisión analiza millonarias pérdidas en los fondos de pensiones",
