@@ -224,7 +224,7 @@
    "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-11-19",
-   "instancia": "Sala del Senado · sesión especial N° 85",
+   "instancia": "Sala del Senado · sesión N° 85",
    "estado": "Citada",
    "horario": "10:16 a 14:22",
    "lugar": "",
@@ -238,7 +238,7 @@
    "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-11-19",
-   "instancia": "Sala del Senado · sesión especial N° 86",
+   "instancia": "Sala del Senado · sesión N° 86",
    "estado": "Citada",
    "horario": "15:38 a 20:00",
    "lugar": "",
@@ -377,6 +377,23 @@
    "materia": "1.- ( Bol.N° 14838-03 ) Continuar el estudio de las indicaciones presentadas\nal proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea",
    "boletines": [
     "14838-03"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Salud",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11 Dr. Fernando Monckeberg, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- Tratar el tema de Envejecimiento Activo.\nA este punto, se invitará al Profesor emérito de la UC Louvain, Bélgica, señor Michel Poulain, para que exponga sobre el impacto de las zonas azules en la longevidad, desafíos para Chile e Iberoamérica.\n2.- ( Bol.N° 11058-11 ) Proyecto de ley para regular la venta de bebidas con aditivos energizantes y sustancias estimulantes a menores de edad (Boletines N°s. 11.058-11 y 15.241-11, refundidos).\nA este asunto, se invitará a la Subsecretaria de Salud Pública y al Presidente de la Sociedad Chilena de Pediatría.",
+   "boletines": [
+    "11058-11",
+    "15241-11"
    ],
    "invitados": [],
    "seguidos": []
@@ -560,6 +577,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-25",
+   "instancia": "Comisión de Transportes y Telecomunicaciones",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 5, (Valparaíso)",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 18888-03 ) Iniciar el estudio del proyecto de ley, en primer trámite constitucional, originado en moción de los Honorables Senadores señoras Astudillo, Carvajal y Cicardini y señores Castro y De Urresti, que modifica el Código de Comercio para regular la renegociación de contratos de transporte ante alzas en el precio de los combustibles y establece normas de transparencia y acceso a precios preferenciales.\nA esta sesión han sido invitados el Ministro de Economía, Fomento y Turismo, señor Daniel Mas; el Presidente de la Corporación Nacional de Consumidores y Usuarios (CONADECUS), señor Hernán Calderón; el Presidente de la Federación de Dueños de Camiones de la Quinta Región (FEDEQUINTA), señor Iván Mateluna; el Presidente Nacional de la Confederación Fuerza del Norte (CTFN), señor Cristián Sandoval; el Presidente de la Asociación Gremial Comando Defensa Puerto Iquique, Unión de Camioneros (C.D.P.I.U), señor Rafael Miranda; la Presidenta de la Agrupación Transporte Escolar Zona Norte Iquique, señora Evelyn González y el Presidente de la Confederación de Taxis Colectivos y Transporte menor de Chile (CONTTRAMEN), señor Eduardo Castillo.",
+   "boletines": [
+    "18888-03"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados el Ministro de Economía, Fomento y Turismo, señor Daniel Mas; el Presidente de la Corporación Nacional de Consumidores y Usuarios (CONADECUS), señor Hernán Calderón; el Presidente de la Federación de Dueños de Camiones de la Quinta Región (FEDEQUINTA), señor Iván Mateluna; el Presidente Nacional de la Confederación Fuerza del Norte (CTFN), señor Cristián Sandoval; el Presidente de la Asociación Gremial Comando Defensa Puerto Iquique, Unión de Camioneros (C.D.P.I.U), señor Rafael Miranda; la Presidenta de la Agrupación Transporte Escolar Zona Norte Iquique, señora Evelyn González y el Presidente de la Confederación de Taxis Colectivos y Transporte menor de Chile (CONTTRAMEN), señor Eduardo Castillo."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
    "instancia": "Comisión de Hacienda",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -663,6 +698,20 @@
   {
    "camara": "Senado",
    "tipo": "Comisión",
+   "fecha": "2026-11-26",
+   "instancia": "Comisión de Seguridad Pública",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
+   "lugar": "Auditorio José Luis Pérez Calaf, Av. Libertador Bernardo O´Higgins N° 710",
+   "horario": "10:00 a 13:00",
+   "materia": "1.- Tratar materias propias de su competencia referidas a seguridad pública y crimen organizado en la Región del Libertador General Bernardo O´Higgins.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
    "fecha": "2026-12-02",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
    "estado": "Citada",
@@ -679,9 +728,9 @@
  ],
  "plazos_indicaciones": [
   {
-   "boletin": "17702-15",
-   "materia": "Modifica la ley N° 18.290, de Tránsito, para tipificar y sancionar la conducción temeraria de vehículos",
-   "fecha": "2026-11-19",
+   "boletin": "18585-25",
+   "materia": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
+   "fecha": "2026-11-26",
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": true
@@ -693,14 +742,6 @@
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": false
-  },
-  {
-   "boletin": "18585-25",
-   "materia": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
-   "fecha": "2026-11-26",
-   "hora": "12:00",
-   "donde": "Secretaría del Senado",
-   "seguido": true
   }
  ],
  "noticias_camara": [
