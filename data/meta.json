@@ -9,14 +9,14 @@
   "senado": {
    "estado": "ok",
    "ultima_consulta_exitosa": "2026-11-20",
-   "ultima_hora_exitosa": "2026-11-20 00:21"
+   "ultima_hora_exitosa": "2026-11-20 09:57"
   },
   "camara_votaciones": {
    "estado": "ok",
    "ultima_consulta_exitosa": "2026-11-20"
   },
   "partidos": {
-   "estado": "senadores ok, comisiones ok, diputados ok"
+   "estado": "datos del día"
   },
   "calendario": {
    "estado": "Cámara ok, Senado ok"
