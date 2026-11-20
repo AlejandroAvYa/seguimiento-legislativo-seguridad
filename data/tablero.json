@@ -950,7 +950,17 @@
   "acot_n": "9",
   "acot_iniciativa": "Supresión notificaciones judiciales por Carabineros",
   "acot_grupo": "En tramitación al anunciarse",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-11-24",
+    "horario": "09:30 a 11:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 10 de Comisiones - Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica diversos cuerpos legales para suprimir la facultad judicial de ordenar notificaciones por medio de funcionarios de Carabineros",
   "clasificacion": "Núcleo",
@@ -989,9 +999,9 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-10-21",
   "urgencia_plazo": "Plazo cumplido el 2026-10-21 sin renovación registrada",
-  "prioridad_indice": 51,
+  "prioridad_indice": 59,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 24-11",
   "alertas": [
    {
     "tipo": "Urgencia con plazo cumplido",

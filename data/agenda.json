@@ -290,14 +290,52 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-23",
+   "instancia": "Comisión de Gobierno, Descentralización y Regionalización",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 144, Santiago",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18850-06 ) Iniciar la discusión del proyecto de ley, en primer trámite constitucional, que establece un límite a la reelección de los dirigentes vecinales (Boletín N° 18.850-06).\n2.- ( Bol.N° 18338-06 ) Escuchar exposiciones sobre el proyecto de ley, en primer trámite constitucional, que modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, con el objeto de fortalecer la protección laboral del personal que se desempeña en la manipulación de alimentos y asegurar la correcta prestación de dichos servicios (Boletines N°s 18.338-06; 17.211-06; 18.020-06, y 17.790-06, refundidos).",
+   "boletines": [
+    "18850-06",
+    "18338-06",
+    "17211-06",
+    "18020-06",
+    "17790-06"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
    "instancia": "Comisión de Minería y Energía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones, Santiago",
    "horario": "11:15 a 14:15",
-   "materia": "1.- Seminario: \"Resiliencia de la Infraestructura Energética en Chile\".\nVisión del Gobierno: Ministra de Energía, señora Ximena Rincón.\nMarco internacional: De la Agencia Internacional de Energía, AIE, el analista en electricidad, sistemas eléctricos, redes, y seguridad del suministro eléctrico, señor Javier Jorquera.\nPanel 1. Resistir y recuperarse: lecciones del apagón del 25F.\nModera: Sen. Daniel Núñez.\nExponen:\n- Del Coordinador Eléctrico Nacional, el Director Ejecutivo, señor Ramón Castañeda.\n- De Transelec, el Gerente General, señor Arturo Le Blanc.\n- De Senapred, la Directora Nacional, señora Alicia Cebrian.\nPanel 2. Redes para el futuro: Buenas prácticas. Nuevos riesgos climáticos y de seguridad.\nModera: Sen. Renzo Trisotti.\nExponen:\n- De la Agencia Nacional de Ciberseguridad, la Directora Nacional (s), señora Michelle Bordachar.\n- De Enel, el Presidente, señor Marcelo Castillo.\n- De Guacolda Energía, la Gerente Comercial, señora Fabiola Montecinos.\nPanel 3. Experiencia comparada para remunerar redes resilientes.\nModera: Sen. Juan Luis Castro\nExponen:\n- De la Biblioteca del Congreso Nacional, el asesor técnico parlamentario, señor Nicolás García.\n- De Empresas Eléctricas, el Director Ejecutivo señor Juan Meriches.\n- De la Universidad Adolfo Ibáñez, el Académico señor Rodrigo Moreno.\n- De Fenacopel, el Gerente General señor Patricio Molina.\nSíntesis y cierre Sen. Miguel Ángel Calisto",
+   "materia": "1.- Seminario: \"Resiliencia de la Infraestructura Energética en Chile\".\nVisión del Gobierno: Ministra de Energía, señora Ximena Rincón.\nMarco internacional: De la Agencia Internacional de Energía, AIE, el analista en electricidad, sistemas eléctricos, redes, y seguridad del suministro eléctrico, señor Javier Jorquera.\nPanel 1. Resistir y recuperarse: lecciones del apagón del 25F.\nModera: Sen. Daniel Núñez.\nExponen:\n- Del Coordinador Eléctrico Nacional, el Director Ejecutivo, señor Ramón Castañeda.\n- De Transelec, el Gerente General, señor Arturo Le Blanc.\n- De Senapred, la Directora Nacional, señora Alicia Cebrian.\nPanel 2. Redes para el futuro: Buenas prácticas. Nuevos riesgos climáticos y de seguridad.\nModera: Sen. Renzo Trisotti.\nExponen:\n- De la Agencia Nacional de Ciberseguridad, la Directora Nacional (s), señora Michelle Bordachar.\n- De Enel, el Presidente, señor Marcelo Castillo.\n- De Guacolda Energía, la Gerente Comercial, señora Fabiola Montecinos.\nPanel 3. Experiencia comparada para remunerar redes resilientes.\nModera: Sen. Juan Luis Castro\nExponen:\n- De la Biblioteca del Congreso Nacional, el asesor técnico parlamentario, señor Nicolás García.\n- De Empresas Eléctricas, el Director Ejecutivo señor Juan Meriches.\n- De la Universidad Adolfo Ibáñez, el Director de Ingeniería Civil en Energía, señor Rodrigo Moreno.\n- De Fenacopel, el Gerente General señor Patricio Molina.\nSíntesis y cierre Sen. Miguel Ángel Calisto",
    "boletines": [],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-23",
+   "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de Los Presidentes, Senado Santiago.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 16553-12 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que fortalece y mejora la eficacia de la fiscalización y el cumplimiento de la regulación ambiental a cargo de la Superintendencia del Medio Ambiente, y regula otras materias que indica.\nA esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo, y el Superintendente del Medio Ambiente, señor Emanuel Ibarra.",
+   "boletines": [
+    "16553-12"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo, y el Superintendente del Medio Ambiente, señor Emanuel Ibarra."
+   ],
    "seguidos": []
   },
   {
@@ -364,6 +402,28 @@
    "invitados": [],
    "link": "",
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 12213-07 ) Modifica diversos textos legales en materia de ejecución de sanciones penales.\nA esta sesión han sido invitados la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina Vera; el Director Ejecutivo de la Fundación Paz Ciudadana, señor  Daniel Johnson Rodríguez, y el Presidente de la Asociación Nacional de Magistrados y  Magistradas del Poder Judicial de Chile, señor Javier Mora Méndez.\n2.- ( Bol.N° 15905-25 ) Modifica diversos cuerpos legales para suprimir la facultad judicial de ordenar notificaciones por medio de funcionarios de Carabineros.\nA esta sesión ha sido invitado el Ministro de Seguridad, señor Martín Arrau García-Huidobro.",
+   "boletines": [
+    "12213-07",
+    "15905-25"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina Vera; el Director Ejecutivo de la Fundación Paz Ciudadana, señor  Daniel Johnson Rodríguez, y el Presidente de la Asociación Nacional de Magistrados y  Magistradas del Poder Judicial de Chile, señor Javier Mora Méndez.",
+    "A esta sesión ha sido invitado el Ministro de Seguridad, señor Martín Arrau García-Huidobro."
+   ],
+   "seguidos": [
+    "15905-25"
+   ]
   },
   {
    "camara": "Senado",
@@ -611,6 +671,20 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-25",
+   "instancia": "Comisión de Agricultura",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- Recibir a Cotrisa para que se refiera a antecedentes relativos a eventual compra de trigo por el organismo y la situación del mercado de granos.\nInvitado:\nEl Gerente General de Cotrisa, Señor Gonzalo Becerra.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -745,6 +819,38 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-20",
+   "titulo": "Datos personales, combustibles y sala cuna en los temas despachados por la Cámara",
+   "link": "https://www.camara.cl/cms/2026/11/20/datos-personales-combustibles-y-sala-cuna-en-los-temas-despachados-por-la-camara/",
+   "tipo": "Sala",
+   "resumen": "Mientras que el proyecto de datos personales pasó a fase de promulgación, los de combustibles y sala cuna se derivaron al Senado.",
+   "temas": [
+    "Combustibles",
+    "Datos personales",
+    "Resumen de trabajo en Sala",
+    "sala cuna"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-20",
+   "titulo": "Comisiones de la Cámara: avances y debates legislativos",
+   "link": "https://www.camara.cl/cms/2026/11/20/comisiones-de-la-camara-avances-y-debates-legislativos/",
+   "tipo": "Comisión",
+   "resumen": "Aguas lluvias, sala cuna, acusación constitucional, fondos de pensiones y otras iniciativas marcaron el trabajo de las comisiones en la tercera semana de noviembre.",
+   "temas": [
+    "comisiones",
+    "Constitución",
+    "Derechos Humanos",
+    "Familia",
+    "Recursos Hídricos",
+    "sala cuna"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-19",
    "titulo": "Reforma al INDH: expertos advierten sobre pérdida de facultades",
