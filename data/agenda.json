@@ -1,253 +1,6 @@
 {
- "desde": "2026-11-16",
+ "desde": "2026-11-23",
  "items": [
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Sala N° 1 del Edificio del Congreso Nacional, Santiago",
-   "horario": "10:30 a 12:00",
-   "materia": "1.- ( Bol.N° 15589-07 ) Modifica la ley N°20.084, que establece un sistema de responsabilidad de los adolescentes por infracciones a la ley penal, para fortalecer la respuesta sancionatoria frente a conductas consideradas de especial gravedad.\n2.- ( Bol.N° 17637-07 ) Modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales.",
-   "boletines": [
-    "15589-07",
-    "17637-07"
-   ],
-   "invitados": [],
-   "seguidos": [
-    "15589-07",
-    "17637-07"
-   ]
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Agricultura",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Sala 144, edificio ex Congreso, Santiago",
-   "horario": "12:30 a 14:00",
-   "materia": "1.- Conocer, de parte del señor Subsecretario de Agricultura, los antecedentes relativos a la eventual compra de trigo por Cotrisa, las modificaciones al reglamento de la ley N° 18.455, que fija normas sobre producción, elaboración y comercialización de alcoholes etílicos, bebidas alcohólicas y vinagres, y otras materias de interés de la Comisión, en el ámbito de su competencia.\nInvitado:\nEl Subsecretario de Agricultura, señor Francesco Venezian.",
-   "boletines": [],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Educación",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Sala3, piso 3, Senado en Santiago",
-   "horario": "12:30 a 14:00",
-   "materia": "1.- ( Bol.N° S 2771-05 ) Tomar conocimiento del oficio de Su Excelencia el Presidente de la República, mediante el cual solicita el acuerdo del Senado para nombrar como Consejero del Consejo Nacional de Educación, al señor Matías Lira Avilés, hasta el 10 de abril de 2030 (Boletín N° S 2.771-05). HA QUEDADO SIN EFECTO.",
-   "boletines": [
-    "2771-05"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Salud",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Sala 3, Santiago.",
-   "horario": "14:00 a 15:30",
-   "materia": "1.- ( Bol.N° 15047-11 ) Proyecto de ley que optimiza el mecanismo de sustentabilidad del Fondo para Diagnósticos y Tratamientos de Alto Costo y modifica la ley N° 20.850, que crea un Sistema de Protección Financiera para Diagnósticos y Tratamientos de Alto Costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nA esta sesión se invitará al Director de CENABAST, a la Presidenta de la Corporación FAME Chile; a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo y al Dr. Patricio Ibáñez.",
-   "boletines": [
-    "15047-11",
-    "17567-11"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
-   "horario": "15:00 a 17:00",
-   "materia": "1.- ( Bol.N° 15589-07 ) Modifica la ley N°20.084, que establece un sistema de responsabilidad de los adolescentes por infracciones a la ley penal, para fortalecer la respuesta sancionatoria frente a conductas consideradas de especial gravedad\n2.- ( Bol.N° 17637-07 ) Modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales",
-   "boletines": [
-    "15589-07",
-    "17637-07"
-   ],
-   "invitados": [],
-   "seguidos": [
-    "15589-07",
-    "17637-07"
-   ]
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Minería y Energía",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala 1, Valparaíso",
-   "horario": "15:00 a 17:00",
-   "materia": "1.- Conocer la \"Política Nacional de Salud y Seguridad en la Minería en Chile, situación actual, desafíos en prevención de accidentes y fortalecimiento de la fiscalización\".\nA esta sesión fueron especialmente invitados, el Ministro de Minería; Sernageomin; Dirección del Trabajo; Instituto de Seguridad Laboral; Confederación de Trabajadores del Cobre, y Confederación Minera de Chile.",
-   "boletines": [],
-   "invitados": [
-    "A esta sesión fueron especialmente invitados, el Ministro de Minería; Sernageomin; Dirección del Trabajo; Instituto de Seguridad Laboral; Confederación de Trabajadores del Cobre, y Confederación Minera de Chile."
-   ],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Salón de Los Presidentes, Santiago",
-   "horario": "15:30 a 17:00",
-   "materia": "1.- ( Bol.N° 12712-24 ) Continuar la discusión en particular del proyecto de ley, en segundo trámite constitucional, de Patrimonio Cultural (Boletín N° 12.712-24).\nHA QUEDADO SIN EFECTO.",
-   "boletines": [
-    "12712-24"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-16",
-   "instancia": "Comisión de Economía",
-   "estado": "Suspendida",
-   "aviso": "HA QUEDADO SIN EFECTO",
-   "lugar": "Sala N° 1 de Comisiones, Ex Congreso Nacional, Santiago",
-   "horario": "17:00 a 18:30",
-   "materia": "1.- ( Bol.N° 14838-03 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea.",
-   "boletines": [
-    "14838-03"
-   ],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-16",
-   "instancia": "Sala del Senado · sesión especial N° 80",
-   "estado": "Citada",
-   "horario": "17:17 a 20:00",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=82021",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-17",
-   "instancia": "Comisión de Hacienda",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala 12, segundo piso, Senado en Valparaíso",
-   "horario": "09:00 a 10:00",
-   "materia": "1.- Informe de Estabilidad Financiera (IEF) del Banco Central de Chile.",
-   "boletines": [],
-   "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-17",
-   "instancia": "Sala del Senado · sesión especial N° 81",
-   "estado": "Citada",
-   "horario": "10:17 a 13:56",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81964",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-17",
-   "instancia": "Sala del Senado · sesión especial N° 82",
-   "estado": "Citada",
-   "horario": "15:15 a 20:03",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81965",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-18",
-   "instancia": "Sala del Senado · sesión especial N° 83",
-   "estado": "Citada",
-   "horario": "10:17 a 14:07",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81966",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-18",
-   "instancia": "Sala del Senado · sesión especial N° 84",
-   "estado": "Citada",
-   "horario": "15:16 a 20:00",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81967",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-19",
-   "instancia": "Sala del Senado · sesión N° 85",
-   "estado": "Citada",
-   "horario": "10:16 a 14:22",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81968",
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Sala",
-   "fecha": "2026-11-19",
-   "instancia": "Sala del Senado · sesión N° 86",
-   "estado": "Citada",
-   "horario": "15:38 a 02:21",
-   "lugar": "",
-   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
-   "boletines": [],
-   "invitados": [],
-   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=81969",
-   "seguidos": []
-  },
   {
    "camara": "Senado",
    "tipo": "Comisión",
@@ -652,6 +405,20 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-25",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 99",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-25",
@@ -819,6 +586,19 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-23",
+   "titulo": "Tabla semanal: Presupuesto vuelve en tercer trámite a la Cámara",
+   "link": "https://www.camara.cl/cms/2026/11/23/tabla-semanal-presupuesto-vuelve-en-tercer-tramite-a-la-camara/",
+   "tipo": "Tabla de la Sala",
+   "resumen": "La Sala considera en su tabla semanal tentativa abordar el Presupuesto 2027 este lunes 23 de noviembre, según las modificaciones del Senado. En caso de pasar alguna materia a comisión mixta, se vería en la sesión del miércoles 25.",
+   "temas": [
+    "presupuesto 2027",
+    "Tabla de la Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-20",
    "titulo": "Datos personales, combustibles y sala cuna en los temas despachados por la Cámara",
