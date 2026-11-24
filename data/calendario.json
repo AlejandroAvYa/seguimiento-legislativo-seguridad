@@ -125,18 +125,7 @@
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
-   "urgencias_vencen": [
-    {
-     "boletin": "15905-25",
-     "urgencia": "Suma",
-     "vence": "2026-10-21"
-    },
-    {
-     "boletin": "17486-07",
-     "urgencia": "Suma",
-     "vence": "2026-10-21"
-    }
-   ]
+   "urgencias_vencen": []
   },
   {
    "desde": "2026-10-26",
@@ -208,11 +197,6 @@
    "feriados": [],
    "urgencias_vencen": [
     {
-     "boletin": "17125-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-04"
-    },
-    {
      "boletin": "18236-18",
      "urgencia": "Suma",
      "vence": "2026-11-03"
@@ -281,11 +265,6 @@
      "boletin": "18434-07",
      "urgencia": "Suma",
      "vence": "2026-11-17"
-    },
-    {
-     "boletin": "18590-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-17"
     }
    ]
   },
@@ -305,67 +284,12 @@
     "2026-11-24",
     "2026-11-25"
    ],
-   "senado_comisiones": 29,
+   "senado_comisiones": 31,
    "senado_comisiones_seguidos": 6,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
    "urgencias_vencen": [
-    {
-     "boletin": "15261-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "15850-11",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "16143-02",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "16300-07",
-     "urgencia": "Discusión inmediata",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "17111-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "17170-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18029-17",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18211-25",
-     "urgencia": "Discusión inmediata",
-     "vence": "2026-11-24"
-    },
-    {
-     "boletin": "18258-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18282-07",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18314-07",
-     "urgencia": "Discusión inmediata",
-     "vence": "2026-11-24"
-    },
     {
      "boletin": "18329-06",
      "urgencia": "Simple",
@@ -375,16 +299,6 @@
      "boletin": "18349-06",
      "urgencia": "Simple",
      "vence": "2026-11-27"
-    },
-    {
-     "boletin": "18584-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18585-25",
-     "urgencia": "Suma",
-     "vence": "2026-11-25"
     }
    ]
   },
@@ -397,12 +311,17 @@
    "camara_dias": [],
    "senado_sala": 0,
    "senado_dias": [],
-   "senado_comisiones": 1,
+   "senado_comisiones": 3,
    "senado_comisiones_seguidos": 0,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
    "urgencias_vencen": [
+    {
+     "boletin": "16300-07",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
+    },
     {
      "boletin": "17371-25",
      "urgencia": "Simple",
@@ -410,13 +329,33 @@
     },
     {
      "boletin": "17662-07",
-     "urgencia": "Suma",
-     "vence": "2026-12-03"
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
+    },
+    {
+     "boletin": "18211-25",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
+    },
+    {
+     "boletin": "18314-07",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
     },
     {
      "boletin": "18432-07",
      "urgencia": "Simple",
      "vence": "2026-12-02"
+    },
+    {
+     "boletin": "18584-25",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
+    },
+    {
+     "boletin": "18585-25",
+     "urgencia": "Discusión inmediata",
+     "vence": "2026-11-30"
     }
    ]
   },
@@ -442,9 +381,24 @@
    ],
    "urgencias_vencen": [
     {
+     "boletin": "15261-25",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
      "boletin": "15589-07",
      "urgencia": "Simple",
      "vence": "2026-12-10"
+    },
+    {
+     "boletin": "15850-11",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
+     "boletin": "16143-02",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
     },
     {
      "boletin": "16858-15",
@@ -457,14 +411,39 @@
      "vence": "2026-12-10"
     },
     {
+     "boletin": "17111-07",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
+     "boletin": "17170-07",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
      "boletin": "17637-07",
-     "urgencia": "Simple",
-     "vence": "2026-12-10"
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
+     "boletin": "18029-17",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
     },
     {
      "boletin": "18155-25",
      "urgencia": "Simple",
      "vence": "2026-12-10"
+    },
+    {
+     "boletin": "18258-07",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
+    },
+    {
+     "boletin": "18282-07",
+     "urgencia": "Suma",
+     "vence": "2026-12-09"
     }
    ]
   },
@@ -531,6 +510,11 @@
     }
    ],
    "urgencias_vencen": [
+    {
+     "boletin": "15905-25",
+     "urgencia": "Simple",
+     "vence": "2026-12-24"
+    },
     {
      "boletin": "18378-18",
      "urgencia": "Simple",
@@ -1235,7 +1219,7 @@
   {
    "fecha": "2026-11-24",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-25",

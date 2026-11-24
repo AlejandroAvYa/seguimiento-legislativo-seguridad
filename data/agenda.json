@@ -196,20 +196,6 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-24",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 98",
-   "estado": "Citada",
-   "horario": "10:00 a 14:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-24",
@@ -234,7 +220,7 @@
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 6, tercer piso, Valparaíso",
-   "horario": "11:00 a 12:00",
+   "horario": "11:00 a 12:30",
    "materia": "1.- ( Bol.N° 18881-25 ) Continuar el estudio del proyecto de ley, en primer trámite constitucional, que deroga el sistema de reducción de condenas por buena conducta y establece una circunstancia agravante de responsabilidad penal (Boletín N° 18.881-25).\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Fiscal Nacional del Ministerio Público, señor Ángel Valencia; la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina, y el Director Nacional de Gendarmería, señor Rubén Pérez.",
    "boletines": [
     "18881-25"
@@ -354,6 +340,50 @@
    "materia": "1.- ( Bol.N° 16886-12 ) Analizar el proyecto de ley que dicta normas sobre protección de personas defensoras de la naturaleza y los derechos humanos medioambientales, Boletín N° 16.886-12.\nInvitados:\n- La Ministra del Medio Ambiente, señora Francisca Toledo.\n- El Honorable Senador señor Vlado Mirosevic.\n- El Honorable Diputado señor Luis Malla.",
    "boletines": [
     "16886-12"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-24",
+   "instancia": "Sala del Senado · sesión especial N° 87",
+   "estado": "Citada",
+   "horario": "15:19 a 16:34",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=82181",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-24",
+   "instancia": "Sala del Senado · sesión ordinaria N° 88",
+   "estado": "Citada",
+   "horario": "16:40 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=82182",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-24",
+   "instancia": "Comisión Mixta para Boletín N° 18702-05",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 12, segundo piso, Valparaíso",
+   "horario": "Desde 15:00",
+   "materia": "1.- ( Bol.N° 18702-05 ) Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias producidas con ocasión de la tramitación del Proyecto de Ley de Presupuestos para el Sector Público correspondiente al año 2027.",
+   "boletines": [
+    "18702-05"
    ],
    "invitados": [],
    "seguidos": []
@@ -554,9 +584,39 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- Analizar la situación del fútbol profesional chileno en las zonas extremas del país.\nA esta sesión se invitará al Ministro del Deporte; al Director Nacional del Instituto Nacional de Deportes, y al Presidente de la Asociación Nacional de Fútbol Profesional.",
+   "materia": "1.- Analizar la situación del fútbol profesional chileno en las zonas extremas del país.\nA esta sesión se invitará al Ministro del Deporte; al Director Nacional del Instituto Nacional de Deportes; al Presidente de la Asociación Nacional de Fútbol Profesional, y al Alcalde de Coyhaique.",
    "boletines": [],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-25",
+   "instancia": "Comisión Mixta para Boletín Nº 16743-04",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 8, Comisiones, Senado",
+   "horario": "15:15 a 16:00",
+   "materia": "1.- ( Bol.N° 16743-04 ) Proyecto de ley que modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales (Boletín N° 16.743-04). Constituirla Comisión Mixta, elegir Presidente y adoptar las demás normas de procedimiento que estime pertinente.",
+   "boletines": [
+    "16743-04"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-11-25",
+   "instancia": "Sala del Senado · sesión ordinaria N° 89",
+   "estado": "Citada",
+   "horario": "16:00 a 20:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=82183",
    "seguidos": []
   },
   {
@@ -571,6 +631,40 @@
    "materia": "1.- Tratar materias propias de su competencia referidas a seguridad pública y crimen organizado en la Región del Libertador General Bernardo O´Higgins.",
    "boletines": [],
    "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
+   "instancia": "Comisión de la Mujer y Equidad de Género",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones Ex Congreso Santiago",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- Para tomar conocimiento de las medidas adoptadas por las Fuerzas Armadas respecto de las denuncias por acoso y abuso sexual de las que se ha tenido conocimiento público.\nSe ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile.",
+   "boletines": [],
+   "invitados": [
+    "Se ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Economía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 3 de Comisiones, Valparaíso",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 14838-03 ) Para continuar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que regula el desarrollo de plataformas de apuestas en línea (Boletín N° 14.838-03).\nA este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona.",
+   "boletines": [
+    "14838-03"
+   ],
+   "invitados": [
+    "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
+   ],
    "seguidos": []
   },
   {
@@ -622,6 +716,35 @@
     "Presupuesto de la Nación",
     "prodemu",
     "Seguridad Municipal"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "Acusación constitucional contra Fernando Rabat inició jornadas de audiencias",
+   "link": "https://www.camara.cl/cms/2026/11/24/acusacion-constitucional-contra-fernando-rabat-inicio-jornadas-de-audiencias/",
+   "tipo": "Comisión",
+   "resumen": "En la sesión expusieron el abogado defensor del ministro de Justicia, Juan Ignacio Piña; el subsecretario de Derechos Humanos, Pablo Mira; y el exministro de Justicia, Jaime Gajardo.",
+   "temas": [
+    "Acusación Constitucional",
+    "Fernando Rabat",
+    "Ministerio de Justicia y Derechos Humanos"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-24",
+   "titulo": "Cámara aprobó modernización del sistema de firma electrónica",
+   "link": "https://www.camara.cl/cms/2026/11/24/camara-aprobo-modernizacion-del-sistema-de-firma-electronica/",
+   "tipo": "Sala",
+   "resumen": "El proyecto remitido a segundo trámite, permite sustituir la autorización notarial por firma electrónica, en ciertos trámites. Además, incorpora mecanismos de sellado para acreditar fecha y hora, entre otros puntos.",
+   "temas": [
+    "Agilización de trámites",
+    "Documentos electrónicos",
+    "Firma electrónica",
+    "Notarías"
    ],
    "boletines": [],
    "seguidos": []
