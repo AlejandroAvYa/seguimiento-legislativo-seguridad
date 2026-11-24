@@ -1,5 +1,82 @@
 [
  {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "17637-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-25 11:00 a 13:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "15905-25",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-24 12:30 a 14:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "18656-01",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "18566-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "18562-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "18521-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "18378-18",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "17702-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Oficio N°IF 278-2026. (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "17702-15",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-23 – Boletín de indicaciones . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "17702-15",
+  "tipo": "Nuevo boletín de indicaciones (Senado)",
+  "antes": "",
+  "despues": "2026-11-23 – Segundo trámite constitucional"
+ },
+ {
+  "fecha_deteccion": "2026-11-23 21:55",
+  "boletin": "17702-15",
+  "tipo": "Subetapa",
+  "antes": "Boletín de indicaciones de Transportes y Telecomunicaciones",
+  "despues": "Segundo informe de comisión de Transportes y Telecomunicaciones"
+ },
+ {
   "fecha_deteccion": "2026-11-20 18:09",
   "boletin": "15905-25",
   "tipo": "Citado a sesión",

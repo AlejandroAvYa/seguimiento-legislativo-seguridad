@@ -1786,6 +1786,8 @@ boletin,fecha,sesion,camara,etapa,descripcion
 17702-15,2026-09-01,53/374,Senado,Segundo trámite constitucional,Cuenta de primer informe de comisión .
 17702-15,2026-09-02,54/374,Senado,Segundo trámite constitucional,Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 08/10/2026 a las 12:00
 17702-15,2026-10-06,65/374,Senado,Segundo trámite constitucional,"La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12.00 horas del día 19 de noviembre de 2026, en la Secretaría del Senado"
+17702-15,2026-11-23,/,Senado,Segundo trámite constitucional,Boletín de indicaciones .
+17702-15,2026-11-23,/,Senado,Segundo trámite constitucional,Oficio N°IF 278-2026.
 17720-05,2025-07-22,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 17720-05,2025-08-04,54/373,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Hacienda.
 17720-05,2025-08-21,62/373,C.Diputados,Primer trámite constitucional,"Cuenta, Oficio de la Comisión de Agricultura, Silvicultura y Desarrollo Rural (N° 1296/2025), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. RECHAZADO."
@@ -2243,6 +2245,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18378-18,2026-10-26,81/374,C.Diputados,Primer trámite constitucional,Cuenta de primer informe de comisión .
 18378-18,2026-10-27,83/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 420-374 que retira la urgencia Suma
 18378-18,2026-10-28,85/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 430-374 que hace presente la urgencia Simple
+18378-18,2026-11-23,97/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple
 18414-18,2026-06-22,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18414-18,2026-07-07,40/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de la Familia.
 18414-18,2026-07-13,42/374,C.Diputados,Primer trámite constitucional,"Cuenta, Oficio de la Comisión de Mujeres y Equidad de Género por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto, en calidad de comisión técnica (32/26/2026). ACORDADO."
@@ -2315,6 +2318,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18521-07,2026-10-05,74/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 369-374 que retira y hace presente la urgencia Suma
 18521-07,2026-10-19,78/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple
 18521-07,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
+18521-07,2026-11-23,97/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple
 18525-06,2026-08-04,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N° 187/04.08.2026.
 18525-06,2026-08-04,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18525-06,2026-08-04,50/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización."
@@ -2372,6 +2376,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18562-07,2026-10-05,74/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 369-374 que retira y hace presente la urgencia Suma
 18562-07,2026-10-19,78/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple
 18562-07,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
+18562-07,2026-11-23,97/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple
 18566-07,2026-08-05,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18566-07,2026-08-10,53/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18566-07,2026-08-17,/,C.Diputados,Primer trámite constitucional,"Oficio N°21.205. Solicita el parecer del Presidente de la República para refundir el proyecto de reforma constitucional, iniciado en mensaje correspondiente al boletín N° 18.521-07, con los proyectos de reforma constitucional, iniciados en mociones, correspondientes a los boletines Nos 18.562-07 y 18.566-07."
@@ -2383,6 +2388,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18566-07,2026-10-05,74/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 369-374 que retira y hace presente la urgencia Suma
 18566-07,2026-10-19,78/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 388-374 que retira y hace presente la urgencia Simple
 18566-07,2026-11-16,94/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple
+18566-07,2026-11-23,97/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple
 18584-25,2026-08-17,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto . Incluye IF N° 201/17.08.2026.
 18584-25,2026-08-17,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.
 18584-25,2026-08-17,57/374,C.Diputados,Primer trámite constitucional,Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana.
@@ -2455,6 +2461,7 @@ boletin,fecha,sesion,camara,etapa,descripcion
 18656-01,2026-09-22,68/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural"
 18656-01,2026-09-28,71/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 341-374 que hace presente la urgencia Simple
 18656-01,2026-10-26,81/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 406-374 que retira y hace presente la urgencia Simple
+18656-01,2026-11-23,97/374,C.Diputados,Primer trámite constitucional,Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple
 18709-07,2026-10-05,/,C.Diputados,Primer trámite constitucional,Ingreso de proyecto .
 18709-07,2026-10-05,74/374,C.Diputados,Primer trámite constitucional,"Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
 18709-07,2026-10-05,/,C.Diputados,Primer trámite constitucional,Texto del Mensaje.

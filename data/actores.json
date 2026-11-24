@@ -2270,8 +2270,8 @@
  "autores_indicaciones_senado": [
   {
    "nombre": "Presidente de la República",
-   "n_indicaciones": 253,
-   "n_proyectos": 11,
+   "n_indicaciones": 261,
+   "n_proyectos": 12,
    "proyectos": [
     "15261-25",
     "15589-07",
@@ -2283,7 +2283,8 @@
     "16836-06",
     "17246-15",
     "17441-15",
-    "17535-25"
+    "17535-25",
+    "17702-15"
    ]
   },
   {

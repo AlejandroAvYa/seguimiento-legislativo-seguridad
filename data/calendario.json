@@ -300,10 +300,13 @@
     "2026-11-24",
     "2026-11-25"
    ],
-   "senado_sala": 0,
-   "senado_dias": [],
-   "senado_comisiones": 27,
-   "senado_comisiones_seguidos": 5,
+   "senado_sala": 3,
+   "senado_dias": [
+    "2026-11-24",
+    "2026-11-25"
+   ],
+   "senado_comisiones": 29,
+   "senado_comisiones_seguidos": 6,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -374,11 +377,6 @@
      "vence": "2026-11-27"
     },
     {
-     "boletin": "18378-18",
-     "urgencia": "Simple",
-     "vence": "2026-11-27"
-    },
-    {
      "boletin": "18584-25",
      "urgencia": "Suma",
      "vence": "2026-11-25"
@@ -386,11 +384,6 @@
     {
      "boletin": "18585-25",
      "urgencia": "Suma",
-     "vence": "2026-11-25"
-    },
-    {
-     "boletin": "18656-01",
-     "urgencia": "Simple",
      "vence": "2026-11-25"
     }
    ]
@@ -506,22 +499,7 @@
      "vence": "2026-12-16"
     },
     {
-     "boletin": "18521-07",
-     "urgencia": "Simple",
-     "vence": "2026-12-16"
-    },
-    {
      "boletin": "18544-06",
-     "urgencia": "Simple",
-     "vence": "2026-12-16"
-    },
-    {
-     "boletin": "18562-07",
-     "urgencia": "Simple",
-     "vence": "2026-12-16"
-    },
-    {
-     "boletin": "18566-07",
      "urgencia": "Simple",
      "vence": "2026-12-16"
     },
@@ -552,7 +530,33 @@
      "fuente": "api.boostr.cl"
     }
    ],
-   "urgencias_vencen": []
+   "urgencias_vencen": [
+    {
+     "boletin": "18378-18",
+     "urgencia": "Simple",
+     "vence": "2026-12-23"
+    },
+    {
+     "boletin": "18521-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-23"
+    },
+    {
+     "boletin": "18562-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-23"
+    },
+    {
+     "boletin": "18566-07",
+     "urgencia": "Simple",
+     "vence": "2026-12-23"
+    },
+    {
+     "boletin": "18656-01",
+     "urgencia": "Simple",
+     "vence": "2026-12-23"
+    }
+   ]
   }
  ],
  "feriados": [
@@ -1226,7 +1230,7 @@
   {
    "fecha": "2026-11-23",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-24",
@@ -1240,6 +1244,21 @@
   }
  ],
  "_senado_sesiones": [
+  {
+   "numero": "89",
+   "tipo": "Ordinaria",
+   "fecha": "2026-11-25"
+  },
+  {
+   "numero": "88",
+   "tipo": "Ordinaria",
+   "fecha": "2026-11-24"
+  },
+  {
+   "numero": "87",
+   "tipo": "Especial",
+   "fecha": "2026-11-24"
+  },
   {
    "numero": "86",
    "tipo": "Especial",

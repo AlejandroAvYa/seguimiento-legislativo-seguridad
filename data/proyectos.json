@@ -68117,7 +68117,7 @@
   "agenda": [
    {
     "fecha": "2026-11-24",
-    "horario": "09:30 a 11:00",
+    "horario": "12:30 a 14:00",
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
@@ -69692,7 +69692,7 @@
     "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 7 de mayo de 2024 (930 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 6 de mayo de 2024.",
     "Tiene urgencia suma; el plazo estimado venció el 21 de octubre.",
-    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el martes 24 de noviembre a las 09:30.",
+    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el martes 24 de noviembre a las 12:30.",
     "Desde su último avance se han presentado o renovado 36 urgencias."
    ],
    "indicado": [
@@ -174509,6 +174509,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
+   },
+   {
+    "fecha": "2026-11-25",
+    "horario": "11:00 a 13:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 10 de Comisiones - Valparaíso"
    }
   ],
   "plazo_indicaciones": [],
@@ -186116,10 +186125,10 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Boletín de indicaciones de Transportes y Telecomunicaciones",
+  "subetapa": "Segundo informe de comisión de Transportes y Telecomunicaciones",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
-  "instancia_actual": "Boletín de indicaciones de Transportes y Telecomunicaciones",
+  "instancia_actual": "Comisión de Transportes y Telecomunicaciones",
   "fecha_inicio_etapa": "2026-01-13",
   "dias_en_etapa": 314,
   "dias_desde_ingreso": 497,
@@ -186135,17 +186144,17 @@
   "primera_urgencia_gobierno_actual": "2026-05-05",
   "ultima_urgencia": "Suma (2026-08-04)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-06",
-  "ultimo_tramite": "La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12.00 horas del día 19 de noviembre de 2026, en la Secretaría del Senado",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Oficio N°IF 278-2026.",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 29,
-  "n_boletines_indicaciones_senado": 0,
-  "n_indicaciones_senado": 0,
-  "n_indicaciones_senado_ejecutivo": 0,
-  "n_indicaciones_senado_ejecutivo_gobierno_actual": 0,
+  "n_tramites": 31,
+  "n_boletines_indicaciones_senado": 1,
+  "n_indicaciones_senado": 8,
+  "n_indicaciones_senado_ejecutivo": 8,
+  "n_indicaciones_senado_ejecutivo_gobierno_actual": 8,
   "n_indicaciones_senado_parlamentarias": 0,
   "n_oficios_indicaciones_ejecutivo": 0,
-  "ultima_presentacion_indicaciones": "",
+  "ultima_presentacion_indicaciones": "2026-11-23",
   "n_informes_comision": 2,
   "ultimo_informe": "2026-08-06 – Primer informe de comisión de Transportes y Telecomunicaciones",
   "n_votaciones_sala_senado": 1,
@@ -186359,6 +186368,20 @@
     "descripcion": "La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12.00 horas del día 19 de noviembre de 2026, en la Secretaría del Senado",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "/",
+    "descripcion": "Boletín de indicaciones .",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "/",
+    "descripcion": "Oficio N°IF 278-2026.",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -186541,9 +186564,28 @@
     "camara": "C. Diputados",
     "descripcion": "",
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=35686&tipodoc=ofic"
+   },
+   {
+    "numero": "IF 278-202",
+    "fecha": "2026-11-23",
+    "tramite": "Segundo informe de comisión",
+    "etapa": "Segundo trámite constitucional",
+    "tipo": "Otros oficios",
+    "camara": "Senado",
+    "descripcion": "",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37518&tipodoc=ofic"
    }
   ],
-  "boletines_indicaciones": [],
+  "boletines_indicaciones": [
+   {
+    "fecha": "2026-11-23",
+    "tramite": "Boletin de Indicaciones",
+    "etapa": "Segundo trámite constitucional",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3290&tipodoc=indi",
+    "iddocto": "3290",
+    "estado_lectura": "leído"
+   }
+  ],
   "votaciones": [
    {
     "fecha": "2026-09-02",
@@ -186790,8 +186832,29 @@
     ]
    }
   ],
-  "indicaciones_por_autor": [],
-  "indicaciones_por_articulo": [],
+  "indicaciones_por_autor": [
+   {
+    "autor": "Presidente de la República",
+    "tipo_autor": "Ejecutivo",
+    "n": 8
+   }
+  ],
+  "indicaciones_por_articulo": [
+   {
+    "articulo": "ARTÍCULO ÚNICO",
+    "n": 8,
+    "ejecutivo": 8,
+    "parlamentarias": 0,
+    "acciones": {
+     "incorporar": 3,
+     "realizar": 1,
+     "contemplar": 1,
+     "efectuar": 1,
+     "sustituir": 1,
+     "reemplazar": 1
+    }
+   }
+  ],
   "votaciones_camara": [
    {
     "id": "87212",
@@ -187756,17 +187819,18 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 314 días en Boletín de indicaciones de Transportes y Telecomunicaciones."
+    "detalle": "Lleva 314 días en Comisión de Transportes y Telecomunicaciones."
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 16,
+  "prioridad_indice": 21,
   "prioridad_nivel": "Baja",
   "accion_sugerida": "Evaluar si se le pone urgencia o se deja de impulsar",
   "prioridad_motivos": [
    "En segundo trámite (+6)",
    "Proyecto conexo (+5)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
@@ -187775,21 +187839,51 @@
    "n_base": 19,
    "lectura": "más lento que lo habitual"
   },
-  "comision_actual": {},
+  "comision_actual": {
+   "nombre": "Comisión de Transportes y Telecomunicaciones",
+   "integrantes": [
+    {
+     "nombre": "Danisa Astudillo Peiretti",
+     "funcion": "",
+     "partido": "P.S."
+    },
+    {
+     "nombre": "Loreto Carvajal Ambiado",
+     "funcion": "",
+     "partido": "P.P.D."
+    },
+    {
+     "nombre": "Camila Flores Oporto",
+     "funcion": "presidente",
+     "partido": "R.N."
+    },
+    {
+     "nombre": "Alejandro Kusanovic Glusevic",
+     "funcion": "",
+     "partido": "Independiente"
+    },
+    {
+     "nombre": "Enrique Van Rysselberghe Herrera",
+     "funcion": "",
+     "partido": "U.D.I."
+    }
+   ]
+  },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado (boletín de indicaciones de Transportes y Telecomunicaciones), desde el 13 de enero (314 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Transportes y Telecomunicaciones, desde el 13 de enero (314 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de enero.",
     "El Senado lo aprobó en general el 2 de septiembre.",
-    "Último trámite, sin contar urgencias: La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12.00 horas del día 19 de noviembre de 2026, en la Secretaría del Senado (6 de octubre)."
+    "Último trámite, sin contar urgencias: Boletín de indicaciones (23 de noviembre)."
    ],
    "indicado": [
+    "En el Senado se presentaron 8 indicaciones, todas del Ejecutivo.",
     "Última votación en la Sala de la Cámara (13 de enero): 130 a favor, 0 en contra y 0 abstenciones (aprobado).",
     "Última votación en la Sala del Senado (2 de septiembre): 24 a favor, 0 en contra y 0 abstenciones ().",
     "Último informe: Primer informe de comisión de Transportes y Telecomunicaciones (6 de agosto)."
    ],
    "falta": [
-    "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
+    "Falta el segundo informe de la comisión (discusión en particular) y la votación en particular en la Sala del Senado.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
@@ -248420,21 +248514,21 @@
   "dias_en_etapa": 157,
   "dias_desde_ingreso": 157,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-10-28",
-  "urgencia_vence_estimado": "2026-11-27",
-  "urgencia_plazo": "Vence 2026-11-27",
+  "urgencia_vigente_desde": "2026-11-23",
+  "urgencia_vence_estimado": "2026-12-23",
+  "urgencia_plazo": "Vence 2026-12-23",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 11,
+  "n_urgencias_gobierno_actual": 12,
   "primera_urgencia_gobierno_actual": "2026-06-22",
-  "ultima_urgencia": "Simple (2026-10-28)",
+  "ultima_urgencia": "Simple (2026-11-23)",
   "indicaciones_ejecutivo_gobierno_actual": "2026-08-27",
-  "ultimo_tramite_fecha": "2026-10-28",
-  "ultimo_tramite": "Cuenta del Mensaje 430-374 que hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 20,
+  "n_tramites": 21,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -248592,6 +248686,13 @@
     "descripcion": "Cuenta del Mensaje 430-374 que hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "97/374",
+    "descripcion": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -248668,9 +248769,16 @@
    {
     "tipo": "Simple",
     "ingreso": "2026-10-28",
-    "retiro": "",
+    "retiro": "2026-11-23",
     "camara": "C. Diputados",
     "mensaje": "430-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-23",
+    "retiro": "",
+    "camara": "C. Diputados",
+    "mensaje": "478-374"
    }
   ],
   "hitos": [
@@ -248782,23 +248890,18 @@
   "avance_inicio": {
    "1": "2026-06-19"
   },
-  "n_urgencias_en_etapa": 1,
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-27 (en 4 días)."
-   }
-  ],
-  "n_alertas": 1,
-  "prioridad_indice": 54,
-  "prioridad_nivel": "Alta",
+  "n_urgencias_en_etapa": 2,
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": 44,
+  "prioridad_nivel": "Media",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
-   "Urgencia vence en 7 días o menos (+15)",
    "En Sala (+12)",
    "Proyecto conexo (+5)",
-   "Mensaje del actual Gobierno (+10)"
+   "Mensaje del actual Gobierno (+10)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
@@ -248811,7 +248914,7 @@
   "resumen": {
    "estado": [
     "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 19 de junio (157 días).",
-    "Tiene urgencia simple; el plazo estimado vence el 27 de noviembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (26 de octubre)."
    ],
    "indicado": [
@@ -251556,21 +251659,21 @@
   "dias_en_etapa": 112,
   "dias_desde_ingreso": 112,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-11-16",
-  "urgencia_vence_estimado": "2026-12-16",
-  "urgencia_plazo": "Vence 2026-12-16",
+  "urgencia_vigente_desde": "2026-11-23",
+  "urgencia_vence_estimado": "2026-12-23",
+  "urgencia_plazo": "Vence 2026-12-23",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18521-07 (matriz) / 18562-07 / 18566-07",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 7,
+  "n_urgencias_gobierno_actual": 8,
   "primera_urgencia_gobierno_actual": "2026-08-04",
-  "ultima_urgencia": "Simple (2026-11-16)",
+  "ultima_urgencia": "Simple (2026-11-23)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 13,
+  "n_tramites": 14,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -251679,6 +251782,13 @@
     "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "97/374",
+    "descripcion": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -251727,9 +251837,16 @@
    {
     "tipo": "Simple",
     "ingreso": "2026-11-16",
-    "retiro": "",
+    "retiro": "2026-11-23",
     "camara": "C. Diputados",
     "mensaje": "465-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-23",
+    "retiro": "",
+    "camara": "C. Diputados",
+    "mensaje": "478-374"
    }
   ],
   "hitos": [
@@ -251794,7 +251911,7 @@
   "avance_inicio": {
    "1": "2026-08-03"
   },
-  "n_urgencias_en_etapa": 7,
+  "n_urgencias_en_etapa": 8,
   "alertas": [],
   "n_alertas": 0,
   "prioridad_indice": 32,
@@ -251817,9 +251934,9 @@
   "resumen": {
    "estado": [
     "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 3 de agosto (112 días).",
-    "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
-    "Desde su último avance se han presentado o renovado 7 urgencias."
+    "Desde su último avance se han presentado o renovado 8 urgencias."
    ],
    "indicado": [],
    "falta": [
@@ -258354,21 +258471,21 @@
   "dias_en_etapa": 110,
   "dias_desde_ingreso": 110,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-11-16",
-  "urgencia_vence_estimado": "2026-12-16",
-  "urgencia_plazo": "Vence 2026-12-16",
+  "urgencia_vigente_desde": "2026-11-23",
+  "urgencia_vence_estimado": "2026-12-23",
+  "urgencia_plazo": "Vence 2026-12-23",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18521-07 (matriz) / 18562-07 / 18566-07",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "primera_urgencia_gobierno_actual": "2026-08-31",
-  "ultima_urgencia": "Simple (2026-11-16)",
+  "ultima_urgencia": "Simple (2026-11-23)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 11,
+  "n_tramites": 12,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -258463,6 +258580,13 @@
     "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "97/374",
+    "descripcion": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -258504,9 +258628,16 @@
    {
     "tipo": "Simple",
     "ingreso": "2026-11-16",
-    "retiro": "",
+    "retiro": "2026-11-23",
     "camara": "C. Diputados",
     "mensaje": "465-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-23",
+    "retiro": "",
+    "camara": "C. Diputados",
+    "mensaje": "478-374"
    }
   ],
   "hitos": [
@@ -258561,7 +258692,7 @@
   "avance_inicio": {
    "1": "2026-08-05"
   },
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "alertas": [],
   "n_alertas": 0,
   "prioridad_indice": 27,
@@ -258584,9 +258715,9 @@
   "resumen": {
    "estado": [
     "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (110 días).",
-    "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
-    "Desde su último avance se han presentado o renovado 6 urgencias."
+    "Desde su último avance se han presentado o renovado 7 urgencias."
    ],
    "indicado": [],
    "falta": [
@@ -258648,21 +258779,21 @@
   "dias_en_etapa": 110,
   "dias_desde_ingreso": 110,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-11-16",
-  "urgencia_vence_estimado": "2026-12-16",
-  "urgencia_plazo": "Vence 2026-12-16",
+  "urgencia_vigente_desde": "2026-11-23",
+  "urgencia_vence_estimado": "2026-12-23",
+  "urgencia_plazo": "Vence 2026-12-23",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "18521-07 (matriz) / 18562-07 / 18566-07",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 6,
+  "n_urgencias_gobierno_actual": 7,
   "primera_urgencia_gobierno_actual": "2026-08-31",
-  "ultima_urgencia": "Simple (2026-11-16)",
+  "ultima_urgencia": "Simple (2026-11-23)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 11,
+  "n_tramites": 12,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -258757,6 +258888,13 @@
     "descripcion": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "97/374",
+    "descripcion": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -258798,9 +258936,16 @@
    {
     "tipo": "Simple",
     "ingreso": "2026-11-16",
-    "retiro": "",
+    "retiro": "2026-11-23",
     "camara": "C. Diputados",
     "mensaje": "465-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-23",
+    "retiro": "",
+    "camara": "C. Diputados",
+    "mensaje": "478-374"
    }
   ],
   "hitos": [
@@ -258855,7 +259000,7 @@
   "avance_inicio": {
    "1": "2026-08-05"
   },
-  "n_urgencias_en_etapa": 6,
+  "n_urgencias_en_etapa": 7,
   "alertas": [],
   "n_alertas": 0,
   "prioridad_indice": 27,
@@ -258878,9 +259023,9 @@
   "resumen": {
    "estado": [
     "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (110 días).",
-    "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
+    "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
-    "Desde su último avance se han presentado o renovado 6 urgencias."
+    "Desde su último avance se han presentado o renovado 7 urgencias."
    ],
    "indicado": [],
    "falta": [
@@ -265529,21 +265674,21 @@
   "dias_en_etapa": 91,
   "dias_desde_ingreso": 91,
   "urgencia_vigente": "Simple",
-  "urgencia_vigente_desde": "2026-10-26",
-  "urgencia_vence_estimado": "2026-11-25",
-  "urgencia_plazo": "Vence 2026-11-25",
+  "urgencia_vigente_desde": "2026-11-23",
+  "urgencia_vence_estimado": "2026-12-23",
+  "urgencia_plazo": "Vence 2026-12-23",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "refundidos": "",
   "mensaje_gobierno_actual": false,
-  "n_urgencias_gobierno_actual": 2,
+  "n_urgencias_gobierno_actual": 3,
   "primera_urgencia_gobierno_actual": "2026-09-28",
-  "ultima_urgencia": "Simple (2026-10-26)",
+  "ultima_urgencia": "Simple (2026-11-23)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-10-26",
-  "ultimo_tramite": "Cuenta del Mensaje 406-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-23",
+  "ultimo_tramite": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
   "ultimo_tramite_camara": "C.Diputados",
-  "n_tramites": 4,
+  "n_tramites": 5,
   "n_boletines_indicaciones_senado": 0,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
@@ -265589,6 +265734,13 @@
     "descripcion": "Cuenta del Mensaje 406-374 que retira y hace presente la urgencia Simple",
     "etapa": "Primer trámite constitucional",
     "camara": "C.Diputados"
+   },
+   {
+    "fecha": "2026-11-23",
+    "sesion": "97/374",
+    "descripcion": "Cuenta del Mensaje 478-374 que retira y hace presente la urgencia Simple",
+    "etapa": "Primer trámite constitucional",
+    "camara": "C.Diputados"
    }
   ],
   "urgencias": [
@@ -265602,9 +265754,16 @@
    {
     "tipo": "Simple",
     "ingreso": "2026-10-26",
-    "retiro": "",
+    "retiro": "2026-11-23",
     "camara": "C. Diputados",
     "mensaje": "406-374"
+   },
+   {
+    "tipo": "Simple",
+    "ingreso": "2026-11-23",
+    "retiro": "",
+    "camara": "C. Diputados",
+    "mensaje": "478-374"
    }
   ],
   "hitos": [
@@ -265648,22 +265807,17 @@
   "avance_inicio": {
    "1": "2026-08-24"
   },
-  "n_urgencias_en_etapa": 2,
-  "alertas": [
-   {
-    "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-25 (en 2 días)."
-   }
-  ],
-  "n_alertas": 1,
-  "prioridad_indice": 37,
-  "prioridad_nivel": "Media",
+  "n_urgencias_en_etapa": 3,
+  "alertas": [],
+  "n_alertas": 0,
+  "prioridad_indice": 27,
+  "prioridad_nivel": "Baja",
   "accion_sugerida": "Seguimiento mensual",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
-   "Urgencia vence en 7 días o menos (+15)",
    "Proyecto conexo (+5)",
-   "Con urgencias del actual Gobierno (+5)"
+   "Con urgencias del actual Gobierno (+5)",
+   "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
@@ -265676,8 +265830,9 @@
   "resumen": {
    "estado": [
     "Está en primer trámite en la Cámara de Diputados, en la comisión de Agricultura, Silvicultura y Desarrollo Rural, desde el 24 de agosto (91 días).",
-    "Tiene urgencia simple; el plazo estimado vence el 25 de noviembre.",
-    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural (22 de septiembre)."
+    "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
+    "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural (22 de septiembre).",
+    "Desde su último avance se han presentado o renovado 3 urgencias."
    ],
    "indicado": [],
    "falta": [
