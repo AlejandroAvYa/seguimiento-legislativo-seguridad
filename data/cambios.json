@@ -1,5 +1,40 @@
 [
  {
+  "fecha_deteccion": "2026-11-24 21:00",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-24 – Oficio de ley a Cámara Revisora . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-24 21:00",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-24 – Discusión particular . Aprobado (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-24 21:00",
+  "boletin": "15850-11",
+  "tipo": "Subetapa",
+  "antes": "Discusión particular",
+  "despues": "Cuenta de proyecto"
+ },
+ {
+  "fecha_deteccion": "2026-11-24 21:00",
+  "boletin": "15850-11",
+  "tipo": "Etapa",
+  "antes": "Primer trámite constitucional (Senado)",
+  "despues": "Segundo trámite constitucional (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-24 21:00",
+  "boletin": "15589-07",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-24 – Discusión particular . Queda pendiente La Honorable Senadora señora Pascual solicita segunda discusión (Senado)"
+ },
+ {
   "fecha_deteccion": "2026-11-24 18:15",
   "boletin": "18590-07",
   "tipo": "Nuevo trámite",

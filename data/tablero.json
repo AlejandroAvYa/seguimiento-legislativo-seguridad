@@ -529,7 +529,7 @@
    }
   ],
   "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta de segundo informe de comisión .",
+  "ultimo_tramite": "Discusión particular . Queda pendiente La Honorable Senadora señora Pascual solicita segunda discusión",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -832,14 +832,8 @@
  },
  {
   "boletin": "15850-11",
-  "n_urgencias_en_etapa": 2,
-  "ritmo": {
-   "tramite": "Primer trámite",
-   "dias": 1316,
-   "mediana": 251,
-   "n_base": 59,
-   "lectura": "más lento que lo habitual"
-  },
+  "n_urgencias_en_etapa": 0,
+  "ritmo": {},
   "nombre_corto": "Venta ilegal de medicamentos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -852,13 +846,13 @@
   "descripcion": "Regula la comercialización de productos farmacéuticos y sanciona su venta ilegal (ferias, plataformas no autorizadas).",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "1S",
-  "etapa_texto": "Primer trámite · Sala (Senado)",
+  "etapa_codigo": "2S",
+  "etapa_texto": "Segundo trámite · Sala (Cámara de Diputados)",
   "avance_estados": {
    "1C": "hecha",
-   "1S": "actual",
-   "2C": "pendiente",
-   "2S": "pendiente",
+   "1S": "hecha",
+   "2C": "hecha",
+   "2S": "actual",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -875,7 +869,7 @@
    "LEY": ""
   },
   "instancia_actual": "Sala",
-  "camara_actual": "Senado",
+  "camara_actual": "Cámara de Diputados",
   "camara_origen": "Senado",
   "dias_en_etapa": 1316,
   "fecha_ingreso": "2023-04-18",
@@ -893,7 +887,7 @@
    }
   ],
   "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta del Mensaje 489-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,

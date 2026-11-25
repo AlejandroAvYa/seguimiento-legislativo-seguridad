@@ -186,13 +186,11 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
    "horario": "10:00 a 12:00",
-   "materia": "1.- ( Bol.N° 18644-14 ) Considerar el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14), con urgencia calificada de suma.\nA esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos.",
+   "materia": "1.- ( Bol.N° 18644-14 ) Considerar el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14).",
    "boletines": [
     "18644-14"
    ],
-   "invitados": [
-    "A esta sesión han sido invitados representantes de la Junta Nacional de Cuerpos de Bomberos."
-   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -364,7 +362,7 @@
    "fecha": "2026-11-24",
    "instancia": "Sala del Senado · sesión ordinaria N° 88",
    "estado": "Citada",
-   "horario": "16:40 a 20:00",
+   "horario": "16:40 a 19:23",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -598,7 +596,7 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 8, Comisiones, Senado",
    "horario": "15:15 a 16:00",
-   "materia": "1.- ( Bol.N° 16743-04 ) Proyecto de ley que modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales (Boletín N° 16.743-04). Constituirla Comisión Mixta, elegir Presidente y adoptar las demás normas de procedimiento que estime pertinente.",
+   "materia": "1.- ( Bol.N° 16743-04 ) Proyecto de ley que modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales (Boletín N° 16.743-04). Constituir la Comisión Mixta, elegir Presidente y adoptar las demás normas de procedimiento que estime pertinente.",
    "boletines": [
     "16743-04"
    ],

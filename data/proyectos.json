@@ -13853,9 +13853,9 @@
   "ultima_urgencia": "Simple (2026-11-10)",
   "indicaciones_ejecutivo_gobierno_actual": "",
   "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta de segundo informe de comisión .",
+  "ultimo_tramite": "Discusión particular . Queda pendiente La Honorable Senadora señora Pascual solicita segunda discusión",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 44,
+  "n_tramites": 45,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 57,
   "n_indicaciones_senado_ejecutivo": 10,
@@ -14179,6 +14179,13 @@
     "fecha": "2026-11-24",
     "sesion": "88/374",
     "descripcion": "Cuenta de segundo informe de comisión .",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-24",
+    "sesion": "88/374",
+    "descripcion": "Discusión particular . Queda pendiente La Honorable Senadora señora Pascual solicita segunda discusión",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
    }
@@ -22977,7 +22984,7 @@
     "La Cámara de Diputados lo aprobó en general el 9 de julio de 2025 y en particular el 17 de septiembre de 2025.",
     "El Senado lo aprobó en general el 7 de julio.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta de segundo informe de comisión (24 de noviembre)."
+    "Último trámite, sin contar urgencias: Discusión particular. Queda pendiente La Honorable Senadora señora Pascual solicita segunda discusión (24 de noviembre)."
    ],
    "indicado": [
     "En el Senado se presentaron 57 indicaciones: 10 del Ejecutivo y 47 parlamentarias (Longton, Vodanovic, Pascual, Sánchez).",
@@ -22989,21 +22996,21 @@
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-24",
     "autor": "Redacción automática",
     "estado": "por revisar",
     "secciones": [
      {
       "titulo": "Principales contenidos",
       "items": [
-       "**Tope de sanciones para menores de 16 años:** en los delitos que indica, entre ellos los de los artículos 141, 142, 361, 390, 391 y 433 del Código Penal, las sanciones de internación en régimen cerrado y semicerrado no podrán exceder de diez años.",
-       "**Pena para mayores de 16 años:** en los delitos que enumera, la pena de base se determina sin aplicar la regla que obliga a partir desde un grado inferior al mínimo.",
-       "**Internación provisoria:** procede también cuando se desconoce la identidad del adolescente por no tener documentos, negarse a entregarlos o usar documentos falsos o adulterados.",
-       "**Apelación:** la resolución dictada en audiencia sobre la internación provisoria será apelable. En los delitos del artículo 18, el adolescente detenido no quedará en libertad mientras esa resolución no esté ejecutoriada, y cada Corte de Apelaciones tendrá una sala de turno para feriados.",
-       "**Control de la ejecución:** el juez de garantía del lugar de cumplimiento resuelve los conflictos que surjan durante la ejecución de las sanciones.",
-       "**Quebrantamiento y fuga:** quebrantar el régimen cerrado intensifica el plan de intervención. En caso de fuga, el condenado no podrá pedir la sustitución o remisión de la condena por un período de entre seis meses y un año.",
-       "**Víctima:** para sustituir o remitir la condena, el tribunal debe considerar las consecuencias para la seguridad de la víctima, su familia o su entorno, y oírla si lo pide.",
-       "**Conducta anterior:** no podrá considerarse irreprochable la conducta anterior de quien haya sido condenado antes por los delitos del inciso final del artículo 18 de la ley N° 20.084."
+       "**Tope de sanciones:** en los delitos que enumera, entre ellos los de los artículos 141, 142, 361, 390, 391 y 433 del Código Penal, las sanciones de internación en régimen cerrado y semicerrado no podrán exceder de diez años para menores de dieciséis años, y de quince años para mayores de dieciséis y menores de dieciocho.",
+       "**Penas de tres a cinco años:** el tribunal podrá imponer internación en régimen cerrado con programa de reinserción social o libertad asistida especial con internación parcial. Se elimina la libertad asistida especial de ese tramo.",
+       "**Internación provisoria:** procede también cuando no se logra acreditar la identidad del adolescente, solo hasta su identificación. Excepcionalmente, procede en delitos con pena de presidio menor en su grado máximo si el adolescente tiene cautelares vigentes o una condena previa por delito con pena aflictiva.",
+       "**Apelación:** el recurso contra la resolución sobre internación provisoria se interpone en la misma audiencia y, cuando corresponda según el artículo 149 del Código Procesal Penal, el adolescente no queda en libertad mientras la resolución no esté ejecutoriada.",
+       "**Plazo de investigación:** si la formalización incluye un crimen, el plazo máximo será de seis meses, ampliable por el juez de garantía hasta por seis meses adicionales.",
+       "**Quebrantamiento:** quebrantar el régimen cerrado intensifica el plan de intervención. Cometer nuevos delitos durante esa sanción amplía su extensión entre un mes y un año, y la fuga o evasión siempre constituye quebrantamiento.",
+       "**Sustitución y remisión:** la sustitución del régimen cerrado procede después de cumplido más de un tercio de la condena, o más de la mitad en los delitos del artículo 18. El tribunal debe considerar el plan de intervención, los informes del Servicio, los quebrantamientos, el riesgo de reiteración y la seguridad de la víctima, que tiene derecho a ser oída.",
+       "**Otras medidas:** el Servicio Nacional de Reinserción Social Juvenil deberá separar y segmentar a los adolescentes según la infracción y su perfil de riesgo. No podrá considerarse irreprochable la conducta anterior de quien fue condenado antes por los delitos del artículo 18 de la ley N° 20.084."
       ],
       "parrafos": []
      }
@@ -66598,10 +66605,10 @@
   "fecha_ingreso": "2023-04-18",
   "camara_origen": "Senado",
   "situacion": "En tramitación",
-  "etapa": "Primer trámite constitucional (Senado)",
-  "subetapa": "Discusión particular",
-  "tramite_constitucional": "Primer trámite constitucional",
-  "camara_actual": "Senado",
+  "etapa": "Segundo trámite constitucional (C.Diputados)",
+  "subetapa": "Cuenta de proyecto",
+  "tramite_constitucional": "Segundo trámite constitucional",
+  "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2023-04-18",
   "dias_en_etapa": 1316,
@@ -66619,9 +66626,9 @@
   "ultima_urgencia": "Suma (2026-11-24)",
   "indicaciones_ejecutivo_gobierno_actual": "",
   "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta del Mensaje 489-374 que retira y hace presente la urgencia Suma",
+  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 74,
+  "n_tramites": 76,
   "n_boletines_indicaciones_senado": 1,
   "n_indicaciones_senado": 31,
   "n_indicaciones_senado_ejecutivo": 24,
@@ -67157,6 +67164,20 @@
     "descripcion": "Cuenta del Mensaje 489-374 que retira y hace presente la urgencia Suma",
     "etapa": "Primer trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-24",
+    "sesion": "88/374",
+    "descripcion": "Discusión particular . Aprobado",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-24",
+    "sesion": "/",
+    "descripcion": "Oficio de ley a Cámara Revisora .",
+    "etapa": "Primer trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -67607,6 +67628,18 @@
     "hito": "Aprobado en general",
     "camara": "Senado",
     "etapa": "Primer trámite constitucional"
+   },
+   {
+    "fecha": "2026-11-24",
+    "hito": "Aprobado en particular",
+    "camara": "Senado",
+    "etapa": "Primer trámite constitucional"
+   },
+   {
+    "fecha": "2026-11-24",
+    "hito": "Despachado a la cámara revisora",
+    "camara": "Senado",
+    "etapa": "Primer trámite constitucional"
    }
   ],
   "informes": [
@@ -67643,6 +67676,16 @@
     "camara": "Senado",
     "descripcion": "IF 200-2026",
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37027&tipodoc=ofic"
+   },
+   {
+    "numero": "381-26",
+    "fecha": "2026-11-24",
+    "tramite": "Oficio de ley a Cámara Revisora",
+    "etapa": "Primer trámite constitucional",
+    "tipo": "Ley",
+    "camara": "Senado",
+    "descripcion": "",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37535&tipodoc=ofic"
    }
   ],
   "boletines_indicaciones": [
@@ -68033,13 +68076,13 @@
    }
   ],
   "votaciones_camara": [],
-  "etapa_codigo": "1S",
-  "etapa_texto": "Primer trámite · Sala (Senado)",
+  "etapa_codigo": "2S",
+  "etapa_texto": "Segundo trámite · Sala (Cámara de Diputados)",
   "avance_estados": {
    "1C": "hecha",
-   "1S": "actual",
-   "2C": "pendiente",
-   "2S": "pendiente",
+   "1S": "hecha",
+   "2C": "hecha",
+   "2S": "actual",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -68058,7 +68101,7 @@
   "avance_inicio": {
    "1": "2023-04-18"
   },
-  "n_urgencias_en_etapa": 2,
+  "n_urgencias_en_etapa": 0,
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
@@ -68076,20 +68119,14 @@
    "Con urgencias del actual Gobierno (+5)",
    "Movimiento en los últimos 14 días (+5)"
   ],
-  "ritmo": {
-   "tramite": "Primer trámite",
-   "dias": 1316,
-   "mediana": 251,
-   "n_base": 59,
-   "lectura": "más lento que lo habitual"
-  },
+  "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala del Senado, desde el 18 de abril de 2023 (1316 días).",
-    "El Senado lo aprobó en general el 21 de julio.",
+    "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 18 de abril de 2023 (1316 días).",
+    "El Senado lo aprobó en general el 21 de julio y en particular el 24 de noviembre.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
-    "Último trámite, sin contar urgencias: Cuenta de segundo informe de comisión (20 de octubre)."
+    "Último trámite, sin contar urgencias: Discusión particular. Aprobado (24 de noviembre)."
    ],
    "indicado": [
     "En el Senado se presentaron 31 indicaciones: 24 del Ejecutivo y 7 parlamentarias (Gahona).",
@@ -68097,8 +68134,8 @@
     "Último informe: Segundo informe de comisión de Salud (20 de octubre)."
    ],
    "falta": [
-    "Falta la votación en particular en la Sala del Senado.",
-    "Después debe pasar por la Cámara de Diputados (comisión y Sala). Si esa cámara introduce cambios, vuelve al Senado en tercer trámite y, si hay discrepancias, a Comisión Mixta. Al final, promulgación y publicación."
+    "Falta la votación en la Sala de la Cámara.",
+    "Si la Cámara de Diputados lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve al Senado en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {
     "fecha": "2026-11-09",
@@ -68120,7 +68157,8 @@
       "parrafos": []
      }
     ]
-   }
+   },
+   "aviso": "Hubo avances después de la redacción del 9 de noviembre (último: despachado a la cámara revisora, 24 de noviembre)."
   }
  },
  {
