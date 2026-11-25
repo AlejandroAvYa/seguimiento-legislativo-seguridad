@@ -28,8 +28,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Educación",
   "fecha_inicio_etapa": "2018-07-04",
-  "dias_en_etapa": 3065,
-  "dias_desde_ingreso": 3065,
+  "dias_en_etapa": 3066,
+  "dias_desde_ingreso": 3066,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-04-08",
   "urgencia_vence_estimado": "2026-05-08",
@@ -144,11 +144,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 230 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 231 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 3065 días en Comisión de Educación."
+    "detalle": "Lleva 3066 días en Comisión de Educación."
    }
   ],
   "n_alertas": 3,
@@ -162,7 +162,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 3065,
+   "dias": 3066,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -170,7 +170,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Educación, desde el 4 de julio de 2018 (3065 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Educación, desde el 4 de julio de 2018 (3066 días).",
     "Tiene urgencia simple; el plazo estimado venció el 8 de mayo.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Educación (5 de julio de 2018)."
    ],
@@ -229,8 +229,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-06-09",
-  "dias_en_etapa": 168,
-  "dias_desde_ingreso": 1572,
+  "dias_en_etapa": 169,
+  "dias_desde_ingreso": 1573,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-08",
   "urgencia_vence_estimado": "2026-10-08",
@@ -2451,7 +2451,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 77 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 78 días."
    }
   ],
   "n_alertas": 2,
@@ -2466,7 +2466,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 168,
+   "dias": 169,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -2503,7 +2503,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 9 de junio (168 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 9 de junio (169 días).",
     "La Cámara de Diputados lo aprobó en general el 13 de mayo y en particular el 9 de junio.",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
     "Último trámite, sin contar urgencias: La Sala acuerda que este proyecto, una vez despachado por la Comisión de Seguridad Pública, sea conocido por la Comisión de Defensa Nacional (9 de junio).",
@@ -2567,8 +2567,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Gobierno, Descentralización y Regionalización",
   "fecha_inicio_etapa": "2024-01-17",
-  "dias_en_etapa": 1042,
-  "dias_desde_ingreso": 1572,
+  "dias_en_etapa": 1043,
+  "dias_desde_ingreso": 1573,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -4085,7 +4085,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1042 días en Comisión de Gobierno, Descentralización y Regionalización."
+    "detalle": "Lleva 1043 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
   "n_alertas": 2,
@@ -4101,7 +4101,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 1042,
+   "dias": 1043,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -4138,7 +4138,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Gobierno, Descentralización y Regionalización, desde el 17 de enero de 2024 (1042 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Gobierno, Descentralización y Regionalización, desde el 17 de enero de 2024 (1043 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 17 de enero de 2024.",
     "El Senado lo aprobó en general el 5 de mayo.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
@@ -4215,8 +4215,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-10-06",
-  "dias_en_etapa": 49,
-  "dias_desde_ingreso": 1559,
+  "dias_en_etapa": 50,
+  "dias_desde_ingreso": 1560,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-05",
   "urgencia_vence_estimado": "2026-10-11",
@@ -6455,7 +6455,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 49 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 50 días."
    }
   ],
   "n_alertas": 2,
@@ -6470,7 +6470,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 49,
+   "dias": 50,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -6507,7 +6507,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (49 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (50 días).",
     "La Cámara de Diputados lo aprobó en general el 1 de septiembre y en particular el 5 de octubre.",
     "Tiene urgencia discusión inmediata; el plazo estimado venció el 11 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (6 de octubre)."
@@ -6572,8 +6572,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2022-08-23",
-  "dias_en_etapa": 1554,
-  "dias_desde_ingreso": 1554,
+  "dias_en_etapa": 1555,
+  "dias_desde_ingreso": 1555,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-06-02",
   "urgencia_vence_estimado": "2026-07-02",
@@ -6737,11 +6737,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 175 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 176 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1554 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1555 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -6755,7 +6755,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1554,
+   "dias": 1555,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -6763,7 +6763,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 23 de agosto de 2022 (1554 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 23 de agosto de 2022 (1555 días).",
     "Tiene urgencia simple; el plazo estimado venció el 2 de julio.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio de la Comisión de Seguridad Ciudadana (N° 512/25/2025), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. ACORDADO (3 de septiembre de 2025)."
    ],
@@ -6821,8 +6821,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-03-24",
-  "dias_en_etapa": 245,
-  "dias_desde_ingreso": 1533,
+  "dias_en_etapa": 246,
+  "dias_desde_ingreso": 1534,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -13838,8 +13838,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2025-09-30",
-  "dias_en_etapa": 420,
-  "dias_desde_ingreso": 1441,
+  "dias_en_etapa": 421,
+  "dias_desde_ingreso": 1442,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-12-10",
@@ -22956,7 +22956,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 420 días en Sala."
+    "detalle": "Lleva 421 días en Sala."
    }
   ],
   "n_alertas": 1,
@@ -22972,7 +22972,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 420,
+   "dias": 421,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -22980,7 +22980,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 30 de septiembre de 2025 (420 días).",
+    "Está en segundo trámite, en la Sala del Senado, desde el 30 de septiembre de 2025 (421 días).",
     "La Cámara de Diputados lo aprobó en general el 9 de julio de 2025 y en particular el 17 de septiembre de 2025.",
     "El Senado lo aprobó en general el 7 de julio.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
@@ -23047,8 +23047,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-01-07",
-  "dias_en_etapa": 321,
-  "dias_desde_ingreso": 1428,
+  "dias_en_etapa": 322,
+  "dias_desde_ingreso": 1429,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -26983,7 +26983,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 321 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 322 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 1,
@@ -26997,7 +26997,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 321,
+   "dias": 322,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -27034,7 +27034,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 7 de enero (321 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 7 de enero (322 días).",
     "La Cámara de Diputados lo aprobó en general el 7 de abril de 2025 y en particular el 7 de enero.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (7 de enero)."
    ],
@@ -27095,8 +27095,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2023-01-03",
-  "dias_en_etapa": 1421,
-  "dias_desde_ingreso": 1421,
+  "dias_en_etapa": 1422,
+  "dias_desde_ingreso": 1422,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -27207,7 +27207,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1421 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1422 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 1,
@@ -27220,7 +27220,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1421,
+   "dias": 1422,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -27257,7 +27257,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 3 de enero de 2023 (1421 días).",
+    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 3 de enero de 2023 (1422 días).",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (4 de enero de 2023)."
    ],
    "indicado": [],
@@ -27314,8 +27314,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión Mixta",
   "fecha_inicio_etapa": "2026-10-19",
-  "dias_en_etapa": 36,
-  "dias_desde_ingreso": 1324,
+  "dias_en_etapa": 37,
+  "dias_desde_ingreso": 1325,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-05",
   "urgencia_vence_estimado": "2026-10-11",
@@ -66361,8 +66361,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2023-04-11",
-  "dias_en_etapa": 1323,
-  "dias_desde_ingreso": 1323,
+  "dias_en_etapa": 1324,
+  "dias_desde_ingreso": 1324,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-18",
   "urgencia_vence_estimado": "2026-12-18",
@@ -66501,7 +66501,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1323 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 1324 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 1,
@@ -66516,7 +66516,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1323,
+   "dias": 1324,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -66553,7 +66553,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de abril de 2023 (1323 días).",
+    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de abril de 2023 (1324 días).",
     "Tiene urgencia simple; el plazo estimado vence el 18 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (12 de abril de 2023).",
     "Desde su último avance se han presentado o renovado 3 urgencias."
@@ -66611,8 +66611,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2023-04-18",
-  "dias_en_etapa": 1316,
-  "dias_desde_ingreso": 1316,
+  "dias_en_etapa": 1317,
+  "dias_desde_ingreso": 1317,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -68105,7 +68105,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1316 días en Sala."
+    "detalle": "Lleva 1317 días en Sala."
    }
   ],
   "n_alertas": 1,
@@ -68123,7 +68123,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 18 de abril de 2023 (1316 días).",
+    "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 18 de abril de 2023 (1317 días).",
     "El Senado lo aprobó en general el 21 de julio y en particular el 24 de noviembre.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Discusión particular. Aprobado (24 de noviembre)."
@@ -68200,8 +68200,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2024-05-07",
-  "dias_en_etapa": 931,
-  "dias_desde_ingreso": 1295,
+  "dias_en_etapa": 932,
+  "dias_desde_ingreso": 1296,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-24",
@@ -69695,24 +69695,23 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 931 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 932 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 24-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 24-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 931,
+   "dias": 932,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -69749,10 +69748,10 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 7 de mayo de 2024 (931 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 7 de mayo de 2024 (932 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 6 de mayo de 2024.",
     "Tiene urgencia simple; el plazo estimado vence el 24 de diciembre.",
-    "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el martes 24 de noviembre a las 12:30.",
+    "Último trámite, sin contar urgencias: La Sala acuerda autorizar a la Comisión de Constitución, Legislación, Justicia y Reglamento para discutir en general y en particular el proyecto de ley, con ocasión del trámite reg (24 de julio de 2024).",
     "Desde su último avance se han presentado o renovado 37 urgencias."
    ],
    "indicado": [
@@ -69821,8 +69820,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión Mixta",
   "fecha_inicio_etapa": "2026-06-10",
-  "dias_en_etapa": 167,
-  "dias_desde_ingreso": 1273,
+  "dias_en_etapa": 168,
+  "dias_desde_ingreso": 1274,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -81364,25 +81363,24 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 51,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión Mixta para Boletín Nº 15975-25 del 24-11",
+  "prioridad_indice": 43,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
   "prioridad_motivos": [
    "En trámite final (+18)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 24-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {},
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en Comisión Mixta (comisión Mixta), desde el 10 de junio (167 días).",
+    "Está en Comisión Mixta (comisión Mixta), desde el 10 de junio (168 días).",
     "El Senado lo aprobó en general el 20 de diciembre de 2023 y en particular el 25 de marzo de 2025.",
     "La Cámara de Diputados lo aprobó en general y en particular el 5 de marzo, con modificaciones.",
     "El Senado rechazó las modificaciones el 9 de junio, por lo que se formó una Comisión Mixta.",
-    "Próxima sesión citada: Comisión Mixta para Boletín Nº 15975-25, el martes 24 de noviembre a las 15:00."
+    "Último trámite, sin contar urgencias: Cuenta del oficio N° 21.661, por el que informa reemplazo de integrante de la Comisión Mixta (21 de octubre)."
    ],
    "indicado": [
     "En el Senado se presentaron 190 indicaciones: 106 del Ejecutivo y 84 parlamentarias (Coloma, Ossandón, Vodanovic, Durana).",
@@ -81455,8 +81453,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Defensa Nacional",
   "fecha_inicio_etapa": "2023-08-02",
-  "dias_en_etapa": 1210,
-  "dias_desde_ingreso": 1210,
+  "dias_en_etapa": 1211,
+  "dias_desde_ingreso": 1211,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -83666,23 +83664,22 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1210 días en Comisión de Defensa Nacional."
+    "detalle": "Lleva 1211 días en Comisión de Defensa Nacional."
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 58,
+  "prioridad_indice": 50,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Preparar la sesión de Comisión de Defensa Nacional del 24-11",
+  "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia suma (+25)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
-   "Citado a sesión el 24-11 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 1210,
+   "dias": 1211,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -83719,10 +83716,10 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Defensa Nacional, desde el 2 de agosto de 2023 (1210 días).",
+    "Está en primer trámite en el Senado, en la comisión de Defensa Nacional, desde el 2 de agosto de 2023 (1211 días).",
     "El Senado lo aprobó en general el 19 de junio de 2024.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
-    "Próxima sesión citada: Comisión de Defensa Nacional, el martes 24 de noviembre a las 12:30.",
+    "Último trámite, sin contar urgencias: Segundo informe de comisión de Defensa Nacional. COMPARADO INDICACIONES para trabajo de la Comisón (22 de septiembre).",
     "Desde su último avance se han presentado o renovado 65 urgencias."
    ],
    "indicado": [
@@ -83785,8 +83782,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-08-11",
-  "dias_en_etapa": 105,
-  "dias_desde_ingreso": 1156,
+  "dias_en_etapa": 106,
+  "dias_desde_ingreso": 1157,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -86938,7 +86935,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    }
   ],
   "n_alertas": 1,
@@ -86955,7 +86952,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 105,
+   "dias": 106,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -86992,7 +86989,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de agosto (105 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 11 de agosto (106 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 11 de agosto.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
     "Último trámite, sin contar urgencias: Por acuerdo de Comités, ratificado por la Sala, se dispone que este proyecto de ley sea conocido por la Comisiones de Constitución, Legislación, Justicia y Reglamento y de Segurida (8 de septiembre).",
@@ -87054,8 +87051,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-03-24",
-  "dias_en_etapa": 245,
-  "dias_desde_ingreso": 1099,
+  "dias_en_etapa": 246,
+  "dias_desde_ingreso": 1100,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -87479,8 +87476,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-09-28",
-  "dias_en_etapa": 57,
-  "dias_desde_ingreso": 1071,
+  "dias_en_etapa": 58,
+  "dias_desde_ingreso": 1072,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-09-09",
   "urgencia_vence_estimado": "2026-09-15",
@@ -91935,8 +91932,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-08-05",
-  "dias_en_etapa": 111,
-  "dias_desde_ingreso": 1044,
+  "dias_en_etapa": 112,
+  "dias_desde_ingreso": 1045,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-08-04",
   "urgencia_vence_estimado": "2026-08-19",
@@ -95910,8 +95907,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión Mixta",
   "fecha_inicio_etapa": "2026-03-25",
-  "dias_en_etapa": 244,
-  "dias_desde_ingreso": 966,
+  "dias_en_etapa": 245,
+  "dias_desde_ingreso": 967,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -101878,7 +101875,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 244 días en Comisión Mixta."
+    "detalle": "Lleva 245 días en Comisión Mixta."
    }
   ],
   "n_alertas": 1,
@@ -101894,7 +101891,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en Comisión Mixta (comisión Mixta), desde el 25 de marzo (244 días).",
+    "Está en Comisión Mixta (comisión Mixta), desde el 25 de marzo (245 días).",
     "El Senado lo aprobó en general el 3 de julio de 2024 y en particular el 27 de agosto de 2024.",
     "La Cámara de Diputados lo aprobó en general el 14 de julio de 2025 y en particular el 6 de enero.",
     "El Senado rechazó las modificaciones el 24 de marzo, por lo que se formó una Comisión Mixta.",
@@ -101959,8 +101956,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-09-09",
-  "dias_en_etapa": 76,
-  "dias_desde_ingreso": 958,
+  "dias_en_etapa": 77,
+  "dias_desde_ingreso": 959,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-02",
   "urgencia_vence_estimado": "2026-10-02",
@@ -103256,8 +103253,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2024-04-15",
-  "dias_en_etapa": 953,
-  "dias_desde_ingreso": 953,
+  "dias_en_etapa": 954,
+  "dias_desde_ingreso": 954,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-03-23",
   "urgencia_vence_estimado": "2026-04-07",
@@ -103372,11 +103369,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 246 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 247 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 953 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 954 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -103390,7 +103387,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 953,
+   "dias": 954,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -103398,7 +103395,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 15 de abril de 2024 (953 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 15 de abril de 2024 (954 días).",
     "Tiene urgencia suma; el plazo estimado venció el 7 de abril.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (23 de abril de 2024)."
    ],
@@ -103455,8 +103452,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2024-04-19",
-  "dias_en_etapa": 949,
-  "dias_desde_ingreso": 949,
+  "dias_en_etapa": 950,
+  "dias_desde_ingreso": 950,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-04-08",
   "urgencia_vence_estimado": "2026-05-08",
@@ -103578,11 +103575,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 230 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 231 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 949 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 950 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -103596,7 +103593,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 949,
+   "dias": 950,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -103604,7 +103601,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 19 de abril de 2024 (949 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 19 de abril de 2024 (950 días).",
     "Tiene urgencia simple; el plazo estimado venció el 8 de mayo.",
     "Último trámite, sin contar urgencias: A petición de la diputada señora Ossandón, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana (3 de mayo de 2024)."
    ],
@@ -103663,8 +103660,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-06-03",
-  "dias_en_etapa": 174,
-  "dias_desde_ingreso": 943,
+  "dias_en_etapa": 175,
+  "dias_desde_ingreso": 944,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-08",
   "urgencia_vence_estimado": "2026-10-08",
@@ -105825,7 +105822,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 77 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 78 días."
    },
    {
     "tipo": "Votación rechazada",
@@ -105844,7 +105841,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 174,
+   "dias": 175,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -105881,7 +105878,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 3 de junio (174 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 3 de junio (175 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 3 de junio.",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (3 de junio).",
@@ -105943,8 +105940,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Ingreso de observaciones",
   "fecha_inicio_etapa": "2026-11-10",
-  "dias_en_etapa": 14,
-  "dias_desde_ingreso": 925,
+  "dias_en_etapa": 15,
+  "dias_desde_ingreso": 926,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-19",
   "urgencia_vence_estimado": "2026-10-25",
@@ -117604,8 +117601,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-06-16",
-  "dias_en_etapa": 161,
-  "dias_desde_ingreso": 923,
+  "dias_en_etapa": 162,
+  "dias_desde_ingreso": 924,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-08",
   "urgencia_vence_estimado": "2026-10-08",
@@ -126220,7 +126217,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 77 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 78 días."
    }
   ],
   "n_alertas": 2,
@@ -126235,7 +126232,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 161,
+   "dias": 162,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -126272,7 +126269,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 16 de junio (161 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 16 de junio (162 días).",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (16 de junio).",
     "Desde su último avance se han presentado o renovado 4 urgencias."
@@ -126336,8 +126333,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Obras Públicas, Transportes y Telecomunicaciones",
   "fecha_inicio_etapa": "2024-05-14",
-  "dias_en_etapa": 924,
-  "dias_desde_ingreso": 924,
+  "dias_en_etapa": 925,
+  "dias_desde_ingreso": 925,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-09",
   "urgencia_vence_estimado": "2026-12-09",
@@ -127454,7 +127451,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 924 días en Comisión de Obras Públicas, Transportes y Telecomunicaciones."
+    "detalle": "Lleva 925 días en Comisión de Obras Públicas, Transportes y Telecomunicaciones."
    }
   ],
   "n_alertas": 1,
@@ -127468,7 +127465,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 924,
+   "dias": 925,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -127476,7 +127473,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Obras Públicas, Transportes y Telecomunicaciones, desde el 14 de mayo de 2024 (924 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Obras Públicas, Transportes y Telecomunicaciones, desde el 14 de mayo de 2024 (925 días).",
     "La Cámara de Diputados lo aprobó en general el 5 de octubre.",
     "Tiene urgencia simple; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Discusión general. Aprobado en general (5 de octubre)."
@@ -127539,8 +127536,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2024-05-24",
-  "dias_en_etapa": 914,
-  "dias_desde_ingreso": 914,
+  "dias_en_etapa": 915,
+  "dias_desde_ingreso": 915,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-03-23",
   "urgencia_vence_estimado": "2026-04-22",
@@ -127655,11 +127652,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 246 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 247 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 914 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 915 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -127673,7 +127670,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 914,
+   "dias": 915,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -127681,7 +127678,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 24 de mayo de 2024 (914 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 24 de mayo de 2024 (915 días).",
     "Tiene urgencia simple; el plazo estimado venció el 22 de abril.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (30 de mayo de 2024)."
    ],
@@ -127738,8 +127735,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-03-18",
-  "dias_en_etapa": 251,
-  "dias_desde_ingreso": 888,
+  "dias_en_etapa": 252,
+  "dias_desde_ingreso": 889,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-07-21",
   "urgencia_vence_estimado": "2026-08-20",
@@ -128954,11 +128951,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 126 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 127 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 251 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 252 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -128973,7 +128970,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 251,
+   "dias": 252,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -129010,7 +129007,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 18 de marzo (251 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 18 de marzo (252 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 18 de marzo.",
     "Tiene urgencia simple; el plazo estimado venció el 20 de agosto.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (18 de marzo).",
@@ -129072,8 +129069,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-10-06",
-  "dias_en_etapa": 49,
-  "dias_desde_ingreso": 888,
+  "dias_en_etapa": 50,
+  "dias_desde_ingreso": 889,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-09-21",
   "urgencia_vence_estimado": "2026-10-06",
@@ -132107,7 +132104,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 49 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 50 días."
    },
    {
     "tipo": "Votación rechazada",
@@ -132126,7 +132123,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 49,
+   "dias": 50,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -132163,7 +132160,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (49 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (50 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 6 de octubre.",
     "Tiene urgencia suma; el plazo estimado venció el 6 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (6 de octubre)."
@@ -132228,8 +132225,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2025-03-18",
-  "dias_en_etapa": 616,
-  "dias_desde_ingreso": 868,
+  "dias_en_etapa": 617,
+  "dias_desde_ingreso": 869,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -133879,7 +133876,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 616 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 617 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
@@ -133892,7 +133889,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 616,
+   "dias": 617,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -133929,7 +133926,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 18 de marzo de 2025 (616 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 18 de marzo de 2025 (617 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 18 de marzo de 2025.",
     "Último trámite, sin contar urgencias: Primer informe de comisión de Seguridad Pública. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (30 de junio de 2025).",
     "Desde su último avance se han presentado o renovado 23 urgencias."
@@ -133992,8 +133989,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-08-05",
-  "dias_en_etapa": 111,
-  "dias_desde_ingreso": 865,
+  "dias_en_etapa": 112,
+  "dias_desde_ingreso": 866,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-08-04",
   "urgencia_vence_estimado": "2026-08-19",
@@ -135097,8 +135094,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2024-10-08",
-  "dias_en_etapa": 777,
-  "dias_desde_ingreso": 858,
+  "dias_en_etapa": 778,
+  "dias_desde_ingreso": 859,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -136050,7 +136047,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 777 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 778 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 1,
@@ -136064,7 +136061,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 777,
+   "dias": 778,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -136101,7 +136098,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 8 de octubre de 2024 (777 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 8 de octubre de 2024 (778 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 7 de octubre de 2024.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (8 de octubre de 2024).",
     "Desde su último avance se han presentado o renovado 3 urgencias."
@@ -136162,8 +136159,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Defensa Nacional",
   "fecha_inicio_etapa": "2026-01-07",
-  "dias_en_etapa": 321,
-  "dias_desde_ingreso": 839,
+  "dias_en_etapa": 322,
+  "dias_desde_ingreso": 840,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-12-10",
@@ -138339,23 +138336,22 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 321 días en Comisión de Defensa Nacional."
+    "detalle": "Lleva 322 días en Comisión de Defensa Nacional."
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 43,
+  "prioridad_indice": 38,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)",
-   "Movimiento en los últimos 14 días (+5)"
+   "Con urgencias del actual Gobierno (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 321,
+   "dias": 322,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -138392,7 +138388,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Defensa Nacional, desde el 7 de enero (321 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Defensa Nacional, desde el 7 de enero (322 días).",
     "La Cámara de Diputados lo aprobó en general el 1 de diciembre de 2025 y en particular el 7 de enero.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Defensa Nacional (7 de enero).",
@@ -138455,8 +138451,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2025-04-15",
-  "dias_en_etapa": 588,
-  "dias_desde_ingreso": 812,
+  "dias_en_etapa": 589,
+  "dias_desde_ingreso": 813,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -140597,7 +140593,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 588 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 589 días en Comisión de Seguridad Pública."
    }
   ],
   "n_alertas": 1,
@@ -140613,7 +140609,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 588,
+   "dias": 589,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -140650,7 +140646,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 15 de abril de 2025 (588 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 15 de abril de 2025 (589 días).",
     "La Cámara de Diputados lo aprobó en particular el 14 de abril de 2025.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (15 de abril de 2025).",
@@ -140715,8 +140711,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2025-04-15",
-  "dias_en_etapa": 588,
-  "dias_desde_ingreso": 804,
+  "dias_en_etapa": 589,
+  "dias_desde_ingreso": 805,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -141808,7 +141804,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 588 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 589 días en Comisión de Seguridad Pública."
    }
   ],
   "n_alertas": 1,
@@ -141824,7 +141820,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 588,
+   "dias": 589,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -141861,7 +141857,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 15 de abril de 2025 (588 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 15 de abril de 2025 (589 días).",
     "La Cámara de Diputados lo aprobó en particular el 14 de abril de 2025.",
     "Tiene urgencia suma.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (15 de abril de 2025)."
@@ -141925,8 +141921,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-04-14",
-  "dias_en_etapa": 224,
-  "dias_desde_ingreso": 776,
+  "dias_en_etapa": 225,
+  "dias_desde_ingreso": 777,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -145140,7 +145136,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 224 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 225 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
@@ -145156,7 +145152,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 224,
+   "dias": 225,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -145193,7 +145189,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 14 de abril (224 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 14 de abril (225 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de abril.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (14 de abril).",
@@ -145255,8 +145251,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-04-22",
-  "dias_en_etapa": 216,
-  "dias_desde_ingreso": 740,
+  "dias_en_etapa": 217,
+  "dias_desde_ingreso": 741,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -146471,7 +146467,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 216 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 217 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 1,
@@ -146485,7 +146481,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 216,
+   "dias": 217,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -146522,7 +146518,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 22 de abril (216 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 22 de abril (217 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 22 de abril.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (22 de abril).",
     "Desde su último avance se han presentado o renovado 7 urgencias."
@@ -146584,8 +146580,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-04-08",
-  "dias_en_etapa": 230,
-  "dias_desde_ingreso": 736,
+  "dias_en_etapa": 231,
+  "dias_desde_ingreso": 737,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -149556,8 +149552,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Hacienda",
   "fecha_inicio_etapa": "2025-12-09",
-  "dias_en_etapa": 350,
-  "dias_desde_ingreso": 663,
+  "dias_en_etapa": 351,
+  "dias_desde_ingreso": 664,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-02",
   "urgencia_vence_estimado": "2026-12-02",
@@ -150454,23 +150450,28 @@
   "n_urgencias_en_etapa": 8,
   "alertas": [
    {
+    "tipo": "Urgencia por vencer",
+    "detalle": "Simple vence el 2026-12-02 (en 7 días)."
+   },
+   {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 350 días en Comisión de Hacienda."
+    "detalle": "Lleva 351 días en Comisión de Hacienda."
    }
   ],
-  "n_alertas": 1,
-  "prioridad_indice": 38,
-  "prioridad_nivel": "Media",
+  "n_alertas": 2,
+  "prioridad_indice": 53,
+  "prioridad_nivel": "Alta",
   "accion_sugerida": "Seguimiento mensual",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
+   "Urgencia vence en 7 días o menos (+15)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 350,
+   "dias": 351,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -150478,7 +150479,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite en la Cámara de Diputados, en la comisión de Hacienda, desde el 9 de diciembre de 2025 (350 días).",
+    "Está en segundo trámite en la Cámara de Diputados, en la comisión de Hacienda, desde el 9 de diciembre de 2025 (351 días).",
     "El Senado lo aprobó en general y en particular el 2 de diciembre de 2025.",
     "Tiene urgencia simple; el plazo estimado vence el 2 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (13 de abril).",
@@ -150544,8 +150545,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2025-03-10",
-  "dias_en_etapa": 624,
-  "dias_desde_ingreso": 624,
+  "dias_en_etapa": 625,
+  "dias_desde_ingreso": 625,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-06-02",
   "urgencia_vence_estimado": "2026-07-02",
@@ -150699,11 +150700,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 175 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 176 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 624 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 625 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
@@ -150717,7 +150718,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 624,
+   "dias": 625,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -150725,7 +150726,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de marzo de 2025 (624 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de marzo de 2025 (625 días).",
     "Tiene urgencia simple; el plazo estimado venció el 2 de julio.",
     "Último trámite, sin contar urgencias: A petición del diputado Mauro González, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana (17 de marzo de 2025)."
    ],
@@ -150784,8 +150785,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-04-08",
-  "dias_en_etapa": 230,
-  "dias_desde_ingreso": 602,
+  "dias_en_etapa": 231,
+  "dias_desde_ingreso": 603,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -151883,8 +151884,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Gobierno, Descentralización y Regionalización",
   "fecha_inicio_etapa": "2026-03-25",
-  "dias_en_etapa": 244,
-  "dias_desde_ingreso": 596,
+  "dias_en_etapa": 245,
+  "dias_desde_ingreso": 597,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-08-18",
   "urgencia_vence_estimado": "2026-09-02",
@@ -154070,7 +154071,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 98 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 99 días."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -154078,7 +154079,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 244 días en Comisión de Gobierno, Descentralización y Regionalización."
+    "detalle": "Lleva 245 días en Comisión de Gobierno, Descentralización y Regionalización."
    }
   ],
   "n_alertas": 4,
@@ -154093,7 +154094,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 244,
+   "dias": 245,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -154130,7 +154131,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Gobierno, Descentralización y Regionalización, desde el 25 de marzo (244 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Gobierno, Descentralización y Regionalización, desde el 25 de marzo (245 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 24 de marzo.",
     "Tiene urgencia suma; el plazo estimado venció el 2 de septiembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Gobierno, Descentralización y Regionalización (25 de marzo).",
@@ -154193,8 +154194,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-04-14",
-  "dias_en_etapa": 224,
-  "dias_desde_ingreso": 593,
+  "dias_en_etapa": 225,
+  "dias_desde_ingreso": 594,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -154618,7 +154619,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 224 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 225 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
@@ -154634,7 +154635,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 224,
+   "dias": 225,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -154671,7 +154672,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 14 de abril (224 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 14 de abril (225 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de abril.",
     "Tiene urgencia suma.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (14 de abril).",
@@ -154732,8 +154733,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Ingreso fallo del Tribunal Constitucional",
   "fecha_inicio_etapa": "2026-10-27",
-  "dias_en_etapa": 28,
-  "dias_desde_ingreso": 561,
+  "dias_en_etapa": 29,
+  "dias_desde_ingreso": 562,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-19",
   "urgencia_vence_estimado": "2026-10-25",
@@ -174648,8 +174649,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2025-11-25",
-  "dias_en_etapa": 364,
-  "dias_desde_ingreso": 525,
+  "dias_en_etapa": 365,
+  "dias_desde_ingreso": 526,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -177980,7 +177981,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 364 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 365 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
@@ -177997,7 +177998,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 364,
+   "dias": 365,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -178034,7 +178035,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (364 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de noviembre de 2025 (365 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 25 de noviembre de 2025.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Próxima sesión citada: Comisión de Constitución, Legislación, Justicia y Reglamento, el miércoles 25 de noviembre a las 11:00.",
@@ -178098,8 +178099,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Seguridad Ciudadana",
   "fecha_inicio_etapa": "2025-06-24",
-  "dias_en_etapa": 518,
-  "dias_desde_ingreso": 518,
+  "dias_en_etapa": 519,
+  "dias_desde_ingreso": 519,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-04-20",
   "urgencia_vence_estimado": "2026-05-20",
@@ -178228,11 +178229,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 218 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 219 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 518 días en Comisión de Seguridad Ciudadana."
+    "detalle": "Lleva 519 días en Comisión de Seguridad Ciudadana."
    }
   ],
   "n_alertas": 3,
@@ -178246,7 +178247,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 518,
+   "dias": 519,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -178254,7 +178255,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Seguridad Ciudadana, desde el 24 de junio de 2025 (518 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Seguridad Ciudadana, desde el 24 de junio de 2025 (519 días).",
     "Tiene urgencia simple; el plazo estimado venció el 20 de mayo.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Ciudadana (7 de julio de 2025)."
    ],
@@ -178311,8 +178312,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-09-01",
-  "dias_en_etapa": 84,
-  "dias_desde_ingreso": 512,
+  "dias_en_etapa": 85,
+  "dias_desde_ingreso": 513,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -181437,7 +181438,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    },
    {
     "tipo": "Votación rechazada",
@@ -181458,7 +181459,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 99,
+   "dias": 100,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -181495,7 +181496,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 1 de septiembre (84 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 1 de septiembre (85 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 1 de septiembre.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda autorizar a la Comisión de Seguridad Pública para discutir el proyecto en general y en particular, con ocasión del primer informe (22 de septiembre).",
@@ -181559,8 +181560,8 @@
   "camara_actual": "",
   "instancia_actual": "Desarchivo de proyecto",
   "fecha_inicio_etapa": "2025-07-01",
-  "dias_en_etapa": 511,
-  "dias_desde_ingreso": 511,
+  "dias_en_etapa": 512,
+  "dias_desde_ingreso": 512,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-05-05",
   "urgencia_vence_estimado": "2026-06-04",
@@ -181769,8 +181770,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-03-10",
-  "dias_en_etapa": 259,
-  "dias_desde_ingreso": 510,
+  "dias_en_etapa": 260,
+  "dias_desde_ingreso": 511,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-29",
   "urgencia_vence_estimado": "2026-10-29",
@@ -184957,7 +184958,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 56 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 57 días."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -184965,7 +184966,7 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 259 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 260 días en Comisión de Seguridad Pública."
    }
   ],
   "n_alertas": 4,
@@ -184980,7 +184981,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 259,
+   "dias": 260,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -185017,7 +185018,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 10 de marzo (259 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 10 de marzo (260 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 5 de marzo.",
     "Tiene urgencia simple; el plazo estimado venció el 29 de octubre.",
     "Último trámite, sin contar urgencias: La Sala acuerda autorizar a la Comisión de Seguridad Pública para discutir este proyecto de ley en general y en particular, con ocasión del trámite reglamentario de primer informe (7 de julio).",
@@ -185082,8 +185083,8 @@
   "camara_actual": "",
   "instancia_actual": "Desarchivo de proyecto",
   "fecha_inicio_etapa": "2026-04-14",
-  "dias_en_etapa": 224,
-  "dias_desde_ingreso": 503,
+  "dias_en_etapa": 225,
+  "dias_desde_ingreso": 504,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -186269,8 +186270,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Transportes y Telecomunicaciones",
   "fecha_inicio_etapa": "2026-01-13",
-  "dias_en_etapa": 315,
-  "dias_desde_ingreso": 498,
+  "dias_en_etapa": 316,
+  "dias_desde_ingreso": 499,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -187958,7 +187959,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 315 días en Comisión de Transportes y Telecomunicaciones."
+    "detalle": "Lleva 316 días en Comisión de Transportes y Telecomunicaciones."
    }
   ],
   "n_alertas": 1,
@@ -187973,7 +187974,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 315,
+   "dias": 316,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más lento que lo habitual"
@@ -188010,7 +188011,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Transportes y Telecomunicaciones, desde el 13 de enero (315 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Transportes y Telecomunicaciones, desde el 13 de enero (316 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de enero.",
     "El Senado lo aprobó en general el 2 de septiembre.",
     "Último trámite, sin contar urgencias: Boletín de indicaciones (23 de noviembre)."
@@ -188077,8 +188078,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Hacienda",
   "fecha_inicio_etapa": "2025-07-22",
-  "dias_en_etapa": 490,
-  "dias_desde_ingreso": 490,
+  "dias_en_etapa": 491,
+  "dias_desde_ingreso": 491,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-06-02",
   "urgencia_vence_estimado": "2026-07-02",
@@ -188228,11 +188229,11 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 175 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 176 días."
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 490 días en Comisión de Hacienda."
+    "detalle": "Lleva 491 días en Comisión de Hacienda."
    }
   ],
   "n_alertas": 3,
@@ -188246,7 +188247,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 490,
+   "dias": 491,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -188254,7 +188255,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Hacienda, desde el 22 de julio de 2025 (490 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Hacienda, desde el 22 de julio de 2025 (491 días).",
     "Tiene urgencia simple; el plazo estimado venció el 2 de julio.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio de la Comisión de Agricultura, Silvicultura y Desarrollo Rural (N° 1296/2025), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyect (21 de agosto de 2025).",
     "Desde su último avance se han presentado o renovado 3 urgencias."
@@ -188312,8 +188313,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
   "fecha_inicio_etapa": "2026-09-09",
-  "dias_en_etapa": 76,
-  "dias_desde_ingreso": 475,
+  "dias_en_etapa": 77,
+  "dias_desde_ingreso": 476,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-29",
   "urgencia_vence_estimado": "2026-10-29",
@@ -193149,7 +193150,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 56 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 57 días."
    },
    {
     "tipo": "Votación rechazada",
@@ -193168,7 +193169,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 76,
+   "dias": 77,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -193205,7 +193206,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Cultura, Patrimonio, Artes, Deportes y Recreación, desde el 9 de septiembre (76 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Cultura, Patrimonio, Artes, Deportes y Recreación, desde el 9 de septiembre (77 días).",
     "La Cámara de Diputados lo aprobó en general el 15 de abril y en particular el 9 de septiembre.",
     "Tiene urgencia simple; el plazo estimado venció el 29 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación (9 de septiembre)."
@@ -193267,8 +193268,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2025-10-05",
-  "dias_en_etapa": 415,
-  "dias_desde_ingreso": 415,
+  "dias_en_etapa": 416,
+  "dias_desde_ingreso": 416,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -193470,7 +193471,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 415 días en Comisión de Seguridad Pública."
+    "detalle": "Lleva 416 días en Comisión de Seguridad Pública."
    }
   ],
   "n_alertas": 1,
@@ -193482,7 +193483,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 415,
+   "dias": 416,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más lento que lo habitual"
@@ -193519,7 +193520,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Seguridad Pública, desde el 5 de octubre de 2025 (415 días).",
+    "Está en primer trámite en el Senado, en la comisión de Seguridad Pública, desde el 5 de octubre de 2025 (416 días).",
     "Último trámite, sin contar urgencias: La Sala acuerda autorizar a la Comisión de Seguridad Pública para discutir en general y particular esta iniciativa, con ocasión del trámite reglamentario de primer informe (27 de octubre de 2025).",
     "Desde su último avance se han presentado o renovado 7 urgencias."
    ],
@@ -193580,8 +193581,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-08-18",
-  "dias_en_etapa": 98,
-  "dias_desde_ingreso": 410,
+  "dias_en_etapa": 99,
+  "dias_desde_ingreso": 411,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -196550,10 +196551,10 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 98,
+   "dias": 99,
    "mediana": 197,
    "n_base": 19,
-   "lectura": "más rápido que lo habitual"
+   "lectura": "dentro de lo habitual"
   },
   "comision_actual": {
    "nombre": "Comisión de Seguridad Pública",
@@ -196587,7 +196588,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 18 de agosto (98 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 18 de agosto (99 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 17 de agosto.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Seguridad Pública (18 de agosto)."
    ],
@@ -196647,8 +196648,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
   "fecha_inicio_etapa": "2025-12-24",
-  "dias_en_etapa": 335,
-  "dias_desde_ingreso": 335,
+  "dias_en_etapa": 336,
+  "dias_desde_ingreso": 336,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -197526,7 +197527,7 @@
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 335 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
+    "detalle": "Lleva 336 días en Comisión de Derechos Humanos, Nacionalidad y Ciudadanía."
    }
   ],
   "n_alertas": 1,
@@ -197541,7 +197542,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 335,
+   "dias": 336,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -197578,7 +197579,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Derechos Humanos, Nacionalidad y Ciudadanía, desde el 24 de diciembre de 2025 (335 días).",
+    "Está en primer trámite en el Senado, en la comisión de Derechos Humanos, Nacionalidad y Ciudadanía, desde el 24 de diciembre de 2025 (336 días).",
     "El Senado lo aprobó en general el 8 de julio.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda abrir un nuevo plazo para presentar indicaciones a este proyecto de ley hasta las 20.00 horas del día de hoy, en la Secretaría de la Comisión de Derechos Humanos, N (1 de septiembre).",
@@ -197645,8 +197646,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-03-18",
-  "dias_en_etapa": 251,
-  "dias_desde_ingreso": 323,
+  "dias_en_etapa": 252,
+  "dias_desde_ingreso": 324,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -201717,8 +201718,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-05-13",
-  "dias_en_etapa": 195,
-  "dias_desde_ingreso": 231,
+  "dias_en_etapa": 196,
+  "dias_desde_ingreso": 232,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-12-10",
@@ -204065,23 +204066,22 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 195 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 196 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 48,
+  "prioridad_indice": 43,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Revisar la estrategia: la urgencia se renueva sin que el proyecto avance (gestionar tabla en la comisión o reevaluar la urgencia)",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Mensaje del actual Gobierno (+10)",
-   "Movimiento en los últimos 14 días (+5)"
+   "Mensaje del actual Gobierno (+10)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 195,
+   "dias": 196,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -204118,7 +204118,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (195 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (196 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de mayo.",
     "Tiene urgencia simple; el plazo estimado vence el 10 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (13 de mayo).",
@@ -204182,8 +204182,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-06-22",
-  "dias_en_etapa": 155,
-  "dias_desde_ingreso": 231,
+  "dias_en_etapa": 156,
+  "dias_desde_ingreso": 232,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -233250,8 +233250,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-05-13",
-  "dias_en_etapa": 195,
-  "dias_desde_ingreso": 231,
+  "dias_en_etapa": 196,
+  "dias_desde_ingreso": 232,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-29",
   "urgencia_vence_estimado": "2026-10-29",
@@ -233661,23 +233661,22 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 195 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 196 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 2,
-  "prioridad_indice": 43,
+  "prioridad_indice": 38,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
    "En segundo trámite (+6)",
    "Proyecto núcleo de seguridad (+15)",
-   "Con urgencias del actual Gobierno (+5)",
-   "Movimiento en los últimos 14 días (+5)"
+   "Con urgencias del actual Gobierno (+5)"
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 195,
+   "dias": 196,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -233714,7 +233713,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (195 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 13 de mayo (196 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 13 de mayo.",
     "Tiene urgencia simple; el plazo estimado venció el 29 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (13 de mayo).",
@@ -233777,8 +233776,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-09-30",
-  "dias_en_etapa": 55,
-  "dias_desde_ingreso": 218,
+  "dias_en_etapa": 56,
+  "dias_desde_ingreso": 219,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-16",
   "urgencia_vence_estimado": "2026-12-16",
@@ -234799,7 +234798,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 55,
+   "dias": 56,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -234807,7 +234806,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 30 de septiembre (55 días).",
+    "Está en segundo trámite, en la Sala de la Cámara de Diputados, desde el 30 de septiembre (56 días).",
     "El Senado lo aprobó en general y en particular el 29 de septiembre.",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, oficio de la Comisión de Constitución, Legislación, Justicia y Reglamento por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. (53/3/202 (18 de noviembre)."
@@ -234872,8 +234871,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-06-24",
-  "dias_en_etapa": 153,
-  "dias_desde_ingreso": 216,
+  "dias_en_etapa": 154,
+  "dias_desde_ingreso": 217,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -236193,7 +236192,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    },
    {
     "tipo": "Urgencia renovada sin avance",
@@ -236214,7 +236213,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 153,
+   "dias": 154,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -236251,7 +236250,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 24 de junio (153 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 24 de junio (154 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 24 de junio.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
     "Último trámite, sin contar urgencias: Por acuerdo de Comités, ratificado por la Sala, se dispone que este proyecto de ley sea conocido por la Comisiones de Constitución, Legislación, Justicia y Reglamento y de Segurida (8 de septiembre).",
@@ -236313,8 +236312,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-06-02",
-  "dias_en_etapa": 175,
-  "dias_desde_ingreso": 204,
+  "dias_en_etapa": 176,
+  "dias_desde_ingreso": 205,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -237794,8 +237793,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Familia, Infancia y Adolescencia.",
   "fecha_inicio_etapa": "2026-10-28",
-  "dias_en_etapa": 27,
-  "dias_desde_ingreso": 204,
+  "dias_en_etapa": 28,
+  "dias_desde_ingreso": 205,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-10-19",
   "urgencia_vence_estimado": "2026-11-03",
@@ -239062,7 +239061,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 27,
+   "dias": 28,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -239099,7 +239098,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Familia, Infancia y Adolescencia., desde el 28 de octubre (27 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Familia, Infancia y Adolescencia., desde el 28 de octubre (28 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 28 de octubre.",
     "Tiene urgencia suma; el plazo estimado venció el 3 de noviembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda que el proyecto pase a la Comisión de Mujer y Equidad de Género, una vez que sea despachado por la Comisión de Familia, Infancia y Adolescencia (28 de octubre)."
@@ -239164,8 +239163,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-05-06",
-  "dias_en_etapa": 202,
-  "dias_desde_ingreso": 202,
+  "dias_en_etapa": 203,
+  "dias_desde_ingreso": 203,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-11-16",
@@ -239558,22 +239557,21 @@
    },
    {
     "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 202 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
+    "detalle": "Lleva 203 días en Comisión de Constitución, Legislación, Justicia y Reglamento."
    }
   ],
   "n_alertas": 3,
-  "prioridad_indice": 55,
+  "prioridad_indice": 50,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "prioridad_motivos": [
    "Urgencia discusión inmediata (+40)",
    "Proyecto conexo (+5)",
-   "Con urgencias del actual Gobierno (+5)",
-   "Movimiento en los últimos 14 días (+5)"
+   "Con urgencias del actual Gobierno (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 202,
+   "dias": 203,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -239610,7 +239608,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de mayo (202 días).",
+    "Está en primer trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de mayo (203 días).",
     "Tiene urgencia discusión inmediata; el plazo estimado venció el 16 de noviembre.",
     "Último trámite, sin contar urgencias: Primer informe de comisión de la Mujer y Equidad de Género. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (7 de octubre).",
     "Desde su último avance se han presentado o renovado 14 urgencias."
@@ -239672,8 +239670,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-09-01",
-  "dias_en_etapa": 84,
-  "dias_desde_ingreso": 190,
+  "dias_en_etapa": 85,
+  "dias_desde_ingreso": 191,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -241130,8 +241128,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-08-04",
-  "dias_en_etapa": 112,
-  "dias_desde_ingreso": 190,
+  "dias_en_etapa": 113,
+  "dias_desde_ingreso": 191,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -244301,7 +244299,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 112,
+   "dias": 113,
    "mediana": 197,
    "n_base": 19,
    "lectura": "dentro de lo habitual"
@@ -244338,7 +244336,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 4 de agosto (112 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 4 de agosto (113 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de agosto.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (4 de agosto).",
@@ -244402,8 +244400,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-11-10",
-  "dias_en_etapa": 14,
-  "dias_desde_ingreso": 193,
+  "dias_en_etapa": 15,
+  "dias_desde_ingreso": 194,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-12-09",
@@ -245701,7 +245699,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 14,
+   "dias": 15,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -245738,7 +245736,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (14 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (15 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de noviembre.",
     "Tiene urgencia suma; el plazo estimado vence el 9 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
@@ -245804,8 +245802,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-10-07",
-  "dias_en_etapa": 48,
-  "dias_desde_ingreso": 169,
+  "dias_en_etapa": 49,
+  "dias_desde_ingreso": 170,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -247127,7 +247125,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    },
    {
     "tipo": "Votación rechazada",
@@ -247179,7 +247177,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en Comisión Mixta (comisión de Constitución, Legislación, Justicia y Reglamento), desde el 7 de octubre (48 días).",
+    "Está en Comisión Mixta (comisión de Constitución, Legislación, Justicia y Reglamento), desde el 7 de octubre (49 días).",
     "La Cámara de Diputados lo rechazó en general el 22 de septiembre.",
     "Hubo insistencia del Senado el 7 de octubre.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
@@ -247245,8 +247243,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-10-06",
-  "dias_en_etapa": 49,
-  "dias_desde_ingreso": 169,
+  "dias_en_etapa": 50,
+  "dias_desde_ingreso": 170,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-09-21",
   "urgencia_vence_estimado": "2026-10-06",
@@ -247577,7 +247575,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 49 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 50 días."
    }
   ],
   "n_alertas": 2,
@@ -247592,7 +247590,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 49,
+   "dias": 50,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -247629,7 +247627,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (49 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 6 de octubre (50 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 6 de octubre.",
     "Tiene urgencia suma; el plazo estimado venció el 6 de octubre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (6 de octubre)."
@@ -247692,8 +247690,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-06-05",
-  "dias_en_etapa": 172,
-  "dias_desde_ingreso": 172,
+  "dias_en_etapa": 173,
+  "dias_desde_ingreso": 173,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-10-28",
   "urgencia_vence_estimado": "2026-11-27",
@@ -247898,7 +247896,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-27 (en 3 días)."
+    "detalle": "Simple vence el 2026-11-27 (en 2 días)."
    }
   ],
   "n_alertas": 1,
@@ -247914,7 +247912,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 172,
+   "dias": 173,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -247922,7 +247920,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 5 de junio (172 días).",
+    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 5 de junio (173 días).",
     "Tiene urgencia simple; el plazo estimado vence el 27 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión. Queda para tabla (7 de septiembre)."
    ],
@@ -247983,8 +247981,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-06-12",
-  "dias_en_etapa": 165,
-  "dias_desde_ingreso": 165,
+  "dias_en_etapa": 166,
+  "dias_desde_ingreso": 166,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-16",
   "urgencia_vence_estimado": "2026-12-16",
@@ -248370,7 +248368,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 165,
+   "dias": 166,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -248378,7 +248376,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 12 de junio (165 días).",
+    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 12 de junio (166 días).",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (26 de octubre).",
     "Desde su último avance se han presentado o renovado 16 urgencias."
@@ -248440,8 +248438,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-06-09",
-  "dias_en_etapa": 168,
-  "dias_desde_ingreso": 168,
+  "dias_en_etapa": 169,
+  "dias_desde_ingreso": 169,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-10-28",
   "urgencia_vence_estimado": "2026-11-27",
@@ -248618,7 +248616,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Simple vence el 2026-11-27 (en 3 días)."
+    "detalle": "Simple vence el 2026-11-27 (en 2 días)."
    }
   ],
   "n_alertas": 1,
@@ -248634,7 +248632,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 168,
+   "dias": 169,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -248642,7 +248640,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 9 de junio (168 días).",
+    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 9 de junio (169 días).",
     "Tiene urgencia simple; el plazo estimado vence el 27 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (7 de septiembre)."
    ],
@@ -248703,8 +248701,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-06-19",
-  "dias_en_etapa": 158,
-  "dias_desde_ingreso": 158,
+  "dias_en_etapa": 159,
+  "dias_desde_ingreso": 159,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-23",
   "urgencia_vence_estimado": "2026-12-23",
@@ -249097,7 +249095,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 158,
+   "dias": 159,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -249105,7 +249103,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 19 de junio (158 días).",
+    "Está en primer trámite, en la Sala de la Cámara de Diputados, desde el 19 de junio (159 días).",
     "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (26 de octubre)."
    ],
@@ -249168,8 +249166,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Familia, Infancia y Adolescencia.",
   "fecha_inicio_etapa": "2026-10-28",
-  "dias_en_etapa": 27,
-  "dias_desde_ingreso": 155,
+  "dias_en_etapa": 28,
+  "dias_desde_ingreso": 156,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-10-19",
   "urgencia_vence_estimado": "2026-11-03",
@@ -249517,7 +249515,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 27,
+   "dias": 28,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -249554,7 +249552,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Familia, Infancia y Adolescencia., desde el 28 de octubre (27 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Familia, Infancia y Adolescencia., desde el 28 de octubre (28 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 28 de octubre.",
     "Tiene urgencia suma; el plazo estimado venció el 3 de noviembre.",
     "Último trámite, sin contar urgencias: La Sala acuerda que el proyecto pase a la Comisión de Mujer y Equidad de Género, una vez que sea despachado por la Comisión de Familia, Infancia y Adolescencia (28 de octubre)."
@@ -249628,8 +249626,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
   "fecha_inicio_etapa": "2026-06-24",
-  "dias_en_etapa": 153,
-  "dias_desde_ingreso": 153,
+  "dias_en_etapa": 154,
+  "dias_desde_ingreso": 154,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-08",
   "urgencia_vence_estimado": "2026-10-08",
@@ -250005,7 +250003,7 @@
    },
    {
     "tipo": "Urgencia sin movimiento",
-    "detalle": "Tiene urgencia, pero su último trámite fue hace 77 días."
+    "detalle": "Tiene urgencia, pero su último trámite fue hace 78 días."
    }
   ],
   "n_alertas": 2,
@@ -250020,7 +250018,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 153,
+   "dias": 154,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -250057,7 +250055,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en primer trámite en el Senado, en la comisión de Intereses Marítimos, Pesca y Acuicultura, desde el 24 de junio (153 días).",
+    "Está en primer trámite en el Senado, en la comisión de Intereses Marítimos, Pesca y Acuicultura, desde el 24 de junio (154 días).",
     "El Senado lo aprobó en general el 11 de agosto.",
     "Tiene urgencia simple; el plazo estimado venció el 8 de octubre.",
     "Próxima sesión citada: Comisión de Intereses Marítimos, Pesca y Acuicultura, el miércoles 25 de noviembre a las 11:00."
@@ -250122,8 +250120,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Sala",
   "fecha_inicio_etapa": "2026-08-19",
-  "dias_en_etapa": 97,
-  "dias_desde_ingreso": 141,
+  "dias_en_etapa": 98,
+  "dias_desde_ingreso": 142,
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -251250,7 +251248,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 97,
+   "dias": 98,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -251258,7 +251256,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite, en la Sala del Senado, desde el 19 de agosto (97 días).",
+    "Está en segundo trámite, en la Sala del Senado, desde el 19 de agosto (98 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 19 de agosto.",
     "Último trámite, sin contar urgencias: Cuenta de primer informe de comisión (29 de septiembre)."
    ],
@@ -251322,8 +251320,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-06-25",
-  "dias_en_etapa": 152,
-  "dias_desde_ingreso": 152,
+  "dias_en_etapa": 153,
+  "dias_desde_ingreso": 153,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-02",
   "urgencia_vence_estimado": "2026-12-02",
@@ -251473,19 +251471,25 @@
    "1": "2026-06-25"
   },
   "n_urgencias_en_etapa": 4,
-  "alertas": [],
-  "n_alertas": 0,
-  "prioridad_indice": 32,
+  "alertas": [
+   {
+    "tipo": "Urgencia por vencer",
+    "detalle": "Simple vence el 2026-12-02 (en 7 días)."
+   }
+  ],
+  "n_alertas": 1,
+  "prioridad_indice": 47,
   "prioridad_nivel": "Media",
   "accion_sugerida": "Seguimiento mensual",
   "prioridad_motivos": [
    "Urgencia simple (+12)",
+   "Urgencia vence en 7 días o menos (+15)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)"
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 152,
+   "dias": 153,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -251493,7 +251497,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de junio (152 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 25 de junio (153 días).",
     "Tiene urgencia simple; el plazo estimado vence el 2 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (8 de julio).",
     "Desde su último avance se han presentado o renovado 4 urgencias."
@@ -251551,8 +251555,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-06-28",
-  "dias_en_etapa": 149,
-  "dias_desde_ingreso": 149,
+  "dias_en_etapa": 150,
+  "dias_desde_ingreso": 150,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "2026-11-02",
   "urgencia_vence_estimado": "2026-11-17",
@@ -251779,7 +251783,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 149,
+   "dias": 150,
    "mediana": 251,
    "n_base": 59,
    "lectura": "dentro de lo habitual"
@@ -251787,7 +251791,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 28 de junio (149 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 28 de junio (150 días).",
     "Tiene urgencia suma; el plazo estimado venció el 17 de noviembre.",
     "Último trámite, sin contar urgencias: A petición del diputado Mauro González, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana (8 de julio).",
     "Desde su último avance se han presentado o renovado 7 urgencias."
@@ -251848,8 +251852,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-08-03",
-  "dias_en_etapa": 113,
-  "dias_desde_ingreso": 113,
+  "dias_en_etapa": 114,
+  "dias_desde_ingreso": 114,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-23",
   "urgencia_vence_estimado": "2026-12-23",
@@ -252117,7 +252121,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 113,
+   "dias": 114,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -252125,7 +252129,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 3 de agosto (113 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 3 de agosto (114 días).",
     "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
     "Desde su último avance se han presentado o renovado 8 urgencias."
@@ -252186,8 +252190,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Ingreso de observaciones",
   "fecha_inicio_etapa": "2026-11-10",
-  "dias_en_etapa": 14,
-  "dias_desde_ingreso": 112,
+  "dias_en_etapa": 15,
+  "dias_desde_ingreso": 113,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-10-28",
   "urgencia_vence_estimado": "2026-11-03",
@@ -258430,8 +258434,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización",
   "fecha_inicio_etapa": "2026-08-04",
-  "dias_en_etapa": 112,
-  "dias_desde_ingreso": 112,
+  "dias_en_etapa": 113,
+  "dias_desde_ingreso": 113,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-16",
   "urgencia_vence_estimado": "2026-12-16",
@@ -258594,7 +258598,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 112,
+   "dias": 113,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -258602,7 +258606,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización, desde el 4 de agosto (112 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización, desde el 4 de agosto (113 días).",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio de la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos,  (21 de septiembre).",
     "Desde su último avance se han presentado o renovado 4 urgencias."
@@ -258660,8 +258664,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-08-05",
-  "dias_en_etapa": 111,
-  "dias_desde_ingreso": 111,
+  "dias_en_etapa": 112,
+  "dias_desde_ingreso": 112,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-23",
   "urgencia_vence_estimado": "2026-12-23",
@@ -258898,7 +258902,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 111,
+   "dias": 112,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -258906,7 +258910,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (111 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (112 días).",
     "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
     "Desde su último avance se han presentado o renovado 7 urgencias."
@@ -258968,8 +258972,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-08-05",
-  "dias_en_etapa": 111,
-  "dias_desde_ingreso": 111,
+  "dias_en_etapa": 112,
+  "dias_desde_ingreso": 112,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-23",
   "urgencia_vence_estimado": "2026-12-23",
@@ -259206,7 +259210,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 111,
+   "dias": 112,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -259214,7 +259218,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (111 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 5 de agosto (112 días).",
     "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, Oficio del Presidente de la República por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, boletín 18521-07, con los proyectos de le (2 de septiembre).",
     "Desde su último avance se han presentado o renovado 7 urgencias."
@@ -259273,8 +259277,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-09-23",
-  "dias_en_etapa": 62,
-  "dias_desde_ingreso": 99,
+  "dias_en_etapa": 63,
+  "dias_desde_ingreso": 100,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -262379,7 +262383,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    },
    {
     "tipo": "Votación rechazada",
@@ -262400,7 +262404,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 62,
+   "dias": 63,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -262437,7 +262441,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 23 de septiembre (62 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 23 de septiembre (63 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 23 de septiembre.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (23 de septiembre).",
@@ -262508,8 +262512,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Boletín de indicaciones de Seguridad Pública",
   "fecha_inicio_etapa": "2026-09-22",
-  "dias_en_etapa": 63,
-  "dias_desde_ingreso": 99,
+  "dias_en_etapa": 64,
+  "dias_desde_ingreso": 100,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-24",
   "urgencia_vence_estimado": "2026-11-30",
@@ -264955,7 +264959,7 @@
   "alertas": [
    {
     "tipo": "Urgencia por vencer",
-    "detalle": "Discusión inmediata vence el 2026-11-30 (en 6 días)."
+    "detalle": "Discusión inmediata vence el 2026-11-30 (en 5 días)."
    }
   ],
   "n_alertas": 1,
@@ -264972,7 +264976,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 63,
+   "dias": 64,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -264980,7 +264984,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado (boletín de indicaciones de Seguridad Pública), desde el 22 de septiembre (63 días).",
+    "Está en segundo trámite en el Senado (boletín de indicaciones de Seguridad Pública), desde el 22 de septiembre (64 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de septiembre.",
     "El Senado lo aprobó en general el 10 de noviembre.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
@@ -265047,8 +265051,8 @@
   "camara_actual": "Senado",
   "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "fecha_inicio_etapa": "2026-11-10",
-  "dias_en_etapa": 14,
-  "dias_desde_ingreso": 106,
+  "dias_en_etapa": 15,
+  "dias_desde_ingreso": 107,
   "urgencia_vigente": "Suma",
   "urgencia_vigente_desde": "",
   "urgencia_vence_estimado": "",
@@ -265340,7 +265344,7 @@
   ],
   "ritmo": {
    "tramite": "Segundo trámite",
-   "dias": 14,
+   "dias": 15,
    "mediana": 197,
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
@@ -265377,7 +265381,7 @@
   },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (14 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Constitución, Legislación, Justicia y Reglamento, desde el 10 de noviembre (15 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 4 de noviembre.",
     "Tiene urgencia suma.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (10 de noviembre)."
@@ -265442,8 +265446,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-10-20",
-  "dias_en_etapa": 35,
-  "dias_desde_ingreso": 98,
+  "dias_en_etapa": 36,
+  "dias_desde_ingreso": 99,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-09-01",
   "urgencia_vence_estimado": "2026-10-01",
@@ -265627,8 +265631,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Mujeres y Equidad de Género",
   "fecha_inicio_etapa": "2026-08-31",
-  "dias_en_etapa": 85,
-  "dias_desde_ingreso": 85,
+  "dias_en_etapa": 86,
+  "dias_desde_ingreso": 86,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-16",
   "urgencia_vence_estimado": "2026-12-16",
@@ -265823,7 +265827,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 85,
+   "dias": 86,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -265831,7 +265835,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Mujeres y Equidad de Género, desde el 31 de agosto (85 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Mujeres y Equidad de Género, desde el 31 de agosto (86 días).",
     "Tiene urgencia simple; el plazo estimado vence el 16 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta, oficio de la Comisión de Mujeres y Equidad de Género mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en mensaje y moción, con (10 de noviembre).",
     "Desde su último avance se han presentado o renovado 4 urgencias."
@@ -265893,8 +265897,8 @@
   "camara_actual": "Cámara de Diputados",
   "instancia_actual": "Comisión de Agricultura, Silvicultura y Desarrollo Rural",
   "fecha_inicio_etapa": "2026-08-24",
-  "dias_en_etapa": 92,
-  "dias_desde_ingreso": 92,
+  "dias_en_etapa": 93,
+  "dias_desde_ingreso": 93,
   "urgencia_vigente": "Simple",
   "urgencia_vigente_desde": "2026-11-23",
   "urgencia_vence_estimado": "2026-12-23",
@@ -266043,7 +266047,7 @@
   ],
   "ritmo": {
    "tramite": "Primer trámite",
-   "dias": 92,
+   "dias": 93,
    "mediana": 251,
    "n_base": 59,
    "lectura": "más rápido que lo habitual"
@@ -266051,7 +266055,7 @@
   "comision_actual": {},
   "resumen": {
    "estado": [
-    "Está en primer trámite en la Cámara de Diputados, en la comisión de Agricultura, Silvicultura y Desarrollo Rural, desde el 24 de agosto (92 días).",
+    "Está en primer trámite en la Cámara de Diputados, en la comisión de Agricultura, Silvicultura y Desarrollo Rural, desde el 24 de agosto (93 días).",
     "Tiene urgencia simple; el plazo estimado vence el 23 de diciembre.",
     "Último trámite, sin contar urgencias: Cuenta de proyecto. Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural (22 de septiembre).",
     "Desde su último avance se han presentado o renovado 3 urgencias."
@@ -266111,8 +266115,8 @@
   "camara_actual": "",
   "instancia_actual": "",
   "fecha_inicio_etapa": "2026-11-12",
-  "dias_en_etapa": 12,
-  "dias_desde_ingreso": 50,
+  "dias_en_etapa": 13,
+  "dias_desde_ingreso": 51,
   "urgencia_vigente": "Discusión inmediata",
   "urgencia_vigente_desde": "2026-11-10",
   "urgencia_vence_estimado": "2026-11-16",
