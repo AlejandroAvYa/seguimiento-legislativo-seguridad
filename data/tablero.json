@@ -6,7 +6,7 @@
    "tramite": "Primer trámite",
    "dias": 3066,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Pérdida de beneficios por daños en educación superior",
@@ -326,7 +326,7 @@
    "tramite": "Primer trámite",
    "dias": 1555,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Quebrantamiento de condena y prescripción",
@@ -623,7 +623,7 @@
    "tramite": "Primer trámite",
    "dias": 1422,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Reforma constitucional: extranjeros y FF.AA. en frontera",
@@ -762,7 +762,7 @@
    "tramite": "Primer trámite",
    "dias": 1324,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Penas por quebrantamiento de condena",
@@ -833,7 +833,13 @@
  {
   "boletin": "15850-11",
   "n_urgencias_en_etapa": 0,
-  "ritmo": {},
+  "ritmo": {
+   "tramite": "Segundo trámite",
+   "dias": 0,
+   "mediana": 197,
+   "n_base": 19,
+   "lectura": "más rápido que lo habitual"
+  },
   "nombre_corto": "Venta ilegal de medicamentos",
   "acot_n": "",
   "acot_iniciativa": "",
@@ -846,13 +852,13 @@
   "descripcion": "Regula la comercialización de productos farmacéuticos y sanciona su venta ilegal (ferias, plataformas no autorizadas).",
   "acot": "",
   "situacion": "En tramitación",
-  "etapa_codigo": "2S",
-  "etapa_texto": "Segundo trámite · Sala (Cámara de Diputados)",
+  "etapa_codigo": "2C",
+  "etapa_texto": "Segundo trámite · Comisión (Cámara de Diputados)",
   "avance_estados": {
    "1C": "hecha",
    "1S": "hecha",
-   "2C": "hecha",
-   "2S": "actual",
+   "2C": "actual",
+   "2S": "pendiente",
    "3T": "pendiente",
    "CM": "pendiente",
    "TC": "pendiente",
@@ -868,26 +874,21 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Sala",
+  "instancia_actual": "Comisión de Constitución, Legislación, Justicia y Reglamento",
   "camara_actual": "Cámara de Diputados",
   "camara_origen": "Senado",
-  "dias_en_etapa": 1317,
+  "dias_en_etapa": 0,
   "fecha_ingreso": "2023-04-18",
   "iniciativa": "Moción",
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-12-09",
   "urgencia_plazo": "Vence 2026-12-09",
-  "prioridad_indice": 52,
-  "prioridad_nivel": "Alta",
-  "accion_sugerida": "Asegurar los votos para la votación en Sala",
-  "alertas": [
-   {
-    "tipo": "Detenido en la misma etapa",
-    "detalle": "Lleva 1317 días en Sala."
-   }
-  ],
-  "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Oficio de ley a Cámara Revisora .",
+  "prioridad_indice": 46,
+  "prioridad_nivel": "Media",
+  "accion_sugerida": "Seguir la votación de las indicaciones del Ejecutivo en comisión",
+  "alertas": [],
+  "ultimo_tramite_fecha": "2026-11-25",
+  "ultimo_tramite": "A solicitud del diputado Benjamín Moreno, la Sala acordó radicar el proyecto en la Comisión de Salud, y una vez despachado, remitirlo a la de Constitución.",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -1074,7 +1075,7 @@
    "tramite": "Primer trámite",
    "dias": 1211,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Protección de infraestructura crítica",
@@ -1563,7 +1564,7 @@
    "tramite": "Primer trámite",
    "dias": 954,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Irreprochable conducta anterior sin antecedentes",
@@ -1646,7 +1647,7 @@
    "tramite": "Primer trámite",
    "dias": 950,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Delito de robo de salmón",
@@ -1955,7 +1956,7 @@
    "tramite": "Primer trámite",
    "dias": 925,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Dirección IP única por cliente",
@@ -2030,7 +2031,7 @@
    "tramite": "Primer trámite",
    "dias": 915,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Libertad condicional de reincidentes",
@@ -3019,7 +3020,7 @@
    "tramite": "Primer trámite",
    "dias": 625,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Sanciones por rayados y daños a monumentos",
@@ -3494,7 +3495,7 @@
    "tramite": "Primer trámite",
    "dias": 519,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Custodia de drogas incautadas",
@@ -3946,7 +3947,7 @@
    "tramite": "Primer trámite",
    "dias": 491,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "Contrabando de productos agropecuarios",
@@ -4112,7 +4113,7 @@
    "tramite": "Primer trámite",
    "dias": 416,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más lento que lo habitual"
   },
   "nombre_corto": "SINAPROC",
@@ -4257,7 +4258,7 @@
    "tramite": "Primer trámite",
    "dias": 336,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Reparación a víctimas de violencia en la Macrozona Sur",
@@ -4906,7 +4907,7 @@
    "tramite": "Primer trámite",
    "dias": 203,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Sanciones por denuncias falsas",
@@ -5345,7 +5346,7 @@
    "tramite": "Primer trámite",
    "dias": 173,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Campamentos en bienes nacionales de uso público",
@@ -5415,12 +5416,12 @@
  },
  {
   "boletin": "18341-25",
-  "n_urgencias_en_etapa": 16,
+  "n_urgencias_en_etapa": 17,
   "ritmo": {
    "tramite": "Primer trámite",
    "dias": 166,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Registro de actos vandálicos e incivilidades",
@@ -5463,24 +5464,24 @@
   "dias_en_etapa": 166,
   "fecha_ingreso": "2026-06-12",
   "iniciativa": "Mensaje",
-  "urgencia_vigente": "Simple",
-  "urgencia_vence_estimado": "2026-12-16",
-  "urgencia_plazo": "Vence 2026-12-16",
-  "prioridad_indice": 54,
+  "urgencia_vigente": "Suma",
+  "urgencia_vence_estimado": "2026-12-10",
+  "urgencia_plazo": "Vence 2026-12-10",
+  "prioridad_indice": 67,
   "prioridad_nivel": "Alta",
   "accion_sugerida": "Asegurar los votos para la votación en Sala",
   "alertas": [
    {
     "tipo": "Urgencia renovada sin avance",
-    "detalle": "Se han presentado 16 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
+    "detalle": "Se han presentado 17 urgencias desde su último avance (2026-06-12) sin que haya informe, votación ni cambio de etapa."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-16",
-  "ultimo_tramite": "Cuenta del Mensaje 465-374 que retira y hace presente la urgencia Simple",
+  "ultimo_tramite_fecha": "2026-11-25",
+  "ultimo_tramite": "Cuenta del Mensaje 493-374 que retira y hace presente la urgencia Suma",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
-  "n_urgencias_gobierno_actual": 16,
+  "n_urgencias_gobierno_actual": 17,
   "n_indicaciones_senado": 0,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 0,
@@ -5495,7 +5496,7 @@
    "tramite": "Primer trámite",
    "dias": 169,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Ocupación de espacios públicos para pernoctar",
@@ -5570,7 +5571,7 @@
    "tramite": "Primer trámite",
    "dias": 159,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Responsabilidad parental preventiva",
@@ -5715,7 +5716,7 @@
    "tramite": "Primer trámite",
    "dias": 154,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Seguridad portuaria contra el crimen organizado",
@@ -5729,7 +5730,7 @@
     "camara": "Senado",
     "tipo": "Comisión",
     "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
-    "estado": "Citada",
+    "estado": "Suspendida",
     "lugar": "Sala N° 1 de Comisiones, Senado Valparaíso."
    }
   ],
@@ -5771,9 +5772,9 @@
   "urgencia_vigente": "Simple",
   "urgencia_vence_estimado": "2026-10-08",
   "urgencia_plazo": "Plazo cumplido el 2026-10-08 sin renovación registrada",
-  "prioridad_indice": 40,
+  "prioridad_indice": 32,
   "prioridad_nivel": "Media",
-  "accion_sugerida": "Preparar la sesión de Comisión de Intereses Marítimos, Pesca y Acuicultura del 25-11",
+  "accion_sugerida": "Decidir si se renueva o se retira la urgencia",
   "alertas": [
    {
     "tipo": "Urgencia con plazo cumplido",
@@ -5874,7 +5875,7 @@
    "tramite": "Primer trámite",
    "dias": 153,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Delimitación del delito de apremios ilegítimos",
@@ -5949,7 +5950,7 @@
    "tramite": "Primer trámite",
    "dias": 150,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "dentro de lo habitual"
   },
   "nombre_corto": "Explotación de servicios sexuales de terceros",
@@ -6024,7 +6025,7 @@
    "tramite": "Primer trámite",
    "dias": 114,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Cesación por consumo de drogas (reforma constitucional)",
@@ -6158,7 +6159,7 @@
    "tramite": "Primer trámite",
    "dias": 113,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Matrimonios por conveniencia",
@@ -6228,7 +6229,7 @@
    "tramite": "Primer trámite",
    "dias": 112,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Control de drogas a autoridades",
@@ -6298,7 +6299,7 @@
    "tramite": "Primer trámite",
    "dias": 112,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Sistema de control de drogas a autoridades (reforma constitucional)",
@@ -6662,7 +6663,7 @@
    "tramite": "Primer trámite",
    "dias": 86,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Cautelares en VIF y violencia contra la mujer",
@@ -6732,7 +6733,7 @@
    "tramite": "Primer trámite",
    "dias": 93,
    "mediana": 251,
-   "n_base": 59,
+   "n_base": 60,
    "lectura": "más rápido que lo habitual"
   },
   "nombre_corto": "Trazabilidad de frutos secos",

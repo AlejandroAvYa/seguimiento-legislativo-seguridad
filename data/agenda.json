@@ -426,7 +426,7 @@
    "fecha": "2026-11-25",
    "instancia": "Sala de la Cámara · sesión ordinaria N° 99",
    "estado": "Citada",
-   "horario": "10:00 a 14:00",
+   "horario": "10:02 a 14:00",
    "lugar": "",
    "materia": "",
    "boletines": [],
@@ -469,8 +469,8 @@
    "tipo": "Comisión",
    "fecha": "2026-11-25",
    "instancia": "Comisión de Intereses Marítimos, Pesca y Acuicultura",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "estado": "Suspendida",
+   "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Sala N° 1 de Comisiones, Senado Valparaíso.",
    "horario": "11:00 a 12:30",
    "materia": "1.- ( Bol.N° 18420-25 ) Continuar el estudio de las indicaciones presentadas al proyecto de ley, en primer trámite constitucional, que modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado.\nA esta sesión han sido invitados el Ministro de Seguridad Pública, señor Carlos Arrau, el Ministro de Hacienda, señor Jorge Quiroz y el Ministro de Transportes y Telecomunicaciones, señor Louis de Grange.",
@@ -493,10 +493,9 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala N° 10 de Comisiones - Valparaíso",
    "horario": "11:00 a 13:00",
-   "materia": "1.- ( Bol.N° 17637-07 ) Proseguir con el estudio del proyecto de ley, en segundo tramite constitucional, que modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales (Boletín N° 17.637-07).\n2.- ( Bol.N° 12213-07 ) Continuar con el estudio del proyecto de ley, en segundo tramite constitucional, iniciado en moción del Honorables Diputados señor Ilabaca, señora Hertz y señores Alessandri, Garín, Leiva, Schalper y Walker, que modifica diversos textos legales en materia de ejecución de sanciones penales. (Boletín N° 12.213-07).",
+   "materia": "1.- ( Bol.N° 17637-07 ) Proseguir con el estudio del proyecto de ley, en segundo tramite constitucional, que modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales (Boletín N° 17.637-07).\n2.- Considerar la propuesta formulada por la Mesa del Senado para modificar el Reglamento del Senado en lo relativo a sanciones de la Comisión de Ética y Transparencia.",
    "boletines": [
-    "17637-07",
-    "12213-07"
+    "17637-07"
    ],
    "invitados": [],
    "seguidos": [
@@ -635,6 +634,22 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-30",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°3, tercer piso, Senado en SANTIAGO",
+   "horario": "10:00 a 13:45",
+   "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "18643-05"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
    "instancia": "Comisión de la Mujer y Equidad de Género",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -645,6 +660,20 @@
    "invitados": [
     "Se ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-11-30",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 100",
+   "estado": "Citada",
+   "horario": "12:00 a 23:55",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
    "seguidos": []
   },
   {

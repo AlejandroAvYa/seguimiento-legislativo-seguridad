@@ -1,5 +1,40 @@
 [
  {
+  "fecha_deteccion": "2026-11-25 12:39",
+  "boletin": "18341-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-25 – Cuenta del Mensaje 493-374 que retira y hace presente la urgencia Suma (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 12:39",
+  "boletin": "18341-25",
+  "tipo": "Urgencia vigente",
+  "antes": "Simple",
+  "despues": "Suma"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 12:39",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-25 – A solicitud del diputado Benjamín Moreno, la Sala acordó radicar el proyecto en la Comisión de Salud, y una vez despachado, remitirlo a la de Constitución. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 12:39",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-25 – Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 12:39",
+  "boletin": "15850-11",
+  "tipo": "Subetapa",
+  "antes": "Cuenta de proyecto",
+  "despues": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
   "fecha_deteccion": "2026-11-24 21:00",
   "boletin": "15850-11",
   "tipo": "Nuevo trámite",
