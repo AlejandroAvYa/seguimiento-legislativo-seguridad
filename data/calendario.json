@@ -279,7 +279,7 @@
     "2026-11-24",
     "2026-11-25"
    ],
-   "senado_sala": 4,
+   "senado_sala": 3,
    "senado_dias": [
     "2026-11-24",
     "2026-11-25"
@@ -307,16 +307,18 @@
    "hasta": "2026-12-06",
    "pasada": false,
    "actual": false,
-   "camara_sala": 1,
+   "camara_sala": 3,
    "camara_dias": [
-    "2026-11-30"
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02"
    ],
    "senado_sala": 1,
    "senado_dias": [
     "2026-12-01"
    ],
-   "senado_comisiones": 4,
-   "senado_comisiones_seguidos": 0,
+   "senado_comisiones": 10,
+   "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
    "feriados": [],
@@ -1228,10 +1230,20 @@
   {
    "fecha": "2026-11-25",
    "tipo": "Ordinaria",
-   "estado": "Citada"
+   "estado": "Celebrada"
   },
   {
    "fecha": "2026-11-30",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-12-01",
+   "tipo": "Ordinaria",
+   "estado": "Citada"
+  },
+  {
+   "fecha": "2026-12-02",
    "tipo": "Ordinaria",
    "estado": "Citada"
   }
@@ -1244,11 +1256,6 @@
   },
   {
    "numero": "89",
-   "tipo": "Ordinaria",
-   "fecha": "2026-11-25"
-  },
-  {
-   "numero": "",
    "tipo": "Ordinaria",
    "fecha": "2026-11-25"
   },

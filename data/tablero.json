@@ -888,7 +888,7 @@
   "accion_sugerida": "Seguir la votación de las indicaciones del Ejecutivo en comisión",
   "alertas": [],
   "ultimo_tramite_fecha": "2026-11-25",
-  "ultimo_tramite": "A solicitud del diputado Benjamín Moreno, la Sala acordó radicar el proyecto en la Comisión de Salud, y una vez despachado, remitirlo a la de Constitución.",
+  "ultimo_tramite": "Oficio N° 21806. Comunica a la Comisión de Constitución, Legislación, Justicia y Reglamento, el acuerdo de la Sala, en orden remitir a la Comisión de Salud, el proyecto de ley, correspondiente al boletín N° 15.850-11(S), antes de ser conocido por esa Comisión.",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": false,
@@ -3422,6 +3422,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 10 de Comisiones - Valparaíso"
+   },
+   {
+    "fecha": "2026-11-30",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
    }
   ],
   "plazo_indicaciones": [],
@@ -3879,7 +3888,17 @@
   "acot_n": "",
   "acot_iniciativa": "",
   "acot_grupo": "",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-12-02",
+    "horario": "09:00 a 11:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Transportes y Telecomunicaciones",
+    "estado": "Citada",
+    "lugar": "Sala 5"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica la ley N° 18.290, de Tránsito, para tipificar y sancionar la conducción temeraria de vehículos",
   "clasificacion": "Conexo",
@@ -3918,9 +3937,9 @@
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vence_estimado": "",
   "urgencia_plazo": "",
-  "prioridad_indice": 21,
+  "prioridad_indice": 29,
   "prioridad_nivel": "Baja",
-  "accion_sugerida": "Evaluar si se le pone urgencia o se deja de impulsar",
+  "accion_sugerida": "Preparar la sesión de Comisión de Transportes y Telecomunicaciones del 02-12",
   "alertas": [
    {
     "tipo": "Detenido en la misma etapa",
@@ -5061,7 +5080,17 @@
   "acot_n": "7",
   "acot_iniciativa": "Control de identidad FF.AA. en Estado de Excepción",
   "acot_grupo": "En tramitación al anunciarse",
-  "agenda": [],
+  "agenda": [
+   {
+    "fecha": "2026-12-01",
+    "horario": "10:30 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 10 de Comisiones - Valparaíso"
+   }
+  ],
   "plazo_indicaciones": [],
   "titulo": "Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros",
   "clasificacion": "Núcleo",
@@ -5100,9 +5129,9 @@
   "urgencia_vigente": "Suma",
   "urgencia_vence_estimado": "2026-12-09",
   "urgencia_plazo": "Vence 2026-12-09",
-  "prioridad_indice": 61,
+  "prioridad_indice": 69,
   "prioridad_nivel": "Alta",
-  "accion_sugerida": "Seguimiento semanal de la comisión",
+  "accion_sugerida": "Preparar la sesión de Comisión de Constitución, Legislación, Justicia y Reglamento del 01-12",
   "alertas": [],
   "ultimo_tramite_fecha": "2026-11-24",
   "ultimo_tramite": "Cuenta del Mensaje 489-374 que retira y hace presente la urgencia Suma",

@@ -1,5 +1,40 @@
 [
  {
+  "fecha_deteccion": "2026-11-25 21:01",
+  "boletin": "17702-15",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-12-02 09:00 a 11:00 – Comisión de Transportes y Telecomunicaciones"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 21:01",
+  "boletin": "18258-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-12-01 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 21:01",
+  "boletin": "17637-07",
+  "tipo": "Citado a sesión",
+  "antes": "",
+  "despues": "2026-11-30 10:30 a 12:00 – Comisión de Constitución, Legislación, Justicia y Reglamento"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 21:01",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-25 – Oficio N° 21806. Comunica a la Comisión de Constitución, Legislación, Justicia y Reglamento, el acuerdo de la Sala, en orden remitir a la Comisión de Salud, el proyecto de ley, correspondiente al boletín N° 15.850-11(S), antes de ser conocido por esa Comisión. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-25 21:01",
+  "boletin": "15850-11",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-25 – Oficio N° 21805. Comunica a a Comisión de Salud el acuerdo de la Sala, en orden a asignarle proyecto de ley, correspondiente al boletín N° 15.850-11(S), originalmente remitido solo a la Comisión de Constitución, Legislación, Justicia y Reglamento, durante su primer trámite constitucional. (C.Diputados)"
+ },
+ {
   "fecha_deteccion": "2026-11-25 12:39",
   "boletin": "18341-25",
   "tipo": "Nuevo trámite",

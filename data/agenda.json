@@ -421,20 +421,6 @@
    "seguidos": []
   },
   {
-   "camara": "Cámara de Diputados",
-   "tipo": "Sala",
-   "fecha": "2026-11-25",
-   "instancia": "Sala de la Cámara · sesión ordinaria N° 99",
-   "estado": "Citada",
-   "horario": "10:02 a 14:00",
-   "lugar": "",
-   "materia": "",
-   "boletines": [],
-   "invitados": [],
-   "link": "",
-   "seguidos": []
-  },
-  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-25",
@@ -608,7 +594,7 @@
    "fecha": "2026-11-25",
    "instancia": "Sala del Senado · sesión ordinaria N° 89",
    "estado": "Citada",
-   "horario": "16:00 a 20:00",
+   "horario": "16:16 a 20:00",
    "lugar": "",
    "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
    "boletines": [],
@@ -650,6 +636,26 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-30",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° 17637-07 ) Continuar con el estudio del proyecto de ley, en segundo tramite constitucional, que modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales (Boletín N° 17.637-07).\nA esta sesión han sido invitados el Fiscal Nacional del Ministerio Público, señor Ángel Valencia, y los profesores de Derecho Penal, señoras Rocío Lorca y Tatiana Vargas, y señores José Luis Guzmán, Héctor Hernández, Alejandro Leiva y Francisco Maldonado.",
+   "boletines": [
+    "17637-07"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados el Fiscal Nacional del Ministerio Público, señor Ángel Valencia, y los profesores de Derecho Penal, señoras Rocío Lorca y Tatiana Vargas, y señores José Luis Guzmán, Héctor Hernández, Alejandro Leiva y Francisco Maldonado."
+   ],
+   "seguidos": [
+    "17637-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
    "instancia": "Comisión de la Mujer y Equidad de Género",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -660,6 +666,25 @@
    "invitados": [
     "Se ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
+   "instancia": "Comisión de Gobierno, Descentralización y Regionalización",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de los Presidentes, Santiago",
+   "horario": "12:00 a 13:30",
+   "materia": "1.- Recibir en audiencia al Ministro del Interior, señor Claudio Alvarado; al Subsecretario del Interior, señor Máximo Pavez y al Director del Servicio Nacional de Migraciones, señor Frank Sauerbaum, con el fin de tomar conocimiento de la situación y estado actual de las expulsiones de inmigrantes.\n2.- ( Bol.N° 18338-06 ) Escuchar exposiciones sobre el proyecto de ley, en primer trámite constitucional, que modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, con el objeto de fortalecer la protección laboral del personal que se desempeña en la manipulación de alimentos y asegurar la correcta prestación de dichos servicios (Boletines N°s 18.338-06; 17.211-06; 18.020-06, y 17.790-06, refundidos).",
+   "boletines": [
+    "18338-06",
+    "17211-06",
+    "18020-06",
+    "17790-06"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -674,6 +699,24 @@
    "boletines": [],
    "invitados": [],
    "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
+   "instancia": "Comisión de Minería y Energía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- ( Bol.N° 18821-08 ) Modifica la Ley General de Servicios Eléctricos para facilitar la conexión de infraestructura de recarga de vehículos eléctricos y su acceso al régimen de precios libres.\nA esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr. Matías Díaz, Director del Departamento de Ingeniería Eléctrica de la Universidad de Santiago de Chile.",
+   "boletines": [
+    "18821-08"
+   ],
+   "invitados": [
+    "A esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr."
+   ],
    "seguidos": []
   },
   {
@@ -695,6 +738,107 @@
    "seguidos": []
   },
   {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-12-01",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 101",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "10:30 a 12:00",
+   "materia": "1.- ( Bol.N° S 2776-09 ) Proyecto de acuerdo que modifica el Reglamento del Senado, en lo relativo al régimen de sanciones aplicables por la Comisión de Ética y Transparencia.\nPara este asunto ha sido especialmente invitado el Secretario General del Senado, señor Luis Rojas Gallardo.\n2.- ( Bol.N° 18764-07 ) Sanciona la administración temeraria de los fondos de pensiones.\nPara este punto han sido invitados el Superintendente de Pensiones de Chile, señor Joaquín Cortez Huerta, y el Presidente de la Asociación de AFP de Chile, señor León Fernández de Castro.\n3.- ( Bol.N° 18258-07 ) Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros.",
+   "boletines": [
+    "2776-09",
+    "18764-07",
+    "18258-07"
+   ],
+   "invitados": [
+    "Para este asunto ha sido especialmente invitado el Secretario General del Senado, señor Luis Rojas Gallardo.",
+    "Para este punto han sido invitados el Superintendente de Pensiones de Chile, señor Joaquín Cortez Huerta, y el Presidente de la Asociación de AFP de Chile, señor León Fernández de Castro."
+   ],
+   "seguidos": [
+    "18258-07"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 2 tercer piso, Senado Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 16553-12 ) Iniciar el estudio y votar la últimas indicaciones formuladas al proyecto de ley, en segundo trámite constitucional, que fortalece y mejora la eficacia de la fiscalización y el cumplimiento de la regulación ambiental a cargo de la Superintendencia del Medio Ambiente, y regula otras materias que indica.\nA esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo y el Superintendente del Medio Ambiente, señor Emanuel Ibarra.",
+   "boletines": [
+    "16553-12"
+   ],
+   "invitados": [
+    "A esta sesión han sido invitados la Ministra del Medio Ambiente, señora Francisca Toledo y el Superintendente del Medio Ambiente, señor Emanuel Ibarra."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Sala",
+   "fecha": "2026-12-01",
+   "instancia": "Sala del Senado · sesión especial N° 90",
+   "estado": "Citada",
+   "horario": "15:00 a 16:00",
+   "lugar": "",
+   "materia": "<--\n.text { font-family: sans-serif; font-size:12px; font-weight: normal; color: #4D5D75 ;}\n.resa /* texto resaltado */ { font-size: 13px; font-weight: bold; color: #666666; }\n--gt;\n",
+   "boletines": [],
+   "invitados": [],
+   "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=sesionessala&ac=getDoctoSesion&iddocto=82203",
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión de Transportes y Telecomunicaciones",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 5",
+   "horario": "09:00 a 11:00",
+   "materia": "1.- ( Bol.N° 17702-15 ) Iniciar el estudio de las indicaciones presentadas al proyecto de ley, en segundo trámite constitucional, que modifica la ley N° 18.290, de Tránsito, para tipificar y sancionar la conducción temeraria de vehículos.",
+   "boletines": [
+    "17702-15"
+   ],
+   "invitados": [],
+   "seguidos": [
+    "17702-15"
+   ]
+  },
+  {
+   "camara": "Cámara de Diputados",
+   "tipo": "Sala",
+   "fecha": "2026-12-02",
+   "instancia": "Sala de la Cámara · sesión ordinaria N° 102",
+   "estado": "Citada",
+   "horario": "10:00 a 14:00",
+   "lugar": "",
+   "materia": "",
+   "boletines": [],
+   "invitados": [],
+   "link": "",
+   "seguidos": []
+  },
+  {
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-12-02",
@@ -703,9 +847,10 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17293-27 ) HA MODIFICADO SU TABLA.\nProyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno.\nA esta sesión se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.",
+   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno.\nA estos asuntos se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.\n3.- ( Bol.N° 18548-11 ) Votar la indicación presentada por el Ejecutivo al proyecto de ley que modifica la ley N° 19.664, con el objeto de establecer la movilidad territorial exclusiva entre zonas extremas y territorios especiales del país para los médicos que deben cumplir su período asistencial obligatorio.",
    "boletines": [
-    "17293-27"
+    "17293-27",
+    "18548-11"
    ],
    "invitados": [],
    "seguidos": []
@@ -713,20 +858,20 @@
  ],
  "plazos_indicaciones": [
   {
-   "boletin": "18860-15",
-   "materia": "Proyecto de ley que modifica el Código de Comercio para regular las condiciones de contratación y pago de los servicios de transporte de carga por carretera por empresas de menor tamaño",
-   "fecha": "2026-11-26",
-   "hora": "12:00",
-   "donde": "Secretaría del Senado",
-   "seguido": false
-  },
-  {
    "boletin": "18585-25",
    "materia": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
    "fecha": "2026-11-26",
    "hora": "12:00",
    "donde": "Secretaría del Senado",
    "seguido": true
+  },
+  {
+   "boletin": "18860-15",
+   "materia": "Proyecto de ley que modifica el Código de Comercio para regular las condiciones de contratación y pago de los servicios de transporte de carga por carretera por empresas de menor tamaño",
+   "fecha": "2026-12-02",
+   "hora": "12:00",
+   "donde": "Secretaría del Senado",
+   "seguido": false
   },
   {
    "boletin": "16553-12",
@@ -738,6 +883,20 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-25",
+   "titulo": "Cámara supera últimos nudos del Presupuesto 2027",
+   "link": "https://www.camara.cl/cms/2026/11/25/camara-supera-ultimos-nudos-del-presupuesto-2027/",
+   "tipo": "Sala",
+   "resumen": "La Sala aprobó el informe de comisión mixta que resolvió las discrepancias con el Senado. Entre los acuerdos está un incremento de dineros para el Indap, la restitución de recursos para sitios de memoria y el aumento de horas docentes.",
+   "temas": [
+    "Economía",
+    "Ley de Presupuesto",
+    "presupuesto 2027"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-24",
    "titulo": "Presupuesto 2027: Cámara envía a mixta diez temas",
