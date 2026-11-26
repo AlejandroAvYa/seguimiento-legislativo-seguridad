@@ -611,7 +611,7 @@
    "aviso": "HA QUEDADO SIN EFECTO",
    "lugar": "Auditorio José Luis Pérez Calaf, Av. Libertador Bernardo O´Higgins N° 710",
    "horario": "10:00 a 13:00",
-   "materia": "1.- Tratar materias propias de su competencia referidas a seguridad pública y crimen organizado en la Región del Libertador General Bernardo O´Higgins.",
+   "materia": "1.- HA QUEDADO SIN EFECTO\nTratar materias propias de su competencia referidas a seguridad pública y crimen organizado en la Región del Libertador General Bernardo O´Higgins.",
    "boletines": [],
    "invitados": [],
    "seguidos": []
@@ -705,6 +705,22 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-30",
+   "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Salón de Los Presidentes, Santiago",
+   "horario": "15:30 a 17:00",
+   "materia": "1.- ( Bol.N° 12712-24 ) Continuar la discusión en particular del proyecto de ley, en segundo trámite constitucional, de Patrimonio Cultural (Boletín N° 12.712-24).",
+   "boletines": [
+    "12712-24"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
    "instancia": "Comisión de Minería y Energía",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -717,6 +733,22 @@
    "invitados": [
     "A esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
+   "instancia": "Comisión de Hacienda",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 1, tercer piso, Senado en SANTIAGO",
+   "horario": "Desde 15:30",
+   "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
+   "boletines": [
+    "18643-05"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -735,6 +767,22 @@
    "invitados": [
     "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Vivienda y Urbanismo",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "10:00 a 12:00",
+   "materia": "1.- ( Bol.N° 18644-14 ) Someter a discusión y votación en particular el proyecto de ley, en segundo trámite constitucional, que modifica la Ley General de Urbanismo y Construcciones, con el objeto de facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes (Boletín 18.644-14), con urgencia calificada de suma.\n2.- Recibir a la Subsecretaria de Vivienda y Urbanismo, señora Natalia Aguilar, con el objeto de profundizar en las características e implementación de la modalidad Ecobarrios Rurales, en el marco del Programa de Habitabilidad Rural (DS N° 10).",
+   "boletines": [
+    "18644-14"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -794,6 +842,34 @@
   },
   {
    "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Relaciones Exteriores",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 1, Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- Recibir a la Subsecretaria de Relaciones Económicas Internacionales, señora Paula Estévez, para que exponga ante la Comisión sobre los principales aspectos y resultados de su reciente visita de trabajo a Asia.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Ética y Transparencia del Senado",
+   "estado": "Citada",
+   "aviso": "",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- Con la finalidad de tratar asuntos propios de su competencia.",
+   "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
    "tipo": "Sala",
    "fecha": "2026-12-01",
    "instancia": "Sala del Senado · sesión especial N° 90",
@@ -842,6 +918,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-12-02",
+   "instancia": "Comisión de Obras Públicas",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 4 de Comisiones, tercer piso, Valparaíso.",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 8654-15 ) Continuar el estudio del proyecto de ley, en segundo trámite constitucional, que modifica normas relativas al autocontrol en materia de pesaje respecto a empresas generadoras de carga.\nA esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones.",
+   "boletines": [
+    "8654-15"
+   ],
+   "invitados": [
+    "A esta sesión se ha invitado el Ministro de Obras Públicas y de Transportes y Telecomunicaciones."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -883,6 +977,23 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-26",
+   "titulo": "Comisión analiza irregularidades en medidores eléctricos",
+   "link": "https://www.camara.cl/cms/2026/11/26/comision-analiza-irregularidades-en-medidores-electricos/",
+   "tipo": "Comisión",
+   "resumen": "Minería y Energía contó con la participación de la Superintendencia de Electricidad y Combustibles para estudiar esta irregularidad en medidores eléctricos de Enel en la región Metropolitana.",
+   "temas": [
+    "Cobros excesivos",
+    "Enel",
+    "Fiscalización",
+    "Medidores eléctricos",
+    "omisión de Minería y Energía",
+    "protección de los consumidores"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-25",
    "titulo": "Cámara supera últimos nudos del Presupuesto 2027",

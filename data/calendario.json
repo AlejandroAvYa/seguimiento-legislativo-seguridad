@@ -313,11 +313,12 @@
     "2026-12-01",
     "2026-12-02"
    ],
-   "senado_sala": 1,
+   "senado_sala": 4,
    "senado_dias": [
-    "2026-12-01"
+    "2026-12-01",
+    "2026-12-02"
    ],
-   "senado_comisiones": 10,
+   "senado_comisiones": 16,
    "senado_comisiones_seguidos": 3,
    "camara_comisiones": 0,
    "camara_comisiones_seguidos": 0,
@@ -1249,6 +1250,21 @@
   }
  ],
  "_senado_sesiones": [
+  {
+   "numero": "93",
+   "tipo": "Ordinaria",
+   "fecha": "2026-12-02"
+  },
+  {
+   "numero": "92",
+   "tipo": "Especial",
+   "fecha": "2026-12-02"
+  },
+  {
+   "numero": "91",
+   "tipo": "Ordinaria",
+   "fecha": "2026-12-01"
+  },
   {
    "numero": "90",
    "tipo": "Especial",

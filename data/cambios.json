@@ -1,5 +1,12 @@
 [
  {
+  "fecha_deteccion": "2026-11-26 16:39",
+  "boletin": "15850-11",
+  "tipo": "Subetapa",
+  "antes": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+  "despues": "Primer informe de comisión de Salud"
+ },
+ {
   "fecha_deteccion": "2026-11-25 21:01",
   "boletin": "17702-15",
   "tipo": "Citado a sesión",
