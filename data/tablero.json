@@ -1006,6 +1006,15 @@
     "instancia": "Comisión Mixta para Boletín Nº 15975-25",
     "estado": "Citada",
     "lugar": "Sala N° 10, tercer piso, Valparaíso"
+   },
+   {
+    "fecha": "2026-12-02",
+    "horario": "11:00 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+    "estado": "Citada",
+    "lugar": "Sala N° 11, segundo piso, Valparaíso"
    }
   ],
   "plazo_indicaciones": [],
@@ -1046,9 +1055,9 @@
   "urgencia_vigente": "Sin urgencia",
   "urgencia_vence_estimado": "",
   "urgencia_plazo": "",
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión Mixta para Boletín Nº 15975-25 del 02-12",
   "alertas": [
    {
     "tipo": "Votación estrecha",
@@ -3431,6 +3440,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
+   },
+   {
+    "fecha": "2026-12-02",
+    "horario": "11:00 a 13:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 10 de Comisiones - Valparaíso"
    }
   ],
   "plazo_indicaciones": [],

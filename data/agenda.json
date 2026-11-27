@@ -623,7 +623,7 @@
    "instancia": "Comisión de Hacienda",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala N°3, tercer piso, Senado en SANTIAGO",
+   "lugar": "Sala N° 3, tercer piso, Senado en SANTIAGO",
    "horario": "10:00 a 13:45",
    "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
    "boletines": [
@@ -661,10 +661,10 @@
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala de Sesiones Ex Congreso Santiago",
    "horario": "11:00 a 12:30",
-   "materia": "1.- Para tomar conocimiento de las medidas adoptadas por las Fuerzas Armadas respecto de las denuncias por acoso y abuso sexual de las que se ha tenido conocimiento público.\nSe ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile.",
+   "materia": "1.- Para tomar conocimiento de las medidas adoptadas por las Fuerzas Armadas, y de Orden y Seguridad Pública, respecto de las denuncias por acoso y abuso sexual de las que se ha tenido conocimiento público.\nSe ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile; de la Fuerza Aérea de Chile; de la Policía de Investigaciones y de Carabieneros de Chile.",
    "boletines": [],
    "invitados": [
-    "Se ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile y de la Fuerza Aérea de Chile."
+    "Se ha invitado especialmente a representantes de la Armada de Chile, del Ejército de Chile; de la Fuerza Aérea de Chile; de la Policía de Investigaciones y de Carabieneros de Chile."
    ],
    "seguidos": []
   },
@@ -742,7 +742,7 @@
    "instancia": "Comisión de Hacienda",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala N° 1, tercer piso, Senado en SANTIAGO",
+   "lugar": "Sala N° 3, tercer piso, Senado en SANTIAGO",
    "horario": "Desde 15:30",
    "materia": "1.- ( Bol.N° 18643-05 ) Reforma al mercado de capitales y financiamiento de la casa propia",
    "boletines": [
@@ -767,6 +767,23 @@
    "invitados": [
     "A este punto se encuentra especialmente invitado el Subsecretario de Hacienda, señor Sebastián Vallebona."
    ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Salud",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 11 Dr. Fernando Monckeberg, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- Tratar el tema de Envejecimiento Activo.\nA este punto, se invitará al Profesor emérito de la UC Louvain, Bélgica, señor Michel Poulain, para que exponga sobre el impacto de las zonas azules en la longevidad, desafíos para Chile e Iberoamérica.\n2.- ( Bol.N° 15047-11 ) Proyecto de ley que optimiza el mecanismo de sustentabilidad del Fondo para Diagnósticos y Tratamientos de Alto Costo y modifica la ley N° 20.850, que crea un Sistema de Protección Financiera para Diagnósticos y Tratamientos de Alto Costo y rinde homenaje póstumo a don Luis Ricarte Soto Gallegos (Boletines N°s. 15.047-11 y 17.567-11, refundidos).\nPara el análisis de esta iniciativa, se invitará a la Directora de Participación e Incidencia Ciudadana de la Fundación Me Muevo, y a la Cámara de la Innovación Farmacéutica de Chile A.G. (CIF).",
+   "boletines": [
+    "15047-11",
+    "17567-11"
+   ],
+   "invitados": [],
    "seguidos": []
   },
   {
@@ -826,6 +843,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-12-01",
+   "instancia": "Comisión de Seguridad Pública",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 6, Valparaíso",
+   "horario": "11:00 a 12:30",
+   "materia": "1.- ( Bol.N° 18707-07 ) Continuar el estudio del proyecto de ley, en primer trámite constitucional, que prohíbe la concesión de penas sustitutivas a las privativas o restrictivas de libertad respecto de los delitos que indica, con el objeto de asegurar el cumplimiento efectivo de las condenas (Boletín N° 18.707-07), con urgencia calificada de \"simple\".\nPara tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Fiscal Nacional del Ministerio Público, señor Ángel Valencia; la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina, y el Presidente de la Asociación Nacional de Magistradas y Magistrados, señor Javier Mora.",
+   "boletines": [
+    "18707-07"
+   ],
+   "invitados": [
+    "Para tratar este asunto serán invitados el Ministro de Justicia y Derechos Humanos, señor Fernando Rabat; el Fiscal Nacional del Ministerio Público, señor Ángel Valencia; la Defensora Nacional de la Defensoría Penal Pública, señora Verónica Encina, y el Presidente de la Asociación Nacional de Magistradas y Magistrados, señor Javier Mora."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
    "instancia": "Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -865,6 +900,22 @@
    "horario": "14:45 a 15:00",
    "materia": "1.- Para constituirse, elegir presidente y adoptar los acuerdos que estime pertinentes.",
    "boletines": [],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-01",
+   "instancia": "Comisión de Derechos Humanos, Nacionalidad y Ciudadanía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala 7. tercer piso de Comisiones, Valparaíso",
+   "horario": "15:00 a 16:00",
+   "materia": "1.- ( Bol.N° 16886-12 ) continuar el estudio del proyecto de ley que dicta normas sobre protección de personas defensoras de la naturaleza y los derechos humanos medioambientales.",
+   "boletines": [
+    "16886-12"
+   ],
    "invitados": [],
    "seguidos": []
   },
@@ -915,6 +966,22 @@
    ]
   },
   {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión de Recursos Hídricos, Desertificación y Sequía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 9 de Comisiones, tercer piso del Senado, Valparaíso.",
+   "horario": "09:30 a 11:00",
+   "materia": "1.- ( Bol.N° 17877-33 ) Continuar la discusión de las indicaciones formuladas al proyecto de ley, en primer trámite constitucional, que modifica la ley N° 20.998, con el propósito de modernizar y fortalecer el régimen jurídico aplicable a los servicios sanitarios rurales (Boletín N°17.877-33).",
+   "boletines": [
+    "17877-33"
+   ],
+   "invitados": [],
+   "seguidos": []
+  },
+  {
    "camara": "Cámara de Diputados",
    "tipo": "Sala",
    "fecha": "2026-12-02",
@@ -927,6 +994,44 @@
    "invitados": [],
    "link": "",
    "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 11, segundo piso, Valparaíso",
+   "horario": "11:00 a 12:00",
+   "materia": "1.- ( Bol.N° 15975-25 ) Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25.\nA esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau; el Subsecretario de Hacienda, señor Sebastián Vallebona, y el Fiscal Nacional del Ministerio Público, señor Ángel Valencia.",
+   "boletines": [
+    "15975-25"
+   ],
+   "invitados": [
+    "A esta sesión serán invitados el Ministro de Seguridad Pública, señor Martín Arrau; el Subsecretario de Hacienda, señor Sebastián Vallebona, y el Fiscal Nacional del Ministerio Público, señor Ángel Valencia."
+   ],
+   "seguidos": [
+    "15975-25"
+   ]
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
+   "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N° 10 de Comisiones - Valparaíso",
+   "horario": "11:00 a 13:00",
+   "materia": "1.- ( Bol.N° 17637-07 ) Continuar con el estudio del proyecto de ley, en segundo tramite constitucional, que modifica el Código Penal con el objeto de tipificar el delito de reclutamiento de niños, niñas o adolescentes para cometer ilícitos, por parte de asociaciones delictivas o criminales (Boletín N° 17.637-07).",
+   "boletines": [
+    "17637-07"
+   ],
+   "invitados": [],
+   "seguidos": [
+    "17637-07"
+   ]
   },
   {
    "camara": "Senado",
@@ -950,12 +1055,30 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-12-02",
+   "instancia": "Comisión de Trabajo y Previsión Social",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala N°9 Tercer Piso, Senado, Valparaíso",
+   "horario": "12:30 a 14:00",
+   "materia": "1.- ( Bol.N° 11929-13 ) Para continuar con el estudio en particular del proyecto de ley que modifica el Código del Trabajo para crear el contrato por horas.\nSe ha invitado especialmente a representantes del Colegio de Enfermeras de Chile.",
+   "boletines": [
+    "11929-13"
+   ],
+   "invitados": [
+    "Se ha invitado especialmente a representantes del Colegio de Enfermeras de Chile."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-12-02",
    "instancia": "Comisión Especial de Zonas Extremas y Territorios Especiales",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
    "lugar": "Sala 11, Valparaíso.",
    "horario": "15:00 a 16:00",
-   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que Establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno.\nA estos asuntos se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.\n3.- ( Bol.N° 18548-11 ) Votar la indicación presentada por el Ejecutivo al proyecto de ley que modifica la ley N° 19.664, con el objeto de establecer la movilidad territorial exclusiva entre zonas extremas y territorios especiales del país para los médicos que deben cumplir su período asistencial obligatorio.",
+   "materia": "1.- ( Bol.N° 17293-27 ) Proyecto de ley que modifica la ley N° 21.255, que establece el Estatuto Antártico Chileno, en materia de difusión del territorio antártico chileno y su representación cartográfica.\n2.- Abordar distintas temáticas relacionadas con el territorio antártico chileno.\nA estos asuntos se invitará al Ministro de Relaciones Exteriores; al Ministro de Defensa Nacional; al Director Nacional de Fronteras y Límites del Estado, y al Jefe de la División de Asuntos Antárticos de la Cancillería.\n3.- ( Bol.N° 18548-11 ) Votar la indicación presentada por el Ejecutivo al proyecto de ley que modifica la ley N° 19.664, con el objeto de establecer la movilidad territorial exclusiva entre zonas extremas y territorios especiales del país para los médicos que deben cumplir su período asistencial obligatorio.",
    "boletines": [
     "17293-27",
     "18548-11"
@@ -983,6 +1106,66 @@
   }
  ],
  "noticias_camara": [
+  {
+   "fecha": "2026-11-27",
+   "titulo": "Sala de la Cámara despachó Presupuesto 2027 y otros cuatro proyectos",
+   "link": "https://www.camara.cl/cms/2026/11/27/sala-de-la-camara-despacho-presupuesto-2027-y-otros-cuatro-proyectos/",
+   "tipo": "Sala",
+   "resumen": "La Corporación revisó el presupuesto en tercer trámite y, luego, según un informe de la comisión mixta, donde se superaron los últimos puntos pendientes. Además, envió al Senado proyectos relacionados a firma electrónica y rentas municipales, entre otros.",
+   "temas": [
+    "presupuesto 2027",
+    "Presupuesto de la Nación",
+    "Resumen de trabajo en Sala"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-27",
+   "titulo": "Esta semana en comisiones: crimen organizado, inversión y transporte inclusivo",
+   "link": "https://www.camara.cl/cms/2026/11/27/esta-semana-en-comisiones-crimen-organizado-inversion-y-transporte-inclusivo/",
+   "tipo": "Comisión",
+   "resumen": "Esta semana, las comisiones abordaron la cooperación contra el crimen organizado, la inversión en empresas emergentes, la accesibilidad en el transporte, las irregularidades en medidores eléctricos y la trazabilidad de frutos secos.",
+   "temas": [
+    "comisiones",
+    "Crimen organizado",
+    "Inversión",
+    "transporte inclusivo"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-27",
+   "titulo": "Cámara pide medidas en materias como control fronterizo y atención de salud",
+   "link": "https://www.camara.cl/cms/2026/11/27/camara-pide-medidas-en-materias-como-control-fronterizo-y-atencion-de-salud/",
+   "tipo": "Sala",
+   "resumen": "En el tiempo de votaciones de las solicitudes de resolución, se pidió al Ejecutivo una serie de acciones para avanzar en cobertura de salud, apoyo a zonas agrícolas así como, en materia de seguridad.",
+   "temas": [
+    "Bolivia",
+    "Cambio Climático",
+    "control fronterizo",
+    "Cuba",
+    "Ley Ricarte Soto",
+    "Patricio Aylwin"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
+  {
+   "fecha": "2026-11-27",
+   "titulo": "Comisión recomienda aprobar acusación contra ministro de Justicia",
+   "link": "https://www.camara.cl/cms/2026/11/27/comision-recomienda-aprobar-acusacion-contra-ministro-de-justicia/",
+   "tipo": "Comisión",
+   "resumen": "Por mayoría de tres votos a favor y dos en contra, la instancia considera que se configuran las causales que sustentan acusar a la autoridad de infringir la Constitución Política. La Sala resolverá en la sesión citada este lunes 30 de noviembre a partir de las 12 horas.",
+   "temas": [
+    "Acusación Constitucional",
+    "delitos sexuales contra menores",
+    "Ministro de Justicia"
+   ],
+   "boletines": [],
+   "seguidos": []
+  },
   {
    "fecha": "2026-11-26",
    "titulo": "Comisión analiza irregularidades en medidores eléctricos",

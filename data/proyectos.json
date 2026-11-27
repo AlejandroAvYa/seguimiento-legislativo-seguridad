@@ -69845,6 +69845,15 @@
     "instancia": "Comisión Mixta para Boletín Nº 15975-25",
     "estado": "Citada",
     "lugar": "Sala N° 10, tercer piso, Valparaíso"
+   },
+   {
+    "fecha": "2026-12-02",
+    "horario": "11:00 a 12:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión Mixta para Boletín Nº 15975-25",
+    "estado": "Citada",
+    "lugar": "Sala N° 11, segundo piso, Valparaíso"
    }
   ],
   "plazo_indicaciones": [],
@@ -81412,13 +81421,14 @@
    }
   ],
   "n_alertas": 1,
-  "prioridad_indice": 43,
-  "prioridad_nivel": "Media",
-  "accion_sugerida": "Preparar la propuesta del Ejecutivo para la Comisión Mixta",
+  "prioridad_indice": 51,
+  "prioridad_nivel": "Alta",
+  "accion_sugerida": "Preparar la sesión de Comisión Mixta para Boletín Nº 15975-25 del 02-12",
   "prioridad_motivos": [
    "En trámite final (+18)",
    "Proyecto núcleo de seguridad (+15)",
    "Con urgencias del actual Gobierno (+5)",
+   "Citado a sesión el 02-12 (+8)",
    "Movimiento en los últimos 14 días (+5)"
   ],
   "ritmo": {},
@@ -81429,7 +81439,7 @@
     "El Senado lo aprobó en general el 20 de diciembre de 2023 y en particular el 25 de marzo de 2025.",
     "La Cámara de Diputados lo aprobó en general y en particular el 5 de marzo, con modificaciones.",
     "El Senado rechazó las modificaciones el 9 de junio, por lo que se formó una Comisión Mixta.",
-    "Último trámite, sin contar urgencias: Cuenta del oficio N° 21.661, por el que informa reemplazo de integrante de la Comisión Mixta (21 de octubre)."
+    "Próxima sesión citada: Comisión Mixta para Boletín Nº 15975-25, el miércoles 2 de diciembre a las 11:00."
    ],
    "indicado": [
     "En el Senado se presentaron 190 indicaciones: 106 del Ejecutivo y 84 parlamentarias (Coloma, Ossandón, Vodanovic, Durana).",
@@ -174683,6 +174693,15 @@
     "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
     "estado": "Citada",
     "lugar": "Sala N° 1 del ex edificio Congreso Nacional, Santiago"
+   },
+   {
+    "fecha": "2026-12-02",
+    "horario": "11:00 a 13:00",
+    "camara": "Senado",
+    "tipo": "Comisión",
+    "instancia": "Comisión de Constitución, Legislación, Justicia y Reglamento",
+    "estado": "Citada",
+    "lugar": "Sala N° 10 de Comisiones - Valparaíso"
    }
   ],
   "plazo_indicaciones": [],
