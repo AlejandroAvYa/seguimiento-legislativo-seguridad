@@ -262600,10 +262600,10 @@
   "camara_origen": "Cámara de Diputados",
   "situacion": "En tramitación",
   "etapa": "Segundo trámite constitucional (Senado)",
-  "subetapa": "Boletín de indicaciones de Seguridad Pública",
+  "subetapa": "Segundo informe de comisión de Seguridad Pública",
   "tramite_constitucional": "Segundo trámite constitucional",
   "camara_actual": "Senado",
-  "instancia_actual": "Boletín de indicaciones de Seguridad Pública",
+  "instancia_actual": "Comisión de Seguridad Pública",
   "fecha_inicio_etapa": "2026-09-22",
   "dias_en_etapa": 65,
   "dias_desde_ingreso": 101,
@@ -262619,17 +262619,17 @@
   "primera_urgencia_gobierno_actual": "2026-08-17",
   "ultima_urgencia": "Discusión inmediata (2026-11-24)",
   "indicaciones_ejecutivo_gobierno_actual": "",
-  "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta del Mensaje 483-374 que retira y hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-26",
+  "ultimo_tramite": "Boletín de indicaciones .",
   "ultimo_tramite_camara": "Senado",
-  "n_tramites": 20,
-  "n_boletines_indicaciones_senado": 0,
-  "n_indicaciones_senado": 0,
+  "n_tramites": 21,
+  "n_boletines_indicaciones_senado": 1,
+  "n_indicaciones_senado": 28,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_indicaciones_senado_ejecutivo_gobierno_actual": 0,
-  "n_indicaciones_senado_parlamentarias": 0,
+  "n_indicaciones_senado_parlamentarias": 28,
   "n_oficios_indicaciones_ejecutivo": 0,
-  "ultima_presentacion_indicaciones": "",
+  "ultima_presentacion_indicaciones": "2026-11-26",
   "n_informes_comision": 2,
   "ultimo_informe": "2026-10-26 – Primer informe de comisión de Seguridad Pública",
   "n_votaciones_sala_senado": 1,
@@ -262780,6 +262780,13 @@
     "descripcion": "Cuenta del Mensaje 483-374 que retira y hace presente la urgencia Discusión inmediata",
     "etapa": "Segundo trámite constitucional",
     "camara": "Senado"
+   },
+   {
+    "fecha": "2026-11-26",
+    "sesion": "/",
+    "descripcion": "Boletín de indicaciones .",
+    "etapa": "Segundo trámite constitucional",
+    "camara": "Senado"
    }
   ],
   "urgencias": [
@@ -262928,7 +262935,16 @@
     "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=37219&tipodoc=ofic"
    }
   ],
-  "boletines_indicaciones": [],
+  "boletines_indicaciones": [
+   {
+    "fecha": "2026-11-26",
+    "tramite": "Boletin de Indicaciones",
+    "etapa": "Segundo trámite constitucional",
+    "link": "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=3291&tipodoc=indi",
+    "iddocto": "3291",
+    "estado_lectura": "leído"
+   }
+  ],
   "votaciones": [
    {
     "fecha": "2026-11-10",
@@ -263182,8 +263198,106 @@
     ]
    }
   ],
-  "indicaciones_por_autor": [],
-  "indicaciones_por_articulo": [],
+  "indicaciones_por_autor": [
+   {
+    "autor": "Sánchez",
+    "tipo_autor": "Parlamentario",
+    "n": 18
+   },
+   {
+    "autor": "Longton",
+    "tipo_autor": "Parlamentario",
+    "n": 4
+   },
+   {
+    "autor": "Pascual",
+    "tipo_autor": "Parlamentario",
+    "n": 4
+   },
+   {
+    "autor": "De Urresti",
+    "tipo_autor": "Parlamentario",
+    "n": 2
+   }
+  ],
+  "indicaciones_por_articulo": [
+   {
+    "articulo": "ARTÍCULO 1",
+    "n": 3,
+    "ejecutivo": 0,
+    "parlamentarias": 3,
+    "acciones": {
+     "sustituir": 2,
+     "incorporar": 1
+    }
+   },
+   {
+    "articulo": "ARTÍCULO 2",
+    "n": 7,
+    "ejecutivo": 0,
+    "parlamentarias": 7,
+    "acciones": {
+     "reemplazarla": 2,
+     "suprimirla": 1,
+     "intercalar": 1,
+     "agregar": 1,
+     "suprimir": 1,
+     "sustituir": 1
+    }
+   },
+   {
+    "articulo": "Artículo 13 propuesto",
+    "n": 5,
+    "ejecutivo": 0,
+    "parlamentarias": 5,
+    "acciones": {
+     "intercalar": 1,
+     "agregar": 2,
+     "incorporar": 2
+    }
+   },
+   {
+    "articulo": "Artículo 13 bis propuesto",
+    "n": 7,
+    "ejecutivo": 0,
+    "parlamentarias": 7,
+    "acciones": {
+     "suprimir": 1,
+     "reemplazar": 1,
+     "incorporar": 2,
+     "agregar": 3
+    }
+   },
+   {
+    "articulo": "ARTÍCULO 3",
+    "n": 2,
+    "ejecutivo": 0,
+    "parlamentarias": 2,
+    "acciones": {
+     "suprimir": 2
+    }
+   },
+   {
+    "articulo": "Artículo 27 ter propuesto",
+    "n": 2,
+    "ejecutivo": 0,
+    "parlamentarias": 2,
+    "acciones": {
+     "reemplazar": 1,
+     "sustituir": 1
+    }
+   },
+   {
+    "articulo": "ARTÍCULO TRANSITORIO",
+    "n": 2,
+    "ejecutivo": 0,
+    "parlamentarias": 2,
+    "acciones": {
+     "reemplazar": 1,
+     "agregar": 1
+    }
+   }
+  ],
   "votaciones_camara": [
    {
     "id": "90060",
@@ -265074,23 +265188,53 @@
    "n_base": 19,
    "lectura": "más rápido que lo habitual"
   },
-  "comision_actual": {},
+  "comision_actual": {
+   "nombre": "Comisión de Seguridad Pública",
+   "integrantes": [
+    {
+     "nombre": "Pedro Araya Guerrero",
+     "funcion": "",
+     "partido": "P.P.D."
+    },
+    {
+     "nombre": "Karim Bianchi Retamales",
+     "funcion": "presidente",
+     "partido": "Independiente"
+    },
+    {
+     "nombre": "Juan Luis Castro González",
+     "funcion": "",
+     "partido": "P.S."
+    },
+    {
+     "nombre": "Andrés Longton Herrera",
+     "funcion": "",
+     "partido": "R.N."
+    },
+    {
+     "nombre": "Cristian Vial Maceratta",
+     "funcion": "",
+     "partido": "Independiente"
+    }
+   ]
+  },
   "resumen": {
    "estado": [
-    "Está en segundo trámite en el Senado (boletín de indicaciones de Seguridad Pública), desde el 22 de septiembre (65 días).",
+    "Está en segundo trámite en el Senado, en la comisión de Seguridad Pública, desde el 22 de septiembre (65 días).",
     "La Cámara de Diputados lo aprobó en general y en particular el 21 de septiembre.",
     "El Senado lo aprobó en general el 10 de noviembre.",
     "Tiene urgencia discusión inmediata; el plazo estimado vence el 30 de noviembre.",
-    "Último trámite, sin contar urgencias: Discusión general. Aprobado en general Se fija como plazo para presentar indicaciones el 26/11/2026 a las 12:00 (10 de noviembre)."
+    "Último trámite, sin contar urgencias: Boletín de indicaciones (26 de noviembre)."
    ],
    "indicado": [
+    "En el Senado se presentaron 28 indicaciones, todas parlamentarias (Sánchez, Longton, Pascual, De Urresti).",
     "El plazo para presentar indicaciones vence el jueves 26 de noviembre a las 12:00.",
     "El 21 de septiembre, la Sala de la Cámara votó 2 veces: todas aprobadas.",
     "Última votación en la Sala del Senado (10 de noviembre): 34 a favor, 0 en contra y 0 abstenciones ().",
     "Último informe: Primer informe de comisión de Seguridad Pública (26 de octubre)."
    ],
    "falta": [
-    "Falta que la comisión despache su informe y que la Sala del Senado lo vote.",
+    "Falta el segundo informe de la comisión (discusión en particular) y la votación en particular en la Sala del Senado.",
     "Si el Senado lo aprueba sin cambios, queda despachado al Ejecutivo; si introduce modificaciones, vuelve a la Cámara de Diputados en tercer trámite (y a Comisión Mixta si hay discrepancias)."
    ],
    "redactado": {

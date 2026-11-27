@@ -1,5 +1,26 @@
 [
  {
+  "fecha_deteccion": "2026-11-26 23:52",
+  "boletin": "18585-25",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-11-26 – Boletín de indicaciones . (Senado)"
+ },
+ {
+  "fecha_deteccion": "2026-11-26 23:52",
+  "boletin": "18585-25",
+  "tipo": "Nuevo boletín de indicaciones (Senado)",
+  "antes": "",
+  "despues": "2026-11-26 – Segundo trámite constitucional"
+ },
+ {
+  "fecha_deteccion": "2026-11-26 23:52",
+  "boletin": "18585-25",
+  "tipo": "Subetapa",
+  "antes": "Boletín de indicaciones de Seguridad Pública",
+  "despues": "Segundo informe de comisión de Seguridad Pública"
+ },
+ {
   "fecha_deteccion": "2026-11-26 16:39",
   "boletin": "15850-11",
   "tipo": "Subetapa",

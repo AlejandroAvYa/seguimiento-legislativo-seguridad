@@ -2366,19 +2366,9 @@
    ]
   },
   {
-   "nombre": "Núñez",
-   "n_indicaciones": 54,
-   "n_proyectos": 3,
-   "proyectos": [
-    "15805-07",
-    "16481-25",
-    "18420-25"
-   ]
-  },
-  {
    "nombre": "Pascual",
-   "n_indicaciones": 50,
-   "n_proyectos": 7,
+   "n_indicaciones": 54,
+   "n_proyectos": 8,
    "proyectos": [
     "15261-25",
     "15589-07",
@@ -2386,7 +2376,18 @@
     "16143-02",
     "16481-25",
     "16836-06",
-    "17535-25"
+    "17535-25",
+    "18585-25"
+   ]
+  },
+  {
+   "nombre": "Núñez",
+   "n_indicaciones": 54,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15805-07",
+    "16481-25",
+    "18420-25"
    ]
   },
   {
@@ -2437,6 +2438,16 @@
    ]
   },
   {
+   "nombre": "Sánchez",
+   "n_indicaciones": 33,
+   "n_proyectos": 3,
+   "proyectos": [
+    "15261-25",
+    "15589-07",
+    "18585-25"
+   ]
+  },
+  {
    "nombre": "Huenchumilla",
    "n_indicaciones": 31,
    "n_proyectos": 1,
@@ -2465,10 +2476,11 @@
   },
   {
    "nombre": "Longton",
-   "n_indicaciones": 18,
-   "n_proyectos": 1,
+   "n_indicaciones": 22,
+   "n_proyectos": 2,
    "proyectos": [
-    "15589-07"
+    "15589-07",
+    "18585-25"
    ]
   },
   {
@@ -2480,15 +2492,6 @@
     "17246-15",
     "17441-15",
     "18420-25"
-   ]
-  },
-  {
-   "nombre": "Sánchez",
-   "n_indicaciones": 15,
-   "n_proyectos": 2,
-   "proyectos": [
-    "15261-25",
-    "15589-07"
    ]
   },
   {
@@ -2625,6 +2628,14 @@
    "n_proyectos": 1,
    "proyectos": [
     "18525-06"
+   ]
+  },
+  {
+   "nombre": "De Urresti",
+   "n_indicaciones": 2,
+   "n_proyectos": 1,
+   "proyectos": [
+    "18585-25"
    ]
   },
   {

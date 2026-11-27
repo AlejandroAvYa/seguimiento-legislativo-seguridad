@@ -6520,7 +6520,7 @@
    "TC": "",
    "LEY": ""
   },
-  "instancia_actual": "Boletín de indicaciones de Seguridad Pública",
+  "instancia_actual": "Comisión de Seguridad Pública",
   "camara_actual": "Senado",
   "camara_origen": "Cámara de Diputados",
   "dias_en_etapa": 65,
@@ -6538,13 +6538,13 @@
     "detalle": "Discusión inmediata vence el 2026-11-30 (en 4 días)."
    }
   ],
-  "ultimo_tramite_fecha": "2026-11-24",
-  "ultimo_tramite": "Cuenta del Mensaje 483-374 que retira y hace presente la urgencia Discusión inmediata",
+  "ultimo_tramite_fecha": "2026-11-26",
+  "ultimo_tramite": "Boletín de indicaciones .",
   "ley_numero": "",
   "ley_fecha_diario_oficial": "",
   "mensaje_gobierno_actual": true,
   "n_urgencias_gobierno_actual": 8,
-  "n_indicaciones_senado": 0,
+  "n_indicaciones_senado": 28,
   "n_indicaciones_senado_ejecutivo": 0,
   "n_votaciones_sala_senado": 1,
   "n_votaciones_sala_camara": 2,
