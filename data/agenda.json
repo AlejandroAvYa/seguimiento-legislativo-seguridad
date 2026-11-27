@@ -966,14 +966,6 @@
  ],
  "plazos_indicaciones": [
   {
-   "boletin": "18585-25",
-   "materia": "Modifica el Código Procesal Penal y la ley N°19.970, que crea el sistema nacional de registros de ADN, para agilizar las investigaciones penales",
-   "fecha": "2026-11-26",
-   "hora": "12:00",
-   "donde": "Secretaría del Senado",
-   "seguido": true
-  },
-  {
    "boletin": "18860-15",
    "materia": "Proyecto de ley que modifica el Código de Comercio para regular las condiciones de contratación y pago de los servicios de transporte de carga por carretera por empresas de menor tamaño",
    "fecha": "2026-12-03",
@@ -1411,35 +1403,6 @@
     "Presupuesto",
     "Resoluciones",
     "Sala de la Cámara"
-   ],
-   "boletines": [],
-   "seguidos": []
-  },
-  {
-   "fecha": "2026-11-05",
-   "titulo": "Comisión de Vivienda analizó presupuesto habitacional 2027",
-   "link": "https://www.camara.cl/cms/2026/11/05/comision-de-vivienda-analizo-presupuesto-habitacional-2027/",
-   "tipo": "Comisión",
-   "resumen": "La subsecretaria de Vivienda y Urbanismo, Natalia Aguilar, expuso ante la Comisión de Vivienda los recursos contemplados para subsidios habitacionales, reconstrucción y atención de asentamientos precarios.",
-   "temas": [
-    "#Viviendas",
-    "Comisión de Vivienda",
-    "Presupuesto habitacional"
-   ],
-   "boletines": [],
-   "seguidos": []
-  },
-  {
-   "fecha": "2026-11-05",
-   "titulo": "Protección de Datos: Comisión aprobó postergar entrada en vigencia de la ley",
-   "link": "https://www.camara.cl/cms/2026/11/05/proteccion-de-datos-comision-aprobo-postergar-entrada-en-vigencia-de-la-ley/",
-   "tipo": "Comisión",
-   "resumen": "La propuesta, en segundo trámite constitucional, aplaza al 15 de octubre de 2027 la entrada en vigencia de la ley 21.719, para poder instalar la Agencia de Protección de Datos y su consejo directivo.",
-   "temas": [
-    "Constitución",
-    "Datos sensibles",
-    "Gobierno",
-    "Ley Protección de Datos Personales"
    ],
    "boletines": [],
    "seguidos": []
