@@ -1,5 +1,33 @@
 [
  {
+  "fecha_deteccion": "2026-11-28 00:55",
+  "boletin": "18597-07",
+  "tipo": "Subetapa",
+  "antes": "",
+  "despues": "Retirado"
+ },
+ {
+  "fecha_deteccion": "2026-11-28 00:55",
+  "boletin": "18525-06",
+  "tipo": "Subetapa",
+  "antes": "Ingreso de observaciones",
+  "despues": "En espera de promulgación"
+ },
+ {
+  "fecha_deteccion": "2026-11-28 00:55",
+  "boletin": "17671-02",
+  "tipo": "Nuevo trámite",
+  "antes": "",
+  "despues": "2026-08-12 – Archivado. (C.Diputados)"
+ },
+ {
+  "fecha_deteccion": "2026-11-28 00:55",
+  "boletin": "16836-06",
+  "tipo": "Subetapa",
+  "antes": "Ingreso de observaciones",
+  "despues": "En espera de promulgación"
+ },
+ {
   "fecha_deteccion": "2026-11-27 18:59",
   "boletin": "17637-07",
   "tipo": "Citado a sesión",

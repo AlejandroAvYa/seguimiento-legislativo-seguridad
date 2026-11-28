@@ -705,6 +705,24 @@
    "camara": "Senado",
    "tipo": "Comisión",
    "fecha": "2026-11-30",
+   "instancia": "Comisión de Minería y Energía",
+   "estado": "Citada",
+   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
+   "lugar": "Sala de Sesiones, Santiago",
+   "horario": "15:00 a 17:00",
+   "materia": "1.- ( Bol.N° 18821-08 ) Modifica la Ley General de Servicios Eléctricos para facilitar la conexión de infraestructura de recarga de vehículos eléctricos y su acceso al régimen de precios libres.\nA esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr. Matías Díaz, Director del Departamento de Ingeniería Eléctrica de la Universidad de Santiago de Chile.",
+   "boletines": [
+    "18821-08"
+   ],
+   "invitados": [
+    "A esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr."
+   ],
+   "seguidos": []
+  },
+  {
+   "camara": "Senado",
+   "tipo": "Comisión",
+   "fecha": "2026-11-30",
    "instancia": "Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
    "estado": "Citada",
    "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
@@ -715,24 +733,6 @@
     "12712-24"
    ],
    "invitados": [],
-   "seguidos": []
-  },
-  {
-   "camara": "Senado",
-   "tipo": "Comisión",
-   "fecha": "2026-11-30",
-   "instancia": "Comisión de Minería y Energía",
-   "estado": "Citada",
-   "aviso": "La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl.",
-   "lugar": "Sala de Sesiones, Santiago",
-   "horario": "15:30 a 17:00",
-   "materia": "1.- ( Bol.N° 18821-08 ) Modifica la Ley General de Servicios Eléctricos para facilitar la conexión de infraestructura de recarga de vehículos eléctricos y su acceso al régimen de precios libres.\nA esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr. Matías Díaz, Director del Departamento de Ingeniería Eléctrica de la Universidad de Santiago de Chile.",
-   "boletines": [
-    "18821-08"
-   ],
-   "invitados": [
-    "A esta sesión fueron especialmente invitados la Ministra de Energía, señora Ximena Rincón; el Subsecretario de Transportes, señor Martín Mackenna; el Presidente de la Asociación de Vehículos Eléctricos de Chile A.G., señor Rodrigo Salcedo; el Gerente General de COPEC, señor Arturo Natho, y el Dr."
-   ],
    "seguidos": []
   },
   {
@@ -1094,14 +1094,6 @@
    "fecha": "2026-12-03",
    "hora": "12:00",
    "donde": "Secretaría del Senado",
-   "seguido": false
-  },
-  {
-   "boletin": "16553-12",
-   "materia": "Fortalece y mejora la eficacia de la fiscalización y el cumplimiento de la regulación ambiental a cargo de la Superintendencia del Medio Ambiente, y regula otras materias que indica",
-   "fecha": "2026-11-27",
-   "hora": "12:00",
-   "donde": "Secretaría de la Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
    "seguido": false
   }
  ],
@@ -1539,53 +1531,6 @@
     "Presupuesto de la Nación",
     "Presupuesto Kast",
     "rebajas en educación"
-   ],
-   "boletines": [],
-   "seguidos": []
-  },
-  {
-   "fecha": "2026-11-06",
-   "titulo": "Seguridad municipal e incendios forestales entre los temas de la Sala",
-   "link": "https://www.camara.cl/cms/2026/11/06/seguridad-municipal-e-incendios-forestales-entre-los-temas-de-la-sala/",
-   "tipo": "Tabla de la Sala",
-   "resumen": "La Cámara también despachó a segundo trámite un proyecto que busca frenar la instrumentalización de menores en actos delictuales y una propuesta que facilita la construcción de edificaciones de Bomberos de Chile.",
-   "temas": [
-    "Resumen del trabajo de la Sala",
-    "Seguridad Municipal"
-   ],
-   "boletines": [],
-   "seguidos": []
-  },
-  {
-   "fecha": "2026-11-06",
-   "titulo": "Trabajo de comisiones: seguridad y educación entre temas estudiados",
-   "link": "https://www.camara.cl/cms/2026/11/06/trabajo-de-comisiones-seguridad-y-educacion-entre-temas-estudiados/",
-   "tipo": "Comisión",
-   "resumen": "El trabajo de las comisiones incluyó proyectos sobre seguridad, financiamiento cultural, protección de niños, educación pública y otros temas clave.",
-   "temas": [
-    "comisiones",
-    "Constitución",
-    "Cultura",
-    "Educación",
-    "Familia",
-    "gobierno interior"
-   ],
-   "boletines": [],
-   "seguidos": []
-  },
-  {
-   "fecha": "2026-11-06",
-   "titulo": "Cámara pide medidas en materia medioambiental y otros apoyos financieros",
-   "link": "https://www.camara.cl/cms/2026/11/06/camara-pide-medidas-en-materia-medioambiental-y-otros-apoyos-financieros/",
-   "tipo": "Sala",
-   "resumen": "A través de 14 resoluciones, la Sala solicitó diversas acciones para el cuidado y protección del medio ambiente. Asimismo, apoyos a programas de salud mental, tenencia de mascotas y propuestas legislativas.",
-   "temas": [
-    "APR",
-    "Desierto Florido",
-    "medio ambinete",
-    "Presupuesto",
-    "Resoluciones",
-    "Sala de la Cámara"
    ],
    "boletines": [],
    "seguidos": []
